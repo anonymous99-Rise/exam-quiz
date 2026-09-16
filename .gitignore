@@ -34,3 +34,6 @@ Thumbs.db
 
 # 本地听力 mp3（267MB，由 tools/assets-audio.mjs --copy 生成；M9 改走对象存储）
 public/audio/
+
+.vercel
+.env*
