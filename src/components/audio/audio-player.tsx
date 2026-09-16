@@ -60,6 +60,8 @@ export function AudioPlayer({
   const [duration, setDuration] = useState(0);
   const [rate, setRate] = useState(1);
   const [error, setError] = useState<string | null>(null);
+  /** 音源文件本身缺失（404），与「网络/格式问题」分开提示 */
+  const [missingFile, setMissingFile] = useState(false);
 
   /* ---------- 音源装载 ---------- */
   // 先算出最终地址与形态，effect 只依赖这两个稳定值（避免 exhaustive-deps 警告）
@@ -114,6 +116,30 @@ export function AudioPlayer({
     return () => {
       cancelled = true;
       hls?.destroy();
+    };
+  }, [src, isHlsSource]);
+
+  /*
+   * 音源预检：自托管音源可能**根本没随部署提供**（本项目的 public/audio 被
+   * gitignore + vercelignore 排除）。这时 <audio> 只会抛一个含糊的「播放出错」，
+   * 用户不知道是网络问题还是这套卷本来就没有音频。先发一个 HEAD 问清楚。
+   */
+  useEffect(() => {
+    if (isHlsSource) return;
+    let alive = true;
+    void fetch(src, { method: 'HEAD' })
+      .then((r) => {
+        if (!alive) return;
+        if (r.status === 404) {
+          setMissingFile(true);
+          setError('本套听力音频未随本次部署提供');
+        }
+      })
+      .catch(() => {
+        /* 网络异常交给 <audio> 的 error 事件处理 */
+      });
+    return () => {
+      alive = false;
     };
   }, [src, isHlsSource]);
 
@@ -325,15 +351,22 @@ export function AudioPlayer({
       )}
 
       {error && (
-        <p role="alert" className="chip chip-bad mt-3">
+        <p
+          role="alert"
+          className={cn('chip mt-3', missingFile ? 'chip-warn' : 'chip-bad')}
+        >
           {error}
-          {audio.fallbackUrl && (
-            <>
-              {' · '}
-              <a href={audio.fallbackUrl} target="_blank" rel="noreferrer" className="underline">
-                打开备用音源
-              </a>
-            </>
+          {missingFile ? (
+            <>· 题干仍可正常作答；音频补上后会自动恢复</>
+          ) : (
+            audio.fallbackUrl && (
+              <>
+                {' · '}
+                <a href={audio.fallbackUrl} target="_blank" rel="noreferrer" className="underline">
+                  打开备用音源
+                </a>
+              </>
+            )
           )}
         </p>
       )}
