@@ -37,3 +37,8 @@ public/audio/
 
 .vercel
 .env*
+
+# Playwright ²úÎï
+test-results/
+playwright-report/
+
