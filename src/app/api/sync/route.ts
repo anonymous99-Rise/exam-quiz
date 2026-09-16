@@ -16,7 +16,12 @@ import { NextResponse } from 'next/server';
 import type { SupabaseClient } from '@supabase/supabase-js';
 
 import { auth } from '@/auth';
-import { ensureProgressTable, looksLikeMissingTable, safeError } from '@/lib/sync/ensure-schema';
+import {
+  ensureProgressTable,
+  looksLikeMissingTable,
+  reloadPostgrestSchema,
+  safeError,
+} from '@/lib/sync/ensure-schema';
 import { SYNC_TABLE, supabaseAdmin, syncEnabled } from '@/lib/sync/supabase';
 import { MAX_SNAPSHOT_BYTES, zProgressSnapshot } from '@/lib/sync/schema';
 
@@ -38,9 +43,14 @@ async function heal(force = false): Promise<void> {
 }
 
 /**
- * 跑一次查询；若报「表不存在 / schema cache 未命中」，强制自愈后重试一次。
- * 这是线上第一次同步失败的真正原因：表建好了，但 PostgREST 的缓存还不知道。
+ * 跑一次查询；若报「表不存在 / schema cache 未命中」，强制自愈后**退避重试**。
+ *
+ * 为什么是多次而不是一次：PostgREST 的 schema cache 刷新是**异步**的 ——
+ * 线上实测「建表成功、表也在」，但紧接着的 REST 查询仍报 schema cache 找不到表
+ * （缓存还在用旧快照）。等几百毫秒再试就好了。
  */
+const RETRY_DELAYS_MS = [350, 1000, 2000];
+
 async function withHeal<T>(
   run: (
     sb: SupabaseClient,
@@ -50,12 +60,18 @@ async function withHeal<T>(
   if (!sb) return { error: 'sync-disabled' };
 
   let { data, error } = await run(sb);
-  if (error && looksLikeMissingTable(error.message)) {
-    await heal(true);
+  if (!error) return { data: data as T };
+  if (!looksLikeMissingTable(error.message)) return { error: safeError(error.message) };
+
+  await ensureProgressTable(true);
+  for (const delay of RETRY_DELAYS_MS) {
+    await reloadPostgrestSchema();
+    await new Promise((r) => setTimeout(r, delay));
     ({ data, error } = await run(sb));
+    if (!error) return { data: data as T };
+    if (!looksLikeMissingTable(error.message)) break;
   }
-  if (error) return { error: safeError(error.message) };
-  return { data: data as T };
+  return { error: safeError(error?.message ?? 'unknown') };
 }
 
 export async function GET() {

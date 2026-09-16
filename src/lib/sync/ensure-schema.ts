@@ -23,9 +23,17 @@ create table if not exists public.progress (
   updated_at timestamptz not null default now()
 );
 alter table public.progress enable row level security;
--- 建表/改表后必须让 PostgREST 重新读一次 schema，否则 REST 侧仍说「找不到表」
-notify pgrst, 'reload schema';
 `;
+
+/**
+ * 让 PostgREST 重新读取 schema。
+ *
+ * ⚠ 必须**单独发一条**、不要塞进上面的多语句 DDL 里：
+ *   多语句走简单查询协议、在隐式事务里执行，NOTIFY 的实际投递时机依赖提交；
+ *   拆开单独执行更确定。实测「建表成功但 REST 仍说 schema cache 找不到表」就是
+ *   这一条没及时生效（缓存刷新是异步的）。
+ */
+const RELOAD = `notify pgrst, 'reload schema';`;
 
 export type EnsureResult = {
   ok: boolean;
@@ -171,6 +179,8 @@ export async function ensureProgressTable(force = false): Promise<EnsureResult> 
       );
       const existed = Boolean(before.rows[0]?.exists);
       await client.query(DDL);
+      // 单独一条，确保 NOTIFY 立刻提交并投递给 PostgREST
+      await client.query(RELOAD);
       return !existed;
     });
     ensured = true;
@@ -209,6 +219,19 @@ export async function checkSchema(): Promise<{
     };
   } catch (e) {
     return { ddl, tableExists: null, tableError: safeError(e), columnCount: null, via: ddl.via ?? null };
+  }
+}
+
+/** 自检用的「强制刷新 schema cache」 */
+export async function reloadPostgrestSchema(): Promise<{ ok: boolean; via?: string; error?: string }> {
+  try {
+    const res = await withFirstClient(async (client) => {
+      await client.query(RELOAD);
+      return true;
+    });
+    return { ok: true, via: res.label };
+  } catch (e) {
+    return { ok: false, error: safeError(e) };
   }
 }
 

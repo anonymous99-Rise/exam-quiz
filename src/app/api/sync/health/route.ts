@@ -12,7 +12,7 @@
  */
 import { NextResponse } from 'next/server';
 
-import { checkSchema, pgConnString } from '@/lib/sync/ensure-schema';
+import { checkSchema, pgConnString, reloadPostgrestSchema } from '@/lib/sync/ensure-schema';
 import { SYNC_TABLE, supabaseAdmin, supabaseServiceKey, supabaseUrl, syncEnabled } from '@/lib/sync/supabase';
 
 export const runtime = 'nodejs';
@@ -43,13 +43,28 @@ export async function GET() {
   // 1) 建表 + 刷新 PostgREST schema cache；2) 核对表与列；3) 走 REST 读一行
   const schema = await checkSchema();
 
-  let rest: { ok: boolean; error?: string; rows?: number } = { ok: false };
+  let rest: { ok: boolean; error?: string; rows?: number; attempts?: number } = { ok: false };
   const sb = supabaseAdmin();
   if (sb) {
-    const { data, error } = await sb.from(SYNC_TABLE).select('user_id').limit(1);
-    rest = error
-      ? { ok: false, error: error.message.replace(/postgres(ql)?:\/\/[^\s]+/gi, 'postgres://***').slice(0, 300) }
-      : { ok: true, rows: data?.length ?? 0 };
+    /*
+     * PostgREST 的 schema cache 刷新是异步的：表刚建好时第一次查询常报「找不到表」。
+     * 这里退避重试几次，避免把「等一会儿就好」误报成故障。
+     */
+    for (let i = 0; i < 3; i++) {
+      const { data, error } = await sb.from(SYNC_TABLE).select('user_id').limit(1);
+      if (!error) {
+        rest = { ok: true, rows: data?.length ?? 0, attempts: i + 1 };
+        break;
+      }
+      rest = {
+        ok: false,
+        error: error.message.replace(/postgres(ql)?:\/\/[^\s]+/gi, 'postgres://***').slice(0, 300),
+        attempts: i + 1,
+      };
+      if (!/schema cache|does not exist|PGRST205/i.test(error.message)) break;
+      await reloadPostgrestSchema();
+      await new Promise((r) => setTimeout(r, [350, 1000][i] ?? 1000));
+    }
   }
 
   const ok = Boolean(schema.ddl.ok && schema.tableExists && rest.ok);
