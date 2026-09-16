@@ -18,6 +18,10 @@ export type SyncStatusState = {
   at: number | null;
   /** 失败原因（仅 status==='error' 时有值） */
   reason?: string;
+  /** 服务端补充信息（已脱敏），用于排查 */
+  detail?: string;
+  /** 下一次自动重试的时间戳（仅失败时有值） */
+  retryAt?: number | null;
   /**
    * 本轮登录会话的编号。
    * 用它把「上一轮的同步结果」与「当前会话」区分开：换账号/退出后
@@ -27,7 +31,9 @@ export type SyncStatusState = {
   /** 开始新一轮（自增编号并置为同步中） */
   beginRun: () => number;
   /** 记录一次同步结果 */
-  settle: (run: number, res: { ok: true } | { error: string }) => void;
+  settle: (run: number, res: { ok: true } | { error: string; detail?: string }) => void;
+  /** 记录「已在某时刻安排重试」 */
+  markRetry: (at: number) => void;
   /** 未登录/未启用时的状态 */
   off: () => void;
 };
@@ -36,10 +42,12 @@ export const useSyncStatus = create<SyncStatusState>()((set, get) => ({
   status: 'off',
   at: null,
   reason: undefined,
+  detail: undefined,
+  retryAt: null,
   run: 0,
   beginRun: () => {
     const run = get().run + 1;
-    set({ status: 'syncing', run, reason: undefined });
+    set({ status: 'syncing', run, reason: undefined, detail: undefined, retryAt: null });
     return run;
   },
   settle: (run, res) => {
@@ -47,18 +55,22 @@ export const useSyncStatus = create<SyncStatusState>()((set, get) => ({
     if (run !== get().run) return;
     set(
       'ok' in res
-        ? { status: 'synced', at: Date.now(), reason: undefined }
-        : { status: 'error', at: null, reason: res.error },
+        ? { status: 'synced', at: Date.now(), reason: undefined, detail: undefined, retryAt: null }
+        : { status: 'error', at: null, reason: res.error, detail: res.detail },
     );
   },
-  off: () => set({ status: 'off', at: null, reason: undefined }),
+  markRetry: (at) => set({ retryAt: at }),
+  off: () =>
+    set({ status: 'off', at: null, reason: undefined, detail: undefined, retryAt: null }),
 }));
 
 /** 非 React 环境（effect / 事件回调）里读写状态 */
 export const syncStatus = {
   beginRun: () => useSyncStatus.getState().beginRun(),
-  settle: (run: number, res: { ok: true } | { error: string }) =>
+  settle: (run: number, res: { ok: true } | { error: string; detail?: string }) =>
     useSyncStatus.getState().settle(run, res),
+  markRetry: (at: number) => useSyncStatus.getState().markRetry(at),
   off: () => useSyncStatus.getState().off(),
   getRun: () => useSyncStatus.getState().run,
+  getSnapshot: () => useSyncStatus.getState(),
 };

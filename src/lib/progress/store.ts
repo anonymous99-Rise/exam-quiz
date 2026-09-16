@@ -59,6 +59,12 @@ export type ProgressState = {
   positionAt: Record<string, number>;
   /** 整卷交卷时间：paperId → 时间戳（0 表示未交卷） */
   submitted: Record<string, number>;
+  /**
+   * 整卷模考的**开考时间**：`${examId}/${paperId}` → 时间戳。
+   * 必须持久化：只放在组件的 ref 里时，刷新页面会把倒计时重置回满时长
+   * （用户会以为自己没开始，也能靠刷新无限续时）。
+   */
+  examStarted: Record<string, number>;
 };
 
 export type ProgressActions = {
@@ -71,6 +77,8 @@ export type ProgressActions = {
   setPosition: (paperId: string, no: number) => void;
   markSubmitted: (paperKey: string) => void;
   clearSubmitted: (paperKey: string) => void;
+  /** 记下开考时间（整卷模考计时用；已记过则不覆盖） */
+  markExamStarted: (paperKey: string) => void;
   /** 清空某一套卷的作答与错题（收藏保留），用于「重做本卷」 */
   clearPaper: (examId: string, paperId: string) => void;
   resetAll: () => void;
@@ -91,6 +99,7 @@ const EMPTY: ProgressState = {
   positions: {},
   positionAt: {},
   submitted: {},
+  examStarted: {},
 };
 
 /** `cet6/2025-06-1#13` */
@@ -196,6 +205,14 @@ export const useProgress = create<ProgressState & ProgressActions>()(
           ),
         })),
 
+      markExamStarted: (paperKey) =>
+        set((s) =>
+          // 已开考过就不覆盖（否则刷新一次就把时长续满）
+          s.examStarted[paperKey]
+            ? s
+            : { examStarted: { ...s.examStarted, [paperKey]: Date.now() } },
+        ),
+
       clearPaper: (examId, paperId) => {
         const prefix = paperPrefix(examId, paperId);
         set((s) => {
@@ -213,6 +230,10 @@ export const useProgress = create<ProgressState & ProgressActions>()(
             submitted: Object.fromEntries(
               Object.entries(s.submitted).filter(([k]) => k !== `${examId}/${paperId}`),
             ),
+            // 重做本卷＝重新计时
+            examStarted: Object.fromEntries(
+              Object.entries(s.examStarted).filter(([k]) => k !== `${examId}/${paperId}`),
+            ),
           };
         });
       },
@@ -224,10 +245,12 @@ export const useProgress = create<ProgressState & ProgressActions>()(
     {
       name: 'examquiz.progress.v1',
       // v2：fav 由 `1` 改为时间戳，并新增 off / draftAt / positionAt（云同步的判据）
-      version: 2,
+      // v3：新增 examStarted（整卷开考时间，刷新不再重置倒计时）
+      version: 3,
       storage: createJSONStorage(() => localStorage),
       migrate: (persisted, version) => {
         const old = (persisted ?? {}) as Partial<ProgressState>;
+        // v2 / v3 只是新增字段，`{...EMPTY, ...old}` 即可补齐，无需搬运数据
         if (version >= 2) return { ...EMPTY, ...old };
         // v1 的 fav 是 `1`，时间为未知 → 记 0（比任何取消时间都早，语义＝一直收藏着）
         const fav: Record<Qid, number> = {};
@@ -245,6 +268,7 @@ export const useProgress = create<ProgressState & ProgressActions>()(
         positions: s.positions,
         positionAt: s.positionAt,
         submitted: s.submitted,
+        examStarted: s.examStarted,
       }),
     },
   ),

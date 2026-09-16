@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { AnswerSheet } from '@/components/question/answer-sheet';
 import { QuestionGroups, type QuestionGroup } from '@/components/question/question-groups';
@@ -51,27 +51,39 @@ export function ExamRunner({
   const submittedAt = useProgress((s) => s.submitted[paperKey]);
   const markSubmitted = useProgress((s) => s.markSubmitted);
   const clearPaper = useProgress((s) => s.clearPaper);
+  const startedAt = useProgress((s) => s.examStarted[paperKey]);
+  const markExamStarted = useProgress((s) => s.markExamStarted);
 
   const submitted = Boolean(submittedAt);
   const r = useRunner({ examId, paperId, groups, locked: submitted });
 
   const [elapsed, setElapsed] = useState(0);
 
-  /* ---------- 计时 ---------- */
+  /*
+   * 计时：基于**持久化的开考时间**，刷新页面不会把倒计时重置回满时长
+   * （旧实现把 startedAt 放在组件 ref 里，刷新即续时）。
+   * setElapsed 放在 setTimeout(0) / setInterval 回调里，避开
+   * `react-hooks/set-state-in-effect`（effect 体内同步 setState 是 error 级）。
+   */
   const running = hydrated && !submitted;
-  const startedAtRef = useRef<number | null>(null);
   useEffect(() => {
     if (!running) return;
-    if (startedAtRef.current === null) startedAtRef.current = Date.now();
-    const t = window.setInterval(() => {
-      const s = Math.floor((Date.now() - (startedAtRef.current ?? Date.now())) / 1000);
-      setElapsed(s);
-    }, 1000);
-    return () => window.clearInterval(t);
-  }, [running]);
+    if (!startedAt) markExamStarted(paperKey);
+
+    const tick = () => {
+      const start = useProgress.getState().examStarted[paperKey] ?? Date.now();
+      setElapsed(Math.max(0, Math.floor((Date.now() - start) / 1000)));
+    };
+    const first = window.setTimeout(tick, 0);
+    const timer = window.setInterval(tick, 1000);
+    return () => {
+      window.clearTimeout(first);
+      window.clearInterval(timer);
+    };
+  }, [running, startedAt, markExamStarted, paperKey]);
 
   const totalSec = durationMin * 60;
-  const remainSec = Math.max(0, totalSec - (submitted ? elapsed : elapsed));
+  const remainSec = Math.max(0, totalSec - elapsed);
   const timeUp = running && remainSec === 0;
 
   const doSubmit = useCallback(() => {

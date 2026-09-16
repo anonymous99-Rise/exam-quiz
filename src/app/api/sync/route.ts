@@ -7,11 +7,16 @@
  * 服务端**不做合并**：合并需要本地的完整快照，而本地只在浏览器里。
  * 所以流程是「客户端拉远端 → 与本地合并 → 推回合并结果」，
  * 服务端只当一根可靠的管子（写入前校验、限长、限体积）。
+ *
+ * 自愈：Supabase 集成注入的连接串是 Secret（本地拿不到、也没法手动跑 DDL），
+ * 所以首次同步时由应用自己建表；建完刷新 PostgREST schema cache。
+ * 若 REST 仍报「找不到表/缓存未命中」，则强制自愈后**重试一次**。
  */
 import { NextResponse } from 'next/server';
+import type { SupabaseClient } from '@supabase/supabase-js';
 
 import { auth } from '@/auth';
-import { ensureProgressTable } from '@/lib/sync/ensure-schema';
+import { ensureProgressTable, looksLikeMissingTable, safeError } from '@/lib/sync/ensure-schema';
 import { SYNC_TABLE, supabaseAdmin, syncEnabled } from '@/lib/sync/supabase';
 import { MAX_SNAPSHOT_BYTES, zProgressSnapshot } from '@/lib/sync/schema';
 
@@ -23,17 +28,34 @@ const disabled = () =>
 const unauthenticated = () =>
   NextResponse.json({ ok: false, reason: 'unauthenticated' }, { status: 401 });
 
+type QueryResult<T> = { data: T } | { error: string };
+
+/** 建表自愈（失败不拦请求，交由后续查询报真实错误） */
+async function heal(force = false): Promise<void> {
+  const res = await ensureProgressTable(force);
+  if (!res.ok) console.warn('[sync] 建表自愈失败:', res.step, res.error);
+  else if (res.created) console.log('[sync] 已创建 public.progress 并刷新 PostgREST schema cache');
+}
+
 /**
- * 建表「自愈」：Supabase 集成注入的连接串是 Secret，本地拿不到、也没法手动跑 DDL，
- * 所以首次同步时由应用自己建一次（幂等）。失败不拦请求 —— 让 Supabase 调用去报真实错误。
+ * 跑一次查询；若报「表不存在 / schema cache 未命中」，强制自愈后重试一次。
+ * 这是线上第一次同步失败的真正原因：表建好了，但 PostgREST 的缓存还不知道。
  */
-async function ensureSchemaOnce(): Promise<void> {
-  const res = await ensureProgressTable();
-  if (!res.ok) {
-    console.warn('[sync] 建表自愈失败（继续尝试读写）:', res.error);
-  } else if (res.created) {
-    console.log('[sync] 已创建 public.progress 表');
+async function withHeal<T>(
+  run: (
+    sb: SupabaseClient,
+  ) => PromiseLike<{ data: T | null; error: { message: string } | null }>,
+): Promise<QueryResult<T>> {
+  const sb = supabaseAdmin();
+  if (!sb) return { error: 'sync-disabled' };
+
+  let { data, error } = await run(sb);
+  if (error && looksLikeMissingTable(error.message)) {
+    await heal(true);
+    ({ data, error } = await run(sb));
   }
+  if (error) return { error: safeError(error.message) };
+  return { data: data as T };
 }
 
 export async function GET() {
@@ -43,30 +65,25 @@ export async function GET() {
   const uid = session?.user?.id;
   if (!uid) return unauthenticated();
 
-  const sb = supabaseAdmin();
-  if (!sb) return disabled();
+  await heal();
 
-  await ensureSchemaOnce();
+  const res = await withHeal<{ data: unknown; updated_at: string } | null>((sb) =>
+    sb.from(SYNC_TABLE).select('data, updated_at').eq('user_id', uid).maybeSingle(),
+  );
 
-  const { data, error } = await sb
-    .from(SYNC_TABLE)
-    .select('data, updated_at')
-    .eq('user_id', uid)
-    .maybeSingle();
-
-  if (error) {
+  if ('error' in res) {
     return NextResponse.json(
-      { ok: false, reason: 'db-error', message: error.message },
+      { ok: false, reason: 'db-error', message: res.error },
       { status: 500 },
     );
   }
 
   // 校验后再回传：数据库里若混进旧版/异常结构，读侧不至于崩
-  const parsed = zProgressSnapshot.safeParse(data?.data ?? null);
+  const parsed = zProgressSnapshot.safeParse(res.data?.data ?? null);
   return NextResponse.json({
     ok: true,
     data: parsed.success ? parsed.data : null,
-    updatedAt: (data?.updated_at as string | undefined) ?? null,
+    updatedAt: res.data?.updated_at ?? null,
   });
 }
 
@@ -76,11 +93,6 @@ export async function POST(req: Request) {
   const session = await auth();
   const uid = session?.user?.id;
   if (!uid) return unauthenticated();
-
-  const sb = supabaseAdmin();
-  if (!sb) return disabled();
-
-  await ensureSchemaOnce();
 
   const raw = await req.text();
   if (raw.length > MAX_SNAPSHOT_BYTES) {
@@ -99,20 +111,28 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, reason: 'bad-shape' }, { status: 400 });
   }
 
+  await heal();
+
   const updatedAt = new Date().toISOString();
-  const { error } = await sb.from(SYNC_TABLE).upsert(
-    {
-      user_id: uid,
-      handle: session?.user?.login ?? session?.user?.name ?? null,
-      data: parsed.data,
-      updated_at: updatedAt,
-    },
-    { onConflict: 'user_id' },
+  const res = await withHeal<null>((sb) =>
+    sb
+      .from(SYNC_TABLE)
+      .upsert(
+        {
+          user_id: uid,
+          handle: session?.user?.login ?? session?.user?.name ?? null,
+          data: parsed.data,
+          updated_at: updatedAt,
+        },
+        { onConflict: 'user_id' },
+      )
+      .select('user_id')
+      .maybeSingle(),
   );
 
-  if (error) {
+  if ('error' in res) {
     return NextResponse.json(
-      { ok: false, reason: 'db-error', message: error.message },
+      { ok: false, reason: 'db-error', message: res.error },
       { status: 500 },
     );
   }

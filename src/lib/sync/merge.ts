@@ -140,6 +140,21 @@ export function mergeProgress(local: ProgressState, remote: ProgressState): Prog
     submitted[k] = Math.max(t(submitted[k]), t(v));
   }
 
+  /*
+   * 开考时间取**更早**的那个（不是更晚）：
+   * 两台设备都开考过同一套卷时，取更早意味着倒计时更短 —— 宁可少给时间，
+   * 也不让「换设备」变成凭空续时的手段。
+   */
+  const examStarted: Record<string, number> = {};
+  const startKeys = new Set([
+    ...Object.keys(local.examStarted ?? {}),
+    ...Object.keys(remote.examStarted ?? {}),
+  ]);
+  for (const k of startKeys) {
+    const vals = [t(local.examStarted?.[k]), t(remote.examStarted?.[k])].filter((v) => v > 0);
+    if (vals.length) examStarted[k] = Math.min(...vals);
+  }
+
   return {
     answers,
     wrong,
@@ -150,6 +165,7 @@ export function mergeProgress(local: ProgressState, remote: ProgressState): Prog
     positions: positions.values,
     positionAt: positions.at,
     submitted,
+    examStarted,
   };
 }
 

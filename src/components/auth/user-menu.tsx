@@ -32,6 +32,24 @@ const SYNC_TEXT: Record<SyncState['status'], string> = {
   error: '同步失败',
 };
 
+/**
+ * 失败原因码 → 人话。
+ * 旧版只显示「云端暂时不可达（db-error）」这一种笼统说法，
+ * 既分不清是网络、未接入、还是数据库没建好，也看不出该怎么处理。
+ */
+const REASON_TEXT: Record<string, string> = {
+  'db-error': '云端数据库暂时不可用（已记录，会自动重试）',
+  'sync-disabled': '这个部署没有接入云端存储，进度只保存在本机',
+  unauthenticated: '登录已过期，请重新登录后再同步',
+  network: '网络不可达（离线时进度仍保存在本机）',
+  'too-large': '本机进度数据过大，超出云端可接受范围',
+  'bad-json': '进度数据格式异常，已跳过本次同步',
+  'bad-shape': '进度数据结构不被云端接受，已跳过本次同步',
+};
+
+const reasonText = (reason?: string) =>
+  (reason && REASON_TEXT[reason]) ?? (reason ? `同步失败：${reason}` : '同步失败');
+
 function SyncDot({ status }: { status: SyncState['status'] }) {
   return (
     <span
@@ -138,9 +156,25 @@ function UserMenuInner() {
           </div>
 
           {sync.status === 'error' && (
-            <p className="mb-2 rounded-md bg-bad/5 px-2 py-1 text-[10px] leading-relaxed text-bad">
-              云端暂时不可达（{sync.reason}）。进度已存在本机，稍后会自动重试。
-            </p>
+            <div className="mb-2 rounded-[8px] bg-bad-soft px-2.5 py-2 text-[10px] leading-relaxed text-bad-ink">
+              <p>{reasonText(sync.reason)}</p>
+              {sync.retryAt && (
+                <p className="mt-1 text-[10px] text-muted">
+                  下次自动重试：
+                  {new Date(sync.retryAt).toLocaleTimeString('zh-CN', {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                  })}
+                </p>
+              )}
+              {sync.detail && (
+                <details className="mt-1">
+                  <summary className="cursor-pointer text-[10px] text-muted">技术细节</summary>
+                  <p className="mt-1 break-all text-[10px] text-faint">{sync.detail}</p>
+                </details>
+              )}
+            </div>
           )}
 
           <div className="flex gap-2">

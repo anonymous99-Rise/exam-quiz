@@ -19,6 +19,7 @@ const S = (over: Partial<ProgressState> = {}): ProgressState => ({
   positions: {},
   positionAt: {},
   submitted: {},
+  examStarted: {},
   ...over,
 });
 
@@ -153,6 +154,16 @@ describe('mergeProgress', () => {
     const m = mergeProgress(legacyLocal, S());
     expect(m.fav['cet6/a#2']).toBe(0);
     expect(m.answers['cet6/a#1']?.ok).toBe(true);
+  });
+
+  it('开考时间取更早的一项（换设备不能凭空续时）', () => {
+    const local = S({ examStarted: { 'cet6/a': 5_000 } });
+    const remote = S({ examStarted: { 'cet6/a': 1_000, 'cet6/b': 9_000 } });
+    const m = mergeProgress(local, remote);
+    expect(m.examStarted['cet6/a']).toBe(1_000);
+    expect(m.examStarted['cet6/b']).toBe(9_000);
+    // 只有一边记过就沿用那一边
+    expect(mergeProgress(S({ examStarted: { 'cet6/c': 42 } }), S()).examStarted['cet6/c']).toBe(42);
   });
 
   it('isEmptyProgress 判定空快照', () => {

@@ -106,14 +106,15 @@ describe('进度持久化', () => {
     // 键名**不能改** —— 改了等于把所有人的历史进度丢掉
     expect(keys).toEqual(['examquiz.progress.v1']);
     const raw = JSON.parse(storage.getItem('examquiz.progress.v1')!);
-    // v2：fav 由 `1` 改为时间戳，并新增 off / draftAt / positionAt（云同步的判据）
-    expect(raw.version).toBe(2);
+    // v3：新增 examStarted（整卷开考时间）；v2 曾把 fav 由 `1` 改为时间戳并新增 off/draftAt/positionAt
+    expect(raw.version).toBe(3);
     // partialize 只存数据，不存 action
     expect(Object.keys(raw.state).sort()).toEqual(
       [
         'answers',
         'draftAt',
         'drafts',
+        'examStarted',
         'fav',
         'off',
         'positionAt',
