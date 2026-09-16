@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import type { ExamConfig, PaperIndexEntry } from './schema';
 
@@ -28,56 +28,118 @@ export type ExamMeta = {
 type Manifest = { exams: ExamMeta[] };
 type BankIndexLite = { examId: string; papers: PaperIndexEntry[] };
 
-let cache: Promise<{ manifest: Manifest; indexes: Record<string, BankIndexLite> }> | null = null;
+export type BankMetaState = {
+  loading: boolean;
+  error: string | null;
+  /** 部分考试索引缺失时的提示（不影响可用性） */
+  partialNote: string | null;
+  manifest: ExamMeta[];
+  indexes: Record<string, BankIndexLite>;
+};
+
+let cache: Promise<{
+  manifest: Manifest;
+  indexes: Record<string, BankIndexLite>;
+  failed: string[];
+}> | null = null;
+
+/**
+ * 加载失败时**清掉缓存**，下次挂载还能重试。
+ * （旧版把 rejected promise 永久缓存住：同一次会话里进任何页面都是失败，
+ *   错误提示也没有「重试」的余地。）
+ */
+export function resetBankMetaCache() {
+  cache = null;
+}
 
 function loadAll() {
   cache ??= (async () => {
     const mres = await fetch('/bank/manifest.json');
-    if (!mres.ok) throw new Error('manifest 加载失败');
+    if (!mres.ok) throw new Error(`题库清单加载失败（HTTP ${mres.status}）`);
     const manifest = (await mres.json()) as Manifest;
 
-    const pairs = await Promise.all(
+    /*
+     * 用 allSettled 而不是 all：某一个考试的索引 404，不该让全站的
+     * 错题本 / 收藏定位一起失效（能定位的照常定位，缺的那个考试报缺）。
+     */
+    const settled = await Promise.allSettled(
       manifest.exams.map(async (e) => {
         const res = await fetch(`/bank/${e.id}/index.json`);
-        if (!res.ok) throw new Error(`${e.id} 索引加载失败`);
+        if (!res.ok) throw new Error(`${e.id} 索引加载失败（HTTP ${res.status}）`);
         return [e.id, (await res.json()) as BankIndexLite] as const;
       }),
     );
-    return { manifest, indexes: Object.fromEntries(pairs) };
-  })();
+
+    const pairs: (readonly [string, BankIndexLite])[] = [];
+    const failed: string[] = [];
+    for (const s of settled) {
+      if (s.status === 'fulfilled') pairs.push(s.value);
+      else failed.push(s.reason instanceof Error ? s.reason.message : String(s.reason));
+    }
+    // 一份都没成功才算整体失败；部分成功则记下缺失（页面照常可用）
+    if (!pairs.length) throw new Error(failed[0] ?? '题库索引加载失败');
+
+    return { manifest, indexes: Object.fromEntries(pairs), failed };
+  })().catch((e: unknown) => {
+    cache = null; // 允许重试
+    throw e;
+  });
   return cache;
 }
 
-export function useBankMeta() {
-  const [state, setState] = useState<{
-    loading: boolean;
-    error: string | null;
-    manifest: Manifest['exams'];
-    indexes: Record<string, BankIndexLite>;
-  }>({ loading: true, error: null, manifest: [], indexes: {} });
+export function useBankMeta(): BankMetaState & { reload: () => void } {
+  const [nonce, setNonce] = useState(0);
+  const [state, setState] = useState<BankMetaState>({
+    loading: true,
+    error: null,
+    partialNote: null,
+    manifest: [],
+    indexes: {},
+  });
+
+  const reload = useCallback(() => {
+    resetBankMetaCache();
+    setState({
+      loading: true,
+      error: null,
+      partialNote: null,
+      manifest: [],
+      indexes: {},
+    });
+    setNonce((n) => n + 1);
+  }, []);
 
   useEffect(() => {
     let alive = true;
+    // 注意：不在这里同步 setState（react-hooks/set-state-in-effect 是 error 级）。
+    // 初值就是 loading:true；reload() 里也会先把 loading 置回 true。
     loadAll()
       .then((d) => {
-        if (alive) setState({ loading: false, error: null, manifest: d.manifest.exams, indexes: d.indexes });
+        if (!alive) return;
+        setState({
+          loading: false,
+          error: null,
+          partialNote: d.failed.length ? `部分考试索引缺失：${d.failed.join('；')}` : null,
+          manifest: d.manifest.exams,
+          indexes: d.indexes,
+        });
       })
       .catch((e: unknown) => {
-        if (alive) {
-          setState({
-            loading: false,
-            error: e instanceof Error ? e.message : String(e),
-            manifest: [],
-            indexes: {},
-          });
-        }
+        if (!alive) return;
+        setState({
+          loading: false,
+          error: e instanceof Error ? e.message : String(e),
+          partialNote: null,
+          manifest: [],
+          indexes: {},
+        });
       });
     return () => {
       alive = false;
     };
-  }, []);
+  }, [nonce]);
 
-  return state;
+  return { ...state, reload };
 }
 
 /* ==========================================================================

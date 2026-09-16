@@ -49,6 +49,13 @@ export function pgConnString(): string {
 
 /** 进程内缓存：成功后不再重复尝试 */
 let ensured = false;
+/**
+ * 失败后的冷却时间：数据库不可达时，建表要等到连接超时（8s）。
+ * 若每个同步请求都重试一次，用户每次同步都会被拖 8 秒才轮到 REST 兜底 ——
+ * 所以同实例内失败后 60 秒内不再重试（force=true 不受限，用于「REST 说表不存在」）。
+ */
+const FAIL_COOLDOWN_MS = 60_000;
+let lastFailAt = 0;
 
 /** 把 Postgres/pg 的错误压成一句可安全外传的信息（不带连接串、不带凭据） */
 export function safeError(e: unknown): string {
@@ -96,6 +103,9 @@ async function withClient<T>(fn: (c: pg.Client) => Promise<T>): Promise<T> {
  */
 export async function ensureProgressTable(force = false): Promise<EnsureResult> {
   if (ensured && !force) return { ok: true, created: false };
+  if (!force && Date.now() - lastFailAt < FAIL_COOLDOWN_MS) {
+    return { ok: false, step: 'connect', error: 'cooldown-after-failure' };
+  }
 
   if (!pgConnString()) return { ok: false, step: 'no-url', error: 'no-postgres-url' };
 
@@ -109,8 +119,10 @@ export async function ensureProgressTable(force = false): Promise<EnsureResult> 
       return !existed;
     });
     ensured = true;
+    lastFailAt = 0;
     return { ok: true, created };
   } catch (e) {
+    lastFailAt = Date.now();
     return { ok: false, step: 'ddl', error: safeError(e) };
   }
 }

@@ -1659,7 +1659,7 @@
         },
         {
           "label": "D",
-          "text": "Remind them of the distraction from mobile phones and social media. Questions 51 to 55 are based on the following passage."
+          "text": "Remind them of the distraction from mobile phones and social media."
         }
       ]
     },
@@ -2178,7 +2178,7 @@
     }
   },
   "flags": [
-    "no-audio",
+    "missing-nos",
     "passage-truncated"
   ]
 }

@@ -37,6 +37,24 @@ const warnings = [];
 const err = (m) => errors.push(m);
 const warn = (m) => warnings.push(m);
 
+/**
+ * 选项尾部污染起点：返回 junk 前那个空白的下标，无污染返回 -1。
+ * 与 tools/fix-bank-audit.mjs 的 junkStart() 保持同一判据（修与查必须同源，否则会互相打架）。
+ */
+function optionBleedStart(text) {
+  const cands = [];
+  const explicit = /\s(?=(?:Directions\s*:|Section\s+[A-C]\b|Questions?\s+\d+\s+to\s+\d+|Part\s+[IVXⅠⅡⅢ]+|Passage\s+(?:One|Two|Three)\b))/;
+  const a = explicit.exec(text);
+  if (a) cands.push(a.index);
+  const re = /\s\d{1,2}\s(?=[A-Z"\u201c])/g;
+  let m;
+  while ((m = re.exec(text))) {
+    // 篇章序号污染：其后还剩 ≥100 字（普通含数字的选项远短于此，实测最长 47 字）
+    if (text.length - m.index >= 100) cands.push(m.index);
+  }
+  return cands.length ? Math.min(...cands) : -1;
+}
+
 if (!fs.existsSync(CONTENT)) {
   console.error(`✗ content 目录不存在：${CONTENT}`);
   process.exit(1);
@@ -120,6 +138,20 @@ for (const examId of exams) {
     }
 
     for (const w of inspectPaper(paper)) warn(`${examId}/${id}: ${w}`);
+
+    // 选项尾部污染（option bleed）—— 旧站/抽取器的系统性缺陷，2026-02 全量审计修掉 26 处。
+    // 判据见 tools/fix-bank-audit.mjs 的 junkStart()：选项文本里混进了「纯试卷结构文字」
+    // （Directions: / Section A|B|C / Questions N to M / Part IV / Passage One|Two / 篇章序号「 1 」）。
+    // 这是**回归守卫**：修复后应为 0 命中，命中说明某条链路又把下一段说明并进了 D 选项。
+    for (const q of paper.questions) {
+      if (!Array.isArray(q.options)) continue;
+      for (const o of q.options) {
+        const j = optionBleedStart(o.text);
+        if (j >= 0) {
+          warn(`${examId}/${id}#${q.no}: 选项 ${o.label} 尾部疑似吞入试卷说明「${o.text.slice(j, j + 40).trim()}…」`);
+        }
+      }
+    }
 
     // flags 与实测一致性抽查
     if (paper.questions.length === 0 && !paper.flags.includes('incomplete')) {

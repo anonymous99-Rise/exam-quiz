@@ -116,6 +116,18 @@ export function AudioPlayer({
     };
   }, []);
 
+  /*
+   * 载入超时兜底：ready 只在 loadedmetadata 置位，网络卡住时会永远显示「载入中…」，
+   * 用户分不清是慢还是坏了。12 秒还没元数据就给一个明确结论。
+   */
+  useEffect(() => {
+    if (ready || error) return;
+    const t = window.setTimeout(() => {
+      if (!audioRef.current?.duration) setError('音频加载超时，可先看题干作答');
+    }, 12_000);
+    return () => window.clearTimeout(t);
+  }, [ready, error]);
+
   const toggle = useCallback(() => {
     const el = audioRef.current;
     if (!el) return;
@@ -185,10 +197,10 @@ export function AudioPlayer({
         )}
       </div>
 
-      <audio ref={audioRef} preload="metadata" className="hidden" />
+      <audio ref={audioRef} preload="metadata" aria-label="听力音频" className="hidden" />
 
-      {/* 进度条 */}
-      <div className="flex items-center gap-3">
+      {/* 进度条：窄屏让进度条独占一行，否则会被右侧按钮挤成十几像素宽 */}
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-3">
         <button
           type="button"
           onClick={toggle}
@@ -207,7 +219,7 @@ export function AudioPlayer({
           )}
         </button>
 
-        <div className="min-w-0 flex-1">
+        <div className="order-last min-w-[8rem] flex-1 basis-full sm:order-none sm:basis-auto">
           <input
             type="range"
             min={0}
@@ -225,10 +237,11 @@ export function AudioPlayer({
         </div>
 
         <div className="flex shrink-0 items-center gap-1.5">
+          {/* 窄屏隐藏 ±10s：屏幕上没有空间，且进度条可拖（触控目标 ≥40px） */}
           <button
             type="button"
             onClick={() => seekBy(-10)}
-            className="btn btn-ghost btn-sm t-num"
+            className="btn btn-ghost btn-sm t-num hidden min-h-10 sm:inline-flex"
             aria-label="后退 10 秒"
           >
             −10s
@@ -236,7 +249,7 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={() => seekBy(10)}
-            className="btn btn-ghost btn-sm t-num"
+            className="btn btn-ghost btn-sm t-num hidden min-h-10 sm:inline-flex"
             aria-label="前进 10 秒"
           >
             +10s
@@ -245,7 +258,7 @@ export function AudioPlayer({
             type="button"
             onClick={cycleRate}
             title="播放速度"
-            className="btn btn-ghost btn-sm t-num w-14"
+            className="btn btn-ghost btn-sm t-num min-h-10 w-14"
           >
             {rate}×
           </button>
@@ -267,7 +280,7 @@ export function AudioPlayer({
                     onClick={() => seek(p.start, range?.[0])}
                     title={`${fmtTime(p.start)} – ${fmtTime(p.end)}`}
                     className={cn(
-                      'rounded-[10px] border px-2.5 py-1.5 text-left text-[11.5px] leading-4 transition',
+                      'min-h-9 rounded-[10px] border px-2.5 py-1.5 text-left text-[11.5px] leading-4 transition',
                       active
                         ? 'border-brand-line bg-brand-soft font-medium text-brand-ink'
                         : 'border-line-strong text-muted hover:border-brand-line hover:bg-surface-hover hover:text-ink',
@@ -283,7 +296,7 @@ export function AudioPlayer({
       )}
 
       {error && (
-        <p className="chip chip-bad mt-3">
+        <p role="alert" className="chip chip-bad mt-3">
           {error}
           {audio.fallbackUrl && (
             <>

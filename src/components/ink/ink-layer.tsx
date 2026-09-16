@@ -25,7 +25,8 @@ const SIZES = [
  *   1. 覆盖整屏的**完全透明**画布 —— 不模糊、不变暗、不改变页面可视度；
  *   2. 鼠标 / 触屏 / 手写笔直接书写，用来圈重点、划句子；
  *   3. 工具栏所在区域不会被涂层挡住（旧站用 clip-path 在画布上挖洞，
- *      这里改用 z-index 分层：画布 z-30 / 工具栏 z-40，视觉等价且少一层几何计算）；
+ *      这里改用 z-index 分层：画布 z-[5]（在内容之上、导航/吸顶头/底部条之下）/
+ *      工具栏 z-40，视觉等价且少一层几何计算）；
  *   4. 「穿透」开启后点击可穿过涂层去操作页面。
  *
  * 坐标存**文档坐标**，绘制时减去滚动量 —— 笔迹跟着内容走，而不是浮在屏幕上。
@@ -196,8 +197,14 @@ export function InkLayer({
     <>
       <canvas
         ref={canvasRef}
+        /*
+         * z 层级：画布必须在「内容之上、导航/吸顶头/底部条之下」。
+         * 旧版 z-30 与 site-nav 同层且 DOM 更靠后 → 开启手写层后
+         * 顶部导航、答题卡、上一题/下一题**全被画布接管**，整页点不动。
+         * 内容卡片没有 z-index（auto=0），所以 z-[5] 够覆盖内容又不挡控件。
+         */
         className={cn(
-          'pointer-events-none fixed inset-0 z-30',
+          'pointer-events-none fixed inset-0 z-[5]',
           on && !passThrough && 'pointer-events-auto cursor-crosshair',
         )}
         style={{ touchAction: on && !passThrough ? 'none' : 'auto' }}

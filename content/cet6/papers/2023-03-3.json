@@ -163,7 +163,6 @@
     }
   },
   "flags": [
-    "incomplete",
-    "no-audio"
+    "incomplete"
   ]
 }

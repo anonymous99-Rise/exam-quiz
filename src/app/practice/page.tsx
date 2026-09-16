@@ -85,7 +85,7 @@ export default function PracticePage() {
   const answers = useProgress((s) => s.answers);
   const wrong = useProgress((s) => s.wrong);
   const fav = useProgress((s) => s.fav);
-  const { manifest: exams, indexes, loading } = useBankMeta();
+  const { manifest: exams, indexes, loading, error: metaError, reload } = useBankMeta();
   const { locate } = useQidLocator();
   const [scope, setScope] = useState<Scope>('undone');
   const [examFilter, setExamFilter] = useState<string>('');
@@ -202,9 +202,25 @@ export default function PracticePage() {
         <div className="panel px-6 py-10 text-center t-small text-muted">正在载入题库索引…</div>
       )}
 
+      {/*
+        索引加载失败必须**如实报错**：
+        旧版丢掉了 error，失败时 manifest 为空 → 一路落到「所有套卷都刷完了」的空态，
+        用户会以为题库被清空了。错误优先于任何空态。
+      */}
+      {!loading && metaError && (
+        <div className="panel px-6 py-10 text-center">
+          <p className="t-h3 text-ink">题库索引加载失败</p>
+          <p className="mt-2 text-[13px] leading-6 text-muted">{metaError}</p>
+          <button type="button" onClick={reload} className="btn btn-primary mt-5 h-10">
+            重试
+          </button>
+        </div>
+      )}
+
       {/* ── 错题 / 收藏：直接列题 ────────────────────────────────────── */}
       {(scope === 'wrong' || scope === 'fav') &&
         !loading &&
+        !metaError &&
         (scopeList.length === 0 ? (
           <EmptyState
             title={scope === 'wrong' ? '错题本是空的' : '还没有收藏'}
@@ -260,6 +276,7 @@ export default function PracticePage() {
       {/* ── 全部 / 未做：一键继续 + 套卷网格 ─────────────────────────── */}
       {(scope === 'all' || scope === 'undone') &&
         !loading &&
+        !metaError &&
         (rows.length === 0 ? (
           <EmptyState
             title="所有套卷都刷完了"

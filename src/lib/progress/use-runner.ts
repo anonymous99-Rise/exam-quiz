@@ -27,6 +27,9 @@ export function useRunner({
 }) {
   const answers = useProgress((s) => s.answers);
   const setAnswer = useProgress((s) => s.setAnswer);
+  const setPosition = useProgress((s) => s.setPosition);
+  /** 上次停留的题号（断点续答）；只在首帧用来恢复光标 */
+  const savedPosition = useProgress((s) => s.positions[paperId]);
 
   const [collapsed, setCollapsed] = useState<Record<number, boolean>>({});
   const [sheetOpen, setSheetOpen] = useState(false);
@@ -119,6 +122,39 @@ export function useRunner({
       ?.scrollIntoView({ block: 'center', behavior: 'smooth' });
   }, [cursorQ]);
 
+  /*
+   * 断点续答：记下当前题号，下次进来接着做。
+   *
+   * `positions` 这个字段以前只有 store 定义与云同步载荷，**没有任何写入方**
+   * （可用性审查实测发现），等于一个永远为空的死字段。现在真正接上：
+   *   · 光标变化 → 落库（供「再打开时恢复」与跨设备同步使用）
+   */
+  useEffect(() => {
+    const no = cursorQ?.no;
+    if (no === undefined) return;
+    setPosition(paperId, no);
+  }, [cursorQ, paperId, setPosition]);
+
+  /*
+   * 首次进入时恢复到上次停留的题（URL hash 优先，显式跳转不被打断）。
+   * 用 setTimeout 延后：直接在 effect 体里 setCursor 会撞
+   * set-state-in-effect（error 级），而且此刻布局未稳，滚了也会被改掉。
+   */
+  const restoredRef = useRef(false);
+  useEffect(() => {
+    if (restoredRef.current) return;
+    restoredRef.current = true;
+    if (window.location.hash) return; // 有 #q-N 就以 hash 为准（下面的 effect 处理）
+    if (!savedPosition) return;
+    const i = flat.findIndex((q) => q.no === savedPosition);
+    if (i < 0) return;
+    const t = window.setTimeout(() => {
+      cursorRef.current = i;
+      setCursor(i);
+    }, 80);
+    return () => window.clearTimeout(t);
+  }, [flat, savedPosition]);
+
   /* ---------- URL hash 定位（错题本/收藏跳转过来时） ---------- */
   useEffect(() => {
     const m = window.location.hash.match(/^#q-(\d+)$/);
@@ -143,6 +179,17 @@ export function useRunner({
       const el = e.target as HTMLElement | null;
       if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      /*
+       * 焦点在交互元素上时，Enter / Space 属于「激活该元素」——
+       * 必须放行给浏览器，否则键盘用户点不动按钮与链接（见下面 Enter 的注释）。
+       */
+      if (
+        e.key === 'Enter' &&
+        !e.shiftKey &&
+        el?.closest('a,button,[role="button"],summary,[role="menuitem"]')
+      ) {
+        return;
+      }
 
       // ⚠ 一律用 cursorRef.current，不用闭包里的 cursorQ —— 见 cursorRef 的注释
       const current = flat[cursorRef.current];
@@ -172,7 +219,15 @@ export function useRunner({
         move(-1);
         return;
       }
-      if (e.key === 'Enter' && current) {
+      /*
+       * 折叠/展开解析：Shift+Enter。
+       *
+       * ⚠ 原来占用的是**裸 Enter**，而 keydown 挂在 window 上 —— 结果焦点落在任何
+       * 按钮/链接上按 Enter 都不会触发原操作，而是去折叠「当前光标题」的解析。
+       * 纯键盘用户因此**无法交卷、无法开答题卡、无法点导航**。
+       * 另外，焦点在交互元素上时一律放行（Enter/Space 交给浏览器默认行为）。
+       */
+      if (e.key === 'Enter' && e.shiftKey && current) {
         e.preventDefault();
         toggleCollapse(current.no);
         return;

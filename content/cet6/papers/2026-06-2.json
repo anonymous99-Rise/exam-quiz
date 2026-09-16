@@ -1153,7 +1153,7 @@
         },
         {
           "label": "D",
-          "text": "If the light from the telescope confirms their idea. 1 Parents have a small window where they can influence their 8- to 10-year-old children's music taste, researchers have concluded. The 24-month time frame comes at an age when youngsters are old enough to appreciate poetic lyrics and snappy tunes, but have not yet started to be embarrassed by their mother and father's preferences. Dr. Hauke Egermann, a lecturer in music at the University of York, carried out Questions 22 to 25 are based on the recording you have just heard.",
+          "text": "If the light from the telescope confirms their idea.",
           "textZh": "望远镜接收到的光是否证实他们的想法。"
         }
       ]
@@ -3134,7 +3134,7 @@
         },
         {
           "label": "D",
-          "text": "The more it is exercised, the more strengthened it gets. Questions 51 to 55 are based on the following passage."
+          "text": "The more it is exercised, the more strengthened it gets."
         }
       ]
     },
@@ -3384,7 +3384,7 @@
         },
         {
           "label": "D",
-          "text": "Online dangers are as serious as problems with teenagers' mental health. Part IV Translation (30 minutes)"
+          "text": "Online dangers are as serious as problems with teenagers' mental health."
         }
       ]
     }
@@ -3648,5 +3648,7 @@
       ]
     }
   },
-  "flags": []
+  "flags": [
+    "passage-truncated"
+  ]
 }

@@ -220,7 +220,9 @@ function DraftBox({
         className={cn(
           // 200 词英文写作至少要 400px 高才不用一直滚（旧版 10 行 ≈ 300px）
           'min-h-[300px] w-full resize-y rounded-[10px] border border-line bg-surface p-4 text-[15px] leading-7 text-ink sm:min-h-[420px]',
-          'placeholder:text-faint focus:border-brand focus:outline-none',
+          // 不要用 focus:outline-none —— 它在 utilities 层，会把 globals.css 里
+          // @layer base 的 :focus-visible 焦点环整个吃掉，键盘用户看不到焦点
+          'placeholder:text-faint focus:border-brand focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand',
           !isChinese && 'prose-en',
         )}
       />

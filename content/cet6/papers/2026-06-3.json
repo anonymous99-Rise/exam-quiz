@@ -1727,7 +1727,7 @@
         },
         {
           "label": "D",
-          "text": "It is subject to different interpretations. Questions 51 to 55 are based on the following passage."
+          "text": "It is subject to different interpretations."
         }
       ]
     },
@@ -1973,7 +1973,7 @@
         },
         {
           "label": "D",
-          "text": "Governments are turning to them for help. Part IV Translation (30 minutes)"
+          "text": "Governments are turning to them for help."
         }
       ]
     }
@@ -2264,7 +2264,7 @@
     }
   },
   "flags": [
-    "no-audio",
+    "missing-nos",
     "passage-truncated"
   ]
 }

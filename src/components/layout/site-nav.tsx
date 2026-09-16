@@ -65,7 +65,7 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
                  * 粉底胶囊与主按钮同色系，等于让一种颜色承担两种语义（评审点名的「一色多义」）。
                  */
                 className={cn(
-                  'relative flex shrink-0 items-center gap-1.5 rounded-[10px] px-3.5 py-1.5 text-[13px] transition',
+                  'relative flex min-h-9 shrink-0 items-center gap-1.5 rounded-[10px] px-3.5 py-1.5 text-[13px] transition',
                   active
                     ? 'font-semibold text-ink after:absolute after:inset-x-3.5 after:-bottom-[11px] after:h-[2px] after:rounded-full after:bg-brand'
                     : 'font-medium text-muted hover:bg-surface-hover hover:text-ink',

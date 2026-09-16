@@ -1,6 +1,6 @@
 {
   "examId": "cet6",
-  "generatedAt": "2026-09-16T10:44:41.969Z",
+  "generatedAt": "2026-09-16T12:17:31.103Z",
   "papers": [
     {
       "id": "2018-06-1",
@@ -419,6 +419,7 @@
         "reading": 10
       },
       "flags": [
+        "missing-nos",
         "passage-truncated"
       ],
       "hasSubjective": true,
@@ -665,6 +666,7 @@
         "reading": 10
       },
       "flags": [
+        "missing-nos",
         "passage-truncated"
       ],
       "hasSubjective": true,
@@ -2309,6 +2311,7 @@
         "reading": 10
       },
       "flags": [
+        "missing-nos",
         "passage-truncated"
       ],
       "hasSubjective": true,
@@ -3082,7 +3085,9 @@
         "matching": 10,
         "reading": 10
       },
-      "flags": [],
+      "flags": [
+        "passage-truncated"
+      ],
       "hasSubjective": true,
       "hasAudio": true
     },
@@ -4331,7 +4336,9 @@
         "matching": 10,
         "reading": 10
       },
-      "flags": [],
+      "flags": [
+        "passage-truncated"
+      ],
       "hasSubjective": true,
       "hasAudio": true
     },
@@ -4788,6 +4795,7 @@
         "reading": 10
       },
       "flags": [
+        "missing-nos",
         "passage-truncated"
       ],
       "hasSubjective": true,
@@ -5069,7 +5077,9 @@
         "matching": 10,
         "reading": 10
       },
-      "flags": [],
+      "flags": [
+        "passage-truncated"
+      ],
       "hasSubjective": true,
       "hasAudio": true
     },
@@ -5155,6 +5165,7 @@
         "reading": 10
       },
       "flags": [
+        "missing-nos",
         "passage-truncated"
       ],
       "hasSubjective": true,

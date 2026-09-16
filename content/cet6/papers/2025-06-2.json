@@ -222,7 +222,7 @@
         },
         {
           "label": "D",
-          "text": "Let John make the final decision. Questions 5 to 8 are based on the conversation you have just heard.",
+          "text": "Let John make the final decision.",
           "textZh": "让John做最终决定。"
         }
       ]
@@ -3126,7 +3126,7 @@
         },
         {
           "label": "D",
-          "text": "Judge people on the basis of their distinctive character traits. Questions 51 to 55 are based on the following passage."
+          "text": "Judge people on the basis of their distinctive character traits."
         }
       ]
     },
@@ -3376,7 +3376,7 @@
         },
         {
           "label": "D",
-          "text": "Lacking resources to address biological problems. Part IV Translation (30 minutes)"
+          "text": "Lacking resources to address biological problems."
         }
       ]
     }
@@ -3652,5 +3652,7 @@
       ]
     }
   },
-  "flags": []
+  "flags": [
+    "passage-truncated"
+  ]
 }

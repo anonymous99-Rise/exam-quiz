@@ -156,7 +156,11 @@ export function SectionRunner({
       <AnswerSheet
         open={r.sheetOpen}
         onClose={() => r.setSheetOpen(false)}
-        groups={groups.map((g) => ({ sectionId: g.sectionId, questions: g.questions }))}
+        groups={groups.map((g) => ({
+          sectionId: g.sectionId,
+          questions: g.questions,
+          passageId: g.passage?.id,
+        }))}
         states={r.states}
         cursorNo={r.cursorQ?.no ?? null}
         onJump={r.jumpTo}

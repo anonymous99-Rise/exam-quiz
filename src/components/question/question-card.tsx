@@ -1,5 +1,7 @@
 'use client';
 
+import { memo } from 'react';
+
 import { ParagraphMatchView, SingleChoiceView, WordBankView } from '@/components/question/question-views';
 import type { Question } from '@/lib/bank/schema';
 import { qidOf, useProgress } from '@/lib/progress/store';
@@ -14,7 +16,7 @@ import { cn } from '@/lib/utils';
  *   2. 判分条独立成行（旧版把「答对/答错」「展开解析」「收藏」挤在同一行 12px 灰字里）。
  *   3. 收藏按钮改成图标按钮，不再与判分信息抢注意力。
  */
-export function QuestionCard({
+function QuestionCardImpl({
   examId,
   paperId,
   question,
@@ -63,7 +65,12 @@ export function QuestionCard({
           : 'border-line shadow-flat',
         'relative',
       )}
+      /*
+       * 指针与键盘两条路径都要同步「当前题」：
+       * 旧版只监听 pointerdown，于是用 Tab 走到第 5 题的选项再按字母键，判分却算在第 1 题。
+       */
       onPointerDown={() => onFocus?.(question.no)}
+      onFocusCapture={() => onFocus?.(question.no)}
     >
       {question.kind === 'single-choice' && (
         <SingleChoiceView
@@ -133,7 +140,7 @@ export function QuestionCard({
           aria-label={fav ? '取消收藏' : '收藏本题'}
           title={fav ? '取消收藏' : '收藏本题'}
           className={cn(
-            'ml-auto inline-flex shrink-0 items-center gap-1 rounded-[9px] px-2 py-1.5 text-[12px] font-medium transition',
+            'ml-auto inline-flex min-h-9 shrink-0 items-center gap-1 rounded-[9px] px-2.5 py-1.5 text-[12px] font-medium transition',
             fav
               ? 'bg-brand-soft text-brand-ink'
               : 'text-faint hover:bg-surface-hover hover:text-brand-ink',
@@ -145,3 +152,10 @@ export function QuestionCard({
     </li>
   );
 }
+
+/**
+ * memo：整卷模考的倒计时每秒 setState 一次，会重渲染 ExamRunner 整棵树。
+ * 题卡的 props（题目对象、回调、是否为当前题、已选字母）在 tick 之间是稳定的，
+ * 所以 memo 能让 55 张卡的子树完全不参与每秒重渲染。
+ */
+export const QuestionCard = memo(QuestionCardImpl);

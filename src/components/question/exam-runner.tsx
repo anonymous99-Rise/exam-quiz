@@ -84,14 +84,23 @@ export function ExamRunner({
 
   const totalSec = durationMin * 60;
   const remainSec = Math.max(0, totalSec - elapsed);
-  const timeUp = running && remainSec === 0;
+  /*
+   * 只有「本次会话真的把时长走完」才自动交卷。
+   *
+   * 反例（旧行为会立刻交卷并锁死整卷）：昨天开了模考没交卷，今天再打开 ——
+   * 持久化的开考时间让 remainSec 一开始就是 0，于是 useEffect 直接 doSubmit()。
+   * 现在把「已超时很久」（超过时长 2 分钟以上）视为「离开过考场」，
+   * 只提示、不动手，把决定权交回用户。
+   */
+  const expiredLongAgo = elapsed > totalSec + 120;
+  const timeUp = running && remainSec === 0 && !expiredLongAgo;
 
   const doSubmit = useCallback(() => {
     markSubmitted(paperKey);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [markSubmitted, paperKey]);
 
-  // 到点自动交卷
+  // 到点自动交卷（仅限本次会话内刚好走完时长）
   useEffect(() => {
     if (timeUp) doSubmit();
   }, [timeUp, doSubmit]);
@@ -198,6 +207,34 @@ export function ExamRunner({
           />
         </div>
       </header>
+
+      {/* 离开过考场（超时很久）时不擅自交卷，把选择权交回用户 */}
+      {expiredLongAgo && !submitted && (
+        <div className="mx-auto mb-6 w-full max-w-[1120px]">
+          <div className="rounded-[14px] border border-warn-line bg-warn-soft p-5">
+            <p className="t-h3 text-warn">这一场已经超过考试时长</p>
+            <p className="mt-2 text-[13px] leading-6 text-ink-soft">
+              开考记录显示这一场已经超过 {durationMin} 分钟。已答的题都保留着，你可以选择重新计时
+              继续作答，或直接交卷看成绩。
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  clearPaper(examId, paperId);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="btn btn-ghost"
+              >
+                重新计时继续作答
+              </button>
+              <button type="button" onClick={submit} className="btn btn-primary">
+                直接交卷
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {submitted && (
         <section className="mx-auto mb-8 w-full max-w-[1120px]">
@@ -309,7 +346,11 @@ export function ExamRunner({
       <AnswerSheet
         open={r.sheetOpen}
         onClose={() => r.setSheetOpen(false)}
-        groups={groups.map((g) => ({ sectionId: g.sectionId, questions: g.questions }))}
+        groups={groups.map((g) => ({
+          sectionId: g.sectionId,
+          questions: g.questions,
+          passageId: g.passage?.id,
+        }))}
         states={r.states}
         cursorNo={r.cursorQ?.no ?? null}
         onJump={r.jumpTo}
