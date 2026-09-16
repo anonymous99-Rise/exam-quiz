@@ -1,0 +1,36 @@
+# deps / build
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# Vercel 项目关联（本机私有）
+.vercel/
+
+# 临时诊断脚本
+tmp/
+
+# 原始素材（1.2GB，含 LFS 实体 PDF）——不进仓库
+.sources/
+
+# 抽取候选区（人工过闸前）
+.candidates/
+
+# 工具缓存
+.pdftotext-path
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地听力 mp3（267MB，由 tools/assets-audio.mjs --copy 生成；M9 改走对象存储）
+public/audio/

@@ -1,0 +1,169 @@
+{
+  "id": "2022-06-3",
+  "examId": "cet6",
+  "year": 2022,
+  "month": 6,
+  "session": "2022上半年",
+  "setNo": 3,
+  "label": "2022年6月",
+  "questions": [],
+  "passages": {},
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence “Nowadays more and more people take delight in offering help to the needy.” You can make comments, cite examples, or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "model": "Nowadays more and more people take delight in offering help to the needy. This heart-warming trend, in my view, reflects both a growing sense of social responsibility and the genuine happiness that giving brings to the giver. There are solid reasons behind this phenomenon. On the one hand, lending a hand to those in difficulty strengthens the bonds that hold a community together, and a single act of kindness often inspires others to follow. On the other hand, helping people is deeply rewarding in itself. I still remember one winter when my classmates and I spent a weekend teaching migrant children in a shabby rented room. We gained far more warmth from their bright smiles than we ever gave, and that experience convinced me that generosity enriches both sides. Therefore, we should never underestimate the power of a helping hand. If each of us is willing to reach out to those in need, our society will surely grow kinder, warmer and more united.",
+      "modelZh": "【参考译文】如今，越来越多的人乐于向有需要的人伸出援手。在我看来，这一暖心的趋势既体现了日益增强的社会责任感，也源于给予本身带给施助者的真正快乐。这一现象背后有充分的理由。一方面，向身处困境的人伸出援手能加强维系社区的纽带，而一次善举往往会激励更多人效仿。另一方面，帮助他人本身就令人深感充实。我仍记得有一个冬天，我和同学们花了一个周末，在一间简陋的出租屋里给农民工子女补课。我们从他们灿烂的笑容中收获的温暖，远比我们付出的要多，那次经历让我确信慷慨是双向受益的。因此，我们绝不应低估一次援手的力量。如果我们每个人都愿意向有需要的人伸出手，我们的社会必将变得更善良、更温暖、更团结。【第 1 段】抄首句+表态定调。本段落实'抄首句再亮态度'：开头原样照抄给定首句 Nowadays more",
+      "outline": [
+        {
+          "no": 1,
+          "text": "抄首句+表态定调。本段落实'抄首句再亮态度'：开头原样照抄给定首句 Nowadays more and more people take delight in offering help to the needy.，紧接用 This heart-warming trend, in my view, reflects both... 一句亮出态度并预告下文两条理由，既守住首句硬约束，又给全文定了正面 基调。"
+        },
+        {
+          "no": 2,
+          "text": "四步论证不空洞。本段落实'观点加理由加例子加小结'：先 There are solid reasons 总起， 再 On the one hand / On the other hand 摆社会与个人两条理由，第二条落到 one winter when my classmates and I... 的亲身经历上，最后 that experience convinced me that generosity enriches both sides 小结回扣，理由有例子撑、不空喊。"
+        },
+        {
+          "no": 3,
+          "text": "回扣+呼吁升华。本段落实'回扣主旨并呼吁'：Therefore, we should never underestimate the power of a helping hand 回扣中心，If each of us is willing to reach out..., our society will surely grow kinder, warmer and more united 用条件式呼吁升华，呼应首段态度收尾，不引入新 论据。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 赵州桥建于隋朝，公元605年左右，长50.82米，宽9.6米，跨度37.37米。天才建筑师李春设计并监 督了桥的建设。赵州桥结构新颖、造型优美。桥有一个大拱，在大拱的两端有两个小拱，帮助排泄洪 水、减轻桥梁重量并节省石材。建成以来，该桥经受了多次洪水和地震,但其主体结构仍然完好无损， 至今仍在使用。 赵州桥是世界桥梁建筑史上的一次创举，是中国古代文明史上的一项杰出成就。类似 设计的桥梁直到14世纪才在欧洲出现，比赵州桥晚了700多年。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 The Zhaozhou Bridge was built in the Sui Dynasty, around 605 AD, with a length of 50.82 meters, a width of 9.6 meters and a span of 37.37 meters. Li Chun, a talented architect, designed and supervised its construction. The bridge is novel in structure and graceful in shape. It has one large arch, with two smaller arches on each end, which help discharge floodwater, reduce the weight of the bridge and save stone. Since its completion, the bridge has withstood many floods and earthquakes, but its main structure remains intact and it is still in use today. The Zhaozhou Bridge is a pioneering work in the world's history of bridge construction and an outstanding achievement in the history of ancient Chinese civilization. Bridges of similar design did not appear in Europe until the 14th century, more than 700 years later than the Zhaozhou Bridge.",
+      "source": "赵州桥建于隋朝，公元605年左右，长50.82米，宽9.6米，跨度37.37米。天才建筑师李春设计并监督了桥的建设。赵州桥结构新颖、造型优美。桥有一个大拱，在大拱的两端有两个小拱，帮助排泄洪水、减轻桥梁重量并节省石材。建成以来，该桥经受了多次洪水和地震,但其主体结构仍然完好无损，至今仍在使用。 赵州桥是世界桥梁建筑史上的一次创举，是中国古代文明史上的一项杰出成就。类似设计的桥梁直到14世纪才在欧洲出现，比赵州桥晚了700多年。",
+      "reference": "The Zhaozhou Bridge was built in the Sui Dynasty, around 605 AD, with a length of 50.82 meters, a width of 9.6 meters and a span of 37.37 meters. Li Chun, a talented architect, designed and supervised its construction. The bridge is novel in structure and graceful in shape. It has one large arch, with two smaller arches on each end, which help discharge floodwater, reduce the weight of the bridge and save stone. Since its completion, the bridge has withstood many floods and earthquakes, but its main structure remains intact and it is still in use today. The Zhaozhou Bridge is a pioneering work in the world's history of bridge construction and an outstanding achievement in the history of ancient Chinese civilization. Bridges of similar design did not appear in Europe until the 14th century, more than 700 years later than the Zhaozhou Bridge.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "桥被建造作主干、尺寸作补充（主语策略：转被动） 本句信息很多，核心动作是\"建造\"，建造的承受者是桥，故把 赵州桥建于隋朝 提为被动主干 The Zhaozhou Bridge was built。\"长宽跨度\"是对桥的客观描述，不是新动作，留作主干之外的补充 信息处理。"
+          },
+          {
+            "label": "降级",
+            "text": "时间作状语、尺寸作并列谓语 把 公元605年左右 降级成时间状语 around 605 AD，紧跟在朝代后；把 长50.82米，宽9.6米，跨 度37.37米 这组数据另起，用 with 引导的介词短语或一个 is/measures 的并列分句来承载，如 with a length of 50.82 meters, a width of 9.6 meters and a span of 37.37 meters，避免照中 文\"长……宽……跨度……\"三个短句平铺。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"建于\"是过去明确完成的动作，偏离全篇一般现在时基调，用一般过去时被动 was built。 语态 桥是被建造的，用被动 was built；不要写成 The bridge built（会变成\"桥建造了别的东西\"）。 冠词 特指这座唯一的桥，主语用定冠词 the Zhaozhou Bridge；the Sui Dynasty 同样加 the。 单复数 meters 是复数（50.82、9.6、37.37 均非 1），单位词用复数 meters。"
+          },
+          {
+            "label": "译文",
+            "text": "The Zhaozhou Bridge was built in the Sui Dynasty, around 605 AD, with a length of 50.82 meters, a width of 9.6 meters and a span of 37.37 meters. 2. 天才建筑师李春设计并监督了桥的建设。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "李春作主语、设计监督作并列谓语（主语策略：原句主语） 中文已有明确主语 天才建筑师李春，直接作英文主语 Li Chun；\"设计\"\"监督\"是他发出的两个并列 动作，作并列谓语 designed and supervised。"
+          },
+          {
+            "label": "降级",
+            "text": "天才建筑师作前置定语 \"天才建筑师\"是对李春的身份修饰，降级成前置定语或同位语：the talented architect Li Chun （同位语）或 the gifted architect Li Chun。桥的建设 作 supervised 的宾语，处理成 its construction，用 its 回指上句的桥，避免重复 the bridge。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 设计、监督都是过去完成的具体动作，用一般过去时 designed and supervised，偏离现在时基 调。 单复数 李春是一个人，谓语对应单数主语；并列两动词时态保持一致，都用过去式。 指代 \"桥的建设\"中的\"桥\"指上句的赵州桥，用 its construction 的 its 承接，避免再写 the bridge's。"
+          },
+          {
+            "label": "译文",
+            "text": "Li Chun, a talented architect, designed and supervised its construction. 3. 赵州桥结构新颖、造型优美。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "桥作主语、系动词is引出特征（主语策略：原句主语） 赵州桥结构新颖、造型优美 是对桥的状态描述，主语是桥，用系动词 is 引出表语。可处理成 The bridge is novel in structure and graceful in shape，主谓是 The bridge is。"
+          },
+          {
+            "label": "降级",
+            "text": "结构造型作范围状语 \"结构新颖\"\"造型优美\"中的\"结构\"\"造型\"是说明形容词适用范围的，用 in structure、in shape 介 词短语限定：novel in structure and graceful in shape，两个并列表语用 and 连接。这是一个简 单系表句，无需复杂降级。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 桥的结构造型是恒常事实，回指全篇基调用一般现在时 is。 主谓一致 主语 the bridge 是单数，系动词用 is，不用 are。"
+          },
+          {
+            "label": "译文",
+            "text": "The bridge is novel in structure and graceful in shape. 4. 桥有一个大拱，在大拱的两端有两个小拱，帮助排泄洪水、减轻桥梁重量并节省石材。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "拱的存在用There be、有桥作主干（主语策略：There be） 本句讲拱的\"存在\"。桥有一个大拱 主干用 The bridge has a large arch；在大拱的两端有两个小拱 表存在，用 There be：on each end of which there are two smaller arches，或承接成 with two smaller arches on each end。核心是\"大拱、两端各有小拱\"的存在关系。"
+          },
+          {
+            "label": "降级",
+            "text": "三个功能动词降级成非谓语 帮助排泄洪水、减轻桥梁重量并节省石材 是小拱的三项功能。\"帮助\"作主要动词，\"排泄、减轻、 节省\"作 help 后的三个并列不定式/动名词宾语：which help discharge floodwater, reduce the weight of the bridge and save stone。整句用一个 which 定语从句把小拱及其功能挂到主句 上，避免\"有……帮助……减轻……节省……\"四个动词平铺成流水句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 桥的构造是现存事实，回指基调用一般现在时 has、help。 单复数 大拱一个用单数 a large arch；小拱两个用复数 two smaller arches；主谓一致上 two arches help 用复数动词、a bridge has 用单数。 冠词 首次提到大拱用不定冠词 a large arch（泛指一个）。 搭配 help 后可直接跟动词原形（help discharge）；\"两端\"用 on each end of 或 at both ends of。"
+          },
+          {
+            "label": "译文",
+            "text": "The bridge has one large arch, with two smaller arches on each end, which help discharge floodwater, reduce the weight of the bridge and save stone. 5. 建成以来，该桥经受了多次洪水和地震,但其主体结构仍然完好无损，至今仍在使用。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "桥作主语、经受作主干谓语（主语策略：原句主语） 主语是桥，核心动作是 经受了多次洪水和地震，主干 The bridge has withstood many floods and earthquakes。其主体结构仍然完好无损 与 至今仍在使用 是转折后并列的两个状态，作后续 分句。"
+          },
+          {
+            "label": "降级",
+            "text": "建成以来作时间状语、转折分句承接 建成以来 降级成时间状语 Since its completion 置于句首；\"但\"是转折，用 but 引出后半 but its main structure remains intact；至今仍在使用 与前者并列，承接成 and is still in use today。 整句结构：时间状语 + 主句（经受）+ but 转折分句（完好 + 仍在用）。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"建成以来经受了\"是从过去持续到现在的经历，用现在完成时 has withstood，偏离基调；\"仍然完 好\"\"仍在使用\"是现状，用一般现在时 remains、is still in use。 单复数 洪水、地震都不止一次，用复数 floods、earthquakes。 主谓一致 主语 the bridge 单数，配 has withstood、remains、is，均用单数形式。 用词 \"经受\"用 withstand/survive，\"完好无损\"用 remain intact，\"仍在使用\"用 in use，避免逐字直 译。"
+          },
+          {
+            "label": "译文",
+            "text": "Since its completion, the bridge has withstood many floods and earthquakes, but its main structure remains intact and it is still in use today. 6. 赵州桥是世界桥梁建筑史上的一次创举，是中国古代文明史上的一项杰出成就。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "桥作主语、is引两个并列表语（主语策略：原句主语） 赵州桥是世界桥梁建筑史上的一次创举 与 是中国古代文明史上的一项杰出成就 是对桥地位的两个 并列判断，主语是桥，用系动词 is 引出两个并列名词性表语：a pioneering work… and an outstanding achievement…。"
+          },
+          {
+            "label": "降级",
+            "text": "两定性短语用and并列 把\"世界桥梁建筑史上的一次创举\"译成 a pioneering work in the world's history of bridge construction，\"中国古代文明史上的一项杰出成就\"译成 an outstanding achievement in the history of ancient Chinese civilization，两个名词短语用 and 并列接在同一个 is 后。属定性判断 句，结构简洁，无需从句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 对桥历史地位的评价是恒常成立的判断，回指基调用一般现在时 is。 冠词 \"一次创举\"\"一项杰出成就\"是单数可数、泛指一个，用不定冠词：a pioneering work、an outstanding achievement（achievement 元音前用 an）。 用词 \"创举\"用 pioneering work/feat，\"杰出成就\"用 outstanding/great achievement，\"古代文明\"用 ancient civilization。"
+          },
+          {
+            "label": "译文",
+            "text": "The Zhaozhou Bridge is a pioneering work in the world's history of bridge construction and an outstanding achievement in the history of ancient Chinese civilization. 7. 类似设计的桥梁直到14世纪才在欧洲出现，比赵州桥晚了700多年。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "类似桥梁作主语、出现作主干谓语（主语策略：原句主语） 主语是 类似设计的桥梁，核心动作是\"出现\"，主干 Bridges of similar design did not appear… until…。比赵州桥晚了700多年 是补充比较，作后续分句或非谓语。"
+          },
+          {
+            "label": "降级",
+            "text": "晚700多年作分词或独立句 \"类似设计的\"作前置/后置定语 of similar design 修饰 bridges；比赵州桥晚了700多年 降级成现 在分词短语 appearing more than 700 years later than the Zhaozhou Bridge，或另起并列句 — more than 700 years later than the Zhaozhou Bridge。避免把\"出现\"\"晚了\"两个意思照中文 铺成两个对等谓语。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"14世纪才出现\"是过去的事，用一般过去时 did not appear until，偏离现在时基调。 单复数 \"类似设计的桥梁\"泛指此类桥，用复数 Bridges，谓语用复数 did not appear。 比较结构 \"晚了700多年\"用 more than 700 years later than…，than 后接比较对象 the Zhaozhou Bridge。 搭配 \"在欧洲\"用 in Europe；\"14世纪\"用 the 14th century（序数词加 the）。"
+          },
+          {
+            "label": "译文",
+            "text": "Bridges of similar design did not appear in Europe until the 14th century, more than 700 years later than the Zhaozhou Bridge. 英语六级 2022年6月·第3套 · 全卷构成 Part II 听力 与2022年6月第1套共用 · 题目解析 → Part III Section A 完形填空（选词填空） 与2022年6月第1套共用 · 题目解析 → Part III Section B 长篇阅读（信息匹配） 与2022年6月第1套共用 · 题目解析 → Part III Section C (1) 阅读理解（四选一） 与2022年6月第1套共用 · 题目解析 → Part III Section C (2) 阅读理解（四选一） 与2022年6月第1套共用 · 题目解析"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "incomplete",
+    "no-audio"
+  ]
+}

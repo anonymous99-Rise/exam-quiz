@@ -1,0 +1,2184 @@
+{
+  "id": "2025-12-3",
+  "examId": "cet6",
+  "year": 2025,
+  "month": 12,
+  "session": "2025下半年",
+  "setNo": 3,
+  "label": "2025年12月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Accent is not a __(26)__ for dialect, but it's related.",
+      "answer": "N",
+      "answerText": "synonym",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "不定冠词 a 后 + for 介词框架"
+        },
+        {
+          "label": "依据",
+          "text": "a synonym for 固定搭配 原文 Accent is not a __(26)__ for dialect, but it's related. Dialect is an umbrella term...; accent refers to that first part only. 说\"accent 不是 dialect 的 ___，但相关\"，紧接着解 释 dialect 是包含 accent 的更大范畴——也就是两者不是同义词。a synonym for X 即\"X 的同义词\"，是英语中固定搭配，语义与逻辑双合。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) specimen 样品义不合语境 specimen 指\"标本、样品\"，说\"accent 不是 dialect 的样品\"逻辑不通，且无 a specimen for 这一搭配。 J) reality 现实义与对比关系不符 reality 指\"现实\"，原文是在做术语对比（accent 与 dialect），并非讨论虚实，且 a reality for 在此搭配生硬。 M) spectrum 范围义无法对应同义对比 spectrum 指\"范围、谱系\"，与下文\"二者相关但不重合\"的同义/上下位对比不匹配。 D) domains 复数形式不匹配冠词 a domains 为复数，与不定冠词 a 不兼容；语义\"领域\"也不构成 accent 与 dialect 的术语对照。 G) laymen 复数且指人，不合语境 laymen 为复数指\"外行人\"，与 a 不搭，且整句是在定义术语，非指代人群。 I) properties 复数且抽象属性义偏移 properties 复数与 a 不兼容；\"属性\"也无法解释 accent 与 dialect 的术语关系。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Many __(27)__ presume that there is a single standard way of speaking in each country",
+      "answer": "G",
+      "answerText": "laymen",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "形容词 Many 后 + 之后为谓语动词 presume"
+        },
+        {
+          "label": "依据",
+          "text": "外行人对应\"想当然以为\"的认知主体 Many laymen presume… 即\"许多外行人想当然以为……\"，恰好与下半句 but linguists(语 言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a __(29)__ 中的 linguists 构成\"外行 vs 专家\"对照，逻辑严丝 合缝。"
+        },
+        {
+          "label": "竞争词",
+          "text": "D) domains 领域无法做\"以为\"的主体 domains 指\"领域\"，是抽象范畴，不能作 presume 的逻辑主语；且与下句 linguists 的对照对 象不符。 I) properties 属性无法做\"以为\"的主体 properties 指\"属性、财产\"，同样是抽象概念，无法 presume；与对照结构不匹配。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "this perceived standard is __(28)__ the best form of speech",
+      "answer": "F",
+      "answerText": "inherently",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "be 动词与表语形容词之间的修饰位"
+        },
+        {
+          "label": "依据",
+          "text": "本质上即最佳，对应\"理想型\"叙述 原文 Many __(27)__ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is __(28)__ the best form of speech 描述\"外行人以为感知到的标准在本质上就是最佳说话方式\"， inherently 表\"本质上、生来就是\"，正好对应这种被想当然的本体论断言。"
+        },
+        {
+          "label": "竞争词",
+          "text": "K) reciprocally 相互义与单向断言不符 reciprocally 表\"相互地\"，需双向主体；句中只是单方面\"被认为是最佳\"，无相互关系可言。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 K) —— 副词类目仅二选一，词义辨义易翻车。F) inherently 与 K) reciprocally 同为副词，考生若只看到\"副词\"就随手填，可能误选 reciprocally；防坑：be + ___ + the best form of speech 这种单向断言句不存在\"相互\"关系，必须看断言方向再选 副词。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "the concept of a standard accent is better understood as an ideal rather than a __(29)__",
+      "answer": "J",
+      "answerText": "reality",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "rather than 后并列名词位"
+        },
+        {
+          "label": "依据",
+          "text": "an ideal rather than a reality 标准口音\"更适合被理解为一种理想，而不是现实\"，ideal 与 reality 是英语中最经典的反义 对子；紧接的下一句 no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books. 用\"想象的、只存在于 语法书中\"再次坐实\"非现实\"，对照成立。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) specimen 样品义与理想无反义对应 specimen 指\"样本、标本\"，与 ideal 不构成对照，且语义上说\"标准口音是样本\"不通。 M) spectrum 范围义与理想不对仗 spectrum 指\"频谱、范围\"，与 ideal 既无反义、也不切下句\"想象的语言用法\"语境。 I) properties 复数与 a 不兼容 properties 复数，违背 a + 单数名词 的语法约束；语义\"属性\"也不构成与 ideal 的对照。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "through the years, there have been __(30)__ supposed standards",
+      "answer": "H",
+      "answerText": "multiple",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "there have been + 空 + 复数名词"
+        },
+        {
+          "label": "依据",
+          "text": "多个标准支撑\"无统一\"论点 本段中心是\"语言学家认为没有唯一真标准\"，紧跟的例子 The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. 用\"50 年代英国 vs 当下 美国\"佐证存在多个标准，multiple supposed standards 切中要害。"
+        },
+        {
+          "label": "竞争词",
+          "text": "O) unanimous 一致同意与无统一标准矛盾 unanimous 表\"一致同意的\"，若说\"存在一致同意的标准\"，与下文 there has never been a single standard that's been fully agreed upon 直接打架。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "broadcast outlets across the __(31)__ have never consistently held to those standards",
+      "answer": "M",
+      "answerText": "spectrum",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "the + 空 + 介词短语"
+        },
+        {
+          "label": "依据",
+          "text": "across the spectrum 全谱系 across the spectrum 是英语固定搭配，表\"涵盖各种类型/全谱系\"。原文意为\"全谱系的广 播机构都没有始终如一地坚持那些标准\"，正好支持\"标准并未统一遵行\"的主旨。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) specimen 标本义无范围义 specimen 指\"标本、样品\"，不能表\"涵盖范围\"，across the specimen 不成立搭配。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Even so, this idea of a standard accent is __(32)__ and many workplace and educational environments perpetuate the idea...",
+      "answer": "E",
+      "answerText": "influential",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "be 动词后的表语位置"
+        },
+        {
+          "label": "依据",
+          "text": "有影响力解释后文延续效应 下文 and many workplace and educational environments perpetuate the idea that accents that __(33)__ from the current standard are less appropriate 说许多职场和教 育环境仍在延续这一观念——也就是这一观念\"颇有影响力\"，influential 正好统摄后文这 一果。"
+        },
+        {
+          "label": "竞争词",
+          "text": "O) unanimous 一致同意与全文论点冲突 全文反复强调没有统一公认的标准（there has never been a single standard that's been fully agreed upon），若说\"标准口音的观念是一致同意的\"，与上下文直接矛盾。 H) multiple 多个无法搭配单数主语属性 multiple 表\"多种的\"，用于修饰可数复数或集合概念；说\"this idea is multiple\"语义不通。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 O) —— unanimous 看着切题，实则与主旨反向。32 题 this idea of a standard accent is ___ 看见\"标准口音\"主题，部分考生顺势填 unanimous；防坑：联 读后文 and many workplace and educational environments perpetuate the idea，重 点是\"延续/影响\"不是\"一致同意\"，influential 才对得上。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "accents that __(33)__ from the current standard are less appropriate",
+      "answer": "C",
+      "answerText": "deviate",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "that 从句中缺谓语 + 后接 from"
+        },
+        {
+          "label": "依据",
+          "text": "deviate from 偏离当前标准 原文整段在讨论\"偏离当下标准的口音被视为不合适\"，deviate from the current standard 即\"偏离当前标准\"，词义、搭配、逻辑三处合一。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "southern US accent features are more accepted in __(34)__ such as government, law and service-oriented workplaces",
+      "answer": "D",
+      "answerText": "domains",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "介词 in 后 + such as 举例"
+        },
+        {
+          "label": "依据",
+          "text": "领域作为政府/法律/服务业的上位词 government、law、service-oriented workplaces 都是社会职业\"领域\"，domains 表\"领 域、范围\"正是这些行业的自然上位范畴，搭配 in domains such as ___ 在学术英语里极为 常见。"
+        },
+        {
+          "label": "竞争词",
+          "text": "I) properties 属性义无法囊括行业举例 properties 表\"属性、财产\"，government 等并非\"属性\"，无法做其上位范畴；搭配 in properties such as government 语义不通。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "The acceptability of nonstandard accents may __(35)__ with differences in class and culture",
+      "answer": "B",
+      "answerText": "correlate",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "情态动词 may 后 + 介词 with"
+        },
+        {
+          "label": "依据",
+          "text": "correlate with 与……相关联 correlate with 表\"与……相关联\"，原句意为\"非标准口音的可接受度可能与阶层和文化差异 相关\"，紧跟的 with newer or higher prestige industries expecting more standard speech in the workplace 进一步说明这种相关性的具体表现，逻辑顺畅。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "affix",
+        "B": "correlate",
+        "C": "deviate",
+        "D": "domains",
+        "E": "influential",
+        "F": "inherently",
+        "G": "laymen",
+        "H": "multiple",
+        "I": "properties",
+        "J": "reality",
+        "K": "reciprocally",
+        "L": "specimen",
+        "M": "spectrum",
+        "N": "synonym",
+        "O": "unanimous"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "affix"
+        },
+        {
+          "label": "B",
+          "text": "correlate"
+        },
+        {
+          "label": "C",
+          "text": "deviate"
+        },
+        {
+          "label": "D",
+          "text": "domains"
+        },
+        {
+          "label": "E",
+          "text": "influential"
+        },
+        {
+          "label": "F",
+          "text": "inherently"
+        },
+        {
+          "label": "G",
+          "text": "laymen"
+        },
+        {
+          "label": "H",
+          "text": "multiple"
+        },
+        {
+          "label": "I",
+          "text": "properties"
+        },
+        {
+          "label": "J",
+          "text": "reality"
+        },
+        {
+          "label": "K",
+          "text": "reciprocally"
+        },
+        {
+          "label": "L",
+          "text": "specimen"
+        },
+        {
+          "label": "M",
+          "text": "spectrum"
+        },
+        {
+          "label": "N",
+          "text": "synonym"
+        },
+        {
+          "label": "O",
+          "text": "unanimous"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Upon seeing a flashing yellow arrow, a driver should let pedestrians and traffic pass first before taking the turn.",
+      "answer": "I",
+      "answerText": "I 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917. 最后，在旧金山，首套可自动（或手动）运行的红绿电灯系统于 1917 年问世。"
+        },
+        {
+          "label": "改写",
+          "text": "red and green automatic traffic light system ↔ the first red and green electric light system that could be operated automatically (or manually) automatic 与 automatically 同根改写 originated in an American city ↔in San Francisco 下位地名替上位描述 36. Upon seeing a flashing yellow arrow, a driver should let pedestrians and traffic pass first before taking the turn. 37. The red and green automatic traffic light system originated in an American city."
+        },
+        {
+          "label": "辨邻",
+          "text": "J J 段同样讲美国城市 Detroit 与首次出现，但所述是 the first three-color light system 而非题干的 “red and green automatic”，少了“两色 + 自动”这关键限定，覆 盖不全。 In 1920, the first three-color light system was introduced in Detroit G G 段虽也讲红绿灯 between the dipped red and green lights，但明确说 operated manually by an officer，不是 automatic，故不是题 37 源头段。 He developed a manually switched stop light 一个美国城市的居民倾向于认为在道路上节省的时间证明升级其交通信号系统的成本是合 理的。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "首套自动红绿信号 + 美国城市"
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The red and green automatic traffic light system originated in an American city.",
+      "answer": "A",
+      "answerText": "A 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. 你去问问这座城市的居民，他们多半会同意：在路上省下的时间，绝对值回投入。"
+        },
+        {
+          "label": "改写",
+          "text": "Residents of an American city tend to share the opinion ↔ Ask a resident of the city and they are likely to agree 复数与单数态度的同义改写 time saved on the road justifies the cost of upgrading its traffic light system ↔ saving time on the road is well worth it well worth it = 物有所值 汽车的大规模生产使普通人能够购买汽车。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "美国某市居民认为省时间值回升级成本"
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Residents of an American city tend to share the opinion that time saved on the road justifies the cost of upgrading its traffic light system.",
+      "answer": "J",
+      "answerText": "J 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production. 福特通过创立更大规模的工厂生产，使汽车不再只属于富人，而是变成普通人也买得起的 东西。 38. Residents of an American city tend to share the opinion that time saved on the road justifies the cost of upgrading its traffic light system. 39. Mass production of cars made it possible for ordinary people to buy them."
+        },
+        {
+          "label": "改写",
+          "text": "Mass production of cars ↔creating larger scale factory production 工厂规模化生产 = 大规模生产 made it possible for ordinary people to buy them ↔ made cars affordable for more common people, rather than the wealthy affordable = made it possible to buy"
+        },
+        {
+          "label": "辨邻",
+          "text": "E E 段虽提及 The United States is a car culture like no other country 等汽车扩张背 景，但并未陈述“大规模生产让普通人买得起汽车”这一具体机制。 many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars 尽管存在一些差异,交通信号灯的含义在各地几乎相同。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "汽车的大规模生产让普通人买得起"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Mass production of cars made it possible for ordinary people to buy them. 【改写】Mass production of cars ↔creating larger scale factory production",
+      "answer": "L",
+      "answerText": "L 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Crosswalks weren't even introduced until 1951. 人行横道甚至直到 1951 年才出现。"
+        },
+        {
+          "label": "改写",
+          "text": "Pedestrian crossings ↔Crosswalks 同义词替换 came into being only in the mid-twentieth century ↔weren't even introduced until 1951 until 1951 = 直到 20 世纪中叶才 随着城市和交通的扩张,人们竞相解决日益严重的交通问题。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "人行横道仅在 20 世纪中叶才出现"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "What a traffic light means is almost the same everywhere despite some variations.",
+      "answer": "F",
+      "answerText": "F 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "As traffic and cities grew, so did the race to solve growing traffic problems. 随着交通和城市的扩张，解决日益严重的交通问题的竞赛也愈演愈烈。"
+        },
+        {
+          "label": "改写",
+          "text": "People raced to address increasing traffic problems ↔ so did the race to solve growing traffic problems race + address ≈ race + solve along with the expansion of cities and traffic ↔As traffic and cities grew expansion 是 grew 的名词化 当黄色警告灯被引入时,驾驶变得更加安全,交通事故减少了。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "城市与交通扩张 + 解决交通问题的竞赛"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Pedestrian crossings came into being only in the mid-twentieth century.",
+      "answer": "K",
+      "answerText": "K 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights. 警示性黄灯的引入帮助提高了驾驶者的安全，减少了因闯红灯导致的事故。"
+        },
+        {
+          "label": "改写",
+          "text": "the warning yellow light was introduced ↔The introduction of the cautionary yellow light warning = cautionary 同义形容词 driving became safer and traffic accidents reduced ↔ helped increase driver safety, decreasing accidents increase driver safety = 驾驶变安全；decreasing = reduced 铁路上的信号系统是第一个交通信号灯的基础。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "黄灯被引入后驾驶更安全、事故减少"
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "People raced to address increasing traffic problems along with the expansion of cities and traffic.",
+      "answer": "B",
+      "answerText": "B 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. 它是 1868 年由铁路经理 John Peak Knight 仿照铁路信号系统改造而来的。"
+        },
+        {
+          "label": "改写",
+          "text": "The signal system on the railroad ↔the railroad signal system of/on 与定语顺序的等价 served as the basis for the first traffic light ↔ It had been adapted from the railroad signal system adapted from = served as the basis for 43. When the warning yellow light was introduced, driving became safer and traffic accidents reduced. 44. The signal system on the railroad served as the basis for the first traffic light."
+        },
+        {
+          "label": "辨邻",
+          "text": "F F 段把最早信号灯描述为 The first traffic signals were semaphores，并没有提到 “railroad signal system” 作为基础，故不是题 44 源头段。 The first traffic signals were semaphores 即使绿灯表示\"通行\",也应注意两侧的交通情况,以防某些驾驶员粗心大意或无视红灯。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "铁路信号系统是首盏红绿灯的基础"
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "When the warning yellow light was introduced, driving became safer and traffic accidents reduced.",
+      "answer": "N",
+      "answerText": "N 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. 绿灯表示通行。就这么简单，但最好还是双向都看一下，留意那些可能心不在焉、或者正在 闯灯的对向车辆。"
+        },
+        {
+          "label": "改写",
+          "text": "Even though a green light signals \"go\" ↔Green means go. It is that simple “signals go” 与 “means go” 同义 attention should be paid to traffic on either side ↔ it's still best to check both ways for oncoming traffic both ways = either side，check = pay attention in case some driver is being careless or ignoring a red light ↔ may not be paying attention or is running the light running the light = ignoring a red light；not paying attention = careless"
+        },
+        {
+          "label": "辨邻",
+          "text": "R R 段虽提及 Green means it's safe to proceed (though you should still exercise caution)，但没有具体说“两侧来车”和“有人闯红灯”，覆盖不到题干这两个关键细节。 Green means it's safe to proceed (though you should still exercise caution)"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "绿灯也要留意两侧、防有人闯红"
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn from the passage about practicing mindfulness?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "How did the author respond to the Captcha test? 问的是作者在原文里具体做了什么、 什么态度，需要回到原文找事实，而不是推断或概括。"
+        },
+        {
+          "label": "拆句",
+          "text": "How did the author respond to the Captcha test? 句式平铺直叙，主谓宾清楚，无 陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Like a lamb, I complied, after which the website accepted my input. 我像一只羔羊一样照办了，之后网站接受了我的输入。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 clicked on the cells randomly 说作者随机点，但原文 My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so 显示作者是按规则点含 交通标志的格子，并不是随机。 B) 与原文相反 accepted the challenge readily 说\"欣然接受\"，但原文 I did so, a bit irritated 明示作 者是带着不快接受的，二者情绪极性相反。 C) 无中生有 completed it confidently 说\"自信地完成\"，但原文从未描写作者的信心，只说他不情 愿地照办；自信纯属添加。 D) ✓ 正确 Like a lamb, I complied ↔submissively 预判要的就是\"顺从地照做\"，He worked on it submissively. 是唯一把这层顺从语气保 留下来的选项。 验证码测试的讽刺之处是什么? A) 机器能像人类一样回应测试。 B) 机器在物体识别方面的表现能超过人类。 51. How did the author respond to the Captcha test? A) He clicked on the cells randomly. B) He accepted the challenge readily. C) He completed it confidently. D) He worked on it submissively. 52. What is ironic about the Captcha test? A) A machine can respond to the test as well as humans do. B) A machine can outperform humans in object identification. C) A test designed to test machines is now used by machines to test humans. D) A test conceived to tell a human from a robot can now do tricks humans can't. C) 一项原本设计用来测试机器的测试现在被机器用来测试人类。 D) 一项原本用于区分人类和机器人的测试现在能做人类做不到的事情。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It triggers our mind to reflect on past experiences or anticipate future events."
+        },
+        {
+          "label": "B",
+          "text": "It focuses our attention on the present moment without making judgments."
+        },
+        {
+          "label": "C",
+          "text": "It concentrates our mind on our personal feelings, happy or scary."
+        },
+        {
+          "label": "D",
+          "text": "It helps our mind to stay calm when facing judgments from others."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we see in today's \"attention economy\" according to Jenny Odell?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What is ironic about the Captcha test? 要求回到原文找出作者点明讽刺的那一句，是事 实层细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "What is ironic about the Captcha test? 结构简单，is 后跟形容词作表语，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans! 但还要注意一个绝妙的额外讽刺：Captcha 被称作\"自动化的图灵测试\"。你或许记得，图灵 测试当初的设想，是让人类来判断机器能否做出让人分不清是人还是机器人的回应。结果， 我们如今竟漂入了这样一个世界——机器反过来让我们耍把戏，以证明我们是人类！"
+        },
+        {
+          "label": "选项",
+          "text": "A) 答非所问 A machine can respond to the test as well as humans do 是\"机器答得和人一样 好\"，但原文讽刺的是\"角色反转\"，不是机器表现优秀。 B) 无中生有 A machine can outperform humans in object identification 说\"机器在物体识别上胜 过人类\"，但原文没做这种性能比较，纯属添加。 C) ✓ 正确 The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond ↔A test designed to test machines machines make us do tricks to prove that we are humans ↔ now used by machines to test humans 预判要的就是\"测机器 测人\"的角色反转，A test designed to test machines is now used by machines to test humans. 一句话把这一组对调说清楚。 D) 张冠李戴 A test conceived to tell a human from a robot can now do tricks humans can't 说\"测试现在能耍出人耍不出的把戏\"，主体被换成了\"测试\"，但原文是 machines make us do tricks——机器让我们耍把戏，主体错位。 作者为什么使用温水煮青蛙的比喻? A) 为了表明人类不愿意用便利换取对智能技术的控制。 B) 为了表明人类没有意识到智能技术带来的潜在危险。 C) 为了质疑人类是否习惯于接受数字技术。 D) 为了质疑人类是否像被煮的青蛙一样脆弱。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Focus on technological advances continuously updates products and services."
+        },
+        {
+          "label": "B",
+          "text": "People's attention is turned into something that can be bought and sold."
+        },
+        {
+          "label": "C",
+          "text": "Businesses profit from selling mobile phones and revolutionizing social media."
+        },
+        {
+          "label": "D",
+          "text": "People tend to purchase products and services without careful thinking."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What happens with the prevalent use of mobile phones or social media?",
+      "answer": "B",
+      "questionType": "推断题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why does the author use the metaphor of the boiling frog? 问的是\"作者为什么用\"这 个比喻，需要从比喻所在语境向上提炼一步作者意图。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why does the author use the metaphor of the boiling frog? 标准疑问句结构，of 短语 作 metaphor 的后置定语，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? 脑海里浮现出\"温水煮青蛙\"的比喻。我们是不是已经被数字技术悄悄驯化，以至于看不到自 己身上正在发生什么？"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 humans are unwilling to trade convenience for control by smart tech 说人\"不 愿\"用便利换控制，但原文 trading convenience to the point where we become a bit like machines ourselves 显示人正在交换，不是不愿；极性翻转。 B) ✓ 正确 Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? ↔humans are unaware of the potential danger brought by smart tech so subtly conditioned by digital technology ↔potential danger brought by smart tech 温水煮青蛙寓意的核心就是\"察觉不到\"，To show that humans are unaware of the potential danger brought by smart tech. 同时覆盖\"潜在危险\"与\"未察觉\"两层，最贴 合作者意图。 C) 偷换概念 To question whether humans are conditioned to accept digital tech 说作者\"质 疑\"人是否被驯化，但原文虽用反问，立场是倾向于\"已被驯化\"，并不是中立质疑。 D) 偷换概念 To question whether humans are as vulnerable as the boiling frog 把比喻意图框 成\"人是否像青蛙一样脆弱\"，但温水煮青蛙寓意的核心是\"察觉不到\"而非\"脆弱\"，焦点 跑偏。 53. Why does the author use the metaphor of the boiling frog? A) To show that humans are unwilling to trade convenience for control by smart tech. B) To show that humans are unaware of the potential danger brought by smart tech. C) To question whether humans are conditioned to accept digital tech. D) To question whether humans are as vulnerable as the boiling frog. 作者为什么认为Brett Frischmann和Evan Selinger是对的? A) 很大一部分数字技术现在正在利用人类来实现其自身目的。 B) 人类现在正与数字技术展开一场争夺世界控制权的竞赛。 C) 数字技术能以以前认为不可能的方式满足人类需求。 D) 数字技术现在在进行思考,而人类在做重复性工作。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They keep distracting users from the here and now."
+        },
+        {
+          "label": "B",
+          "text": "They render users incapable of resisting temptation."
+        },
+        {
+          "label": "C",
+          "text": "They rob users of their ability to observe experience."
+        },
+        {
+          "label": "D",
+          "text": "They tempt users to endorse the attention economy."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What benefit can practicing mindfulness bring to us according to some scholars?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why does the author think that Brett Frischmann and Evan Selinger are right? 要求回 到原文找作者表态后紧接给出的论据句，属事实细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why does the author think that Brett Frischmann and Evan Selinger are right? 是疑问 句 + that 引导的宾语从句，think 后省略 that 也成立，主干清晰，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "And they're right. There's nothing technophobic about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. 他们说得没错。这并不是什么技术恐惧。我们塑造工具，反过来工具也塑造我们。技术本应 提供服务于人类目的的工具。但是，正如机器学习版 Captcha 所展示的那样，相当一部分 数字技术如今把人类当作（并加以利用为）实现非人类目的之手段。 54. Why does the author think that Brett Frischmann and Evan Selinger are right? A) A large part of digital tech is now making use of humans to meet its own ends. B) Humans are now fast locked in a race against digital tech to control the world. C) Digital tech can serve human needs in ways previously thought impossible. D) Digital tech is now doing thinking while humans are doing repetitive work."
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 a significant proportion of digital tech ↔A large part of digital tech now sees (and uses) humans as means to ends that are not ours ↔ now making use of humans to meet its own ends 预判要的是\"技术把人当工具达成自身目的\"，A large part of digital tech is now making use of humans to meet its own ends. 同时覆盖\"相当大一部分\"+\"利用 人\"+\"达成自身目的\"三个要点，与原文逐一吻合。 B) 无中生有 Humans are now fast locked in a race against digital tech to control the world 说\"人在与数字技术赛跑争夺世界控制\"，但原文从未把人与技术描绘成赛跑或争控 关系。 C) 与原文相反 Digital tech can serve human needs in ways previously thought impossible 在赞 美技术服务人类的能力，但作者 But 之后说的恰是相反——技术正反过来利用人。 D) 过度推断 Digital tech is now doing thinking while humans are doing repetitive work 把人机 的工作分工说成\"技术思考、人重复劳动\"，原文虽然提到作者做了 some unpaid labor，但并未把它对立到\"技术负责思考\"的层面。 作者在文章结尾问\"我们是否足够聪明,能在为时已晚之前跳出来?\"这暗示了什么? A) 期望数字技术将人类利益放在心上是不明智的。 B) 很难说技术还是人类会占上风。 C) 我们可能必须搜索网络才能得到这个问题的答案。 D) 我们可能无法及时意识到数字技术对我们构成的危险。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It prevents us from making arbitrary judgments about others."
+        },
+        {
+          "label": "B",
+          "text": "It shifts our attention from material things to spiritual pursuits."
+        },
+        {
+          "label": "C",
+          "text": "It is conducive to our forging better interpersonal relationships."
+        },
+        {
+          "label": "D",
+          "text": "It is helpful in regaining our ability to enjoy what we have in life."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author suggest we do in another person's presence?",
+      "answer": "D",
+      "questionType": "推断题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author imply by asking ... 中的 imply 明确要求由作者的反问句推导言外 之意，不能停在字面。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author imply by asking \"Are we smart enough to jump out before it's too late?\" at the end of the passage? 主干是 What does the author imply，by asking ... 是方式状语，引号内是反问句（rhetorical question），表达否定意味，是理解全题的 关键。 55. What does the author imply by asking \"Are we smart enough to jump out before it's too late?\" at the end of the passage? A) It is not sensible to expect digital tech to take humans' interest to heart. B) It is hard to say whether technology or humans will get the upper hand. C) We may have to search the web to get the answer to the question. D) We may not awake in time to the danger digital tech poses to us."
+        },
+        {
+          "label": "定位",
+          "text": "So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer. 那么回到青蛙的比喻。我们够聪明，能在为时已晚之前跳出来吗？这个问题，你甚至都不用 上网搜就能知道答案。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 答非所问 It is not sensible to expect digital tech to take humans' interest to heart 在评 判\"指望技术为人着想是否明智\"，对象是技术；但题干反问的主语是 we——问的是人是 否够聪明，主体偏移。 B) 偷换概念 It is hard to say whether technology or humans will get the upper hand 把作者 立场说成\"难说人机谁占上风\"，但原文反问 + 反讽尾句强烈暗示作者倾向悲观，并非 中立。 C) 与原文相反 We may have to search the web to get the answer to the question 字面理解了 You don't even have to Google it——把\"不用搜也知道\"反向解成\"必须搜才知道\"。 D) ✓ 正确 Are we smart enough to jump out before it's too late? ↔ We may not awake in time to the danger digital tech poses to us Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? ↔the danger digital tech poses to us 预判要的是\"恐怕来不及醒悟\"，We may not awake in time to the danger digital tech poses to us. 把\"反问 否定断言\"与\"温水煮青蛙 数字技术的危险\"两层一起兜 住，是唯一贴着原文走一步的推断。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Share each other's experience frankly and compassionately."
+        },
+        {
+          "label": "B",
+          "text": "Pay full attention to establishing close relationships with them."
+        },
+        {
+          "label": "C",
+          "text": "Be attentive listeners while refraining from making judgments."
+        },
+        {
+          "label": "D",
+          "text": "Remind them of the distraction from mobile phones and social media. Questions 51 to 55 are based on the following passage."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "How did the author respond to the Captcha test?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn from the passage about practicing mindfulness 问的是文章关于 mindfulness 的客观陈述，没有 infer/imply/mainly 这类信号，是一道关于 mindfulness 本质特征的细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn from the passage about practicing mindfulness? 主干是 What do we learn from the passage，about practicing mindfulness 是介词短语后置补充询问对 象，结构直白无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events. 这意味着，我们可以观察自己产生渴望、愉快念头甚至恐惧情绪，而无需在当下作出反应、 不放大该情绪，也不让心思滑向旧时记忆或对未来事件的预期。 46. What do we learn from the passage about practicing mindfulness? A) It triggers our mind to reflect on past experiences or anticipate future events. B) It focuses our attention on the present moment without making judgments. C) It concentrates our mind on our personal feelings, happy or scary. D) It helps our mind to stay calm when facing judgments from others."
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 原文 without … sends the mind spiraling off into thinking about old memories or anticipating events 明确把「回想旧事 / 预期未来」放在否定结构里，是正念要避免 的，A 把它说成正念的作用，恰好与原文相反。 B) ✓ 正确 observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment ↔focuses our attention on the present moment we learn not to react to experience with likes and dislikes or judgments of good and bad ↔ without making judgments 预判落在「观察当下、不卷入、不评判」三点上，focuses our attention on the present moment without making judgments 把前两点合在一句里全覆盖，是定位句 的紧贴改写。 C) 偷换概念 原文 observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment 强调观察情绪而不卷入，C 项却说「把 注意力集中在个人情绪上」，把「观察」偷换成「集中」，两者一冷静一沉浸，语义 错位。 D) 张冠李戴 原文谈的是「自己不对体验作好坏评判」（judgments of good and bad），并未涉及 「他人评判我们」，D 项把评判主体从「自我」换成「他人」，无原文依据。 根据Jenny Odell的说法,我们在当今的\"注意力经济\"中看到了什么? A) 对技术进步的关注持续更新着产品和服务。 B) 人们的注意力变成了可以被买卖的东西。 C) 企业通过销售手机和革新社交媒体获利。 D) 人们倾向于不加仔细思考就购买产品和服务。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He clicked on the cells randomly."
+        },
+        {
+          "label": "B",
+          "text": "He accepted the challenge readily."
+        },
+        {
+          "label": "C",
+          "text": "He completed it confidently."
+        },
+        {
+          "label": "D",
+          "text": "He worked on it submissively."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What is ironic about the Captcha test?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we see in today's attention economy according to Jenny Odell 用 according to 把答案归到 Jenny Odell 名下，是事实归属型细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we see in today's \"attention economy\" according to Jenny Odell? 主干 What do we see in today's attention economy，according to Jenny Odell 是把观点归 属到具体人物的状语，关键在于答案必须落到 Odell 的话上，而不是文章自己说的。 47. What do we see in today's \"attention economy\" according to Jenny Odell? A) Focus on technological advances continuously updates products and services. B) People's attention is turned into something that can be bought and sold. C) Businesses profit from selling mobile phones and revolutionizing social media. D) People tend to purchase products and services without careful thinking."
+        },
+        {
+          "label": "定位",
+          "text": "The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. 艺术家 Jenny Odell 论述道：在我们的「注意力经济」中，人的注意力已经被转化成大公司 买卖的商品。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 原文 This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment 说技术革命让公司能持续抢占注意力，没说技术让产 品/服务持续更新，A 项偷换了技术革命的作用。 B) ✓ 正确 human attention has been transformed into a commodity that big corporations buy and sell ↔ People's attention is turned into something that can be bought and sold 选项 B 几乎是 Odell 原话的一对一改写，主语、动词、对象、属性四要素全对齐，是 according to 型细节题里最干净的同义替换。 C) 偷换概念 原文 buy and sell 的宾语是 human attention（人的注意力），C 项把宾语偷换成 mobile phones and social media，是把抽象对象偷换成具体技术，正好踩中考生「具 象更易接受」的认知偏误。 D) 无中生有 原文谈的是公司买卖「人的注意力」，并未谈消费者本身是否冲动消费；D 项关于「人 们购买商品不细想」属凭空生造。 手机或社交媒体的普遍使用会发生什么? A) 它们不断使用户从此时此地分心。 B) 它们使用户无法抵抗诱惑。 C) 它们剥夺了用户观察体验的能力。 D) 它们诱使用户认同注意力经济。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "A machine can respond to the test as well as humans do."
+        },
+        {
+          "label": "B",
+          "text": "A machine can outperform humans in object identification."
+        },
+        {
+          "label": "C",
+          "text": "A test designed to test machines is now used by machines to test humans."
+        },
+        {
+          "label": "D",
+          "text": "A test conceived to tell a human from a robot can now do tricks humans can't."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "Why does the author use the metaphor of the boiling frog?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What happens with the prevalent use of mobile phones or social media 直接问 What happens，是问客观结果，属于细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What happens with the prevalent use of mobile phones or social media? 主干 What happens，with the prevalent use of… 是介词短语作伴随状语，相当于 when… are widely used，结构平实。 48. What happens with the prevalent use of mobile phones or social media? A) They keep distracting users from the here and now. B) They render users incapable of resisting temptation. C) They rob users of their ability to observe experience. D) They tempt users to endorse the attention economy."
+        },
+        {
+          "label": "定位",
+          "text": "The devices most people use are a perpetual diversion from the present moment. 大多数人使用的这些设备是一种让人持续偏离当下的干扰。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 The devices most people use are a perpetual diversion from the present moment ↔ They keep distracting users from the here and now A 项两个核心语义点（keep distracting、from the here and now）与原文 perpetual diversion、from the present moment 一一对应，是定位句的紧贴改写。 B) 过度推断 原文 But mindfulness can help us resist the attention economy 谈的是正念能帮我 们抵抗，B 项却说设备让用户「彻底失去抵御诱惑的能力」，把「分心」夸大为「丧失 抵抗力」，无原文依据。 C) 张冠李戴 原文 our ability to focus, and be fully present, has been stolen 谈被偷走的是「专 注、全在当下」的能力，而 capacity to observe experience 才是 observe experience 的能力，C 项把两者混在一起，张冠李戴。 D) 无中生有 原文只说设备让人分心、注意力被卖，没说设备诱使用户主动「支持/认同」注意力经 济，D 项凭空多出一个「用户主动认同」的环节。 根据一些学者的说法,练习正念能给我们带来什么好处? A) 它防止我们对他人做出武断的评判。 B) 它将我们的注意力从物质事物转移到精神追求。 C) 它有助于我们建立更好的人际关系。 D) 它有助于恢复我们享受生活中所拥有之物的能力。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "To show that humans are unwilling to trade convenience for control by smart tech."
+        },
+        {
+          "label": "B",
+          "text": "To show that humans are unaware of the potential danger brought by smart tech."
+        },
+        {
+          "label": "C",
+          "text": "To question whether humans are conditioned to accept digital tech."
+        },
+        {
+          "label": "D",
+          "text": "To question whether humans are as vulnerable as the boiling frog."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "Why does the author think that Brett Frischmann and Evan Selinger are right?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What benefit can practicing mindfulness bring to us according to some scholars 用 according to some scholars 归属信息源，是出处型细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What benefit can practicing mindfulness bring to us according to some scholars? 主 干 What benefit can practicing mindfulness bring to us，according to some scholars 是把观点归到学者群体的状语，注意不要把作者自己其它段落的好处当成学者说的。 49. What benefit can practicing mindfulness bring to us according to some scholars? A) It prevents us from making arbitrary judgments about others. B) It shifts our attention from material things to spiritual pursuits. C) It is conducive to our forging better interpersonal relationships. D) It is helpful in regaining our ability to enjoy what we have in life."
+        },
+        {
+          "label": "定位",
+          "text": "Most mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships. 多数正念研究关注其个人层面的益处，但一些学者论断：正念不仅可为己练，也可为他人而 练；它能帮我们建立更稳固、更健康的人际关系。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 「不作评判」是 P3 谈 mindfulness 个体效用时的内容，而 Q49 问的是 some scholars 的观点；把 P3 的句子嫁接到学者名下属于张冠李戴，且 prevent us from making arbitrary judgments about others 也夸大了原文「自己不评判体验」的 限定。 B) 无中生有 原文没有把好处归结为「从物质转向精神追求」，B 项凭空生造一组对立维度。 C) ✓ 正确 help us build stronger, healthier relationships ↔ conducive to our forging better interpersonal relationships C 项把学者观点收束句 help us build stronger, healthier relationships 完整改写成 conducive to our forging better interpersonal relationships，主体、动作、对象逐 项对齐。 D) 张冠李戴 「重拾享受生活的能力」对应 relish the things that make life special, like being together with those we love，是作者自己的论述而非 some scholars 的观点；嫁接到 学者名下属于张冠李戴。 作者建议我们在他人面前做什么? A) 坦诚而富有同情心地分享彼此的经历。 B) 全神贯注于与他们建立亲密关系。 C) 做专注的倾听者同时避免做出评判。 D) 提醒他们注意来自手机和社交媒体的干扰。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "A large part of digital tech is now making use of humans to meet its own ends."
+        },
+        {
+          "label": "B",
+          "text": "Humans are now fast locked in a race against digital tech to control the world."
+        },
+        {
+          "label": "C",
+          "text": "Digital tech can serve human needs in ways previously thought impossible."
+        },
+        {
+          "label": "D",
+          "text": "Digital tech is now doing thinking while humans are doing repetitive work."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author imply by asking \"Are we smart enough to jump out before it's too late?\" at the end of the passage?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author suggest we do in another person's presence 问的是作者对一个 具体场景给出的具体做法，是建议型细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author suggest we do in another person's presence? 主干 What does the author suggest we do，in another person's presence 是地点状语；suggest 后接 省略 that 的从句 we do…，注意 suggest 在此为「建议」义、不是「暗示」义。 50. What does the author suggest we do in another person's presence? A) Share each other's experience frankly and compassionately. B) Pay full attention to establishing close relationships with them. C) Be attentive listeners while refraining from making judgments. D) Remind them of the distraction from mobile phones and social media."
+        },
+        {
+          "label": "定位",
+          "text": "It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you. 这意味着练习在另一个人面前全然临在，全神贯注地倾听他们，不作评判，同时克制把对话 焦点拉回到自己身上的冲动。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 原文 resisting the urge to make the interaction about you 明确要求克制把谈话拉回 到「自己」，强调单向倾听对方；A 项却说 share each other's experience 双向分享， 与原文要求方向相反。 B) 偷换概念 原文要求把全部注意力放在对方的体验上，目的是「以正念之心送出倾听这一礼物」 （practicing being fully present in another person's presence）；B 项却把目的偷 换成 establishing close relationships with them——这是 Q49 的话题，且原文未把 它定为这一场景的目的。 C) ✓ 正确 listening to them with complete attention without judgment ↔ Be attentive listeners while refraining from making judgments C 项把作者建议的两项核心动作（with complete attention、without judgment）都 直接对应到选项的两个分句，是同义改写最紧贴的一项。 D) 无中生有 原文要求自己 putting away your phone, turning off social media, and setting aside other common distractions，即「自己」放下手机，并未要求去提醒对方；D 项把动作主体从「自己」偷换到「提醒他人」，无原文依据。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2025-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is not sensible to expect digital tech to take humans' interest to heart."
+        },
+        {
+          "label": "B",
+          "text": "It is hard to say whether technology or humans will get the upper hand."
+        },
+        {
+          "label": "C",
+          "text": "We may have to search the web to get the answer to the question."
+        },
+        {
+          "label": "D",
+          "text": "We may not awake in time to the danger digital tech poses to us."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a (26)______  for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only. Many presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is (28)______  the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a (29)______  . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books. One reason linguists agree there is no one true standard is that, through the years, there have been (30)______  supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed 26 27 28 29 30 upon — and broadcast outlets across the (31)______  have never consistently held to those standards anyway. Even so, this idea of a standard accent is (32)______  and many workplace and educational environments perpetuate the idea that accents that (33)______  from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in (34)______  such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may (35)______  with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace. A) affix B) correlate C) deviate D) domains E) influential F) inherently G) laymen H) multiple I) properties J) reality K) reciprocally L) specimen M) spectrum N) synonym O) unanimous 31 32 33 34 35",
+      "blocks": [
+        {
+          "text": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a (26)______  for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only. Many presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is (28)______  the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a (29)______  . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books. One reason linguists agree there is no one true standard is that, through the years, there have been (30)______  supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed 26 27 28 29 30 upon — and broadcast outlets across the (31)______  have never consistently held to those standards anyway. Even so, this idea of a standard accent is (32)______  and many workplace and educational environments perpetuate the idea that accents that (33)______  from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in (34)______  such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may (35)______  with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace. A) affix B) correlate C) deviate D) domains E) influential F) inherently G) laymen H) multiple I) properties J) reality K) reciprocally L) specimen M) spectrum N) synonym O) unanimous 31 32 33 34 35"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore( 臂板信号) system near London's Westminster Bridge in December of 1868.\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse- drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights. N) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red. O) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming. P) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic. Q) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow. R) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!"
+        },
+        {
+          "label": "B",
+          "text": "The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore( 臂板信号) system near London's Westminster Bridge in December of 1868."
+        },
+        {
+          "label": "C",
+          "text": "The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed."
+        },
+        {
+          "label": "D",
+          "text": "Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929."
+        },
+        {
+          "label": "E",
+          "text": "The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars."
+        },
+        {
+          "label": "F",
+          "text": "As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose."
+        },
+        {
+          "label": "G",
+          "text": "In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights."
+        },
+        {
+          "label": "H",
+          "text": "Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches."
+        },
+        {
+          "label": "I",
+          "text": "The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917."
+        },
+        {
+          "label": "J",
+          "text": "In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production."
+        },
+        {
+          "label": "K",
+          "text": "Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse- drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights."
+        },
+        {
+          "label": "L",
+          "text": "Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899."
+        },
+        {
+          "label": "M",
+          "text": "The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights. N) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red. O) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming. P) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic. Q) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow. R) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n\nP2 I was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input.\n\nP3 And then I realised what I had been doing was adding to a dataset for training the machine- learning software that guides self-driving cars. So, to gain access to an automated service that will Questions 51 to 55 are based on the following passage. benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles.\n\nP4 Neat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!\n\nP5 The strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?\n\nP6 In a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\".\n\nP7 And they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine."
+        },
+        {
+          "label": "P2",
+          "text": "I was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input."
+        },
+        {
+          "label": "P3",
+          "text": "And then I realised what I had been doing was adding to a dataset for training the machine- learning software that guides self-driving cars. So, to gain access to an automated service that will Questions 51 to 55 are based on the following passage. benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles."
+        },
+        {
+          "label": "P4",
+          "text": "Neat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!"
+        },
+        {
+          "label": "P5",
+          "text": "The strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?"
+        },
+        {
+          "label": "P6",
+          "text": "In a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\"."
+        },
+        {
+          "label": "P7",
+          "text": "And they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness.\n\nP2 The practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.\n\nP3 This practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present. Questions 46 to 50 are based on the following passage.\n\nP4 One of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n\nP5 The devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love.\n\nP6 Most mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships.\n\nP7 The sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.\n\nP8 The gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n\nP9 If we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness."
+        },
+        {
+          "label": "P2",
+          "text": "The practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events."
+        },
+        {
+          "label": "P3",
+          "text": "This practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present. Questions 46 to 50 are based on the following passage."
+        },
+        {
+          "label": "P4",
+          "text": "One of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment."
+        },
+        {
+          "label": "P5",
+          "text": "The devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love."
+        },
+        {
+          "label": "P6",
+          "text": "Most mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships."
+        },
+        {
+          "label": "P7",
+          "text": "The sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment."
+        },
+        {
+          "label": "P8",
+          "text": "The gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you."
+        },
+        {
+          "label": "P9",
+          "text": "If we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence \"Living in an increasingly competitive world, college students should better prepare themselves to confront various challenges.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. You should copy the sentence given in quotes at the beginning of your essay.",
+      "model": "Living in an increasingly competitive world, college students should better prepare themselves to confront various challenges. This preparation is no longer optional but essential, for those who wait passively will inevitably be left behind. To begin with, students ought to equip themselves with solid knowledge and practical skills rather than merely chasing high marks. For instance, in today's fierce job market, employers value candidates who can communicate, cooperate and solve real problems. What is more, developing a resilient mindset matters just as much. I still remember failing my first internship interview; instead of giving up, I reflected on my weaknesses, practised repeatedly, and finally secured a position the next semester. That experience taught me that challenges are conquered by those who keep improving. Therefore, it is high time that college students stopped drifting and started planning ahead. By strengthening both our abilities and our willpower, we can turn the pressure of competition into a driving force and stride confidently into the future.",
+      "modelZh": "【参考译文】生活在一个竞争日益激烈的世界里，大学生应当更好地武装自己，去迎接各种挑战。这种准备不再是可有可无，而是不可或缺的，因为那些被动等待的人终将被甩在后面。首先，学生应当用扎实的知识和实用的技能武装自己，而不是一味追求高分。例如，在当今竞争激烈的就业市场，用人单位看重的是能够沟通、协作并解决实际问题的求职者。此外，培养一种坚韧的心态同样重要。我至今记得第一次实习面试失利；我没有放弃，而是反思自己的不足，反复练习，终于在下个学期争取到了一个职位。那段经历让我明白：挑战属于那些不断进步的人。因此，大学生该停止随波逐流、开始提前规划了。通过同时强化我们的能力与意志，我们就能把竞争的压力转化为前进的动力，自信地大步迈向未来。【第 1 段】抄首句加点题落实。开头逐字照抄了给定首句，满足 copy the sentence given in quotes at",
+      "outline": [
+        {
+          "no": 1,
+          "text": "抄首句加点题落实。开头逐字照抄了给定首句，满足 copy the sentence given in quotes at the beginning of your essay；随后 \"This preparation is no longer optional but essential, for those who wait passively will inevitably be left behind\" 承接首句、亮出立场，正是 outline 第一段\"抄首句 加点题\"的功能。"
+        },
+        {
+          "no": 2,
+          "text": "四步双要点撑起主体。本段主题句提出\"练本领\"，用 \"For instance, in today's fierce job market\" 举就业例子坐实；再以 \"What is more\" 引出\"炼心态\"要点，用面试失利后坚持的个人经历收 尾，落实了题目允许的 cite examples or use your personal experiences，兑现了主题句—理由—例证 —小结四步法。"
+        },
+        {
+          "no": 3,
+          "text": "重申加呼吁收束。以 \"Therefore, it is high time that college students stopped drifting\" 因果重申立场，再用 \"turn the pressure of competition into a driving force\" 发出具体呼吁，达成 outline 第三段\"重申并呼吁\"的功能，文章有落点不烂尾。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 节俭 (frugality) 是中华民族的传统美德。在中国古代，生产力低下，先人们深知劳动成果来之不 易，因而秉持节俭的理念。到了物质极大丰富的今天，中国人民依然坚持节俭的生活方式，体现了理 性消费的生活理念和对劳动的尊重。近年来，中国政府持续加强节约型社会的建设，倡导\"光盘行 动\"，减少食物浪费，提倡简约低碳的生活方式，推进资源循环利用，反对过度消费。节约型社会的建 设有力地推动了中国经济的高质量发展。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Frugality is a traditional virtue of the Chinese nation. In ancient China, productivity was low, and our ancestors knew well that the fruits of labor did not come easily, so they upheld the idea of frugality. Today, when material wealth is abundant, the Chinese people still maintain a frugal lifestyle, reflecting their concept of rational consumption and their respect for labor. In recent years, the Chinese government has been strengthening the building of a resource-conserving society by advocating the \"Clear Your Plate\" campaign to reduce food waste, promoting a simple and low-carbon lifestyle, advancing the recycling of resources, and opposing excessive consumption. This building of a resource-conserving society has strongly promoted the high-quality development of China's economy.",
+      "source": "节俭 (frugality) 是中华民族的传统美德。在中国古代，生产力低下，先人们深知劳动成果来之不易，因而秉持节俭的理念。到了物质极大丰富的今天，中国人民依然坚持节俭的生活方式，体现了理性消费的生活理念和对劳动的尊重。近年来，中国政府持续加强节约型社会的建设，倡导\"光盘行动\"，减少食物浪费，提倡简约低碳的生活方式，推进资源循环利用，反对过度消费。节约型社会的建设有力地推动了中国经济的高质量发展。",
+      "reference": "Frugality is a traditional virtue of the Chinese nation. In ancient China, productivity was low, and our ancestors knew well that the fruits of labor did not come easily, so they upheld the idea of frugality. Today, when material wealth is abundant, the Chinese people still maintain a frugal lifestyle, reflecting their concept of rational consumption and their respect for labor. In recent years, the Chinese government has been strengthening the building of a resource-conserving society by advocating the \"Clear Your Plate\" campaign to reduce food waste, promoting a simple and low-carbon lifestyle, advancing the recycling of resources, and opposing excessive consumption. This building of a resource-conserving society has strongly promoted the high-quality development of China's economy.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "节俭是传统美德（A is B）（主语策略：原句主语） 这是一个判断句 节俭 (frugality) 是中华民族的传统美德，骨架就是\"A 是 B\"：主语 Frugality，系 动词 is，表语 a traditional virtue。\"中华民族的\"作定语修饰 virtue。"
+          },
+          {
+            "label": "降级",
+            "text": "\"中华民族的\"作前置/of定语 本句结构简单、无需大改。唯一要安放的是定语 中华民族的：可前置为 a traditional Chinese virtue，或用 of 后置为 a traditional virtue of the Chinese nation，两者皆可，不必照中文堆在 名词前。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般现在时：is。陈述一个一直成立的事实，不用过去时。 冠词 virtue 是可数名词单数，表\"一种美德\"，前面要加不定冠词 a：a traditional virtue，漏冠词是主 体考生高频硬伤。 大小写 Frugality 作句首主语首字母大写；表民族的 Chinese 专有形容词任何位置都大写。"
+          },
+          {
+            "label": "译文",
+            "text": "Frugality is a traditional virtue of the Chinese nation. 2. 在中国古代，生产力低下，先人们深知劳动成果来之不易，因而秉持节俭的理念。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "先人们深知…因而秉持…（主语策略：原句主语） 这是个含因果的长句。核心主语是 先人们（our ancestors），两个并列谓语动作是\"深知\"(knew well) 和\"秉持\"(upheld)，由 因而 连成因果。开头的 在中国古代，生产力低下 是背景，不进主 干、作状语处理。"
+          },
+          {
+            "label": "降级",
+            "text": "背景作状语+从句+因果连接 把三段降级安放：① 在中国古代 时间状语 In ancient China；② 生产力低下 可作伴随背景， 用 with productivity being low 或独立分句 productivity was low；③ 劳动成果来之不易 作 knew 的宾语从句 that the fruits of labor did not come easily；④ 因而→so/and therefore 引 出结果。避免照中文用四个\"逗号+动词\"平铺成流水句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 偏离全篇基调：本句讲 在中国古代 的事，是已经过去的历史，全部动词用一般过去时——was low/knew/did not come/upheld，不能用现在时。这是本篇唯一的时态例外，要特别警觉。 单复数 \"先人们\"是复数：our ancestors（复数 + 复数谓语）。\"劳动成果\"宜用复数 the fruits of labor。 短语搭配 \"来之不易\"译 did not come easily/were hard-won；\"秉持……理念\"用 upheld the idea/value of frugality，搭配 uphold/embrace 比生硬的 hold 地道。"
+          },
+          {
+            "label": "译文",
+            "text": "In ancient China, productivity was low, and our ancestors knew well that the fruits of labor did not come easily, so they upheld the idea of frugality. 3. 到了物质极大丰富的今天，中国人民依然坚持节俭的生活方式，体现了理性消费的生活理念 和对劳动的尊重。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "中国人民依然坚持…（主语策略：原句主语） 主语是 中国人民（the Chinese people），核心谓语是 依然坚持（still maintain/adhere to）， 宾语是 节俭的生活方式（a frugal lifestyle）。后半的 体现了…… 是这种坚持带来的结果/补充说 明，不抢主干。"
+          },
+          {
+            "label": "降级",
+            "text": "\"体现了…\"用现在分词作状语 把两处降级：① 到了物质极大丰富的今天 时间状语 Today, when material wealth is abundant （或 In today's age of material abundance）；② 体现了理性消费的生活理念和对劳动的尊重 用现在分词短语 reflecting their concept of rational consumption and their respect for labor，作伴随状语挂在主干后，比再起一个并列谓语更地道，也避免缺主语。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回到全篇基调一般现在时：maintain/adhere、reflecting。本句讲 今天 的现状，正合现在时。 主谓一致 the Chinese people 表\"人民、人们\"作复数，谓语用原形 maintain/adhere（不加 s）；分词逻辑 主语也是 people，物主代词用 their。 单复数与冠词 lifestyle 可数，表\"一种生活方式\"用 a frugal lifestyle；consumption/labor/respect 此处是抽象 不可数名词，不加 a、不加复数。"
+          },
+          {
+            "label": "译文",
+            "text": "Today, when material wealth is abundant, the Chinese people still maintain a frugal lifestyle, reflecting their concept of rational consumption and their respect for labor. 4. 近年来，中国政府持续加强节约型社会的建设，倡导\"光盘行动\"，减少食物浪费，提倡简约 低碳的生活方式，推进资源循环利用，反对过度消费。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "政府持续加强建设（领起多个并列动作）（主语策略：原句主语） 主语是 中国政府（the Chinese government），主干谓语取最核心的 持续加强节约型社会的建设 （has been strengthening the building of a resource-conserving society）。后面 倡导\"光盘 行动\" 等一连串动作都是\"加强建设\"的具体举措，不是平级新句。"
+          },
+          {
+            "label": "降级",
+            "text": "一串动作打包成by doing方式状语 把 倡导\"光盘行动\"，减少食物浪费，提倡简约低碳的生活方式，推进资源循环利用，反对过度消费 这五个并列动作，统一降级为 by + 动名词的方式状语：by advocating the \"Clear Your Plate\" campaign to reduce food waste, promoting a simple and low-carbon lifestyle, advancing the recycling of resources, and opposing excessive consumption。其中\"减少食物浪费\"是\"光 盘行动\"的目的，用 to reduce 不定式挂上去，逻辑更紧。这样避免六个 and 堆成超长流水句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 近年来 + 持续 表示从过去延续到现在并仍在进行，宜用现在完成进行时 has been strengthening （用一般现在时 strengthens 亦可接受）。这是\"近年来\"的标志性时态，不要用一般过去时。 主谓一致 the Chinese government 是单数集体名词，谓语用 has been/strengthens（单数）；与第3句 people 的复数谓语区分开。 动名词并列形态 by 后所有动作必须统一为动名词 -ing 形式（advocating/promoting/advancing/opposing）， 不能 by 后混进原形或 to do，并列项形式要一致。 单复数 campaign 特指\"光盘行动\"用 the；food waste/consumption 抽象不可数不加复数；resources 表\"各类资源\"用复数。"
+          },
+          {
+            "label": "译文",
+            "text": "In recent years, the Chinese government has been strengthening the building of a resource-conserving society by advocating the \"Clear Your Plate\" campaign to reduce food waste, promoting a simple and low-carbon lifestyle, advancing the recycling of resources, and opposing excessive consumption. 5. 节约型社会的建设有力地推动了中国经济的高质量发展。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "建设推动了发展（主语策略：原句主语） 主语是 节约型社会的建设（the building of a resource-conserving society），谓语 有力地推动 了（has strongly promoted），宾语 中国经济的高质量发展（the high-quality development of China's economy）。是清晰的\"主语—推动—宾语\"结构。"
+          },
+          {
+            "label": "降级",
+            "text": "两处\"…的\"均用of短语后置 本句是简单句，无需大拆。两处长定语都用 of 后置：节约型社会的建设→the building of a resource-conserving society；中国经济的高质量发展→the high-quality development of China's economy。\"有力地\"作副词 strongly 修饰谓语。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"推动了\"含已产生的结果且延续至今，用现在完成时 has promoted 最贴；回指基调用一般现在时 promotes 亦可。主语 the building 单数，助动词用 has。 主谓一致 主语中心词是 building（单数），谓语用 has promoted/promotes（单数），别被后面的 society 带偏成复数。 搭配与名词 \"高质量发展\"用 high-quality development（high-quality 作复合形容词加连字符）； development、economy 此处不可数/特指，development 不加复数、economy 用 China's 限 定。"
+          },
+          {
+            "label": "译文",
+            "text": "The building of a resource-conserving society has strongly promoted the high- quality development of China's economy. 英语六级 2025年12月·第3套 · 全卷构成 Part II 听力 与2025年12月第1套共用 · 题目解析 → Part III Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "no-audio",
+    "passage-truncated"
+  ]
+}

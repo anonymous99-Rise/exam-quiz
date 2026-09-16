@@ -1,0 +1,1346 @@
+{
+  "2020-07-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/97/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 38.066,
+          "end": 218.666
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 234,
+          "end": 427.966
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 472.4,
+          "end": 639.933
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 655.2,
+          "end": 838.666
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 881.066,
+          "end": 1111.666
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1126.333,
+          "end": 1351.2
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1366.5,
+          "end": 1592.266
+        }
+      ]
+    }
+  },
+  "2020-09-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/100/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.433,
+          "end": 222.833
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 237.9,
+          "end": 418.8
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 462.1,
+          "end": 620.9
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 636.033,
+          "end": 813.533
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 855.233,
+          "end": 1077.8
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1092.733,
+          "end": 1300.833
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1315.533,
+          "end": 1557
+        }
+      ]
+    }
+  },
+  "2020-12-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/103/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 40.366,
+          "end": 213
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 228.533,
+          "end": 413.866
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 457.133,
+          "end": 611.1
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 625.467,
+          "end": 783.5
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 825.266,
+          "end": 1049.7
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1064.866,
+          "end": 1273.466
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1288.733,
+          "end": 1524.333
+        }
+      ]
+    }
+  },
+  "2020-12-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/102/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 41.266,
+          "end": 226.2
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 242.066,
+          "end": 435.8
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 479.666,
+          "end": 634.7
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 650.166,
+          "end": 834.4
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 876.933,
+          "end": 1109.2
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1123.766,
+          "end": 1333.9
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1349.5,
+          "end": 1583.1
+        }
+      ]
+    }
+  },
+  "2021-06-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/106/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 45.2,
+          "end": 226.7
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 242.566,
+          "end": 433
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 478.566,
+          "end": 657.2
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 673.2,
+          "end": 858.9
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 903.5,
+          "end": 1142.466
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1158.466,
+          "end": 1394.6
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1410.333,
+          "end": 1671
+        }
+      ]
+    }
+  },
+  "2021-06-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/105/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 44.566,
+          "end": 243.5
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 258.533,
+          "end": 459.9
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 505.766,
+          "end": 673.533
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 688.3,
+          "end": 880.9
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 924.733,
+          "end": 1171.666
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1187,
+          "end": 1407.266
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1422.766,
+          "end": 1686.5
+        }
+      ]
+    }
+  },
+  "2021-12-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/109/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.666,
+          "end": 210.2
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 225.466,
+          "end": 415.466
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 456.201,
+          "end": 612.933
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 627.6,
+          "end": 802.466
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 843.3,
+          "end": 1074.5
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1089.3,
+          "end": 1307.9
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1322.9,
+          "end": 1557.933
+        }
+      ]
+    }
+  },
+  "2021-12-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/108/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.266,
+          "end": 233.733
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 249,
+          "end": 440.966
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 482.866,
+          "end": 644.9
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 659.733,
+          "end": 839.533
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 880.6,
+          "end": 1085.166
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1100.266,
+          "end": 1315.933
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1331.3,
+          "end": 1599.533
+        }
+      ]
+    }
+  },
+  "2022-06-1": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2022-06-1.mp3",
+      "size": 13944033,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 43.266,
+          "end": 249.8
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 266.2,
+          "end": 468.1
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 515.333,
+          "end": 697.966
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 713.533,
+          "end": 906.2
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 953.533,
+          "end": 1183
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1198.733,
+          "end": 1434.933
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1450.933,
+          "end": 1691.166
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/112/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2022.06/2022.06英语六级听力音频/2022年06月六级真题（全1套）.mp3"
+    }
+  },
+  "2022-09-1": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2022-09-1.mp3",
+      "size": 69537756,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 42.066,
+          "end": 226.8
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 244.7,
+          "end": 432.066
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 478.866,
+          "end": 650.2
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 667.533,
+          "end": 854.366
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 899.366,
+          "end": 1126.666
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1141.966,
+          "end": 1357.733
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1375.3,
+          "end": 1616.266
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/115/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2022.09/2022年09月六级真题（全1套）.mp3"
+    }
+  },
+  "2022-12-1": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2022-12-1.mp3",
+      "size": 19911175,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.2,
+          "end": 215.733
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 231.4,
+          "end": 420.8
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 463.966,
+          "end": 635
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 650.166,
+          "end": 840.7
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 881.9,
+          "end": 1132.533
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1148,
+          "end": 1352.1
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1367.3,
+          "end": 1619.4
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/118/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套听力.mp3"
+    }
+  },
+  "2022-12-2": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2022-12-2.mp3",
+      "size": 19307494,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.466,
+          "end": 228.9
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 244.5,
+          "end": 420.166
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 462.6,
+          "end": 621.8
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 637.166,
+          "end": 828.1
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 868.766,
+          "end": 1087.1
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1102.733,
+          "end": 1327.466
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1342.866,
+          "end": 1569.766
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/117/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2022.12/2022.12第2套/2022.12六级真题第2套听力.mp3"
+    }
+  },
+  "2023-03-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/121/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.366,
+          "end": 209.166
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 223.801,
+          "end": 416.966
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 458.066,
+          "end": 617.333
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 632.4,
+          "end": 803.266
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 844.4,
+          "end": 1077.166
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1092.566,
+          "end": 1326.7
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1342.001,
+          "end": 1558
+        }
+      ]
+    }
+  },
+  "2023-06-1": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2023-06-1.mp3",
+      "size": 20119016,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.133,
+          "end": 220.666
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 236.1,
+          "end": 432.733
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 474.933,
+          "end": 640.133
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 655.466,
+          "end": 871.966
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 913.933,
+          "end": 1135.866
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1150.966,
+          "end": 1379.466
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1394.866,
+          "end": 1635.733
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/124/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套听力音频.mp3"
+    }
+  },
+  "2023-06-2": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2023-06-2.mp3",
+      "size": 20119815,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.366,
+          "end": 218.866
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 234.3,
+          "end": 415
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 457,
+          "end": 619.3
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 634.466,
+          "end": 832.733
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 874.2,
+          "end": 1124.533
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1139.933,
+          "end": 1371.066
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1386.266,
+          "end": 1636.566
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/123/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2023.06/2023.06第2套/2023.06六级真题第2套听力音频.mp3"
+    }
+  },
+  "2023-12-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/127/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 40.766,
+          "end": 212.966
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 229.333,
+          "end": 413.533
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 457.2,
+          "end": 617.733
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 632.466,
+          "end": 813.533
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 855.133,
+          "end": 1079.066
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1094.7,
+          "end": 1302.4
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1318.2,
+          "end": 1548.7
+        }
+      ]
+    }
+  },
+  "2023-12-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/126/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 39.7,
+          "end": 217.266
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 232.533,
+          "end": 398.333
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 442.5,
+          "end": 605.766
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 620.566,
+          "end": 799.5
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 841.2,
+          "end": 1053.866
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1068.467,
+          "end": 1284.966
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1300.4,
+          "end": 1547.733
+        }
+      ]
+    }
+  },
+  "2024-06-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/204/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 35.9,
+          "end": 208.6
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 224.266,
+          "end": 412.166
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 458.866,
+          "end": 639.4
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 654.933,
+          "end": 842.166
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 882.333,
+          "end": 1103.166
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1118.2,
+          "end": 1343.866
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1359.6,
+          "end": 1602.6
+        }
+      ]
+    }
+  },
+  "2024-06-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/205/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.4,
+          "end": 211.6
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 227.133,
+          "end": 412.9
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 459.5,
+          "end": 615.166
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 630.533,
+          "end": 799.7
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 839.3,
+          "end": 1050.9
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1066.6,
+          "end": 1278.933
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1294.133,
+          "end": 1532.166
+        }
+      ]
+    }
+  },
+  "2024-12-1": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2024-12-1.mp3",
+      "size": 70863497,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.5,
+          "end": 234.9
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 250.566,
+          "end": 435.133
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 476.866,
+          "end": 627.966
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 642.966,
+          "end": 841.266
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 883.3,
+          "end": 1128.766
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1144.766,
+          "end": 1352.133
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1367.8,
+          "end": 1648.533
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第1套.mp3"
+    }
+  },
+  "2024-12-2": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2024-12-2.mp3",
+      "size": 27895942,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.3,
+          "end": 216.8
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 232.5,
+          "end": 417.333
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 459.566,
+          "end": 642.333
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 658.166,
+          "end": 855.966
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 898.133,
+          "end": 1119.5
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1134.7,
+          "end": 1365.566
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1381.533,
+          "end": 1623.066
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/208/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第2套.mp3"
+    }
+  },
+  "2025-06-1": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2025-06-1.mp3",
+      "size": 18501013,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 41.5,
+          "end": 210.7
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 226.133,
+          "end": 408.033
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 452.433,
+          "end": 616.033
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 631.033,
+          "end": 807.3
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 848.7,
+          "end": 1077.233
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1093,
+          "end": 1296.266
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1311.466,
+          "end": 1541.9
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/219/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2025.06/2025年6月六级听力音频/2025年6月六级音频1.MP3"
+    }
+  },
+  "2025-06-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/220/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 41,
+          "end": 223.9
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 238.733,
+          "end": 421.433
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 465.333,
+          "end": 639.533
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 654.4,
+          "end": 833.433
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 874.8,
+          "end": 1072.133
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1087.066,
+          "end": 1304.533
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1320,
+          "end": 1550.633
+        }
+      ]
+    }
+  },
+  "2025-12-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/225/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.9,
+          "end": 221.724
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 237.468,
+          "end": 407.564
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 452.156,
+          "end": 598.428
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 614.044,
+          "end": 796.364
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 836.62,
+          "end": 1040.3
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1056.204,
+          "end": 1282.924
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1298.396,
+          "end": 1526.412
+        }
+      ]
+    }
+  },
+  "2025-12-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/226/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 38.476,
+          "end": 217.836
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 233.388,
+          "end": 416.572
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 460.924,
+          "end": 627.628
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 642.94,
+          "end": 821.26
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 861.372,
+          "end": 1075.084
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1090.572,
+          "end": 1310.892
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1326.94,
+          "end": 1538.06
+        }
+      ]
+    }
+  },
+  "2026-06-1": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/234/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 38.066,
+          "end": 203.233
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 218.933,
+          "end": 394.466
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 437.266,
+          "end": 597.533
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 612.333,
+          "end": 782.233
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 825.133,
+          "end": 1052.3
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1067.466,
+          "end": 1267.266
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1283.1,
+          "end": 1490.4
+        }
+      ]
+    }
+  },
+  "2026-06-2": {
+    "audio": {
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/235/index.m3u8",
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 39.44,
+          "end": 209.1
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 224.64,
+          "end": 408.24
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 452.12,
+          "end": 626.18
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 642.04,
+          "end": 821.46
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 865.1,
+          "end": 1075.76
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1091.3,
+          "end": 1324.08
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1339.7,
+          "end": 1569.86
+        }
+      ]
+    }
+  },
+  "2022-12-3": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2022-12-1.mp3",
+      "size": 19911175,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 36.2,
+          "end": 215.733
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 231.4,
+          "end": 420.8
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 463.966,
+          "end": 635
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 650.166,
+          "end": 840.7
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 881.9,
+          "end": 1132.533
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1148,
+          "end": 1352.1
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1367.3,
+          "end": 1619.4
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/118/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套听力.mp3",
+      "sharedWith": "2022-12-1",
+      "note": "素材库注记：第3套听力与第2套或第1套完全相同"
+    }
+  },
+  "2023-06-3": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2023-06-1.mp3",
+      "size": 20119016,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.133,
+          "end": 220.666
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 236.1,
+          "end": 432.733
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 474.933,
+          "end": 640.133
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 655.466,
+          "end": 871.966
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 913.933,
+          "end": 1135.866
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1150.966,
+          "end": 1379.466
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1394.866,
+          "end": 1635.733
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/124/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套听力音频.mp3",
+      "sharedWith": "2023-06-1",
+      "note": "素材库注记：第3套听力与第2套或第1套完全相同"
+    }
+  },
+  "2024-12-3": {
+    "audio": {
+      "kind": "mp3",
+      "url": "/audio/cet6-2024-12-1.mp3",
+      "size": 70863497,
+      "pieces": [
+        {
+          "label": "Section A · 第 1 篇 · 1–4 题",
+          "start": 37.5,
+          "end": 234.9
+        },
+        {
+          "label": "Section A · 第 2 篇 · 5–8 题",
+          "start": 250.566,
+          "end": 435.133
+        },
+        {
+          "label": "Section B · 第 1 篇 · 9–11 题",
+          "start": 476.866,
+          "end": 627.966
+        },
+        {
+          "label": "Section B · 第 2 篇 · 12–15 题",
+          "start": 642.966,
+          "end": 841.266
+        },
+        {
+          "label": "Section C · 第 1 篇 · 16–18 题",
+          "start": 883.3,
+          "end": 1128.766
+        },
+        {
+          "label": "Section C · 第 2 篇 · 19–21 题",
+          "start": 1144.766,
+          "end": 1352.133
+        },
+        {
+          "label": "Section C · 第 3 篇 · 22–25 题",
+          "start": 1367.8,
+          "end": 1648.533
+        }
+      ],
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8",
+      "source": "CET6-Resources",
+      "localPath": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第1套.mp3",
+      "sharedWith": "2024-12-1",
+      "note": "素材库注记：全国考试音频是2套，第3套与前面两套共用"
+    }
+  }
+}

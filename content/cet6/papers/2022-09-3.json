@@ -1,0 +1,133 @@
+{
+  "id": "2022-09-3",
+  "examId": "cet6",
+  "year": 2022,
+  "month": 9,
+  "session": "2022上半年",
+  "setNo": 3,
+  "label": "2022年9月",
+  "questions": [],
+  "passages": {},
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sen tence “It is now widely accepted that mutual trust and openness is the key to promoting cooperation.” You can make comments,cite examples, or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "model": "It is now widely accepted that mutual trust and openness is the key to promoting cooperation. When people or organizations are willing to share information honestly and believe in each other's good intentions, they can join hands far more effectively than those who hold everything back. The reason is simple: trust removes the fear that keeps partners guarding themselves, while openness lets them pool their strengths toward a common goal. A telling example is my own experience in a group research project last term. At first, two members kept their data private, worried that others might take the credit, and our progress almost stalled. Once we agreed to be transparent and openly admitted our doubts, ideas flowed freely, tasks were divided fairly, and we finished ahead of schedule. The same logic explains why companies that communicate frankly with their partners tend to build lasting alliances rather than short-lived deals. In short, without trust and openness, cooperation is built on sand. Only when we dare to be honest and give others our confidence can genuine collaboration take root and bear fruit.",
+      "modelZh": "【参考译文】如今人们普遍认为，相互信任与开放是促进合作的关键。当人们或组织愿意坦诚地共享信息、相信彼此心怀善意时，他们携手共事的效率，会远远高于那些把一切都藏着掖着的人。道理很简单：信任消除了让伙伴彼此设防的顾虑，而开放让双方得以把各自的长处汇聚到共同目标上。一个很能说明问题的例子来自我上学期一次小组研究项目的亲身经历。起初，两名成员把自己的数据藏着不肯共享，担心别人抢功，我们的进度几乎停滞。一旦我们约定彼此透明、坦率地说出各自的疑虑，想法便自由流动，任务分工公平，我们最终提前完成了任务。同样的逻辑也解释了为什么那些与合作方坦诚沟通的企业，往往能结成长久的联盟，而非昙花一现的交易。总之，没有信任与开放，合作就像建在沙上。只有当我们敢于坦诚、愿意把信任交给他人时，真正的协作才能扎根、结果。【第 1 段】首句照抄加方向句。本段第一句原样照抄了题目首句，第二句 When people ororganizations are willing to share information honestly... 用一个鲜明对比点明方向，落实了‘抄首句后一句点方向’。【第 2 段】道理加亲历加回扣三步。本段先用 The reason is simple: trust removes the fear... 讲清因果",
+      "outline": [
+        {
+          "no": 1,
+          "text": "首句照抄加方向句。本段第一句原样照抄了题目首句，第二句 When people or organizations are willing to share information honestly... 用一个鲜明对比点明方向，落实了‘抄首句后 一句点方向’。"
+        },
+        {
+          "no": 2,
+          "text": "道理加亲历加回扣三步。本段先用 The reason is simple: trust removes the fear... 讲清因果 机制，再用 my own experience in a group research project 举亲历例子，最后 The same logic explains why companies... 把逻辑延伸并回扣中心，正是‘先讲道理再落一例’。"
+        },
+        {
+          "no": 3,
+          "text": "反面加正面重申。本段先用 without trust and openness, cooperation is built on sand 从 反面强调分量，再用 Only when we dare to be honest... 正面重申升华，落实‘反面收紧再正面重申’。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 中央电视台总部大楼位于北京市朝阳区，总建筑面积约55万平方米。主楼由两座塔楼组成，因其 独特的造型，成为这座城市的一个热门景点，每天都吸引众多游客前来参观。 大楼的创新结构是中外 建筑师长期合作的成果，不仅体现了环保意识，而且大大节约了建筑材料。中央电视台总部设有一条 穿过大楼的专用通道，向公众展示各个工作室以及中央电视台的历史。在那里，参观者还可以看到故 宫和北京其他地方的壮观景色。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 The CCTV Headquarters is located in the Chaoyang District of Beijing, with a total floor area of about 550,000 square meters. Consisting of two towers, the main building has become a popular attraction in the city because of its unique shape, attracting crowds of visitors every day. Its innovative structure is the result of long-term cooperation between Chinese and foreign architects; it not only reflects environmental awareness but also greatly saves construction materials. The CCTV Headquarters features a special passage running through the building, which shows the public its various studios and the history of CCTV. There, visitors can also enjoy spectacular views of the Forbidden City and other places in Beijing.",
+      "source": "中央电视台总部大楼位于北京市朝阳区，总建筑面积约55万平方米。主楼由两座塔楼组成，因其独特的造型，成为这座城市的一个热门景点，每天都吸引众多游客前来参观。 大楼的创新结构是中外建筑师长期合作的成果，不仅体现了环保意识，而且大大节约了建筑材料。中央电视台总部设有一条穿过大楼的专用通道，向公众展示各个工作室以及中央电视台的历史。在那里，参观者还可以看到故宫和北京其他地方的壮观景色。",
+      "reference": "The CCTV Headquarters is located in the Chaoyang District of Beijing, with a total floor area of about 550,000 square meters. Consisting of two towers, the main building has become a popular attraction in the city because of its unique shape, attracting crowds of visitors every day. Its innovative structure is the result of long-term cooperation between Chinese and foreign architects; it not only reflects environmental awareness but also greatly saves construction materials. The CCTV Headquarters features a special passage running through the building, which shows the public its various studios and the history of CCTV. There, visitors can also enjoy spectacular views of the Forbidden City and other places in Beijing.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "大楼·位于·朝阳区（主语策略：原句主语） 中文主语明确就是 中央电视台总部大楼，核心动词是 位于，故英文主干 The CCTV Headquarters is located in / lies in Chaoyang District。“面积约55万平方米”不是新的独立主谓，而是补充大楼 的体量，主干仍只立“大楼位于朝阳区”这一套主谓宾。"
+          },
+          {
+            "label": "降级",
+            "text": "面积信息降级为伴随 总建筑面积约55万平方米 是对大楼的补充描述，不该和“位于朝阳区”用 and 平铺成两个对等分 句。把它降级成 with 引导的介词短语作伴随状语：with a total floor area of about 550,000 square meters，挂在主干后面。这样一主一从，避免写成 The building is in Chaoyang District and its area is... 的流水句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般现在时：大楼现在就坐落在那里，is located / lies，不用过去时。 数字表达 “约55万平方米”写成 about 550,000 square meters；英文按千分位，55万 = 550,000，square meters 用复数。注意“约”用 about / approximately，别漏。 介词搭配 be located / situated 后接地点用 in（大区域用 in）：is located in Chaoyang District, Beijing。"
+          },
+          {
+            "label": "译文",
+            "text": "The CCTV Headquarters is located in the Chaoyang District of Beijing, with a total floor area of about 550,000 square meters. 2. 主楼由两座塔楼组成，因其独特的造型，成为这座城市的一个热门景点，每天都吸引众多游 客前来参观。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "主楼·成为·热门景点（主语策略：原句主语） 这句中文一连串了好几个动作：由两座塔楼组成、成为这座城市的一个热门景点、吸引众多游客。 要挑一个最核心的当主干谓语——“成为热门景点”是这句的落点，故主干立 The main building has become a popular attraction，主语沿用原句的 主楼（the main building）。"
+          },
+          {
+            "label": "降级",
+            "text": "三个动作两降一谓 主干是“成为景点”。其余两个动作降级安放：由两座塔楼组成 改成 consisting of two towers 的现 在分词短语作后置定语（修饰 main building）；因其独特的造型 是原因，用 because of / owing to its unique shape 的介词短语作原因状语；每天都吸引众多游客前来参观 用 attracting 现在分词短语收尾表结果。整句拆成“一主谓 + 一原因状语 + 一后置定语 + 一结果分词”，而不是 四个分句平铺。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 主体跟基调用一般现在时（attracts / is）；“成为”表已经成为的状态可用现在完成时 has become，更准，仍属基调允许的偏离。 单复数 两座塔楼 是两座，two towers 用复数；众多游客 译 crowds of visitors / a large number of tourists，visitors/tourists 复数。 冠词 一个热门景点 是泛指的一个，用不定冠词 a popular attraction；the main building 特指这座主 楼，用 the。 主谓一致 主干 has become 跟单数主语 the main building 一致；若用并列谓语 attracts，第三人称单数也 要加 s。"
+          },
+          {
+            "label": "译文",
+            "text": "Consisting of two towers, the main building has become a popular attraction in the city because of its unique shape, attracting crowds of visitors every day. 3. 大楼的创新结构是中外建筑师长期合作的成果，不仅体现了环保意识，而且大大节约了建筑 材料。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "结构·是·成果（主语策略：原句主语） 句首明确主语是 大楼的创新结构，核心系动词是“是”，故主干 The building's innovative structure is the result of...。后半“不仅……而且……”是对这个结构的进一步评价，挂在主干之后， 主语仍是这个结构。"
+          },
+          {
+            "label": "降级",
+            "text": "不仅而且作并列谓语 中外建筑师长期合作 降级成 of 后的名词短语 the result of long-term cooperation between Chinese and foreign architects，作定语说明成果来自哪。不仅体现了环保意识，而且大大节约 了建筑材料 用 not only... but also... 关联两个并列谓语：not only reflects environmental awareness but also greatly saves construction materials，让递进关系显形，而不是写成两个孤 立短句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指基调用一般现在时：结构现在仍体现环保、仍节约材料，reflects / saves；中文“了”是完成体 助词，不等于英文过去时，别误译成 reflected。 主谓一致 主语 structure 第三人称单数，not only... but also... 接的两个谓语都跟它一致：reflects, saves （加 s）。 用词搭配 环保意识 译 environmental awareness / environmental protection；节约了建筑材料 用 save construction / building materials，materials 复数；“大大”用副词 greatly / considerably 修饰 save。"
+          },
+          {
+            "label": "译文",
+            "text": "The building's innovative structure is the result of long-term cooperation between Chinese and foreign architects; it not only reflects environmental awareness but also greatly saves construction materials. 4. 中央电视台总部设有一条穿过大楼的专用通道，向公众展示各个工作室以及中央电视台的 历史。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "总部·设有·通道（主语策略：原句主语） 主语是 中央电视台总部（the CCTV Headquarters），核心动词是 设有（has / features），宾语 是 一条穿过大楼的专用通道（a special passage）。故主干 The CCTV Headquarters has a special passage。后半“向公众展示……”是这条通道的功能，挂在通道后面。"
+          },
+          {
+            "label": "降级",
+            "text": "定语后置功能再挂 穿过大楼的 修饰通道，降级成现在分词短语 running through the building 作后置定语（a special passage running through the building）。向公众展示各个工作室以及中央电视台的历 史 是这条通道的用途，用定语从句 which shows the public its studios and the history of CCTV 挂在通道之后，避免另起一句重复主语。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指基调用一般现在时：通道现在就设着、现在就向公众展示，has / shows。 单复数 各个工作室 不止一间，studios 用复数；一条……专用通道 是一条，a special passage 单数加 a。 用词搭配 向公众展示 用 show the public / present to the public；中央电视台的历史 用 the history of CCTV，特指用 the。"
+          },
+          {
+            "label": "译文",
+            "text": "The CCTV Headquarters features a special passage running through the building, which shows the public its various studios and the history of CCTV. 5. 在那里，参观者还可以看到故宫和北京其他地方的壮观景色。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "参观者·可看到·景色（主语策略：原句主语） 主语明确是 参观者（visitors），谓语 可以看到（can enjoy / see），宾语 故宫和北京其他地方的 壮观景色（spectacular views）。故主干 visitors can also enjoy spectacular views。句首 在那 里 是地点状语，前置呼应上一句的通道。"
+          },
+          {
+            "label": "降级",
+            "text": "并列对象合用介词 这句结构本就简单，主干清楚即可。需处理的是 故宫和北京其他地方 这个并列的所属：用 of 把两 者一并挂到 views 后——spectacular views of the Forbidden City and other places in Beijing，用一个 of 统辖两个并列对象，不必拆两句。在那里 用 There / From there 承接上句的 通道。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指基调用一般现在时 + 情态 can：参观者现在在那里就能看到，visitors can enjoy。 单复数 参观者 泛指来访的人，visitors 复数；壮观景色 views 用复数（不止一处景）；其他地方 other places 复数。 专名冠词 故宫 用约定俗成译名 the Forbidden City，专名带 the，首字母大写，全篇统一。"
+          },
+          {
+            "label": "译文",
+            "text": "There, visitors can also enjoy spectacular views of the Forbidden City and other places in Beijing. 英语六级 2022年9月·第3套 · 全卷构成 Part II 听力 与2022年9月第1套共用 · 题目解析 → Part III Section A 完形填空（选词填空） 与2022年9月第1套共用 · 题目解析 → Part III Section B 长篇阅读（信息匹配） 与2022年9月第1套共用 · 题目解析 → Part III Section C (1) 阅读理解（四选一） 与2022年9月第1套共用 · 题目解析 → Part III Section C (2) 阅读理解（四选一） 与2022年9月第1套共用 · 题目解析"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "incomplete",
+    "no-audio"
+  ]
+}

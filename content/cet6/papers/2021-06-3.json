@@ -1,0 +1,2291 @@
+{
+  "id": "2021-06-3",
+  "examId": "cet6",
+  "year": 2021,
+  "month": 6,
+  "session": "2021上半年",
+  "setNo": 3,
+  "label": "2021年6月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "as if we're in the endurance stage of a slow limp toward __(26)__",
+      "answer": "H",
+      "answerText": "fragility",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "介词 toward 后接名词"
+        },
+        {
+          "label": "依据",
+          "text": "\"缓慢蹒跚\"暗示终点是衰朽 a slow limp toward __(26)__描绘中年妇女被刻画成\"缓慢瘸行走向 X\"，X 必是\"衰老、衰 朽\"类负面终点；fragility（脆弱、衰朽）紧扣\"endurance stage\"\"creeping sadness\"的衰 退主题，呼应作者要反驳的刻板印象。"
+        },
+        {
+          "label": "竞争词",
+          "text": "A) adversity 义偏\"逆境\"非\"衰朽终点\" adversity\"逆境\"侧重外部困境，而本句喻\"朝身体/价值衰退的终点缓慢爬行\"，fragility 的\"衰 朽\"更贴。 D) depictions 义\"描绘\"与\"走向\"不搭 toward depictions=\"朝着描绘\"语义不通，且 depictions 留作第35题的答案。 J) obscurity 已留给第28题的 fade into 搭配 obscurity 与 fade into 是高频搭配，应留给28题；此处用了它就抢走了更稳的搭配位。 K) outlines 义\"轮廓\"无关衰退主题 outlines\"轮廓/纲要\"与中年衰退的喻意无关。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 J) —— toward obscurity 也通顺，但抢了28题铁搭位。a slow limp toward __(26)__里 obscurity 单看能填，但 fade into obscurity 是更稳的铁搭，应让 位给28；防坑要诀：通读全文再下笔，发现某词在别处是铁搭就让出来。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "our value, attractiveness and power supposedly __(27)__ by the vanishing of youth",
+      "answer": "E",
+      "answerText": "diminished",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "过去分词作后置定语/状语"
+        },
+        {
+          "label": "依据",
+          "text": "\"价值因青春逝去而被削弱\" our value, attractiveness and power supposedly __(27)__ by the vanishing of youth ——作者陈述刻板印象：女性的\"价值、吸引力和权力\"据说会因\"青春的消逝\"而削减； diminished by\"被…削减\"语义贴切、与全文反驳的\"中年=贬值\"刻板印象呼应。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) drowned drowned by 与\"价值削弱\"语义错位 drowned 多用于声音/信号\"被淹没\"，且 F 应留给31题\"drowned out by the shame\"的固定 搭配。 I) neglected neglected\"被忽视\"主体错位 neglected 强调\"被忽略未照料\"，主语\"价值、吸引力、权力\"不会\"被青春的消逝忽视\"，逻辑上 vanishing 是\"原因\"而非\"主体\"，搭配偏误。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 I) —— neglected 词性与位置都对，却错抓\"忽视\"含义。our value, attractiveness and power supposedly __(27)__ by the vanishing of youth中 neglected 误为\"被忽视\"，但 by 引导的是\"原因\"而非\"忽视的主体\"，正解 diminished\"被削减\"；防坑 要诀：分清 by 的\"被动施事\"与\"被动原因\"。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "But I don't feel like I'm fading into __(28)__",
+      "answer": "J",
+      "answerText": "obscurity",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "fade into 后接名词"
+        },
+        {
+          "label": "依据",
+          "text": "fade into obscurity=\"湮没无名\"是铁搭 This is the age women start to become \"invisible\"提示\"中年女性=被看不见的\"，作者随 即反驳\"我不觉得自己 fading into __\"，对应 obscurity\"默默无闻\"——与\"invisible\"互文， 形成完整反讽。"
+        },
+        {
+          "label": "竞争词",
+          "text": "A) adversity fade into adversity 不成搭配 adversity 与 fade into 不构成英语固定表达，且语义\"消逝进逆境\"也不通。 D) depictions 义\"描绘\"且为35题铁位 depictions\"描绘\"复数与 fade into 不搭，留给35题 reductive depictions。 K) outlines 义偏物理\"轮廓\"无关 outlines 与\"消失成无名之辈\"的喻意不符。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "I have a clear-eyed view of myself that is __(29)__, compassionate and accepting",
+      "answer": "B",
+      "answerText": "authentic",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "并列形容词中的一员"
+        },
+        {
+          "label": "依据",
+          "text": "本真、富有同情、接纳——三重自我品质 a clear-eyed view of myself that is authentic, compassionate and accepting—— authentic（本真的）与 compassionate（富有同情心的）和 accepting（接纳的）共同刻 画\"对自己清醒、真实、慈悲、接纳\"的成熟自我形象，与全篇主旨吻合。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) prevalent 义\"盛行\"非\"对自我的品质\" prevalent 形容\"事物普遍存在\"，无法描述\"对自己的看法\"的内在品质，感情色彩与并列结构 脱节。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "I have to __(30)__ a laugh",
+      "answer": "O",
+      "answerText": "suppress",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "情态动词 have to + 动词原形"
+        },
+        {
+          "label": "依据",
+          "text": "suppress a laugh=\"忍住笑\"惯用搭配 when advertisers try to sell me ways to \"turn back the clock\", I have to __(30)__ a laugh——作者面对\"回到青春\"的广告觉得可笑，但出于礼节\"忍住笑\"。suppress a laugh 是英语固定搭配，意为\"克制笑出来\"。"
+        },
+        {
+          "label": "竞争词",
+          "text": "C) convey 义\"传达\"语义反向 convey a laugh\"传达一个笑\"既不是固定搭配也与上下文反讽语气相反——作者要克制而不是 表达。 N) submit submit 通常不及物或接 to submit a laugh 不成立，submit 多用\"submit to\"或\"提交文件\"义，与\"忍住笑\"无关。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "But it's a narrative often __(31)__ out by the shame that marketers rely on",
+      "answer": "F",
+      "answerText": "drowned",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "过去分词 + out by 固定搭配"
+        },
+        {
+          "label": "依据",
+          "text": "drown out=淹没/盖过（铁搭） a narrative often drowned out by the shame that marketers rely on to peddle us their diet pills——\"自我接纳的叙事常被商家所利用的羞耻感所盖过\"。drown out 是六级 高频固定短语，意为\"用更强的声音/力量盖过\"。"
+        },
+        {
+          "label": "竞争词",
+          "text": "I) neglected neglected out by 不是固定搭配 neglected 不与 out 构成短语；且\"被忽视\"无法解释\"shame 主动盖过\"的力量感。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "as if self-love is a __(32)__ commodity",
+      "answer": "M",
+      "answerText": "purchasable",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "不定冠词 a + ___ + 名词 commodity"
+        },
+        {
+          "label": "依据",
+          "text": "讽刺商家把自爱当\"可购买商品\" marketers rely on to peddle us their diet pills, miracle face creams and breathable yoga pants—as if self-love is a __(32)__ commodity——前文说商家兜售各种产品，as if 引出讽刺：仿佛\"自爱\"是可以买来的商品，purchasable commodity\"可购买的商品\"对接最 严丝合缝。"
+        },
+        {
+          "label": "竞争词",
+          "text": "B) authentic 义向相反 authentic commodity=\"真正的商品\"是正面陈述，但句子是讽刺商家把自爱商品化，正向词与 as if 讽刺语气冲突。 L) prevalent 搭配偏离讽刺焦点 prevalent\"普遍的\"修饰 commodity 在语法上可成立，但作者讽刺的是\"自爱被当成可买卖之 物\"，而非\"自爱很普遍\"，错过讽刺核心。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "gave them the courage to leave dysfunctional relationships or __(33)__ on new career paths",
+      "answer": "G",
+      "answerText": "embark",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "or 并列\"to leave / __ on\"，需动词原形"
+        },
+        {
+          "label": "依据",
+          "text": "固定搭配 embark on=踏上（新征程） __(33)__ on new career paths即\"踏上新的职业道路\"，embark on 是英语里描述\"开始一 段新旅程/事业\"的高频搭配，与前文\"leave dysfunctional relationships\"语义并列、感情色 彩积极。"
+        },
+        {
+          "label": "竞争词",
+          "text": "C) convey convey 不与 on 搭配 convey 意为\"传达\"，常接宾语而非\"on+名词\"，无法表达\"踏上职业道路\"。 N) submit submit to 而非 submit on，且感情色彩反向 submit 常用\"submit to=屈服于\"，与\"勇气离开/开启\"的积极语境冲突。 O) suppress suppress 是及物动词不带 on suppress 后直接接宾语（压制某物），不与 on 构成固定搭配，也与\"new career paths\"语义 不合。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "of growth through __(34)__",
+      "answer": "A",
+      "answerText": "adversity",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "介词 through 后接名词"
+        },
+        {
+          "label": "依据",
+          "text": "经由逆境而成长=英文励志惯用法 enjoying their own company, of growth through __(34)__, deepening bonds of friendships列举中年女性的多种正向收获，growth through adversity\"在逆境中成长\"是英 语常用励志表达，与\"享受独处\"\"友谊加深\"并列自然。"
+        },
+        {
+          "label": "竞争词",
+          "text": "D) depictions 义\"描绘\"与\"经由…成长\"不匹配 growth through depictions\"经由描绘成长\"语义不通；depictions 应留给35 题\"reductive depictions\"。 K) outlines 义\"轮廓/纲要\"与成长机制无关 growth through outlines 不构成习语，无逻辑可言。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "so much more than the reductive __(35)__ we see in women's magazines",
+      "answer": "D",
+      "answerText": "depictions",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "the + 形容词 + ___"
+        },
+        {
+          "label": "依据",
+          "text": "杂志和银幕里\"狭隘的刻画\" it's so much more than the reductive __(35)__ we see in women's magazines and on the Hollywood big screen——作者反驳的正是媒体对中年女性\"reductive depictions\"（简化的、缩水的刻画），depictions 与\"在杂志和银幕上看到\"完美对回，与 开篇\"women are warned…\"形成首尾呼应。"
+        },
+        {
+          "label": "竞争词",
+          "text": "K) outlines outlines 偏\"概要/轮廓\"指代不够具体 outlines\"概要\"在新闻或大纲语境用，描述媒体\"刻画形象\"更精准的是 depictions；杂志/银幕里 看到的是\"画面、刻画\"而非\"概要\"。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "adversity",
+        "B": "authentic",
+        "C": "convey",
+        "D": "depictions",
+        "E": "diminished",
+        "F": "drowned",
+        "G": "embark",
+        "H": "fragility",
+        "I": "neglected",
+        "J": "obscurity",
+        "K": "outlines",
+        "L": "prevalent",
+        "M": "purchasable",
+        "N": "submit",
+        "O": "suppress"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "adversity"
+        },
+        {
+          "label": "B",
+          "text": "authentic"
+        },
+        {
+          "label": "C",
+          "text": "convey"
+        },
+        {
+          "label": "D",
+          "text": "depictions"
+        },
+        {
+          "label": "E",
+          "text": "diminished"
+        },
+        {
+          "label": "F",
+          "text": "drowned"
+        },
+        {
+          "label": "G",
+          "text": "embark"
+        },
+        {
+          "label": "H",
+          "text": "fragility"
+        },
+        {
+          "label": "I",
+          "text": "neglected"
+        },
+        {
+          "label": "J",
+          "text": "obscurity"
+        },
+        {
+          "label": "K",
+          "text": "outlines"
+        },
+        {
+          "label": "L",
+          "text": "prevalent"
+        },
+        {
+          "label": "M",
+          "text": "purchasable"
+        },
+        {
+          "label": "N",
+          "text": "submit"
+        },
+        {
+          "label": "O",
+          "text": "suppress"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "There is an ongoing debate among the public as to whether the images of deceased celebrities should be recreated. 【改写】There is an ongoing debate among the public ↔We've got a societal debate going on societal=among the public whether the images of deceased celebrities should be recreated ↔ Should the public be allowed to use or reproduce images of famous people reproduce=recreate / famous=celebrities",
+      "answer": "G",
+      "answerText": "G 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "We've got a societal debate going on about access to our public commons, as it were, about famous faces, says Lilian Edwards at Newcastle University, UK. Should the public be allowed to use or reproduce images of famous people, given how iconic they are? 纽卡斯尔大学的莉莲·爱德华兹说：“我们正在就如何使用我们的”公共领域“、就名人面孔展 开一场社会层面的辩论。”公众是否被允许使用或复制名人的形象——鉴于他们如此具有象 征意义？ J) This refers to the idea that when objects trying to resemble humans aren't quite perfect, they can make viewers feel uneasy because they fall somewhere between obviously non-human and fully human. \"That's always a danger when you're doing anything human or human-like,\" says Webber. \"There're a thousand things that could go wrong with a computer-generated facial performance, and any one of those could make it fall into the uncanny valley,\" he says: \"Your brain just knows there's something wrong.\" The problem often arises around the eyes or mouth, says Webber. \"They're the areas that you look at when you're talking to someone.\" 这指的是当试图模仿人类的物体不够完美时,它们会让观众感到不安,因为它们介于明显非人类和完全人 类之间。\"当你做任何人类或类人的东西时,这始终是一个危险,\"Webber说。\"计算机生成的面部表演可 能出现一千种问题,其中任何一种都可能让它陷入诡异谷,\"他说:\"你的大脑就是知道有什么不对 劲。\"Webber说,问题往往出现在眼睛或嘴巴周围。\"当你与某人交谈时,你看的就是这些区域。 K) An unfamiliar digital human that has been created through CGI will also face the same challenge as an unknown actor: they don't have the appeal of an established name. \"You have to spend substantial capital in creating awareness around their likeness and making sure people are familiar with who they are,\" says Cloyd. This is now starting to happen. \"The way you pre-sell a movie in a foreign market is based on relevant talent,\" he says. \"I think we're a long way away from having virtual beings that have the ability to pre-sell content.\" 通过CGI创建的陌生数字人类也将面临与不知名演员相同的挑战:他们没有知名度带来的吸引力。\"你必 须投入大量资本来提高人们对其肖像的认知,并确保人们熟悉他们是谁,\"Cloyd说。这现在正开始发 生。\"你在海外市场预售电影的方式是基于相关的人才,\"他说。\"我认为我们距离拥有能够预售内容的虚 拟存在还有很长的路要走。 L) Webber expects that we will see more digital humans on screen. \"It's happening because it can happen,\" he says. Referring to a line from Jurassic Park(侏罗纪公园), he adds: \"People are too busy thinking about what they can do to think about whether they should do it.\" Webber预计我们将在屏幕上看到更多数字人类。\"这正在发生是因为它可以发生,\"他说。引用《侏罗 纪公园》中的一句台词,他补充道:\"人们忙于思考他们能做什么,而没有思考他们是否应该做。 36. There is an ongoing debate among the public as to whether the images of deceased celebrities should be recreated."
+        },
+        {
+          "label": "改写",
+          "text": "There is an ongoing debate among the public ↔We've got a societal debate going on societal=among the public whether the images of deceased celebrities should be recreated ↔ Should the public be allowed to use or reproduce images of famous people reproduce=recreate / famous=celebrities"
+        },
+        {
+          "label": "辨邻",
+          "text": "B B 段虽出现了反对意见，但 actress Zelda Williams wrote on Twitter 只是个人发 声，并未上升到 debate among the public 这一全社会层面。 This is puppeteering the dead for their fame alone, actress Zelda Williams wrote on Twitter. It sets such an awful precedent for the future of performance CGI技术使得已故的James Dean的形象能够在新的场景中呈现给年轻人。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "公众辩论·是否该复活已故名人形象"
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The CGI technology allows the image of the deceased James Dean to be presented to young people in new settings.",
+      "answer": "C",
+      "answerText": "C 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Moving into the future, we want James Dean to be brought into different gaming environments, or different virtual reality environments, or augmented reality environments, he says. 他说：“展望未来，我们希望让詹姆斯·迪恩进入不同的游戏环境、不同的虚拟现实环境，或 者增强现实环境之中。”"
+        },
+        {
+          "label": "改写",
+          "text": "the CGI-recreated image of the deceased James Dean ↔ keep the actor's image relevant for younger generations 迪恩形象=actor's image（指代回指） to be presented to young people ↔keep the actor's image relevant for younger generations younger generations=young people in new settings ↔ different gaming environments, or different virtual reality environments, or augmented reality environments 上位 new settings=下位 VR/AR/游戏"
+        },
+        {
+          "label": "辨邻",
+          "text": "B Finding Jack 是越战题材电影项目，属于传统电影场景，并非题干所谓 new settings；也没有 young people 的目标受众表述。 Dean will be recreated on screen with CGI based on old footage(影片镜头) and photographs, with another actor voicing him CGI重现的已故名人形象很可能无法与真实演员相匹配。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "迪恩 + 年轻人 + 新场景"
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "It is very likely that the CGI-recreated image of a deceased celebrity will fail to match the real actor",
+      "answer": "J",
+      "answerText": "J 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "There're a thousand things that could go wrong with a computer-generated facial performance, and any one of those could make it fall into the uncanny valley, he says: Your brain just knows there's something wrong. 他说，一段电脑生成的面部表演有上千个可能出错的地方，其中任何一处都可能让它跌入诡 异谷——你的大脑就是会知道哪里不对劲。"
+        },
+        {
+          "label": "改写",
+          "text": "It is very likely ↔There're a thousand things that could go wrong 千种出错点=很可能出错 the CGI-recreated image of a deceased celebrity will fail to match the real actor ↔ any one of those could make it fall into the uncanny valley 跌入诡异谷=对不上真人 fail to match the real actor ↔Your brain just knows there's something wrong 大脑察觉不对=对不上真人"
+        },
+        {
+          "label": "辨邻",
+          "text": "H A recreation, however lifelike, will never be indistinguishable from a real actor 给的是绝对论断（永远会有差别），更对应 43 题 However advanced…differ in a way；而 38 题 very likely + 机制性的“对不上”，与 J 段的“千种出错点”才是同义。 A recreation, however lifelike, will never be indistinguishable from a real actor I They discovered the uncanny valley 只是借观众反应引出“诡异谷”这个词，并未解释 为什么会“对不上真人”；机制性陈述在 J 段。 Edwards cites widespread backlash to the digital recreation of Carrie Fisher as a young Princess Leia in Rogue One 数字技术的使用可以使已故名人的形象重返银幕。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "CGI 重现可能配不上真演员"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The use of digital technology can bring images of deceased celebrities back to the screen. 【改写】The use of digital technology ↔ computer-generated imagery (CGI) has become cheaper and more sophisticated CGI=digital technology can bring images of deceased celebrities back to the screen ↔ the film industry can now convincingly recreate people on screen—even actors who have been dead for decades recreate…on screen=bring back to the screen",
+      "answer": "A",
+      "answerText": "A 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Digital humans are coming to a screen near you. As computer-generated imagery (CGI) has become cheaper and more sophisticated, the film industry can now convincingly recreate people on screen—even actors who have been dead for decades. 数字人正在向你身边的屏幕走来。随着计算机生成图像（CGI）变得更便宜也更精密，电影 行业现在已经能够令人信服地在屏幕上重现真人——甚至包括已经去世几十年的演员。 39. The use of digital technology can bring images of deceased celebrities back to the screen."
+        },
+        {
+          "label": "改写",
+          "text": "The use of digital technology ↔ computer-generated imagery (CGI) has become cheaper and more sophisticated CGI=digital technology can bring images of deceased celebrities back to the screen ↔ the film industry can now convincingly recreate people on screen—even actors who have been dead for decades recreate…on screen=bring back to the screen"
+        },
+        {
+          "label": "辨邻",
+          "text": "L we will see more digital humans on screen 是未来时的预测，39 题 can bring 是 已经具备的能力——时态与功能均不同。 we will see more digital humans on screen D Other actors have been revived, with the permission of their estates, for advertising purposes 是举例性陈述，并非总起；39 题的总论表述只在 A 段。 a 2011 advertisement for Dior featured contemporary actress Charlize Theron alongside iconic 20th-century stars Marilyn Monroe, Grace Kelly and Marlene Dietrich 重现已故著名男演员或女演员可能侵犯其合法权利。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "数字技术把已故明星带回屏幕（总起）"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Recreating a deceased famous actor or actress may violate their legitimate rights.",
+      "answer": "F",
+      "answerText": "F 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "A hidden hazard of digitally recreating a deceased celebrity is the risk of damaging their legacy. We have to respect the security and the integrity of rights holders, says John Canning at Digital Domain. 数字化重现一位已故名人的一个隐藏危险，是可能损害他们的形象遗产。Digital Domain 的约翰·坎宁说：“我们必须尊重权利持有人的安全与完整。”"
+        },
+        {
+          "label": "改写",
+          "text": "Recreating a deceased famous actor or actress ↔digitally recreating a deceased celebrity recreating a deceased celebrity 几近原样复现 may violate their legitimate rights ↔the risk of damaging their legacy risk of damaging=may violate their legitimate rights ↔the security and the integrity of rights holders rights holders+security/integrity=合法权利 40. Recreating a deceased famous actor or actress may violate their legitimate rights."
+        },
+        {
+          "label": "辨邻",
+          "text": "G Legally, a person's rights to control the commercial use of their name and image beyond their death differ between and even within countries 是对法律差 异的描述，未把“recreate”作为可能“violate”的动作直接说出来。 Legally, a person's rights to control the commercial use of their name and image beyond their death differ between and even within countries B he filed a deed protecting the use of his image until 2039, preventing others from recreating him 是某位演员的个例做法，而题干 Recreating…may violate 是普 适性结论。 Before his death, he filed a deed protecting the use of his image until 2039 预计将有更多CGI重现的已故名人形象出现在银幕上。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "复活已故演员可能侵犯合法权利"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "More CGI-recreated images of deceased celebrities are expected to appear on screen.",
+      "answer": "L",
+      "answerText": "L 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Webber expects that we will see more digital humans on screen. It's happening because it can happen, he says. 韦伯预计我们会在屏幕上看到更多数字人。他说：“它正在发生，因为它能够发生。”"
+        },
+        {
+          "label": "改写",
+          "text": "More CGI-recreated images of deceased celebrities ↔more digital humans on screen digital humans=CGI-recreated images are expected to appear on screen ↔ Webber expects that we will see more digital humans on screen Webber expects we will see=are expected to appear"
+        },
+        {
+          "label": "辨邻",
+          "text": "C Moving into the future, we want James Dean to be brought into different gaming environments 主语是 we（迪恩团队），具体目标是迪恩；41 题问的是整体 趋势，L 段才是。 I think this is the beginning of an entire wave E a lot of actors today who will have the desire to take advantage of this technology 是活人主动布局，与 41 题“更多已故名人形象出现”主语错位。 I also see a lot of actors today who will have the desire to take advantage of this technology James Dean的形象将在银幕上被重现,其声音由他人配音。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "未来屏幕上会出现更多 CGI 已故名人"
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The image of James Dean will be recreated on screen with his voice dubbed by someone else. 【定位】In the film, which will be called Finding Jack, Dean will be recreated on screen with CGI based on old footage(影片镜头) and photographs, with another actor voicing him.",
+      "answer": "B",
+      "answerText": "B 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "In the film, which will be called Finding Jack, Dean will be recreated on screen with CGI based on old footage(影片镜头) and photographs, with another actor voicing him. 在这部名为《寻找杰克》的电影里，迪恩将通过 CGI 借助旧素材与照片在屏幕上被重现，并 由另一位演员替他配音。"
+        },
+        {
+          "label": "改写",
+          "text": "The image of James Dean will be recreated on screen ↔ Dean will be recreated on screen with CGI based on old footage(影片镜头) and photographs 几近原样复现 with his voice dubbed by someone else ↔with another actor voicing him 另一位演员配音=声音由别人配"
+        },
+        {
+          "label": "辨邻",
+          "text": "C Moving into the future, we want James Dean to be brought into different gaming environments 是未来设想，未涉及配音安排。 Moving into the future, we want James Dean to be brought into different gaming environments, or different virtual reality environments, or augmented reality environments 无论CGI技术多么先进,重现的形象在某种程度上都会与真实演员有所不同。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "迪恩 + 他人配音 41. More CGI-recreated images of deceased celebrities are expected to appear on screen. 42. The image of James Dean will be recreated on screen with his voice dubbed by someone else."
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "However advanced the CGI technology is, the recreated image will differ in a way from the real actor.",
+      "answer": "H",
+      "answerText": "H 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "A recreation, however lifelike, will never be indistinguishable from a real actor, says Webber. When we are bringing someone back, representing someone who is no longer alive on the screen, what we are doing is extremely sophisticated digital make-up, he says: A performance is a lot more than a physical resemblance. 韦伯说：“无论多么逼真，重现的形象都永远无法做到与真人演员无法区分。”“当我们让某人 重现、在屏幕上代表一位已经不在世的人时，我们在做的不过是极其精密的数字化妆。”“表 演远不止于外形上的相似。”"
+        },
+        {
+          "label": "改写",
+          "text": "However advanced the CGI technology is ↔A recreation, however lifelike however 让步结构同义 the recreated image will differ in a way from the real actor ↔ will never be indistinguishable from a real actor never indistinguishable=will differ differ in a way ↔A performance is a lot more than a physical resemblance 表演不止于外形=必有差别"
+        },
+        {
+          "label": "辨邻",
+          "text": "J any one of those could make it fall into the uncanny valley 表述“可能”出错，不是 “无论多先进必然有差别”的绝对论断。 There're a thousand things that could go wrong with a computer-generated facial performance 43. However advanced the CGI technology is, the recreated image will differ in a way from the real actor. 当今许多演员可能会利用CGI技术储存自己的形象,以使其家人受益。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "再先进的 CGI 也会与真演员有差别"
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "A lot of actors today are likely to make use of the CGI technology to have their images stored for the benefit of their families.",
+      "answer": "E",
+      "answerText": "E 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "I also see a lot of actors today who will have the desire to take advantage of this technology: to have their likeness captured and stored for future content, says Cloyd. They foresee this being something that could give their estates and give their families the ability to make money from their likeness when they're gone. 克洛伊德说：“我也看到，今天很多演员会有意愿利用这项技术——让自己的形象被捕捉并 存档，以备未来内容之用。”“他们预见到，这件事可能会让自己的遗产管理方与家人，在自 己去世后仍能从自己的形象中获益。”"
+        },
+        {
+          "label": "改写",
+          "text": "A lot of actors today ↔a lot of actors today 原样复现 make use of the CGI technology to have their images stored ↔ take advantage of this technology: to have their likeness captured and stored for future content take advantage of=make use of / likeness=image for the benefit of their families ↔ give their estates and give their families the ability to make money from their likeness when they're gone give families ability to make money=for the benefit of families"
+        },
+        {
+          "label": "辨邻",
+          "text": "B filed a deed protecting the use of his image until 2039, preventing others from recreating him 的目的是阻止，与题干 have their images stored 的主动存档目的 相反。 Before his death, he filed a deed protecting the use of his image until 2039, preventing others from recreating him 一些演员担心他们可能会因为CGI技术而失去工作。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "在世演员用 CGI 给家人存形象"
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Some actors are concerned that they may lose jobs because of the CGI technology. 【定位】As it becomes easier to digitally recreate celebrities and to entirely manufacture on-screen identities, could this kind of technology put actors out of jobs? I think actors are worried about this, says Edwards.",
+      "answer": "I",
+      "answerText": "I 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "As it becomes easier to digitally recreate celebrities and to entirely manufacture on-screen identities, could this kind of technology put actors out of jobs? I think actors are worried about this, says Edwards. 随着数字化重现名人和彻底制造屏幕身份变得更容易，这种技术会不会让演员失业？爱德华 兹说：“我认为演员们对此感到担忧。”"
+        },
+        {
+          "label": "改写",
+          "text": "Some actors are concerned that they may lose jobs because of the CGI technology ↔ could this kind of technology put actors out of jobs? I think actors are worried about this worried=concerned / put out of jobs=lose jobs"
+        },
+        {
+          "label": "辨邻",
+          "text": "K they don't have the appeal of an established name 主语是数字人，是反方向论证 ——说明数字人短期内难取代真人；并未表达演员的担忧情绪。 they don't have the appeal of an established name"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "anchor": "演员担心因 CGI 失业 44. A lot of actors today are likely to make use of the CGI technology to have their images stored for the benefit of their families. 45. Some actors are concerned that they may lose jobs because of the CGI technology."
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn from the passage about creativity?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn from the passage about creativity? 问的是关于 creativity 的“我们能 了解到什么”，落点在首段对 creativity 多项属性的综合判断。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q46 是简单的特殊疑问句，主干是 What do we learn，about creativity 是状语；句子无 陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "All of us benefit from it and we thrive mentally and spiritually when we are able to wield it. It is a delicate thing, easily stamped out; 我们所有人都因它受益，当我们能够驾驭它时，便能在心智与精神上得到滋养。它是一种脆 弱之物，极易被扼杀。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 It develops best when people are spiritually prepared. 把原文的“在人们玩乐而童心 未泯时最为繁盛”改写成“精神上准备好时才发展最好”，把 playful and childlike 偷换成 spiritually prepared。 B) 范围程度偷改 原文说创造力“也存在于”科学家和企业家的生活里，It is most often wielded by scientists and entrepreneurs. 却拔高为“最常被科学家和企业家施展”。 C) 偷换概念 原文说创造力“与深厚知识和专长协同时效果最好”，It is founded on scientific knowledge and analytical skills. 却改成“建立在科学知识和分析技能之上”，并把 deep knowledge 缩窄为 scientific knowledge。 D) ✓ 正确 we thrive mentally and spiritually ↔contributes to intellectual growth easily stamped out ↔can easily be killed It contributes to intellectual growth but can easily be killed. 用 but 同时容纳“促进 智力成长”和“易被扼杀”两个属性，与预判完全吻合。 46. What do we learn from the passage about creativity? A) It develops best when people are spiritually prepared. B) It is most often wielded by scientists and entrepreneurs. C) It is founded on scientific knowledge and analytical skills. D) It contributes to intellectual growth but can easily be killed. 最近发表的一份报告得出了什么结论? A) 自然科学应该像人文课程那样进行教学。 B) 创造力的培养应该渗透到整个学校课程中。 C) 艺术课程应该成为所有学生的必修课。 D) 学生应该学习更多明显具有创造性的科目。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It develops best when people are spiritually prepared."
+        },
+        {
+          "label": "B",
+          "text": "It is most often wielded by scientists and entrepreneurs."
+        },
+        {
+          "label": "C",
+          "text": "It is founded on scientific knowledge and analytical skills."
+        },
+        {
+          "label": "D",
+          "text": "It contributes to intellectual growth but can easily be killed."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What is the conclusion of a recently-published report?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What is the conclusion of a recently-published report? 指向报告里一句明确的判断，是 定点细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q47 主干 What is the conclusion，of a recently-published report 是后置定语；结构平 铺，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "The report concludes that creativity should not inhabit the school curriculum only as it relates to drama, music, art and other obviously creative subjects, but that creative thinking ought to run through all of school life, infusing(充满) the way humanities and natural sciences are learned. 该报告得出结论：创造力不应只在戏剧、音乐、美术等明显属于创意类科目中出现于学校课 程，相反，创造性思维应贯穿整个校园生活，渗透到人文学科和自然科学的学习方式中。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 Natural sciences should be learned the way humanities courses are. 凭空规定自然 科学要按人文学科的方式学习——原文只说创造性思维渗透两者的学习方式，并未让一 者照搬另一者。 B) ✓ 正确 creative thinking ought to run through all of school life ↔ Cultivation of creativity should permeate the entire school curriculum. infusing(充满) the way humanities and natural sciences are learned ↔ permeate the entire school curriculum B 项把 run through all of school life 改写为 permeate the entire school curriculum，是 but 后内容的精准同义复述。 C) 偷换概念 Art courses should be made compulsory for all students. 把原文“创造性思维渗透全 部课程”偷换为“艺术课必须成为必修”，原文从未提到 compulsory。 D) 与原文相反 Students should learn more obviously creative subjects. 恰好是结论 not A but B 中被否定的 A——原文反对“只把创造力限制在明显的创意学科里”，选项却让学生多学 这些学科。 47. What is the conclusion of a recently-published report? A) Natural sciences should be learned the way humanities courses are. B) Cultivation of creativity should permeate the entire school curriculum. C) Art courses should be made compulsory for all students. D) Students should learn more obviously creative subjects. 报告指出什么不利于创造力的培养? A) 减轻压力。 B) 教师主导的学校活动。 C) 应试教学。 D) 自主学习。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Natural sciences should be learned the way humanities courses are."
+        },
+        {
+          "label": "B",
+          "text": "Cultivation of creativity should permeate the entire school curriculum."
+        },
+        {
+          "label": "C",
+          "text": "Art courses should be made compulsory for all students."
+        },
+        {
+          "label": "D",
+          "text": "Students should learn more obviously creative subjects."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the report say is detrimental to the fostering of creativity?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the report say is detrimental to the fostering of creativity? 问的是报告里点 名的具体不利因素，是定点细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q48 主干 What does the report say is detrimental to ...；嵌套了 say 引导的宾语从句， 从句主语正是答案所指。理解时把 say 看作透明引述即可。"
+        },
+        {
+          "label": "定位",
+          "text": "When children are regarded as vessels to be filled with facts, creativity does not prosper; nor does it when teachers' sole objective is coaching children towards exams. 当孩子被看作待填装事实的容器时，创造力无法繁荣；当教师的唯一目标是辅导孩子应对考 试时，创造力同样无法繁荣。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 Alleviation of pressure. 借用了段中的 alleviate 一词，但原文是说要“缓解”应试取向带 来的问题——alleviation 本身是正面行为，不可能是 detrimental。 B) 与原文相反 Teacher-led school activities. 取自原文里报告的正面建议 a network of teacher-led “creativity collaboratives”，却被当作有害因素，与原文极性相反。 C) ✓ 正确 teachers' sole objective is coaching children towards exams ↔Test-oriented teaching. the uninspiring and fact-based approach to education ↔Test-oriented teaching. C 项把段中两处对应内容压缩为 Test-oriented teaching，是报告明确点名的负面教学 方式。 D) 无中生有 Independent learning. 完全没有原文依据——第三段根本未讨论 independent learning 是否有害。 48. What does the report say is detrimental to the fostering of creativity? A) Alleviation of pressure. B) Teacher-led school activities. C) Test-oriented teaching. D) Independent learning. 我们了解到关于英国私立学校的什么信息? A) 它们鼓励课外活动。 B) 它们高度重视艺术教育。 C) 它们将艺术科目置于数学和科学之上。 D) 它们面向来自不同家庭背景的学生。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Alleviation of pressure."
+        },
+        {
+          "label": "B",
+          "text": "Teacher-led school activities."
+        },
+        {
+          "label": "C",
+          "text": "Test-oriented teaching."
+        },
+        {
+          "label": "D",
+          "text": "Independent learning."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn about the private schools in the UK?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn about the private schools in the UK? 问的是某一具体群体的特征，落 点在描述该群体的一两句话，是定点细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q49 与 46 题同句型，唯一区别是 about 后面换成了具体群体，定位粒度更细；句子无 陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Nevertheless, it is arts subjects through which creativity can most obviously be fostered. The value placed on them by the independent education sector is clear. One only has to look at the remarkable arts facilities at Britain's top private schools to comprehend this. 尽管如此，最能直接培养创造力的还是艺术类学科。独立教育部门对它们的重视显而易见。 只要看看英国顶级私立学校出色的艺术设施，就足以体会这一点。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 They encourage extracurricular activities. 借用了段末 reduced school budgets mean diminishing extracurricular activities，但该句说的是公立学校预算削减导致课 外活动减少，主语并不是 private schools。 B) ✓ 正确 The value placed on them by the independent education sector is clear ↔ They attach great importance to arts education. remarkable arts facilities at Britain's top private schools ↔arts education B 项把“独立部门给艺术学科赋予的价值”主动化表达为“私立学校非常重视艺术教育”，与 定位句完全等值。 C) 过度推断 They prioritize arts subjects over maths and sciences. 把“重视艺术”夸大为“把艺术置 于数理之上”，原文并未做此比较。 D) 无中生有 They cater to students from different family backgrounds. 原文未谈及私立学校生 源构成；末段提到的社会公正问题是对公私差距的批评，恰恰说明私立学校并非面向“不 同家庭背景”。 49. What do we learn about the private schools in the UK? A) They encourage extracurricular activities. B) They attach great importance to arts education. C) They prioritize arts subjects over maths and sciences. D) They cater to students from different family backgrounds. 应该做什么来应对未来的挑战? A) 增加政府对学校教育的投资。 B) 缩小现有的贫富差距。 C) 为所有儿童提供平等接受艺术教育的机会。 D) 关注满足弱势学生的需求。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They encourage extracurricular activities."
+        },
+        {
+          "label": "B",
+          "text": "They attach great importance to arts education."
+        },
+        {
+          "label": "C",
+          "text": "They prioritize arts subjects over maths and sciences."
+        },
+        {
+          "label": "D",
+          "text": "They cater to students from different family backgrounds."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What should be done to meet the future challenges?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What should be done to meet the future challenges? 表面像主旨，但实质问的是末段 给出的对策，是定点细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q50 主干 What should be done，to meet the future challenges 是不定式状语，表目 的；句子无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "As lives are affected by any number of looming challenges—climate crisis, automation in the workplace—humans are going to need creative thinking more than ever. For all of our sakes, creativity in education, and for all, must become a priority. 由于人类生活正受各种正在逼近的挑战——气候危机、工作场所自动化——所影响，我们将 比以往任何时候都更需要创造性思维。为了我们所有人，教育中的创造力，并惠及所有人， 必须成为重中之重。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 Increasing government investment in school education. 原文虽提到 reduced school budgets，但末段呼吁的是“惠及所有人”，并未要求增加政府投资——投资是手 段，不是作者点名的对策。 B) 以偏概全 Narrowing the existing gap between the rich and the poor. 把全文聚焦的“艺术教育 机会不平等”放大为整个“贫富差距”，超出作者讨论范围。 C) ✓ 正确 creativity in education, and for all, must become a priority ↔ Providing all children with equal access to arts education. most children have a fraction of the access to choirs, orchestras, art studios and drama that their more privileged peers enjoy ↔equal access to arts education C 项 all children with equal access 精准对应 for all 与 fraction of the access 的反向 均等化，是对末段呼吁最严谨的同义复述。 D) 以偏概全 Focusing on meeting the needs of under-privileged students. 只关照弱势群体，与 原文 for all（所有人）相悖；作者要的是普惠，不是单向倾斜。 50. What should be done to meet the future challenges? A) Increasing government investment in school education. B) Narrowing the existing gap between the rich and the poor. C) Providing all children with equal access to arts education. D) Focusing on meeting the needs of under-privileged students."
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Increasing government investment in school education."
+        },
+        {
+          "label": "B",
+          "text": "Narrowing the existing gap between the rich and the poor."
+        },
+        {
+          "label": "C",
+          "text": "Providing all children with equal access to arts education."
+        },
+        {
+          "label": "D",
+          "text": "Focusing on meeting the needs of under-privileged students."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do people tend to do while engaging in a conversation?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What do people tend to do while engaging in a conversation? 是 What...do 句 式，问的是客观行为，无 infer/imply/mainly 等推断或主旨信号词。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do people tend to do while engaging in a conversation? 主干是 What do people tend to do，宾语从句式 What 提问；while engaging in a conversation 是分词 短语作时间状语，意为\"当处于对话中时\"，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "We all tend to subconsciously copy gestures of people we like. 我们都会下意识地模仿自己喜欢之人的手势。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 Repeat what their partners say one way or another 把原文的 copy gestures（模仿 动作）偷换成 Repeat what...say（重复话语），原文谈的是肢体动作而非言语内容。 B) 答非所问 Focus as much as possible on topics of mutual interest 是第二段 The topic of discussion is equally interesting for both 的同义改写，属于 52 题的话题范围，与 51 题问的\"做什么\"无关。 C) ✓ 正确 subconsciously copy gestures ↔Imitate their partners' gestures without their knowing it C 项同时复现\"模仿手势\"与\"无意识\"两个预判要素，且无额外添加成分，与定位句严格 等值。 D) 偷换概念 Observe carefully how their partners make use of gestures 把原文动词 copy（模 仿）偷换成 Observe（观察）——观察是单方注视、不构成模仿行为，性质完全不同。 51. What do people tend to do while engaging in a conversation? A) Repeat what their partners say one way or another. B) Focus as much as possible on topics of mutual interest. C) Imitate their partners' gestures without their knowing it. D) Observe carefully how their partners make use of gestures. 镜像通常在对话中的什么时候发生? A) 当双方彼此同情时。 B) 当双方有很多共同点时。 C) 当双方都做出有趣的贡献时。 D) 当双方试图寻求共同点时。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Repeat what their partners say one way or another."
+        },
+        {
+          "label": "B",
+          "text": "Focus as much as possible on topics of mutual interest."
+        },
+        {
+          "label": "C",
+          "text": "Imitate their partners' gestures without their knowing it."
+        },
+        {
+          "label": "D",
+          "text": "Observe carefully how their partners make use of gestures."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "When does mirroring usually take place in a conversation?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "When does mirroring usually take place in a conversation? 用 When 直接问 mirroring 发生的条件，是客观事实题。"
+        },
+        {
+          "label": "拆句",
+          "text": "When does mirroring usually take place in a conversation? 一般疑问倒装结构，主语 mirroring，谓语 take place，副词 usually 修饰频度；句式平铺直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "As a rule, mirroring means that conversationalists enjoy their communication and that there's a certain level of agreement between them. The topic of discussion is equally interesting for both and they know their interests meet. 一般而言，mirroring 意味着对话双方享受彼此的交流，并且双方之间存在一定程度的共 识。讨论的话题对双方同样有趣，他们知道彼此兴趣相合。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 When both sides are sympathetic with each other 利用 not always because the person is sympathetic 制造干扰；原文恰恰说\"并非总是因为同情\"——A 把这层被否定 的说法当成 mirroring 发生的条件，与原文相反。 B) ✓ 正确 there's a certain level of agreement between them. The topic of discussion is equally interesting for both and they know their interests meet ↔both sides have a lot of things in common predict 的\"双方兴趣/共识相合\"正是\"have a lot of things in common\"的内核，B 同时 覆盖\"agreement\"与\"interests meet\"两点，匹配度最高。 C) 偷换概念 When both sides make interesting contributions 把原文 The topic of discussion is equally interesting（话题本身有趣）偷换为\"双方各自贡献有趣的内容\"，主语和性质都 变了——原文谈的是话题本身的属性，不是参与者的输出。 D) 偷换概念 When both sides try to seek common ground 把原文\"已存在共识\"（there's a certain level of agreement）偷换为\"尝试寻求共识\"——try to seek 是\"过程\"，原文 是\"结果\"，时态/状态偷换。 52. When does mirroring usually take place in a conversation? A) When both sides are sympathetic with each other. B) When both sides have a lot of things in common. C) When both sides make interesting contributions. D) When both sides try to seek common ground. 关于流行文化我们了解到什么? A) 它鼓励人们模仿。 B) 它主要吸引知名人士。 C) 它使年轻人熟悉他们的偶像。 D) 它可以改变人们的认知模式。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "When both sides are sympathetic with each other."
+        },
+        {
+          "label": "B",
+          "text": "When both sides have a lot of things in common."
+        },
+        {
+          "label": "C",
+          "text": "When both sides make interesting contributions."
+        },
+        {
+          "label": "D",
+          "text": "When both sides try to seek common ground."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn about popular culture?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn about popular culture? 表面是\"了解到什么\"，实质问\"原文对该概念是 怎么说的\"，仍是细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn about popular culture? What 引导宾语从句作问，learn about 介词 短语带宾语，结构简单无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Popular culture makes people want to look popular, and act and speak like popular people. 流行文化让人想要看起来很受欢迎，并像受欢迎的人那样行事、说话。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 makes people want to look popular, and act and speak like popular people ↔ It encourages people to imitate predict 的\"促使/鼓励模仿\"正是 A 的字面表达，且 imitate 涵盖 act and speak like popular people 全部具体行为，匹配最严格。 B) 张冠李戴 It appeals mostly to big names 把流行文化的影响对象偷换为\"big names\"（大牌名 人），但原文\"big names\"是被模仿的对象，不是流行文化吸引的对象——主客关系彻 底颠倒。 C) 无中生有 It acquaints young people with their idols 中\"young people\"和\"acquaint with idols\"原文均无对应——原文未限定年龄，也未谈\"让人认识偶像\"。 D) 过度推断 It can change people's mode of cognition 把原文\"想模仿名人言行\"过度推至\"改变认 知模式\"——认知模式是心理学层面的根本性变化，远超原文\"行为/语言层面的模仿\"。 53. What do we learn about popular culture? A) It encourages people to imitate. B) It appeals mostly to big names. C) It acquaints young people with their idols. D) It can change people's mode of cognition. 为什么\"从一个人那里抄袭是剽窃,从两个人那里抄袭是研究\"这句话值得学习? A) 它有助于形成自己的写作风格。 B) 它有助于保护个人的知识产权。 C) 它培养对专业写作的正确理解。 D) 它使人能够为著名故事写出引人入胜的续集。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It encourages people to imitate."
+        },
+        {
+          "label": "B",
+          "text": "It appeals mostly to big names."
+        },
+        {
+          "label": "C",
+          "text": "It acquaints young people with their idols."
+        },
+        {
+          "label": "D",
+          "text": "It can change people's mode of cognition."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "Why is the saying \"copy from two, it's research\" a lesson to learn?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why is the saying “copy from two, it's research” a lesson to learn? 用 Why 直接问原文 对该格言的解释，不带 infer/imply，按细节题处理。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why is the saying “copy from two, it's research” a lesson to learn? 主干 Why is the saying a lesson to learn；the saying 后接同位语\"copy from two, it's research” 解 释 the saying 的内容；a lesson to learn 是表语，to learn 是不定式作后置定语，修 饰 lesson。"
+        },
+        {
+          "label": "定位",
+          "text": "\"Copy from one, it's plagiarism; copy from two, it's research.\" The correct interpretation of this statement is not about copying, but rather about creating your own style. \"抄一家是抄袭，抄两家是研究。\" 这句话的正确解读不是关于抄袭，而是关于创造你自己的 风格。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 not about copying, but rather about creating your own style ↔ It facilitates the creation of one's own writing style 选项 A 抓住 not...but 结构中\"but rather\"那一层的正面信息，并把动名词转为名词化短 语——这是格言题的标准改写。 B) 答非所问 It helps to protect one's intellectual property rights 来自 Their aim is to protect intellectual property.——那是讲鉴权工具的目的，不是格言的教益。属相邻话题 搬运。 C) 偷换概念 It fosters correct interpretation of professional writing 把原文 The correct interpretation 中描述\"对该格言的正确解读\"反过来当成\"格言促进对专业写作的正确解 读\"——主客颠倒。 D) 以偏概全 It enables one to write intriguing sequels to famous stories 利用 focus on stories you feel you could write a pretty cool sequel(续篇) to 的具体例子来冒充格言的教益 ——sequel 只是\"探索写作\"的一个具体方式，不是格言的核心。 54. Why is the saying \"copy from two, it's research\" a lesson to learn? A) It facilitates the creation of one's own writing style. B) It helps to protect one's intellectual property rights. C) It fosters correct interpretation of professional writing. D) It enables one to write intriguing sequels to famous stories. 为什么作者说模仿相当矛盾? A) 它容易产生不同的解释。 B) 它总的来说是一种必要之恶。 C) 它可能引发无休止的争论。 D) 它可能既有害又有益。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It facilitates the creation of one's own writing style."
+        },
+        {
+          "label": "B",
+          "text": "It helps to protect one's intellectual property rights."
+        },
+        {
+          "label": "C",
+          "text": "It fosters correct interpretation of professional writing."
+        },
+        {
+          "label": "D",
+          "text": "It enables one to write intriguing sequels to famous stories."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "Why does the author say imitation is rather paradoxical?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why does the author say imitation is rather paradoxical? 用 Why 问作者为何这样说， 原文紧跟该评价后会用 However/but 等显性给出两面性依据。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why does the author say imitation is rather paradoxical? Why 引导原因疑问，宾语从 句 imitation is rather paradoxical 作 say 的宾语；rather 副词加强 paradoxical 的程度， 意为\"相当矛盾\"。"
+        },
+        {
+          "label": "定位",
+          "text": "Imitation is rather paradoxical. As an integral part of learning, it brings about positive changes, making people develop and grow. However, it may do a lot of harm. 模仿相当矛盾。作为学习不可或缺的一部分，它带来积极变化，让人成长进步。然而，它也 可能造成很多危害。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 It is liable to different interpretations 把\"自身两面性\"偷换为\"被人有不同解读\"——原 文谈的是 imitation 本身既有好处也有害，不是说人们对它解读不一。 B) 过度推断 It is by and large a necessary evil 把原文\"利弊并存\"过度推断为\"必要之恶\"—— necessary evil 暗含\"虽然有害但不可避免\"，原文并未说\"模仿不可避免\"或\"必须容忍这 种害处\"。 C) 无中生有 It can give rise to endless disputes 中\"无休止争议\"在原文中无任何对应——原文只说 有害、不说\"引发争议\"，更未提\"无休止\"。 D) ✓ 正确 it brings about positive changes, making people develop and grow. However, it may do a lot of harm ↔It may do harm as well as good predict 要求\"既有利又有害\"两面同时落地，D 用 harm as well as good 一次性涵盖， 完美贴合 paradoxical 的语义内核。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is liable to different interpretations."
+        },
+        {
+          "label": "B",
+          "text": "It is by and large a necessary evil."
+        },
+        {
+          "label": "C",
+          "text": "It can give rise to endless disputes."
+        },
+        {
+          "label": "D",
+          "text": "It may do harm as well as good."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "At 43, I've reached the stage where women are warned to watch out for the creeping sadness of middle age. We're served up an endless stream of advice on \"how to survive your 40s\", as if we're in the endurance stage of a slow limp toward (26)______  . This is the age women start to become \"invisible\"—our value, attractiveness and power supposedly (27)______  by the vanishing of youth. But I don't feel like I'm fading into (28)______  . I feel more seen than I ever have, and for the first time in my life, I have a clear-eyed view of myself that is (29)______  , compassionate and accepting. When I look in the mirror, I'm proud of who I am—even those \"broken\" parts that for so long seemed impossible to love. So when advertisers try to sell me ways to \"turn back the clock\", I have to a laugh. I wouldn't go back to the crippling self-consciousness of my youth if you paid me. This hard-won sense of self-acceptance is one of the joys of being an older woman. But it's a narrative often (31)______  out by the shame that marketers rely on to peddle us their diet pills, miracle face creams and breathable yoga pants—as if self-love is a (32)______  commodity. 26 27 28 29 30 31 32 For some women I know, this sense of trust and self-belief later in life gave them the courage to leave dysfunctional relationships or (33)______  on new career paths. Others talked about enjoying their own company, of growth through (34)______  , deepening bonds of friendships, the ability to be more compassionate, less judgmental and to listen more and appreciate the small pleasures. Life past 40 is far from smooth sailing, but it's so much more than the reductive (35)______  we see in women's magazines and on the Hollywood big screen. A) adversity B) authentic C) convey D) depictions E) diminished F) drowned G) embark H) fragility I) neglected J) obscurity K) outlines L) prevalent M) purchasable N) submit O) suppress 33 34 35",
+      "blocks": [
+        {
+          "text": "At 43, I've reached the stage where women are warned to watch out for the creeping sadness of middle age. We're served up an endless stream of advice on \"how to survive your 40s\", as if we're in the endurance stage of a slow limp toward (26)______  . This is the age women start to become \"invisible\"—our value, attractiveness and power supposedly (27)______  by the vanishing of youth. But I don't feel like I'm fading into (28)______  . I feel more seen than I ever have, and for the first time in my life, I have a clear-eyed view of myself that is (29)______  , compassionate and accepting. When I look in the mirror, I'm proud of who I am—even those \"broken\" parts that for so long seemed impossible to love. So when advertisers try to sell me ways to \"turn back the clock\", I have to a laugh. I wouldn't go back to the crippling self-consciousness of my youth if you paid me. This hard-won sense of self-acceptance is one of the joys of being an older woman. But it's a narrative often (31)______  out by the shame that marketers rely on to peddle us their diet pills, miracle face creams and breathable yoga pants—as if self-love is a (32)______  commodity. 26 27 28 29 30 31 32 For some women I know, this sense of trust and self-belief later in life gave them the courage to leave dysfunctional relationships or (33)______  on new career paths. Others talked about enjoying their own company, of growth through (34)______  , deepening bonds of friendships, the ability to be more compassionate, less judgmental and to listen more and appreciate the small pleasures. Life past 40 is far from smooth sailing, but it's so much more than the reductive (35)______  we see in women's magazines and on the Hollywood big screen. A) adversity B) authentic C) convey D) depictions E) diminished F) drowned G) embark H) fragility I) neglected J) obscurity K) outlines L) prevalent M) purchasable N) submit O) suppress 33 34 35"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) Digital humans are coming to a screen near you. As computer-generated imagery (CGI) has become cheaper and more sophisticated, the film industry can now convincingly recreate people on screen— even actors who have been dead for decades. The technology's ability to effectively keep celebrities alive beyond the grave is raising questions about public legacies and image rights.\nB) Late in 2019, it was announced that US actor James Dean, who died in 1955, will star in a Vietnam War film scheduled for release later this year. In the film, which will be called Finding Jack, Dean will be recreated on screen with CGI based on old footage(影片镜头) and photographs, with another actor voicing him. The news was met with excitement by those keen to see Dean digitally brought back to life for only his fourth film, but it also drew sharp criticism. \"This is puppeteering the dead for their fame alone,\" actress Zelda Williams wrote on Twitter. \"It sets such an awful precedent for the future of performance.\" Her father, Robin Williams, who died in 2014, was keen to avoid the same fate. Before his death, he filed a deed protecting the use of his image until 2039, preventing others from recreating him using CGI to appear in a film, TV show or as a hologram(全息影像).\nC) The James Dean film is a way to keep the actor's image relevant for younger generations, says Mark Roesler of CMG Worldwide, the firm that represents Dean's estate. \"I think this is the beginning of an entire wave,\" says Travis Cloyd, CEO of Worldwide XR, one of the companies behind the digital recreation of Dean. \"Moving into the future, we want James Dean to be brought into different gaming environments, or different virtual reality environments, or augmented reality environments,\" he says.\nD) Other actors have been revived, with the permission of their estates, for advertising purposes: for example, a 2011 advertisement for Dior featured contemporary actress Charlize Theron alongside iconic 20th-century stars Marilyn Monroe, Grace Kelly and Marlene Dietrich. Later, Audrey Hepburn was digitally recreated for a chocolate commercial in 2013. In the same year, a CGI Bruce Lee appeared in a Chinese-language ad for a whisky brand, which offended many fans because Lee was widely known not to drink alcohol at all. \"In the last five years, it's become more affordable and more achievable in a whole movie,\" says Tim Webber at UK visual effects firm Framestore, the company behind the Hepburn chocolate ad. Framestore used body doubles with resemblance to Hepburn's facial structure and body shape as a framework for manual animation. The process was extremely difficult and expensive, says Webber, but the technology has moved on.\nE) Now, a person can be animated from scratch. \"If they're alive today, you can put them in scanning rigs, you can get every detail of their body analysed very carefully and that makes it much easier, whereas working from available photographs is tricky,\" says Webber, who won an Academy Award for his visual effects work on the 2013 film Gravity. \"I also see a lot of actors today who will have the desire to take advantage of this technology: to have their likeness captured and stored for future content,\" says Cloyd. \"They foresee this being something that could give their estates and give their families the ability to make money from their likeness when they're gone.\"\nF) A hidden hazard of digitally recreating a deceased(已故的) celebrity is the risk of damaging their legacy. \"We have to respect the security and the integrity of rights holders,\" says John Canning at Digital Domain, a US firm that created a hologram rapper(说唱艺人) Tupac Shakur, which appeared at the Coachella music festival in 2012, 15 years after his death.\nG) Legally, a person's rights to control the commercial use of their name and image beyond their death differ between and even within countries. In certain US states, for example, these rights are treated similarly to property rights, and are transferable to a person's heirs. In California, under the Celebrities Rights Act, the personality rights for a celebrity last for 70 years after their death. \"We've got a societal debate going on about access to our public commons, as it were, about famous faces,\" says Lilian Edwards at Newcastle University, UK. Should the public be allowed to use or reproduce images of famous people, given how iconic they are? And what is in the best interest of a deceased person's legacy may conflict with the desires of their family or the public, says Edwards.\nH) A recreation, however lifelike, will never be indistinguishable from a real actor, says Webber. \"When we are bringing someone back, representing someone who is no longer alive on the screen, what we are doing is extremely sophisticated digital make-up,\" he says: \"A performance is a lot more than a physical resemblance.\"\nI) As it becomes easier to digitally recreate celebrities and to entirely manufacture on-screen identities, could this kind of technology put actors out of jobs? \"I think actors are worried about this,\" says Edwards. \"But I think it will take a very long time.\" This is partly because of the risk that viewers find virtual humans scary. Edwards cites widespread backlash to the digital recreation of Carrie Fisher as a young Princess Leia in Rogue One, a trick later repeated in the recent Star Wars: The Rise of Skywalker, which was filmed after Fisher's death in 2016. \"People didn't like it,\" she says. \"They discovered the uncanny valley(诡异谷).\"\nJ) This refers to the idea that when objects trying to resemble humans aren't quite perfect, they can make viewers feel uneasy because they fall somewhere between obviously non-human and fully human. \"That's always a danger when you're doing anything human or human-like,\" says Webber. \"There're a thousand things that could go wrong with a computer-generated facial performance, and any one of those could make it fall into the uncanny valley,\" he says: \"Your brain just knows there's something wrong.\" The problem often arises around the eyes or mouth, says Webber. \"They're the areas that you look at when you're talking to someone.\"\nK) An unfamiliar digital human that has been created through CGI will also face the same challenge as an unknown actor: they don't have the appeal of an established name. \"You have to spend substantial capital in creating awareness around their likeness and making sure people are familiar with who they are,\" says Cloyd. This is now starting to happen. \"The way you pre-sell a movie in a foreign market is based on relevant talent,\" he says. \"I think we're a long way away from having virtual beings that have the ability to pre-sell content.\"\nL) Webber expects that we will see more digital humans on screen. \"It's happening because it can happen,\" he says. Referring to a line from Jurassic Park(侏罗纪公园), he adds: \"People are too busy thinking about what they can do to think about whether they should do it.\" 36. There is an ongoing debate among the public as to whether the images of deceased celebrities should be recreated.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "Digital humans are coming to a screen near you. As computer-generated imagery (CGI) has become cheaper and more sophisticated, the film industry can now convincingly recreate people on screen— even actors who have been dead for decades. The technology's ability to effectively keep celebrities alive beyond the grave is raising questions about public legacies and image rights."
+        },
+        {
+          "label": "B",
+          "text": "Late in 2019, it was announced that US actor James Dean, who died in 1955, will star in a Vietnam War film scheduled for release later this year. In the film, which will be called Finding Jack, Dean will be recreated on screen with CGI based on old footage(影片镜头) and photographs, with another actor voicing him. The news was met with excitement by those keen to see Dean digitally brought back to life for only his fourth film, but it also drew sharp criticism. \"This is puppeteering the dead for their fame alone,\" actress Zelda Williams wrote on Twitter. \"It sets such an awful precedent for the future of performance.\" Her father, Robin Williams, who died in 2014, was keen to avoid the same fate. Before his death, he filed a deed protecting the use of his image until 2039, preventing others from recreating him using CGI to appear in a film, TV show or as a hologram(全息影像)."
+        },
+        {
+          "label": "C",
+          "text": "The James Dean film is a way to keep the actor's image relevant for younger generations, says Mark Roesler of CMG Worldwide, the firm that represents Dean's estate. \"I think this is the beginning of an entire wave,\" says Travis Cloyd, CEO of Worldwide XR, one of the companies behind the digital recreation of Dean. \"Moving into the future, we want James Dean to be brought into different gaming environments, or different virtual reality environments, or augmented reality environments,\" he says."
+        },
+        {
+          "label": "D",
+          "text": "Other actors have been revived, with the permission of their estates, for advertising purposes: for example, a 2011 advertisement for Dior featured contemporary actress Charlize Theron alongside iconic 20th-century stars Marilyn Monroe, Grace Kelly and Marlene Dietrich. Later, Audrey Hepburn was digitally recreated for a chocolate commercial in 2013. In the same year, a CGI Bruce Lee appeared in a Chinese-language ad for a whisky brand, which offended many fans because Lee was widely known not to drink alcohol at all. \"In the last five years, it's become more affordable and more achievable in a whole movie,\" says Tim Webber at UK visual effects firm Framestore, the company behind the Hepburn chocolate ad. Framestore used body doubles with resemblance to Hepburn's facial structure and body shape as a framework for manual animation. The process was extremely difficult and expensive, says Webber, but the technology has moved on."
+        },
+        {
+          "label": "E",
+          "text": "Now, a person can be animated from scratch. \"If they're alive today, you can put them in scanning rigs, you can get every detail of their body analysed very carefully and that makes it much easier, whereas working from available photographs is tricky,\" says Webber, who won an Academy Award for his visual effects work on the 2013 film Gravity. \"I also see a lot of actors today who will have the desire to take advantage of this technology: to have their likeness captured and stored for future content,\" says Cloyd. \"They foresee this being something that could give their estates and give their families the ability to make money from their likeness when they're gone.\""
+        },
+        {
+          "label": "F",
+          "text": "A hidden hazard of digitally recreating a deceased(已故的) celebrity is the risk of damaging their legacy. \"We have to respect the security and the integrity of rights holders,\" says John Canning at Digital Domain, a US firm that created a hologram rapper(说唱艺人) Tupac Shakur, which appeared at the Coachella music festival in 2012, 15 years after his death."
+        },
+        {
+          "label": "G",
+          "text": "Legally, a person's rights to control the commercial use of their name and image beyond their death differ between and even within countries. In certain US states, for example, these rights are treated similarly to property rights, and are transferable to a person's heirs. In California, under the Celebrities Rights Act, the personality rights for a celebrity last for 70 years after their death. \"We've got a societal debate going on about access to our public commons, as it were, about famous faces,\" says Lilian Edwards at Newcastle University, UK. Should the public be allowed to use or reproduce images of famous people, given how iconic they are? And what is in the best interest of a deceased person's legacy may conflict with the desires of their family or the public, says Edwards."
+        },
+        {
+          "label": "H",
+          "text": "A recreation, however lifelike, will never be indistinguishable from a real actor, says Webber. \"When we are bringing someone back, representing someone who is no longer alive on the screen, what we are doing is extremely sophisticated digital make-up,\" he says: \"A performance is a lot more than a physical resemblance.\""
+        },
+        {
+          "label": "I",
+          "text": "As it becomes easier to digitally recreate celebrities and to entirely manufacture on-screen identities, could this kind of technology put actors out of jobs? \"I think actors are worried about this,\" says Edwards. \"But I think it will take a very long time.\" This is partly because of the risk that viewers find virtual humans scary. Edwards cites widespread backlash to the digital recreation of Carrie Fisher as a young Princess Leia in Rogue One, a trick later repeated in the recent Star Wars: The Rise of Skywalker, which was filmed after Fisher's death in 2016. \"People didn't like it,\" she says. \"They discovered the uncanny valley(诡异谷).\""
+        },
+        {
+          "label": "J",
+          "text": "This refers to the idea that when objects trying to resemble humans aren't quite perfect, they can make viewers feel uneasy because they fall somewhere between obviously non-human and fully human. \"That's always a danger when you're doing anything human or human-like,\" says Webber. \"There're a thousand things that could go wrong with a computer-generated facial performance, and any one of those could make it fall into the uncanny valley,\" he says: \"Your brain just knows there's something wrong.\" The problem often arises around the eyes or mouth, says Webber. \"They're the areas that you look at when you're talking to someone.\""
+        },
+        {
+          "label": "K",
+          "text": "An unfamiliar digital human that has been created through CGI will also face the same challenge as an unknown actor: they don't have the appeal of an established name. \"You have to spend substantial capital in creating awareness around their likeness and making sure people are familiar with who they are,\" says Cloyd. This is now starting to happen. \"The way you pre-sell a movie in a foreign market is based on relevant talent,\" he says. \"I think we're a long way away from having virtual beings that have the ability to pre-sell content.\""
+        },
+        {
+          "label": "L",
+          "text": "Webber expects that we will see more digital humans on screen. \"It's happening because it can happen,\" he says. Referring to a line from Jurassic Park(侏罗纪公园), he adds: \"People are too busy thinking about what they can do to think about whether they should do it.\" 36. There is an ongoing debate among the public as to whether the images of deceased celebrities should be recreated."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 You can't see it, smell it, or hear it, and people disagree on how precisely to define it, or where exactly it comes from. It isn't a school subject or an academic discipline, but it can be learned. It is a quality that is required of artists, but it is also present in the lives of scientists and entrepreneurs. All of us benefit from it and we thrive mentally and spiritually when we are able to wield it. It is a delicate thing, easily stamped out; in fact, it flourishes most fully when people are playful and childlike. Meanwhile, it works best in conjunction with deep knowledge and expertise.\n\nP2 This mysterious—but teachable—quality is creativity, the subject of a recently-published report by Durham Commission on Creativity and Education. The report concludes that creativity should not inhabit the school curriculum only as it relates to drama, music, art and other obviously creative subjects, but that creative thinking ought to run through all of school life, infusing(充满) the way humanities and natural sciences are learned. Questions 46 to 50 are based on the following passage.\n\nP3 The authors, who focus on education in England, offer a number of sensible recommendations, some of which are an attempt to alleviate the uninspiring and fact-based approach to education that has crept into policy in recent years. When children are regarded as vessels to be filled with facts, creativity does not prosper; nor does it when teachers' sole objective is coaching children towards exams. One suggestion from the commission is a network of teacher-led \"creativity collaboratives\", along the lines of existing maths hubs( 中心), with the aim of supporting teaching for creativity through the school curriculum.\n\nP4 Nevertheless, it is arts subjects through which creativity can most obviously be fostered. The value placed on them by the independent education sector is clear. One only has to look at the remarkable arts facilities at Britain's top private schools to comprehend this. But in the state sector the excessive focus on English, maths and science threatens to crush arts subjects; meanwhile, reduced school budgets mean diminishing extracurricular activities. There has been a 28.1% decline in students taking creative subjects at high schools since 2014, though happily, art and design have seen a recent increase.\n\nP5 This discrepancy between state and private education is a matter of social justice. It is simply wrong and unfair that most children have a fraction of the access to choirs, orchestras, art studios and drama that their more privileged peers enjoy. As lives are affected by any number of looming challenges —climate crisis, automation in the workplace—humans are going to need creative thinking more than ever. For all of our sakes, creativity in education, and for all, must become a priority.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "You can't see it, smell it, or hear it, and people disagree on how precisely to define it, or where exactly it comes from. It isn't a school subject or an academic discipline, but it can be learned. It is a quality that is required of artists, but it is also present in the lives of scientists and entrepreneurs. All of us benefit from it and we thrive mentally and spiritually when we are able to wield it. It is a delicate thing, easily stamped out; in fact, it flourishes most fully when people are playful and childlike. Meanwhile, it works best in conjunction with deep knowledge and expertise."
+        },
+        {
+          "label": "P2",
+          "text": "This mysterious—but teachable—quality is creativity, the subject of a recently-published report by Durham Commission on Creativity and Education. The report concludes that creativity should not inhabit the school curriculum only as it relates to drama, music, art and other obviously creative subjects, but that creative thinking ought to run through all of school life, infusing(充满) the way humanities and natural sciences are learned. Questions 46 to 50 are based on the following passage."
+        },
+        {
+          "label": "P3",
+          "text": "The authors, who focus on education in England, offer a number of sensible recommendations, some of which are an attempt to alleviate the uninspiring and fact-based approach to education that has crept into policy in recent years. When children are regarded as vessels to be filled with facts, creativity does not prosper; nor does it when teachers' sole objective is coaching children towards exams. One suggestion from the commission is a network of teacher-led \"creativity collaboratives\", along the lines of existing maths hubs( 中心), with the aim of supporting teaching for creativity through the school curriculum."
+        },
+        {
+          "label": "P4",
+          "text": "Nevertheless, it is arts subjects through which creativity can most obviously be fostered. The value placed on them by the independent education sector is clear. One only has to look at the remarkable arts facilities at Britain's top private schools to comprehend this. But in the state sector the excessive focus on English, maths and science threatens to crush arts subjects; meanwhile, reduced school budgets mean diminishing extracurricular activities. There has been a 28.1% decline in students taking creative subjects at high schools since 2014, though happily, art and design have seen a recent increase."
+        },
+        {
+          "label": "P5",
+          "text": "This discrepancy between state and private education is a matter of social justice. It is simply wrong and unfair that most children have a fraction of the access to choirs, orchestras, art studios and drama that their more privileged peers enjoy. As lives are affected by any number of looming challenges —climate crisis, automation in the workplace—humans are going to need creative thinking more than ever. For all of our sakes, creativity in education, and for all, must become a priority."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 Emulating your conversation partner's actions is a common human behavior classified as \"mirroring\" and has been known and studied by psychologists for years. We all tend to subconsciously copy gestures of people we like. But why do we act like this?\n\nP2 As a rule, mirroring means that conversationalists enjoy their communication and that there's a certain level of agreement between them. The topic of discussion is equally interesting for both and they know their interests meet.\n\nP3 Repeating someone's behavior is typical of talented communicators, not always because the person is sympathetic, but because there is a goal to be achieved. This way new idols have been brought to the stage: politicians, celebrities, and other big names. Popular culture makes people want to look popular, and act and speak like popular people. Questions 51 to 55 are based on the following passage.\n\nP4 Nowadays celebrities steal lyrics from each other and struggle with copyright violation accusations or straightforwardly claim themselves to be the authors, even though all the work was done by other people.\n\nP5 Among celebrities, it's trendy nowadays to use their own speech writers as politicians do. The so-called \"ghostwriting\" can take various forms: books, articles, autobiographies, and even social media posts.\n\nP6 Who is a true copycat(抄袭者) and who gets copycatted? Sometimes, it is a hard nut to crack without an expert's help. But new authorship defending methods based on identifying individual writing patterns are already here. Their aim is to protect intellectual property. Using scientific methods, some of them can define authorship with 85% accuracy.\n\nP7 Writing is not an easy craft to master. If you want to write like a professional without plagiarism(抄袭), there are a few lessons to learn and the first one is: \"Copy from one, it's plagiarism; copy from two, it's research.\" The correct interpretation of this statement is not about copying, but rather about creating your own style. When you study an author's writing style, don't stop on a single one, but explore numerous styles instead. Examine types of sentences they use, pay attention to their metaphors, and focus on stories you feel you could write a pretty cool sequel(续篇) to.\n\nP8 Imitation is rather paradoxical. As an integral part of learning, it brings about positive changes, making people develop and grow. However, it may do a lot of harm. Copying someone's thoughts, ideas or inventions is completely unacceptable. It infringes on intellectual property rights of others.\n\nP9 Still, many things we do are about copying others one way or another. So if you want to compliment someone on the work they have done and imitate it, just make sure you do it the right way to avoid committing plagiarism.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "Emulating your conversation partner's actions is a common human behavior classified as \"mirroring\" and has been known and studied by psychologists for years. We all tend to subconsciously copy gestures of people we like. But why do we act like this?"
+        },
+        {
+          "label": "P2",
+          "text": "As a rule, mirroring means that conversationalists enjoy their communication and that there's a certain level of agreement between them. The topic of discussion is equally interesting for both and they know their interests meet."
+        },
+        {
+          "label": "P3",
+          "text": "Repeating someone's behavior is typical of talented communicators, not always because the person is sympathetic, but because there is a goal to be achieved. This way new idols have been brought to the stage: politicians, celebrities, and other big names. Popular culture makes people want to look popular, and act and speak like popular people. Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "label": "P4",
+          "text": "Nowadays celebrities steal lyrics from each other and struggle with copyright violation accusations or straightforwardly claim themselves to be the authors, even though all the work was done by other people."
+        },
+        {
+          "label": "P5",
+          "text": "Among celebrities, it's trendy nowadays to use their own speech writers as politicians do. The so-called \"ghostwriting\" can take various forms: books, articles, autobiographies, and even social media posts."
+        },
+        {
+          "label": "P6",
+          "text": "Who is a true copycat(抄袭者) and who gets copycatted? Sometimes, it is a hard nut to crack without an expert's help. But new authorship defending methods based on identifying individual writing patterns are already here. Their aim is to protect intellectual property. Using scientific methods, some of them can define authorship with 85% accuracy."
+        },
+        {
+          "label": "P7",
+          "text": "Writing is not an easy craft to master. If you want to write like a professional without plagiarism(抄袭), there are a few lessons to learn and the first one is: \"Copy from one, it's plagiarism; copy from two, it's research.\" The correct interpretation of this statement is not about copying, but rather about creating your own style. When you study an author's writing style, don't stop on a single one, but explore numerous styles instead. Examine types of sentences they use, pay attention to their metaphors, and focus on stories you feel you could write a pretty cool sequel(续篇) to."
+        },
+        {
+          "label": "P8",
+          "text": "Imitation is rather paradoxical. As an integral part of learning, it brings about positive changes, making people develop and grow. However, it may do a lot of harm. Copying someone's thoughts, ideas or inventions is completely unacceptable. It infringes on intellectual property rights of others."
+        },
+        {
+          "label": "P9",
+          "text": "Still, many things we do are about copying others one way or another. So if you want to compliment someone on the work they have done and imitate it, just make sure you do it the right way to avoid committing plagiarism."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay based on the chart below. You should start your essay with a brief description of the chart and comment on China's achievements in poverty alleviation. You should write at least 150 words but no more than 200 words.",
+      "model": "The chart clearly illustrates the striking decline of rural poverty in China from 2012 to 2020. During this period, the rural poor population plunged from around 98 million to nearly zero, while the incidence of poverty fell in parallel from about 10.2% to almost 0%. Based on official statistics, this downward trend remained remarkably steady throughout the whole period. Several factors account for this remarkable achievement. Above all, the Chinese government made poverty alleviation a national priority and rolled out a series of targeted measures, such as developing local industries, relocating residents from harsh areas and improving education. These well-designed policies steadily lifted millions of people out of poverty. The significance of this progress can hardly be overstated. Not only has it dramatically improved the livelihood of the rural population, but it also offers a valuable model for other developing nations still fighting poverty. In my view, such an accomplishment fully demonstrates what determination and effective governance can bring about.",
+      "modelZh": "【参考译文】这张图表清晰地展现了2012年至2020年中国农村贫困的惊人下降。在此期间，农村贫困人口从约9800万骤降至近乎为零，与此同时，贫困发生率也同步从约10.2%降至几乎为0%。基于官方统计数据，这一下降趋势在整个时期内保持得相当平稳。促成这一非凡成就的因素有多个。首先，中国政府将脱贫列为国家优先事项，并推出了一系列有针对性的举措，例如发展地方产业、将居民从恶劣地区异地搬迁、改善教育等。这些精心设计的政策稳步地让数以百万计的人摆脱了贫困。这一进步的意义怎么强调都不为过。它不仅极大地改善了农村人口的生活，也为其他仍在与贫困作斗争的发展中国家提供了宝贵的范例。在我看来，这样的成就充分展现了决心与有效治理所能带来的力量。【第 1 段】一句趋势加起止值。本段落实了'一句概括总趋势'：首句 'The chart clearly illustrates thestriking decline of rural poverty' 套用'引出图表'句架点明主题与方向；接着用 'plunged from around",
+      "outline": [
+        {
+          "no": 1,
+          "text": "一句趋势加起止值。本段落实了'一句概括总趋势'：首句 'The chart clearly illustrates the striking decline of rural poverty' 套用'引出图表'句架点明主题与方向；接着用 'plunged from around 98 million to nearly zero, while the incidence of poverty fell in parallel from about 10.2% to almost 0%' 只交代首尾两端数据，中间年份全部略去，且全段无一句主观评价，严守描述段的边界。"
+        },
+        {
+          "no": 2,
+          "text": "成因主句加实例回扣。本段落实了'成因分点加实例'：'Several factors account for this remarkable achievement' 作过渡兼主句，'such as developing local industries, relocating residents... and improving education' 用实例撑起成因，末句 'These well-designed policies steadily lifted millions of people out of poverty' 把举措与结果回扣，评论有据不空喊。"
+        },
+        {
+          "no": 3,
+          "text": "双层意义加表态收口。本段落实了'升华意义收全篇'：'can hardly be overstated' 强调意 义，'Not only has it... but it also...' 分'民生改善'与'国际示范'两层展开且用了部分倒装，末句 'In my view, such an accomplishment fully demonstrates...' 表态收尾，给全文一个明确落点。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 云南是位于中国西南的一个省份，平均海拔 1500米。云南历史悠久，风景秀丽，气候宜人。云南 生态环境优越，生物多种多样，被誉为野生动植物的天堂。云南还有多种矿藏和充足的水资源,为全省 经济的可持续发展提供了有利条件。 云南居住着25个少数民族,他们大多有自己的语言、习俗和宗 教。云南独特的自然景色和丰富的民族文化使其成为中国最受欢迎的旅游目的地之一，每年都吸引着 大批国内外游客前往观光旅游。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Yunnan is a province in southwest China, with an average altitude of 1,500 meters. It has a long history, beautiful scenery and a pleasant climate. With its superior ecological environment and diverse species, it is known as a paradise for wild animals and plants. It also has various mineral resources and abundant water resources, providing favorable conditions for the sustainable development of the province's economy. It is home to 25 ethnic minorities, most of whom have their own languages, customs and religions. Its unique natural scenery and rich ethnic culture make it one of the most popular tourist destinations in China, attracting large numbers of tourists from home and abroad every year.",
+      "source": "云南是位于中国西南的一个省份，平均海拔 1500米。云南历史悠久，风景秀丽，气候宜人。云南生态环境优越，生物多种多样，被誉为野生动植物的天堂。云南还有多种矿藏和充足的水资源,为全省经济的可持续发展提供了有利条件。 云南居住着25个少数民族,他们大多有自己的语言、习俗和宗教。云南独特的自然景色和丰富的民族文化使其成为中国最受欢迎的旅游目的地之一，每年都吸引着大批国内外游客前往观光旅游。",
+      "reference": "Yunnan is a province in southwest China, with an average altitude of 1,500 meters. It has a long history, beautiful scenery and a pleasant climate. With its superior ecological environment and diverse species, it is known as a paradise for wild animals and plants. It also has various mineral resources and abundant water resources, providing favorable conditions for the sustainable development of the province's economy. It is home to 25 ethnic minorities, most of whom have their own languages, customs and religions. Its unique natural scenery and rich ethnic culture make it one of the most popular tourist destinations in China, attracting large numbers of tourists from home and abroad every year.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "主干 Yunnan is a province（主语策略：原句主语） 中文已有明确主语\"云南\"，直接作英文主语；核心是判断关系 云南是位于中国西南的一个省份，谓 语用 is、表语用 a province，立起 Yunnan is a province 这一骨架。"
+          },
+          {
+            "label": "降级",
+            "text": "两个修饰各自降级 主干外有两块：\"位于中国西南的\"修饰 province，降级成介词短语 in southwest China 作后置定 语（province in southwest China）；\"平均海拔1500米\"是另一项数据，降级成介词短语 with an average altitude of 1,500 meters 挂在后面，避免另起一句和中文一样平铺。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调，用一般现在时 is——这是云南长期为真的属性，非过去事件。 冠词 \"一个省份\"是泛指其中之一，用不定冠词 a province；不要漏冠词写成 is province。 数字与单位 \"1500米\"写成 1,500 meters，meter 可数且数量大于一，用复数 meters；altitude/elevation 表 海拔均可。"
+          },
+          {
+            "label": "译文",
+            "text": "Yunnan is a province in southwest China, with an average altitude of 1,500 meters. 2. 云南历史悠久，风景秀丽，气候宜人。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "主干 It has / It boasts（主语策略：原句主语） 三个四字短语 云南历史悠久，风景秀丽，气候宜人 实为\"云南拥有 X、Y、Z\"，主语仍是云南（用 It 承接上句），核心动词补一个\"拥有\"义的 has 或 boasts，把三项并列宾语统起来：It has a long history, beautiful scenery and a pleasant climate。"
+          },
+          {
+            "label": "降级",
+            "text": "三短语并列作宾语 \"历史悠久→a long history\"\"风景秀丽→beautiful scenery\"\"气候宜人→a pleasant climate\"三项 是同级并列，用 A, B and C 结构挂在 has/boasts 后；不必拆成三句，更不要用三个 and 串成流 水句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指基调用一般现在时 has/boasts。 单复数与冠词 scenery 是不可数名词，不加 a、不加 s；history 和 climate 在此为可数的具体一项，配 a long history、a pleasant climate。 搭配 \"气候宜人\"地道搭配是 a pleasant/mild climate；\"风景秀丽\"用 beautiful scenery 或 picturesque scenery。"
+          },
+          {
+            "label": "译文",
+            "text": "It has a long history, beautiful scenery and a pleasant climate. 3. 云南生态环境优越，生物多种多样，被誉为野生动植物的天堂。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "主干落在\"被誉为\"（主语策略：原句主语） 本句三小句里，最核心的动作是末句 被誉为野生动植物的天堂——是个被动表达。主语仍是云南 （It），主干定为 It is known/honored as a paradise，前两小句\"生态环境优越，生物多种多 样\"作为原因降级处理。"
+          },
+          {
+            "label": "降级",
+            "text": "原因降级成with短语 \"生态环境优越，生物多种多样\"是云南被誉为天堂的原因，降级成 With its superior ecological environment and diverse species 这个 with 引导的伴随/原因状语，置于句首；主句保留 it is known as a paradise for wild animals and plants，避免照中文排成三个并列小句。"
+          },
+          {
+            "label": "语法",
+            "text": "语态 \"被誉为\"是被动，用 is known as / is honored as / is reputed as；英文被动远多于汉语，此处必 须保留被动。 单复数 \"野生动植物\"含多种，animals and plants 用复数；\"生物多种多样\"译 diverse species，species 单复数同形、此处表复数概念。 搭配 \"天堂\"用 a paradise，后接 for：a paradise for wild animals and plants；\"生态环 境\"ecological environment。"
+          },
+          {
+            "label": "译文",
+            "text": "With its superior ecological environment and diverse species, it is known as a paradise for wild animals and plants. 4. 云南还有多种矿藏和充足的水资源,为全省经济的可持续发展提供了有利条件。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "主干 It also has resources（主语策略：原句主语） 主语仍是云南（It），核心动词是\"有\"，宾语是 多种矿藏和充足的水资源，立骨架 It also has various mineral resources and abundant water resources；后半\"为…提供了有利条件\"是 这\"有\"带来的结果，降级处理。"
+          },
+          {
+            "label": "降级",
+            "text": "结果用现在分词承接 \"为全省经济的可持续发展提供了有利条件\"降级成现在分词短语 providing favorable conditions for the sustainable development of the province's economy，作结果状语挂在主句后；与主句 共用主语 It，无需重复主语、也不用 and 另起一句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 中文\"提供了\"的\"了\"易诱人用过去时，但这是云南资源\"一直在\"提供的条件、属持续事实，回指基 调仍用一般现在时（分词 providing 不带时态、随主句现在时）。 单复数 \"多种矿藏\"various mineral resources 用复数；resource 表\"资源\"作可数复数 resources，water resources 同。 搭配与冠词 \"可持续发展\"sustainable development（不可数，不加 a）；\"有利条件\"favorable conditions；\"充足的\"abundant/sufficient。"
+          },
+          {
+            "label": "译文",
+            "text": "It also has various mineral resources and abundant water resources, providing favorable conditions for the sustainable development of the province's economy. 5. 云南居住着25个少数民族,他们大多有自己的语言、习俗和宗教。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "主干 It is home to / 25 minorities live（主语策略：原句主语） 前半 云南居住着25个少数民族 主干可处理成 It is home to 25 ethnic minorities（地道地表\"是… 的聚居地\"），主语云南→It；后半\"他们大多有…\"另立主干 most of whom have…，用关系代词 whom 把后半挂成定语从句。"
+          },
+          {
+            "label": "降级",
+            "text": "后半改非限定定语从句 \"他们大多有自己的语言、习俗和宗教\"中的\"他们\"指代前面的 25 个少数民族，改用 most of whom have their own languages, customs and religions 接成非限定定语从句，避免另起一句 重复 they 作主语；三项并列宾语用 A, B and C。"
+          },
+          {
+            "label": "语法",
+            "text": "单复数 \"25个少数民族\"复数 25 ethnic minorities；\"语言、习俗和宗教\"对应每个民族各有，用复数 languages, customs and religions。 主谓一致 定语从句 most of whom 指代复数的 minorities，谓语用复数 have，不是 has。 代词搭配 \"自己的\"用 their own，与复数先行词一致；their own 强调\"各自拥有\"。"
+          },
+          {
+            "label": "译文",
+            "text": "It is home to 25 ethnic minorities, most of whom have their own languages, customs and religions. 6. 云南独特的自然景色和丰富的民族文化使其成为中国最受欢迎的旅游目的地之一，每年都吸 引着大批国内外游客前往观光旅游。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "主干 Scenery and culture make it…（主语策略：原句主语） 本句核心是\"使…成为\"的使役结构 使其成为中国最受欢迎的旅游目的地之一：主语是\"独特的自然景 色和丰富的民族文化\"，谓语 make，宾语 it（云南），宾补 one of the most popular tourist destinations in China，立起 make sb./sth. + 宾补 的骨架。"
+          },
+          {
+            "label": "降级",
+            "text": "后半改现在分词状语 \"每年都吸引着大批国内外游客前往观光旅游\"与前半同主语（自然景色和民族文化），降级成现在 分词短语 attracting large numbers of tourists from home and abroad every year，作伴随状 语挂在主句后；\"前往观光旅游\"含义已并入 attracting…tourists，无需逐字另译 to visit。"
+          },
+          {
+            "label": "语法",
+            "text": "主谓一致 主语是 scenery and culture 两项并列，视作复数，使役动词用 make（不加 s），不是 makes。 单复数与固定搭配 \"…之一\"固定结构 one of the + 最高级 + 复数名词：one of the most popular tourist destinations；\"大批游客\"large numbers of tourists 复数。 习语搭配 \"国内外\"地道说法 at home and abroad / from home and abroad；不要逐字译成 inside and outside the country。"
+          },
+          {
+            "label": "译文",
+            "text": "Its unique natural scenery and rich ethnic culture make it one of the most popular tourist destinations in China, attracting large numbers of tourists from home and abroad every year. 英语六级 2021年6月·第3套 · 全卷构成 Part II 听力 与2021年6月第1套共用 · 题目解析 → Part III Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "no-audio"
+  ]
+}

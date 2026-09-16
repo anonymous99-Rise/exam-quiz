@@ -1,0 +1,2298 @@
+{
+  "id": "2020-12-3",
+  "examId": "cet6",
+  "year": 2020,
+  "month": 12,
+  "session": "2020下半年",
+  "setNo": 3,
+  "label": "2020年12月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "It has been __(26)__ by fear",
+      "answer": "C",
+      "answerText": "driven",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "has been ___ by=现在完成被动"
+        },
+        {
+          "label": "依据",
+          "text": "be driven by fear=被恐惧驱动 driven 与 by 经典搭配 be driven by『被…驱动』，主语 It 指代 social distancing，整句 意为『社交距离是由恐惧驱动的，反过来又制造更多恐惧』，与下一分句 it is creating even more fear 中 driven/creating 的因果递进吻合。"
+        },
+        {
+          "label": "竞争词",
+          "text": "M) tickled 感情色彩反 tickled 表『被逗乐/感到高兴』，搭配 by fear 不通——恐惧不会让人 tickled；且与 social distancing 的严肃语境完全冲突。 32 33 34 35"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "a sacrifice to protect those most __(27)__ to the coronavirus(",
+      "answer": "O",
+      "answerText": "vulnerable",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "those most ___ to=形容词最高级位"
+        },
+        {
+          "label": "依据",
+          "text": "be vulnerable to=易受…伤害 vulnerable 与 to 是经典搭配 be vulnerable to sth，意为『易受…伤害的』，正好契合下 文列举的弱势群体 the elderly, people with compromised immune systems——他们正 是最易受冠状病毒影响的人群。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) malignant 义反，形容病不形容人 malignant 多用于形容肿瘤/疾病是『恶性的』，搭配对象是病不是人；此处 those 指人，且不 与 to 构成易受影响的语义。 A) amazing 感情色彩与受害语境冲突 amazing 是积极色彩，与『遭受病毒影响』的负面语境不搭，也不与 to 构成弱势搭配。 H) random 义不符且不搭 to random 表『随机的』，无法描述老人/免疫缺陷者『最易受病毒影响』这一特征。 L) thriftier 比较级且义无关 thriftier 表『更节俭的』，与病毒易感语境完全无关。 N) unique 义不符 unique 表『独特』，无法表达『易受病毒伤害』。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "those whose life-saving resources would be used up by a __(28)__ epidemic",
+      "answer": "E",
+      "answerText": "malignant",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "a ___ epidemic=定冠词+空+名词"
+        },
+        {
+          "label": "依据",
+          "text": "malignant epidemic=恶性疫情 malignant 本义『恶性的』，常与疾病/疫情搭配，表程度严重、致命；前文 life-saving resources would be used up 暗示这是一场会把救命资源耗尽的严重疫情，正与 malignant 的『恶性』语义匹配。"
+        },
+        {
+          "label": "竞争词",
+          "text": "A) amazing 感情色彩反 amazing 偏褒义，与 epidemic（疫情）这种负面对象搭配语用冲突。 H) random 义不到位 random epidemic（随机疫情）描述不出『耗尽救命资源』所需的『严重/恶性』程度。 L) thriftier 比较级且义无关 thriftier 形容『节俭』，与疫情语义无关。 N) unique 义不到位 unique epidemic 只说『独特』，无法解释为何会用尽救命资源；且 unique 留待后文更贴合 的空。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "But social distancing is __(29)__ in that it is completely self-sacrificing",
+      "answer": "N",
+      "answerText": "unique",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "is ___ in that=系动词后表语"
+        },
+        {
+          "label": "依据",
+          "text": "unique in that=独特之处在于 unique in that 是固定句式『独特之处在于…』，与前句 Americans make life-saving decisions every day as a matter of course 中举的系安全带、不超速等日常救命决策形成 转折——social distancing 与众不同之处在于它 completely self-sacrificing，逻辑严丝 合缝。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) thriftier 义不符且比较级冗余 thriftier 表『更节俭的』，与 self-sacrificing（完全自我牺牲）无对应义；且比较级没有比较 对象。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Those who will benefit may be the elderly relatives of the __(30)__ person we didn't pass in Starbucks, on the subway, or in the elevator",
+      "answer": "H",
+      "answerText": "random",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "the ___ person=冠词+空+名词"
+        },
+        {
+          "label": "依据",
+          "text": "random person=路上随便一个人 random 表『随机的、任意的』，random person 即『偶然遇到的某个不特定的人』；下 文列举的 Starbucks, on the subway, or in the elevator 正是这种生活里『随便碰到一个 陌生人』的典型场所，与 random 高度契合。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) thriftier 义无关且为比较级 thriftier person 表『更节俭的人』，与本句对照场景（在咖啡店/地铁/电梯擦肩而过的陌生人） 完全无关。 N) unique 义指向反 unique person 强调『独一无二』，与文意中『不特定的某个路人』正好相反——本句强调的是 不特定性，而非独特性。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "It doesn't include the __(31)__ to run from society or make an excuse",
+      "answer": "K",
+      "answerText": "temptations",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "include the ___ to do=不定式逻辑主语位"
+        },
+        {
+          "label": "依据",
+          "text": "temptation to do=想…的诱惑 temptations 与 to do 是搭配 temptation to do（做某事的诱惑），与上下文 run from society or make an excuse to avoid one's obligations 语义紧密——文章在说『社交距 离并不等于趁机逃避社会与责任』，这种『想逃避的念头』正是 temptation。"
+        },
+        {
+          "label": "竞争词",
+          "text": "G) premises 义不符，且不接 to do premises 表『前提/经营场所』，既不与 to do 搭配，也无法替换『逃避社会』这层动机义；与 include 的宾语逻辑也对不上。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "it offers an __(32)__ opportunity for those who care about the elderly",
+      "answer": "A",
+      "answerText": "amazing",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "an ___ opportunity=冠词+空+名词"
+        },
+        {
+          "label": "依据",
+          "text": "amazing opportunity=绝佳机会 amazing 与 opportunity 是高频褒义搭配『绝佳机会』，且与上下文情感色彩一致：作者 把保持距离视为 applying love through caution，由此带来一个让人 find new ways to love them 的难得机会，正是 amazing 的褒义场域。"
+        },
+        {
+          "label": "竞争词",
+          "text": "H) random 义反、且 an 不接 r random opportunity 偏中性甚至略带『偶然撞上』，与作者推崇的『主动以爱回应』调性不 符；冠词 an 也对不上 r 起首。 N) unique 冠词 an 对不上 j 音 unique 起首是 /juː/，发音上接 a unique 而非 an unique，冠词 an 已先判定该位置不属于 它；且 unique 留待 29 题更贴。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 N) —— unique opportunity 看着也通但栽在 an 上。unique opportunity 是高频搭配『难得机会』，词义层面非常诱人，但 unique 起首是 /juː/ 辅音 音，前面只能接 a 不接 an；本题以 it offers an __(32)__ opportunity 中的 an 一锤定音锁 amazing。防坑：永远把 a/an 当硬筛而非可忽略的小词。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "If we're not __(33)__ as much in our normal work or school",
+      "answer": "D",
+      "answerText": "engaged",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "we're not ___ as much=系动词后过去分词作表语"
+        },
+        {
+          "label": "依据",
+          "text": "be engaged in=投入于… engaged 与 in 构成 be engaged in『忙于、投入于』的固定搭配；句义 we're not engaged as much in our normal work or school 正好解释了下半句『所以才 have extra time to call parents and grandparents』的因果链。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "We can also ask elderly relatives how to best support them __(34)__",
+      "answer": "J",
+      "answerText": "spiritually",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "support them ___=动词宾语后状语"
+        },
+        {
+          "label": "依据",
+          "text": "在精神层面上支持长辈 spiritually 表『在精神/心灵层面上』，与上下文紧扣：当下因为隔离不能见面 If we're not __(33)__ as much in our normal work or school, we have extra time to call parents and grandparents，能给到的支持主要是打电话陪伴这种精神/心理层面的支持，正是 support them spiritually。"
+        },
+        {
+          "label": "竞争词",
+          "text": "I) sentimentally 感情色彩偏负 sentimentally 偏『多愁善感地、感伤地』，含情感泛滥之意，与作者倡导的『以爱与谨慎给予 长辈实际支持』的健康基调不符。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 I) —— sentimentally vs spiritually 同词性近义最难切。I sentimentally 与 J spiritually 都是副词、都可放在 support them 后；考生容易凭语感乱 选。本题以上下文 we have extra time to call parents and grandparents 这种『精神陪 伴』的健康基调锁 spiritually。防坑：感情色彩 + 上下文调性两道闸一起夹。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "use our sacrifices as an opportunity to bring us, our community and the world __(35)__",
+      "answer": "B",
+      "answerText": "closer",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "bring sb ___=bring+宾语+补语"
+        },
+        {
+          "label": "依据",
+          "text": "bring … closer=让…更紧密 closer 与 bring 是经典搭配 bring sb closer『让某人更亲近』，正与全文 social distancing 表面拉远距离、内核却 at its core is love 形成回环呼应——身体的距离换来心 灵的更近。"
+        },
+        {
+          "label": "竞争词",
+          "text": "L) thriftier 义不符 thriftier 表『更节俭的』，与 bring us、community、world 三方的关系无关，逻辑上对 不上。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "amazing",
+        "B": "closer",
+        "C": "driven",
+        "D": "engaged",
+        "E": "malignant",
+        "F": "oppressing",
+        "G": "premises",
+        "H": "random",
+        "I": "sentimentally",
+        "J": "spiritually",
+        "K": "temptations",
+        "L": "thriftier",
+        "M": "tickled",
+        "N": "unique",
+        "O": "vulnerable"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "amazing"
+        },
+        {
+          "label": "B",
+          "text": "closer"
+        },
+        {
+          "label": "C",
+          "text": "driven"
+        },
+        {
+          "label": "D",
+          "text": "engaged"
+        },
+        {
+          "label": "E",
+          "text": "malignant"
+        },
+        {
+          "label": "F",
+          "text": "oppressing"
+        },
+        {
+          "label": "G",
+          "text": "premises"
+        },
+        {
+          "label": "H",
+          "text": "random"
+        },
+        {
+          "label": "I",
+          "text": "sentimentally"
+        },
+        {
+          "label": "J",
+          "text": "spiritually"
+        },
+        {
+          "label": "K",
+          "text": "temptations"
+        },
+        {
+          "label": "L",
+          "text": "thriftier"
+        },
+        {
+          "label": "M",
+          "text": "tickled"
+        },
+        {
+          "label": "N",
+          "text": "unique"
+        },
+        {
+          "label": "O",
+          "text": "vulnerable"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Students should develop the key skills before they start a project.",
+      "answer": "H",
+      "answerText": "H 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The most critical skills will be developed before the project even starts, in the form of boot camps, while the rest can be fostered along with the project, putting them to immediate use and thus providing a rich learning context. 最关键的技能将在项目开始之前以短期强化训练的形式培养，其余技能则可以在项目进行过 程中边做边学，立刻投入使用，从而提供丰富的学习情境。"
+        },
+        {
+          "label": "改写",
+          "text": "the key skills ↔The most critical skills 同义替换+形容词级别变化 before they start a project ↔before the project even starts 时间状语几乎逐字对应"
+        },
+        {
+          "label": "辨邻",
+          "text": "G focus on acquiring practical skills through projects只说'通过项目掌握实践技能'， 并未提'项目开始前'这一时间限定，缺少题干的关键限定。 The MSc curriculum should prepare students for their professional career by allowing them to focus on acquiring practical skills through projects I the very nature of projects develops social and entrepreneurial skills说的是项目 本身'顺带培养'的能力，并未提'在项目开始前'就要把关键技能练好的时间次序。 the very nature of projects develops social and entrepreneurial skills, such as design thinking, initiative taking, team leading, activity reporting or resource planning 通过在大学头几年获得推理技能,学生可以为终身学习奠定基础。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "关键技能+项目开始前"
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "By acquiring reasoning skills in the first few years of college, students can lay a foundation for lifelong learning. 【改写】acquiring reasoning skills in the first few years of college ↔ For the first few years, students would 'learn to learn' and get endowed with reasoning skills",
+      "answer": "E",
+      "answerText": "E 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "For the first few years, students would 'learn to learn' and get endowed with reasoning skills that remain with them for the rest of their lives. 在最初几年，学生将'学习如何学习'，并被赋予能伴随他们一生的推理能力。 advocating its abolition but rather calling for the adaptation of its characteristics to meet the needs of today. 大学在这一旅程中要发挥根本性作用,高等教育将发生变革。就像古典戏剧一样,旧的大学模式为社会培 养了人才和创造了价值。我们不是主张废除它,而是呼吁调整其特征以满足当今的需求。 36. Students should develop the key skills before they start a project. 37. By acquiring reasoning skills in the first few years of college, students can lay a foundation for lifelong learning."
+        },
+        {
+          "label": "改写",
+          "text": "acquiring reasoning skills in the first few years of college ↔ For the first few years, students would 'learn to learn' and get endowed with reasoning skills 几乎逐字对应+动词替换 lay a foundation for lifelong learning ↔ reasoning skills that remain with them for the rest of their lives '伴随一生'≈'终身学习的基础'"
+        },
+        {
+          "label": "辨邻",
+          "text": "F These three pillars would allow you to keep learning complex technical subjects all your life说的是新增的数据科学支柱让人终身能学新东西，落点在'新增支柱'而不 是'在校前几年获得推理能力'。 a new discipline blending computer science, programming, statistics and machine learning should be added to the traditional foundational topics of mathematics and physics 获取学习的便利性和快速的技术变革使传统教育模式面临挑战。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "前几年+推理能力+终身学习地基"
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The easy access to learning and rapid technological changes have brought the traditional model of education under challenge.",
+      "answer": "B",
+      "answerText": "B 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "This classical model has traditionally produced prestigious universities, but it is now challenged by the digitalisation of society—which allows everybody who is connected to the internet to access learning—and by the need to acquire skills in step with a fast- changing world. 这一古典模式过去培养了一批名校，但如今正受到社会数字化(它让任何能上网的人都能获取 学习)以及在快速变化的世界中持续更新技能的需求的双重挑战。"
+        },
+        {
+          "label": "改写",
+          "text": "The easy access to learning ↔ the digitalisation of society—which allows everybody who is connected to the internet to access learning 名词化概括原文从句 rapid technological changes ↔a fast-changing world 上位概括+形容词同义 the traditional model of education ↔This classical model 同义替换 brought…under challenge ↔it is now challenged 句式重构+被动同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "C The university model needs to evolve承接B段'被挑战'之后的应对，而非陈述句要找 的'原因 挑战'本身。 The university model needs to evolve. It must equip students with the right skills and knowledge 38. The easy access to learning and rapid technological changes have brought the traditional model of education under challenge. 尽管看似难以置信,但在世界各地的许多大学中,非全日制学生占学生群体的相当大一部分。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "学习易得+技术快变冲击传统模式"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Unbelievable as it may seem, part-time students constitute a considerable portion of the student body in many universities across the world.",
+      "answer": "K",
+      "answerText": "K 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Sound like science fiction? In many countries, part-time studying is not exceptional: on average across OECD countries, part-time students in 2016 represented 20 per cent of enrolment in tertiary education. 听起来像科幻？在许多国家，非全日制学习并不罕见：OECD国家平均水平上，2016年非全 日制学生占高等教育注册学生数的20%。"
+        },
+        {
+          "label": "改写",
+          "text": "Unbelievable as it may seem ↔Sound like science fiction? 反问式让步+口语化同义 part-time students constitute a considerable portion of the student body ↔ part-time students in 2016 represented 20 per cent of enrolment in tertiary education 数据 比例的语义概括 一些不易自动化的社会技能和管理技能对学生未来的职业生涯将非常重要。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "非全日制学生+相当比例"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Some social and managerial skills, which are not easily automated, will be of great importance to students' future careers.",
+      "answer": "I",
+      "answerText": "I 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Not only will those skills be actually integrated into the curriculum but they will be very important to have in the future because they are difficult to automate. 这些技能不仅会真正融入课程，而且因为难以被自动化，它们在未来将非常重要。"
+        },
+        {
+          "label": "改写",
+          "text": "Some social and managerial skills ↔ social and entrepreneurial skills, such as design thinking, initiative taking, team leading, activity reporting or resource planning 'creative管理类'同义概括 not easily automated ↔difficult to automate 形容词同义替换 of great importance to students' future careers ↔very important to have in the future 'very important'与'of great importance'句式重构"
+        },
+        {
+          "label": "辨邻",
+          "text": "H The most critical skills will be developed before the project even starts谈的是技 能何时养成，而非技能为什么对未来重要，缺少题干的'not easily automated'锚点。 The most critical skills will be developed before the project even starts, in the form of boot camps 39. Unbelievable as it may seem, part-time students constitute a considerable portion of the student body in many universities across the world. 40. Some social and managerial skills, which are not easily automated, will be of great importance to students' future careers. 新的大学教育模式应该为学生提供知识和技能,使他们更具创造力并能够终身学习。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "社交管理技能+难自动化+未来职业"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "A new model of college education should provide students with the knowledge and skills that will make them more inventive and capable of lifelong learning.",
+      "answer": "C",
+      "answerText": "C 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "It must equip students with the right skills and knowledge to compete in a world 'where value will be derived largely from human interaction and the ability to invent and interpret things that machines cannot', as the English futurist Richard Watson puts it. By teaching foundational knowledge and up-to-date skills, universities will provide students with the future-proof skills of lifelong learning, not just get them 'job-ready'. 大学必须让学生具备恰当的技能与知识，以便在一个'价值将主要来自人与人的互动，以及发 明并解读机器无法处理的事物的能力'的世界中竞争——英国未来学家Richard Watson如是 说。通过教授基础知识与最新技能，大学将赋予学生面向未来的终身学习能力，而不只是把 他们培养得'适合就业'。"
+        },
+        {
+          "label": "改写",
+          "text": "A new model of college education ↔The university model needs to evolve '新模式'与'模式要进化'等值 the knowledge and skills ↔foundational knowledge and up-to-date skills 上位概括 more inventive ↔invent and interpret things that machines cannot 动词 形容词的词类转换 capable of lifelong learning ↔future-proof skills of lifelong learning '能力'与'终身学习的技能'等值"
+        },
+        {
+          "label": "辨邻",
+          "text": "B Universities must realise that learning in your 20s won't be enough只指出新模式 的必要性，但'要赋予学生哪些知识技能以变得有创造力并终身学习'这层落点在C段。 Universities must realise that learning in your 20s won't be enough. If technological diffusion and implementation develop faster, workers will have to constantly refresh their skills D to adapt curricula to lifelong learning. We call this model the lifelong passport 说的是'怎样命名/启动这一改造'，并未提及'更有创造力+终身学习能力'两类目标。 One way to start this transformation process could be to go beyond the 'five-year diploma model' to adapt curricula to lifelong learning. We call this model the lifelong passport 多元化的学生群体可能会改变课堂动态并有益于学习。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "新模式+让学生更具创造力+终身学习"
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "A mixed student body may change the classroom dynamics and benefit learning. 【定位】Second, freshly graduated students would mix with professionally experienced ones. This would change the classroom dynamics, perhaps for the best.",
+      "answer": "J",
+      "answerText": "J 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Second, freshly graduated students would mix with professionally experienced ones. This would change the classroom dynamics, perhaps for the best. 其次，应届毕业生将与有职业经验的人混在一起。这将会改变课堂的互动状态，也许会变得 更好。"
+        },
+        {
+          "label": "改写",
+          "text": "A mixed student body ↔ freshly graduated students would mix with professionally experienced ones 名词化+同根词改写 change the classroom dynamics ↔change the classroom dynamics 原样复现 benefit learning ↔perhaps for the best+could therefore be a better preparation for it 正向评价同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "I the very nature of projects develops social and entrepreneurial skills说的是项目 本身培养什么能力，并不涉及学生构成的混合带来的课堂变化。 the very nature of projects develops social and entrepreneurial skills, such as design thinking, initiative taking, team leading, activity reporting or resource planning 谁将承担终身学习的成本这一问题是一个持续争论的话题。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "混合学生群体+改变课堂动态 41. A new model of college education should provide students with the knowledge and skills that will make them more inventive and capable of lifelong learning. 42. A mixed student body may change the classroom dynamics and benefit learning."
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The question of who will bear the cost of lifelong learning is a topic of constant debate.",
+      "answer": "N",
+      "answerText": "N 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Even if time were not an issue, who will pay for lifelong learning? That's the eternal debate: should it be the learner's responsibility, that of his employer, or of the state? 即便时间不是问题，谁来为终身学习买单？这是一场永恒的争论：到底该由学习者本人、他 的雇主还是国家来承担？"
+        },
+        {
+          "label": "改写",
+          "text": "The question of who will bear the cost of lifelong learning ↔who will pay for lifelong learning 'pay for'↔'bear the cost'同义短语替换 a topic of constant debate ↔the eternal debate 形容词同义改写"
+        },
+        {
+          "label": "辨邻",
+          "text": "O In France, every individual has a right to lifelong learning与In Switzerland, lifelong learning is a personal responsibility是对'谁付费'问题给出的具体国家做 法，并未直接陈述'这是一个持续不断的争论'。 Europe has many scenarios, but the French and Swiss ones are interesting to compare 在数学和物理这些传统学科之外,应该增加一门将计算机科学与统计学及其他组成部分相结合的 43. The question of who will bear the cost of lifelong learning is a topic of constant debate. 44. To the traditional subjects of math and physics should be added a new discipline which combines computer science with statistics and other components. 新学科。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "谁承担终身学习费用+持续争论"
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "To the traditional subjects of math and physics should be added a new discipline which combines computer science with statistics and other components.",
+      "answer": "F",
+      "answerText": "F 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Therefore, a new discipline blending computer science, programming, statistics and machine learning should be added to the traditional foundational topics of mathematics and physics. 因此，应该把一门融合计算机科学、编程、统计学与机器学习的新学科，添加到数学与物理 这些传统基础学科之上。"
+        },
+        {
+          "label": "改写",
+          "text": "the traditional subjects of math and physics ↔ the traditional foundational topics of mathematics and physics 几乎逐字对应 a new discipline which combines computer science with statistics and other components ↔ a new discipline blending computer science, programming, statistics and machine learning 动词同义+清单概括"
+        },
+        {
+          "label": "辨邻",
+          "text": "E These two disciplines naturally form the foundational pillars of education in technical universities说的是数学和物理这'两根'支柱，并未提'新增一门融合计算机与 统计的学科'。 Mathematics is the language used to formulate the laws of physics or economy…These two disciplines naturally form the foundational pillars of education in technical universities 承担家庭责任的学生可能会选择参加在线课程。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "数学物理之外新增融合计算机与统计的学科"
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Students who are burdened with family duties might choose to take online courses.",
+      "answer": "M",
+      "answerText": "M 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "This could fix the main organisational challenges for the university, but not for the learners, due to lack of time, family obligations or funds. Here, online learning might be an option because it allows you to save your 'travel time', but it has its limits. 这或许能解决大学的主要组织难题，但解决不了学习者的难题——他们面临时间不足、家庭 义务或资金缺口。在这里，在线学习也许是一种选择，因为它能让你省去'通勤时间'，但它 也有其局限。"
+        },
+        {
+          "label": "改写",
+          "text": "Students who are burdened with family duties ↔family obligations 近义名词替换 take online courses ↔online learning might be an option 'online learning'↔'online courses'近义替换"
+        },
+        {
+          "label": "辨邻",
+          "text": "N who will pay for lifelong learning是N段论点，与陈述句的family duties+online courses不对应。 Even if time were not an issue, who will pay for lifelong learning? 45. Students who are burdened with family duties might choose to take online courses."
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "有家庭负担的学生+在线课程"
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author imply social media may do to our life?",
+      "answer": "C",
+      "questionType": "推断题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author imply social media may do to our life 用 imply 提问,要求从原文 已有陈述向前迈一步得出结论。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author imply social media may do to our life 是嵌套疑问:主干是 What does the author imply,后面省略了 that 的从句 (that) social media may do to our life, 问的是\"作者暗示社交媒体可能对我们生活做什么\",结构平铺,无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Why does social media trigger feelings of loneliness and inadequacy? Because instead of being real life, it is, for the most part, impression management, a way of marketing yourself, carefully choosing and filtering the pictures and words to put your best face forward. 社交媒体为何会触发孤独感与不胜任感?因为它在很大程度上并不是真实生活,而是一种印象 管理,一种自我营销的方式——刻意挑选并过滤图片和文字,以便把自己最好的一面端出来。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 facilitate our interpersonal relationships 说社媒\"促进\"人际关系,而首段把社媒定性为 impression management,后文一直在警示其负面后果,方向反了。 B) 偷换概念 filter our negative impressions of others 把原文\"过滤自己呈现给别人的图文\"偷换 成\"过滤我们对别人的负面印象\",filter 的宾语完全错位。 C) ✓ 正确 feelings of loneliness ↔feel isolated inadequacy ↔incompetent 预判出的\"孤立感+自觉不如人\"两点恰好被 feel isolated and incompetent 一对一覆盖, 无新增、无遗漏,故锁 C。 D) 偷换概念 render us vulnerable and inauthentic 把原文段二里描述\"对网友坦诚会感到不安全/不 真实\"的状态硬安到\"社交媒体对我们生活做了什么\"上,主语接受方错配,且 vulnerable 与 inauthentic 在原文是被规避的状态,不是社媒造成的结果。 人们为什么在社交媒体上有选择地发布评论？ A) 他们认为并非所有网友都值得信任。 B) 他们想避免冒犯任何受众。 C) 他们不想失去关注者。 D) 他们渴望提升自己的人气。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It may facilitate our interpersonal relationships."
+        },
+        {
+          "label": "B",
+          "text": "It may filter our negative impressions of others."
+        },
+        {
+          "label": "C",
+          "text": "It may make us feel isolated and incompetent."
+        },
+        {
+          "label": "D",
+          "text": "It may render us vulnerable and inauthentic."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Why do people post comments selectively on social media?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why do people post comments selectively on social media 问的是文中已陈述现象的具 体原因,定位句一找就有,属细节题不是推断题。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why do people post comments selectively on social media 主干 people post comments,selectively 作方式状语,Why 引导特殊疑问,结构平铺,无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "And, rightfully so, because it wouldn't feel safe to be completely authentic and vulnerable with some of our \"friends\" whom we don't actually know or with whom trust has yet to be built. 而且这样做有其道理,因为对那些我们其实并不真正了解、或彼此尚未建立信任的\"朋友\",完全 坦诚、毫无防备地暴露自己,会让人觉得不安全。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 friends whom we don't actually know or with whom trust has yet to be built ↔ do not find all their online friends trustworthy it wouldn't feel safe to be completely authentic and vulnerable ↔ do not find all their online friends trustworthy 预判出的\"对没建立信任的网友不敢全坦白\"被 They do not find all their online friends trustworthy 同义浓缩,故锁 A。 B) 无中生有 avoid offending any of their audience 提到\"避免冒犯任何受众\",原文从未涉及\"冒 犯\"这一动机,作者只谈\"不安全/不值得坦诚\",未谈\"怕惹到人\"。 C) 无中生有 do not want to lose their followers 把动机说成\"怕掉粉\",原文谈的是信任与安全,从未 提及 followers 这一概念,该选项的概念在文中无据。 D) 与原文相反 eager to boost their popularity 把动机定为\"急于提升人气\",而原文恰恰是因为缺乏信 任、感到不安才有所保留,谈的是防御性动机,而非进取性动机,方向反了。 根据文章，人类倾向于做什么？ A) 夸大自己的人生成就。 B) 不惜代价追求完美。 C) 美化他人的生活。 D) 从他人的失败中吸取教训。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They do not find all their online friends trustworthy."
+        },
+        {
+          "label": "B",
+          "text": "They want to avoid offending any of their audience."
+        },
+        {
+          "label": "C",
+          "text": "They do not want to lose their followers."
+        },
+        {
+          "label": "D",
+          "text": "They are eager to boost their popularity."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What are humans inclined to do according to the passage?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "according to the passage 明确指向原文已有陈述,不要求推断,典型细节题问法。 48. What are humans inclined to do according to the passage? A) Exaggerate their life's accomplishments. B) Strive for perfection regardless of the cost. C) Paint a rosy picture of other people's lives. D) Learn lessons from other people's downfalls."
+        },
+        {
+          "label": "拆句",
+          "text": "What are humans inclined to do according to the passage 主干 humans are inclined to do what,被动结构 be inclined to do 等于 tend to do,according to the passage 是来 源状语,无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Also, we tend to idealize others' lives and compare our downfalls to their greatest accomplishments, ending in feelings of loneliness and inadequacy. 此外,我们倾向于把别人的生活理想化,把自己的低谷与别人最辉煌的成就相比,结果陷入孤独 感与不胜任感。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 Exaggerate their life's accomplishments 把\"夸大成就\"归到 humans 身上,但原文 their greatest accomplishments 的 their 指的是\"别人(他人)的\",不是\"我们的\";选项偷 换了主语。 B) 答非所问 Strive for perfection regardless of the cost 说的是第 5 段\"unhealthy quest for perfection\"那条线,虽然原文确有,但回答的是\"社交媒体把人推向什么\",而非题干所问 的\"humans 倾向于做什么\"。 C) ✓ 正确 idealize others' lives ↔Paint a rosy picture of other people's lives others' lives ↔other people's lives 预判的\"把别人生活想象得太美\"恰被 Paint a rosy picture of other people's lives 一对 一覆盖,故锁 C。 D) 与原文相反 Learn lessons from other people's downfalls 说\"从别人的低谷中吸取教训\",原文恰相 反:是把自己的低谷与别人的高光相比,downfalls 的归属和功能都被翻转。 作者如何看待社交媒体上的图片和帖子？ A) 它们应该记录人们生活中值得纪念的时刻。 B) 它们应该经过精心编辑以呈现最佳形象。 C) 它们应该以满足个人安全需求的方式展示。 D) 它们应该使人们远离不健康的完美追求。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Exaggerate their life's accomplishments."
+        },
+        {
+          "label": "B",
+          "text": "Strive for perfection regardless of the cost."
+        },
+        {
+          "label": "C",
+          "text": "Paint a rosy picture of other people's lives."
+        },
+        {
+          "label": "D",
+          "text": "Learn lessons from other people's downfalls."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What is the author's view of pictures and posts on social media?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What is the author's view of pictures and posts on social media 作者已经在文中以 should 句明示自己的看法,属细节题不是态度题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What is the author's view of pictures and posts on social media 主干 What is the author's view,of pictures and posts 限定 view,on social media 限定 pictures and posts,层层套定状语,但理解上无歧义。 49. What is the author's view of pictures and posts on social media? A) They should record the memorable moments in people's lives. B) They should be carefully edited so as to present the best image. C) They should be shown in a way that meets one's security needs. D) They should keep people from the unhealthy quest for perfection."
+        },
+        {
+          "label": "定位",
+          "text": "Pictures and posts should be byproducts of life's treasured moments and fun times, not the planned and calculated image that one is putting out into cyberspace in an attempt to fill insecurities or unmet needs. 照片和发文应当是生活中那些值得珍藏的时刻与欢乐时光的副产品,而不是为了填补不安全感 或未被满足的需求,而精心策划、刻意计算后投放到网络空间的人设形象。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 byproducts of life's treasured moments and fun times ↔ record the memorable moments in people's lives life's treasured moments and fun times ↔the memorable moments in people's lives 预判的\"自然记录生活美好瞬间\"被 record the memorable moments in people's lives 一对一覆盖,故锁 A。 B) 与原文相反 carefully edited so as to present the best image 正是作者要批驳的\"经营人设\"做法, 作者用 not the planned and calculated image 明确否定,选项却把它当成应当之事,立 场反了。 C) 偷换概念 in a way that meets one's security needs 用了原文 insecurities 的对面词 security needs,把作者批评的\"用社媒填补 insecurities\"偷换为\"应当满足安全需求\",借同根词制造 伪等值。 D) 答非所问 keep people from the unhealthy quest for perfection 是作者对社交媒体整体使用方 式的告诫,而非作者对 pictures and posts 本身的看法,答的不是本题所问。 当人们发现自己的网络体验无益时，作者建议他们做什么？ A) 利用社交媒体提高自己与各类人群建立联系的能力。 B) 与那些原本可能无法认识和结交的人保持联系。 C) 努力防止负面思想和情绪进入网络页面。 D) 加强与现实生活中朋友的联系，而不是在意自己的网络形象。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They should record the memorable moments in people's lives."
+        },
+        {
+          "label": "B",
+          "text": "They should be carefully edited so as to present the best image."
+        },
+        {
+          "label": "C",
+          "text": "They should be shown in a way that meets one's security needs."
+        },
+        {
+          "label": "D",
+          "text": "They should keep people from the unhealthy quest for perfection."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author advise people to do when they find their online experience unconstructive?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author advise people to do 在末段已有作者明示的处方句,直接细节定位 即可。 50. What does the author advise people to do when they find their online experience unconstructive? A) Use social media to increase their ability to connect with various types of people. B) Stay connected to those whom they may not otherwise get to know and befriend. C) Try to prevent negative thoughts and feelings from getting into the online pages. D) Strengthen ties with real-life friends instead of caring about their online image."
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author advise people to do when they find their online experience unconstructive 主干 the author advise people to do what,when 引导的时间状语从句 they find their online experience unconstructive 设置触发条件,其中 unconstructive 等 于 not constructive=没建设性的、负面的。"
+        },
+        {
+          "label": "定位",
+          "text": "However, social media should feel like a fun experience, not one that contributes to negative thoughts and feelings. If the latter is the case, increasing face-to-face time with trusted friends, and minimizing time scrolling online, will prove to be a reminder that your social network is much more rewarding than any \"like,\" \"follow\" or \"share\" can be. 然而,社交媒体本应让人觉得是一种有趣的体验,而不是引发负面想法和情绪的体验。如果是 后一种情况,那么多和值得信赖的朋友面对面相处、少花时间刷屏,就会让人意识到——你真 实的社交圈所带来的回报,远胜任何\"点赞\"、\"关注\"或\"分享\"。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 答非所问 Use social media to increase their ability to connect with various types of people 是末段 ultimately 句对社交媒体优点的总述,而非题干所问\"当上网体验不积极时该做什 么\";答的是\"总体作用\",不是\"补救方案\"。 B) 答非所问 Stay connected to those whom they may not otherwise get to know and befriend 同样取自末段总述句,讲社交媒体在常态下的功能,不是触发\"上网体验不建设\"后 的补救建议,层级错位。 C) 偷换概念 prevent negative thoughts and feelings from getting into the online pages 把原 文里\"社交媒体引发负面想法\"偷换成\"阻止负面想法跑到网上\",前者讲的是体验本身,后者 讲的是内容上传管控,完全不是同一件事。 D) ✓ 正确 increasing face-to-face time with trusted friends ↔Strengthen ties with real-life friends minimizing time scrolling online ↔instead of caring about their online image 预判的\"多见线下挚友、少刷手机\"恰被 Strengthen ties with real-life friends instead of caring about their online image 通过 instead of 同步对应,故锁 D。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use social media to increase their ability to connect with various types of people."
+        },
+        {
+          "label": "B",
+          "text": "Stay connected to those whom they may not otherwise get to know and befriend."
+        },
+        {
+          "label": "C",
+          "text": "Try to prevent negative thoughts and feelings from getting into the online pages."
+        },
+        {
+          "label": "D",
+          "text": "Strengthen ties with real-life friends instead of caring about their online image."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author say we humans have been doing to chimps?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author say we humans have been doing to chimps? 用 What…doing 直接问一个具体行为，不含 infer/imply/main idea 等词，属常规细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author say we humans have been doing to chimps? 是双层嵌套疑问： 主干是 What does the author say…？say 后面接的是宾语从句 we humans have been doing to chimps，用现在完成进行时表示“一直在做”，提示动作持续至今。we humans 是 同位结构，we 与 humans 同指。"
+        },
+        {
+          "label": "定位",
+          "text": "That is effectively what humans have been doing to our closest relatives—chimps(大猩猩). 那就是人类一直在对我们最近的亲戚——黑猩猩——所做的事情。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 caused our art to vanish, our music to homogenize, and our technological know-how to disappear ↔Ruining their culture 预判“破坏黑猩猩的文化”后在四项中找含 culture 与“破坏”语义的选项，只有 Ruining their culture 同时满足两点，锁定 A。 B) 无中生有 原文谈的是文化的消亡而非物种的灭绝（extinction），首段没有任何 extinction/extinct 的措辞，Accelerating their extinction 属凭印象自造。 C) 偷换概念 原文是以“外星人对人类”类比“人类对黑猩猩”，并非说我们把黑猩猩当外星物种对待； Treating them as alien species 把比喻的本体与喻体倒置。 D) 偷换概念 原文中 homogenize 修饰的是 music（音乐），且是外星人对人类做的比喻内容；选项 把它直接搬到“黑猩猩的生活习性”上，搭配错误且对象错位。 51. What does the author say we humans have been doing to chimps? A) Ruining their culture. B) Accelerating their extinction. C) Treating them as alien species. D) Homogenizing their living habits. Andrew Whiten团队的研究发现是什么? A) 黑猩猩展现出高度发达的交流技能。 B) 黑猩猩在交流时严重依赖它们的肢体语言。 C) 黑猩猩的行为方式与人类的行为方式十分相似。 D) 不同的黑猩猩群体在交流方式上存在差异。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ruining their culture."
+        },
+        {
+          "label": "B",
+          "text": "Accelerating their extinction."
+        },
+        {
+          "label": "C",
+          "text": "Treating them as alien species."
+        },
+        {
+          "label": "D",
+          "text": "Homogenizing their living habits."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What is the finding of Andrew Whiten's team?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What is the finding of Andrew Whiten's team? 直接问“某团队的发现是什么”，是对原文 具体研究结论的客观提问，无推断词。"
+        },
+        {
+          "label": "拆句",
+          "text": "句式简单：主系表结构。What 作表语，主语 the finding 由 of 短语修饰；无从句、无否 定，平铺直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Back in 1999, a team of scientists led by Andrew Whiten showed that chimps from different parts of Africa behave very differently from one another. 早在 1999 年，由 Andrew Whiten 领导的一个科学家团队就证明：来自非洲不同地区的黑 猩猩，行为方式彼此差异显著。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 过度推断 原文只说不同群体方式不同，没有评价它们的交流技能“高度发达”；highly developed skills of communication 是程度词擅自拔高。 B) 过度推断 原文只举了敲树枝、撕树叶两种方式，并未称这是“肢体语言”，更未说“重度依赖”；rely heavily upon their body language 是凭印象生造的论断。 C) 与原文相反 本段说的是黑猩猩群体内部行为有别，没有说黑猩猩与人类的行为相似；behave in ways quite similar to those of human beings 把研究结论反向编造。 D) ✓ 正确 chimps from different parts of Africa behave very differently from one another ↔ Different chimp groups differ in their way of communication Some groups would get each other's attention by rapping branches with their knuckles(指关节), while others did it by loudly ripping leaves with their teeth ↔Different chimp groups differ in their way of communication 预判“不同地区的黑猩猩行为方式不同”后，四项里同时含“差异”与“交流/沟通”要素的只有 Different chimp groups differ in their way of communication，且有原文两处例证 支撑，锁定 D。 52. What is the finding of Andrew Whiten's team? A) Chimps demonstrate highly developed skills of communication. B) Chimps rely heavily upon their body language to communicate. C) Chimps behave in ways quite similar to those of human beings. D) Different chimp groups differ in their way of communication. Ammie Kalan和她的同事们通过深入的田野调查发现了什么? A) Whiten的经典研究对黑猩猩行为多样性影响甚微。 B) 随着人类活动的增加,黑猩猩的行为变得更加单一。 C) 黑猩猩改变它们的文化以快速适应变化的环境。 D) 现在可能已经太迟,无法阻止动物文化的灭绝。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chimps demonstrate highly developed skills of communication."
+        },
+        {
+          "label": "B",
+          "text": "Chimps rely heavily upon their body language to communicate."
+        },
+        {
+          "label": "C",
+          "text": "Chimps behave in ways quite similar to those of human beings."
+        },
+        {
+          "label": "D",
+          "text": "Different chimp groups differ in their way of communication."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did Ammie Kalan and her colleagues find through their intensive fieldwork?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What did Ammie Kalan and her colleagues find through their intensive fieldwork? 直 接询问发现内容，过去式动词 find 指向原文已陈述事实，非推断。"
+        },
+        {
+          "label": "拆句",
+          "text": "句子主干 What did A and B find，through 引导方式状语；过去式 did find 强调具体一次 研究的结论。"
+        },
+        {
+          "label": "定位",
+          "text": "Ammie Kalan and her colleagues have shown, through years of intensive fieldwork, that the very presence of humans has eroded the diversity of chimp behavior. Ammie Kalan 及其同事通过多年密集的田野调查证明：仅仅人类的存在就已经侵蚀了黑猩 猩行为的多样性。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 本题问 Kalan 团队的发现，Whiten's classic study has little impact on the diversity of chimp behavior 转去说 Whiten 研究无影响，与题干主体错配；且原文 bitterly ironic thing to learn on the 20th anniversary of Whiten's classic study 是讽刺意 味，不是论断 Whiten 研究无影响。 B) ✓ 正确 the very presence of humans has eroded the diversity of chimp behavior ↔ Chimp behavior becomes less varied with the increase of human activity 预判“人类越多 黑猩猩行为越单一”后，四项中只有 Chimp behavior becomes less varied with the increase of human activity 同时覆盖“多样性下降”与“人类影响”两要 素，锁定 B。 C) 与原文相反 原文是 chimp behavior 的多样性被人类侵蚀（被动受害），Chimps alter their culture to quickly adapt to the changed environment 改成黑猩猩主动改文化以适应 环境，主被动方向反了。 D) 过度推断 It might already be too late to prevent animal cultures from extinction 表“为时已 晚”，原文 Kalan 团队的发现只是“被侵蚀”，并未声明已经晚到无法挽回；类似感慨出现 在 Whiten 引语，且未说“extinction”。 53. What did Ammie Kalan and her colleagues find through their intensive fieldwork? A) Whiten's classic study has little impact on the diversity of chimp behavior. B) Chimp behavior becomes less varied with the increase of human activity. C) Chimps alter their culture to quickly adapt to the changed environment. D) It might already be too late to prevent animal cultures from extinction. Cat Hobaiter认为我们应该为黑猩猩保护做些什么? A) 努力理解我们姐妹物种在野外的行为。 B) 努力保护每个单独的黑猩猩群落。 C) 研究每一代黑猩猩的独特特征。 D) 努力恢复黑猩猩的栖息地以扩大其总体数量。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Whiten's classic study has little impact on the diversity of chimp behavior."
+        },
+        {
+          "label": "B",
+          "text": "Chimp behavior becomes less varied with the increase of human activity."
+        },
+        {
+          "label": "C",
+          "text": "Chimps alter their culture to quickly adapt to the changed environment."
+        },
+        {
+          "label": "D",
+          "text": "It might already be too late to prevent animal cultures from extinction."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does Cat Hobaiter think we should do for chimp conservation?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does Cat Hobaiter think we should do for chimp conservation? 问某专家的具体 主张，原文有其直接引语，可一一对应，是细节题而非推断题。"
+        },
+        {
+          "label": "拆句",
+          "text": "主干 What does Cat Hobaiter think + 宾语从句 we should do…；for chimp conservation 是目的状语；think 后省略 that。"
+        },
+        {
+          "label": "定位",
+          "text": "\"Sometimes in the rush to conserve the species, I think we forget about the individuals,\" says Cat Hobaiter, a professor at the University of St. Andrews. \"Each population, each community, even each generation of chimps is unique. An event might only have a small impact on the total population of chimps, but it may wipe out an entire community—an entire culture. No matter what we do to restore habitat or support population growth, we may never be able to restore that culture.\" “在急于保育物种的时候，我们有时忘了个体，”圣安德鲁斯大学教授 Cat Hobaiter 说，“每 个种群、每个社群，甚至每一代黑猩猩都是独特的。一件事情对黑猩猩总数的影响可能很 小，却可能抹掉一整个社群——一整套文化。不管我们怎样恢复栖息地、支持种群增长，那 种文化我们也许永远无法再造。” 54. What does Cat Hobaiter think we should do for chimp conservation? A) Try to understand our sister species' behavior in the wild. B) Make efforts to preserve each individual chimp community. C) Study the unique characteristics of each generation of chimps. D) Endeavor to restore chimp habitats to expand its total population."
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 Try to understand our sister species' behavior in the wild 与原文 we are truly getting to know our primate(灵长类) cousins 才对得上，是 Whiten 第 5 段的感慨， 与 Hobaiter 立场无关。 B) ✓ 正确 I think we forget about the individuals ↔ Make efforts to preserve each individual chimp community Each population, each community, even each generation of chimps is unique ↔ Make efforts to preserve each individual chimp community 预判“按社群/个体单位保护”后，四项中只有 Make efforts to preserve each individual chimp community 准确体现 Hobaiter“不要遗忘个体/社群”的立场，锁定 B。 C) 偷换概念 原文 Each population, each community, even each generation of chimps is unique 是说明每一代都独特、需要被保护，而非要求“研究每一代的独特特征”；Study the unique characteristics of each generation of chimps 把保护诉求歪成研究 任务。 D) 与原文相反 原文 No matter what we do to restore habitat or support population growth, we may never be able to restore that culture 是说即便恢复栖息地、扩大种群也救不回 那种文化——这是 Hobaiter 强调不足以解决问题的反例。Endeavor to restore chimp habitats to expand its total population 反而把它当作她的主张。 作者建议保护主义者做什么? A) 完全聚焦于基于文化的实体而非基于遗传的实体。 B) 更加重视动物传统而非它们的物理保护。 C) 以一种新颖而全面的方式保护动物物种。 D) 在物种消失之前探索它们的文化。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Try to understand our sister species' behavior in the wild."
+        },
+        {
+          "label": "B",
+          "text": "Make efforts to preserve each individual chimp community."
+        },
+        {
+          "label": "C",
+          "text": "Study the unique characteristics of each generation of chimps."
+        },
+        {
+          "label": "D",
+          "text": "Endeavor to restore chimp habitats to expand its total population."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author suggest conservationists do?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author suggest conservationists do? 询问作者明示建议，原文末段有直 白的论断句，是细节题而非主旨题。"
+        },
+        {
+          "label": "拆句",
+          "text": "主干 What does the author suggest + 宾语从句 conservationists do（do 后省略 do 的 宾语，由 What 提到句首充当）；suggest 后省略 that 与 should，是英式建议句的常见省 略形式。 55. What does the author suggest conservationists do? A) Focus entirely on culturally-based entities rather than genetically-based ones. B) Place more stress on animal traditions than on their physical conservation. C) Conserve animal species in a novel and all-round way. D) Explore the cultures of species before they vanish."
+        },
+        {
+          "label": "定位",
+          "text": "Obviously, conservationists need to think about saving species in a completely new way—by preserving animal traditions as well as bodies and genes. 显然，保育工作者需要以一种全新的方式去思考物种保育——既要保护动物的身体与基因， 也要保护它们的传统。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 原文是 traditions as well as bodies and genes（“而且也要”），强调兼顾；Focus entirely on culturally-based entities rather than genetically-based ones 用 entirely 与 rather than 把作者立场改为“只保文化、不保基因”，方向反了。 B) 过度推断 原文用 as well as 表并列、不分主次；Place more stress on animal traditions than on their physical conservation 用 more…than 给传统加权，引入原文没有的优先级 判断。 C) ✓ 正确 saving species in a completely new way ↔ Conserve animal species in a novel and all-round way by preserving animal traditions as well as bodies and genes ↔ Conserve animal species in a novel and all-round way 预判“以全新方式且兼顾两面”后，四项中只有 Conserve animal species in a novel and all-round way 同时具备“novel”（新）与“all-round”（兼顾），锁定 C。 D) 答非所问 原文末段建议是“以全新方式保育”，不是“去探索文化”；Explore the cultures of species before they vanish 把 Whiten 第 5 段的感叹与作者建议混为一谈。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2020-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Focus entirely on culturally-based entities rather than genetically-based ones."
+        },
+        {
+          "label": "B",
+          "text": "Place more stress on animal traditions than on their physical conservation."
+        },
+        {
+          "label": "C",
+          "text": "Conserve animal species in a novel and all-round way."
+        },
+        {
+          "label": "D",
+          "text": "Explore the cultures of species before they vanish."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "Social distancing is putting people out of work, canceling school and tanking the stock market. It has been by fear, and it is creating even more fear as money problems and uncertainty grow. However, at its core is love, and a sacrifice to protect those most (27)______  to the coronavirus(冠状病 毒) effects—the elderly, people with compromised immune systems, and those whose life-saving resources would be used up by a (28)______  epidemic. Americans make life-saving decisions every day as a matter of course. We cut food into bite-sized pieces, we wear seatbelts, and we take care not to exceed the speed limit. But social distancing is (29)______  in that it is completely self-sacrificing. Those who will benefit may be the elderly relatives of the (30)______  person we didn't pass in Starbucks, on the subway, or in the elevator. Social distancing is millions of people making hundreds of sacrifices to keep the elderly alive. It doesn't include the (31)______  to run from society or make an excuse to avoid one's obligations—such as life-saving medical work or the parental obligation to buy groceries. What it does include is applying 26 27 28 29 30 31 love through caution. And in doing so, it offers an (32)______  opportunity for those who care about the elderly to find new ways to love them. If we're not (33)______  as much in our normal work or school, we have extra time to call parents and grandparents. We can also ask elderly relatives how to best support them (34)______  and use our sacrifices as an opportunity to bring us, our community and the world (35)______  . A) amazing B) closer C) driven D) engaged E) malignant F) oppressing G) premises H) random I) sentimentally J) spiritually K) temptations L) thriftier M) tickled N) unique O) vulnerable",
+      "blocks": [
+        {
+          "text": "Social distancing is putting people out of work, canceling school and tanking the stock market. It has been by fear, and it is creating even more fear as money problems and uncertainty grow. However, at its core is love, and a sacrifice to protect those most (27)______  to the coronavirus(冠状病 毒) effects—the elderly, people with compromised immune systems, and those whose life-saving resources would be used up by a (28)______  epidemic. Americans make life-saving decisions every day as a matter of course. We cut food into bite-sized pieces, we wear seatbelts, and we take care not to exceed the speed limit. But social distancing is (29)______  in that it is completely self-sacrificing. Those who will benefit may be the elderly relatives of the (30)______  person we didn't pass in Starbucks, on the subway, or in the elevator. Social distancing is millions of people making hundreds of sacrifices to keep the elderly alive. It doesn't include the (31)______  to run from society or make an excuse to avoid one's obligations—such as life-saving medical work or the parental obligation to buy groceries. What it does include is applying 26 27 28 29 30 31 love through caution. And in doing so, it offers an (32)______  opportunity for those who care about the elderly to find new ways to love them. If we're not (33)______  as much in our normal work or school, we have extra time to call parents and grandparents. We can also ask elderly relatives how to best support them (34)______  and use our sacrifices as an opportunity to bring us, our community and the world (35)______  . A) amazing B) closer C) driven D) engaged E) malignant F) oppressing G) premises H) random I) sentimentally J) spiritually K) temptations L) thriftier M) tickled N) unique O) vulnerable"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) Picture yourself at a college graduation day, with a fresh cohort(一群) of students about to set sail for new horizons. What are they thinking while they throw their caps in the air? What is it with this thin sheet of paper that makes it so precious? It's not only the proof of acquired knowledge but plays into the reputation game of where you were trained. Being a graduate from Harvard Law School carries that extra glamour, doesn't it? Yet take a closer look, and the diploma is the perfect ending to the modern tragedy of education.\nB) Why? Because universities and curricula are designed along the three unities of French classical tragedy: time, action, and place. Students meet at the university campus (unity of place) for classes (unity of action) during their 20s (unity of time). This classical model has traditionally produced prestigious universities, but it is now challenged by the digitalisation of society—which allows everybody who is connected to the internet to access learning—and by the need to acquire skills in step with a fast-changing world. Universities must realise that learning in your 20s won't be enough. If technological diffusion and implementation develop faster, workers will have to constantly refresh their skills.\nC) The university model needs to evolve. It must equip students with the right skills and knowledge to compete in a world 'where value will be derived largely from human interaction and the ability to invent and interpret things that machines cannot', as the English futurist Richard Watson puts it. By teaching foundational knowledge and up-to-date skills, universities will provide students with the future-proof skills of lifelong learning, not just get them 'job-ready'.\nD) Some universities already play a critical role in lifelong learning as they want to keep the value of their diplomas. This new role comes with a huge set of challenges, and needs largely to be invented. One way to start this transformation process could be to go beyond the 'five-year diploma model' to adapt curricula to lifelong learning. We call this model the lifelong passport.\nE) The Bachelor's degree could be your passport to lifelong learning. For the first few years, students would 'learn to learn' and get endowed with reasoning skills that remain with them for the rest of their lives. For instance, physics allows you to observe and rationalise the world, but also to integrate observations into models and, sometimes, models into theories or laws that can be used to make predictions. Mathematics is the language used to formulate the laws of physics or economy, and to make rigorous computations that turn into predictions. These two disciplines naturally form the foundational pillars of education in technical universities.\nF) Recent advances in computational methods and data science push us into rethinking science and engineering. Computers increasingly become principal actors in leveraging data to formulate questions, which requires radically new ways of reasoning. Therefore, a new discipline blending computer science, programming, statistics and machine learning should be added to the traditional foundational topics of mathematics and physics. These three pillars would allow you to keep learning complex technical subjects all your life because numeracy(计算) is the foundation upon which everything else is eventually built.\nG) According to this new model, the Master of Science (MSc) would become the first stamp in the lifelong learning journey. The MSc curriculum should prepare students for their professional career by allowing them to focus on acquiring practical skills through projects.\nH) Those projects are then interwoven with fast-paced technical modules(模块) learned 'on-the-fly' and 'at will' depending on the nature of the project. If, for instance, your project is developing an integrated circuit, you will have to take a module on advanced concepts in microelectronics. The most critical skills will be developed before the project even starts, in the form of boot camps(短期 强化训练), while the rest can be fostered along with the project, putting them to immediate use and thus providing a rich learning context.\nI) In addition to technical capabilities, the very nature of projects develops social and entrepreneurial skills, such as design thinking, initiative taking, team leading, activity reporting or resource planning. Not only will those skills be actually integrated into the curriculum but they will be very important to have in the future because they are difficult to automate.\nJ) After the MSc diploma is earned, there would be many more stamps of lifelong learning over the years. If universities decide to engage in this learning model, they will have to cope with many organisational challenges that might shake their unity of place and action. First, the number of students would be unpredictable. If all of a university's alumni(往届毕业生) were to become students again, the student body would be much bigger than it is now, and it could become unsustainable for the campus in terms of both size and resources. Second, freshly graduated students would mix with professionally experienced ones. This would change the classroom dynamics, perhaps for the best. Project-based learning with a mixed team reflects the reality of the professional world and could therefore be a better preparation for it.\nK) Sound like science fiction? In many countries, part-time studying is not exceptional: on average across OECD countries, part-time students in 2016 represented 20 per cent of enrolment in tertiary education. In many countries, this share is higher and can exceed 40 per cent in Australia, New Zealand and Sweden.\nL) If lifelong learning were to become a priority and the new norm, diplomas, just like passports, could be revalidated periodically. A time-determined revalidation would ease administration for everybody. Universities as well as employers and employees would know when they have to retrain. For instance, graduates from the year 2000 would have to come back in 2005.\nM) This could fix the main organisational challenges for the university, but not for the learners, due to lack of time, family obligations or funds. Here, online learning might be an option because it allows you to save your 'travel time', but it has its limits. So far, none of the major employers associated with online learning platforms such as Coursera and Udacity has committed to hire or even interview graduates of their new online programmes. N) Even if time were not an issue, who will pay for lifelong learning? That's the eternal debate: should it be the learner's responsibility, that of his employer, or of the state? For example, in Massachusetts, the healthcare professions require continuing education credits, which are carefully evidenced and documented. Yet the same state's lawyers don't require continuing legal education, although most lawyers do participate in it informally. One explanation is that technology is less of a factor in law than it is in healthcare. O) Europe has many scenarios, but the French and Swiss ones are interesting to compare. In France, every individual has a right to lifelong learning organised via a personal learning account that is credited as you work. In Switzerland, lifelong learning is a personal responsibility and not a government one. However, employers and the state encourage continuing education either by funding parts of it or by allowing employees to attend it. P) Universities have a fundamental role to play in this journey, and higher education is in for a change. Just like classical theatre, the old university model produced talent and value for society. We are not",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "Picture yourself at a college graduation day, with a fresh cohort(一群) of students about to set sail for new horizons. What are they thinking while they throw their caps in the air? What is it with this thin sheet of paper that makes it so precious? It's not only the proof of acquired knowledge but plays into the reputation game of where you were trained. Being a graduate from Harvard Law School carries that extra glamour, doesn't it? Yet take a closer look, and the diploma is the perfect ending to the modern tragedy of education."
+        },
+        {
+          "label": "B",
+          "text": "Why? Because universities and curricula are designed along the three unities of French classical tragedy: time, action, and place. Students meet at the university campus (unity of place) for classes (unity of action) during their 20s (unity of time). This classical model has traditionally produced prestigious universities, but it is now challenged by the digitalisation of society—which allows everybody who is connected to the internet to access learning—and by the need to acquire skills in step with a fast-changing world. Universities must realise that learning in your 20s won't be enough. If technological diffusion and implementation develop faster, workers will have to constantly refresh their skills."
+        },
+        {
+          "label": "C",
+          "text": "The university model needs to evolve. It must equip students with the right skills and knowledge to compete in a world 'where value will be derived largely from human interaction and the ability to invent and interpret things that machines cannot', as the English futurist Richard Watson puts it. By teaching foundational knowledge and up-to-date skills, universities will provide students with the future-proof skills of lifelong learning, not just get them 'job-ready'."
+        },
+        {
+          "label": "D",
+          "text": "Some universities already play a critical role in lifelong learning as they want to keep the value of their diplomas. This new role comes with a huge set of challenges, and needs largely to be invented. One way to start this transformation process could be to go beyond the 'five-year diploma model' to adapt curricula to lifelong learning. We call this model the lifelong passport."
+        },
+        {
+          "label": "E",
+          "text": "The Bachelor's degree could be your passport to lifelong learning. For the first few years, students would 'learn to learn' and get endowed with reasoning skills that remain with them for the rest of their lives. For instance, physics allows you to observe and rationalise the world, but also to integrate observations into models and, sometimes, models into theories or laws that can be used to make predictions. Mathematics is the language used to formulate the laws of physics or economy, and to make rigorous computations that turn into predictions. These two disciplines naturally form the foundational pillars of education in technical universities."
+        },
+        {
+          "label": "F",
+          "text": "Recent advances in computational methods and data science push us into rethinking science and engineering. Computers increasingly become principal actors in leveraging data to formulate questions, which requires radically new ways of reasoning. Therefore, a new discipline blending computer science, programming, statistics and machine learning should be added to the traditional foundational topics of mathematics and physics. These three pillars would allow you to keep learning complex technical subjects all your life because numeracy(计算) is the foundation upon which everything else is eventually built."
+        },
+        {
+          "label": "G",
+          "text": "According to this new model, the Master of Science (MSc) would become the first stamp in the lifelong learning journey. The MSc curriculum should prepare students for their professional career by allowing them to focus on acquiring practical skills through projects."
+        },
+        {
+          "label": "H",
+          "text": "Those projects are then interwoven with fast-paced technical modules(模块) learned 'on-the-fly' and 'at will' depending on the nature of the project. If, for instance, your project is developing an integrated circuit, you will have to take a module on advanced concepts in microelectronics. The most critical skills will be developed before the project even starts, in the form of boot camps(短期 强化训练), while the rest can be fostered along with the project, putting them to immediate use and thus providing a rich learning context."
+        },
+        {
+          "label": "I",
+          "text": "In addition to technical capabilities, the very nature of projects develops social and entrepreneurial skills, such as design thinking, initiative taking, team leading, activity reporting or resource planning. Not only will those skills be actually integrated into the curriculum but they will be very important to have in the future because they are difficult to automate."
+        },
+        {
+          "label": "J",
+          "text": "After the MSc diploma is earned, there would be many more stamps of lifelong learning over the years. If universities decide to engage in this learning model, they will have to cope with many organisational challenges that might shake their unity of place and action. First, the number of students would be unpredictable. If all of a university's alumni(往届毕业生) were to become students again, the student body would be much bigger than it is now, and it could become unsustainable for the campus in terms of both size and resources. Second, freshly graduated students would mix with professionally experienced ones. This would change the classroom dynamics, perhaps for the best. Project-based learning with a mixed team reflects the reality of the professional world and could therefore be a better preparation for it."
+        },
+        {
+          "label": "K",
+          "text": "Sound like science fiction? In many countries, part-time studying is not exceptional: on average across OECD countries, part-time students in 2016 represented 20 per cent of enrolment in tertiary education. In many countries, this share is higher and can exceed 40 per cent in Australia, New Zealand and Sweden."
+        },
+        {
+          "label": "L",
+          "text": "If lifelong learning were to become a priority and the new norm, diplomas, just like passports, could be revalidated periodically. A time-determined revalidation would ease administration for everybody. Universities as well as employers and employees would know when they have to retrain. For instance, graduates from the year 2000 would have to come back in 2005."
+        },
+        {
+          "label": "M",
+          "text": "This could fix the main organisational challenges for the university, but not for the learners, due to lack of time, family obligations or funds. Here, online learning might be an option because it allows you to save your 'travel time', but it has its limits. So far, none of the major employers associated with online learning platforms such as Coursera and Udacity has committed to hire or even interview graduates of their new online programmes. N) Even if time were not an issue, who will pay for lifelong learning? That's the eternal debate: should it be the learner's responsibility, that of his employer, or of the state? For example, in Massachusetts, the healthcare professions require continuing education credits, which are carefully evidenced and documented. Yet the same state's lawyers don't require continuing legal education, although most lawyers do participate in it informally. One explanation is that technology is less of a factor in law than it is in healthcare. O) Europe has many scenarios, but the French and Swiss ones are interesting to compare. In France, every individual has a right to lifelong learning organised via a personal learning account that is credited as you work. In Switzerland, lifelong learning is a personal responsibility and not a government one. However, employers and the state encourage continuing education either by funding parts of it or by allowing employees to attend it. P) Universities have a fundamental role to play in this journey, and higher education is in for a change. Just like classical theatre, the old university model produced talent and value for society. We are not"
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 Why does social media trigger feelings of loneliness and inadequacy? Because instead of being real life, it is, for the most part, impression management, a way of marketing yourself, carefully choosing and filtering the pictures and words to put your best face forward.\n\nP2 Online \"friends\" made through social media do not follow the normal psychological progression of an interpersonal relationship. You share neither physical time nor emotional conversations over the Internet. You simply communicate photographs and catchy posts to a diverse group of people whom you have \"friended\" or \"followed\" based on an accidental interaction. This is not to say that your social media friends can't be real friends. They absolutely can, but the two are not synonymous. Generally speaking, there are no unfiltered comments or casually taken photos on our social media pages. And, rightfully so, because it wouldn't feel safe to be completely authentic and vulnerable with some of our \"friends\" whom we don't actually know or with whom trust has yet to be built. Questions 46 to 50 are based on the following passage.\n\nP3 Social media can certainly be an escape from the daily grind, but we must be cautioned against the negative effects, such as addiction, on a person's overall psychological well-being.\n\nP4 As humans, we yearn for social connection. Scrolling( 滚动) through pages of pictures and comments, however, does not provide the same degree of fulfillment as face-to-face interactions do. Also, we tend to idealize others' lives and compare our downfalls to their greatest accomplishments, ending in feelings of loneliness and inadequacy.\n\nP5 Social media can lead people on the unhealthy quest for perfection. Some people begin to attend certain events or travel to different places so that they can snap that \"perfect\" photo. They begin to seek validation through the number of people who \"like\" their posts. In order for it to play a psychologically healthy role in your social life, social media should supplement an already healthy social network. Pictures and posts should be byproducts of life's treasured moments and fun times, not the planned and calculated image that one is putting out into cyberspace in an attempt to fill insecurities or unmet needs.\n\nP6 Ultimately, social media has increased our ability to connect with various types of people all over the globe. It has opened doors for businesses and allowed us to stay connected to people whom we may not otherwise get to follow. However, social media should feel like a fun experience, not one that contributes to negative thoughts and feelings. If the latter is the case, increasing face-to-face time with trusted friends, and minimizing time scrolling online, will prove to be a reminder that your social network is much more rewarding than any \"like,\" \"follow\" or \"share\" can be. 46. What does the author imply social media may do to our life? A) It may facilitate our interpersonal relationships. B) It may filter our negative impressions of others. C) It may make us feel isolated and incompetent. D) It may render us vulnerable and inauthentic.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "Why does social media trigger feelings of loneliness and inadequacy? Because instead of being real life, it is, for the most part, impression management, a way of marketing yourself, carefully choosing and filtering the pictures and words to put your best face forward."
+        },
+        {
+          "label": "P2",
+          "text": "Online \"friends\" made through social media do not follow the normal psychological progression of an interpersonal relationship. You share neither physical time nor emotional conversations over the Internet. You simply communicate photographs and catchy posts to a diverse group of people whom you have \"friended\" or \"followed\" based on an accidental interaction. This is not to say that your social media friends can't be real friends. They absolutely can, but the two are not synonymous. Generally speaking, there are no unfiltered comments or casually taken photos on our social media pages. And, rightfully so, because it wouldn't feel safe to be completely authentic and vulnerable with some of our \"friends\" whom we don't actually know or with whom trust has yet to be built. Questions 46 to 50 are based on the following passage."
+        },
+        {
+          "label": "P3",
+          "text": "Social media can certainly be an escape from the daily grind, but we must be cautioned against the negative effects, such as addiction, on a person's overall psychological well-being."
+        },
+        {
+          "label": "P4",
+          "text": "As humans, we yearn for social connection. Scrolling( 滚动) through pages of pictures and comments, however, does not provide the same degree of fulfillment as face-to-face interactions do. Also, we tend to idealize others' lives and compare our downfalls to their greatest accomplishments, ending in feelings of loneliness and inadequacy."
+        },
+        {
+          "label": "P5",
+          "text": "Social media can lead people on the unhealthy quest for perfection. Some people begin to attend certain events or travel to different places so that they can snap that \"perfect\" photo. They begin to seek validation through the number of people who \"like\" their posts. In order for it to play a psychologically healthy role in your social life, social media should supplement an already healthy social network. Pictures and posts should be byproducts of life's treasured moments and fun times, not the planned and calculated image that one is putting out into cyberspace in an attempt to fill insecurities or unmet needs."
+        },
+        {
+          "label": "P6",
+          "text": "Ultimately, social media has increased our ability to connect with various types of people all over the globe. It has opened doors for businesses and allowed us to stay connected to people whom we may not otherwise get to follow. However, social media should feel like a fun experience, not one that contributes to negative thoughts and feelings. If the latter is the case, increasing face-to-face time with trusted friends, and minimizing time scrolling online, will prove to be a reminder that your social network is much more rewarding than any \"like,\" \"follow\" or \"share\" can be. 46. What does the author imply social media may do to our life? A) It may facilitate our interpersonal relationships. B) It may filter our negative impressions of others. C) It may make us feel isolated and incompetent. D) It may render us vulnerable and inauthentic."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 Imagine that an alien species landed on Earth and, through their mere presence, those aliens caused our art to vanish, our music to homogenize, and our technological know-how to disappear. That is effectively what humans have been doing to our closest relatives—chimps(大猩猩).\n\nP2 Back in 1999, a team of scientists led by Andrew Whiten showed that chimps from different parts of Africa behave very differently from one another. Some groups would get each other's attention by rapping branches with their knuckles(指关节), while others did it by loudly ripping leaves with their teeth. The team identified 39 of these traditions that are practiced by some communities but not others— a pattern that, at the time, hadn't been seen in any animal except humans. It was evidence, the team said, that chimps have their own cultures. Questions 51 to 55 are based on the following passage.\n\nP3 It took a long time to convince skeptics that such cultures exist, but now we have plenty of examples of animals learning local traditions from one another.\n\nP4 But just when many scientists have come to accept the existence of animal cultures, many of those cultures might vanish. Ammie Kalan and her colleagues have shown, through years of intensive fieldwork, that the very presence of humans has eroded the diversity of chimp behavior. Where we flourish, their cultures wither. It is a bitterly ironic thing to learn on the 20th anniversary of Whiten's classic study.\n\nP5 \"It's amazing to think that just 60 years ago, we knew next to nothing of the behavior of our sister species in the wild,\" Whiten says. \"But now, just as we are truly getting to know our primate(灵长 类) cousins, the actions of humans are closing the window on all we have discovered.\"\n\nP6 \"Sometimes in the rush to conserve the species, I think we forget about the individuals,\" says Cat Hobaiter, a professor at the University of St. Andrews. \"Each population, each community, even each generation of chimps is unique. An event might only have a small impact on the total population of chimps, but it may wipe out an entire community—an entire culture. No matter what we do to restore habitat or support population growth, we may never be able to restore that culture.\"\n\nP7 No one knows whether the destruction of chimp culture is getting worse. Few places have tracked chimp behavior over long periods, and those that have are also more likely to have protected their animals from human influence.\n\nP8 Obviously, conservationists need to think about saving species in a completely new way—by preserving animal traditions as well as bodies and genes. \"Instead of focusing only on the conservation of genetically based entities like species, we now need to also consider culturally based entities,\" says Andrew Whiten.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "Imagine that an alien species landed on Earth and, through their mere presence, those aliens caused our art to vanish, our music to homogenize, and our technological know-how to disappear. That is effectively what humans have been doing to our closest relatives—chimps(大猩猩)."
+        },
+        {
+          "label": "P2",
+          "text": "Back in 1999, a team of scientists led by Andrew Whiten showed that chimps from different parts of Africa behave very differently from one another. Some groups would get each other's attention by rapping branches with their knuckles(指关节), while others did it by loudly ripping leaves with their teeth. The team identified 39 of these traditions that are practiced by some communities but not others— a pattern that, at the time, hadn't been seen in any animal except humans. It was evidence, the team said, that chimps have their own cultures. Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "label": "P3",
+          "text": "It took a long time to convince skeptics that such cultures exist, but now we have plenty of examples of animals learning local traditions from one another."
+        },
+        {
+          "label": "P4",
+          "text": "But just when many scientists have come to accept the existence of animal cultures, many of those cultures might vanish. Ammie Kalan and her colleagues have shown, through years of intensive fieldwork, that the very presence of humans has eroded the diversity of chimp behavior. Where we flourish, their cultures wither. It is a bitterly ironic thing to learn on the 20th anniversary of Whiten's classic study."
+        },
+        {
+          "label": "P5",
+          "text": "\"It's amazing to think that just 60 years ago, we knew next to nothing of the behavior of our sister species in the wild,\" Whiten says. \"But now, just as we are truly getting to know our primate(灵长 类) cousins, the actions of humans are closing the window on all we have discovered.\""
+        },
+        {
+          "label": "P6",
+          "text": "\"Sometimes in the rush to conserve the species, I think we forget about the individuals,\" says Cat Hobaiter, a professor at the University of St. Andrews. \"Each population, each community, even each generation of chimps is unique. An event might only have a small impact on the total population of chimps, but it may wipe out an entire community—an entire culture. No matter what we do to restore habitat or support population growth, we may never be able to restore that culture.\""
+        },
+        {
+          "label": "P7",
+          "text": "No one knows whether the destruction of chimp culture is getting worse. Few places have tracked chimp behavior over long periods, and those that have are also more likely to have protected their animals from human influence."
+        },
+        {
+          "label": "P8",
+          "text": "Obviously, conservationists need to think about saving species in a completely new way—by preserving animal traditions as well as bodies and genes. \"Instead of focusing only on the conservation of genetically based entities like species, we now need to also consider culturally based entities,\" says Andrew Whiten."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay on why students should be encouraged to develop the ability to meet challenges. You should write at least 150 words but no more than 200 words.",
+      "model": "In an era of rapid change, students inevitably encounter difficulties in their studies, career hunting and daily life. It is therefore of great importance that they be encouraged to develop the ability to meet challenges. There are several convincing reasons why this ability deserves cultivation. To begin with, facing challenges pushes students to unlock their hidden potential. A first-year student who dares to tackle a tough research project, for instance, often discovers strengths he never knew he possessed. More importantly, meeting challenges sharpens one's resilience and problem-solving skills. Every setback in a competition or an internship teaches valuable lessons that no textbook can offer. As a result, such students grow into independent thinkers who refuse to give up easily. In conclusion, since the ability to meet challenges prepares young people for fierce competition and lifelong growth, schools and families should spare no effort to foster it. Only by embracing challenges rather than avoiding them can students truly become masters of their own future.",
+      "modelZh": "【参考译文】在一个飞速变化的时代，学生在学业、求职和日常生活中不可避免地会遇到种种困难。因此，鼓励他们培养迎接挑战的能力就显得尤为重要。这种能力值得培养，有几条令人信服的理由。首先，直面挑战会促使学生释放自身潜藏的潜能。举例来说，一个敢于接下高难度课题的大一新生，往往会发现自己身上从未察觉的实力。更重要的是，迎接挑战会磨砺人的抗挫能力与解决问题的本领。竞赛或实习中的每一次挫折，都会教给人课本无法给予的宝贵经验。因此，这样的学生会成长为不轻言放弃的独立思考者。总之，既然迎接挑战的能力为年轻人应对激烈竞争与终身成长打下根基，学校与家庭就应不遗余力地去培养它。唯有拥抱挑战而非逃避挑战，学生才能真正成为自己未来的主人。【第 1 段】背景一句随即表态。首段用 In an era of rapid change 一句背景引入，紧接着 It is",
+      "outline": [
+        {
+          "no": 1,
+          "text": "背景一句随即表态。首段用 In an era of rapid change 一句背景引入，紧接着 It is therefore of great importance that they be encouraged to develop the ability to meet challenges 直接亮明立场，落实了『背景引入句架』与『亮明立场句架』，一两句就完成表态，正面对准 why students should be encouraged to develop the ability to meet challenges。"
+        },
+        {
+          "no": 2,
+          "text": "递进串两理由各配微例。主体段用 To begin with … More importantly … 把『潜能』『抗挫 与解决问题』两条理由分层串起，A first-year student … for instance 与 a competition or an internship 各给一个大学生场景微例，最后 As a result 小结回扣中心，落实了理由分层、举例过渡、因 果小结三个句架。"
+        },
+        {
+          "no": 3,
+          "text": "因果归纳后倒装呼吁。尾段 In conclusion, since … 把前文理由归纳为一句因果并重申立场， 末句 Only by embracing challenges … can students truly become masters of their own future 用 倒装强调唯一途径收束，落实了归纳因果与唯一路径两个句架，形成首尾闭环。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 北京大兴国际机场位于天安门广场以南46公里处，于2019年9月30日投入使用。该巨型工程于2014 年开工建设，高峰时工地上有4万多工人。航站楼设计紧凑，可以允许最大数量的飞机直接停靠在最靠 近航站楼中心的位置，这给乘客提供了极大的方便。航站楼共有82个登机口，但乘客通过安检后，只 需不到8分钟就能抵达任何一个登机口。机场的设计可确保每小时300架次起降。机场年客运量2040年 将达到1亿人次，有望成为世界上最繁忙的机场。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Located 46 kilometers south of Tian'anmen Square, Beijing Daxing International Airport was put into use on September 30, 2019. Construction of this massive project began in 2014, and at the peak there were more than 40,000 workers on the construction site. The compact design of the terminal allows the maximum number of aircraft to dock directly at the positions closest to its center, which provides great convenience for passengers. The terminal has 82 boarding gates in total, but after passing through security check, passengers can reach any gate in less than 8 minutes. In addition, the design of the airport ensures 300 takeoffs and landings per hour. The airport's annual passenger volume is expected to reach 100 million by 2040, and it is likely to become the busiest airport in the world.",
+      "source": "北京大兴国际机场位于天安门广场以南46公里处，于2019年9月30日投入使用。该巨型工程于2014年开工建设，高峰时工地上有4万多工人。航站楼设计紧凑，可以允许最大数量的飞机直接停靠在最靠近航站楼中心的位置，这给乘客提供了极大的方便。航站楼共有82个登机口，但乘客通过安检后，只需不到8分钟就能抵达任何一个登机口。机场的设计可确保每小时300架次起降。机场年客运量2040年将达到1亿人次，有望成为世界上最繁忙的机场。",
+      "reference": "Located 46 kilometers south of Tian'anmen Square, Beijing Daxing International Airport was put into use on September 30, 2019. Construction of this massive project began in 2014, and at the peak there were more than 40,000 workers on the construction site. The compact design of the terminal allows the maximum number of aircraft to dock directly at the positions closest to its center, which provides great convenience for passengers. The terminal has 82 boarding gates in total, but after passing through security check, passengers can reach any gate in less than 8 minutes. In addition, the design of the airport ensures 300 takeoffs and landings per hour. The airport's annual passenger volume is expected to reach 100 million by 2040, and it is likely to become the busiest airport in the world.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "机场作主语，并列两个谓语「位于」与「投入使用」（主语策略：原句主语） 中文主语明确就是 北京大兴国际机场，主干即「机场 + 位于 + 处」。后半句 于2019年9月30日投 入使用 的主语仍是机场，被动含义（机场被投入使用），主干立为 Beijing Daxing International Airport is located… and was put into use…。"
+          },
+          {
+            "label": "降级",
+            "text": "「以南46公里处」作地点状语，两个动作并列 天安门广场以南46公里处 不是主干，降级为介词短语作地点状语：46 kilometers south of Tian'anmen Square。两个动作「位于」「投入使用」时间属性不同（一个是现状、一个是过去事 件），不强行 and 平铺，宜拆为两套：is located… 与 was put into use on September 30, 2019，用关系或分句衔接更清楚。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 「位于」是长期事实，回指全篇基调用一般现在时 is located；「投入使用」是2019年已完成的一 次性动作，偏离基调改用一般过去时 was put into use。 语态 「投入使用」是机场「被」投入使用，中文无被动标记但语义被动，译英须用被动 was put into use，这是汉语主动、英语被动的典型。 日期格式 「2019年9月30日」英文写 September 30, 2019 或 on 30 September 2019，介词用 on（具体 某一天），不要漏掉 on。"
+          },
+          {
+            "label": "译文",
+            "text": "Located 46 kilometers south of Tian'anmen Square, Beijing Daxing International Airport was put into use on September 30, 2019. 2. 该巨型工程于2014年开工建设，高峰时工地上有4万多工人。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "前半「工程」作主语被动建设，后半用 There be 表存在（主语策略：原句主语） 前半句主语是 该巨型工程（the massive project），「开工建设」是被建设，主干 The massive project began construction / construction began。后半 高峰时工地上有4万多工人 是典型「某 处有某物」，主干用 There be：there were more than 40,000 workers。"
+          },
+          {
+            "label": "降级",
+            "text": "「于2014年」「高峰时」作时间状语，两分句拆开 于2014年 是时间状语 in 2014；高峰时 译 at the peak / at its peak 作状语。前后两分句话题不 同（一是开工、一是用工规模），不宜 and 一路平铺，可拆成两句，或前句作主句、后句用 when/with 衔接。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 「2014年开工建设」是过去已完成事件，偏离现在时基调，用一般过去时 began；「高峰时有工 人」描述的是过去那段时间的状态，同样用过去时 there were。 数词与单复数 「4万多」译 more than 40,000 / over 40,000，workers 用复数；注意英文万位无单独词，4万 即 40,000。 语态 「工程开工建设」是工程被着手建设，可用 construction of the project began（让 construction 作主语）规避主动被动纠结，也可 the project broke ground。"
+          },
+          {
+            "label": "译文",
+            "text": "Construction of this massive project began in 2014, and at the peak there were more than 40,000 workers on the construction site. 3. 航站楼设计紧凑，可以允许最大数量的飞机直接停靠在最靠近航站楼中心的位置，这给乘客 提供了极大的方便。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "「航站楼」作主语，核心动词「允许」立主干，末句「这」复指（主语策略：原句主语） 主语是 航站楼（the terminal）。三个分句中「允许…停靠」是核心动作，主干 The compact design of the terminal allows… to dock，把 航站楼设计紧凑 处理成主语 The compact design。末句 这给乘客提供了极大的方便 的「这」复指前面整件事，作末尾的承接。"
+          },
+          {
+            "label": "降级",
+            "text": "「设计紧凑」提为主语，「最靠近中心的位置」作后置定语，结果句用 which 降级 航站楼设计紧凑 名词化为主语 The compact design of the terminal。最靠近航站楼中心的位置 用介词短语/定语 the positions closest to the center of the terminal 后置修饰 dock。末句 这 给乘客提供了极大的方便 用非限定定语从句 which provides great convenience for passengers 挂在主句后，避免另起松散的「This provides…」。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 全句描述航站楼的设计特性与功能，是长期现状，回指基调用一般现在时 allows / provides。 主谓一致 主语是 The compact design（单数核心名词），谓语用第三人称单数 allows；which 从句指代整 件事，谓语 provides 亦用单数。别被中间复数名词 aircraft 带偏。 比较级最高级 「最大数量的飞机」the maximum number of aircraft（aircraft 单复数同形）；「最靠近中心」 用 closest to the center，最高级前加 the。 搭配 「给乘客提供方便」用 provide convenience for passengers，介词搭配 provide sth. for sb.； 「停靠」用 dock / park。"
+          },
+          {
+            "label": "译文",
+            "text": "The compact design of the terminal allows the maximum number of aircraft to dock directly at the positions closest to its center, which provides great convenience for passengers. 4. 航站楼共有82个登机口，但乘客通过安检后，只需不到8分钟就能抵达任何一个登机口。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "前半「航站楼有82个登机口」、后半「乘客」作主语，but 转折（主语策略：原句主语） 前半 航站楼共有82个登机口 主语是 terminal，主干 The terminal has 82 gates（或 There are 82 gates）。后半 乘客通过安检后…就能抵达 主语换成 passengers，主干 passengers can reach any gate。两半由 但 连接，是隐含的转折/对比（口子虽多，但到达却很快）。"
+          },
+          {
+            "label": "降级",
+            "text": "「通过安检后」作时间状语，「不到8分钟」作时间状语，but 显转折 乘客通过安检后 降级为时间状语从句 after passing through security check 或介词短语 after security。只需不到8分钟 作时间状语 in less than 8 minutes。前后用 but / yet 连接，把「登机 口多」与「到达却快」的对比挑明。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 全句是机场的常态能力，回指基调用一般现在时 has / can reach；状语从句 after passengers pass / have passed security 用现在时即可。 单复数 「82个登机口」82 gates 复数；「任何一个登机口」any gate 用单数（any + 单数可数名词）。 数量表达 「不到8分钟」译 in less than 8 minutes / within 8 minutes，less than 修饰数量；介词 in 表 「在……时间内完成」。 连接词 「但」是逻辑转折，用 but / yet 连接两个分句，显出「口虽多、到达却快」的对比，不要漏掉这 个转折词。"
+          },
+          {
+            "label": "译文",
+            "text": "The terminal has 82 boarding gates in total, but after passing through security check, passengers can reach any gate in less than 8 minutes. 5. 机场的设计可确保每小时300架次起降。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "「机场的设计」作主语，「确保」作谓语（主语策略：原句主语） 主语是 机场的设计（the airport's design），核心动词「确保」作谓语，主干 The design of the airport ensures…，宾语是 每小时300架次起降 这一名词化结果（300 takeoffs and landings per hour）。"
+          },
+          {
+            "label": "降级",
+            "text": "本句结构简单，「每小时300架次起降」名词化作宾语 句子短、主干清晰，无需大幅降级。仅把 每小时300架次起降 处理为名词短语 300 takeoffs and landings per hour 作 ensures 的宾语，per hour 作频率状语。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 描述设计的长期能力，回指基调用一般现在时 ensures。 主谓一致 主语 The design 是单数，谓语第三人称单数 ensures。 单复数 「300架次起降」takeoffs and landings 都用复数（300架次显然不止一次）。 搭配 频率「每小时」用 per hour / an hour；「确保」ensure 后直接接名词宾语，无需 ensure of。"
+          },
+          {
+            "label": "译文",
+            "text": "The design of the airport ensures 300 takeoffs and landings per hour. 6. 机场年客运量2040年将达到1亿人次，有望成为世界上最繁忙的机场。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "前半「年客运量」作主语将达到，后半「机场」有望成为（主语策略：原句主语） 前半 机场年客运量2040年将达到1亿人次 主语是 the airport's annual passenger volume，谓语 「将达到」will reach；后半 有望成为世界上最繁忙的机场 主语回到机场 it，主干 it is expected to become the busiest airport。两半可拆，也可让后半作前半的结果。"
+          },
+          {
+            "label": "降级",
+            "text": "「2040年」作时间状语，后半「有望成为」用 and 接被动预测 2040年 作时间状语 by 2040（用 by 表「到……时」）。后半 有望成为世界上最繁忙的机场 主语 换成机场，用 and is expected to become… 衔接，或独立成句 It is expected to become…；世 界上最繁忙的机场 用最高级 the busiest airport in the world。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 「2040年将达到」是对未来的预测，偏离现在时基调用一般将来时 will reach；「有望成为」用 is expected to become。 语态 「有望」语义被动（被各方预期），用 be expected to 被动结构，主语是被预期的机场。 数字与单位 「1亿人次」译 100 million (passenger trips)；亿在英文是 hundred million，1亿即 100 million，million 在数词后不加 s。 最高级 「世界上最繁忙的」the busiest airport in the world，最高级 busiest 前加 the，范围用 in the world。"
+          },
+          {
+            "label": "译文",
+            "text": "The airport's annual passenger volume is expected to reach 100 million by 2040, and it is likely to become the busiest airport in the world. 英语六级 2020年12月·第3套 · 全卷构成 Part II 听力 与2020年12月第1套共用 · 题目解析 → Part III Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "no-audio",
+    "passage-truncated"
+  ]
+}

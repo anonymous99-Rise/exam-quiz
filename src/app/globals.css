@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+
+/* ==========================================================================
+   设计令牌 —— 从旧站 css/style.css 的 :root 原样继承，保证视觉连续
+   旧站令牌 → Tailwind v4 @theme 映射见 docs/DESIGN.md §8.3
+   ========================================================================== */
+
+@theme {
+  /* 主色：玫瑰粉 */
+  --color-brand: #e5487f; /* --rose */
+  --color-brand-strong: #c0245f; /* --rose-d */
+  --color-brand-soft: #fff0f6; /* --rose-s */
+  --color-brand-mid: #f0699c;
+  --color-brand-deep: #d92e6c;
+
+  /* 中性：文字与线条 */
+  --color-ink: #1b1f24; /* --ink  正文 */
+  --color-ink-soft: #3d444d; /* --ink-2 次级正文 */
+  --color-muted: #8b7a83; /* --muted 辅助说明 */
+  --color-faint: #b6a7ae; /* --faint 占位/禁用 */
+  --color-line: #f0e2e9; /* --line  浅分隔线 */
+  --color-line-strong: #e7d6df; /* --line-2 深分隔线 */
+  --color-surface: #ffffff; /* --white 题目区纯白 */
+  --color-surface-warm: #fffafc; /* 页面暖底 */
+
+  /* 语义色：判分 */
+  --color-ok: #12a150; /* --ok */
+  --color-ok-soft: #e8f8ee; /* --ok-s */
+  --color-bad: #e5484d; /* --bad */
+  --color-bad-soft: #fdeced; /* --bad-s */
+
+  /* 圆角 */
+  --radius-card: 18px; /* --radius */
+  --radius-sm2: 12px;
+
+  /* 字体 */
+  --font-sans:
+    'Inter', 'Segoe UI', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
+
+  /* 阴影：带粉调的柔和投影，inherited from 旧站 */
+  --shadow-card: 0 1px 2px rgb(160 80 120 / 0.06), 0 10px 30px rgb(160 80 120 / 0.1);
+  --shadow-float: 0 2px 6px rgb(160 80 120 / 0.08), 0 24px 60px rgb(160 80 120 / 0.16);
+}
+
+/* ==========================================================================
+   基础层
+   ========================================================================== */
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-surface-warm);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    /* 「外围粉色渐变」：旧站用 .aurora 元素实现，这里内联为固定背景层 */
+    background-image:
+      radial-gradient(60rem 40rem at 12% -10%, rgb(229 72 127 / 0.14), transparent 60%),
+      radial-gradient(50rem 36rem at 100% 0%, rgb(240 105 156 / 0.12), transparent 55%),
+      radial-gradient(48rem 40rem at 50% 110%, rgb(229 72 127 / 0.08), transparent 60%);
+    background-attachment: fixed;
+    min-height: 100dvh;
+  }
+
+  /* 阅读原文用衬线，和题干区分开 */
+  .prose-en {
+    font-family: var(--font-serif);
+  }
+
+  ::selection {
+    background: var(--color-brand-soft);
+    color: var(--color-brand-strong);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+/* ==========================================================================
+   组件层：M0 只建立最小原语，M3 起按题目组件扩展
+   ========================================================================== */
+
+@layer components {
+  .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4;
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      transform 0.06s ease;
+  }
+  .btn:active {
+    transform: translateY(1px);
+  }
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    background: var(--color-brand);
+    color: #fff;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--color-brand-strong);
+  }
+
+  .btn-ghost {
+    background: transparent;
+    border-color: var(--color-line-strong);
+    color: var(--color-ink-soft);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--color-brand-soft);
+    border-color: var(--color-brand);
+    color: var(--color-brand-strong);
+  }
+}

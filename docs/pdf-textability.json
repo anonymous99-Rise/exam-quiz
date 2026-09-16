@@ -1,0 +1,3228 @@
+{
+  "generatedAt": "2026-09-16T10:23:38.458Z",
+  "pages": 6,
+  "totals": {
+    "paper/text": 93,
+    "answer/text": 52,
+    "answer/scanned": 30,
+    "answer/fragmented": 9,
+    "answer/sparse": 8,
+    "paper/scanned": 12,
+    "answer/garbled": 9,
+    "paper/fragmented": 1,
+    "paper/sparse": 3
+  },
+  "sessions": [
+    {
+      "exam": "cet4",
+      "ym": "2014.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2014.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2015.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2015.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2016.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2016.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2017.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "fragmented": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2017.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2018.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2018.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "sparse": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2019.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 2,
+        "text": 1
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2019.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2024.12",
+      "paper": {},
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet4",
+      "ym": "2025.06",
+      "paper": {
+        "scanned": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2013.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2013.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2014.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2015.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2015.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2016.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2016.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "garbled": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2017.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "garbled": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2017.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "garbled": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2018.06",
+      "paper": {
+        "text": 2,
+        "fragmented": 1
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2018.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "sparse": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2019.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2019.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "fragmented": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2020.07",
+      "paper": {
+        "text": 1
+      },
+      "answer": {
+        "text": 1
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2020.09",
+      "paper": {
+        "text": 2
+      },
+      "answer": {
+        "text": 2
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2020.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "fragmented": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2021.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2022.06",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2022.09",
+      "paper": {
+        "text": 1
+      },
+      "answer": {
+        "text": 1
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2022.12",
+      "paper": {
+        "scanned": 3
+      },
+      "answer": {
+        "scanned": 1,
+        "sparse": 2
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2023.06",
+      "paper": {
+        "scanned": 3,
+        "sparse": 3
+      },
+      "answer": {}
+    },
+    {
+      "exam": "cet6",
+      "ym": "2023.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "text": 2
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2024.06",
+      "paper": {},
+      "answer": {
+        "text": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2024.12",
+      "paper": {
+        "text": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    },
+    {
+      "exam": "cet6",
+      "ym": "2025.06",
+      "paper": {
+        "scanned": 3
+      },
+      "answer": {
+        "scanned": 3
+      }
+    }
+  ],
+  "files": [
+    {
+      "rel": "CET4_/2014年12月CET4/2014年12月大学英语四级考试真题及答案解析（一）/01、真题PDF版（推荐打印）❤/2014年12月大学英语四级考试真题试题（一）.pdf",
+      "name": "2014年12月大学英语四级考试真题试题（一）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 311035,
+      "chars": 15106,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年12月CET4/2014年12月大学英语四级考试真题及答案解析（一）/03、答案解析/2014年12月英语四级真题答案及解析（卷一）.pdf",
+      "name": "2014年12月英语四级真题答案及解析（卷一）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 541040,
+      "chars": 14446,
+      "ratio": 0.998,
+      "frag": 0.112,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年12月CET4/2014年12月大学英语四级考试真题及答案解析（三）/01、真题PDF版（推荐打印）❤/2014年12月年大学英语四级考试真题（三）.pdf",
+      "name": "2014年12月年大学英语四级考试真题（三）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 332312,
+      "chars": 22171,
+      "ratio": 1,
+      "frag": 0.178,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年12月CET4/2014年12月大学英语四级考试真题及答案解析（三）/03、答案解析/2014年12月英语四级真题答案及解析（卷三）.pdf",
+      "name": "2014年12月英语四级真题答案及解析（卷三）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 496146,
+      "chars": 14168,
+      "ratio": 0.998,
+      "frag": 0.131,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年12月CET4/2014年12月大学英语四级考试真题及答案解析（二）/01、真题PDF版（推荐打印）❤/2014年12月年大学英语四级考试真题（二）.pdf",
+      "name": "2014年12月年大学英语四级考试真题（二）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 436276,
+      "chars": 20537,
+      "ratio": 1,
+      "frag": 0.108,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年12月CET4/2014年12月大学英语四级考试真题及答案解析（二）/03、答案解析/2014年12月英语四级真题答案及解析（卷二）.pdf",
+      "name": "2014年12月英语四级真题答案及解析（卷二）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 535071,
+      "chars": 13911,
+      "ratio": 0.998,
+      "frag": 0.097,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年06月CET4/2014年6月大学英语四级考试真题及答案解析（一）/真题PDF版（推荐打印）❤/❤ 2014年6月四级真题第1套.pdf",
+      "name": "❤ 2014年6月四级真题第1套.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 233950,
+      "chars": 10363,
+      "ratio": 1,
+      "frag": 0.063,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年06月CET4/2014年6月大学英语四级考试真题及答案解析（一）/答案解析/2014年6月英语四级真题答案及解析（卷一）.pdf",
+      "name": "2014年6月英语四级真题答案及解析（卷一）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 505835,
+      "chars": 12114,
+      "ratio": 0.998,
+      "frag": 0.072,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年06月CET4/2014年6月大学英语四级考试真题及答案解析（三）/真题PDF版（推荐打印）❤/2014年6月年大学英语四级考试真题（三）..pdf",
+      "name": "2014年6月年大学英语四级考试真题（三）..pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 337089,
+      "chars": 20749,
+      "ratio": 1,
+      "frag": 0.23,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年06月CET4/2014年6月大学英语四级考试真题及答案解析（三）/答案解析/2014年6月英语四级真题答案及解析（卷三）..pdf",
+      "name": "2014年6月英语四级真题答案及解析（卷三）..pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 535220,
+      "chars": 13317,
+      "ratio": 0.998,
+      "frag": 0.117,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年06月CET4/2014年6月大学英语四级考试真题及答案解析（二）/真题PDF版（推荐打印）❤/❤ 2014年6月年大学英语四级考试真题（二）.pdf",
+      "name": "❤ 2014年6月年大学英语四级考试真题（二）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 347215,
+      "chars": 20506,
+      "ratio": 1,
+      "frag": 0.162,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2014年06月CET4/2014年6月大学英语四级考试真题及答案解析（二）/答案解析/2014年6月英语四级真题答案及解析（卷二）.pdf",
+      "name": "2014年6月英语四级真题答案及解析（卷二）.pdf",
+      "exam": "cet4",
+      "year": 2014,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 684235,
+      "chars": 10715,
+      "ratio": 0.998,
+      "frag": 0.123,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年12月CET4/01、真题PDF版（推荐使用）❤/2015年12月英语四级考试真题（第1套）.pdf",
+      "name": "2015年12月英语四级考试真题（第1套）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 681770,
+      "chars": 15258,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年12月CET4/01、真题PDF版（推荐使用）❤/2015年12月英语四级考试真题（第2套）.pdf",
+      "name": "2015年12月英语四级考试真题（第2套）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 681847,
+      "chars": 14569,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年12月CET4/01、真题PDF版（推荐使用）❤/2015年12月英语四级考试真题（第3套）.pdf",
+      "name": "2015年12月英语四级考试真题（第3套）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 204105,
+      "chars": 20615,
+      "ratio": 1,
+      "frag": 0.003,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年12月CET4/03、答案解析/2015年12月英语四级真题答案及解析（卷一）.pdf",
+      "name": "2015年12月英语四级真题答案及解析（卷一）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 638381,
+      "chars": 14827,
+      "ratio": 0.998,
+      "frag": 0.043,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年12月CET4/03、答案解析/2015年12月英语四级真题答案及解析（卷三）.pdf",
+      "name": "2015年12月英语四级真题答案及解析（卷三）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 1826591,
+      "chars": 9651,
+      "ratio": 1,
+      "frag": 0.066,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年12月CET4/03、答案解析/2015年12月英语四级真题答案及解析（卷二）.pdf",
+      "name": "2015年12月英语四级真题答案及解析（卷二）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 607777,
+      "chars": 14765,
+      "ratio": 0.998,
+      "frag": 0.023,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年06月CET4/01、真题PDF版（推荐使用）❤/2015年6月大学英语四级真题（一）.pdf",
+      "name": "2015年6月大学英语四级真题（一）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 1040624,
+      "chars": 20324,
+      "ratio": 1,
+      "frag": 0.141,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年06月CET4/01、真题PDF版（推荐使用）❤/2015年6月大学英语四级真题（三）.pdf",
+      "name": "2015年6月大学英语四级真题（三）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 741612,
+      "chars": 18191,
+      "ratio": 1,
+      "frag": 0.118,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年06月CET4/01、真题PDF版（推荐使用）❤/2015年6月大学英语四级真题（二）.pdf",
+      "name": "2015年6月大学英语四级真题（二）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 371100,
+      "chars": 19848,
+      "ratio": 1,
+      "frag": 0.129,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年06月CET4/03、答案解析/2015年6月英语四级真题答案及解析（卷一）.pdf",
+      "name": "2015年6月英语四级真题答案及解析（卷一）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1056289,
+      "chars": 14122,
+      "ratio": 0.998,
+      "frag": 0.079,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年06月CET4/03、答案解析/2015年6月英语四级真题答案及解析（卷三）.pdf",
+      "name": "2015年6月英语四级真题答案及解析（卷三）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 654227,
+      "chars": 13540,
+      "ratio": 0.998,
+      "frag": 0.151,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2015年06月CET4/03、答案解析/2015年6月英语四级真题答案及解析（卷二）.pdf",
+      "name": "2015年6月英语四级真题答案及解析（卷二）.pdf",
+      "exam": "cet4",
+      "year": 2015,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 707737,
+      "chars": 11792,
+      "ratio": 0.998,
+      "frag": 0.078,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年12月CET4/01、真题PDF版（推荐使用）❤/2016年12月四级真题（第一套）.pdf",
+      "name": "2016年12月四级真题（第一套）.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 288610,
+      "chars": 16740,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年12月CET4/01、真题PDF版（推荐使用）❤/2016年12月四级真题（第三套).pdf",
+      "name": "2016年12月四级真题（第三套).pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 377891,
+      "chars": 17758,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年12月CET4/01、真题PDF版（推荐使用）❤/2016年12月四级真题（第二套）.pdf",
+      "name": "2016年12月四级真题（第二套）.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 380918,
+      "chars": 19509,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年12月CET4/03、答案解析/2016年12月四级答案及解析（第一套）.pdf",
+      "name": "2016年12月四级答案及解析（第一套）.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 3495992,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2016年12月CET4/03、答案解析/2016年12月四级答案及解析（第三套）.pdf",
+      "name": "2016年12月四级答案及解析（第三套）.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 3415122,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2016年12月CET4/03、答案解析/2016年12月四级答案及解析（第二套）.pdf",
+      "name": "2016年12月四级答案及解析（第二套）.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 3434732,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2016年06月CET4/01、真题PDF版（推荐使用这版）/2016年6月大学英语四级第1套真题.pdf",
+      "name": "2016年6月大学英语四级第1套真题.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 487291,
+      "chars": 14840,
+      "ratio": 1,
+      "frag": 0.042,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年06月CET4/01、真题PDF版（推荐使用这版）/2016年6月大学英语四级第2套真题 .pdf",
+      "name": "2016年6月大学英语四级第2套真题 .pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 364770,
+      "chars": 17835,
+      "ratio": 1,
+      "frag": 0.02,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年06月CET4/01、真题PDF版（推荐使用这版）/2016年6月大学英语四级第3套真题.pdf",
+      "name": "2016年6月大学英语四级第3套真题.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 306975,
+      "chars": 16689,
+      "ratio": 1,
+      "frag": 0.004,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年06月CET4/03、答案解析/2016年6月大学英语四级第1套答案解析.pdf",
+      "name": "2016年6月大学英语四级第1套答案解析.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 589801,
+      "chars": 12634,
+      "ratio": 1,
+      "frag": 0.018,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年06月CET4/03、答案解析/2016年6月大学英语四级第2套答案解析.pdf",
+      "name": "2016年6月大学英语四级第2套答案解析.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 877070,
+      "chars": 8969,
+      "ratio": 1,
+      "frag": 0.005,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2016年06月CET4/03、答案解析/2016年6月大学英语四级第3套答案解析.pdf",
+      "name": "2016年6月大学英语四级第3套答案解析.pdf",
+      "exam": "cet4",
+      "year": 2016,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 579254,
+      "chars": 9000,
+      "ratio": 1,
+      "frag": 0.011,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年12月CET4/01、真题PDF版（推荐使用）❤/2017.12四级真题（卷1）.pdf",
+      "name": "2017.12四级真题（卷1）.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 258774,
+      "chars": 22007,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年12月CET4/01、真题PDF版（推荐使用）❤/2017.12四级真题（卷2）.pdf",
+      "name": "2017.12四级真题（卷2）.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 290797,
+      "chars": 20973,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年12月CET4/01、真题PDF版（推荐使用）❤/2017.12四级真题（卷3）.pdf",
+      "name": "2017.12四级真题（卷3）.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 288249,
+      "chars": 17765,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年12月CET4/03、答案解析/2017年12月英语四级真题答案及解析（第一套）.pdf",
+      "name": "2017年12月英语四级真题答案及解析（第一套）.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 523347,
+      "chars": 17652,
+      "ratio": 1,
+      "frag": 0.014,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年12月CET4/03、答案解析/2017年12月英语四级真题答案及解析（第三套）.pdf",
+      "name": "2017年12月英语四级真题答案及解析（第三套）.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 371287,
+      "chars": 15919,
+      "ratio": 1,
+      "frag": 0.014,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年12月CET4/03、答案解析/2017年12月英语四级真题答案及解析（第二套）.pdf",
+      "name": "2017年12月英语四级真题答案及解析（第二套）.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 428901,
+      "chars": 17570,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年06月CET4/01、真题PDF版（推荐使用）❤/2017.06四级真题第1套.pdf",
+      "name": "2017.06四级真题第1套.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 692526,
+      "chars": 10710,
+      "ratio": 1,
+      "frag": 0.08,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年06月CET4/01、真题PDF版（推荐使用）❤/2017.06四级真题第2套.pdf",
+      "name": "2017.06四级真题第2套.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 694966,
+      "chars": 11491,
+      "ratio": 1,
+      "frag": 0.131,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年06月CET4/01、真题PDF版（推荐使用）❤/2017.06四级真题第3套.pdf",
+      "name": "2017.06四级真题第3套.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 654493,
+      "chars": 14338,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2017年06月CET4/03、答案解析/2017年6月英语四级真题（卷一）答案解析.pdf",
+      "name": "2017年6月英语四级真题（卷一）答案解析.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1831943,
+      "chars": 16112,
+      "ratio": 0.967,
+      "frag": 0.532,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET4_/2017年06月CET4/03、答案解析/2017年6月英语四级真题（卷三）答案解析.pdf",
+      "name": "2017年6月英语四级真题（卷三）答案解析.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1481988,
+      "chars": 14860,
+      "ratio": 0.947,
+      "frag": 0.618,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET4_/2017年06月CET4/03、答案解析/2017年6月英语四级真题（卷二）答案解析.pdf",
+      "name": "2017年6月英语四级真题（卷二）答案解析.pdf",
+      "exam": "cet4",
+      "year": 2017,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1810526,
+      "chars": 18048,
+      "ratio": 0.964,
+      "frag": 0.571,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET4_/2018年12月CET4/01、真题PDF版（推荐使用）❤/2018.12四级真题第1套.pdf",
+      "name": "2018.12四级真题第1套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 602836,
+      "chars": 17908,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年12月CET4/01、真题PDF版（推荐使用）❤/2018.12四级真题第2套.pdf",
+      "name": "2018.12四级真题第2套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 613055,
+      "chars": 19010,
+      "ratio": 1,
+      "frag": 0.033,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年12月CET4/01、真题PDF版（推荐使用）❤/2018.12四级真题第3套.pdf",
+      "name": "2018.12四级真题第3套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 554434,
+      "chars": 17448,
+      "ratio": 1,
+      "frag": 0.004,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年12月CET4/03、答案解析/2018.12四级答案解析第一套.pdf",
+      "name": "2018.12四级答案解析第一套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 11068913,
+      "chars": 293,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET4_/2018年12月CET4/03、答案解析/2018.12四级答案解析第三套.pdf",
+      "name": "2018.12四级答案解析第三套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 7115639,
+      "chars": 293,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET4_/2018年12月CET4/03、答案解析/2018.12四级答案解析第二套.pdf",
+      "name": "2018.12四级答案解析第二套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 10360866,
+      "chars": 293,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET4_/2018年06月CET4/01、真题PDF版（推荐使用）❤/2018.06四级真题第1套.pdf",
+      "name": "2018.06四级真题第1套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 717095,
+      "chars": 14963,
+      "ratio": 1,
+      "frag": 0.028,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年06月CET4/01、真题PDF版（推荐使用）❤/2018.06四级真题第2套.pdf",
+      "name": "2018.06四级真题第2套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 737771,
+      "chars": 15183,
+      "ratio": 1,
+      "frag": 0.027,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年06月CET4/01、真题PDF版（推荐使用）❤/2018.06四级真题第3套.pdf",
+      "name": "2018.06四级真题第3套.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 583214,
+      "chars": 14359,
+      "ratio": 1,
+      "frag": 0.029,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年06月CET4/03、答案解析/2018年6月英语四级真题答案解析（卷一）.pdf",
+      "name": "2018年6月英语四级真题答案解析（卷一）.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 499749,
+      "chars": 17732,
+      "ratio": 0.999,
+      "frag": 0.01,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年06月CET4/03、答案解析/2018年6月英语四级真题答案解析（卷三）.pdf",
+      "name": "2018年6月英语四级真题答案解析（卷三）.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 413144,
+      "chars": 16592,
+      "ratio": 0.999,
+      "frag": 0.008,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2018年06月CET4/03、答案解析/2018年6月英语四级真题答案解析（卷二）.pdf",
+      "name": "2018年6月英语四级真题答案解析（卷二）.pdf",
+      "exam": "cet4",
+      "year": 2018,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 501137,
+      "chars": 17852,
+      "ratio": 0.999,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年12月CET4/01、真题PDF版（推荐使用）❤/2019.12月四级真题第1套【可复制可划线查词】.pdf",
+      "name": "2019.12月四级真题第1套【可复制可划线查词】.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 1043857,
+      "chars": 35559,
+      "ratio": 0.999,
+      "frag": 0.043,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年12月CET4/01、真题PDF版（推荐使用）❤/2019.12月四级真题第2套【可复制可划线查词】.pdf",
+      "name": "2019.12月四级真题第2套【可复制可划线查词】.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 994210,
+      "chars": 35083,
+      "ratio": 0.999,
+      "frag": 0.045,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年12月CET4/01、真题PDF版（推荐使用）❤/2019.12月四级真题第3套【可复制可划线查词】.pdf",
+      "name": "2019.12月四级真题第3套【可复制可划线查词】.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 718291,
+      "chars": 31851,
+      "ratio": 0.999,
+      "frag": 0.033,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年12月CET4/03、答案解析/2019.12英语四级解析第1套.pdf",
+      "name": "2019.12英语四级解析第1套.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 5927256,
+      "chars": 17094,
+      "ratio": 0.999,
+      "frag": 0.064,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年12月CET4/03、答案解析/2019.12英语四级解析第2套.pdf",
+      "name": "2019.12英语四级解析第2套.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 4955311,
+      "chars": 16158,
+      "ratio": 0.999,
+      "frag": 0.074,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年12月CET4/03、答案解析/2019.12英语四级解析第3套.pdf",
+      "name": "2019.12英语四级解析第3套.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 3571869,
+      "chars": 11590,
+      "ratio": 0.999,
+      "frag": 0.081,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年06月CET4/01、真题PDF版（推荐使用）❤/2019.06四级真题（第1套）.pdf",
+      "name": "2019.06四级真题（第1套）.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 451631,
+      "chars": 15304,
+      "ratio": 1,
+      "frag": 0.025,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年06月CET4/01、真题PDF版（推荐使用）❤/2019.06四级真题（第2套）.pdf",
+      "name": "2019.06四级真题（第2套）.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 407565,
+      "chars": 16072,
+      "ratio": 1,
+      "frag": 0.031,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年06月CET4/01、真题PDF版（推荐使用）❤/2019.06四级真题（第3套）.pdf",
+      "name": "2019.06四级真题（第3套）.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 186005,
+      "chars": 17571,
+      "ratio": 1,
+      "frag": 0.022,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年06月CET4/03、答案解析/2019年6月份四级（第一套）答案解析.pdf",
+      "name": "2019年6月份四级（第一套）答案解析.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 9753720,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2019年06月CET4/03、答案解析/2019年6月份四级（第三套）答案解析.pdf",
+      "name": "2019年6月份四级（第三套）答案解析.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1879370,
+      "chars": 10849,
+      "ratio": 1,
+      "frag": 0.208,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET4_/2019年06月CET4/03、答案解析/2019年6月份四级（第二套）答案解析.pdf",
+      "name": "2019年6月份四级（第二套）答案解析.pdf",
+      "exam": "cet4",
+      "year": 2019,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 8539424,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2024年12月CET4/2024年12月四级真题原卷及答案（第1套）.pdf",
+      "name": "2024年12月四级真题原卷及答案（第1套）.pdf",
+      "exam": "cet4",
+      "year": 2024,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 6268031,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2024年12月CET4/2024年12月四级真题原卷及答案（第2套）.pdf",
+      "name": "2024年12月四级真题原卷及答案（第2套）.pdf",
+      "exam": "cet4",
+      "year": 2024,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 6681639,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2024年12月CET4/2024年12月四级真题原卷及答案（第3套）.pdf",
+      "name": "2024年12月四级真题原卷及答案（第3套）.pdf",
+      "exam": "cet4",
+      "year": 2024,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 73285275,
+      "chars": 8,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2025年6月CET4/2025.06四级真题第1套.pdf",
+      "name": "2025.06四级真题第1套.pdf",
+      "exam": "cet4",
+      "year": 2025,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 23069767,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2025年6月CET4/2025.06四级真题第2套.pdf",
+      "name": "2025.06四级真题第2套.pdf",
+      "exam": "cet4",
+      "year": 2025,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 22282403,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2025年6月CET4/2025.06四级真题第3套.pdf",
+      "name": "2025.06四级真题第3套.pdf",
+      "exam": "cet4",
+      "year": 2025,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 16917096,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2025年6月CET4/2025.06英语四级解析第1套.pdf",
+      "name": "2025.06英语四级解析第1套.pdf",
+      "exam": "cet4",
+      "year": 2025,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 15583087,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2025年6月CET4/2025.06英语四级解析第2套.pdf",
+      "name": "2025.06英语四级解析第2套.pdf",
+      "exam": "cet4",
+      "year": 2025,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 15217732,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET4_/2025年6月CET4/2025.06英语四级解析第3套.pdf",
+      "name": "2025.06英语四级解析第3套.pdf",
+      "exam": "cet4",
+      "year": 2025,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 9591428,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2013.12/01、真题PDF版（推荐打印）❤/2013年12月六级考试真题（一）.pdf",
+      "name": "2013年12月六级考试真题（一）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 455192,
+      "chars": 19353,
+      "ratio": 1,
+      "frag": 0.099,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.12/01、真题PDF版（推荐打印）❤/2013年12月六级考试真题（三）.pdf",
+      "name": "2013年12月六级考试真题（三）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 418470,
+      "chars": 21116,
+      "ratio": 1,
+      "frag": 0.177,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.12/01、真题PDF版（推荐打印）❤/2013年12月六级考试真题（二）.pdf",
+      "name": "2013年12月六级考试真题（二）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 434167,
+      "chars": 19122,
+      "ratio": 1,
+      "frag": 0.067,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.12/03、答案解析/2013年12月六级考试真题答案解析（第一套）.pdf",
+      "name": "2013年12月六级考试真题答案解析（第一套）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 674239,
+      "chars": 17275,
+      "ratio": 1,
+      "frag": 0.044,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.12/03、答案解析/2013年12月六级考试真题答案解析（第三套）.pdf",
+      "name": "2013年12月六级考试真题答案解析（第三套）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 642750,
+      "chars": 11932,
+      "ratio": 0.997,
+      "frag": 0.039,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.12/03、答案解析/2013年12月六级考试真题答案解析（第二套）.pdf",
+      "name": "2013年12月六级考试真题答案解析（第二套）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 678078,
+      "chars": 16522,
+      "ratio": 1,
+      "frag": 0.042,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.06/01、真题PDF版（推荐打印）❤/2013年6月六级考试真题（一）.pdf",
+      "name": "2013年6月六级考试真题（一）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 239245,
+      "chars": 23243,
+      "ratio": 1,
+      "frag": 0.017,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.06/01、真题PDF版（推荐打印）❤/2013年6月六级考试真题（三）.pdf",
+      "name": "2013年6月六级考试真题（三）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 186276,
+      "chars": 21647,
+      "ratio": 1,
+      "frag": 0.029,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.06/01、真题PDF版（推荐打印）❤/2013年6月六级考试真题（二）.pdf",
+      "name": "2013年6月六级考试真题（二）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 193205,
+      "chars": 23317,
+      "ratio": 1,
+      "frag": 0.014,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.06/03、答案解析/2013年6月六级考试真题答案解析（第一套）.pdf",
+      "name": "2013年6月六级考试真题答案解析（第一套）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 665493,
+      "chars": 16933,
+      "ratio": 0.999,
+      "frag": 0.056,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.06/03、答案解析/2013年6月六级考试真题答案解析（第三套）.pdf",
+      "name": "2013年6月六级考试真题答案解析（第三套）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 372866,
+      "chars": 12813,
+      "ratio": 0.998,
+      "frag": 0.04,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2013.06/03、答案解析/2013年6月六级考试真题答案解析（第二套）.pdf",
+      "name": "2013年6月六级考试真题答案解析（第二套）.pdf",
+      "exam": "cet6",
+      "year": 2013,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 708278,
+      "chars": 16308,
+      "ratio": 1,
+      "frag": 0.034,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2014.06/01、真题PDF版（推荐打印）❤/2014年6月大学英语六级考试真题（一）.pdf",
+      "name": "2014年6月大学英语六级考试真题（一）.pdf",
+      "exam": "cet6",
+      "year": 2014,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 489269,
+      "chars": 20510,
+      "ratio": 1,
+      "frag": 0.186,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2014.06/01、真题PDF版（推荐打印）❤/2014年6月大学英语六级考试真题（三）.pdf",
+      "name": "2014年6月大学英语六级考试真题（三）.pdf",
+      "exam": "cet6",
+      "year": 2014,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 497305,
+      "chars": 22340,
+      "ratio": 1,
+      "frag": 0.126,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2014.06/01、真题PDF版（推荐打印）❤/2014年6月大学英语六级考试真题（二）.pdf",
+      "name": "2014年6月大学英语六级考试真题（二）.pdf",
+      "exam": "cet6",
+      "year": 2014,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 453322,
+      "chars": 23112,
+      "ratio": 1,
+      "frag": 0.092,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2014.06/03、答案解析/2014年6月大学英语六级答案解析（一）.pdf",
+      "name": "2014年6月大学英语六级答案解析（一）.pdf",
+      "exam": "cet6",
+      "year": 2014,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 648358,
+      "chars": 13636,
+      "ratio": 0.996,
+      "frag": 0.125,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2014.06/03、答案解析/2014年6月大学英语六级答案解析（三）.pdf",
+      "name": "2014年6月大学英语六级答案解析（三）.pdf",
+      "exam": "cet6",
+      "year": 2014,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 851801,
+      "chars": 14372,
+      "ratio": 0.996,
+      "frag": 0.119,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2014.06/03、答案解析/2014年6月大学英语六级答案解析（二）.pdf",
+      "name": "2014年6月大学英语六级答案解析（二）.pdf",
+      "exam": "cet6",
+      "year": 2014,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 631709,
+      "chars": 15008,
+      "ratio": 0.995,
+      "frag": 0.072,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.12/01、真题PDF版（推荐打印）❤/2015年12月六级真题（第1套）.pdf",
+      "name": "2015年12月六级真题（第1套）.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 566892,
+      "chars": 16411,
+      "ratio": 1,
+      "frag": 0.004,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.12/01、真题PDF版（推荐打印）❤/2015年12月六级真题（第2套）.pdf",
+      "name": "2015年12月六级真题（第2套）.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 287458,
+      "chars": 16878,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.12/01、真题PDF版（推荐打印）❤/2015年12月六级真题（第3套）.pdf",
+      "name": "2015年12月六级真题（第3套）.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 302937,
+      "chars": 17295,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.12/03、答案解析/2015.12英语六级考试第1套解析.pdf",
+      "name": "2015.12英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 8439573,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2015.12/03、答案解析/2015.12英语六级考试第2套解析.pdf",
+      "name": "2015.12英语六级考试第2套解析.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 9032092,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2015.12/03、答案解析/2015.12英语六级考试第3套解析.pdf",
+      "name": "2015.12英语六级考试第3套解析.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 8507774,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2015.06/01、真题PDF版（推荐打印）❤/2015年06月六级真题（第1套）.pdf",
+      "name": "2015年06月六级真题（第1套）.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 310102,
+      "chars": 17942,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.06/01、真题PDF版（推荐打印）❤/2015年06月六级真题（第2套）.pdf",
+      "name": "2015年06月六级真题（第2套）.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 297462,
+      "chars": 17984,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.06/01、真题PDF版（推荐打印）❤/2015年06月六级真题（第3套）.pdf",
+      "name": "2015年06月六级真题（第3套）.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 343830,
+      "chars": 16695,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2015.06/03、答案解析/2015.06英语六级考试第1套解析.pdf",
+      "name": "2015.06英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 8446135,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2015.06/03、答案解析/2015.06英语六级考试第2套解析.pdf",
+      "name": "2015.06英语六级考试第2套解析.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 8264700,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2015.06/03、答案解析/2015.06英语六级考试第3套解析.pdf",
+      "name": "2015.06英语六级考试第3套解析.pdf",
+      "exam": "cet6",
+      "year": 2015,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 8816123,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2016.12/01、真题PDF版（推荐打印）❤/2016.12六级第1套试题【可复制可搜索，打印首选】.pdf",
+      "name": "2016.12六级第1套试题【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 7911955,
+      "chars": 16831,
+      "ratio": 0.963,
+      "frag": 0.029,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2016.12/01、真题PDF版（推荐打印）❤/2016.12六级第2套试题【可复制可搜索，打印首选】.pdf",
+      "name": "2016.12六级第2套试题【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 8010233,
+      "chars": 16165,
+      "ratio": 0.961,
+      "frag": 0.045,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2016.12/01、真题PDF版（推荐打印）❤/2016.12六级第3套试题【可复制可搜索，打印首选】.pdf",
+      "name": "2016.12六级第3套试题【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 6326687,
+      "chars": 20623,
+      "ratio": 0.962,
+      "frag": 0.064,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2016.12/03、答案解析/2016年12月六级（第1套）答案及解析.pdf",
+      "name": "2016年12月六级（第1套）答案及解析.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 2278265,
+      "chars": 16527,
+      "ratio": 0.003,
+      "frag": 0.824,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2016.12/03、答案解析/2016年12月六级（第2套）答案及解析.pdf",
+      "name": "2016年12月六级（第2套）答案及解析.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 3857830,
+      "chars": 14616,
+      "ratio": 0.01,
+      "frag": 0.798,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2016.12/03、答案解析/2016年12月六级（第3套）答案及解析 .pdf",
+      "name": "2016年12月六级（第3套）答案及解析 .pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 2392832,
+      "chars": 13860,
+      "ratio": 0.007,
+      "frag": 0.814,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2016.06/01、真题PDF版（推荐打印）/2016.06六级第1套真题【可复制可搜索，打印首选】.pdf",
+      "name": "2016.06六级第1套真题【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 8605503,
+      "chars": 14725,
+      "ratio": 0.999,
+      "frag": 0.025,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2016.06/01、真题PDF版（推荐打印）/2016.06六级第2套真题【可复制可搜索，打印首选】.pdf",
+      "name": "2016.06六级第2套真题【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 2224226,
+      "chars": 23294,
+      "ratio": 0.999,
+      "frag": 0.037,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2016.06/01、真题PDF版（推荐打印）/2016.06六级第3套真题【可复制可搜索，打印首选】.pdf",
+      "name": "2016.06六级第3套真题【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 1970198,
+      "chars": 29737,
+      "ratio": 0.999,
+      "frag": 0.043,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2016.06/03、答案解析/2016.06英语六级考试第1套解析.pdf",
+      "name": "2016.06英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 9250772,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2016.06/03、答案解析/2016.06英语六级考试第2套解析.pdf",
+      "name": "2016.06英语六级考试第2套解析.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 8856436,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2016.06/03、答案解析/2016.06英语六级考试第3套解析.pdf",
+      "name": "2016.06英语六级考试第3套解析.pdf",
+      "exam": "cet6",
+      "year": 2016,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 4515755,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2017.12/01、真题PDF版（推荐打印）❤/2017.12六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "name": "2017.12六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 4083937,
+      "chars": 25826,
+      "ratio": 1,
+      "frag": 0.046,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2017.12/01、真题PDF版（推荐打印）❤/2017.12六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "name": "2017.12六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 3950614,
+      "chars": 26026,
+      "ratio": 1,
+      "frag": 0.051,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2017.12/01、真题PDF版（推荐打印）❤/2017.12六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "name": "2017.12六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 902919,
+      "chars": 28969,
+      "ratio": 0.999,
+      "frag": 0.056,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2017.12/03、答案解析/2017.12英语六级考试第1套解析.pdf",
+      "name": "2017.12英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 4572383,
+      "chars": 29459,
+      "ratio": 0.488,
+      "frag": 0.683,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2017.12/03、答案解析/2017.12英语六级考试第2套解析.pdf",
+      "name": "2017.12英语六级考试第2套解析.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 5159657,
+      "chars": 25323,
+      "ratio": 0.487,
+      "frag": 0.664,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2017.12/03、答案解析/2017.12英语六级考试第3套解析.pdf",
+      "name": "2017.12英语六级考试第3套解析.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 3949536,
+      "chars": 24061,
+      "ratio": 0.5,
+      "frag": 0.671,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2017.06/01、真题PDF版（推荐打印）❤/2017.06六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "name": "2017.06六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 3749619,
+      "chars": 13854,
+      "ratio": 1,
+      "frag": 0.02,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2017.06/01、真题PDF版（推荐打印）❤/2017.06六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "name": "2017.06六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 3283348,
+      "chars": 13572,
+      "ratio": 1,
+      "frag": 0.028,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2017.06/01、真题PDF版（推荐打印）❤/2017.06六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "name": "2017.06六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 3265635,
+      "chars": 16483,
+      "ratio": 0.998,
+      "frag": 0.057,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2017.06/03、答案解析/2017.06英语六级考试第1套解析.pdf",
+      "name": "2017.06英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 4006115,
+      "chars": 16189,
+      "ratio": 0.004,
+      "frag": 0.79,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2017.06/03、答案解析/2017.06英语六级考试第2套解析.pdf",
+      "name": "2017.06英语六级考试第2套解析.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 3297695,
+      "chars": 15151,
+      "ratio": 0.002,
+      "frag": 0.811,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2017.06/03、答案解析/2017.06英语六级考试第3套解析.pdf",
+      "name": "2017.06英语六级考试第3套解析.pdf",
+      "exam": "cet6",
+      "year": 2017,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 3529935,
+      "chars": 13253,
+      "ratio": 0.006,
+      "frag": 0.794,
+      "verdict": "garbled"
+    },
+    {
+      "rel": "CET6_2018.12/01、真题PDF版（推荐打印）❤/2018.12六级真题第1套.pdf",
+      "name": "2018.12六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 197471,
+      "chars": 21429,
+      "ratio": 1,
+      "frag": 0.003,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.12/01、真题PDF版（推荐打印）❤/2018.12六级真题第2套.pdf",
+      "name": "2018.12六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 474131,
+      "chars": 20911,
+      "ratio": 1,
+      "frag": 0.038,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.12/01、真题PDF版（推荐打印）❤/2018.12六级真题第3套.pdf",
+      "name": "2018.12六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 277746,
+      "chars": 21026,
+      "ratio": 1,
+      "frag": 0.004,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.12/03、答案解析/2018年12月6级答案解析第一套.pdf",
+      "name": "2018年12月6级答案解析第一套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 11032479,
+      "chars": 293,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2018.12/03、答案解析/2018年12月6级答案解析第三套.pdf",
+      "name": "2018年12月6级答案解析第三套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 8045091,
+      "chars": 293,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2018.12/03、答案解析/2018年12月6级答案解析第二套.pdf",
+      "name": "2018年12月6级答案解析第二套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 12034600,
+      "chars": 293,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2018.06/01、真题PDF版（推荐打印）❤/2018.06六级真题第1套.pdf",
+      "name": "2018.06六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 326344,
+      "chars": 23406,
+      "ratio": 1,
+      "frag": 0.026,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.06/01、真题PDF版（推荐打印）❤/2018.06六级真题第2套.pdf",
+      "name": "2018.06六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 300190,
+      "chars": 19927,
+      "ratio": 1,
+      "frag": 0.029,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.06/01、真题PDF版（推荐打印）❤/2018.06六级真题第3套.pdf",
+      "name": "2018.06六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 2201732,
+      "chars": 1601,
+      "ratio": 1,
+      "frag": 0.802,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2018.06/03、答案解析/2018年6月英语六级真题答案解析（卷一）.pdf",
+      "name": "2018年6月英语六级真题答案解析（卷一）.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 601754,
+      "chars": 17876,
+      "ratio": 0.999,
+      "frag": 0.007,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.06/03、答案解析/2018年6月英语六级真题答案解析（卷三）.pdf",
+      "name": "2018年6月英语六级真题答案解析（卷三）.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 570814,
+      "chars": 18115,
+      "ratio": 0.999,
+      "frag": 0.015,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2018.06/03、答案解析/2018年6月英语六级真题答案解析（卷二）.pdf",
+      "name": "2018年6月英语六级真题答案解析（卷二）.pdf",
+      "exam": "cet6",
+      "year": 2018,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 737422,
+      "chars": 19385,
+      "ratio": 0.999,
+      "frag": 0.01,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.12/01、真题PDF版（推荐打印）❤/2019.12六级真题第1套.pdf",
+      "name": "2019.12六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 3126845,
+      "chars": 12307,
+      "ratio": 1,
+      "frag": 0.005,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.12/01、真题PDF版（推荐打印）❤/2019.12六级真题第2套.pdf",
+      "name": "2019.12六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 2681128,
+      "chars": 11549,
+      "ratio": 1,
+      "frag": 0.067,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.12/01、真题PDF版（推荐打印）❤/2019.12六级真题第3套.pdf",
+      "name": "2019.12六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 3805325,
+      "chars": 16085,
+      "ratio": 0.997,
+      "frag": 0.092,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.12/03、答案解析/2019.12英语六级考试解析第1套.pdf",
+      "name": "2019.12英语六级考试解析第1套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 965228,
+      "chars": 22204,
+      "ratio": 0.976,
+      "frag": 0.813,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2019.12/03、答案解析/2019.12英语六级考试解析第2套.pdf",
+      "name": "2019.12英语六级考试解析第2套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 895039,
+      "chars": 21914,
+      "ratio": 0.975,
+      "frag": 0.813,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2019.12/03、答案解析/2019.12英语六级考试解析第3套.pdf",
+      "name": "2019.12英语六级考试解析第3套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 787361,
+      "chars": 17218,
+      "ratio": 0.981,
+      "frag": 0.721,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2019.06/01、真题PDF版（推荐打印）❤/2019.06六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "name": "2019.06六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 3580091,
+      "chars": 23328,
+      "ratio": 1,
+      "frag": 0.051,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.06/01、真题PDF版（推荐打印）❤/2019.06六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "name": "2019.06六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 3833293,
+      "chars": 23852,
+      "ratio": 1,
+      "frag": 0.036,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.06/01、真题PDF版（推荐打印）❤/2019.06六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "name": "2019.06六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 3216145,
+      "chars": 31353,
+      "ratio": 0.998,
+      "frag": 0.039,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2019.06/03、答案解析/2019年06月真题解析第1套.pdf",
+      "name": "2019年06月真题解析第1套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 21483047,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2019.06/03、答案解析/2019年06月真题解析第2套.pdf",
+      "name": "2019年06月真题解析第2套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 19974846,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2019.06/03、答案解析/2019年06月真题解析第3套.pdf",
+      "name": "2019年06月真题解析第3套.pdf",
+      "exam": "cet6",
+      "year": 2019,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 12808748,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2020.12/01、真题PDF版（推荐打印）❤/2020.12六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "name": "2020.12六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 814240,
+      "chars": 24029,
+      "ratio": 1,
+      "frag": 0.031,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.12/01、真题PDF版（推荐打印）❤/2020.12六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "name": "2020.12六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 805778,
+      "chars": 24694,
+      "ratio": 1,
+      "frag": 0.034,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.12/01、真题PDF版（推荐打印）❤/2020.12六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "name": "2020.12六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 577691,
+      "chars": 16117,
+      "ratio": 0.997,
+      "frag": 0.052,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.12/03、答案解析/2020.12英语六级考试第1套解析.pdf",
+      "name": "2020.12英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 988417,
+      "chars": 23146,
+      "ratio": 0.977,
+      "frag": 0.807,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2020.12/03、答案解析/2020.12英语六级考试第2套解析.pdf",
+      "name": "2020.12英语六级考试第2套解析.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 999891,
+      "chars": 25304,
+      "ratio": 0.979,
+      "frag": 0.832,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2020.12/03、答案解析/2020.12英语六级考试第3套解析.pdf",
+      "name": "2020.12英语六级考试第3套解析.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 790647,
+      "chars": 18519,
+      "ratio": 0.981,
+      "frag": 0.738,
+      "verdict": "fragmented"
+    },
+    {
+      "rel": "CET6_2020.07/2020.07六级真题全1套【可复制可搜索，打印首选】.pdf",
+      "name": "2020.07六级真题全1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 7,
+      "kind": "paper",
+      "bytes": 480419,
+      "chars": 12647,
+      "ratio": 0.998,
+      "frag": 0.004,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.07/2020.07英语六级考试全1套解析.pdf",
+      "name": "2020.07英语六级考试全1套解析.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 7,
+      "kind": "answer",
+      "bytes": 30826819,
+      "chars": 14200,
+      "ratio": 0.992,
+      "frag": 0.017,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.09/01、真题PDF版（推荐打印）❤/2020.09六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "name": "2020.09六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 9,
+      "kind": "paper",
+      "bytes": 3984210,
+      "chars": 13192,
+      "ratio": 0.999,
+      "frag": 0.037,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.09/01、真题PDF版（推荐打印）❤/2020.09六级真题第2、3套【可复制可搜索，打印首选】.pdf",
+      "name": "2020.09六级真题第2、3套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 9,
+      "kind": "paper",
+      "bytes": 2515613,
+      "chars": 16671,
+      "ratio": 0.999,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.09/03、答案解析/2020.09英语六级考试第1套解析.pdf",
+      "name": "2020.09英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 9,
+      "kind": "answer",
+      "bytes": 32273662,
+      "chars": 14812,
+      "ratio": 0.994,
+      "frag": 0.006,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2020.09/03、答案解析/2020.09英语六级考试第2、3套解析.pdf",
+      "name": "2020.09英语六级考试第2、3套解析.pdf",
+      "exam": "cet6",
+      "year": 2020,
+      "month": 9,
+      "kind": "answer",
+      "bytes": 19261175,
+      "chars": 11270,
+      "ratio": 0.992,
+      "frag": 0.069,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2021.06/01、真题PDF版（推荐打印）❤/2021.06六级真题第1套.pdf",
+      "name": "2021.06六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2021,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 956658,
+      "chars": 20465,
+      "ratio": 0.999,
+      "frag": 0.043,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2021.06/01、真题PDF版（推荐打印）❤/2021.06六级真题第2套.pdf",
+      "name": "2021.06六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2021,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 1094786,
+      "chars": 21234,
+      "ratio": 0.992,
+      "frag": 0.115,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2021.06/01、真题PDF版（推荐打印）❤/2021.06六级真题第3套.pdf",
+      "name": "2021.06六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2021,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 976287,
+      "chars": 20956,
+      "ratio": 0.994,
+      "frag": 0.057,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2021.06/02、答案解析/2021.06英语六级答案解析第1套.pdf",
+      "name": "2021.06英语六级答案解析第1套.pdf",
+      "exam": "cet6",
+      "year": 2021,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 5080091,
+      "chars": 21777,
+      "ratio": 0.97,
+      "frag": 0.121,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2021.06/02、答案解析/2021.06英语六级答案解析第2套.pdf",
+      "name": "2021.06英语六级答案解析第2套.pdf",
+      "exam": "cet6",
+      "year": 2021,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 5372492,
+      "chars": 22592,
+      "ratio": 0.972,
+      "frag": 0.089,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2021.06/02、答案解析/2021.06英语六级答案解析第3套.pdf",
+      "name": "2021.06英语六级答案解析第3套.pdf",
+      "exam": "cet6",
+      "year": 2021,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 4327290,
+      "chars": 18648,
+      "ratio": 0.915,
+      "frag": 0.191,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套.pdf",
+      "name": "2022.12六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 11999480,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套答案及详解.pdf",
+      "name": "2022.12六级真题第1套答案及详解.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 13272099,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2022.12/2022.12第2套/2022.12六级真题第2套.pdf",
+      "name": "2022.12六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 12150927,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2022.12/2022.12第2套/2022.12六级真题第2套答案及详解.pdf",
+      "name": "2022.12六级真题第2套答案及详解.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 23805386,
+      "chars": 161,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2022.12/2022.12第3套/2022.12六级真题第3套.pdf",
+      "name": "2022.12六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 9448186,
+      "chars": 9,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2022.12/2022.12第3套/2022.12六级真题第3套答案及详解.pdf",
+      "name": "2022.12六级真题第3套答案及详解.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 15660540,
+      "chars": 155,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2022.06/2022.06英语六级真题PDF/2022.06六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "name": "2022.06六级真题第1套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 33810706,
+      "chars": 16309,
+      "ratio": 1,
+      "frag": 0.034,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.06/2022.06英语六级真题PDF/2022.06六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "name": "2022.06六级真题第2套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 9659758,
+      "chars": 17904,
+      "ratio": 1,
+      "frag": 0.021,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.06/2022.06英语六级真题PDF/2022.06六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "name": "2022.06六级真题第3套【可复制可搜索，打印首选】.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 1720984,
+      "chars": 1126,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.06/2022.06英语六级解析/2022.06英语六级真题解析第2套 .pdf",
+      "name": "2022.06英语六级真题解析第2套 .pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1806998,
+      "chars": 12419,
+      "ratio": 0.999,
+      "frag": 0.017,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.06/2022.06英语六级解析/2022.06英语六级真题解析第3套 .pdf",
+      "name": "2022.06英语六级真题解析第3套 .pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 415925,
+      "chars": 5468,
+      "ratio": 0.96,
+      "frag": 0.143,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.06/2022.06英语六级解析/2022.06英语六级考试第1套解析.pdf",
+      "name": "2022.06英语六级考试第1套解析.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 2953639,
+      "chars": 20180,
+      "ratio": 1,
+      "frag": 0.008,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.09/2022.09英语六级解析全3套.pdf",
+      "name": "2022.09英语六级解析全3套.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 9,
+      "kind": "answer",
+      "bytes": 5957558,
+      "chars": 21927,
+      "ratio": 1,
+      "frag": 0.088,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2022.09/2022年09月六级真题全3套.pdf",
+      "name": "2022年09月六级真题全3套.pdf",
+      "exam": "cet6",
+      "year": 2022,
+      "month": 9,
+      "kind": "paper",
+      "bytes": 11820903,
+      "chars": 15473,
+      "ratio": 1,
+      "frag": 0.042,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2023.12/2023.12第一套/2023.12六级真题第1套(1).pdf",
+      "name": "2023.12六级真题第1套(1).pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 9184828,
+      "chars": 19762,
+      "ratio": 1,
+      "frag": 0.02,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2023.12/2023.12第一套/2023.12英语六级解析第1套(1).pdf",
+      "name": "2023.12英语六级解析第1套(1).pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 35585423,
+      "chars": 14838,
+      "ratio": 0.996,
+      "frag": 0.224,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2023.12/2023.12第三套/2023.12六级真题第3套(1).pdf",
+      "name": "2023.12六级真题第3套(1).pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 6806085,
+      "chars": 22027,
+      "ratio": 1,
+      "frag": 0.021,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2023.12/2023.12第二套/2023.12六级真题第2套(1).pdf",
+      "name": "2023.12六级真题第2套(1).pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 8928690,
+      "chars": 19377,
+      "ratio": 1,
+      "frag": 0.021,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2023.12/2023.12第二套/2023.12英语六级解析第2套(1).pdf",
+      "name": "2023.12英语六级解析第2套(1).pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 33877626,
+      "chars": 15021,
+      "ratio": 0.995,
+      "frag": 0.143,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套.pdf",
+      "name": "2023.06六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 5265740,
+      "chars": 47,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套详解.pdf",
+      "name": "2023.06六级真题第1套详解.pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 11502462,
+      "chars": 53,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2023.06/2023.06第2套/2023.06六级真题第2套.pdf",
+      "name": "2023.06六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 5357945,
+      "chars": 47,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2023.06/2023.06第2套/2023.06六级真题第2套详解.pdf",
+      "name": "2023.06六级真题第2套详解.pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 11827896,
+      "chars": 53,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2023.06/2023.06第3套/2023.06六级真题第3套.pdf",
+      "name": "2023.06六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 4084627,
+      "chars": 97,
+      "ratio": 0.967,
+      "frag": 0,
+      "verdict": "sparse"
+    },
+    {
+      "rel": "CET6_2023.06/2023.06第3套/2023.06六级真题第3套详解.pdf",
+      "name": "2023.06六级真题第3套详解.pdf",
+      "exam": "cet6",
+      "year": 2023,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 7247485,
+      "chars": 47,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2024.12/2024年12月六级真题/2024.12六级真题第1套.pdf",
+      "name": "2024.12六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 1057885,
+      "chars": 18826,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2024.12/2024年12月六级真题/2024.12六级真题第2套.pdf",
+      "name": "2024.12六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 1040345,
+      "chars": 18577,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2024.12/2024年12月六级真题/2024.12六级真题第3套.pdf",
+      "name": "2024.12六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 12,
+      "kind": "paper",
+      "bytes": 863504,
+      "chars": 19866,
+      "ratio": 1,
+      "frag": 0,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2024.12/2024年12月六级答案解析/2024.12英语六级解析第1套.pdf",
+      "name": "2024.12英语六级解析第1套.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 37651307,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2024.12/2024年12月六级答案解析/2024.12英语六级解析第2套.pdf",
+      "name": "2024.12英语六级解析第2套.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 37222607,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2024.12/2024年12月六级答案解析/2024.12英语六级解析第3套.pdf",
+      "name": "2024.12英语六级解析第3套.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 12,
+      "kind": "answer",
+      "bytes": 22996178,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2024.06/2024年6月第1套英语六级真题解析.pdf",
+      "name": "2024年6月第1套英语六级真题解析.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 2850717,
+      "chars": 14433,
+      "ratio": 1,
+      "frag": 0.024,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2024.06/2024年6月第2套英语六级真题解析.pdf",
+      "name": "2024年6月第2套英语六级真题解析.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 2779155,
+      "chars": 13892,
+      "ratio": 1,
+      "frag": 0.01,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2024.06/2024年6月第3套英语六级真题解析.pdf",
+      "name": "2024年6月第3套英语六级真题解析.pdf",
+      "exam": "cet6",
+      "year": 2024,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 1603600,
+      "chars": 11188,
+      "ratio": 1,
+      "frag": 0.007,
+      "verdict": "text"
+    },
+    {
+      "rel": "CET6_2025.06/2025年6月六级真题/2025.06六级真题第1套.pdf",
+      "name": "2025.06六级真题第1套.pdf",
+      "exam": "cet6",
+      "year": 2025,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 35202278,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2025.06/2025年6月六级真题/2025.06六级真题第2套.pdf",
+      "name": "2025.06六级真题第2套.pdf",
+      "exam": "cet6",
+      "year": 2025,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 33581242,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2025.06/2025年6月六级真题/2025.06六级真题第3套.pdf",
+      "name": "2025.06六级真题第3套.pdf",
+      "exam": "cet6",
+      "year": 2025,
+      "month": 6,
+      "kind": "paper",
+      "bytes": 26671249,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2025.06/2025年6月六级答案解析/2025.06英语六级解析第1套.pdf",
+      "name": "2025.06英语六级解析第1套.pdf",
+      "exam": "cet6",
+      "year": 2025,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 44835252,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2025.06/2025年6月六级答案解析/2025.06英语六级解析第2套.pdf",
+      "name": "2025.06英语六级解析第2套.pdf",
+      "exam": "cet6",
+      "year": 2025,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 43150994,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    },
+    {
+      "rel": "CET6_2025.06/2025年6月六级答案解析/2025.06英语六级解析第3套.pdf",
+      "name": "2025.06英语六级解析第3套.pdf",
+      "exam": "cet6",
+      "year": 2025,
+      "month": 6,
+      "kind": "answer",
+      "bytes": 22434402,
+      "chars": 0,
+      "ratio": 0,
+      "frag": 0,
+      "verdict": "scanned"
+    }
+  ]
+}

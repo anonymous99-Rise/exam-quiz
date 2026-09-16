@@ -1,0 +1,169 @@
+{
+  "id": "2023-03-3",
+  "examId": "cet6",
+  "year": 2023,
+  "month": 3,
+  "session": "2022下半年",
+  "setNo": 3,
+  "label": "2023年3月",
+  "questions": [],
+  "passages": {},
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence “People are now increasingly aware of the ‘digital gap’ or challenges the elderly face in a digital world.” You can make comments, give explanations, or cite examples to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "model": "People are now increasingly aware of the ‘digital gap’ or challenges the elderly face in a digital world. As technology reshapes daily life at a dizzying speed, many senior citizens find themselves left behind, struggling to keep pace with tools that younger generations take for granted. This gap manifests itself in countless everyday scenes. For instance, an elderly man may stand helplessly before a restaurant that only accepts mobile payment, unable to scan the QR code. Similarly, when hospitals shift appointment booking online, or when a health code is required to enter public places, those unfamiliar with smartphones are effectively shut out. As a result, tasks that were once simple now become sources of anxiety and isolation. In my view, no one should be excluded by the very technology meant to serve them. Therefore, families ought to patiently teach their parents digital skills, while service providers should retain user-friendly alternatives such as cash counters and manual registration. Only through such joint efforts can we bridge this gap and build a society that is inclusive of every generation.",
+      "modelZh": "【参考译文】人们如今越来越意识到‘数字鸿沟’，也就是老年人在数字化世界里所面临的种种挑战。随着技术以惊人的速度重塑日常生活，许多老年人发现自己被落在了后面，难以跟上年轻一代习以为常的各种工具。这道鸿沟体现在无数日常场景中。比如，一位老人可能无助地站在一家只接受手机支付的餐馆前，却不会扫二维码。同样，当医院把挂号搬到线上，或者当进入公共场所需要出示健康码时，那些不熟悉智能手机的人实际上被挡在了门外。结果，原本简单的事情如今成了焦虑与孤立的来源。在我看来，没有人应当被本该服务于自己的技术排除在外。因此，家人应当耐心地教父母数字技能，而服务提供方也应保留诸如现金收银台和人工挂号这类便利的替代方式。只有通过这样的共同努力，我们才能弥合这道鸿沟，建成一个包容每一代人的社会。【第 1 段】首句照抄加顺接。开头 People are now increasingly aware of… 一字不差地照抄了给定首",
+      "outline": [
+        {
+          "no": 1,
+          "text": "首句照抄加顺接。开头 People are now increasingly aware of… 一字不差地照抄了给定首 句，守住 begins with the sentence 的硬约束；随后 As technology reshapes daily life…, many senior citizens find themselves left behind 用顺接句把话题往下推，并把 the elderly 替换为 senior citizens 防重复——正是‘照抄首句再顺接’的落地。"
+        },
+        {
+          "no": 2,
+          "text": "两三个场景写实鸿沟。本段先用 This gap manifests itself in countless everyday scenes 起总句，再用 For instance… 和 Similarly, when… 连举扫码支付、网上挂号、健康码三个画面，最后 As a result, tasks that were once simple now become sources of anxiety and isolation 收束，兑现了 cite examples，把抽象鸿沟写得可感。"
+        },
+        {
+          "no": 3,
+          "text": "表态加双主体对策。In my view, no one should be excluded… 亮态度；Therefore, families ought to…, while service providers should… 给出家庭与服务方两条可操作对策；末句 Only through such joint efforts can we bridge this gap 回扣首句的‘digital gap’并升华收尾，落实了‘亮态 度给对策’。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 徐霞客是中国明代的著名地理学家。他花费了三十多年的时间游遍了大半个中国。他主要靠徒步 跋涉, 寻访了许多荒远偏僻的地区。他把自己的见闻和考察结果详细记录下来, 为后人留下了珍贵的考 察资料。他通过对许多河流的实地调查,纠正了文献中关于水源的错误。他还详细地描述了地形、气候 等因素对植物的影响, 生动地描绘了各地的名胜古迹和风土人情。他的考察记录由后人整理成了《徐 霞客游记》, 在国内外产生了广泛的影响。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Xu Xiake was a famous geographer of the Ming Dynasty in China. He spent more than thirty years travelling around most of China. Travelling mainly on foot, he visited many remote and isolated areas. He recorded what he saw and his findings in detail, leaving valuable research materials for later generations. Through field investigations of many rivers, he corrected the errors about water sources in the literature. He also described in detail the influence of factors such as terrain and climate on plants, and vividly depicted the scenic spots, historical sites, and local customs of various places. His travel notes were later compiled by later generations into The Travel Diaries of Xu Xiake, which has exerted a wide influence both at home and abroad.",
+      "source": "徐霞客是中国明代的著名地理学家。他花费了三十多年的时间游遍了大半个中国。他主要靠徒步跋涉, 寻访了许多荒远偏僻的地区。他把自己的见闻和考察结果详细记录下来, 为后人留下了珍贵的考察资料。他通过对许多河流的实地调查,纠正了文献中关于水源的错误。他还详细地描述了地形、气候等因素对植物的影响, 生动地描绘了各地的名胜古迹和风土人情。他的考察记录由后人整理成了《徐霞客游记》, 在国内外产生了广泛的影响。",
+      "reference": "Xu Xiake was a famous geographer of the Ming Dynasty in China. He spent more than thirty years travelling around most of China. Travelling mainly on foot, he visited many remote and isolated areas. He recorded what he saw and his findings in detail, leaving valuable research materials for later generations. Through field investigations of many rivers, he corrected the errors about water sources in the literature. He also described in detail the influence of factors such as terrain and climate on plants, and vividly depicted the scenic spots, historical sites, and local customs of various places. His travel notes were later compiled by later generations into The Travel Diaries of Xu Xiake, which has exerted a wide influence both at home and abroad.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "徐霞客作主语系动词接表语（主语策略：原句主语） 中文已有明确主语 徐霞客，这是一个「A 是 B」的判断句，英文用主系表结构：Xu Xiake was a famous geographer。"
+          },
+          {
+            "label": "降级",
+            "text": "两个定语修饰中心词geographer 中国明代的 和 著名 都是修饰「地理学家」的定语。英文里短定语可前置：a famous geographer of the Ming Dynasty，把表时代归属的「明代」用 of 短语后置，「著名」用形容词前置，避免一 长串定语堆在名词前面。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时 was——徐霞客是明代古人，介绍其历史身份用过去时最稳妥（若想强 调他至今仍享盛名亦可用 is，但与全篇过去叙述统一起见用 was）。 冠词 geographer 是可数名词单数、首次泛指「一位」，前面加不定冠词 a：a famous geographer。 专名大写 人名 Xu Xiake、朝代 the Ming Dynasty 实词首字母均大写，Dynasty 前加 the。"
+          },
+          {
+            "label": "译文",
+            "text": "Xu Xiake was a famous geographer of the Ming Dynasty in China. 2. 他花费了三十多年的时间游遍了大半个中国。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "他作主语花费作谓语接时间宾语（主语策略：原句主语） 中文主语 他 明确。句里有「花费」和「游遍」两个动词，选最能统领全句的「花费」作主干谓 语：He spent more than thirty years，「游遍大半个中国」留到降级处理。"
+          },
+          {
+            "label": "降级",
+            "text": "游遍大半个中国降级为doing 第二个动词 游遍了大半个中国 按 spend...doing 的搭配，降级成现在分词 travelling around most of China，挂在 spent more than thirty years 之后，不另起一句、不用 and 平铺。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：spent（spend 的过去式）。 数量表达 三十多年→more than thirty years 或 over thirty years；years 用复数。 用词 大半个中国→most of China，用 most of 表「大半、大部分」，China 是专名、不加冠词。"
+          },
+          {
+            "label": "译文",
+            "text": "He spent more than thirty years travelling around most of China. 3. 他主要靠徒步跋涉, 寻访了许多荒远偏僻的地区。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "他作主语寻访作谓语接地区宾语（主语策略：原句主语） 中文主语 他 明确。核心动作是 寻访了许多荒远偏僻的地区，定为主干：He visited many remote and isolated areas，「靠徒步跋涉」表方式，降级处理。"
+          },
+          {
+            "label": "降级",
+            "text": "靠徒步跋涉降级为方式状语 主要靠徒步跋涉 是表方式的成分，降级成介词短语 mainly on foot 作状语，置于句首或动词后： He visited... mainly on foot，不必生硬译成 depend on walking 那样的残句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：visited。 单复数 许多地区不止一处→areas 用复数；many 后接复数可数名词。 固定短语 徒步→on foot（固定搭配，foot 用单数、不加冠词，切勿写 by foot）。 形容词并列 荒远偏僻→remote and isolated（两个近义形容词用 and 并列修饰 areas）。"
+          },
+          {
+            "label": "译文",
+            "text": "Travelling mainly on foot, he visited many remote and isolated areas. 4. 他把自己的见闻和考察结果详细记录下来, 为后人留下了珍贵的考察资料。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "他作主语记录作谓语接见闻宾语（主语策略：原句主语） 中文主语 他 明确，「把……记录下来」是核心动作，定为主干：He recorded what he saw and his findings in detail。后半「为后人留下……资料」是这一行为的结果，降级处理。"
+          },
+          {
+            "label": "降级",
+            "text": "为后人留下资料降级为分词状语 后半 为后人留下了珍贵的考察资料 是前一动作的结果，降级成现在分词短语 leaving valuable research materials for later generations 作结果状语，挂在主干后，避免用 and 把两个动词 平排。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：recorded。 宾语从句 见闻→what he saw and heard（用 what 引导的名词性从句作宾语）；考察结果→his findings。 介词搭配 详细→in detail（固定短语）；为后人→for later generations / for future generations。 单复数 资料 materials、后人 generations 均用复数；material 作「资料」解时常用复数。"
+          },
+          {
+            "label": "译文",
+            "text": "He recorded what he saw and his findings in detail, leaving valuable research materials for later generations. 5. 他通过对许多河流的实地调查,纠正了文献中关于水源的错误。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "他作主语纠正作谓语接错误宾语（主语策略：原句主语） 中文主语 他 明确，核心动作是 纠正了文献中关于水源的错误，定为主干：He corrected the errors about water sources in the literature。「通过实地调查」是手段，降级处理。"
+          },
+          {
+            "label": "降级",
+            "text": "通过实地调查降级为介词短语 通过对许多河流的实地调查 是手段，降级成介词短语 through field investigations of many rivers 作状语，挂在主干前或后，不另起分句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：corrected。 单复数 许多河流→many rivers 复数；错误不止一处→errors 复数；水源→water sources 复数。 用词 文献→the literature（作「文献资料」解时为不可数集合名词，加 the 特指相关文献）；实地调查 →field investigation / field survey。 介词搭配 关于水源的错误→errors about / concerning water sources；通过→through。"
+          },
+          {
+            "label": "译文",
+            "text": "Through field investigations of many rivers, he corrected the errors about water sources in the literature. 6. 他还详细地描述了地形、气候等因素对植物的影响, 生动地描绘了各地的名胜古迹和风土 人情。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "他作主语带描述描绘两个并列谓语（主语策略：原句主语） 中文主语 他 明确。这一句有两个分量相当、地位平行的动作—— 描述了地形、气候等因素对植物 的影响 和 描绘了各地的名胜古迹和风土人情，二者并列，用两个并列谓语 described... and depicted... 共一个主语。"
+          },
+          {
+            "label": "降级",
+            "text": "两组长宾语各用名词短语承接 第一动作的宾语 地形、气候等因素对植物的影响 重构成 the influence of factors such as terrain and climate on plants；第二动作的宾语 各地的名胜古迹和风土人情 重构成 the scenic spots, historical sites, and local customs of various places。两组宾语本身较长，用 of / on 等介词把 修饰关系理顺，不堆在名词前。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：described、depicted 两个并列谓语都用过去式。 副词 详细地→in detail；生动地→vividly。副词修饰动词，vividly 放在 depicted 前。 单复数 因素 factors、植物 plants、名胜古迹 scenic spots / historical sites、各地 various places 均用 复数。 用词搭配 等因素→factors such as.../ such factors as...；名胜古迹→scenic spots and historical sites；风 土人情→local customs。"
+          },
+          {
+            "label": "译文",
+            "text": "He also described in detail the influence of factors such as terrain and climate on plants, and vividly depicted the scenic spots, historical sites, and local customs of various places. 7. 他的考察记录由后人整理成了《徐霞客游记》, 在国内外产生了广泛的影响。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "考察记录作主语被整理成游记（主语策略：转被动） 中文 他的考察记录由后人整理成了 含「由……」，动作承受者是「考察记录」。用被动把承受者 提作主语：His travel notes were compiled by later generations into The Travel Diaries of Xu Xiake。"
+          },
+          {
+            "label": "降级",
+            "text": "影响小句降级为分词结果状语 后半 在国内外产生了广泛的影响 是前一结果（成书）带来的进一步影响，降级成 which 引导的非 限定性定语从句或现在分词短语，挂在主句后，不用 and 另起。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：were compiled（被动的过去式）。后半「产生影响」若用 which 从 句强调影响延续至今，可用现在完成时 has exerted。 语态 考察记录是被整理的，用被动 were compiled by...；这是中文「由」字句转英文被动的典型，英文 被动远多于汉语，别硬译成主动。 主谓一致 记录 notes 复数，故 be 动词用 were 而非 was；后人 later generations 复数。 固定短语 国内外→at home and abroad（固定搭配）；产生广泛影响→exert / have a wide influence。"
+          },
+          {
+            "label": "译文",
+            "text": "His travel notes were later compiled by later generations into The Travel Diaries of Xu Xiake, which has exerted a wide influence both at home and abroad. 英语六级 2023年3月·第3套 · 全卷构成 Part II 听力 与2023年3月第1套共用 · 题目解析 → Part III Section A 完形填空（选词填空） 与2023年3月第1套共用 · 题目解析 → Part III Section B 长篇阅读（信息匹配） 与2023年3月第1套共用 · 题目解析 → Part III Section C (1) 阅读理解（四选一） 与2023年3月第1套共用 · 题目解析 → Part III Section C (2) 阅读理解（四选一） 与2023年3月第1套共用 · 题目解析"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "incomplete",
+    "no-audio"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "2023-03-2",
+  "examId": "cet6",
+  "year": 2023,
+  "month": 3,
+  "session": "2022下半年",
+  "setNo": 2,
+  "label": "2023年3月",
+  "questions": [],
+  "passages": {},
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence “People are now increasingly aware of the challenges in making a decision when faced with too many choices.” You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "model": "People are now increasingly aware of the challenges in making a decision when faced with too many choices. Ironically, the abundance of options that was meant to empower us often leaves us hesitant, anxious and exhausted instead. A personal experience makes this clear. Last semester, when I tried to pick an elective, the online system listed over sixty courses. I spent three whole evenings comparing descriptions, reading reviews and switching between tabs, yet I still felt uncertain and finally enrolled at random. The endless comparison drained my energy long before the real learning began, and it left me doubting whether I had chosen wisely at all. The lesson I have drawn is not to fear choices but to tame them. Before browsing, I now fix two or three criteria that truly matter to me and ignore the rest. By narrowing the field in advance, I turn an overwhelming list into a manageable shortlist, and I make decisions faster and with far less regret. When choices multiply, a clear standard, rather than more comparison, is what sets us free.",
+      "modelZh": "【参考译文】如今人们越来越意识到，当面对太多选择时，做决定会遇到种种困难。讽刺的是，那些本应赋予我们力量的丰富选项，往往反而让我们犹豫、焦虑、疲惫不堪。一段亲身经历便能说明这一点。上学期我想选一门选修课，选课系统列出了六十多门课。我花了整整三个晚上比较课程简介、翻看评价、在各个页面间来回切换，可仍然拿不定主意，最后随手选了一门。无休止的比较在真正的学习开始之前就耗尽了我的精力，还让我怀疑自己到底选得对不对。我得到的教训不是害怕选择，而是要驾驭它。如今在开始挑选之前，我会先定下两三条我真正在意的标准，其余一概不看。通过事先缩小范围，我把一份令人不知所措的长清单变成一份可控的短名单，决定得更快，也少了许多后悔。当选择成倍增加时，让我们获得自由的，是一条清晰的标准，而非更多的比较。【第 1 段】照抄首句＋一句点破反差。本段第一句原样照抄了给定首句 People are now increasingly",
+      "outline": [
+        {
+          "no": 1,
+          "text": "照抄首句＋一句点破反差。本段第一句原样照抄了给定首句 People are now increasingly aware of the challenges in making a decision when faced with too many choices，守住结构分底 线；紧接的 Ironically, the abundance of options that was meant to empower us often leaves us hesitant, anxious and exhausted instead 正是‘点破反差’句架的落地，一句话把复述变成立场。"
+        },
+        {
+          "no": 2,
+          "text": "一个例子讲到底。本段用 A personal experience makes this clear 引入，再以 over sixty courses、three whole evenings comparing 等细节铺陈，最后 The endless comparison drained my energy long before the real learning began 点出后果——一个选课经历讲透，把 the challenges in making a decision 落到具体的比较成本上，比堆空例子更有说服力。"
+        },
+        {
+          "no": 3,
+          "text": "教训—办法—回扣收束。本段以 The lesson I have drawn is not to fear choices but to tame them 亮态度，用 I now fix two or three criteria… and ignore the rest 给出可操作办法，末句 When choices multiply, a clear standard, rather than more comparison, is what sets us free 回扣 题眼 too many choices，首尾呼应完成结构闭环。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 郑和是中国历史上最杰出的航海家,在航海、外交、军事等诸多领域都表现出非凡的智慧和卓越的 才能。他曾七次率领庞大的船队远航,访问了西太平洋和印度洋的许多国家和地区,加深了中国同东南 亚、东非的相互了解。 郑和下西洋对中外的经济和文化交流起到了十分积极的推进作用,也为维护区 域和平做出了巨大贡献。为了永远铭记郑和及其丰功伟绩, 7月11日,即郑和首次率船队远航启程的日子, 被定为中国的航海节。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Zheng He was the most outstanding navigator in Chinese history, who demonstrated extraordinary wisdom and outstanding talent in many fields such as navigation, diplomacy and military affairs. He led his huge fleet on seven long voyages, visiting many countries and regions in the western Pacific Ocean and the Indian Ocean, which deepened the mutual understanding between China and both Southeast Asia and East Africa. Zheng He's voyages played a very positive role in promoting economic and cultural exchanges between China and foreign countries, and also made great contributions to maintaining regional peace. To commemorate Zheng He and his great achievements forever, July 11, the day when Zheng He set out on his first voyage, has been designated as China's Maritime Day.",
+      "source": "郑和是中国历史上最杰出的航海家,在航海、外交、军事等诸多领域都表现出非凡的智慧和卓越的才能。他曾七次率领庞大的船队远航,访问了西太平洋和印度洋的许多国家和地区,加深了中国同东南亚、东非的相互了解。 郑和下西洋对中外的经济和文化交流起到了十分积极的推进作用,也为维护区域和平做出了巨大贡献。为了永远铭记郑和及其丰功伟绩, 7月11日,即郑和首次率船队远航启程的日子,被定为中国的航海节。",
+      "reference": "Zheng He was the most outstanding navigator in Chinese history, who demonstrated extraordinary wisdom and outstanding talent in many fields such as navigation, diplomacy and military affairs. He led his huge fleet on seven long voyages, visiting many countries and regions in the western Pacific Ocean and the Indian Ocean, which deepened the mutual understanding between China and both Southeast Asia and East Africa. Zheng He's voyages played a very positive role in promoting economic and cultural exchanges between China and foreign countries, and also made great contributions to maintaining regional peace. To commemorate Zheng He and his great achievements forever, July 11, the day when Zheng He set out on his first voyage, has been designated as China's Maritime Day.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "拆成两个主干：他是航海家 + 他展现了才能（主语策略：原句主语） 中文已有明确主语“郑和”。这句含两层意思：郑和是中国历史上最杰出的航海家 主干是 Zheng He was the most outstanding navigator（系表结构）；在航海、外交、军事等诸多领域都表现出非 凡的智慧和卓越的才能 主干是 he showed/demonstrated wisdom and talent（主谓宾）。两个 主干同一主语，可用 who 引导的定语从句把后半挂到前半，或拆成两句。"
+          },
+          {
+            "label": "降级",
+            "text": "后半用 who 定语从句降级挂到“航海家”上 把 在航海、外交、军事等诸多领域都表现出非凡的智慧和卓越的才能 整体降级为 who 引导的定语 从句，挂到先行词 navigator 后：who demonstrated extraordinary wisdom and outstanding talent in many fields such as navigation, diplomacy and military affairs。其中 在……诸多领 域 转成介词短语 in many fields，“航海、外交、军事”用 such as 列举，避免把两层意思用 and 平铺成两个并列的松散主句。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 主句“是最杰出的航海家”是至今成立的历史定评，可用一般现在时 is；但本篇为叙事统一、且后文 全是过去时，用 was 与全篇基调一致也完全正确。这里点明：定评句现在时/过去时皆可，定语从 句里“表现出才能”是当年的事，用过去时 demonstrated。 单复数 “诸多领域”不止一个→fields 用复数；“智慧和卓越的才能”中 wisdom 不可数不加 s，talent 此处 作“才能、本领”解可用不可数。 冠词 “最杰出的航海家”是最高级，前面必须加定冠词 the：the most outstanding navigator。 用词 “杰出/非凡/卓越”三个近义褒义词避免重复同一个 great，分别用 outstanding / extraordinary / outstanding 等错开；“军事领域”译 military affairs 比单用 military 更贴“领域”义。"
+          },
+          {
+            "label": "译文",
+            "text": "Zheng He was the most outstanding navigator in Chinese history, who demonstrated extraordinary wisdom and outstanding talent in many fields such as navigation, diplomacy and military affairs. 2. 他曾七次率领庞大的船队远航,访问了西太平洋和印度洋的许多国家和地区,加深了中国同东南 亚、东非的相互了解。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "He 作主语，主干谓语是“率领船队远航”（主语策略：原句主语） 主语承前用代词 He。这句有三个动作：七次率领庞大的船队远航、访问了……许多国家和地区、加 深了……相互了解。挑最核心的“率领船队远航”立为主干 He led his huge fleet on seven voyages，其余两个动作作降级处理，不要三个动词并排平铺。"
+          },
+          {
+            "label": "降级",
+            "text": "“访问”用现在分词、“加深了解”用结果状语降级 把 访问了西太平洋和印度洋的许多国家和地区 降级为现在分词短语 visiting many countries and regions in the western Pacific Ocean and the Indian Ocean，作伴随状语；把 加深了中国同东 南亚、东非的相互了解 降级为 and deepening... 或 which deepened... 表结果。这样三个动作主 次分明：远航是主干，访问是远航中做的事，加深了解是远航的结果。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：led 是过去式；伴随的 visiting、结果的 deepening 用分词形式不再 标时态，时间由主句 led 统一管辖。 单复数 “七次”→on seven voyages 用复数；“许多国家和地区”→many countries and regions 都用复 数。 冠词 两个大洋作专名带定冠词：the western Pacific Ocean and the Indian Ocean；“庞大的船队”首 次出现且为他自己的船队，可用 his huge fleet 或 a huge fleet。 用词搭配 “率领船队远航”地道说法是 led his fleet on voyages（on a voyage 是固定搭配）；“加深相互了 解”译 deepened the mutual understanding between China and... ，understanding 此处不可 数不加 s。"
+          },
+          {
+            "label": "译文",
+            "text": "He led his huge fleet on seven long voyages, visiting many countries and regions in the western Pacific Ocean and the Indian Ocean, which deepened the mutual understanding between China and Southeast Asia and East Africa. 3. 郑和下西洋对中外的经济和文化交流起到了十分积极的推进作用,也为维护区域和平做出了巨 大贡献。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "以“下西洋”这件事作主语，两个并列谓语（主语策略：原句主语） 这句主语不再是人，而是“郑和下西洋”这件事：郑和下西洋 译作 Zheng He's voyages 作主语。它 带两个并列的谓语动作——起到了十分积极的推进作用 和 也为维护区域和平做出了巨大贡献，两 件事分量相当、是真正的并列，可用 and 连两个并列谓语。"
+          },
+          {
+            "label": "降级",
+            "text": "本句是规整的“主语+并列谓语”，无需深度降级 两个谓语动词都直接挂在同一主语下，结构本就清晰，只需用 and 平列即可：played a positive role in promoting... and made great contributions to maintaining...。两个动词短语都接动名 词（in doing / to doing）保持平行。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：played、made 均用过去式，因为这是对已完成的历史功绩的评价。 介词搭配 两个固定搭配易错：play a role IN doing sth（起……作用）、make a contribution TO doing sth（这里 to 是介词，后接动名词 maintaining，不是动词原形）。这是主体考生高频踩坑处。 单复数与冠词 “下西洋”是七次远航的总称，主语用复数 voyages，故谓语用复数对应的过去式（played/made 过去式无单复数之分，但若改现在时需注意）；“做出了巨大贡献”可用 made great contributions （复数）或 a great contribution（单数加 a），二者皆可，注意单数时别漏 a。 用词 “积极的推进作用”译 played a positive role in promoting，“推进”用 promoting/boosting；“维 护区域和平”译 maintaining/safeguarding regional peace，peace 不可数不加冠词不加 s。"
+          },
+          {
+            "label": "译文",
+            "text": "Zheng He's voyages played a very positive role in promoting economic and cultural exchanges between China and foreign countries, and also made great contributions to maintaining regional peace. 4. 为了永远铭记郑和及其丰功伟绩, 7月11日,即郑和首次率船队远航启程的日子,被定为中国的航 海节。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "“7月11日被定为航海节”，受动者作主语用被动（主语策略：转被动） 中文 被定为中国的航海节 本身就是被动，且没说“谁定的”，正好用英文被动：以受动者“7月11日” 作主语——July 11 has been designated (as) China's Maritime Day。主干就是 July 11 + 被动 谓语 + 表语。"
+          },
+          {
+            "label": "降级",
+            "text": "目的状语用to do、解释性插入用同位语降级 把句首 为了永远铭记郑和及其丰功伟绩 降级为不定式目的状语 To commemorate Zheng He and his great achievements forever，放句首；把中间 即郑和首次率船队远航启程的日子 降级为 July 11 的同位语 the day when Zheng He set out on his first voyage（when 引导的定语从句修饰 the day）。这样一个主干，前挂目的状语、中嵌同位语解释，层次分明。"
+          },
+          {
+            "label": "语法",
+            "text": "时态语态 “被定为”是过去做出、延续至今的安排，用现在完成时被动 has been designated 最贴切（强调这 个安排一直有效）；用一般过去时被动 was designated 也对。同位语从句里“首次远航启程”是更 早的历史动作，用一般过去时 set out。 介词与搭配 “定为”译 designate ... as ... 或 designate ... 直接接表语；“启程远航”用 set out on a voyage （set out 后接 on）。 冠词与专名 “即……的日子”→the day（特指那一天用 the）；“首次远航”→his first voyage（序数词 first 前用 his/the）；“航海节”首字母大写作专名 Maritime Day。 时间表达 “7月11日”英文写 July 11（或 July 11th / the eleventh of July），作主语单数，故谓语用 has been / was 单数形式。"
+          },
+          {
+            "label": "译文",
+            "text": "To commemorate Zheng He and his great achievements forever, July 11, the day when Zheng He set out on his first voyage, has been designated as China's Maritime Day. 英语六级 2023年3月·第2套 · 全卷构成 Part II 听力 与2023年3月第1套共用 · 题目解析 → Part III Section A 完形填空（选词填空） 与2023年3月第1套共用 · 题目解析 → Part III Section B 长篇阅读（信息匹配） 与2023年3月第1套共用 · 题目解析 → Part III Section C (1) 阅读理解（四选一） 与2023年3月第1套共用 · 题目解析 → Part III Section C (2) 阅读理解（四选一） 与2023年3月第1套共用 · 题目解析"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "incomplete",
+    "no-audio"
+  ]
+}

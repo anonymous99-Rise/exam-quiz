@@ -1,0 +1,2270 @@
+{
+  "id": "2026-06-3",
+  "examId": "cet6",
+  "year": 2026,
+  "month": 6,
+  "session": "2026上半年",
+  "setNo": 3,
+  "label": "2026年6月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "how much of a __(26)__ zone you prefer",
+      "answer": "B",
+      "answerText": "buffer",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "a ___ zone：冠词 a 后、名词 zone 前，要一个单数名词作定语"
+        },
+        {
+          "label": "依据",
+          "text": "buffer zone 是固定搭配，指人和人之间的\"缓冲地带\" Imagine you and a stranger are sitting on a couch. How close would you sit to them? 讲的是与陌生人保持的距离，buffer 与 zone 构成固定搭配 buffer zone（缓冲地 带），代进去即\"你偏好多大的缓冲距离\"，与全文 personal space 主题严丝合缝。"
+        },
+        {
+          "label": "竞争词",
+          "text": "I) potential 义近形可但搭配不指向距离 potential 作名词是\"潜力\"，potential zone 不成常见搭配，且与上下文\"坐得多近\"的距离话题 无关。 J) proximity 语义方向相反 proximity 是\"接近、邻近\"，proximity zone 不成搭配；且全文讲的是\"留多远\"的间隔而非\"靠 近区\"，proximity 要留到 35 空用。 L) statistics 复数形式被 a 卡死，语义也不通 statistics 是复数，不能与 a 连用；\"统计区域\"也与个人空间话题无关。 N) trait trait zone 不成搭配 trait 是\"性格特质\"，确与本文话题沾边，但 trait 与 zone 不构成搭配；trait 的用武之地是 28 空 the trait of agreeableness。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "researchers sought to __(27)__ how our personality may be linked to our preferred amount of personal space",
+      "answer": "A",
+      "answerText": "ascertain",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "sought to ___：不定式 to 后接动词原形作谓语目的"
+        },
+        {
+          "label": "依据",
+          "text": "研究者\"着手查明\"性格与空间偏好的关联 ascertain 意为\"查明、弄清\"，后接 how 从句正合\"研究者试图弄清性格如何与个人空间偏 好相关联\"；下一句 The researchers found that people who scored higher 的 found （发现）正是 ascertain 的结果，前后动作链吻合。"
+        },
+        {
+          "label": "竞争词",
+          "text": "D) crave crave how 从句搭配不成立 crave 是\"渴望\"，宾语多为具体事物（crave attention/food），不接 how 从句；\"渴望性格如 何关联\"语义不通。crave 是 29 空的答案。 F) entail entail 主语是事情、不接 how 从句 entail 意为\"牵涉、需要\"，典型用法是\"某事 entails 某后果\"，主语不能是 researchers 去\"牵涉 how……\"，语义与搭配双重不合。 O) underlie 研究者不能\"构成……的基础\" underlie 意为\"是……背后的原因\"，其主语应是某个因素（如温度），而本句主语是 researchers——人不会\"underlie 一个疑问\"。underlie 是 32 空（What might underlie this variation）的答案。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "people who scored higher in the __(28)__ of agreeableness",
+      "answer": "N",
+      "answerText": "trait",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "the ___ of agreeableness：冠词 the 后、介词 of 前，要单数名词"
+        },
+        {
+          "label": "依据",
+          "text": "agreeableness 是一种性格\"特质\"，the trait of 搭配地道 trait 意为\"（性格）特质\"，agreeableness（亲和性）正是心理学\"大五人格\"里的一种 trait；the trait of agreeableness = \"亲和性这一特质\"。后半句 as did people who were more open and outgoing 列举的 open、outgoing 也都是 trait，同范畴复现是强信号。"
+        },
+        {
+          "label": "竞争词",
+          "text": "I) potential \"在亲和性的潜力上得分高\"语义拧巴 potential 作名词是\"潜力\"，score higher in the potential of agreeableness 说不通——测评 打分量的是特质高低，不是潜力。 J) proximity 范畴错配：proximity 是距离不是特质 proximity 意为\"接近\"，the proximity of agreeableness 不成语义组合；本句 scored higher in…要的是可被打分的性格维度。 L) statistics 复数加范畴双错 statistics 复数形式与 the…of 单数框架不合；\"亲和性的统计数据\"也无法让人\"得分更高\"。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Other individual differences, such as gender and age, can also affect how much personal space we __(29)__",
+      "answer": "D",
+      "answerText": "crave",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "how much personal space we ___：宾语从句中 we 后缺谓语动词"
+        },
+        {
+          "label": "依据",
+          "text": "crave = 内心\"需要/想要\"多少空间，与 prefer 同义线 crave 意为\"渴望、需要\"，how much personal space we crave = \"我们需要/想要多少个 人空间\"。下文 Women tend to prefer more physical distance from strangers 反复用 prefer（偏好）谈同一概念，crave 正是 prefer 的同义复现，扣住全文\"偏好\"主线。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) entail entail 主语是事不是人，义也不通 entail 意为\"牵涉、使必要\"，用法是\"做某事 entails 某种代价\"；主语 we（人）+ 宾语 personal space 构成\"我们牵涉空间\"，搭配与语义双崩。它是本空最像答案的干扰词。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 F) —— entail 词性对、够正式，看着像\"高级答案\"。how much personal space we __(29)__ 中 entail 是动词原形、词性全对，又因生僻显得\"像六级答 案\"。防坑一句话：把主谓宾连读——\"we entail space（我们牵涉空间）\"不通，entail 的 主语须是事情；人才会\"想要空间\"，故选 crave。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Beyond reflecting our personality and __(30)__, the amount of personal space we prefer is also linked to our cultural backgrounds",
+      "answer": "E",
+      "answerText": "demographics",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "personality and ___：并列连词 and 后要与 personality 同类的名词"
+        },
+        {
+          "label": "依据",
+          "text": "demographics 正是上一段 gender and age 的总称 demographics 意为\"人口统计特征\"。第 3 段 Other individual differences, such as gender and age, can also affect 讲的性别、年龄正是 demographics 的内容；本 句\"Beyond reflecting our personality and demographics\"用 Beyond 把前两段（性格 + 人口特征）一并收进，再引出文化背景——行文是\"性格 人口属性 文化\"的递进， demographics 正好是中间那一环。"
+        },
+        {
+          "label": "竞争词",
+          "text": "I) potential potential 与 personality 不在一个范畴 potential 作名词\"潜力\"与\"性格\"并列生硬；且前文从没谈过\"个人空间反映潜力\"，无文本支撑 （无中生有）。 L) statistics 个人空间不\"反映我们的统计数字\" statistics 是研究者的数据，不是\"我们的\"属性；our personality and statistics 说不通，命题人 用它钓\"研究语境里见过 statistics\"的印象分。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 L) —— statistics 蹭研究语境的热度，顺手就填。Beyond reflecting our personality and __(30)__ 处于满篇 study/researchers 的文本里， statistics 凭\"语境眼熟\"极具诱惑。防坑一句话：and 并列要语义平级——personality 是个 人属性，能与之平起平坐且对应上段 gender and age 的只有 demographics，不是研究数 据 statistics。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "people's desired amount of personal space varied __(31)__",
+      "answer": "M",
+      "answerText": "substantially",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "varied ___：不及物动词 varied 后缺修饰成分，要副词"
+        },
+        {
+          "label": "依据",
+          "text": "substantially 修饰 varied 表\"差异巨大\"，与跨国数据呼应 substantially 意为\"大幅度地\"，varied substantially = \"差异悬殊\"。紧接的对比例证 in Romania, the average amount of personal space people said they would prefer from a stranger was more than 4 feet, whereas in Argentina it was roughly half that（4 英 尺 vs 约 2 英尺）正是\"差很多\"的实据。"
+        },
+        {
+          "label": "竞争词",
+          "text": "G) legitimately \"合法地/正当地差异\"语义不通 legitimately 意为\"合法地、合情合理地\"，多修饰 claim/derive 等表权利或推理的词；个人空间 偏好的差异不存在\"合法与否\"的问题，修饰 varied 不成立。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "What might __(32)__ this variation?",
+      "answer": "O",
+      "answerText": "underlie",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "What might ___ this variation：情态动词 might 后接动词原形作谓语"
+        },
+        {
+          "label": "依据",
+          "text": "underlie this variation = 是什么\"造成/构成\"了这种差异 underlie 意为\"构成……的基础、是……背后的原因\"。本段正是追问成因：下一句 The researchers looked at a number of __(33)__ factors 到\"唯一相关的是气温\"，整段在找差 异背后的原因——What might underlie this variation? 正是这一问句的总起。"
+        },
+        {
+          "label": "竞争词",
+          "text": "D) crave crave 的主语须是有欲求的人 crave 是\"渴望\"，主语必须是人或动物；本句主语 What 指某个抽象原因，\"什么渴望这种差 异\"不通。crave 真正的家在 29 空（we crave personal space）。 F) entail entail 问的是\"带来什么后果\"，方向反了 entail 意为\"牵涉、必然带来\"，逻辑方向是\"因 果\"（A entails B = A 必然牵连 B）；而本句 问的是\"果 ← 因\"（什么导致了差异），且下文答的是气温这一成因而非后果，方向对不上。这 是最像答案的干扰。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "The researchers looked at a number of __(33)__ factors",
+      "answer": "I",
+      "answerText": "potential",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "a number of ___ factors：量词短语后、名词 factors 前，要形容词作定语"
+        },
+        {
+          "label": "依据",
+          "text": "potential factors = 排查\"候选的、可能的因素\"，正对研究筛选语境 potential 意为\"潜在的、可能的\"。本句讲研究者排查若干可能因素，下句 but the only one that was significantly __(34)__ with preferred interpersonal distance was average temperature 的\"只剩一个\"正是\"从潜在因素中筛选\"的结果——potential 与 looked at… only one 的筛选叙事严丝合缝。"
+        },
+        {
+          "label": "竞争词",
+          "text": "H) mandated \"被强制的因素\"与研究语境无关 mandated 意为\"被法规强制的\"，全文没有任何法规/政策语境，mandated factors 属无中生 有；研究者排查的是\"可能的\"因素，不是\"被规定的\"因素。 K) rigid rigid 修饰人/规则，不修饰因素 rigid 意为\"僵硬的、死板的\"，常修饰 rules/attitude；rigid factors 搭配生硬，且与下文\"只有 气温相关\"的筛选逻辑无关。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "but the only one that was significantly __(34)__ with preferred interpersonal distance was average temperature",
+      "answer": "C",
+      "answerText": "correlated",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "was significantly ___ with：系动词 was 后、副词后、介词 with 前，要形容词（或分词 形容词）"
+        },
+        {
+          "label": "依据",
+          "text": "be correlated with = 与……相关，科学研究高频搭配 correlated 与 was…with 构成 be correlated with（与……相关），代进去即\"唯一与偏好 的人际距离显著相关的因素\"。下句 The warmer the place, it seems, the \"warmer\" the people and the less space they needed 正说明气温与距离此消彼长的相关关系，语义 闭环。"
+        },
+        {
+          "label": "竞争词",
+          "text": "H) mandated be mandated with 搭配不成立 mandated 是\"被强制规定\"，mandate 的搭配是 mandate that…/be mandated to do，不与 with 搭配；\"气温被强制与距离有关\"也荒谬。 I) potential potential 不接 with，且与 only one 冲突 potential 意为\"潜在的\"，potential 常直接修饰名词（potential factors），\"was significantly potential with\"既不成搭配，也和本句\"筛了一圈只剩这一个\"的确指语境矛盾。它是 33 空的 答案。 K) rigid rigid with 不表\"相关\"，语义跑偏 rigid 是\"僵硬的、严格的\"，be rigid with 不表关联义；本句要的是统计学上的\"相关\"概念，不 是\"严格\"。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "our chosen physical __(35)__ also appears to reflect how much we like others",
+      "answer": "J",
+      "answerText": "proximity",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "physical ___：形容词 physical 后作其中心语，要名词"
+        },
+        {
+          "label": "依据",
+          "text": "physical proximity = 身体上的靠近，正对\"坐多近\" proximity 意为\"接近、邻近\"，physical proximity 是地道搭配（身体距离上的靠近）。下 一句 The more people would like to be friends with the other person, the closer they sat to them 的 closer they sat 正是 proximity 的行为化表达，首尾呼应。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) demographics \"被选择的身体人口特征\"逻辑不通 demographics 指性别年龄等群体属性，既不能 physical（身体的人口特征？）也不能 chosen （人口特征不是\"选\"出来的）；它是 30 空的答案。 I) potential physical potential 偏离\"坐近\"话题 potential 作名词是\"潜力\"，\"身体潜力反映多喜欢对方\"与本段\"坐得越近=越喜欢\"的语义线 不符。 L) statistics physical statistics 搭配生硬且非话题 statistics 是\"统计数据\"，physical statistics 非常规搭配；本句主语须是人们能\"选择\"的距离行 为，统计数字无从 chosen。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "ascertain",
+        "B": "buffer",
+        "C": "correlated",
+        "D": "crave",
+        "E": "demographics",
+        "F": "entail",
+        "G": "legitimately",
+        "H": "mandated",
+        "I": "potential",
+        "J": "proximity",
+        "K": "rigid",
+        "L": "statistics",
+        "M": "substantially",
+        "N": "trait",
+        "O": "underlie"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "ascertain"
+        },
+        {
+          "label": "B",
+          "text": "buffer"
+        },
+        {
+          "label": "C",
+          "text": "correlated"
+        },
+        {
+          "label": "D",
+          "text": "crave"
+        },
+        {
+          "label": "E",
+          "text": "demographics"
+        },
+        {
+          "label": "F",
+          "text": "entail"
+        },
+        {
+          "label": "G",
+          "text": "legitimately"
+        },
+        {
+          "label": "H",
+          "text": "mandated"
+        },
+        {
+          "label": "I",
+          "text": "potential"
+        },
+        {
+          "label": "J",
+          "text": "proximity"
+        },
+        {
+          "label": "K",
+          "text": "rigid"
+        },
+        {
+          "label": "L",
+          "text": "statistics"
+        },
+        {
+          "label": "M",
+          "text": "substantially"
+        },
+        {
+          "label": "N",
+          "text": "trait"
+        },
+        {
+          "label": "O",
+          "text": "underlie"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Most parents realise the importance of teaching their children how to handle money, but many of them actually don't do much in this respect.",
+      "answer": "E",
+      "answerText": "E 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "According to a survey by M&G Investments, the vast majority (83%) of parents recognise the value of teaching their children about money. However, this concern does not always carry through to practice—one in six do not feel confident enough to do it. More than one in every four parents think children should take responsibility for understanding money themselves. 根据 M&G Investments 的一项调查，绝大多数（83%）家长认识到教孩子理财的价值，但 这种关注并未总能付诸实践——六分之一的人没有足够的信心去做，超过四分之一的家长则 认为孩子应自行承担起理解金钱的责任。"
+        },
+        {
+          "label": "改写",
+          "text": "Most parents realise the importance of teaching their children how to handle money ↔ the vast majority (83%) of parents recognise the value of teaching their children about money 同义替换 but many of them actually don't do much in this respect ↔ However, this concern does not always carry through to practice—one in six do not feel confident enough to do it. More than one in every four parents think children should take responsibility for understanding money themselves. 同义改写+具体化"
+        },
+        {
+          "label": "辨邻",
+          "text": "F F 段 teaching children about money when they are young is a good way for parents to help them learn to delay satisfaction 确实提到教孩子理财，但只讲其好 处，没有题干中\"认识到重要性却没做\"的转折。 teaching children about money when they are young is a good way for parents to help them learn to delay satisfaction O O 段 Only a third of parents involve their children in discussions about their household finances 虽也讲家长与孩子的金钱互动，但内容是\"家庭财务讨论\"，与题 干\"教孩子理财\"不是同一回事。 Only a third of parents involve their children in discussions about their household finances 人们在理财方式上存在很大差异。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "most parents... importance... but don't do much"
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "People differ substantially in their way of managing finance. 【定位】The cost of a mortgage or rents, meeting monthly utility bills, paying for a new car—all headaches most people get to worry about from their 20s. But while some may struggle to pay their bills after a few too many nights out at the start of the month, others will have a tightly followed plan for their repayments. So what is the difference between the shrewd saver and the more reckless spender?",
+      "answer": "A",
+      "answerText": "A 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The cost of a mortgage or rents, meeting monthly utility bills, paying for a new car—all headaches most people get to worry about from their 20s. But while some may struggle to pay their bills after a few too many nights out at the start of the month, others will have a tightly followed plan for their repayments. So what is the difference between the shrewd saver and the more reckless spender? 房贷或租金、每月水电账单、购买新车的开销——这些都是大多数人从二十多岁起就要操心 的烦心事。但有人月初花天酒地后月底捉襟见肘，也有人严格按计划还款。那么精明储蓄者 与挥霍者之间的区别何在？"
+        },
+        {
+          "label": "改写",
+          "text": "People differ substantially in their way of managing finance ↔ But while some may struggle to pay their bills after a few too many nights out at the start of the month, others will have a tightly followed plan for their repayments 概括与具体例证 People differ substantially ↔ the difference between the shrewd saver and the more reckless spender 同义替换"
+        },
+        {
+          "label": "辨邻",
+          "text": "P P 段 Most adults believe their parents have had the biggest influence on their money behaviour 讨论的是\"父母影响\"，而非\"个人理财方式差异\"。 Most adults believe their parents have had the biggest influence on their money behaviour B B 段 Adult money habits are typically set by the age of seven 讲的是习惯形成时 间，而非人们在理财方式上的差异。 Adult money habits are typically set by the age of seven 父母可以通过帮助孩子从错误的消费决定中吸取教训，轻松教会他们如何负责任地消费。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "People differ substantially in their way of managing finance 36. Most parents realise the importance of teaching their children how to handle money, but many of them actually don't do much in this respect. 37. People differ substantially in their way of managing finance."
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Parents can easily teach children how to spend responsibly by helping them draw lessons from bad decisions on spending. 【改写】Parents can easily teach children how to spend responsibly ↔ how should a parent try to teach their child to spend responsibly? One simple way is to give them pocket money",
+      "answer": "G",
+      "answerText": "G 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "But how should a parent try to teach their child to spend responsibly? One simple way is to give them pocket money and then help them to analyse and learn from any foolish spending decisions. 但家长应如何教孩子负责任地消费呢？一个简单方法是给他们零花钱，然后帮助他们分析并 从任何愚蠢的消费决定中吸取教训。 38. Parents can easily teach children how to spend responsibly by helping them draw lessons from bad decisions on spending."
+        },
+        {
+          "label": "改写",
+          "text": "Parents can easily teach children how to spend responsibly ↔ how should a parent try to teach their child to spend responsibly? One simple way is to give them pocket money 同义替换 by helping them draw lessons from bad decisions on spending ↔ help them to analyse and learn from any foolish spending decisions 同义替换+动作链对应"
+        },
+        {
+          "label": "辨邻",
+          "text": "H H 段 Another is through board games which can help teach financial responsibility 讲的是另一种手段——棋盘游戏，与 G 段的\"零花钱+分析错误消 费\"不同。 Another is through board games which can help teach financial responsibility F F 段 teaching children about money when they are young is a good way for parents to help them learn to delay satisfaction 只讲延迟满足，未涉及\"foolish spending decisions\"。 teaching children about money when they are young is a good way for parents to help them learn to delay satisfaction 许多英国年轻人严重缺乏理财技能，而且他们没有尽早学会这些技能。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "draw lessons from bad decisions on spending"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Many young British people badly lack money management skills and they don't learn them early enough. 【改写】Many young British people badly lack money management skills ↔ for many young people in the UK, it's a matter of too little, too late",
+      "answer": "C",
+      "answerText": "C 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Tomorrow marks the start of Global Money Week, a worldwide initiative to help children make smart financial decisions and learn that \"money matters matter\". But for many young people in the UK, it's a matter of too little, too late. \"The habits of mind which influence the ways children approach complex problems and decisions, including financial ones, are largely determined in the first few years of life,\" says Dr David Whitebread, the co-author of the study. And this core behaviour is very likely to influence their financial decisions when they are adults, he says. 明天是全球理财周的启动日，这是一项旨在帮助孩子做出明智财务决策并认识到\"金钱问题 很重要\"的全球倡议。但对英国许多年轻人来说，这太少、也太晚了。研究合著者 David Whitebread 博士表示：\"影响儿童处理复杂问题和决策（包括财务决策）的思维习惯，主要 在生命最初几年形成。\"他还说，这种核心行为很可能影响他们成年后的财务决策。 39. Many young British people badly lack money management skills and they don't learn them early enough."
+        },
+        {
+          "label": "改写",
+          "text": "Many young British people badly lack money management skills ↔ for many young people in the UK, it's a matter of too little, too late 同义改写 and they don't learn them early enough ↔ The habits of mind which influence the ways children approach complex problems and decisions, including financial ones, are largely determined in the first few years of life 因果对应"
+        },
+        {
+          "label": "辨邻",
+          "text": "B B 段 By then, most children have grasped how to recognise the value of money and are capable of complex functions such as planning ahead 论述对象是儿童能 力发展，而非英国年轻人的现状。 By then, most children have grasped how to recognise the value of money and are capable of complex functions such as planning ahead N N 段 Almost two-thirds of millennials wish they had received more money advice at a younger age 说的是\"希望多获得建议\"，与题干\"技能不足\"是不同表述。 Almost two-thirds of millennials wish they had received more money advice at a younger age 大多数成年人认为，他们的消费习惯受父母的影响最大。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "young British people... lack money management skills... not early enough"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The majority of adults believe that their spending habits have been influenced the most by their parents.",
+      "answer": "I",
+      "answerText": "I 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "There are also some pocket-money-tracking and payment apps, such as RoosterMoney and goHenry, which are designed to be used by under-sevens, and which boast that they can help children develop good money habits. 还有一些零花钱追踪和支付应用，如 RoosterMoney 和 goHenry，专为七岁以下儿童设 计，并声称能帮助孩子养成良好理财习惯。"
+        },
+        {
+          "label": "改写",
+          "text": "There are apps designed specifically for children under 7 ↔ some pocket-money-tracking and payment apps, such as RoosterMoney and goHenry, which are designed to be used by under-sevens 同义替换 to help them track pocket money spending ↔pocket-money-tracking 名词化对应"
+        },
+        {
+          "label": "辨邻",
+          "text": "J J 段 there are very few gaming apps that can help under-sevens 说的是\"gaming apps\"，与题干\"pocket-money-tracking and payment apps\"类别不同。 there are very few gaming apps that can help under-sevens H H 段 Another is through board games which can help teach financial responsibility 讲的是棋盘游戏，与题干的\"apps\"媒介不同。 Another is through board games which can help teach financial responsibility 专家认为，一个人学会负责任地理财的年龄决定了其此后处理金钱的方式。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "apps designed specifically for children under 7... track pocket money"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "There are apps designed specifically for children under 7 to help them track pocket money spending.",
+      "answer": "B",
+      "answerText": "B 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Experts believe it is all about the age you learn how to spend responsibly. Adult money habits are typically set by the age of seven, according to a large-scale study by the government's Money Advice Service and behaviour experts at Cambridge University. 专家认为，关键在于你学会负责任消费的年龄。根据政府货币咨询服务机构和剑桥大学行为 专家开展的一项大规模研究，成年人的金钱习惯通常在七岁时就已形成。"
+        },
+        {
+          "label": "改写",
+          "text": "According to experts ↔Experts believe 原样复现 the age a person learns to manage finance responsibly ↔ the age you learn how to spend responsibly 同义替换 determines the way they handle money thereafter ↔ Adult money habits are typically set by the age of seven 因果对应"
+        },
+        {
+          "label": "辨邻",
+          "text": "P P 段 As early as possible before the age of seven, research suggests 是行动建 议，而题干 B 段是事实判断。 As early as possible before the age of seven, research suggests C C 段 this core behaviour is very likely to influence their financial decisions when they are adults 侧重\"习惯形成时间影响决策\"，与题干\"学习年龄决定日后方式\"侧重 点不同。 this core behaviour is very likely to influence their financial decisions when they are adults 大多数教师认为，如今的孩子需要在更小的年纪做出财务决策。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "age a person learns to manage finance responsibly determines the way... 41. There are apps designed specifically for children under 7 to help them track pocket money spending. 42. According to experts, the age a person learns to manage finance responsibly determines the way they handle money thereafter."
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "According to experts, the age a person learns to manage finance responsibly determines the way they handle money thereafter. 【定位】Experts believe it is all about the age you learn how to spend responsibly. Adult money habits are typically set by the age of seven, according to a large-scale study by the government's Money Advice Service and behaviour experts at Cambridge University.",
+      "answer": "N",
+      "answerText": "N 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Seven out of ten teachers think children are now faced with financial decisions earlier. 十分之七的教师认为，孩子们现在更早地面临财务决策。"
+        },
+        {
+          "label": "改写",
+          "text": "Most teachers are of the opinion that ↔Seven out of ten teachers think 同义替换 children today need to make financial decisions at a younger age ↔ children are now faced with financial decisions earlier 同义替换+语态转换 43. Most teachers are of the opinion that children today need to make financial decisions at a younger age."
+        },
+        {
+          "label": "辨邻",
+          "text": "C C 段 the ways children approach complex problems and decisions, including financial ones 的主体是研究者，不是教师。 the ways children approach complex problems and decisions, including financial ones O O 段 less than half of young people aged seven to seventeen receive financial education at school 讲的是学校理财教育现状，不是教师观点。 less than half of young people aged seven to seventeen receive financial education at school 父母是塑造孩子理财习惯的有效榜样。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "Most teachers... children today need to make financial decisions at a younger age"
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Most teachers are of the opinion that children today need to make financial decisions at a younger age.",
+      "answer": "D",
+      "answerText": "D 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The study also urges parents not to underestimate their own good and bad money habits. \"Since young children have few monetary resources they control independently, it is the basic approaches and skills which are modelled, discussed and demonstrated by parents that are likely to be influential levers, breeding efficient habits and practices,\" it says. 该研究还敦促家长不要低估自身良好和不良的理财习惯。报告指出：\"由于幼儿独立掌控的 货币资源很少，因此父母示范、讨论和展示的基本方法与技能很可能成为有影响力的杠杆， 培养出高效的习惯和做法。\""
+        },
+        {
+          "label": "改写",
+          "text": "Parents serve as effective role models ↔ the basic approaches and skills which are modelled, discussed and demonstrated by parents 同义改写 in shaping children's money management habits ↔breeding efficient habits and practices 同义替换"
+        },
+        {
+          "label": "辨邻",
+          "text": "E E 段 the vast majority (83%) of parents recognise the value of teaching their children about money 讲的是态度与实践，不是榜样作用。 the vast majority (83%) of parents recognise the value of teaching their children about money P P 段 Most adults believe their parents have had the biggest influence on their money behaviour 是成年人回顾性看法，D 段才是研究对父母具体示范机制的解释。 Most adults believe their parents have had the biggest influence on their money behaviour 根据一项研究，约30%的父母允许孩子参与讨论家庭财务问题。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "Parents serve as effective role models"
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Parents serve as effective role models in shaping children's money management habits.",
+      "answer": "O",
+      "answerText": "O 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Only a third of parents involve their children in discussions about their household finances, even though less than half of young people aged seven to seventeen receive financial education at school, another survey shows. 另一项调查显示，只有三分之一的家长让孩子参与家庭财务讨论，尽管七至十七岁的年轻人 中不到一半在学校接受过理财教育。"
+        },
+        {
+          "label": "改写",
+          "text": "According to one study ↔another survey shows 同义替换 about 30% of parents allow their children to participate in discussions on their family finances ↔ Only a third of parents involve their children in discussions about their household finances 同义替换+短语对应"
+        },
+        {
+          "label": "辨邻",
+          "text": "E E 段 the vast majority (83%) of parents recognise the value of teaching their children about money 讲的是 83% 的家长认可度，与题干的 30% 及\"家庭财务讨 论\"不匹配。 the vast majority (83%) of parents recognise the value of teaching their children about money D D 段 parents not to underestimate their own good and bad money habits 讲的 是父母习惯影响，没有具体比例数据。 parents not to underestimate their own good and bad money habits"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "about 30% of parents... participate in discussions on family finances 44. Parents serve as effective role models in shaping children's money management habits. 45. According to one study, about 30% of parents allow their children to participate in discussions on their family finances."
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Why have three artists brought a lawsuit against Stability AI, DeviantArt, and Midjourney?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn about the current electric supply system in Africa?询问对某事物的 客观事实，无infer/imply/suggest等推断信号。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn about the current electric supply system in Africa?为主谓宾结构， 主干是What do we learn，about...引出询问对象；全句无否定、无从句，理解难度低。"
+        },
+        {
+          "label": "定位",
+          "text": "The current system keeps a lid on the economic talents of people like Agok and his students. 当前的电力系统抑制了像Agok和他的学生这样的人的经济才能。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 keeps a lid on the economic talents ↔It curbs the economic development of the continent The current system keeps a lid on the economic talents of people like Agok and his students.直接对应It curbs the economic development of the continent，只是 将具体人才能扩展为大陆层面的经济发展。 B) 偷换概念 原文说人们花钱买柴油发电机是临时方案，而非current electric supply system本身； It mainly depends on the polluting diesel generators把主体换成了电力系统。 C) 无中生有/强加因果 原文只提到能源获取不平等危及生计，并未说电力系统是财富分配不均的primary cause；It is the primary cause of inequitable distribution of wealth添加了因果 关系。 D) 以偏概全 Agok的电脑课取消只是个别例子，不能推出整个电力系统剥夺了众多非洲人使用电脑的 机会；deprives many Africans of the opportunity to use computers以偏概全。 51. What do we learn about the current electric supply system in Africa? A) It curbs the economic development of the continent. B) It mainly depends on the polluting diesel generators. C) It is the primary cause of inequitable distribution of wealth. D) It deprives many Africans of the opportunity to use computers. 我们从文章中了解到非洲过去的电气化努力有什么情况? A) 它们未能满足大多数非洲人对可靠电力供应的需求。 B) 它们未能建立提供电力的国家电网。 C) 它们释放了该大陆真正的经济潜力。 D) 它们旨在用清洁、可靠的能源为非洲布线。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They claim that the use of the Stable Diffusion tool is a violation of law."
+        },
+        {
+          "label": "B",
+          "text": "They claim these companies infringed their intellectual property rights."
+        },
+        {
+          "label": "C",
+          "text": "They want to stop the use of all AI tools in the creation of art works."
+        },
+        {
+          "label": "D",
+          "text": "They want to prevent artists from being compelled to rely on AI tools."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What will happen if Stable Diffusion and similar products are allowed to continue to operate as they do now, according to the law firm?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn from the passage about Africa's past electrification efforts?要求从 文中提取关于过去电气化努力的事实。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn from the passage about Africa's past electrification efforts?主干为 What do we learn，from the passage about...引出信息来源与对象；past限定时间范 围，需与文中historically对应。"
+        },
+        {
+          "label": "定位",
+          "text": "Historically, national governments on the continent have led electrification efforts, but fewer than half of the people surveyed say that the national grid is providing a reliable supply of electricity. 历史上，非洲大陆各国政府主导了电气化工作，但受访人群中不到一半的人表示国家电网提 供了可靠的电力供应。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 fewer than half of the people surveyed say that the national grid is providing a reliable supply of electricity ↔failed to meet most Africans' need of a reliable power supply fewer than half... reliable supply说明多数人未获得可靠供电，与failed to meet most Africans' need of a reliable power supply一致。 B) 与原文相反 原文说国家电网存在但不可靠，failed to build a national grid却说没建成电网，与原 文相反。 C) 张冠李戴/时间错位 释放非洲经济潜力是作者在P2提出的未来愿景，不是过去电气化努力的结果。 D) 张冠李戴 用清洁能源为非洲通电是作者提出的未来方案，不是过去政府努力的目标。 52. What do we learn from the passage about Africa's past electrification efforts? A) They have failed to meet most Africans' need of a reliable power supply. B) They have failed to build a national grid to provide electric power. C) They have unleashed the true economic potential of the continent. D) They have aimed at wiring Africa with clean, dependable energy. 解决非洲电力供应短缺问题的关键是什么? A) 用长期战略取代临时解决方案。 B) 用可持续政策加速经济增长。 C) 重组国家发电公司。 D) 迅速建立大规模现代电网。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Intellectual property laws will be hard to enforce."
+        },
+        {
+          "label": "B",
+          "text": "Fewer artists will invest talent in artistic creation."
+        },
+        {
+          "label": "C",
+          "text": "Artists will lose their means of subsistence."
+        },
+        {
+          "label": "D",
+          "text": "Copied works will flood the art market."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What makes artists furious aside from copyright infringement?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What is essential to tackling the power supply shortage in Africa?询问解决问题所必需 的措施，属于事实性细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What is essential to tackling the power supply shortage in Africa?主干为What is essential，to tackling...为介词短语说明对象；全句为简单疑问句，无生僻语法。"
+        },
+        {
+          "label": "定位",
+          "text": "Deploying modern grid infrastructure with speed and at scale is essential to replacing these temporary solutions with reliable and affordable alternatives. 快速、大规模部署现代电网基础设施，对于用可靠且负担得起的替代方案取代这些临时措施 至关重要。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 原文说用可靠可负担的替代方案取代临时方案，但long-term strategies并非原文内容， 且未点明现代电网这一核心。 B) 答非所问 经济增长是改善电力供应后可能带来的结果，不是解决电力短缺的直接措施，答非 所问。 C) 无中生有 文中没有提到restructuring national power generation companies，属于无中生有。 D) ✓ 正确 Deploying modern grid infrastructure with speed and at scale is essential ↔ Putting in place a large-scale modern power grid speedily Deploying modern grid infrastructure with speed and at scale与Putting in place a large-scale modern power grid speedily在动作、规模、速度上逐一对应。 53. What is essential to tackling the power supply shortage in Africa? A) Replacing temporary solutions with long-term strategies. B) Accelerating economic growth with sustainable policies. C) Restructuring national power generation companies. D) Putting in place a large-scale modern power grid speedily. 非洲许多政府正在做什么来解决电力供应问题? A) 专注于建设世界级基础设施。 B) 依靠私营部门实现规模经济。 C) 启动可持续商业模式。 D) 与私营公司合作。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Art works produced with AI tools are not banned from art-sharing platforms."
+        },
+        {
+          "label": "B",
+          "text": "Text-to-image generators have won such great popularity in the past year."
+        },
+        {
+          "label": "C",
+          "text": "Their distorted signatures appear more and more frequently in AI art."
+        },
+        {
+          "label": "D",
+          "text": "AI tools can bypass the considerable labor involved in creating art works."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn from the passage about many AI enthusiasts?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What are many governments in Africa doing to solve the electricity supply problem? 询问政府当前行为，属于细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What are many governments in Africa doing to solve the electricity supply problem? 主干为What are many governments doing，to solve...为目的状语；现在进行时doing提 示回文找正在发生的动作。"
+        },
+        {
+          "label": "定位",
+          "text": "In fact, many governments agree and have begun to embrace the private sector as partners in providing reliable power at scale. 事实上，许多政府已经认同这一点，并开始接纳私营部门作为合作伙伴，以大规模提供可靠 电力。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 建设世界级基础设施是Private companies today are building world-class infrastructure，不是政府。 B) 过度推断 原文说政府与私营部门合作大规模供电，Relying on the private sector for scale economy把合作说成依赖，并把at scale偷换为scale economy。 C) 张冠李戴 可持续商业模式是私营公司的做法，不是政府。 D) ✓ 正确 embrace the private sector as partners ↔Cooperating with private companies embrace the private sector as partners的核心含义就是与私营部门合作， Cooperating with private companies是其同义替换。 54. What are many governments in Africa doing to solve the electricity supply problem? A) Focusing on building world-class infrastructures. B) Relying on the private sector for scale economy. C) Launching sustainable business models. D) Cooperating with private companies. 为什么私营公司会有动力加入撒哈拉以南非洲的电气化工作? A) 有大笔资金可赚。 B) 它们有足够的资金到位。 C) 南非树立了成功的榜样。 D) 政府正在向它们寻求帮助。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They look forward to AI tools creating good-quality art works."
+        },
+        {
+          "label": "B",
+          "text": "They claim artists can use copyrighted materials just as teachers do."
+        },
+        {
+          "label": "C",
+          "text": "They support AI's limited use of copyrighted images without permission."
+        },
+        {
+          "label": "D",
+          "text": "They wish the \"fair use\" clause would be applicable to all works in a dataset."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author think of the \"fair use\" clause in copyright law?",
+      "answer": "A",
+      "questionType": "推断题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why will private companies be motivated to join the effort of electrifying sub- Saharan Africa?询问动机，需要由原文事实做一步逻辑延伸，而非直接找到原句。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why will private companies be motivated to join the effort of electrifying sub- Saharan Africa?主干为Why will private companies be motivated，to join...为不定式短 语表动作；被动语态be motivated提示询问驱动因素。"
+        },
+        {
+          "label": "定位",
+          "text": "After all, electrifying sub-Saharan Africa is a $350 billion opportunity. 毕竟，让撒哈拉以南非洲通电是一个3500亿美元的机遇。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 a $350 billion opportunity ↔There is big money to be made 3500亿美元的机会意味着可赚取大量金钱，There is big money to be made准确概括 了这一动机。 B) 与原文相反/偷换概念 原文With the right funding and structure in place是前提条件，不是已经拥有足够资 金；They have enough funding in place与原文相反。 C) 答非所问 南非是政府与私营部门合作的例子，不能直接说明私营企业参与的根本动机。 D) 强加因果/答非所问 政府求助是私营部门参与的外部条件，但题目问的是private companies自身的 motivation，核心驱动力是商业机会。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It may determine the final verdict of the case."
+        },
+        {
+          "label": "B",
+          "text": "It may not apply to the present legal case."
+        },
+        {
+          "label": "C",
+          "text": "It does not cover the works of all artists."
+        },
+        {
+          "label": "D",
+          "text": "It is subject to different interpretations. Questions 51 to 55 are based on the following passage."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn about the current electric supply system in Africa?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干Why have three artists brought a lawsuit...追问诉讼起因，属于对文中具体事实的 询问。"
+        },
+        {
+          "label": "拆句",
+          "text": "Why have three artists brought a lawsuit against Stability AI, DeviantArt, and Midjourney?为特殊疑问句，主干是three artists brought a lawsuit against...，Why询问 原因，无否定、比较等陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Three artists have brought a lawsuit against Stability AI, DeviantArt, and Midjourney, alleging that the text-to-image AI tools have infringed the rights of thousands of artists. 三位艺术家对Stability AI、DeviantArt和Midjourney提起诉讼，指控这些文本生成图像的 人工智能工具侵犯了数千名艺术家的权利。 46. Why have three artists brought a lawsuit against Stability AI, DeviantArt, and Midjourney? A) They claim that the use of the Stable Diffusion tool is a violation of law. B) They claim these companies infringed their intellectual property rights. C) They want to stop the use of all AI tools in the creation of art works. D) They want to prevent artists from being compelled to rely on AI tools."
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 They claim that the use of the Stable Diffusion tool is a violation of law.将原文'侵 犯权利'过度泛化为'违法'，弱化了'知识产权/版权'这一具体客体。 B) ✓ 正确 have infringed the rights of thousands of artists ↔infringed their intellectual property rights copyrighted images downloaded from the internet and used by the companies \"without compensation or consent from the artists\" ↔these companies infringed their intellectual property rights these companies infringed their intellectual property rights与have infringed the rights of thousands of artists和copyrighted images...without compensation or consent形成同义替换，准确对应起诉原因。 C) 无中生有 They want to stop the use of all AI tools in the creation of art works.中的'all AI tools'在原文无对应，艺术家仅起诉特定公司的特定工具，并非要求禁止所有AI艺术 工具。 D) 无中生有 They want to prevent artists from being compelled to rely on AI tools.中 的'compelled to rely on AI tools'在原文无对应；原文说的是AI会'replace'艺术 家、'eliminate artist as a viable career path'，方向是取代而非迫使依赖。 据该律师事务所称，如果允许 Stable Diffusion 及类似产品继续像现在这样运行，将会发生 什么？ A) 知识产权法将难以执行。 B) 将有更少的艺术家把才华投入艺术创作。 C) 艺术家将失去谋生手段。 D) 复制作品将充斥艺术市场。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It curbs the economic development of the continent."
+        },
+        {
+          "label": "B",
+          "text": "It mainly depends on the polluting diesel generators."
+        },
+        {
+          "label": "C",
+          "text": "It is the primary cause of inequitable distribution of wealth."
+        },
+        {
+          "label": "D",
+          "text": "It deprives many Africans of the opportunity to use computers."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn from the passage about Africa's past electrification efforts?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干What will happen if...询问在特定条件下会发生什么，属于对文中预测/后果细节的 考查。"
+        },
+        {
+          "label": "拆句",
+          "text": "What will happen if Stable Diffusion and similar products are allowed to continue to operate as they do now, according to the law firm?含if引导的条件状语从句，主干是 What will happen，according to the law firm限定观点来源，无否定。 47. What will happen if Stable Diffusion and similar products are allowed to continue to operate as they do now, according to the law firm? A) Intellectual property laws will be hard to enforce. B) Fewer artists will invest talent in artistic creation. C) Artists will lose their means of subsistence. D) Copied works will flood the art market."
+        },
+        {
+          "label": "定位",
+          "text": "\"If Stable Diffusion and similar products are allowed to continue to operate as they do now, the foreseeable result is they will replace the very artists whose stolen works power these AI products with whom they are competing,\" the law firm wrote in a press release. \"AI image products are not just an infringement of artists' rights; they will eliminate 'artist' as a viable career path.\" 律师事务所在新闻稿中写道：'如果Stable Diffusion及类似产品被允许继续按现状运营，可 以预见的结果是，它们将取代那些被盗作品正驱动这些产品、且与它们竞争的艺术家本身。' 'AI图像产品不仅侵犯了艺术家的权利；它们将使'艺术家'不再是一条可行的职业道路。'"
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 Intellectual property laws will be hard to enforce.中的'hard to enforce'在定位句及 全文中均无对应，属于凭空捏造。 B) 偷换概念 Fewer artists will invest talent in artistic creation.把原文'eliminate artist as a viable career path'（当艺术家这条路被堵死）改写为'艺术家投入才华变少'，改变了因 果主体与语义重心。 C) ✓ 正确 they will replace the very artists whose stolen works power these AI products with whom they are competing ↔Artists will lose their means of subsistence. they will eliminate 'artist' as a viable career path ↔ Artists will lose their means of subsistence. Artists will lose their means of subsistence.对应replace the very artists和eliminate 'artist' as a viable career path，准确概括了AI继续运营对艺术家生计的冲击。 D) 过度推断 Copied works will flood the art market.中的'flood the art market'在原文无对应，原 文强调的是AI取代艺术家，而非复制品数量多。 除了侵犯版权之外，什么还令艺术家们感到愤怒？ A) 利用人工智能工具创作的艺术作品没有被艺术分享平台禁止。 B) 文本生成图像工具在过去一年中获得了如此大的欢迎。 C) 他们被扭曲的签名越来越频繁地出现在人工智能艺术作品中。 D) 人工智能工具可以绕过艺术创作所涉及的大量劳动。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They have failed to meet most Africans' need of a reliable power supply."
+        },
+        {
+          "label": "B",
+          "text": "They have failed to build a national grid to provide electric power."
+        },
+        {
+          "label": "C",
+          "text": "They have unleashed the true economic potential of the continent."
+        },
+        {
+          "label": "D",
+          "text": "They have aimed at wiring Africa with clean, dependable energy."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What is essential to tackling the power supply shortage in Africa?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干What makes artists furious aside from copyright infringement?要求找出除版权侵 权外的另一愤怒来源，属于细节题中的并列排除型。"
+        },
+        {
+          "label": "拆句",
+          "text": "What makes artists furious aside from copyright infringement?主干是What makes artists furious，aside from copyright infringement为介词短语作排除状语，提示答案不 在版权侵权处。"
+        },
+        {
+          "label": "定位",
+          "text": "Not only are many artists furious at the possible copyright violations of AI art, but they have also been frustrated by how AI tools are able to sidestep the labor and art processes they are required to go through. 许多艺术家不仅对AI艺术可能存在的版权侵权行为感到愤怒，而且还对AI工具如何能够绕开 他们必须经历的劳动和艺术创作过程感到沮丧。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 Art works produced with AI tools are not banned from art-sharing platforms.与原 文many artists have been trying to ban AI art from art-sharing platforms方向相 反，且不是aside from所问的另一愤怒点。 B) 答非所问 Text-to-image generators have won such great popularity in the past year.虽然在 原文P5中出现，但它只是背景信息，并非题干所问'aside from copyright infringement'使艺术家愤怒的原因。 C) 答非所问 Their distorted signatures appear more and more frequently in AI art.对应seeing their own distorted signatures appear in AI art，这一现象属于版权/未经授权使用的 证据，与题干要求排除的copyright infringement属于同一层面，不是aside from所求 的另一项。 D) ✓ 正确 AI tools are able to sidestep the labor and art processes they are required to go through ↔ AI tools can bypass the considerable labor involved in creating art works. AI tools can bypass the considerable labor involved in creating art works.与AI tools are able to sidestep the labor and art processes they are required to go through构成精确同义替换，符合题干'aside from copyright infringement'的限定。 关于许多人工智能爱好者，我们从文章中了解到什么？ A) 他们期待人工智能工具创作出高质量的艺术作品。 B) 他们声称艺术家可以像教师一样使用受版权保护的材料。 49. What do we learn from the passage about many AI enthusiasts? A) They look forward to AI tools creating good-quality art works. B) They claim artists can use copyrighted materials just as teachers do. C) They support AI's limited use of copyrighted images without permission. D) They wish the \"fair use\" clause would be applicable to all works in a dataset. C) 他们支持人工智能未经许可有限度地使用受版权保护的图像。 D) 他们希望“合理使用”条款适用于数据集中的所有作品。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Replacing temporary solutions with long-term strategies."
+        },
+        {
+          "label": "B",
+          "text": "Accelerating economic growth with sustainable policies."
+        },
+        {
+          "label": "C",
+          "text": "Restructuring national power generation companies."
+        },
+        {
+          "label": "D",
+          "text": "Putting in place a large-scale modern power grid speedily."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What are many governments in Africa doing to solve the electricity supply problem?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干What do we learn from the passage about many AI enthusiasts?要求概括文中关 于该群体的具体信息，属于细节题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn from the passage about many AI enthusiasts?是特殊疑问句，主干 是What do we learn... about many AI enthusiasts，无复杂从句或否定。"
+        },
+        {
+          "label": "定位",
+          "text": "Many tech enthusiasts are still rallying around the promise of AI tools to create detailed images cheaply and quickly—anonymous tech supporters have already published a response to Butterick and Joseph Saveri's lawsuit on a website, using the \"fair use\" clause as the basis for why copyrighted images could be used by the tool. 许多科技爱好者仍在围绕AI工具廉价快速生成精细图像的前景而集结——匿名科技支持者已 在网上发布对Butterick和Joseph Saveri诉讼的回应，援引'合理使用'条款作为该工具可以使 用版权图片的依据。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 They look forward to AI tools creating good-quality art works.把原文create detailed images cheaply and quickly中的'detailed images'改写为'good-quality art works'，改变了对象（图像 艺术作品）和重点（廉价快速 质量）。 B) 张冠李戴 They claim artists can use copyrighted materials just as teachers do.把原文'AI工具 可以使用版权图片'替换为'艺术家可以像教师一样使用'，主体从AI工具变成了artists。 C) ✓ 正确 using the \"fair use\" clause as the basis for why copyrighted images could be used by the tool ↔ They support AI's limited use of copyrighted images without permission. They support AI's limited use of copyrighted images without permission.与using the \"fair use\" clause as the basis for why copyrighted images could be used by the tool形成同义替换，体现了支持者'有限度使用'的核心立场。 D) 张冠李戴 They wish the \"fair use\" clause would be applicable to all works in a dataset.中 的'all works in a dataset'对应all works in a dataset，但这是作者在P9中的判断对象， 并非P8中支持者的主张；原文未说支持者希望fair use适用于所有作品。 作者如何看待版权法中的“合理使用”条款？ A) 它可能决定案件的最终裁决。 B) 它可能不适用于当前的法律案件。 C) 它不涵盖所有艺术家的作品。 D) 它可能受到不同的解读。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Focusing on building world-class infrastructures."
+        },
+        {
+          "label": "B",
+          "text": "Relying on the private sector for scale economy."
+        },
+        {
+          "label": "C",
+          "text": "Launching sustainable business models."
+        },
+        {
+          "label": "D",
+          "text": "Cooperating with private companies."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "Why will private companies be motivated to join the effort of electrifying sub-Saharan Africa?",
+      "answer": "D",
+      "questionType": "态度题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干What does the author think of the \"fair use\" clause...直接询问作者对'fair use'条款 的态度或判断。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author think of the \"fair use\" clause in copyright law?主干是What does the author think of...，宾语是the \"fair use\" clause in copyright law，询问作者态 度，无否定比较。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 It may determine the final verdict of the case.中的'final verdict'在原文无对应，作者 仅讨论fair use的适用性，未预测判决结果。 B) 过度推断 It may not apply to the present legal case.把原文'难以一概而论'过度推断为'可能不 适用于本案'，作者并未得出该否定结论。 C) 偷换概念 It does not cover the works of all artists.把原文讨论的范围从'数据集里的所有作品能 否统一适用fair use'偷换为'是否覆盖所有艺术家'，对象发生转移。 D) ✓ 正确 fair use applies differently to each case ↔It is subject to different interpretations. it's hard to make a blanket statement about all works in a dataset as being applicable ↔ It is subject to different interpretations. It is subject to different interpretations.与fair use applies differently to each case 和it's hard to make a blanket statement形成同义替换，准确表达作者认为fair use需 个案判断的立场。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2026-06-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "There is big money to be made."
+        },
+        {
+          "label": "B",
+          "text": "They have enough funding in place."
+        },
+        {
+          "label": "C",
+          "text": "South Africa has set a successful example."
+        },
+        {
+          "label": "D",
+          "text": "Governments are turning to them for help. Part IV Translation (30 minutes)"
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "Imagine you and a stranger are sitting on a couch. How close would you sit to them? It turns out that how much of a (26)______  zone you prefer may reveal a lot about your personality. In one study, researchers sought to (27)______  how our personality may be linked to our preferred amount of personal space. The researchers found that people who scored higher in the (28)______  of agreeableness tended to sit closer to others, as did people who were more open and outgoing. Other individual differences, such as gender and age, can also affect how much personal space we (29)______  . Women tend to prefer more physical distance from strangers or acquaintances and older adults also generally tend to prefer to keep more distance between themselves and others. Beyond reflecting our personality and (30)______  , the amount of personal space we prefer is also linked to our cultural backgrounds. In a study involving participants from 42 countries, researchers found that around the world people's desired amount of personal space varied (31)______  . For example, in 26 27 28 29 30 31 Romania, the average amount of personal space people said they would prefer from a stranger was more than 4 feet, whereas in Argentina it was roughly half that. What might this variation? The researchers looked at a number of (33)______  factors, but the only one that was significantly (34)______  with preferred interpersonal distance was average temperature. The warmer the place, it seems, the \"warmer\" the people and the less space they needed between them and others. Personal space may also reflect interpersonal attraction. Researchers have found that our chosen physical (35)______  also appears to reflect how much we like others. The more people would like to be friends with the other person, the closer they sat to them. A) ascertain B) buffer C) correlated D) crave E) demographics F) entail G) legitimately H) mandated I) potential J) proximity K) rigid L) statistics M) substantially N) trait O) underlie 32 33 34 35",
+      "blocks": [
+        {
+          "text": "Imagine you and a stranger are sitting on a couch. How close would you sit to them? It turns out that how much of a (26)______  zone you prefer may reveal a lot about your personality. In one study, researchers sought to (27)______  how our personality may be linked to our preferred amount of personal space. The researchers found that people who scored higher in the (28)______  of agreeableness tended to sit closer to others, as did people who were more open and outgoing. Other individual differences, such as gender and age, can also affect how much personal space we (29)______  . Women tend to prefer more physical distance from strangers or acquaintances and older adults also generally tend to prefer to keep more distance between themselves and others. Beyond reflecting our personality and (30)______  , the amount of personal space we prefer is also linked to our cultural backgrounds. In a study involving participants from 42 countries, researchers found that around the world people's desired amount of personal space varied (31)______  . For example, in 26 27 28 29 30 31 Romania, the average amount of personal space people said they would prefer from a stranger was more than 4 feet, whereas in Argentina it was roughly half that. What might this variation? The researchers looked at a number of (33)______  factors, but the only one that was significantly (34)______  with preferred interpersonal distance was average temperature. The warmer the place, it seems, the \"warmer\" the people and the less space they needed between them and others. Personal space may also reflect interpersonal attraction. Researchers have found that our chosen physical (35)______  also appears to reflect how much we like others. The more people would like to be friends with the other person, the closer they sat to them. A) ascertain B) buffer C) correlated D) crave E) demographics F) entail G) legitimately H) mandated I) potential J) proximity K) rigid L) statistics M) substantially N) trait O) underlie 32 33 34 35"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) The cost of a mortgage or rents, meeting monthly utility bills, paying for a new car—all headaches most people get to worry about from their 20s. But while some may struggle to pay their bills after a few too many nights out at the start of the month, others will have a tightly followed plan for their repayments. So what is the difference between the shrewd saver and the more reckless spender?\nB) Experts believe it is all about the age you learn how to spend responsibly. Adult money habits are typically set by the age of seven, according to a large-scale study by the government's Money Advice Service and behaviour experts at Cambridge University. By then, most children have grasped how to recognise the value of money and are capable of complex functions such as planning ahead, delaying a decision until later and understanding that some choices are irreversible.\nC) Tomorrow marks the start of Global Money Week, a worldwide initiative to help children make smart financial decisions and learn that \"money matters matter\". But for many young people in the UK, it's a matter of too little, too late. \"The habits of mind which influence the ways children approach complex problems and decisions, including financial ones, are largely determined in the first few years of life,\" says Dr David Whitebread, the co-author of the study. And this core behaviour is very likely to influence their financial decisions when they are adults, he says.\nD) The study also urges parents not to underestimate their own good and bad money habits. \"Since young children have few monetary resources they control independently, it is the basic approaches and skills which are modelled, discussed and demonstrated by parents that are likely to be influential levers, breeding efficient habits and practices,\" it says.\nE) Parents who choose to help their children learn how to plan ahead, reflect on the past and self- regulate can make a huge difference in promoting good financial behaviour in the future, explains Whitebread. According to a survey by M&G Investments, the vast majority (83%) of parents recognise the value of teaching their children about money. However, this concern does not always carry through to practice—one in six do not feel confident enough to do it. More than one in every four parents think children should take responsibility for understanding money themselves.\nF) \"There's joy in the fact that young children are spontaneous and live life in the moment, unrestrained by adult problems. But teaching children about money when they are young is a good way for parents to help them learn to delay satisfaction, so that the child thinks: 'I'd like to do this but I'm not going to'. Hard evidence suggests, if you want your child to do well in life, the earlier you can start trying to teach them inhibition and self-discipline, the better,\" says Whitebread, pointing to research that has shown people in prison frequently have poor impulse control, a personality trait that can affect relationships and long-term health.\nG) But how should a parent try to teach their child to spend responsibly? One simple way is to give them pocket money and then help them to analyse and learn from any foolish spending decisions.\nH) Another is through board games which can help teach financial responsibility. Pop to the Shops, a shopping board game for five-to-nine-year-olds, has been one of Orchard Toys' top 10 bestselling board games every year for the past 15 years. To win, players must use fake coins to purchase everyday grocery items from various shops around the board, and give the other players who visit their shop the correct change. If they don't have enough money, they must purchase a cheaper item. \"It acts as a conversation starter about money—parents can fill in the gaps,\" says Orchard Toys product manager Rachael Sutcliffe.\nI) There are also some pocket-money-tracking and payment apps, such as RoosterMoney and goHenry, which are designed to be used by under-sevens, and which boast that they can help children develop good money habits. This is dependent on the children receiving enough pocket money to need an app to track their spending, which research suggests is not always the case.\nJ) Surprisingly, given the research about habit-forming in young children, there are very few gaming apps that can help under-sevens—Pigby's Fair, developed by NatWest, being a notable exception. In this, children who solve basic puzzles will earn virtual money selling what they have made at different stalls in a fair, then spend or save it. But the need to shift virtual money around, and take into account interest payments and pocket money bonuses, makes it a complex financial education tool.\nK) There are plenty of online games which focus on coin recognition and counting with money, such as the Igloo Shopping game or Top Marks' Coins Game. So what if children find such games boring? An exciting (and free) real-world option for parents to use is a visit to Metro Bank. Although, like most banks, it does not allow children to open an account until they turn 11, it specifically tries to offer young children a chance to learn about money inside its branches by inviting kids to use the \"magic money machines\" to count their coins. Children who accurately guess how much was in their piggy bank(猪形储钱罐) get a prize, and free candies are handed out when the coins are exchanged for banknotes. The bank does not take a commission from the transaction.\nL) At six years old, my daughter Flora is getting to grips with her finances early. She tested out a number of games aimed at teaching children her age the value of money. She enjoyed them all, but best, in her view, is Money Match Cafe, a board game where she must work out the value of different denominations(面额) of coin in her imaginary restaurant, her \"customers\" being her stuffed toys. \"It was really fun because you get to serve food to your own toys on a little tray with a napkin on it, and then you can hug them,\" she says.\nM) \"If you're six and you play this game, you'll learn that you might not have the right amount of money for what you want to buy. You just have to cross your fingers and hope. It's a good challenge, and I enjoyed adding the coins up to see how much they made. But I don't like the name. Money Match Cafe is not a good name for a cafe. I would have liked it more if it had been Flora's Cafe or Fantastically Baked Lunches.\" N) Seven out of ten teachers think children are now faced with financial decisions earlier. On Wednesday, Lifesavers—a new project which promotes financial education in primary schools—is hosting a conference to encourage teachers to join its programme and get free classroom resources and training. Almost two-thirds of millennials(千禧一代) wish they had received more money advice at a younger age, according to a Santander survey. O) Only a third of parents involve their children in discussions about their household finances, even though less than half of young people aged seven to seventeen receive financial education at school, another survey shows. P) Most adults believe their parents have had the biggest influence on their money behaviour. So when should they start trying to instil(灌输) good habits? As early as possible before the age of seven, research suggests.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "The cost of a mortgage or rents, meeting monthly utility bills, paying for a new car—all headaches most people get to worry about from their 20s. But while some may struggle to pay their bills after a few too many nights out at the start of the month, others will have a tightly followed plan for their repayments. So what is the difference between the shrewd saver and the more reckless spender?"
+        },
+        {
+          "label": "B",
+          "text": "Experts believe it is all about the age you learn how to spend responsibly. Adult money habits are typically set by the age of seven, according to a large-scale study by the government's Money Advice Service and behaviour experts at Cambridge University. By then, most children have grasped how to recognise the value of money and are capable of complex functions such as planning ahead, delaying a decision until later and understanding that some choices are irreversible."
+        },
+        {
+          "label": "C",
+          "text": "Tomorrow marks the start of Global Money Week, a worldwide initiative to help children make smart financial decisions and learn that \"money matters matter\". But for many young people in the UK, it's a matter of too little, too late. \"The habits of mind which influence the ways children approach complex problems and decisions, including financial ones, are largely determined in the first few years of life,\" says Dr David Whitebread, the co-author of the study. And this core behaviour is very likely to influence their financial decisions when they are adults, he says."
+        },
+        {
+          "label": "D",
+          "text": "The study also urges parents not to underestimate their own good and bad money habits. \"Since young children have few monetary resources they control independently, it is the basic approaches and skills which are modelled, discussed and demonstrated by parents that are likely to be influential levers, breeding efficient habits and practices,\" it says."
+        },
+        {
+          "label": "E",
+          "text": "Parents who choose to help their children learn how to plan ahead, reflect on the past and self- regulate can make a huge difference in promoting good financial behaviour in the future, explains Whitebread. According to a survey by M&G Investments, the vast majority (83%) of parents recognise the value of teaching their children about money. However, this concern does not always carry through to practice—one in six do not feel confident enough to do it. More than one in every four parents think children should take responsibility for understanding money themselves."
+        },
+        {
+          "label": "F",
+          "text": "\"There's joy in the fact that young children are spontaneous and live life in the moment, unrestrained by adult problems. But teaching children about money when they are young is a good way for parents to help them learn to delay satisfaction, so that the child thinks: 'I'd like to do this but I'm not going to'. Hard evidence suggests, if you want your child to do well in life, the earlier you can start trying to teach them inhibition and self-discipline, the better,\" says Whitebread, pointing to research that has shown people in prison frequently have poor impulse control, a personality trait that can affect relationships and long-term health."
+        },
+        {
+          "label": "G",
+          "text": "But how should a parent try to teach their child to spend responsibly? One simple way is to give them pocket money and then help them to analyse and learn from any foolish spending decisions."
+        },
+        {
+          "label": "H",
+          "text": "Another is through board games which can help teach financial responsibility. Pop to the Shops, a shopping board game for five-to-nine-year-olds, has been one of Orchard Toys' top 10 bestselling board games every year for the past 15 years. To win, players must use fake coins to purchase everyday grocery items from various shops around the board, and give the other players who visit their shop the correct change. If they don't have enough money, they must purchase a cheaper item. \"It acts as a conversation starter about money—parents can fill in the gaps,\" says Orchard Toys product manager Rachael Sutcliffe."
+        },
+        {
+          "label": "I",
+          "text": "There are also some pocket-money-tracking and payment apps, such as RoosterMoney and goHenry, which are designed to be used by under-sevens, and which boast that they can help children develop good money habits. This is dependent on the children receiving enough pocket money to need an app to track their spending, which research suggests is not always the case."
+        },
+        {
+          "label": "J",
+          "text": "Surprisingly, given the research about habit-forming in young children, there are very few gaming apps that can help under-sevens—Pigby's Fair, developed by NatWest, being a notable exception. In this, children who solve basic puzzles will earn virtual money selling what they have made at different stalls in a fair, then spend or save it. But the need to shift virtual money around, and take into account interest payments and pocket money bonuses, makes it a complex financial education tool."
+        },
+        {
+          "label": "K",
+          "text": "There are plenty of online games which focus on coin recognition and counting with money, such as the Igloo Shopping game or Top Marks' Coins Game. So what if children find such games boring? An exciting (and free) real-world option for parents to use is a visit to Metro Bank. Although, like most banks, it does not allow children to open an account until they turn 11, it specifically tries to offer young children a chance to learn about money inside its branches by inviting kids to use the \"magic money machines\" to count their coins. Children who accurately guess how much was in their piggy bank(猪形储钱罐) get a prize, and free candies are handed out when the coins are exchanged for banknotes. The bank does not take a commission from the transaction."
+        },
+        {
+          "label": "L",
+          "text": "At six years old, my daughter Flora is getting to grips with her finances early. She tested out a number of games aimed at teaching children her age the value of money. She enjoyed them all, but best, in her view, is Money Match Cafe, a board game where she must work out the value of different denominations(面额) of coin in her imaginary restaurant, her \"customers\" being her stuffed toys. \"It was really fun because you get to serve food to your own toys on a little tray with a napkin on it, and then you can hug them,\" she says."
+        },
+        {
+          "label": "M",
+          "text": "\"If you're six and you play this game, you'll learn that you might not have the right amount of money for what you want to buy. You just have to cross your fingers and hope. It's a good challenge, and I enjoyed adding the coins up to see how much they made. But I don't like the name. Money Match Cafe is not a good name for a cafe. I would have liked it more if it had been Flora's Cafe or Fantastically Baked Lunches.\" N) Seven out of ten teachers think children are now faced with financial decisions earlier. On Wednesday, Lifesavers—a new project which promotes financial education in primary schools—is hosting a conference to encourage teachers to join its programme and get free classroom resources and training. Almost two-thirds of millennials(千禧一代) wish they had received more money advice at a younger age, according to a Santander survey. O) Only a third of parents involve their children in discussions about their household finances, even though less than half of young people aged seven to seventeen receive financial education at school, another survey shows. P) Most adults believe their parents have had the biggest influence on their money behaviour. So when should they start trying to instil(灌输) good habits? As early as possible before the age of seven, research suggests."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 On a warm October morning, Daniel Agok woke up to another disappointing day at his school in Wanyjok, South Sudan. The classes he had planned teaching computer skills to aspiring young professionals were canceled, due to an unreliable diesel generator and the absence of a municipal power grid in his area. Now, he would be losing frustrated customers as well as income. Agok is just one of the hundreds of millions of people in sub-Saharan Africa, many of whom are business owners, who still do not have dependable electricity. This inequitable access to energy continues to put their livelihood and future at risk.\n\nP2 The current system keeps a lid on the economic talents of people like Agok and his students. We must instead unleash their abilities and let Africa reach its true economic potential. That means wiring Africa with clean, dependable energy. Questions 51 to 55 are based on the following passage.\n\nP3 Historically, national governments on the continent have led electrification efforts, but fewer than half of the people surveyed say that the national grid is providing a reliable supply of electricity.\n\nP4 This has led to expensive and harmful temporary \"solutions\". In Nigeria alone experts estimate people spend $13 billion every year on fuel for toxic, polluting generators. That number will only grow as the continent's population hits 2.5 billion people by 2050. Deploying modern grid infrastructure with speed and at scale is essential to replacing these temporary solutions with reliable and affordable alternatives.\n\nP5 The rapidly growing private power sector in Africa holds the key to achieving the speed and scale necessary to close the continent's energy access gap. Private companies today are building world- class infrastructure and driving forward economic growth with sustainable business models. In fact, many governments agree and have begun to embrace the private sector as partners in providing reliable power at scale. In South Africa, President Cyril Ramaphosa has streamlined licensing requirements and enlisted the private sector to play a key role.\n\nP6 South Africa is just one example. Across the continent, the private sector has delivered power faster and more reliably, and governments are increasingly turning to private partners.\n\nP7 With the right funding and structure in place, the private sector will come together to provide this essential service. After all, electrifying sub-Saharan Africa is a $350 billion opportunity.\n\nP8 Today, Daniel Agok is steadily growing his business in South Sudan. His town of Wanyjok was electrified by a private company, providing clean, reliable, and affordable power to his business and his neighbors. Agok now operates his growing computer skills training business smoothly. His classes are no longer affected by the smell and the constant noise of the diesel generator, and he saves money with more affordable power. His students are developing hardware and software skills.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "On a warm October morning, Daniel Agok woke up to another disappointing day at his school in Wanyjok, South Sudan. The classes he had planned teaching computer skills to aspiring young professionals were canceled, due to an unreliable diesel generator and the absence of a municipal power grid in his area. Now, he would be losing frustrated customers as well as income. Agok is just one of the hundreds of millions of people in sub-Saharan Africa, many of whom are business owners, who still do not have dependable electricity. This inequitable access to energy continues to put their livelihood and future at risk."
+        },
+        {
+          "label": "P2",
+          "text": "The current system keeps a lid on the economic talents of people like Agok and his students. We must instead unleash their abilities and let Africa reach its true economic potential. That means wiring Africa with clean, dependable energy. Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "label": "P3",
+          "text": "Historically, national governments on the continent have led electrification efforts, but fewer than half of the people surveyed say that the national grid is providing a reliable supply of electricity."
+        },
+        {
+          "label": "P4",
+          "text": "This has led to expensive and harmful temporary \"solutions\". In Nigeria alone experts estimate people spend $13 billion every year on fuel for toxic, polluting generators. That number will only grow as the continent's population hits 2.5 billion people by 2050. Deploying modern grid infrastructure with speed and at scale is essential to replacing these temporary solutions with reliable and affordable alternatives."
+        },
+        {
+          "label": "P5",
+          "text": "The rapidly growing private power sector in Africa holds the key to achieving the speed and scale necessary to close the continent's energy access gap. Private companies today are building world- class infrastructure and driving forward economic growth with sustainable business models. In fact, many governments agree and have begun to embrace the private sector as partners in providing reliable power at scale. In South Africa, President Cyril Ramaphosa has streamlined licensing requirements and enlisted the private sector to play a key role."
+        },
+        {
+          "label": "P6",
+          "text": "South Africa is just one example. Across the continent, the private sector has delivered power faster and more reliably, and governments are increasingly turning to private partners."
+        },
+        {
+          "label": "P7",
+          "text": "With the right funding and structure in place, the private sector will come together to provide this essential service. After all, electrifying sub-Saharan Africa is a $350 billion opportunity."
+        },
+        {
+          "label": "P8",
+          "text": "Today, Daniel Agok is steadily growing his business in South Sudan. His town of Wanyjok was electrified by a private company, providing clean, reliable, and affordable power to his business and his neighbors. Agok now operates his growing computer skills training business smoothly. His classes are no longer affected by the smell and the constant noise of the diesel generator, and he saves money with more affordable power. His students are developing hardware and software skills."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 Three artists have brought a lawsuit against Stability AI, DeviantArt, and Midjourney, alleging that the text-to-image AI tools have infringed the rights of thousands of artists.\n\nP2 The lawsuit claims that the Stable Diffusion tool used by Stability AI, DeviantArt, and Midjourney was trained on billions of copyrighted images downloaded from the internet and used by the companies \"without compensation or consent from the artists.\"\n\nP3 The artists are represented by The Joseph Saveri Law Firm and Matthew Butterick. 这些艺术家由 The Joseph Saveri Law Firm 和 Matthew Butterick 代理。\n\nP4 \"If Stable Diffusion and similar products are allowed to continue to operate as they do now, the foreseeable result is they will replace the very artists whose stolen works power these AI products with whom they are competing,\" the law firm wrote in a press release. \"AI image products are not just an infringement of artists' rights; they will eliminate 'artist' as a viable career path. In addition to obtaining compensation for the wrongful conduct, this lawsuit seeks to prevent that outcome and ensure these Questions 46 to 50 are based on the following passage. products follow the same rules as any other new technology that involves the use of massive amounts of intellectual property. If streaming music can be accomplished within the law, so can AI products.\"\n\nP5 Since text-to-image generators have increased in popularity in the past year, many artists have been vocalizing their opposition to AI art after seeing their own distorted signatures appear in AI art and finding out that their work was used to train the tools without their permission.\n\nP6 Not only are many artists furious at the possible copyright violations of AI art, but they have also been frustrated by how AI tools are able to sidestep the labor and art processes they are required to go through. As a result, many artists have been trying to ban AI art from art-sharing platforms.\n\nP7 As AI innovation continues at a rapid speed, it seems that artists and lawmakers are trying to put a brake on further developments before it's too late.\n\nP8 Many tech enthusiasts are still rallying around the promise of AI tools to create detailed images cheaply and quickly—anonymous tech supporters have already published a response to Butterick and Joseph Saveri's lawsuit on a website, using the \"fair use\" clause as the basis for why copyrighted images could be used by the tool.\n\nP9 Fair use, a legal doctrine that allows for a limited usage of copyrighted materials without permission by the original creators for purposes such as teaching and news sharing, is what a lot of generative model creators claim that their training data is covered by. However, since fair use applies differently to each case, it's hard to make a blanket statement about all works in a dataset as being applicable.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "Three artists have brought a lawsuit against Stability AI, DeviantArt, and Midjourney, alleging that the text-to-image AI tools have infringed the rights of thousands of artists."
+        },
+        {
+          "label": "P2",
+          "text": "The lawsuit claims that the Stable Diffusion tool used by Stability AI, DeviantArt, and Midjourney was trained on billions of copyrighted images downloaded from the internet and used by the companies \"without compensation or consent from the artists.\""
+        },
+        {
+          "label": "P3",
+          "text": "The artists are represented by The Joseph Saveri Law Firm and Matthew Butterick. 这些艺术家由 The Joseph Saveri Law Firm 和 Matthew Butterick 代理。"
+        },
+        {
+          "label": "P4",
+          "text": "\"If Stable Diffusion and similar products are allowed to continue to operate as they do now, the foreseeable result is they will replace the very artists whose stolen works power these AI products with whom they are competing,\" the law firm wrote in a press release. \"AI image products are not just an infringement of artists' rights; they will eliminate 'artist' as a viable career path. In addition to obtaining compensation for the wrongful conduct, this lawsuit seeks to prevent that outcome and ensure these Questions 46 to 50 are based on the following passage. products follow the same rules as any other new technology that involves the use of massive amounts of intellectual property. If streaming music can be accomplished within the law, so can AI products.\""
+        },
+        {
+          "label": "P5",
+          "text": "Since text-to-image generators have increased in popularity in the past year, many artists have been vocalizing their opposition to AI art after seeing their own distorted signatures appear in AI art and finding out that their work was used to train the tools without their permission."
+        },
+        {
+          "label": "P6",
+          "text": "Not only are many artists furious at the possible copyright violations of AI art, but they have also been frustrated by how AI tools are able to sidestep the labor and art processes they are required to go through. As a result, many artists have been trying to ban AI art from art-sharing platforms."
+        },
+        {
+          "label": "P7",
+          "text": "As AI innovation continues at a rapid speed, it seems that artists and lawmakers are trying to put a brake on further developments before it's too late."
+        },
+        {
+          "label": "P8",
+          "text": "Many tech enthusiasts are still rallying around the promise of AI tools to create detailed images cheaply and quickly—anonymous tech supporters have already published a response to Butterick and Joseph Saveri's lawsuit on a website, using the \"fair use\" clause as the basis for why copyrighted images could be used by the tool."
+        },
+        {
+          "label": "P9",
+          "text": "Fair use, a legal doctrine that allows for a limited usage of copyrighted materials without permission by the original creators for purposes such as teaching and news sharing, is what a lot of generative model creators claim that their training data is covered by. However, since fair use applies differently to each case, it's hard to make a blanket statement about all works in a dataset as being applicable."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence \"Faced with growing globalization,students realize that a deep understanding of traditional Chinese culture helps cultivate cultural confidence.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. You should copy the sentence given in quotes at the beginning of your essay.",
+      "model": "Faced with growing globalization,students realize that a deep understanding of traditional Chinese culture helps cultivate cultural confidence. In an age when Western brands, movies and festivals flood daily life, many young people begin to look back at their own roots. They find that cultural confidence cannot be borrowed from outside; it must grow from real knowledge of what their ancestors created. The reason is not hard to understand. Globalization exposes us to different values, yet it also makes us question who we are. Only by learning the ideas behind Confucianism, the beauty of calligraphy, or the spirit of traditional festivals can we answer that question with pride. Take the Spring Festival as an example: those who understand its meaning of reunion and renewal celebrate it not out of habit, but out of identity. Therefore, college students should actively read classics, visit museums and practice folk arts. The deeper we understand traditional Chinese culture, the more confident we become in facing the world.",
+      "modelZh": "【参考译文】面对日益增长的全球化，学生们意识到深入理解中国传统文化有助于培养文化自信。在这个西方品牌、电影和节日充斥着日常生活的时代，许多年轻人开始回望自己的文化根脉。他们发现文化自信无法从外界借来，而必须建立在对先辈所创造文化的真正了解之上。其原因不难理解。全球化让我们接触到不同的价值观，但也让我们反思自己是谁。只有了解儒家思想背后的理念、书法之美或传统节日的精神，我们才能自豪地回答这个问题。以春节为例：真正理解其团圆与更新内涵的人，庆祝春节不是出于习惯，而是出于身份认同。因此，大学生应积极阅读经典、参观博物馆并参与民俗艺术实践。我们对中国传统文化理解得越深入，在面对世界时就越自信。【第 1 段】照抄首句并解释现象。本段首句逐字照抄题目要求，随后用 In an age when ... flood dailylife 把全球化背景具体化，再用同义解释点明文化自信源于对传统文化的真实了解，完成了现象引入的功能。【第 2 段】因果链+春节例证。本段使用“先论点—原因—例子—回扣”四步展开：先用 The reason isnot hard to understand 承上启下，再用 Only by ... can we ... 强调传统文化理解的必要性，最后用春节的例子把抽象道理落到具体可感的习俗上。【第 3 段】行动呼吁+升华。本段用 Therefore 引出大学生的具体行动，再用 The deeper ... the moreconfident ... 句架把主题从个人行为升华到面对世界的文化自信，呼应首句并收束全文。",
+      "outline": [
+        {
+          "no": 1,
+          "text": "照抄首句并解释现象。本段首句逐字照抄题目要求，随后用 In an age when ... flood daily life 把全球化背景具体化，再用同义解释点明文化自信源于对传统文化的真实了解，完成了现象引入的 功能。"
+        },
+        {
+          "no": 2,
+          "text": "因果链+春节例证。本段使用“先论点—原因—例子—回扣”四步展开：先用 The reason is not hard to understand 承上启下，再用 Only by ... can we ... 强调传统文化理解的必要性，最后用春 节的例子把抽象道理落到具体可感的习俗上。"
+        },
+        {
+          "no": 3,
+          "text": "行动呼吁+升华。本段用 Therefore 引出大学生的具体行动，再用 The deeper ... the more confident ... 句架把主题从个人行为升华到面对世界的文化自信，呼应首句并收束全文。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 近年来，中国无人机(drone) 产业蓬勃发展，出口量跃升为全球第一。中国的无人机以出色的稳 定性、高清 (high-definition)拍摄能力和便捷的操作，受到全球消费者的喜爱，在民用领域得到广泛应 用。无人机已被国家纳入战略性新兴产业，逐步成为能满足多种场景需求的智能助手。在农村，无人 机可精准识别农作物病虫害，高效喷洒农药。在城市，无人机可快速运送生鲜食品。在不久的将来， 无人机能够在更多领域实现其独特价值，为经济社会发展注入新动能。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 In recent years, China's drone industry has been booming, with its export volume ranking first in the world. Chinese drones are popular with consumers around the world for their excellent stability, high- definition shooting capability and convenient operation, and have been widely used in civilian fields. Drones have been included by the state in strategic emerging industries, and are gradually becoming intelligent assistants that can meet the needs of various scenarios. In rural areas, drones can accurately identify crop diseases and pests, and efficiently spray pesticides. In cities, drones can quickly deliver fresh food. In the near future, drones will be able to realize their unique value in more fields, injecting new momentum into economic and social development.",
+      "source": "近年来，中国无人机(drone) 产业蓬勃发展，出口量跃升为全球第一。中国的无人机以出色的稳定性、高清 (high-definition)拍摄能力和便捷的操作，受到全球消费者的喜爱，在民用领域得到广泛应用。无人机已被国家纳入战略性新兴产业，逐步成为能满足多种场景需求的智能助手。在农村，无人机可精准识别农作物病虫害，高效喷洒农药。在城市，无人机可快速运送生鲜食品。在不久的将来，无人机能够在更多领域实现其独特价值，为经济社会发展注入新动能。",
+      "reference": "In recent years, China's drone industry has been booming, with its export volume ranking first in the world. Chinese drones are popular with consumers around the world for their excellent stability, high- definition shooting capability and convenient operation, and have been widely used in civilian fields. Drones have been included by the state in strategic emerging industries, and are gradually becoming intelligent assistants that can meet the needs of various scenarios. In rural areas, drones can accurately identify crop diseases and pests, and efficiently spray pesticides. In cities, drones can quickly deliver fresh food. In the near future, drones will be able to realize their unique value in more fields, injecting new momentum into economic and social development.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "产业蓬勃发展立为主谓，出口量降级（主语策略：原句主语） 取中国无人机(drone) 产业蓬勃发展为主干：主语 China's drone industry，谓语 has developed rapidly / has been booming。出口量跃升为全球第一是伴随的另一层信息，不抢谓语位置。"
+          },
+          {
+            "label": "降级",
+            "text": "出口量分句降级为 with 结构 出口量跃升为全球第一与主句主语不同（换成了\"出口量\"），最省力的地道处理是降级为 with 独 立结构：with its export volume ranking first in the world，用 its 回指产业，避免再造一个并 列整句。近年来放句首作时间状语 In recent years。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 近年来是\"从过去持续到现在\"的标记，本句偏离全篇一般现在时基调，用现在完成时 has developed / has been booming；这正是通读时圈出的偏离点之一。 单复数 export volume（出口量）作不可数概念用单数；ranking 的逻辑主语是 volume，用单数名词即 可。 专名统一 主语按 glossary 定稿写 China's drone industry，全篇首现即锁定，后文不再另译。"
+          },
+          {
+            "label": "译文",
+            "text": "In recent years, China's drone industry has been booming, with its export volume ranking first in the world. 2. 中国的无人机以出色的稳 定性、高清 (high-definition)拍摄能力和便捷的操作，受到全球消费 者的喜爱，在民用领域得到广泛应用。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "无人机受到喜爱立为被动主谓（主语策略：转被动） 中文受到全球消费者的喜爱里\"无人机\"是动作的承受者，英文主语用 Chinese drones，谓语用被 动色彩的 are popular with / are favored by，承受者提作主语；在民用领域得到广泛应用同样 是\"得到……应用\"，被动共享同一主语，接成 and have been widely used。"
+          },
+          {
+            "label": "降级",
+            "text": "\"以……\"三个名词短语降级为 for 原因状语 以出色的稳 定性、高清 (high-definition)拍摄能力和便捷的操作是受喜爱的原因，降级为 for + 三 个并列名词短语：for their excellent stability, high-definition shooting capability and convenient operation；三个短语保持名词性词性一致，别一个写成从句一个写成短语。在民用领 域得到广泛应用降级为并列谓语 and have been widely used in civilian fields。"
+          },
+          {
+            "label": "语法",
+            "text": "语态 \"受到喜爱\"\"得到应用\"两处都须落实被动：are popular with / have been widely used；主体考 生最易把\"得到广泛应用\"漏译成主动 use widely，主客颠倒。 单复数 无人机此处泛指一类产品，drones 用复数；对应物主代词用 their，三处名词短语 stability（不可 数）、capability（单数）、operation（单数）各按其可数性处理。 并列一致 for 后三个名词短语词性对齐：stability / shooting capability / operation 都是名词性，不要混 进形容词或从句。 时态 陈述普遍事实，回全篇基调用一般现在时 are popular；后半\"得到应用\"表截至目前的状态，用现 在完成时被动 have been widely used，属有据偏离。"
+          },
+          {
+            "label": "译文",
+            "text": "Chinese drones are popular with consumers around the world for their excellent stability, high-definition shooting capability and convenient operation, and have been widely used in civilian fields. 3. 无人机已被国家纳入战略性新兴产业，逐步成为能满足多种场景需求的智能助手。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "无人机被纳入立为被动主干（主语策略：转被动） 已被国家纳入战略性新兴产业的施事是\"国家\"、承受者是\"无人机\"，英文把承受者提作主语： Drones have been included by the state in strategic emerging industries；后半逐步成为能满 足多种场景需求的智能助手主语仍是无人机，接并列谓语 and are gradually becoming intelligent assistants。"
+          },
+          {
+            "label": "降级",
+            "text": "长定语\"能满足……的\"降级为定语从句 能满足多种场景需求的是长定语，中文搁在\"智能助手\"前，英文形合不允许长定语前置，降级为后 置定语从句 that can meet the needs of various scenarios 挂在 assistants 后；逐步译副词 gradually 嵌进第二个谓语。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"已\"字是完成时标记，have been included 用现在完成时被动，呼应通读时圈出的偏离点；后 半\"逐步成为\"是进行中的趋势，用现在进行时 are becoming。 语态 \"被纳入\"必须落实为 be included in；注意英文被动使用率远高于中文\"被\"字句，这里照译被动正 好地道。 介词搭配 \"纳入……（行列）\"搭配 be included in / be incorporated into；strategic emerging industries 按 glossary 定稿，industries 用复数。"
+          },
+          {
+            "label": "译文",
+            "text": "Drones have been included by the state in strategic emerging industries, and are gradually becoming intelligent assistants that can meet the needs of various scenarios. 4. 在农村，无人机可精准识别农作物病虫害，高效喷洒农药。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "无人机带两个并列谓语（主语策略：原句主语） 主语明确：drones；精准识别农作物病虫害与高效喷洒农药是同一主语的两个能力，留作 and 连 接的并列谓语 can accurately identify ... and efficiently spray ...，不必再降级。"
+          },
+          {
+            "label": "降级",
+            "text": "地点状语前置，简单句无需多拆 在农村译 In rural areas 置句首作地点状语；两个动词宾语结构工整，本就是并列谓语的天然材 料，保持 and 连接即可，属\"该平铺时才平铺\"的情形。"
+          },
+          {
+            "label": "语法",
+            "text": "单复数 农作物病虫害按 glossary 译 crop diseases and pests，diseases、pests 均复数表泛指；\"农 药\"pesticides 此处泛指各类农药用复数（或不可数 pesticide），二者取一、全句统一。 词性 \"精准\"\"高效\"修饰动词，用副词 accurately / efficiently，别用形容词 accurate / efficient 直接贴 动词。 时态 表能力，回基调用一般现在时 + 情态动词 can，can 后两动词都用原形 identify / spray。"
+          },
+          {
+            "label": "译文",
+            "text": "In rural areas, drones can accurately identify crop diseases and pests, and efficiently spray pesticides. 5. 在城市，无人机可快速运送生鲜食品。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "无人机运送食品，主谓宾齐全（主语策略：原句主语） 主语 drones，谓语 can deliver，宾语 fresh food；在城市与快速分别为地点、方式状语，句子本 身就是标准主谓宾，无需补主语或转被动。"
+          },
+          {
+            "label": "降级",
+            "text": "简单句直译，与上句保持对仗 本句成分单一无需降级；唯一要做的是与上一句在农村对仗：上句用 In rural areas 开头，本句用 In cities 开头，保留中文的平行结构，这是白送的连贯分。"
+          },
+          {
+            "label": "语法",
+            "text": "词义选词 \"运送（食品）\"用 deliver（配送上门）而非 transport（大宗运输），贴合生活场景；生鲜食品译 fresh food 即可，不必硬造 fresh-keeping food。 单复数 food 此处作不可数集合概念用单数；drones 复数与全篇一致。"
+          },
+          {
+            "label": "译文",
+            "text": "In cities, drones can quickly deliver fresh food. 6. 在不久的将来，无人机能够在更多领域实现其独特价值，为经济社会发展注入新动能。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "无人机实现价值立为主谓宾（主语策略：原句主语） 主语 drones，谓语 will be able to realize，宾语 their unique value（实现其独特价值），状语 in more fields（在更多领域）；在不久的将来是将来时信号，谓语先按 will 写。"
+          },
+          {
+            "label": "降级",
+            "text": "\"为……注入动能\"降级为 doing 结果状语 为经济社会发展注入新动能是实现价值带来的结果，主语仍是无人机，降级为现在分词短语 injecting new momentum into economic and social development 挂主句后，用逗号隔开；不 要再起 and 并列句，分词结构才显出\"实现价值 带动发展\"的因果层次。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 在不久的将来明确指向未来，本句偏离基调用一般将来时 will be able to；doing 短语 injecting 不涉及时态变化，随主句即可。 代词 \"其独特价值\"的\"其\"回指 drones，用 their unique value，代词单复数与先行词一致。 介词搭配 注入新动能按 glossary 用 inject new momentum into...；\"经济社会发展\"合译 economic and social development，development 不可数。"
+          },
+          {
+            "label": "译文",
+            "text": "In the near future, drones will be able to realize their unique value in more fields, injecting new momentum into economic and social development. 英语六级 2026年6月·第3套 · 全卷构成 Part II 听力 与2026年6月第1套共用 · 题目解析 → Part III Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "no-audio",
+    "passage-truncated"
+  ]
+}

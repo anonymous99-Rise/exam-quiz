@@ -1,0 +1,2309 @@
+{
+  "id": "2024-12-3",
+  "examId": "cet6",
+  "year": 2024,
+  "month": 12,
+  "session": "2024下半年",
+  "setNo": 3,
+  "label": "2024年12月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "a high infant __(26)__ rate",
+      "answer": "J",
+      "answerText": "mortality",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "形容词后的名词中心词"
+        },
+        {
+          "label": "依据",
+          "text": "高频固定搭配——婴儿死亡率 infant mortality rate 是描述发展中国家健康指标的标准术语，意为'婴儿死亡率'。它与前 文a low life expectancy（低预期寿命）并列，共同刻画发展中国家的医疗卫生困境，语义 完全自洽。"
+        },
+        {
+          "label": "竞争词",
+          "text": "B) casualty casualty 主指事故伤亡，不与 rate 常配 casualty 多用于战争/事故场景（如交通事故伤亡），与婴儿在出生/成长阶段的死亡话题不匹 配；且 infant casualty rate 不是固定术语，正确的固定术语是 infant mortality rate。 32 33 34 35"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Others live __(27)__ wealthy and luxurious lives",
+      "answer": "H",
+      "answerText": "incredibly",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "修饰形容词的空——副词"
+        },
+        {
+          "label": "依据",
+          "text": "修饰程度——极其富裕奢华 上下文要表达富人'极其富裕奢华'的生活，与下句still much more than most people would expect to earn in their lifetime的'远超普通人想象'相呼应，需要一个程度副词来强 化形容词，incredibly（极其、难以置信地）正是程度修饰。"
+        },
+        {
+          "label": "竞争词",
+          "text": "N) sceptically 态度副词不可修饰程度 sceptically 表'怀疑地'，是表说话/看待事物的态度副词，无法修饰 wealthy/luxurious 这种性质 形容词；说'怀疑地富有'语义不通。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "so the wealth is distributed in a very __(28)__ manner",
+      "answer": "O",
+      "answerText": "unequal",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "限定词 a + 空 + 名词 manner——形容词"
+        },
+        {
+          "label": "依据",
+          "text": "贫富悬殊——不平等的分配方式 前文About 23% of the global population lives in absolute poverty.与本句Others live __(27)__ wealthy and luxurious lives共同刻画极端贫富对比，得出'财富分配极不平等'的结 论；unequal'不平等的'最直接命中此语义。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) hierarchical 义近但侧重'等级'而非'不均' hierarchical 强调按层级/等级排列，描述组织结构（如公司、社会阶层）；财富'分配方式'用'等 级制的'不如'不平等的'贴切，且本段语境强调'贫富两极'而非'层级'。 G) immediate '立刻的'与分配方式不搭 immediate 表'立刻、直接'，与财富分配的'公平/不公平'话题无关，搭配 manner 也不形成有意 义短语。 I) moderate 感情色彩反向 moderate 表'适中、温和'，与上文'富人极奢、穷人绝对贫困'的强烈对比语义相反，方向错误。 K) overt 强调'公开/明显'而非'不公' overt 只表示是否公开，不评价分配公正与否；语义与贫富悬殊话题不对齐。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 F) —— hierarchical 蒙混'分层分配'。看到wealth is distributed in a very __(28)__ manner很容易因为'分配'联想到'层级'而选hierarchical。防坑：看 上一句的对比方向——'极穷 vs 极富'要的是'不公平'，是 unequal，不是描述层级结构 的 hierarchical。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "We all __(29)__ when very rich people pledge to give away most of their billions",
+      "answer": "A",
+      "answerText": "applaud",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "主语后缺谓语——动词"
+        },
+        {
+          "label": "依据",
+          "text": "对捐赠之举的正向反应——称赞 上下文是'当富豪承诺捐出大部分财产时，我们都会 ___'，普通人对慷慨捐赠的自然反应是赞 许；下半句but they are usually left with millions to pass on用 but 转折，暗示前半句是 正面态度，applaud（称赞、鼓掌）恰好提供这种正面反应。"
+        },
+        {
+          "label": "竞争词",
+          "text": "C) exclude 及物动词缺宾语且语义不符 exclude 意为'排除'，需要宾语（exclude sb./sth.），本空后直接接 when 从句没有宾语；且'我 们排除（什么）当富人捐款时'语义完全不通。 E) group 动词义不搭对象 group 作动词表'归类、聚集'，同样需要宾语，且'我们归类当富人捐款时'语义荒谬，与上下文 的'反应'语义不契合。 M) probe 调查义与情感反应不符 probe 意为'探查、深入调查'，常用于侦查/科研语境；这里要表达普通人对富豪行为的即时情绪 反应，不需要也不可能是'调查'。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Even comparatively __(30)__ salaries in the west are very high when compared globally.",
+      "answer": "I",
+      "answerText": "moderate",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "comparatively + 空 + 名词 salaries——形容词"
+        },
+        {
+          "label": "依据",
+          "text": "相对中等的工资仍属全球高位 本句逻辑是'即使西方相对___的工资全球比较仍很高'，用 even 让步：空位的形容词应表'不 算高、中等'的程度。moderate 表'适中、中等'恰好与后面 are very high when compared globally 的让步形成对照——西方人觉得普通，全球看仍高。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) hierarchical '等级制的'不评价工资高低 hierarchical 形容结构，不形容工资数额，与'相对'这个程度副词也搭不上。 G) immediate '即时/直接的'不评价工资数额 immediate 描述时间或空间近距离，与工资数额的高低无关；'相对即时的工资'语义不通。 K) overt '公开的'非数额评价词 overt 强调'公开/明显'，与工资'高低/多少'话题无关。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 F) —— 把 even 让步读反。Even comparatively __(30)__ salaries in the west are very high里 even 是让步：'即使相对___的工资也很高'。读快了容易 往'高'方向选词，从而被hierarchical或别的形容词迷惑。防坑：even ... still/very + 强 前面是弱（中等/适中），选moderate。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Most people agree that giving to charity is morally __(31)__",
+      "answer": "L",
+      "answerText": "praiseworthy",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "系动词 is + morally + 空——形容词作表语"
+        },
+        {
+          "label": "依据",
+          "text": "道德褒义——值得称赞 morally praiseworthy 意为'道德上值得称赞'，正好对应'多数人认为捐款值得称许'。下文 but 转折说charitable behaviour tends to be regarded as above and beyond the call of duty（被视为超出本分），这种'分外的善举'恰是 praiseworthy 而非 required。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) hierarchical '等级制的'与道德评价不挂钩 hierarchical 描述结构等级，无法被 morally 修饰，'道德上等级制'语义不通。 G) immediate '立刻的'与道德评价不在同一维度 immediate 表时间/空间近，不是道德褒贬词，'道德上立刻的'语义不成立。 I) moderate '适中的'非道德评价词 moderate 描述程度适中，与'值得称赞'相去甚远，不构成对慈善的道德评价。 K) overt '公开的'非道德属性 overt 强调'公开、明显'，无道德褒贬色彩，'道德上公开'不通。 O) unequal '不平等的'反向语义 unequal 是负面评价词，且通常修饰资源/机会分布；评价捐款本身'道德不平等'语义不通且方向 相反。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "they may also refer to giving time within one's __(32)__ community",
+      "answer": "G",
+      "answerText": "immediate",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "形容词性物主代词 one's + 空 + 名词 community——形容词作定语"
+        },
+        {
+          "label": "依据",
+          "text": "固定搭配——身边/直系的社区 immediate community 是常见搭配，意为'身边的、直接所在的社区'，与上文giving aid to poorer nations（对外远方的援助）相对，构成'远（poorer nations）vs 近 （immediate community）'的对照。immediate 在这里取'紧邻、直接的'义。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) hierarchical 等级制的社区与捐时间无关 hierarchical community 强调社区按等级排列，与'在身边社区内贡献时间'毫无关联，方向 跑偏。 K) overt '公开的社区'语义空洞 overt community 不是常见搭配，'公开的社区'也不切合'就近行善'的语境；命题点是远近对 照，不是公开与否。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Arguments tend to place different requirements on people in different income brackets and __(33)__ entirely people who are merely making ends meet.",
+      "answer": "C",
+      "answerText": "exclude",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "并列连词 and 后缺谓语——动词"
+        },
+        {
+          "label": "依据",
+          "text": "把'仅能维持生计者'整体排除在外 句意是'各种论点对不同收入档提出不同要求，并把仅能维持生计的人完全 ___'。entirely （完全地）+ people who are merely making ends meet（仅能维持生计的人）暗示这一 群人被'排除'在道德要求之外——经济上自顾不暇，自然不被要求捐款。exclude entirely 是常见搭配。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) group '归类'与 entirely 矛盾 group 作动词表'把……归为一类'，但'完全地归类他们'语义不通，且对'仅能维持生计的人'怎么归 类与整句逻辑（区别对待不同收入者）不对接。 M) probe '调查'与道德要求语境无关 probe 是'探查、调查'，与本段讨论'谁该被要求捐款'的道德分配话题无关；'完全调查他们'也不 构成与前句的逻辑延伸。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "I will __(34)__ together all those arguments that place a moral requirement on people to give to charity",
+      "answer": "E",
+      "answerText": "group",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "情态动词 will + 空——动词原形"
+        },
+        {
+          "label": "依据",
+          "text": "把众多论点'归在一起'——group together group together 是固定搭配，意为'把……归为一组、合在一起'。本句意为'我将把所有把道 德要求加在人们头上的论点归为一组'，对应作者要做的概括综合工作。与上文'尽管在程度 上分歧很大'呼应：先归类再综合讨论。"
+        },
+        {
+          "label": "竞争词",
+          "text": "M) probe probe 与 together 不形成固定搭配 probe together 不是常见搭配；probe 多用于'深入调查（具体事件）'，与'把多种论点归在一 起综合讨论'语义不合。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "there is wide disagreement as to the __(35)__ of that moral requirement",
+      "answer": "D",
+      "answerText": "extent",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "the + 空 + of——名词作 of 短语中心词"
+        },
+        {
+          "label": "依据",
+          "text": "争议的是'程度/范围' 上文Arguments tend to place different requirements on people in different income brackets显示各派对'要捐多少、捐到什么程度'分歧很大；the extent of that moral requirement 即'这一道德要求的程度'，正切合 wide disagreement 的对象——多大程度 上必须捐、捐多少。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) group '群组'与'道德要求'不构成 of 搭配 the group of that moral requirement 不是合法表达，group 在此语义下指人/事物的集合，与 抽象的'道德要求的程度'不沾边。 M) probe '调查'与'分歧的对象'不匹配 probe 作名词指'调查、探究'，the probe of that moral requirement 是'对该道德要求的调 查'，但句意是'对该要求的___存在广泛分歧'——分歧的对象应是要求的'程度'，而不是某次 调查。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "applaud",
+        "B": "casualty",
+        "C": "exclude",
+        "D": "extent",
+        "E": "group",
+        "F": "hierarchical",
+        "G": "immediate",
+        "H": "incredibly",
+        "I": "moderate",
+        "J": "mortality",
+        "K": "overt",
+        "L": "praiseworthy",
+        "M": "probe",
+        "N": "sceptically",
+        "O": "unequal"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "applaud"
+        },
+        {
+          "label": "B",
+          "text": "casualty"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extent"
+        },
+        {
+          "label": "E",
+          "text": "group"
+        },
+        {
+          "label": "F",
+          "text": "hierarchical"
+        },
+        {
+          "label": "G",
+          "text": "immediate"
+        },
+        {
+          "label": "H",
+          "text": "incredibly"
+        },
+        {
+          "label": "I",
+          "text": "moderate"
+        },
+        {
+          "label": "J",
+          "text": "mortality"
+        },
+        {
+          "label": "K",
+          "text": "overt"
+        },
+        {
+          "label": "L",
+          "text": "praiseworthy"
+        },
+        {
+          "label": "M",
+          "text": "probe"
+        },
+        {
+          "label": "N",
+          "text": "sceptically"
+        },
+        {
+          "label": "O",
+          "text": "unequal"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "People became more and more reliant on others for basic needs as they entered the modern world even though they might feel less so. 【定位】Each person became more and more dependent on others for their basic needs. And yet, robbed of the engagement with our neighbors and with our local communities that our ancestors were forced into by circumstance, we feel ourselves to be more and more independent of one another. As we become more and more dependent on others, we become less and less conscious of our dependence on others. This is the paradox of trade in the modern world.",
+      "answer": "G",
+      "answerText": "G 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Each person became more and more dependent on others for their basic needs. And yet, robbed of the engagement with our neighbors and with our local communities that our ancestors were forced into by circumstance, we feel ourselves to be more and more independent of one another. As we become more and more dependent on others, we become less and less conscious of our dependence on others. This is the paradox of trade in the modern world. 每个人对他人满足自己基本需求的依赖越来越深。然而，我们被剥夺了先祖因环境所迫而与 邻里和本地社区的日常往来，反而觉得自己越来越独立。我们对他人越发依赖，却越发意识 不到这种依赖。这就是现代世界贸易的悖论。"
+        },
+        {
+          "label": "改写",
+          "text": "reliant on others for basic needs as they entered the modern world ↔ Each person became more and more dependent on others for their basic needs 同义词替换 even though they might feel less so ↔ we become less and less conscious of our dependence on others 感觉与意识的同义替换"
+        },
+        {
+          "label": "辨邻",
+          "text": "H 本段强调 we do not feel dependent on these strangers for our way of life，只描 述 不觉得依赖 的结果，并未把 越发依赖 与 越发不自知 直接对偶起来，缺了题干要求 的对偶反差。 we do not feel dependent on these strangers for our way of life 在贸易话题上,富有成效的辩论可能是可行的,这与讨论其他问题时常见的相互谴责形成对比。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "现代世界中越依赖越不自知 but he does not see them. He touches them, but he does not feel them. He exists only in and for himself. 事实上,匿名性是自由贸易悖论的第二个根本原因。现代性将每个人从地点和社区的限制中解放出来。 总的来说,当我们交易时,我们与陌生人交易;当我们投票时,我们为陌生人投票;当我们观看、阅读或收听 故事时,讲故事的人是陌生人。与Tocqueville将我们与之比较的祖先相反,我们不认识在经济或政治领域 与我们打交道的人。这只是市场奇迹的阴暗面,市场首次在历史上让陌生人能够互相照顾。它们也让我 们每个人能够越来越多地以陌生人的身份生活在他人面前。这是Tocqueville——相当悲观地——对我 们的描述:每个人,独自站立,对他人的命运就像一个陌生人;他的孩子和私人朋友构成了他的整个人类。至 于他的其他同胞,他在他们旁边,但他看不见他们。他触碰他们,但他感觉不到他们。他只存在于并为了他 自己。 K) The last sentence but one is as apt a summary as one could hope to come by of how each of us functions in the modern economy: \"He touches them, but he does not feel them.\" 倒数第二句话是对我们每个人在现代经济中如何运作的最恰当的总结:'他触碰他们,但他感觉不到 他们。' L) This is the greatest challenge facing defenders of free trade. It's exceedingly difficult for human beings to feel gratitude toward strangers, and the global marketplace that has made us so rich has also made us strangers to one another. Our brains are hardwired for tribal life, and tribes do not take kindly to strangers. Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task. 这是自由贸易捍卫者面临的最大挑战。人类很难对陌生人感到感激,而使我们如此富有的全球市场也使 我们彼此成为陌生人。我们的大脑天生适合部落生活,而部落对陌生人并不友善。因此,让人们对外国陌 生人产生依赖感和感激之情是一项艰巨的任务。 M) If free-traders are going to win policy arguments in the future, they'll have to find a way of forging bonds of affection between American consumers and foreign producers. Only by de-anonymizing the men and women who supply us with the goods and services we enjoy from overseas and by creating a sense of solidarity and relationship across borders that transcends economic interest can free trade win the day. Otherwise, the inborn biological upper hand that protectionists have in the form of nationalist solidarity is bound to win the day at the ballot box. 如果自由贸易者要在未来赢得政策辩论,他们必须找到一种方法在美国消费者和外国生产者之间建立情 感纽带。只有通过去匿名化那些从海外为我们提供商品和服务的男女,并在跨越国界的基础上创造一种 超越经济利益的团结感和关系感,自由贸易才能获胜。否则,保护主义者以民族主义团结形式拥有的天 生生物学优势必然会在投票箱中获胜。 36. People became more and more reliant on others for basic needs as they entered the modern world even though they might feel less so."
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "On the topic of trade, productive debates might be possible, in contrast to the familiar mutual condemnation in discussing other issues.",
+      "answer": "C",
+      "answerText": "C 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Fruitful debates might actually take place in this area, as opposed to the familiar ritual we've become accustomed to of condemnation met with counter-condemnation. 在这一领域可能真的会发生富有成果的辩论，而非我们已习惯的那种彼此谴责对彼此谴责的 老套路。"
+        },
+        {
+          "label": "改写",
+          "text": "productive debates might be possible ↔Fruitful debates might actually take place in this area productive 与 fruitful 同义 familiar mutual condemnation in discussing other issues ↔ familiar ritual we've become accustomed to of condemnation met with counter-condemnation mutual 与 met with counter 同构 37. On the topic of trade, productive debates might be possible, in contrast to the familiar mutual condemnation in discussing other issues."
+        },
+        {
+          "label": "辨邻",
+          "text": "B 本段只断言 trade is a rare exception 并提到 substantial, thought-out policy proposals on both sides，并未说 富有成效的辩论 可能发生，缺了陈述句的核心 动作。 trade is a rare exception 我们感到比实际拥有的更大的独立性,因为金钱使我们能够在不建立任何关系的情况下购买 物品。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "贸易话题上可能出现富有成效的辩论"
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "We feel greater independence than we actually possess because money allows us to buy things without building any relationships.",
+      "answer": "I",
+      "answerText": "I 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "No relationship has to be built before an exchange can take place. Simply agree on a price, and you can have any goods you wish without taking a second thought for the human being involved on the other side of the transaction. In this way, money makes us feel more independent than we actually are. 在交易发生前不必先建立任何关系。只要在价格上达成一致，你就能不再为交易另一端的那 个人多想一秒地买到任何想要的商品。正因如此，金钱让我们觉得自己比实际更独立。"
+        },
+        {
+          "label": "改写",
+          "text": "greater independence than we actually possess ↔ money makes us feel more independent than we actually are 形容词转名词的名词化 money allows us to buy things without building any relationships ↔ No relationship has to be built before an exchange can take place 否定与无须的等值改写"
+        },
+        {
+          "label": "辨邻",
+          "text": "G 本段 we feel ourselves to be more and more independent of one another 描述 的是 自感独立 的悖论，但归因于 robbed of the engagement with our neighbors，没把原因落到 金钱 与 无须建立关系 这两件事上，缺了题干指明的机制。 we feel ourselves to be more and more independent of one another 当今贸易的问题源于误解而非金钱。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "金钱让我们买东西无须建立关系"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The trouble with today's trade stems from misconceptions rather than money. 【改写】stems from misconceptions rather than money ↔ the problem with trade in the modern world isn't a matter of dollars and cents. It's a matter of false consciousness",
+      "answer": "D",
+      "answerText": "D 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Strange as it might sound, the problem with trade in the modern world isn't a matter of dollars and cents. It's a matter of false consciousness. 听起来或许奇怪，但现代世界中贸易的问题并不是金钱的问题，而是错误意识的问题。 38. We feel greater independence than we actually possess because money allows us to buy things without building any relationships. 39. The trouble with today's trade stems from misconceptions rather than money."
+        },
+        {
+          "label": "改写",
+          "text": "stems from misconceptions rather than money ↔ the problem with trade in the modern world isn't a matter of dollars and cents. It's a matter of false consciousness 并行的双重等值"
+        },
+        {
+          "label": "辨邻",
+          "text": "I 本段确实大量讨论 money makes us feel more independent than we actually are，但讨论的是 金钱如何造成错觉 的具体机制，并未做出 不是金钱而是错误意识 这 一总论判断，缺了题干的反衬结构。 Money allows us to purchase the work of others without giving any thought to them as human beings 为了使他们的论点占上风,自由贸易的倡导者必须努力在国内消费者和海外生产者之间建立情感 纽带。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "今日贸易的麻烦在于错误观念而非金钱"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "For their arguments to prevail, advocates of free trade must try to forge bonds of affection between consumers at home and producers overseas.",
+      "answer": "M",
+      "answerText": "M 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "If free-traders are going to win policy arguments in the future, they'll have to find a way of forging bonds of affection between American consumers and foreign producers. 若自由贸易者想在未来赢得政策争论，他们就必须设法在美国消费者与外国生产者之间锻造 起情感纽带。"
+        },
+        {
+          "label": "改写",
+          "text": "For their arguments to prevail ↔If free-traders are going to win policy arguments in the future 目的与条件结构等价 forge bonds of affection between consumers at home and producers overseas ↔ forging bonds of affection between American consumers and foreign producers 短语字面同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "L 本段确实指出 This is the greatest challenge facing defenders of free trade，但只 是 陈述困难，没有把 必须锻造情感纽带 这一对策亮出来；题干要求的是 必须做的 事，对策段在后一段。 This is the greatest challenge facing defenders of free trade 根据Tocqueville的观点,与我们的祖先不同,我们和与我们进行贸易的人彼此陌生。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "自由贸易倡导者须锻造情感纽带"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "According to Tocqueville, unlike our ancestors, we and the people we do trade with are strangers to each other. 【定位】By and large, when we trade, we trade with strangers; when we vote, we vote for strangers; when we watch, read, or listen to stories, the tellers of the tales are strangers. As opposed to the ancestors Tocqueville compares us to, we do not know the people with whom we have to do, in either the economic or the political sphere.",
+      "answer": "J",
+      "answerText": "J 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "By and large, when we trade, we trade with strangers; when we vote, we vote for strangers; when we watch, read, or listen to stories, the tellers of the tales are strangers. As opposed to the ancestors Tocqueville compares us to, we do not know the people with whom we have to do, in either the economic or the political sphere. 总体而言，我们交易时是在与陌生人交易，投票时是在为陌生人投票，看书听故事时讲故事 的人也是陌生人。与托克维尔所比照的先祖不同，无论在经济还是政治领域，我们都不认识 与之打交道的人。"
+        },
+        {
+          "label": "改写",
+          "text": "unlike our ancestors ↔As opposed to the ancestors Tocqueville compares us to 对照前置词等价 we and the people we do trade with are strangers to each other ↔ when we trade, we trade with strangers 短语等值改写"
+        },
+        {
+          "label": "辨邻",
+          "text": "F 本段是托克维尔对 原始社会面对面合作 的描述，是题干所说 我们 的对立面（先祖 而 非 现代我们）。题干主语是 我们与交易对象是陌生人，与本段方向相反。 as soon as a man begins to deal with common affairs in public, he begins to perceive that he is not so independent of his fellow men K 本段仅以一句 He touches them, but he does not feel them 作总结，并未直接陈述 我们与交易对象是陌生人 这一事实，只是上一段论断的浓缩；完整论断在前一段。 He touches them, but he does not feel them 在原始社会中,人们必须主要依靠自己来满足个人需求。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "据托克维尔我们与交易对象互为陌生人 40. For their arguments to prevail, advocates of free trade must try to forge bonds of affection between consumers at home and producers overseas. 41. According to Tocqueville, unlike our ancestors, we and the people we do trade with are strangers to each other."
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "In primitive societies, people had to rely mostly on themselves to meet their personal needs. 【改写】In primitive societies ↔ In primitive societies, he notes, the division of labor was as yet undeveloped",
+      "answer": "E",
+      "answerText": "E 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "In primitive societies, he notes, the division of labor was as yet undeveloped for the most part, requiring each person, family, or tribe to be relatively independent when it came to meeting their own basic material needs. Men built their own dwellings, farmed their own land, tended to their own livestock. This is not to deny that basic forms of trade took place, but, for the most part, our primitive ancestors lived fairly self-reliant, if crushingly poor, lives. 他指出，在原始社会中，分工尚未发达，这要求每个人、每个家庭或部落在满足自身基本物 质需求时相对独立。人们自己盖屋、自己耕地、自己照料牲畜。这并不是否认基本形式的贸 易存在，但总体而言，我们的原始祖先过着虽然极度贫穷却相当自给自足的生活。 42. In primitive societies, people had to rely mostly on themselves to meet their personal needs."
+        },
+        {
+          "label": "改写",
+          "text": "In primitive societies ↔ In primitive societies, he notes, the division of labor was as yet undeveloped 短语字面同义 rely mostly on themselves to meet their personal needs ↔ requiring each person, family, or tribe to be relatively independent when it came to meeting their own basic material needs 同根改写"
+        },
+        {
+          "label": "辨邻",
+          "text": "F 本段引用 as soon as a man begins to deal with common affairs in public, he begins to perceive that he is not so independent of his fellow men as he had first imagined，是在说 先民如何意识到对他人的依赖，而题干要的是 主要靠自己 的 事实陈述。视角相反。 he is not so independent of his fellow men as he had first imagined 美国家庭中很少有商品在制造和销售过程中不依赖国外的人。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "原始社会主要靠自己满足个人需求"
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Few commodities in American homes are not reliant on people abroad in the process of manufacture and sale.",
+      "answer": "H",
+      "answerText": "H 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "There is scarcely a single commodity in any American household that isn't dependent for its manufacture and sale, through one supply chain or another, on scores of different people spread out across the entire globe. 美国家庭中几乎没有任何一件商品，在其生产和销售上不通过这样或那样的供应链依赖于分 布在全球各地的成百上千的人。"
+        },
+        {
+          "label": "改写",
+          "text": "Few commodities in American homes are not reliant on people abroad ↔ There is scarcely a single commodity in any American household that isn't dependent 双重否定结构等值 in the process of manufacture and sale ↔ dependent for its manufacture and sale, through one supply chain or another 短语字面同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "M 本段虽提到 the men and women who supply us with the goods and services we enjoy from overseas，但讲的是 自由贸易者必须做的事，是行动建议，而非 几乎没 有商品独立于海外 的事实陈述，视角不对。 de-anonymizing the men and women who supply us with the goods and services we enjoy from overseas 43. Few commodities in American homes are not reliant on people abroad in the process of manufacture and sale. 保护主义者通过提及国内生产者和社区遭受的损失来反对自由贸易。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "美国家庭几乎没有商品的生产销售不依赖国外的人"
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Protectionists argue against free trade by referring to the losses suffered by domestic producers and communities.",
+      "answer": "A",
+      "answerText": "A 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Protectionists point to the domestic producers who've paid the price for this globalized economy in the form of lost livelihoods and hollowed-out communities. 保护主义者指出，那些国内生产者已经为这种全球化经济付出了代价，表现为生计的丧失和 社区的空心化。"
+        },
+        {
+          "label": "改写",
+          "text": "Protectionists argue against free trade by referring to the losses suffered by domestic producers and communities ↔ Protectionists point to the domestic producers who've paid the price for this globalized economy in the form of lost livelihoods and hollowed-out communities 动词名词化加场景等值 让人们对海外的陌生人产生依赖感和感激之情是极其困难的。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "保护主义者拿国内生产者与社区受损做论据"
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "It is extremely hard to make people feel dependent on and grateful to strangers overseas.",
+      "answer": "L",
+      "answerText": "L 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "This is the greatest challenge facing defenders of free trade. It's exceedingly difficult for human beings to feel gratitude toward strangers, and the global marketplace that has made us so rich has also made us strangers to one another. Our brains are hardwired for tribal life, and tribes do not take kindly to strangers. Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task. 这是自由贸易捍卫者所面临的最大挑战。让人类对陌生人心怀感激极其困难，而让我们如此 富有的全球市场恰恰也让我们彼此沦为陌生人。我们的大脑天生为部落生活而设，而部落不 会善待陌生人。因此，要让人们感到对外国陌生人的依赖与感激是一件极为艰难的事。"
+        },
+        {
+          "label": "改写",
+          "text": "extremely hard to make people feel dependent on and grateful to strangers overseas ↔ Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task 习语与具体短语等值 44. Protectionists argue against free trade by referring to the losses suffered by domestic producers and communities. 45. It is extremely hard to make people feel dependent on and grateful to strangers overseas."
+        },
+        {
+          "label": "辨邻",
+          "text": "M 本段是 they'll have to find a way of forging bonds of affection 的对策段，没有正 面陈述 让人依赖并感激陌生人极难 这一事实判断；难度判断在前一段。 they'll have to find a way of forging bonds of affection between American consumers and foreign producers J 本段集中讲 when we trade, we trade with strangers 的陌生现状，是 难度 的前因， 而非难度结论本身；结论在后一段。 when we trade, we trade with strangers"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "让人依赖并感激海外陌生人极其困难"
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do numerous personality quizzes online claim they are able to do?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do numerous personality quizzes online claim they are able to do? 是 What 引 导的事实性提问，问\"quizzes 声称做什么\"，可直接回原文找事实陈述。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 What do…quizzes…claim they are able to do?，What 作 do 的宾语，they are able to do 是 claim 的宾语从句；结构平铺，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "There are hundreds of personality quizzes online that assert they can ascertain whether the right or left half of your brain is dominant. 网络上有成百上千的性格测试，宣称它们能够查明你的左半脑还是右半脑占主导。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 Distinguish between the two hemispheres of one's brain 说的是\"区分大脑的两个半 球\"——这是解剖事实而非测试声称的本事，与原文承诺的\"判断哪边占主导\"不同。 B) ✓ 正确 ascertain whether the right or left half of your brain is dominant ↔ Determine whether one is left-brained or right-brained B 项把定位句改写成\"判断一个人是左脑型还是右脑型\"，与预判一致，且严格落在 P1 首 句的字面承诺范围内。 C) 答非所问 Tell if one is more of a linguist or of a mathematician 取自 excel at language and math 的延伸描述，是\"左脑型人\"的衍生特征，而非测试本身宣称要做的事。 D) 张冠李戴 Ascertain how one's brain performs different tasks 的内容来自 different areas of the brain do different things，那是科学界的事实，不是\"测试\"声称要做的；动词 Ascertain 虽与原文同词，但宾语错配。 46. What do numerous personality quizzes online claim they are able to do? A) Distinguish between the two hemispheres of one's brain. B) Determine whether one is left-brained or right-brained. C) Tell if one is more of a linguist or of a mathematician. D) Ascertain how one's brain performs different tasks. 作者说什么有时比小说更离奇? A) 大脑的一个半球如何影响创造力。 B) 我们大脑的两半如何交替工作。 C) 我们大脑的两个半球如何合作。 D) 大脑的一半如何主导另一半。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Distinguish between the two hemispheres of one's brain."
+        },
+        {
+          "label": "B",
+          "text": "Determine whether one is left-brained or right-brained."
+        },
+        {
+          "label": "C",
+          "text": "Tell if one is more of a linguist or of a mathematician."
+        },
+        {
+          "label": "D",
+          "text": "Ascertain how one's brain performs different tasks."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author say is sometimes stranger than fiction?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author say is sometimes stranger than fiction? 问作者明说的内容，是 对原文一句话的事实复现。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 What does the author say is…?，What 是表语补足语，is sometimes stranger than fiction 修饰 What 指向的具体事物；结构简单。"
+        },
+        {
+          "label": "定位",
+          "text": "But the actual science of how the two halves of our brains work together is sometimes stranger than fiction. 但关于我们大脑两个半球如何协同运作的真实科学，有时比小说还要离奇。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 How one hemisphere of the brain impacts creativity 关注\"某一个半脑对创造力的影 响\"，定位句强调的是\"两半协同\"，主体数量不符；creativity 也是从前文带过来的旁支 话题。 B) 偷换概念 How the two halves of our brains work alternately 把 work together 改成 work alternately（轮流工作），意思完全不同——一个是同时合作，一个是交替使用。 C) ✓ 正确 the two halves of our brains work together ↔the two hemispheres of our brains cooperate C 项把 \"halves…work together\" 替换成 \"hemispheres…cooperate\"，是定位句的等 值改写。 D) 与原文相反 How one half of the brain dominates the other 正是文章一开头就否定的\"左右脑主 导说\"，与定位句乃至全文立场相反。 47. What does the author say is sometimes stranger than fiction? A) How one hemisphere of the brain impacts creativity. B) How the two halves of our brains work alternately. C) How the two hemispheres of our brains cooperate. D) How one half of the brain dominates the other. 为什么许多科学家难以认可大脑不同区域做不同事情这一观点? A) 它与大脑两个半球对称的假设相矛盾。 B) 它否定了宇宙一直以一致方式演化的观点。 C) 它与大脑左右两半共同工作的说法相冲突。 D) 它打破了大脑右半球控制身体左侧的观点。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "How one hemisphere of the brain impacts creativity."
+        },
+        {
+          "label": "B",
+          "text": "How the two halves of our brains work alternately."
+        },
+        {
+          "label": "C",
+          "text": "How the two hemispheres of our brains cooperate."
+        },
+        {
+          "label": "D",
+          "text": "How one half of the brain dominates the other."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Why did many scientists have difficulty endorsing the idea that different areas of the brain do different things?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "Why did many scientists have difficulty endorsing the idea…? 问原因，且原因通常在 原文同句以 because/since 给出。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 Why did many scientists have difficulty endorsing the idea…?，that different areas of the brain do different things 是 idea 的同位语从句，解释 idea 内 容；理解关键是 endorsing=\"赞同/接受\"，不是\"支持\"商业意味。"
+        },
+        {
+          "label": "定位",
+          "text": "But many scientists struggled with this idea, because the very suggestion that the left and right halves of the brain operate differently disrupted the idea that nature tends toward perfect symmetry. 但许多科学家难以接受这个观点，因为\"大脑左右半球运作方式不同\"这一论断本身就动摇 了\"自然界趋向完美对称\"的观念。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 disrupted the idea that nature tends toward perfect symmetry ↔ contradicts the assumption that the two hemispheres of the brain are symmetrical A 项把\"动摇自然对称预设\"这一动作改写为\"与左右脑对称的预设相矛盾\"，二者在本语境 下指代同一观念，定位句即等于 A 项。 B) 无中生有 It dismisses the view that the universe has been evolving in a consistent manner 把对象从\"自然对称\"扩展为\"宇宙演化方式\"，原文未涉及宇宙演化的话题。 C) 张冠李戴 It is in conflict with the suggestion that the left and right halves of the brain work together 把矛盾对象说成\"两半脑协同\"，但原文中科学家排斥的不是\"协同\"，而 是\"对称\"预设；况且\"协同\"是 P3 的肯定观点，本身不会被科学家抗拒。 D) 张冠李戴 It disrupts the idea that the right hemisphere of the brain controls the left side of the body 取自 P4 的解剖事实，是脊椎动物的客观规律，不可能被科学家抗拒；动词 disrupts 虽与原文同词，宾语却换错。 48. Why did many scientists have difficulty endorsing the idea that different areas of the brain do different things? A) It contradicts the assumption that the two hemispheres of the brain are symmetrical. B) It dismisses the view that the universe has been evolving in a consistent manner. C) It is in conflict with the suggestion that the left and right halves of the brain work together. D) It disrupts the idea that the right hemisphere of the brain controls the left side of the body. 根据文章,神经科学家长期以来拒绝接受什么观点? A) 存在具有不同性格的左脑主导型和右脑主导型的人。 B) 大脑左右半球之间存在明显差异。 C) 一个人的性格与大脑的不同半球几乎无关。 D) 大脑的不同区域负责不同的活动。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It contradicts the assumption that the two hemispheres of the brain are symmetrical."
+        },
+        {
+          "label": "B",
+          "text": "It dismisses the view that the universe has been evolving in a consistent manner."
+        },
+        {
+          "label": "C",
+          "text": "It is in conflict with the suggestion that the left and right halves of the brain work together."
+        },
+        {
+          "label": "D",
+          "text": "It disrupts the idea that the right hemisphere of the brain controls the left side of the body."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What belief have neuroscientists long rejected according to the passage?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What belief have neuroscientists long rejected according to the passage? 问\"哪个观 念被拒\"，是对原文一处明确表态的复现。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 What belief have neuroscientists long rejected…?，long 修饰 rejected 表\"长 久以来一直拒绝\"；现在完成时 + long，强调持续否定，是定位句的语气信号。"
+        },
+        {
+          "label": "定位",
+          "text": "The idea that we have left-dominant people and right-dominant people, and that this is related to personality, is categorically false. That's never been supported in the neuroscience community. Neuroscientists don't believe that and never have. \"存在左脑主导型人和右脑主导型人、并且这与人格有关\"这一观念是完全错误的。神经科学 界从未支持过这种说法。神经科学家不相信这种说法，也从未相信过。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 we have left-dominant people and right-dominant people, and that this is related to personality ↔There are left-dominant people and right-dominant people with different personalities A 项就是定位句被 categorically false / never been supported 否定的那个具体观念， 与预判一致。 B) 与原文相反 There are noticeable differences between the left and right hemispheres of the brain 是 there are really important differences between the left hemisphere and the right hemisphere 明确肯定的事实，神经科学界并不拒斥它。 C) 与原文相反 One's personality is hardly related to the different halves of the brain 正是作者本 人和神经科学界所持的立场（人格与左右脑无关），不是他们\"长期拒绝\"的观念。 D) 与原文相反 Different areas of the brain are responsible for different activities 是 different areas of the brain do different things 的同义改写，是科学界共识，不可能被\"长期 拒绝\"。 49. What belief have neuroscientists long rejected according to the passage? A) There are left-dominant people and right-dominant people with different personalities. B) There are noticeable differences between the left and right hemispheres of the brain. C) One's personality is hardly related to the different halves of the brain. D) Different areas of the brain are responsible for different activities. 对于告诉我们一些关于自己信息的在线测试,我们被建议做什么? A) 质疑其权威性。 B) 审查其原创性。 C) 评估其受欢迎程度。 D) 质疑其可靠性。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "There are left-dominant people and right-dominant people with different personalities."
+        },
+        {
+          "label": "B",
+          "text": "There are noticeable differences between the left and right hemispheres of the brain."
+        },
+        {
+          "label": "C",
+          "text": "One's personality is hardly related to the different halves of the brain."
+        },
+        {
+          "label": "D",
+          "text": "Different areas of the brain are responsible for different activities."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What are we advised to do with an online quiz that tells us something about ourselves?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What are we advised to do…? 问作者给出的具体建议，原文末段必有对应明示。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 What are we advised to do with an online quiz…?，that tells us something about ourselves 是 quiz 的定语从句；advise sb. to do 的被动 are advised to do 是常见 结构，注意 with 引出对象 \"对……怎么办\"。"
+        },
+        {
+          "label": "定位",
+          "text": "When you come up with an online quiz that tells us something about ourselves, we're drawn to that. It's irresistible. But you have to take it with an enormous grain of salt. 当出现一份告诉我们自身某些情况的网络测试时，我们会被吸引，难以抗拒。但你必须对它 持极大的保留态度。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 过度推断 Challenge its authority 暗示要去\"挑战其权威性\"，但原文只是建议保留态度、不轻信 结论，并未要求与之对抗。 B) 无中生有 Scrutinize its originality 让人去审查\"原创性\"，原文丝毫未涉及测试是否原创的问题。 C) 答非所问 Evaluate its popularity 评的是\"测试的流行程度\"，与作者给读者的\"个人如何对待结 论\"的建议完全错位。 D) ✓ 正确 take it with an enormous grain of salt ↔Question its reliability 把习语 take it with an enormous grain of salt 还原为字面意 question its reliability，与预判一致。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Challenge its authority."
+        },
+        {
+          "label": "B",
+          "text": "Scrutinize its originality."
+        },
+        {
+          "label": "C",
+          "text": "Evaluate its popularity."
+        },
+        {
+          "label": "D",
+          "text": "Question its reliability."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn about team teaching from the passage?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What do we learn about team teaching from the passage? 不含 infer/imply/main idea，问的是对 team teaching 的客观描述，属概括式细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn about team teaching from the passage? 主干为 What...do we learn，about team teaching 修饰 learn 的对象，from the passage 是来源状语，结构平 铺直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "What looks at times like chaos is in fact a carefully orchestrated plan: Each morning, the Westwood teams meet to hammer out a personalized program for every student the team will focus on that day. 看上去时不时像一团乱麻的场面，实际上是经过精心编排的方案：每天清晨，Westwood 的团队会碰头，为当天他们要重点关注的每个学生敲定一份个性化方案。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 classrooms without walls 把 dissolve the walls that separate their classes 的比喻当 成物理上没有墙的教室，完全曲解原意。 B) 无中生有 文中从未提及让学生选择喜爱的教师；The teachers share large groups of students 强调教师轮换而非学生选师。 C) 偷换概念 原文 rotate between group instruction, one-on-one interventions, small study groups 把团体讲授与小组活动并列，并未说同伴协作优先于课堂讲授。 D) ✓ 正确 What looks at times like chaos is in fact a carefully orchestrated plan ↔ It is closely coordinated despite seeming confusion 预判要求的看似混乱/实则编排两层语义，It is closely coordinated despite seeming confusion 两层都覆盖，结构对应整齐。 51. What do we learn about team teaching from the passage? A) It is generally conducted in classrooms without walls. B) It allows students to choose teachers they favor most. C) It prioritizes peer work over classroom instruction. D) It is closely coordinated despite seeming confusion. 关于Westwood的创新教学模式,初步研究表明了什么? A) 它可能有助于提高教师薪酬。 B) 它可能会取得成功。 C) 它可能会降低总体成本。 D) 它可能最终像一场赌博。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is generally conducted in classrooms without walls."
+        },
+        {
+          "label": "B",
+          "text": "It allows students to choose teachers they favor most."
+        },
+        {
+          "label": "C",
+          "text": "It prioritizes peer work over classroom instruction."
+        },
+        {
+          "label": "D",
+          "text": "It is closely coordinated despite seeming confusion."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does initial research suggest regarding Westwood's innovative teaching model?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What does initial research suggest 直接索取研究的结论，属客观事实复述。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does initial research suggest regarding Westwood’s innovative teaching model? 主干是 What does initial research suggest，regarding... 引导对象状语，等同 about，结构清楚。"
+        },
+        {
+          "label": "定位",
+          "text": "By giving teachers more opportunity to collaborate, Mesa's administrators hoped to fill staffing gaps and boost teacher morale and retention. Initial research suggests the gamble could pay off. 通过让教师有更多协作机会，Mesa 的管理层希望补齐师资缺口、提升教师士气与留任率。 初步研究显示这场赌博可能会奏效。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 overhauling teaching approaches can’t fix all the frustrations teachers have, such as low pay 明确指出教学模式改革解决不了低薪问题，故团队教学不能 raise teachers’ pay。 B) ✓ 正确 Initial research suggests the gamble could pay off ↔It could turn out to be a success 预判要求 团队教学可能成功，It could turn out to be a success 与定位句语义、情态 强度完全对齐。 C) 无中生有 全文未提及团队教学能降低总体成本；P4 谈的是士气、留任率与师资缺口，不是成本。 D) 偷换概念 原文 the gamble could pay off 中 gamble 仅是对 the model 的比喻指代，意为 这场 赌博能赢；end up like a gamble 把赌博当成最终结果，等于说一切像赌博一样不确 定，与原文积极语义相反。 52. What does initial research suggest regarding Westwood's innovative teaching model? A) It could help raise teachers' pay. B) It could turn out to be a success. C) It could cut down overall costs. D) It could end up like a gamble. 督学Andi Fourlis对教师职业有何看法? A) 除非教学模式得到彻底改革,否则士气无法提升。 B) 教师们实在太忙,无法去听同事的课。 C) 由于教师之间缺乏协作,进展缓慢。 D) 教师们经常做出了不起的事情却无人注意。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It could help raise teachers' pay."
+        },
+        {
+          "label": "B",
+          "text": "It could turn out to be a success."
+        },
+        {
+          "label": "C",
+          "text": "It could cut down overall costs."
+        },
+        {
+          "label": "D",
+          "text": "It could end up like a gamble."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did superintendent Andi Fourlis say about the teaching profession?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What did superintendent Andi Fourlis say 直接索取人物原话观点，属观点细节。"
+        },
+        {
+          "label": "拆句",
+          "text": "What did superintendent Andi Fourlis say about the teaching profession? 主干 What did Andi Fourlis say，superintendent 同位语解释身份，about the teaching profession 限定话题，结构无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "\"Teachers are doing fantastic things, but it's very rare a teacher walks into another room to see what's happening,\" said Andi Fourlis, superintendent of Mesa Public Schools. \"Our profession is so slow to advance because we are working in isolation.\" Mesa 公立学校负责人 Andi Fourlis 说：教师们正在做着了不起的事情，但教师走进另一 间教室看看发生什么的情况非常少见。我们这个行业进步如此缓慢，是因为我们在孤立地 工作。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 过度推断 原文未提出 士气提升必须先 overhaul 教学模式 这一条件关系；P5 谈的是进步缓慢的 原因，不是 morale 的前提条件。 B) 偷换概念 原文是 it’s very rare a teacher walks into another room，即极少发生，并未给出 too busy 这一原因；选项擅自补充忙作为原因。 C) ✓ 正确 Our profession is so slow to advance because we are working in isolation ↔ Progress is slow due to lack of collaboration among teachers C 完整保留 进步慢←孤立工作 的因果方向，且情态/极性与原文一致。 D) 偷换概念 原文 Teachers are doing fantastic things, but it’s very rare a teacher walks into another room 的重点是 同行看不见，而非 不被注意；选项把同行无法观摩偷换为更宽 泛的不被注意。 53. What did superintendent Andi Fourlis say about the teaching profession? A) Morale cannot be boosted until teaching models are overhauled. B) Teachers are simply too busy to visit classes of their colleagues. C) Progress is slow due to lack of collaboration among teachers. D) Teachers often do fantastic things without being noticed. 作者引用英语教师Jeff Hall的经历想要说明什么? A) 英语教师和科学教师在完成各自任务时是互补的。 B) 文科教师完全困惑于理科教师所教的内容。 C) 新的教学模式有助于让教师了解他们的教学是如何被接受的。 D) 如果没有绩效评估,科学教师很难知道他们造成的困惑。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Morale cannot be boosted until teaching models are overhauled."
+        },
+        {
+          "label": "B",
+          "text": "Teachers are simply too busy to visit classes of their colleagues."
+        },
+        {
+          "label": "C",
+          "text": "Progress is slow due to lack of collaboration among teachers."
+        },
+        {
+          "label": "D",
+          "text": "Teachers often do fantastic things without being noticed."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author want to show by citing English teacher Jeff Hall's experience?",
+      "answer": "C",
+      "questionType": "例证目的题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author want to show by citing English teacher Jeff Hall’s experience? 显式问作者用 Hall 的经历想说明什么，是典型例证目的题。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author want to show by citing English teacher Jeff Hall’s experience? 主干 What does the author want to show，by citing... 现在分词作方式状语， experience 是 citing 的逻辑宾语，结构无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "\"If the science is too confusing for me, can you imagine the frustration you feel as kids?\" Hall said. But the science teacher, he said, wouldn't have known about the confusion on her own. Hall 说：如果这门科学对我都太难懂，你能想象孩子们会有多挫败吗？但他说，那位科学教 师自己是不会知道这种困惑的。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 原文未谈英语老师与科学老师 互补；P7 谈的是 Hall 反馈听课感受，并非两人分工 互补。 B) 以偏概全 原文只是 Hall 一人对一次讲座的反馈 Her recent lecture…had bewildered him and their other teammates，选项扩大为 a teacher of arts and letters is completely puzzled，并丢弃了 例证目的，停留在 例子叙述。 C) ✓ 正确 the science teacher, he said, wouldn’t have known about the confusion on her own ↔ helps inform the teacher how their instruction is received English teacher Jeff Hall shared a performance appraisal with a science teacher ↔ The new teaching model 预判要求 团队让授课者得知讲授效果，C 项以 helps inform / how their instruction is received 完整对应。 D) 偷换概念 原文 Jeff Hall shared a performance appraisal 指 同伴反馈，并非 正式绩效考评 （performance appraisal）作为评估制度；选项把它当成 没有正式考评就不知 这一条 件，方向亦不对——原文重点在 团队让她知道，不是 没有正式考评她就不知道。 54. What does the author want to show by citing English teacher Jeff Hall's experience? A) English teachers and science teachers are complementary in performing their tasks. B) A teacher of arts and letters is completely puzzled by what a science teacher teaches. C) The new teaching model helps inform the teacher how their instruction is received. D) Science teachers will hardly know the confusion they create without a performance appraisal. 作者认为实施新教学模式的难题之一是什么? A) 如何处理单独工作的教师。 B) 教学计划中应包含哪些内容。 C) 如何为团队招募志愿者。 D) 如何评估每位教师的表现。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "English teachers and science teachers are complementary in performing their tasks."
+        },
+        {
+          "label": "B",
+          "text": "A teacher of arts and letters is completely puzzled by what a science teacher teaches."
+        },
+        {
+          "label": "C",
+          "text": "The new teaching model helps inform the teacher how their instruction is received."
+        },
+        {
+          "label": "D",
+          "text": "Science teachers will hardly know the confusion they create without a performance appraisal."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author think is one of the difficult problems in implementing the new teaching model?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author think is one of the difficult problems 索取作者列举的困难之 一，属细节列举。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author think is one of the difficult problems in implementing the new teaching model? 主干 What is one of the difficult problems；the author think 是插入语；in implementing... 介词短语作后置定语，限定 problems 的范围。"
+        },
+        {
+          "label": "定位",
+          "text": "There are also thorny questions like how to evaluate four teachers on the performance of 135 students. 还有一些棘手的问题，比如如何依据 135 名学生的成绩去评估四位教师。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 答非所问 原文 Some teachers approached about volunteering for a team have said they prefer to work alone 只是说有人不愿参加，并未说要 拿独立工作者怎么办 这一难题； 选项把现象包装成处理难题。 B) 偷换概念 原文 Team teaching can also be a scheduling nightmare 把 排课 描述为 难题，并非 问 在课表里加什么内容；选项把 排课难 偷换为 加什么内容。 C) 无中生有 原文未把 招募志愿者 列为难题；Some teachers…prefer to work alone 是结果性描 述，并未涉及 怎么招募。 D) ✓ 正确 how to evaluate four teachers on the performance of 135 students ↔ How to assess each teacher’s performance 原文 thorny questions 后 like 引出例子 evaluate four teachers，D 项保留了 evaluate→assess 的核心语义，是列举项之一的标准改写。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2024-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "What to do with teachers working alone."
+        },
+        {
+          "label": "B",
+          "text": "What to include in teaching schedules."
+        },
+        {
+          "label": "C",
+          "text": "How to recruit volunteers for a team."
+        },
+        {
+          "label": "D",
+          "text": "How to assess each teacher's performance."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "About 23% of the global population lives in absolute poverty. In developing countries there is a low life expectancy, a high infant (26)______  rate, high levels of unemployment and illiteracy, nutritional levels below acceptable standards and widespread disease with very little or poor quality medical assistance. Others live wealthy and luxurious lives and so the wealth is distributed in a very (28)______  manner. These are the central problems to questions of charity though charity also includes many other areas such as assisting the elderly. We all when very rich people pledge to give away most of their billions, but they are usually left with millions to pass on, still much more than most people would expect to earn in their lifetime. Even comparatively (30)______  salaries in the west are very high when compared globally. Someone on £ 20,000 could easily afford to give away £ 2,000 per year and still have plenty to live on plus some luxuries. Most people agree that giving to charity is morally (31)______  but charitable behaviour tends to be regarded as above and beyond the call of duty. Some argue, however, that charitable behaviour is 26 27 28 29 30 31 morally required. This means that to fail to behave charitably would be wrong. The majority of arguments in this vein refer to giving aid to poorer nations but they may also refer to giving time within one's (32)______  community. Arguments tend to place different requirements on people in different income brackets and (33)______  entirely people who are merely making ends meet. Some argue that people should all contribute a certain percentage of their earnings. I will together all those arguments that place a moral requirement on people to give to charity, despite the fact that there is wide disagreement as to the (35)______  of that moral requirement. A) applaud B) casualty C) exclude D) extent E) group F) hierarchical G) immediate H) incredibly I) moderate J) mortality K) overt L) praiseworthy M) probe N) sceptically O) unequal",
+      "blocks": [
+        {
+          "text": "About 23% of the global population lives in absolute poverty. In developing countries there is a low life expectancy, a high infant (26)______  rate, high levels of unemployment and illiteracy, nutritional levels below acceptable standards and widespread disease with very little or poor quality medical assistance. Others live wealthy and luxurious lives and so the wealth is distributed in a very (28)______  manner. These are the central problems to questions of charity though charity also includes many other areas such as assisting the elderly. We all when very rich people pledge to give away most of their billions, but they are usually left with millions to pass on, still much more than most people would expect to earn in their lifetime. Even comparatively (30)______  salaries in the west are very high when compared globally. Someone on £ 20,000 could easily afford to give away £ 2,000 per year and still have plenty to live on plus some luxuries. Most people agree that giving to charity is morally (31)______  but charitable behaviour tends to be regarded as above and beyond the call of duty. Some argue, however, that charitable behaviour is 26 27 28 29 30 31 morally required. This means that to fail to behave charitably would be wrong. The majority of arguments in this vein refer to giving aid to poorer nations but they may also refer to giving time within one's (32)______  community. Arguments tend to place different requirements on people in different income brackets and (33)______  entirely people who are merely making ends meet. Some argue that people should all contribute a certain percentage of their earnings. I will together all those arguments that place a moral requirement on people to give to charity, despite the fact that there is wide disagreement as to the (35)______  of that moral requirement. A) applaud B) casualty C) exclude D) extent E) group F) hierarchical G) immediate H) incredibly I) moderate J) mortality K) overt L) praiseworthy M) probe N) sceptically O) unequal"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) Trade is one of the policy areas where the hostility that exists between populists(民粹主义者) and classical liberals is most visible. Free-traders point to the undeniable good that tariff-free trade has done for consumers across the world and to the observable alleviation of poverty in corners of the world where previously closed markets have been opened up. Protectionists point to the domestic producers who've paid the price for this globalized economy in the form of lost livelihoods and hollowed-out communities.\nB) The ongoing conservative civil war often degenerates into content-free tribal warfare, but trade is a rare exception. There are substantial, thought-out policy proposals on both sides of the argument.\nC) Consequently, trade as a topic of discussion provides an opportunity for liberals and populists to have a real meeting of minds. Fruitful debates might actually take place in this area, as opposed to the familiar ritual we've become accustomed to of condemnation met with counter-condemnation.\nD) Strange as it might sound, the problem with trade in the modern world isn't a matter of dollars and cents. It's a matter of false consciousness. This observation is bound to set Marxist alarm bells ringing in the minds of some readers, but it was first made by Alexis de Tocqueville in 1840.\nE) Tracking the economic development of mankind from primitive to modern societies, Tocqueville observed a paradox unfolding over the centuries as economic realities and human experience of those realities strayed further and further from each other. In primitive societies, he notes, the division of labor was as yet undeveloped for the most part, requiring each person, family, or tribe to be relatively independent when it came to meeting their own basic material needs. Men built their own dwellings, farmed their own land, tended to their own livestock. This is not to deny that basic forms of trade took place, but, for the most part, our primitive ancestors lived fairly self-reliant, if crushingly poor, lives.\nF) However, the exclusively local and face-to-face nature of economic and political organization in the ancient and prehistoric worlds constantly impressed upon these primitive peoples the uncontrollable reality of others and their needs. As Tocqueville notes, \"as soon as a man begins to deal with common affairs in public, he begins to perceive that he is not so independent of his fellow men as he had first imagined, and that in order to obtain their support he must often lend them his cooperation.\"\nG) At the advent of the modern world, the division of labor spread further and further throughout society. Each person became more and more dependent on others for their basic needs. And yet, robbed of the engagement with our neighbors and with our local communities that our ancestors were forced into by circumstance, we feel ourselves to be more and more independent of one another. As we become more and more dependent on others, we become less and less conscious of our dependence on others. This is the paradox of trade in the modern world.\nH) The false consciousness that this paradox generates causes havoc on the debates we have about free trade. There is scarcely a single commodity in any American household that isn't dependent for its manufacture and sale, through one supply chain or another, on scores of different people spread out across the entire globe. But as Tocqueville already foresaw in 1840, we do not feel dependent on these strangers for our way of life. No sense of the dependence of our own material welfare on their work ever strikes our national consciousness. We rarely contemplate the globalized avenues of free trade with gratitude.\nI) There are two reasons for this. The first, to put it bluntly, is money. Money allows us to purchase the work of others without giving any thought to them as human beings. Unlike our ancestors in their primitive townships, we rarely have to meet face-to-face the people who've invented, built, shipped, or supplied our goods. No relationship has to be built before an exchange can take place. Simply agree on a price, and you can have any goods you wish without taking a second thought for the human being involved on the other side of the transaction. In this way, money makes us feel more independent than we actually are. Each of us senses the hold that it has over our fellows. We know that if we bid highly enough we can buy ourselves out of the time-consuming labor of building relationships. Money is kind of like magic in that way. It gives us a set of rituals to perform and promises that if we do so we'll be able to wield power over others. The illusion is created that having enough money to buy something is the equivalent of knowing how to make it yourself. Gratitude for the anonymous men and women who make up the supply chain rarely makes its way into our consciousness.\nJ) Anonymity, in fact, is the second root cause of the free-trade paradox. Modernity has emancipated everyone from the limits of location and community. By and large, when we trade, we trade with strangers; when we vote, we vote for strangers; when we watch, read, or listen to stories, the tellers of the tales are strangers. As opposed to the ancestors Tocqueville compares us to, we do not know the people with whom we have to do, in either the economic or the political sphere. This is simply the shadow side of the miracle of markets, which, for the first time in history, have allowed strangers to look after each other. They've also allowed each of us to live more and more of our lives exclusively as strangers to other people. This is how Tocqueville—rather pessimistically—describes us: Each, standing apart, is like a stranger to the destiny of others; his children and personal friends forming for him the entire human race. As for the remainder of his fellow citizens, he is beside them, but he does not see them. He touches them, but he does not feel them. He exists only in and for himself.\nK) The last sentence but one is as apt a summary as one could hope to come by of how each of us functions in the modern economy: \"He touches them, but he does not feel them.\"\nL) This is the greatest challenge facing defenders of free trade. It's exceedingly difficult for human beings to feel gratitude toward strangers, and the global marketplace that has made us so rich has also made us strangers to one another. Our brains are hardwired for tribal life, and tribes do not take kindly to strangers. Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task.\nM) If free-traders are going to win policy arguments in the future, they'll have to find a way of forging bonds of affection between American consumers and foreign producers. Only by de-anonymizing the men and women who supply us with the goods and services we enjoy from overseas and by creating a sense of solidarity and relationship across borders that transcends economic interest can free trade win the day. Otherwise, the inborn biological upper hand that protectionists have in the form of nationalist solidarity is bound to win the day at the ballot box. 36. People became more and more reliant on others for basic needs as they entered the modern world even though they might feel less so.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "Trade is one of the policy areas where the hostility that exists between populists(民粹主义者) and classical liberals is most visible. Free-traders point to the undeniable good that tariff-free trade has done for consumers across the world and to the observable alleviation of poverty in corners of the world where previously closed markets have been opened up. Protectionists point to the domestic producers who've paid the price for this globalized economy in the form of lost livelihoods and hollowed-out communities."
+        },
+        {
+          "label": "B",
+          "text": "The ongoing conservative civil war often degenerates into content-free tribal warfare, but trade is a rare exception. There are substantial, thought-out policy proposals on both sides of the argument."
+        },
+        {
+          "label": "C",
+          "text": "Consequently, trade as a topic of discussion provides an opportunity for liberals and populists to have a real meeting of minds. Fruitful debates might actually take place in this area, as opposed to the familiar ritual we've become accustomed to of condemnation met with counter-condemnation."
+        },
+        {
+          "label": "D",
+          "text": "Strange as it might sound, the problem with trade in the modern world isn't a matter of dollars and cents. It's a matter of false consciousness. This observation is bound to set Marxist alarm bells ringing in the minds of some readers, but it was first made by Alexis de Tocqueville in 1840."
+        },
+        {
+          "label": "E",
+          "text": "Tracking the economic development of mankind from primitive to modern societies, Tocqueville observed a paradox unfolding over the centuries as economic realities and human experience of those realities strayed further and further from each other. In primitive societies, he notes, the division of labor was as yet undeveloped for the most part, requiring each person, family, or tribe to be relatively independent when it came to meeting their own basic material needs. Men built their own dwellings, farmed their own land, tended to their own livestock. This is not to deny that basic forms of trade took place, but, for the most part, our primitive ancestors lived fairly self-reliant, if crushingly poor, lives."
+        },
+        {
+          "label": "F",
+          "text": "However, the exclusively local and face-to-face nature of economic and political organization in the ancient and prehistoric worlds constantly impressed upon these primitive peoples the uncontrollable reality of others and their needs. As Tocqueville notes, \"as soon as a man begins to deal with common affairs in public, he begins to perceive that he is not so independent of his fellow men as he had first imagined, and that in order to obtain their support he must often lend them his cooperation.\""
+        },
+        {
+          "label": "G",
+          "text": "At the advent of the modern world, the division of labor spread further and further throughout society. Each person became more and more dependent on others for their basic needs. And yet, robbed of the engagement with our neighbors and with our local communities that our ancestors were forced into by circumstance, we feel ourselves to be more and more independent of one another. As we become more and more dependent on others, we become less and less conscious of our dependence on others. This is the paradox of trade in the modern world."
+        },
+        {
+          "label": "H",
+          "text": "The false consciousness that this paradox generates causes havoc on the debates we have about free trade. There is scarcely a single commodity in any American household that isn't dependent for its manufacture and sale, through one supply chain or another, on scores of different people spread out across the entire globe. But as Tocqueville already foresaw in 1840, we do not feel dependent on these strangers for our way of life. No sense of the dependence of our own material welfare on their work ever strikes our national consciousness. We rarely contemplate the globalized avenues of free trade with gratitude."
+        },
+        {
+          "label": "I",
+          "text": "There are two reasons for this. The first, to put it bluntly, is money. Money allows us to purchase the work of others without giving any thought to them as human beings. Unlike our ancestors in their primitive townships, we rarely have to meet face-to-face the people who've invented, built, shipped, or supplied our goods. No relationship has to be built before an exchange can take place. Simply agree on a price, and you can have any goods you wish without taking a second thought for the human being involved on the other side of the transaction. In this way, money makes us feel more independent than we actually are. Each of us senses the hold that it has over our fellows. We know that if we bid highly enough we can buy ourselves out of the time-consuming labor of building relationships. Money is kind of like magic in that way. It gives us a set of rituals to perform and promises that if we do so we'll be able to wield power over others. The illusion is created that having enough money to buy something is the equivalent of knowing how to make it yourself. Gratitude for the anonymous men and women who make up the supply chain rarely makes its way into our consciousness."
+        },
+        {
+          "label": "J",
+          "text": "Anonymity, in fact, is the second root cause of the free-trade paradox. Modernity has emancipated everyone from the limits of location and community. By and large, when we trade, we trade with strangers; when we vote, we vote for strangers; when we watch, read, or listen to stories, the tellers of the tales are strangers. As opposed to the ancestors Tocqueville compares us to, we do not know the people with whom we have to do, in either the economic or the political sphere. This is simply the shadow side of the miracle of markets, which, for the first time in history, have allowed strangers to look after each other. They've also allowed each of us to live more and more of our lives exclusively as strangers to other people. This is how Tocqueville—rather pessimistically—describes us: Each, standing apart, is like a stranger to the destiny of others; his children and personal friends forming for him the entire human race. As for the remainder of his fellow citizens, he is beside them, but he does not see them. He touches them, but he does not feel them. He exists only in and for himself."
+        },
+        {
+          "label": "K",
+          "text": "The last sentence but one is as apt a summary as one could hope to come by of how each of us functions in the modern economy: \"He touches them, but he does not feel them.\""
+        },
+        {
+          "label": "L",
+          "text": "This is the greatest challenge facing defenders of free trade. It's exceedingly difficult for human beings to feel gratitude toward strangers, and the global marketplace that has made us so rich has also made us strangers to one another. Our brains are hardwired for tribal life, and tribes do not take kindly to strangers. Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task."
+        },
+        {
+          "label": "M",
+          "text": "If free-traders are going to win policy arguments in the future, they'll have to find a way of forging bonds of affection between American consumers and foreign producers. Only by de-anonymizing the men and women who supply us with the goods and services we enjoy from overseas and by creating a sense of solidarity and relationship across borders that transcends economic interest can free trade win the day. Otherwise, the inborn biological upper hand that protectionists have in the form of nationalist solidarity is bound to win the day at the ballot box. 36. People became more and more reliant on others for basic needs as they entered the modern world even though they might feel less so."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 There are hundreds of personality quizzes online that assert they can ascertain whether the right or left half of your brain is dominant. Left-brained people are supposedly logical and excel at language and math while right-brained people are more imaginative, emotionally intelligent and skilled with spatial reasoning. There's just one problem: That's not how brains work.\n\nP2 Popular science enthusiasts sort of took this idea and ran with it, and it's become woven in popular culture now, and it's not going away.\n\nP3 Despite this enduring belief, there's no such thing as being \"right-brained\" or \"left-brained\". Whether you're someone who tends more towards creativity or logic has nothing to do with one hemisphere of your brain being dominant over the other. But the actual science of how the two halves of our brains work together is sometimes stranger than fiction. Questions 46 to 50 are based on the following passage.\n\nP4 The human brain is divided into two hemispheres, the left and right. In all vertebrate(脊椎的) animals, the right hemisphere controls the left side of the body and vice versa. And scientists have long known, thanks to the behaviors of patients who suffered brain injuries, that different areas of the brain do different things.\n\nP5 But many scientists struggled with this idea, because the very suggestion that the left and right halves of the brain operate differently disrupted the idea that nature tends toward perfect symmetry.\n\nP6 Work by neuroscientists(神经科学家) has revealed the importance of different hemispheres of the brain for different activities. However, their research quickly saw some misinterpretations in the general public: Some presumed creative people must be right-brained and logical people left-brained. It is proven that not only is personality unrelated to the different halves of the brain, but people aren't really right- or left-brained to begin with. The idea that we have left-dominant people and right-dominant people, and that this is related to personality, is categorically false. That's never been supported in the neuroscience community. Neuroscientists don't believe that and never have.\n\nP7 What scientists learned is that there are really important differences between the left hemisphere and the right hemisphere. It's just that they have nothing to do with personality or whether cognitive strategy is more logical or free spirited or creative. While researchers have shown the limitations of how the hemispheres of our brains influence our lives, it's not difficult to understand the appeal of such ideas. People are endlessly fascinated by themselves and their friends, and the subtle differences in how people think about the world are really meaningful to them. When you come up with an online quiz that tells us something about ourselves, we're drawn to that. It's irresistible. But you have to take it with an enormous grain of salt.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "There are hundreds of personality quizzes online that assert they can ascertain whether the right or left half of your brain is dominant. Left-brained people are supposedly logical and excel at language and math while right-brained people are more imaginative, emotionally intelligent and skilled with spatial reasoning. There's just one problem: That's not how brains work."
+        },
+        {
+          "label": "P2",
+          "text": "Popular science enthusiasts sort of took this idea and ran with it, and it's become woven in popular culture now, and it's not going away."
+        },
+        {
+          "label": "P3",
+          "text": "Despite this enduring belief, there's no such thing as being \"right-brained\" or \"left-brained\". Whether you're someone who tends more towards creativity or logic has nothing to do with one hemisphere of your brain being dominant over the other. But the actual science of how the two halves of our brains work together is sometimes stranger than fiction. Questions 46 to 50 are based on the following passage."
+        },
+        {
+          "label": "P4",
+          "text": "The human brain is divided into two hemispheres, the left and right. In all vertebrate(脊椎的) animals, the right hemisphere controls the left side of the body and vice versa. And scientists have long known, thanks to the behaviors of patients who suffered brain injuries, that different areas of the brain do different things."
+        },
+        {
+          "label": "P5",
+          "text": "But many scientists struggled with this idea, because the very suggestion that the left and right halves of the brain operate differently disrupted the idea that nature tends toward perfect symmetry."
+        },
+        {
+          "label": "P6",
+          "text": "Work by neuroscientists(神经科学家) has revealed the importance of different hemispheres of the brain for different activities. However, their research quickly saw some misinterpretations in the general public: Some presumed creative people must be right-brained and logical people left-brained. It is proven that not only is personality unrelated to the different halves of the brain, but people aren't really right- or left-brained to begin with. The idea that we have left-dominant people and right-dominant people, and that this is related to personality, is categorically false. That's never been supported in the neuroscience community. Neuroscientists don't believe that and never have."
+        },
+        {
+          "label": "P7",
+          "text": "What scientists learned is that there are really important differences between the left hemisphere and the right hemisphere. It's just that they have nothing to do with personality or whether cognitive strategy is more logical or free spirited or creative. While researchers have shown the limitations of how the hemispheres of our brains influence our lives, it's not difficult to understand the appeal of such ideas. People are endlessly fascinated by themselves and their friends, and the subtle differences in how people think about the world are really meaningful to them. When you come up with an online quiz that tells us something about ourselves, we're drawn to that. It's irresistible. But you have to take it with an enormous grain of salt."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 One hundred thirty-five students, four teachers, one giant classroom: This is what 9th grade looks like at Westwood High School, in Mesa, Arizona's largest school system. There, an innovative teaching model has taken hold, and is spreading to other schools in the district and beyond.\n\nP2 Five years ago, faced with high teacher turnover and declining student enrollment, Westwood's leaders decided to try something different. Working with professors at Arizona State University's teachers college, they piloted a classroom model known as team teaching, which allows teachers to dissolve the walls that separate their classes across physical or grade divides.\n\nP3 The teachers share large groups of students—sometimes 100 or more—and rotate between group instruction, one-on-one interventions, small study groups, or whatever the teachers as a team agree is a priority that day. What looks at times like chaos is in fact a carefully orchestrated plan: Each morning, Questions 51 to 55 are based on the following passage. the Westwood teams meet to hammer out a personalized program for every student the team will focus on that day.\n\nP4 By giving teachers more opportunity to collaborate, Mesa's administrators hoped to fill staffing gaps and boost teacher morale and retention. Initial research suggests the gamble could pay off.\n\nP5 \"Teachers are doing fantastic things, but it's very rare a teacher walks into another room to see what's happening,\" said Andi Fourlis, superintendent of Mesa Public Schools. \"Our profession is so slow to advance because we are working in isolation.\"\n\nP6 Of course, overhauling teaching approaches can't fix all the frustrations teachers have, such as low pay, but early results from Mesa show team teaching may be helping to reverse low morale. In a survey of hundreds of the district's teachers, researchers found those who worked on teams reported greater job satisfaction, more frequent collaborations with colleagues, and more positive interactions with students.\n\nP7 Another benefit of teams, teachers say, is that they can help each other improve their instruction. During one planning session, English teacher Jeff Hall shared a performance appraisal with a science teacher: Her recent lecture on something she called \"the central dogma of biology\" had bewildered him and their other teammates.\n\nP8 \"If the science is too confusing for me, can you imagine the frustration you feel as kids?\" Hall said. But the science teacher, he said, wouldn't have known about the confusion on her own.\n\nP9 The model is not for everyone. Some teachers approached about volunteering for a team have said they prefer to work alone. Team teaching can also be a scheduling nightmare, especially at schools like Westwood where only some staff work in teams. There are also thorny questions like how to evaluate four teachers on the performance of 135 students. But for the time being, it seems to be working.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "One hundred thirty-five students, four teachers, one giant classroom: This is what 9th grade looks like at Westwood High School, in Mesa, Arizona's largest school system. There, an innovative teaching model has taken hold, and is spreading to other schools in the district and beyond."
+        },
+        {
+          "label": "P2",
+          "text": "Five years ago, faced with high teacher turnover and declining student enrollment, Westwood's leaders decided to try something different. Working with professors at Arizona State University's teachers college, they piloted a classroom model known as team teaching, which allows teachers to dissolve the walls that separate their classes across physical or grade divides."
+        },
+        {
+          "label": "P3",
+          "text": "The teachers share large groups of students—sometimes 100 or more—and rotate between group instruction, one-on-one interventions, small study groups, or whatever the teachers as a team agree is a priority that day. What looks at times like chaos is in fact a carefully orchestrated plan: Each morning, Questions 51 to 55 are based on the following passage. the Westwood teams meet to hammer out a personalized program for every student the team will focus on that day."
+        },
+        {
+          "label": "P4",
+          "text": "By giving teachers more opportunity to collaborate, Mesa's administrators hoped to fill staffing gaps and boost teacher morale and retention. Initial research suggests the gamble could pay off."
+        },
+        {
+          "label": "P5",
+          "text": "\"Teachers are doing fantastic things, but it's very rare a teacher walks into another room to see what's happening,\" said Andi Fourlis, superintendent of Mesa Public Schools. \"Our profession is so slow to advance because we are working in isolation.\""
+        },
+        {
+          "label": "P6",
+          "text": "Of course, overhauling teaching approaches can't fix all the frustrations teachers have, such as low pay, but early results from Mesa show team teaching may be helping to reverse low morale. In a survey of hundreds of the district's teachers, researchers found those who worked on teams reported greater job satisfaction, more frequent collaborations with colleagues, and more positive interactions with students."
+        },
+        {
+          "label": "P7",
+          "text": "Another benefit of teams, teachers say, is that they can help each other improve their instruction. During one planning session, English teacher Jeff Hall shared a performance appraisal with a science teacher: Her recent lecture on something she called \"the central dogma of biology\" had bewildered him and their other teammates."
+        },
+        {
+          "label": "P8",
+          "text": "\"If the science is too confusing for me, can you imagine the frustration you feel as kids?\" Hall said. But the science teacher, he said, wouldn't have known about the confusion on her own."
+        },
+        {
+          "label": "P9",
+          "text": "The model is not for everyone. Some teachers approached about volunteering for a team have said they prefer to work alone. Team teaching can also be a scheduling nightmare, especially at schools like Westwood where only some staff work in teams. There are also thorny questions like how to evaluate four teachers on the performance of 135 students. But for the time being, it seems to be working."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence “College provides a great opportunity for students to explore various possibilities and find the right path for themselves.” You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. You should copy the sentence given in quotes at the beginning of your essay.",
+      "model": "College provides a great opportunity for students to explore various possibilities and find the right path for themselves. Unlike the rigid routine of high school, the campus offers a wide range of courses, clubs and internships that allow us to test different interests and gradually discover where our true passion lies. Take my own case as an example. When I entered university, I was convinced that I would become an accountant, simply because my parents thought it was stable. However, after joining a campus debate club and taking an elective in journalism, I realized how much I enjoyed writing and public speaking. That single semester of trying new things completely reshaped my plan, and I eventually switched my major to communication. In my view, such freedom to experiment is exactly what makes college so valuable. Instead of clinging to a fixed idea, students should seize every chance to explore, because it is only through trial and error that we can truly find the path that suits us best.",
+      "modelZh": "【参考译文】大学为学生提供了探索各种可能、找到适合自己道路的绝佳机会。不同于高中死板的作息，校园提供了丰富的课程、社团和实习，让我们得以尝试不同的兴趣，逐渐发现自己真正的热爱所在。以我自己为例。刚上大学时，我坚信自己会成为一名会计，只因为父母觉得这份工作稳定。然而，在加入校辩论社、选修了一门新闻课之后，我意识到自己是多么热爱写作和公开演讲。那一个学期的种种尝试彻底重塑了我的规划，我最终转到了传播学专业。在我看来，这种自由试验的空间，正是大学如此宝贵的原因。与其死守一个固定的想法，学生更应抓住每一次探索的机会，因为唯有经历试错，我们才能真正找到最适合自己的那条路。【第 1 段】开头照抄＋对比引申。首段第一句逐字照抄了给定首句作主题句；第二句用 Unlike the rigidroutine of high school 做对比引申，点出 courses, clubs and internships 三类探索平台，正是「首句起笔加引申」的落地。【第 2 段】亲历试错的完整链条。主体段按「原打算当会计 参加辩论社、选修新闻 发现热爱写作演讲 转到传播」展开，是一条完整的试错定位链，用 Take my own case as an example 和However 推进，把题目允许的 use your personal experiences 真正写实。",
+      "outline": [
+        {
+          "no": 1,
+          "text": "开头照抄＋对比引申。首段第一句逐字照抄了给定首句作主题句；第二句用 Unlike the rigid routine of high school 做对比引申，点出 courses, clubs and internships 三类探索平台，正是「首句 起笔加引申」的落地。"
+        },
+        {
+          "no": 2,
+          "text": "亲历试错的完整链条。主体段按「原打算当会计 参加辩论社、选修新闻 发现热爱写作 演讲 转到传播」展开，是一条完整的试错定位链，用 Take my own case as an example 和 However 推进，把题目允许的 use your personal experiences 真正写实。"
+        },
+        {
+          "no": 3,
+          "text": "回扣首句收束升华。结尾 In my view ... it is only through trial and error that we can truly find the path that suits us best 重申了「探索、找到路」的中心，与首句照应，全文闭环。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 遨游太空历来是中华民族的梦想。2003年,神舟五号飞船发射成功,杨利伟成为第一个飞入太空的中 国宇航员。2008年,神舟七号升空,翟志刚成为中国历史上首位进行太空行走的宇航员。近年来,中国航 天进入创新发展\"快车道\",太空基础设施建设稳步推进,中国空间站于2022年全面建成。中国航天事业的 迅速发展在中华民族的历史上写下了辉煌一页,也为人类文明进步做出了巨大贡献。未来,中国探索太空 的脚步将迈得更稳、更远。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Exploring space has always been a dream of the Chinese nation. In 2003, Shenzhou-5 was successfully launched, and Yang Liwei became the first Chinese astronaut to fly into space. In 2008, Shenzhou-7 was launched, and Zhai Zhigang became the first astronaut to conduct a spacewalk in China's history. In recent years, China's space industry has entered a fast track of innovation-driven development, space infrastructure has advanced steadily, and China's space station was fully completed in 2022. The rapid development of China's space industry has written a glorious chapter in the history of the Chinese nation and made a great contribution to the progress of human civilization. In the future, China will take steadier and further steps in its exploration of space.",
+      "source": "遨游太空历来是中华民族的梦想。2003年,神舟五号飞船发射成功,杨利伟成为第一个飞入太空的中国宇航员。2008年,神舟七号升空,翟志刚成为中国历史上首位进行太空行走的宇航员。近年来,中国航天进入创新发展\"快车道\",太空基础设施建设稳步推进,中国空间站于2022年全面建成。中国航天事业的迅速发展在中华民族的历史上写下了辉煌一页,也为人类文明进步做出了巨大贡献。未来,中国探索太空的脚步将迈得更稳、更远。",
+      "reference": "Exploring space has always been a dream of the Chinese nation. In 2003, Shenzhou-5 was successfully launched, and Yang Liwei became the first Chinese astronaut to fly into space. In 2008, Shenzhou-7 was launched, and Zhai Zhigang became the first astronaut to conduct a spacewalk in China's history. In recent years, China's space industry has entered a fast track of innovation-driven development, space infrastructure has advanced steadily, and China's space station was fully completed in 2022. The rapid development of China's space industry has written a glorious chapter in the history of the Chinese nation and made a great contribution to the progress of human civilization. In the future, China will take steadier and further steps in its exploration of space.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "梦想是主语、太空遨游是表语核心（主语策略：原句主语） 中文里 遨游太空历来是中华民族的梦想 的核心是\"……是……的梦想\"这一判断句。可把\"遨游太 空\"提为主语（动名词 Travelling/Exploring space），\"是中华民族的梦想\"作系表：Exploring space has always been a dream of the Chinese nation。主谓宾即 Exploring space (主) — has been (系) — a dream (表)。"
+          },
+          {
+            "label": "降级",
+            "text": "历来用 always 状语处理 本句结构简单，主干之外只有 历来 这个时间副词，降级成状语 always，放在 has 与 been 之间： has always been。\"中华民族的\"作定语，用 of the Chinese nation 后置修饰 dream，不必前置 成 the Chinese nation's。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 此句讲\"历来、一直如此\"的恒常状态，是少数偏离过去时基调的句子，宜用现在完成时 has always been，强调从过去延续至今的持续状态。 主谓一致 主语是动名词短语 Exploring space，视作单数第三人称，助动词用 has 而非 have。 冠词 \"一个梦想\"是泛指可数单数，用不定冠词 a dream；the Chinese nation 是特指整体，用定冠词 the。"
+          },
+          {
+            "label": "译文",
+            "text": "Exploring space has always been a dream of the Chinese nation. 2. 2003年,神舟五号飞船发射成功,杨利伟成为第一个飞入太空的中国宇航员。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "拆成两个主干分别立（主语策略：原句主语） 神舟五号飞船发射成功,杨利伟成为第一个飞入太空的中国宇航员 含两件事，可立两个主干。第一 件\"飞船发射成功\"可用被动 Shenzhou-5 was successfully launched（飞船是被发射的）；第 二件\"杨利伟成为……宇航员\"用 Yang Liwei became... 主系表式。两个主干用逗号 + and 或分号 连接。"
+          },
+          {
+            "label": "降级",
+            "text": "时间状语前置加后置定语 2003年 降级成时间状语 In 2003 置于句首。第一个飞入太空的中国宇航员 里\"飞入太空的\"是修 饰\"宇航员\"的成分，降级成后置定语：the first Chinese astronaut to fly into space（用不定式 to fly 作后置定语）。\"发射成功\"的\"成功\"降级成副词 successfully。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 2003 年是确切的过去时间点，回指全篇基调用一般过去时：was launched、became。 语态 \"飞船发射成功\"中飞船是被发射的对象，英文用被动 was launched 更自然；汉语常省略被动标 记，译时要主动补上被动。 单复数与冠词 \"第一个……宇航员\"特指唯一一人，用 the first Chinese astronaut，单数加定冠词 the。 搭配 \"飞入太空\"用 fly into space；\"成为……宇航员\"用 became the first... astronaut，become 后接 名词作表语。"
+          },
+          {
+            "label": "译文",
+            "text": "In 2003, Shenzhou-5 was successfully launched, and Yang Liwei became the first Chinese astronaut to fly into space. 3. 2008年,神舟七号升空,翟志刚成为中国历史上首位进行太空行走的宇航员。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "与第2句同构的双主干（主语策略：原句主语） 结构与上一句平行：神舟七号升空 立一个主干 Shenzhou-7 was launched（或 lifted off）；翟 志刚成为中国历史上首位进行太空行走的宇航员 立第二个主干 Zhai Zhigang became the first astronaut...。两主干并列。"
+          },
+          {
+            "label": "降级",
+            "text": "进行太空行走作后置定语 2008年 降级为句首状语 In 2008。首位进行太空行走的宇航员 中\"进行太空行走的\"修饰\"宇航 员\"，降级成后置定语：the first astronaut to conduct a spacewalk（或 to carry out a spacewalk）。中国历史上 降级成状语 in China's history，置于句末。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 2008 年是过去时间点，回指基调用一般过去时：was launched、became、conducted（若用定 语从句）。 语态 \"升空\"指飞船被发射升空，可用被动 was launched；若用 lifted off（升空，不及物）则主动即可 ——二者择一，注意 lift off 是不及物短语动词不可加被动。 单复数与冠词 \"首位……宇航员\"特指唯一，the first astronaut 单数加 the；\"一次太空行走\"用 a spacewalk，泛 指一次可数。 搭配 \"进行太空行走\"用 conduct/carry out a spacewalk；spacewalk 是约定俗成的术语，比直译 walk in space 更地道。"
+          },
+          {
+            "label": "译文",
+            "text": "In 2008, Shenzhou-7 was launched, and Zhai Zhigang became the first astronaut to conduct a spacewalk in China's history. 4. 近年来,中国航天进入创新发展\"快车道\",太空基础设施建设稳步推进,中国空间站于2022年全面 建成。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "三件事三个主干并列（主语策略：原句主语） 本句含三件事：中国航天进入创新发展\"快车道\"（China's space industry entered a fast track of innovation-driven development）、太空基础设施建设稳步推进（space infrastructure construction advanced steadily）、中国空间站于2022年全面建成（China's space station was fully completed in 2022）。每件事各立一套主谓，用分号或逗号 + and 并列。"
+          },
+          {
+            "label": "降级",
+            "text": "末段建成事件用被动收尾 近年来 降级为句首状语 In recent years。前两件事用主动并列；第三件 中国空间站于2022年全面 建成 中空间站是被建成的，用被动 was fully completed，于2022年 作时间状语 in 2022 后 置。\"创新发展\"作定语修饰\"快车道\"，用 a fast track of innovation-driven development。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"近年来\"加确切的\"2022年\"，叙述近期已完成的进展，回指基调用一般过去时：entered、 advanced、was completed。\"近年来\"若想强调延续到现在也可用现在完成时 has entered，但 全句宜统一，建议跟基调用过去时。 语态 \"空间站全面建成\"中空间站是被建成的对象，用被动 was fully completed；汉语省略了\"被\"，译 时补出。 单复数与冠词 a fast track 泛指一条快车道，用不定冠词 a；China's space station 用所有格特指中国的那座， 不再加 the。 用词 \"快车道\"是比喻，译 fast track 即可，引号在英文中可省；\"稳步推进\"用 advanced steadily 或 progressed steadily；\"全面建成\"用 fully completed。"
+          },
+          {
+            "label": "译文",
+            "text": "In recent years, China's space industry has entered a fast track of innovation- driven development, space infrastructure has advanced steadily, and China's space station was fully completed in 2022. 5. 中国航天事业的迅速发展在中华民族的历史上写下了辉煌一页,也为人类文明进步做出了巨大 贡献。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "迅速发展作主语带两个谓语（主语策略：原句主语） 主语是 中国航天事业的迅速发展（The rapid development of China's space industry）。它带 两个并列谓语：写下了辉煌一页（has written a glorious chapter）和 也为人类文明进步做出了 巨大贡献（and made a great contribution）。主干为 The rapid development (主) — has written... and made... (并列谓语)。"
+          },
+          {
+            "label": "降级",
+            "text": "处所与目的降为介词短语 在中华民族的历史上 降级成介词短语 in the history of the Chinese nation 作状语；为人类文明 进步 降级成介词短语 to the progress of human civilization 作 contribution 的搭配补足 （make a contribution to...）。两个修饰都用介词短语后挂，主干保持清爽。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"写下了\"\"做出了\"是已完成且影响延续至今的成就，用现在完成时 has written、(has) made 最贴 切；也可跟基调用一般过去时 wrote、made，二者择一并前后一致。 搭配 \"做出贡献\"是固定搭配 make a contribution to sth，介词必须用 to；\"写下辉煌一页\"用 write a glorious chapter/page 的比喻表达。 主谓一致 主语核心是 development（单数），谓语用 has；后一个并列谓语 made 与 has written 共用助 动词 has，写成 has written... and made...。 单复数与冠词 a glorious chapter 泛指辉煌的一页用 a；human civilization 抽象不可数，前面不加冠词。"
+          },
+          {
+            "label": "译文",
+            "text": "The rapid development of China's space industry has written a glorious chapter in the history of the Chinese nation and made a great contribution to the progress of human civilization. 6. 未来,中国探索太空的脚步将迈得更稳、更远。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "中国作主语谓语用将来时（主语策略：原句主语） 中文字面主语是\"脚步\"，但直译 China's steps... 偏生硬。可把 中国 提为主语：China will take steadier and further steps in space exploration（中国将迈出更稳更远的步伐）。主干为 China (主) — will take (谓) — steps (宾)。"
+          },
+          {
+            "label": "降级",
+            "text": "更稳更远降为形容词比较级 未来 降级成句首状语 In the future。更稳、更远 是修饰\"迈步\"的程度，降级成形容词比较级 steadier and further 作 steps 的前置定语（take steadier and further steps）。探索太空的 用 介词短语 in space exploration 后置说明领域。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 \"未来……将……\"明确是对将来的展望，这是偏离基调的一句，用一般将来时 will take。 比较级 \"更稳\"steady→steadier，\"更远\"far→further/farther，都要用比较级形式，不能用原级 steady、 far。 单复数与搭配 take steps 中 steps 习惯用复数；\"探索太空\"用 space exploration（不可数抽象名词，不加冠 词）或 the exploration of space。"
+          },
+          {
+            "label": "译文",
+            "text": "In the future, China will take steadier and further steps in its exploration of space. 英语六级 2024年12月·第3套 · 全卷构成 Part II 听力 与2024年12月第2套共用 · 题目解析 → Part III Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "no-audio"
+  ]
+}

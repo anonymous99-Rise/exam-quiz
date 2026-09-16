@@ -1,0 +1,3634 @@
+{
+  "id": "2023-03-1",
+  "examId": "cet6",
+  "year": 2023,
+  "month": 3,
+  "session": "2022下半年",
+  "setNo": 1,
+  "label": "2023年3月",
+  "questions": [
+    {
+      "no": 1,
+      "sectionId": "listening",
+      "stem": "Where does the conversation most probably take place?",
+      "stemZh": "对话最可能发生在哪里?",
+      "answer": "A",
+      "answerText": "In a restaurant.",
+      "questionType": "推断题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "But one of my close friends ate here last week. She's a vegetarian. She told me that there were a lot of options for her, and they offered alternative dishes. 不过我一个好朋友上周在这儿吃过。她是素食者。她跟我说这里给她的选择很多，还提供替 代菜品。"
+        },
+        {
+          "label": "信号",
+          "text": "menu、ate here、offered dishes 等餐厅标志词。环境标志词成串出现：第1段 I've been wanting to try this place、第2段 the menu 与 they offered alternative dishes、 第10段 What are you going to have?——「菜单、上菜、点什么」只可能发生在餐厅， 多个标志词共同锁定地点。"
+        },
+        {
+          "label": "替换",
+          "text": "the menu ↔In a restaurant. 有菜单、有人上菜的场所即餐厅"
+        },
+        {
+          "label": "排除",
+          "text": "B) 原词陷阱 kitchen（厨房）借的是 dishes、menu 引发的「跟做饭有关」联想，但全程是别人给两人 上菜、问他们点什么，没人在自己下厨，地点不是厨房。 借用原文：they offered alternative dishes C) 原词陷阱 food store（食品店）只是蹭了满篇的食物话题，可对话里是坐下来看菜单、被问点什么， 没有任何挑选购买商品的情节，与食品店不符。 D) 原词陷阱 supermarket（超市）与 food store 错法相同，只因话题是吃就被列进来，但录音里 What are you going to have? 是点餐、不是购物，排除。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "In a restaurant.",
+          "textZh": "在餐馆里。"
+        },
+        {
+          "label": "B",
+          "text": "In a kitchen.",
+          "textZh": "在厨房里。"
+        },
+        {
+          "label": "C",
+          "text": "In a food store.",
+          "textZh": "在食品店里。"
+        },
+        {
+          "label": "D",
+          "text": "In a supermarket.",
+          "textZh": "在超市里。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sectionId": "listening",
+      "stem": "What do we learn about the woman?",
+      "stemZh": "关于这位女士我们了解到什么?",
+      "answer": "D",
+      "answerText": "She is a partial vegetarian.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Well, not entirely. I don't eat meat at all, but I don't have a problem eating fish, seafood or eggs. 嗯，不完全是。我完全不吃肉，但吃鱼、海鲜或蛋是没问题的。"
+        },
+        {
+          "label": "信号",
+          "text": "被问者应答 + not entirely 让步 + but 转折。男士问 you're not vegetarian, are you?， 女士的应答即落点；她先说 not entirely（不完全是），再用 but 把「不吃肉」和「吃鱼 蛋」对接——这种「部分是、不完全是」正是 partial vegetarian 的定义。"
+        },
+        {
+          "label": "替换",
+          "text": "I don't eat meat at all, but I don't have a problem eating fish, seafood or eggs ↔ She is a partial vegetarian. 「不吃肉但吃鱼蛋」概括为「部分素食者」 not entirely ↔partial vegetarian 「不完全是」对应「部分」"
+        },
+        {
+          "label": "排除",
+          "text": "A) 与原文相反 She eats meat occasionally.（偶尔吃肉）与原文 I don't eat meat at all（完全不吃肉） 正好相反，把「一点都不吃」反成了「偶尔吃」。 借用原文：I don't eat meat at all B) 张冠李戴 She enjoys cheeseburgers. 盗用了男士那句 bacon cheeseburgers，但说舍不得汉堡的 是男士、不是女士，把男方的话安到了女方头上。 借用原文：bacon cheeseburgers C) 原词陷阱 She is allergic to seafood. 盗用了 seafood 一词，但原文是她「吃海鲜没问题」，根本没 提过敏，allergic 系凭空捏造且与事实相反。 借用原文：eating fish, seafood or eggs"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She eats meat occasionally.",
+          "textZh": "她偶尔吃肉。"
+        },
+        {
+          "label": "B",
+          "text": "She enjoys cheeseburgers.",
+          "textZh": "她喜欢吃芝士汉堡。"
+        },
+        {
+          "label": "C",
+          "text": "She is allergic to seafood.",
+          "textZh": "她对海鲜过敏。"
+        },
+        {
+          "label": "D",
+          "text": "She is a partial vegetarian.",
+          "textZh": "她是一位部分素食者。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "sectionId": "listening",
+      "stem": "What would be a difficult thing to do according to the woman?",
+      "stemZh": "根据这位女士的说法,什么事情会比较难做到?",
+      "answer": "B",
+      "answerText": "Changing one's eating habit.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "I bet it would be hard though, giving up something you're accustomed to eating. 不过我敢说，要放弃一样你习惯了的吃食，是会很难的。"
+        },
+        {
+          "label": "信号",
+          "text": "评价词 hard 直接修饰 giving up… eating。it would be hard 里的 hard（难）直接评价 后面的 giving up something you're accustomed to eating——「放弃一样你已习惯吃的 东西」，评价词紧贴的那件事就是答案，正是「改变饮食习惯」。"
+        },
+        {
+          "label": "替换",
+          "text": "giving up something you're accustomed to eating ↔Changing one's eating habit. 「放弃习惯吃的东西」=「改变饮食习惯」"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 Dealing with one's colleagues. 盗用了 deal with me 旁边的 colleagues，但原文是「戒 咖啡后同事得忍受我很难受」，难的是戒咖啡这件事，不是「处理同事」。 借用原文：deal with me at morning meetings C) 原词陷阱 Following the same diet for years. 蹭了 My parents followed the same diet，可那是在 讲她从小随父母吃同样的饭、并不觉得难，不是被评为「难做」的事。 借用原文：My parents followed the same diet D) 原词陷阱 Keeping awake at morning meetings. 借用了 morning meetings，但原文只说戒咖啡让 她早会上状态差、同事难受，从没说「在早会保持清醒」是难事，系拼凑原词。 借用原文：morning meetings"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dealing with one's colleagues.",
+          "textZh": "与同事打交道。"
+        },
+        {
+          "label": "B",
+          "text": "Changing one's eating habit.",
+          "textZh": "改变饮食习惯。"
+        },
+        {
+          "label": "C",
+          "text": "Following the same diet for years.",
+          "textZh": "多年保持同样的饮食。"
+        },
+        {
+          "label": "D",
+          "text": "Keeping awake at morning meetings.",
+          "textZh": "在早晨会议上保持清醒。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "sectionId": "listening",
+      "stem": "What does the woman say about her parents?",
+      "stemZh": "这位女士关于她父母说了什么?",
+      "answer": "A",
+      "answerText": "They enjoy perfect health.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Both are in their 70s now, but eat organic as often as possible and take part in regular physical exercise. Neither of them has any health problems, and they hardly ever get sick. 他们俩现在都七十多岁了，但尽量常吃有机食品，也定期参加体育锻炼。两人都没有任何健 康问题，也几乎从不生病。"
+        },
+        {
+          "label": "信号",
+          "text": "强否定 Neither…any + hardly ever 收束健康结论。落点在 Neither of them has any health problems 与 they hardly ever get sick——双重否定 + hardly ever 把父母身体状 况推到「完全没病、几乎不生病」的极佳状态，这是对父母的总体定论。"
+        },
+        {
+          "label": "替换",
+          "text": "Neither of them has any health problems, and they hardly ever get sick ↔ They enjoy perfect health. 「都没病、几乎不生病」=「身体极佳」"
+        },
+        {
+          "label": "排除",
+          "text": "B) 与原文相反 They are both animal lovers. 借了 animal preservation 一词，但原文说父母 not terribly active or knowledgeable about animal preservation efforts（对动物保护既不 热心也不懂），与「都是爱动物者」相反。 借用原文：not terribly active or knowledgeable about animal preservation efforts C) 偷换概念 They only eat organic food. 盗用 eat organic，却把原文的 as often as possible（尽量 常吃）偷改成 only（只吃），范围被绝对化，不符。 借用原文：eat organic as often as possible D) 张冠李戴 They are cutting back on coffee. 盗用了 cutting back on coffee，但戒咖啡的是女士自 己（I tried cutting back on coffee），父母从未减咖啡，把女士的事安到了父母身上。 借用原文：I tried cutting back on coffee 1 W: How did your annual performance evaluation meeting with your manager go? Did you get much in the way of praise? W: 你和经理的年度绩效评估会谈怎么样?他有没有表扬你? 2 M: Next to zero. When we came to the part about discussing my areas for growth, he bluntly told me that I had an attitude problem. But he wouldn't really expand on that description. He said it's the little things I do and say. M: 几乎没有。当我们谈到需要改进的地方时,他直截了当地说我有态度问题。但他没有详细说明。他说是 我做的和说的一些小事。 3 W: Did you ask him for a specific example? W: 你有没有让他举个具体例子? 4 M: I did ask him a few more questions to try and narrow it down. He said my constant questioning of him and his decisions was the most obvious example he could give. Then our conversation was swiftly brought to a close. M: 我确实又问了他几个问题,想把范围缩小一点。他说我不断质疑他和他的决定是他能给出的最明显的例 子。然后我们的对话就迅速结束了。 5 W: I had a similar experience once. My manager told me I was too honest. In most cases, I thought my honesty was helpful, as did my colleagues, but my manager thought otherwise. Some managers really adopt manipulative language to disguise the unreasonable choices they have made. They don't use the rational power of arguments to resolve issues of conflict or complaints about unfairness. W: 我有过类似的经历。我的经理说我太诚实了。在大多数情况下,我觉得我的诚实是有帮助的,我的同事也 这么认为,但我的经理不这么想。有些经理真的会采用操控性的语言来掩饰他们做出的不合理选择。他们不 用理性论证的力量来解决冲突问题或关于不公平的投诉。 Questions 5 to 8 are based on the conversation you have just heard. 6 M: Right. Some employ their persuasive vocabulary and influential communication style to win workplace arguments by compelling people to perform the intended action. M: 没错。有些人运用他们的说服性词汇和有影响力的沟通风格,通过迫使人们执行预定行动来赢得职场 争论。 7 W: Exactly. Too honest? Isn't that a good thing? I thought that's surely something we should have covered earlier in the section discussing strengths and talents, but no. Honesty was deemed to be more of a sin than a virtue, since it made people feel uncomfortable, or at least it made the most powerful folks feel uncomfortable. W: 就是这样。太诚实?这难道不是件好事吗?我觉得这肯定应该在前面讨论优势和才能的部分提到,但没 有。诚实被认为更像是一种罪过而不是美德,因为它让人感到不舒服,或者至少让那些最有权势的人感到不 舒服。 8 M: Indeed. Rhetoric is viewed by many philosophers as the method through which the powerful accumulate more power. By virtue of having the loudest voice, they're able to command greater attention and to further assert their dominance, even when what they're saying doesn't really make much sense. M: 确实如此。许多哲学家认为修辞是权势者积累更多权力的方法。凭借最响亮的声音,他们能够获得更多 关注,并进一步巩固自己的支配地位,即使他们说的话并没有多大意义。 9 W: And retaining their power and prestige is their priority. W: 保持权力和威望是他们的首要任务。 10 M: It's what makes the most sense to a lot of them. M: 这对他们很多人来说是最合理的。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They enjoy perfect health.",
+          "textZh": "他们身体非常健康。"
+        },
+        {
+          "label": "B",
+          "text": "They are both animal lovers.",
+          "textZh": "他们都是动物爱好者。"
+        },
+        {
+          "label": "C",
+          "text": "They only eat organic food.",
+          "textZh": "他们只吃有机食品。"
+        },
+        {
+          "label": "D",
+          "text": "They are cutting back on coffee.",
+          "textZh": "他们正在减少咖啡摄入量。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "sectionId": "listening",
+      "stem": "What was the manager's reason for giving little praise for the man's performance?",
+      "stemZh": "经理对这名男士的工作表现几乎不予赞扬的原因是什么?",
+      "answer": "D",
+      "answerText": "The man had an attitude problem.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "he bluntly told me that I had an attitude problem. 他直截了当地告诉我，我有态度问题。"
+        },
+        {
+          "label": "信号",
+          "text": "被问者复述经理原话的直接引述句。女士问考评结果后，男士应答里 he bluntly told me that I had an attitude problem 是对经理原话的直接转述，'他告诉我……'这种引述就是答 案信号——经理给出的原因被原原本本复述在这句里。"
+        },
+        {
+          "label": "替换",
+          "text": "I had an attitude problem ↔The man had an attitude problem. 原话第一人称 I，选项换成第三人称 The man，意思不变"
+        },
+        {
+          "label": "排除",
+          "text": "A) 张冠李戴 原文差评出自男士的 manager(见 your annual performance evaluation meeting with your manager)，A 却说 a poor evaluation from his colleagues'来自同事'，张冠李戴改 了评价来源，故错。 借用原文：your annual performance evaluation meeting with your manager B) 未提及 经理给的理由是态度问题，全程没说男士 made little contribution to the company'贡献 少'，这是凭'表扬少'常识脑补出的原因，原文无据。 C) 原词陷阱 原文经理说 it's the little things I do and say，C 的 paid attention to trivial things 用 trivial(琐碎)勾住这个 little things，听着像。但原文 little things 指'惹经理不快的琐碎言行 (即态度的体现)'，不是说男士'只关注琐事'，含义被偷换。 借用原文：it's the little things I do and say"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The man got a poor evaluation from his colleagues.",
+          "textZh": "这名男士从同事那里得到了较差的评价。"
+        },
+        {
+          "label": "B",
+          "text": "The man made little contribution to the company.",
+          "textZh": "这名男士对公司贡献甚微。"
+        },
+        {
+          "label": "C",
+          "text": "The man paid attention to trivial things.",
+          "textZh": "这名男士关注琐碎的事情。"
+        },
+        {
+          "label": "D",
+          "text": "The man had an attitude problem.",
+          "textZh": "这名男士有态度问题。"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "sectionId": "listening",
+      "stem": "What does the woman say about some managers?",
+      "stemZh": "女士对一些管理者有什么看法?",
+      "answer": "C",
+      "answerText": "They use manipulative language to mask their irrational choices.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Some managers really adopt manipulative language to disguise the unreasonable choices they have made. 有些经理确实会采用操控性的语言，来掩饰他们做出的那些不合理的选择。"
+        },
+        {
+          "label": "信号",
+          "text": "女士发言中直接评价经理的核心陈述句。女士这段以 Some managers really adopt manipulative language to disguise the unreasonable choices 直陈对经理的判断，主语 Some managers、动词 adopt…to disguise 把'手段+目的'说全，是承载答案的评价句。"
+        },
+        {
+          "label": "替换",
+          "text": "adopt manipulative language ↔use manipulative language adopt 换成 use，同义动词替换 disguise the unreasonable choices ↔mask their irrational choices disguise→mask、unreasonable→irrational 双重同义替换"
+        },
+        {
+          "label": "排除",
+          "text": "A) 答非所问 原文批评的是经理'用话术掩盖不合理决定'，重点在'掩盖'这个语言行为；A 的 make unhelpful decisions for solving problems 只截取'决定不好'一层，丢了'操控语言'的核 心，且 unhelpful 与原文 unreasonable 侧重不同，未答到点上。 借用原文：disguise the unreasonable choices they have made B) 未提及 原文没说经理 favor some employees' suggestions over others'偏心采纳某些建议'，这 是凭'经理不公'的印象自造的指控，原文无对应句。 D) 原词陷阱 原文紧接的下一句是 They don't use the rational power of arguments to resolve issues'他们不用理性论证去解决问题'，D 的 reject employees' reasonable arguments for work efficiency 盗用 rational/arguments 这两个原词，并自添 for work efficiency(为 了效率)的动机，原文既没说'否决员工合理论点'，更没提'效率'，原词在意思被改向。 借用原文：They don't use the rational power of arguments to resolve issues of conflict"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They make unhelpful decisions for solving problems.",
+          "textZh": "他们在解决问题时做出无益的决定。"
+        },
+        {
+          "label": "B",
+          "text": "They favor some employees' suggestions over others.",
+          "textZh": "他们偏爱某些员工的建议而非其他人的建议。"
+        },
+        {
+          "label": "C",
+          "text": "They use manipulative language to mask their irrational choices.",
+          "textZh": "他们使用操纵性语言来掩盖其不理性的选择。"
+        },
+        {
+          "label": "D",
+          "text": "They reject employees' reasonable arguments for work efficiency.",
+          "textZh": "他们拒绝员工关于提高工作效率的合理论证。"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "sectionId": "listening",
+      "stem": "According to the woman, what do some managers think of honesty?",
+      "stemZh": "根据女士的说法,一些管理者如何看待诚实?",
+      "answer": "B",
+      "answerText": "It is more of a sin than a virtue.",
+      "questionType": "态度观点题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Honesty was deemed to be more of a sin than a virtue, since it made people feel uncomfortable. 诚实被认为更像是一种罪过而非美德，因为它让人感到不舒服。"
+        },
+        {
+          "label": "信号",
+          "text": "评价动词 deemed 引出的定性，是态度落点。女士用 Honesty was deemed to be more of a sin than a virtue，deemed(被认为是)后面跟的 a sin(罪)就是这些经理对诚实的定 性，评价性动词后的内容正是态度题答案信号。"
+        },
+        {
+          "label": "替换",
+          "text": "more of a sin than a virtue ↔more of a sin than a virtue 此项罕见地原句照搬，反成正确项"
+        },
+        {
+          "label": "排除",
+          "text": "A) 与原文相反 原文把诚实判为 more of a sin than a virtue'更像罪'，是负面；A 的 It is a must for rational judgment'理性判断的必需品'是正面拔高，极性与原文相反。 借用原文：Honesty was deemed to be more of a sin than a virtue C) 与原文相反 C 的 It is a good quality in the workplace'职场好品质'是正面评价，而原文这些经理把诚 实看作 a sin(负面)，褒贬相反；workplace 虽是全篇高频词，但拿它包装的却是与原意相反 的正面判断。 借用原文：Honesty was deemed to be more of a sin than a virtue D) 未提及 原文谈的是诚实被看作罪/还是美德，从没说它 more important now than ever'现在比过 去更重要'，时间今昔的维度原文完全没出现。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is a must for rational judgment.",
+          "textZh": "诚实是理性判断的必要条件。"
+        },
+        {
+          "label": "B",
+          "text": "It is more of a sin than a virtue.",
+          "textZh": "诚实更像是一种罪过而非美德。"
+        },
+        {
+          "label": "C",
+          "text": "It is a good quality in the workplace.",
+          "textZh": "诚实是职场中的一种良好品质。"
+        },
+        {
+          "label": "D",
+          "text": "It is more important now than ever.",
+          "textZh": "诚实现在比以往任何时候都更重要。"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "sectionId": "listening",
+      "stem": "What does the woman think is the priority of many managers?",
+      "stemZh": "女士认为许多管理者的首要任务是什么?",
+      "answer": "D",
+      "answerText": "Preserving their power and prestige.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "And retaining their power and prestige is their priority. 而且，保住他们的权力和威望，才是他们的首要之务。"
+        },
+        {
+          "label": "信号",
+          "text": "对话收尾处带 priority 的结论句。临近结束，女士用 And retaining their power and prestige is their priority 直接点出 priority，以 And 收束全段批评、给出结论，正是答案 信号——对话的总结判断落在这句。"
+        },
+        {
+          "label": "替换",
+          "text": "retaining their power and prestige ↔Preserving their power and prestige. retaining 换成 preserving，同义动词替换"
+        },
+        {
+          "label": "排除",
+          "text": "A) 未提及 原文说经理首要是保权保威，从没说他们以 Smoothing relationships in the workplace'维系职场关系'为先，这是凭好印象自造的目标，原文无对应。 B) 原词陷阱 原文多处用到 rational(如 They don't use the rational power of arguments)，B 的 Making rational and productive decisions'做理性高效决定'正是拿这个高频词设套；但全 篇批评经理不理性、靠话术保权，把'理性决策'当成他们的首要恰恰相反。 借用原文：They don't use the rational power of arguments to resolve issues C) 未提及 原文通篇批评经理只顾自己权威，绝无说他们以 Focusing on employees career growth'员工职业成长'为先，这与结论句的'保权'完全背离，原文无据。 Section B 1 Athletes are seen as heroes because they can do things that most of us can't do. They can hit fastballs coming at them at nearly 100 miles an hour, and leap and hang in the air, seemingly defying gravity. They get paid millions of dollars for their efforts, and their names and faces appear on everything from running shoes to advertising boards. 运动员被视为英雄，因为他们能做到我们大多数人做不到的事情。他们能击中以近100英里时速飞来的快 速球，能跳跃并悬停在空中，似乎在对抗地心引力。他们的努力为他们赢得了数百万美元的报酬，他们的 名字和面孔出现在从跑鞋到广告牌的各种事物上。 2 Athletes who are champions also show qualities such as perseverance, dedication, and the ability to keep their cool under pressure. Many show those same qualities off the playing field, too. Stories about superstar athletes teach us about working hard and believing in ourselves and then being passionate about what we do. Although it's usually bad behavior that gets an athlete a spot on the six o'clock news, many high-profile players work hard to be positive role models to children. They raise money for charities and act as mentors, talking to student groups and volunteering their time to programs that help children keep off drugs and stay in school. 成为冠军的运动员还展现出诸如毅力、奉献精神以及在压力下保持冷静的能力等品质。许多人在赛场外也 展现出同样的品质。关于超级明星运动员的故事教会我们努力工作、相信自己，然后对我们所做的事情充 满热情。尽管通常是不良行为让运动员登上六点钟新闻，但许多知名球员努力成为儿童的正面榜样。他们 为慈善事业筹款，担任导师，向学生团体演讲，并自愿将时间投入到帮助儿童远离毒品和留在学校的项 目中。 Questions 9 to 11 are based on the passage you have just heard. 3 Still, even the greatest champions have flaws. Just because an athlete has the perfect golf swing doesn't mean he is the perfect parent, friend or spokesperson. They also make mistakes. Separating an athlete's professional and personal lives can be tough. When a sports star gets in trouble with the law, or does something wrong in their private life, fans are often left disappointed. Before he died, baseball star Mickey Mantle, who was plagued with alcohol problems, told young ballplayers and the fans who admired him \"to play like me, don't be like me.\" 然而，即使是最伟大的冠军也有缺陷。仅仅因为一名运动员拥有完美的高尔夫挥杆动作，并不意味着他是 完美的父母、朋友或代言人。他们也会犯错。将运动员的职业生活和个人生活分开可能很困难。当体育明 星触犯法律或在私人生活中做错事时，粉丝们往往会感到失望。棒球明星Mickey Mantle深受酗酒问题困 扰，在他去世前，他告诉年轻球员和崇拜他的粉丝们'像我一样打球，但不要像我一样做人'。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Smoothing relationships in the workplace.",
+          "textZh": "协调职场中的关系。"
+        },
+        {
+          "label": "B",
+          "text": "Making rational and productive decisions.",
+          "textZh": "做出理性且富有成效的决定。"
+        },
+        {
+          "label": "C",
+          "text": "Focusing on employees career growth.",
+          "textZh": "关注员工的职业发展。"
+        },
+        {
+          "label": "D",
+          "text": "Preserving their power and prestige.",
+          "textZh": "维护他们的权力和威望。"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "sectionId": "listening",
+      "stem": "Why does the speaker say athletes are often viewed as heroes?",
+      "stemZh": "为什么说话者说运动员常被视为英雄？",
+      "answer": "B",
+      "answerText": "They accomplish feats many of us cannot.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Athletes are seen as heroes because they can do things that most of us can't do. 运动员被视为英雄，是因为他们能做到我们多数人做不到的事。"
+        },
+        {
+          "label": "信号",
+          "text": "because 后紧跟原因。答案信号是因果连词 because，它后面 they can do things that most of us can\\'t do 正是录音给出的理由，因果词后那一句就是答案落点。"
+        },
+        {
+          "label": "替换",
+          "text": "do things that most of us can\\'t do ↔accomplish feats many of us cannot 同义改写：do things=accomplish feats"
+        },
+        {
+          "label": "排除",
+          "text": "A) 未提及 They show genius which defies description. 的天赋/无法描述在录音里没有对应表述； 录音说的是做到常人做不到的事，并未夸张到天才到无法形容，属拔高式编造。 C) 原词陷阱 They create very high commercial value. 借了录音里 They get paid millions of dollars 和广告板出现这层商业画面来诱选，但那是顺带描述、并非说话人给出的成为英雄的原因； 题问 Why are they heroes，答案是能力而非商业价值，听到钱就选会中招。 借用原文：They get paid millions of dollars for their efforts D) 未提及 They bring great honor to their country. 的 country/为国争光在整段录音里没出现过， 是听力惯用的拔高型干扰，第一步预读时已提醒要警惕 country 是否真被提到。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They show genius which defies description.",
+          "textZh": "他们展现了难以言表的天赋。"
+        },
+        {
+          "label": "B",
+          "text": "They accomplish feats many of us cannot.",
+          "textZh": "他们完成了我们许多人无法做到的壮举。"
+        },
+        {
+          "label": "C",
+          "text": "They create very high commercial value.",
+          "textZh": "他们创造了非常高的商业价值。"
+        },
+        {
+          "label": "D",
+          "text": "They bring great honor to their country.",
+          "textZh": "他们为国家带来巨大荣誉。"
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "sectionId": "listening",
+      "stem": "What does the speaker say many high-profile players do?",
+      "stemZh": "说话者说许多知名球员会做什么？",
+      "answer": "C",
+      "answerText": "They try to be positive role models to children.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "They raise money for charities and act as mentors, talking to student groups and volunteering their time to programs that help children keep off drugs and stay in school. 他们为慈善募款、担任导师，与学生群体交流，并把时间投入到帮助孩子远离毒品、留在学 校的项目中。"
+        },
+        {
+          "label": "信号",
+          "text": "主语承接后的行为列举。答案句承接上句 many high-profile players work hard to be positive role models to children，紧接着用 volunteering their time to programs that help children keep off drugs and stay in school 具体列举其作为，行为列举处即题问的 落点。"
+        },
+        {
+          "label": "替换",
+          "text": "help children keep off drugs and stay in school ↔ Keeping athletes away from drug or alcohol problems keep off=keep away from 同义"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 They take part in kids\\' extra-curricular activities. 借录音里频繁出现的 children/student groups 这层与孩子相关的画面诱选，但录音说的是 talking to student groups、volunteering，并非 take part in 课外活动，动作对不上。 借用原文：talking to student groups B) 未提及 They work in spare time to teach children sports. 利用录音里 children 一词及对孩子的 帮助来诱选，但录音从未说他们利用业余时间教孩子体育，teach ... sports 与 spare time 都是录音没有的添加。 借用原文：help children keep off drugs and stay in school D) 与原文相反 They serve as spokespersons for luxury goods. 把这群正面榜样说成代言奢侈品，方向 与录音里 work hard to be positive role models to children 的公益形象相反，且 luxury goods 录音未提。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They take part in kids' extra-curricular activities.",
+          "textZh": "他们参加孩子们的课外活动。"
+        },
+        {
+          "label": "B",
+          "text": "They work in spare time to teach children sports.",
+          "textZh": "他们利用业余时间教孩子们体育运动。"
+        },
+        {
+          "label": "C",
+          "text": "They try to be positive role models to children.",
+          "textZh": "他们努力成为孩子们的积极榜样。"
+        },
+        {
+          "label": "D",
+          "text": "They serve as spokespersons for luxury goods.",
+          "textZh": "他们担任奢侈品的代言人。"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "sectionId": "listening",
+      "stem": "What does the speaker say can be difficult?",
+      "stemZh": "说话者说什么可能很困难？",
+      "answer": "A",
+      "answerText": "Separating an athlete's professional life from their personal life.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Separating an athlete's professional and personal lives can be tough. 把运动员的职业生活与私人生活分开，可能很难。"
+        },
+        {
+          "label": "信号",
+          "text": "tough 这一难易判断词。答案信号是 can be tough 里的 tough，它正是题干 difficult 的 同义词，与它搭配的 Separating an athlete\\'s professional and personal lives 即题问的 那件难事。"
+        },
+        {
+          "label": "替换",
+          "text": "Separating an athlete\\'s professional and personal lives ↔ Separating an athlete\\'s professional life from their personal life 几乎原句，仅句式微调 can be tough ↔can be difficult tough=difficult"
+        },
+        {
+          "label": "排除",
+          "text": "B) 原词陷阱 Preventing certain athletes from getting in trouble with the law. 直接搬录音里 gets in trouble with the law 的原话诱选，但录音是把触犯法律当作运动员会犯错的举例，并没说 防止其触法是件难事，问的难事是分开两种生活。 借用原文：When a sports star gets in trouble with the law C) 原词陷阱 Keeping athletes away from drug or alcohol problems. 借录音 plagued with alcohol problems 的醒目词诱选，但那是 Mickey Mantle 个人遭遇的举例，录音没把远离毒品酒 精说成困难，与 tough 搭配的并非此事。 借用原文：Mickey Mantle, who was plagued with alcohol problems D) 未提及 Being super sports stars without appearing arrogant. 的不显傲慢在录音里没有任何对 应，arrogant 一词及相关意思整段未出现，属凭空编造的难处。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Separating an athlete's professional life from their personal life.",
+          "textZh": "将运动员的职业生活与个人生活分开。"
+        },
+        {
+          "label": "B",
+          "text": "Preventing certain athletes from getting in trouble with the law.",
+          "textZh": "防止某些运动员触犯法律。"
+        },
+        {
+          "label": "C",
+          "text": "Keeping athletes away from drug or alcohol problems.",
+          "textZh": "让运动员远离毒品或酒精问题。"
+        },
+        {
+          "label": "D",
+          "text": "Being super sports stars without appearing arrogant. 1 We don't need to tell you that weddings can get expensive. Even with the most meticulous budgeting, a few unexpected costs are bound to occur. While most brides tend to accept this as fact, one Canadian Questions 12 to 15 are based on the passage you have just heard.",
+          "textZh": "成为超级体育明星而不显得傲慢。"
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about weddings?",
+      "stemZh": "说话者关于婚礼说了什么?",
+      "answer": "A",
+      "answerText": "They always cost more than expected.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "We don't need to tell you that weddings can get expensive. Even with the most meticulous budgeting, a few unexpected costs are bound to occur. 不用我们说你也知道，婚礼会变得很烧钱。哪怕预算做得再精细，也难免冒出一些意料之外 的开销。"
+        },
+        {
+          "label": "信号",
+          "text": "开篇总起句直接定调。篇章第一句 weddings can get expensive 就是开门见山的总起，紧 接着 a few unexpected costs are bound to occur 进一步坐实\"花费会超出预料\"。开头总 起句是篇章题最常见的答案信号，听到第一句定性就该锁定。"
+        },
+        {
+          "label": "替换",
+          "text": "a few unexpected costs are bound to occur ↔cost more than expected unexpected costs = cost more than expected"
+        },
+        {
+          "label": "排除",
+          "text": "B) 未提及 They are joyous and exciting occasions.（欢乐激动的场合）听起来像婚礼常识，很诱 人，但说话人开篇的定性是\"烧钱、超预算\"，全篇也是讲婚礼黄掉的糟心事，根本没说婚礼 欢乐。这是用生活常识代替原文的典型坑。 C) 原词陷阱 They should be paid up by the attendees.（该由出席者付费）盗用了原文 asking her friends and family to pay up to attend her wedding 里的 pay up、attend——但那是 Susan 一个人的荒唐做法，不是 speaker 对\"婚礼\"的普遍看法。听到 pay up 就选，正中原 词陷阱。 借用原文：asking her friends and family to pay up to attend her wedding D) 原词陷阱 They are dreams coming true to the brides. 借用了原文反复出现的 dream wedding、 brides，听着顺耳。但原文的 dream wedding 是讽刺 Susan 那场最终变 nightmare 的婚 礼，绝非说\"婚礼是新娘美梦成真\"。这是把后文的反讽细节误当成开篇定性。 借用原文：the $60,000 dream wedding was put on permanent hold"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They always cost more than expected.",
+          "textZh": "婚礼的花费总是超出预期。"
+        },
+        {
+          "label": "B",
+          "text": "They are joyous and exciting occasions.",
+          "textZh": "婚礼是欢乐和激动人心的场合。"
+        },
+        {
+          "label": "C",
+          "text": "They should be paid up by the attendees.",
+          "textZh": "婚礼应该由参加者付费。"
+        },
+        {
+          "label": "D",
+          "text": "They are dreams coming true to the brides.",
+          "textZh": "婚礼是新娘梦想成真的时刻。"
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "sectionId": "listening",
+      "stem": "What do we learn about the wedding of the Canadian woman Susan?",
+      "stemZh": "关于加拿大女性Susan的婚礼,我们了解到什么?",
+      "answer": "B",
+      "answerText": "It was cancelled.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Yes, the couple called off the wedding just days before their wedding vows. Since their guests refused to pay the $1,500 attendance fee, the $60,000 dream wedding was put on permanent hold. 是的，这对新人在交换结婚誓言前几天取消了婚礼。由于宾客拒付 1500 美元的出席费，这 场 6 万美元的梦想婚礼被永久搁置了。"
+        },
+        {
+          "label": "信号",
+          "text": "结局动词 called off / put on permanent hold。答案落在表\"取消\"的动作上：the couple called off the wedding 与 put on permanent hold 直接交代了婚礼的最终结局。 问\"这场婚礼怎么了\"，结局性动词就是定位信号，盖过其中的数字干扰。"
+        },
+        {
+          "label": "替换",
+          "text": "the couple called off the wedding ↔It was cancelled. called off = was cancelled"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 It cost $60,000. 里的 6 万美元录音确实念到了——the $60,000 dream wedding——但 原文是说这场\"标价 6 万的梦想婚礼被搁置\"，并不是说它\"真的花掉了 6 万\"（婚礼根本没办 成）。听到 $60,000 就选，正中数字原词陷阱。 借用原文：the $60,000 dream wedding was put on permanent hold C) 原词陷阱 It had eight guests only. 借了原文 only eight people responded positively 里的 eight。但那\"八个人\"是\"积极回应邀请和付费要求的人数\"，而婚礼根本取消了、压根没有出 席的宾客。把\"回应的八人\"偷换成\"到场八位宾客\"，是细节偷换。 借用原文：only eight people responded positively to the wedding invitations and money requests D) 原词陷阱 It was held in Las Vegas. 盗用了原文地名 getting married in Las Vegas。但拉斯维加斯 只是未婚夫\"提议\"的地点，且 Susan 当场否决了，婚礼根本没在那办、也没办成。地名被搬 到错误的事实上，是张冠李戴式原词陷阱。 借用原文：Susan's future husband suggested getting married in Las Vegas"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It cost $60,000.",
+          "textZh": "婚礼花费了60000美元。"
+        },
+        {
+          "label": "B",
+          "text": "It was cancelled.",
+          "textZh": "婚礼被取消了。"
+        },
+        {
+          "label": "C",
+          "text": "It had eight guests only.",
+          "textZh": "婚礼只有八位宾客。"
+        },
+        {
+          "label": "D",
+          "text": "It was held in Las Vegas.",
+          "textZh": "婚礼在Las Vegas举行。"
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "sectionId": "listening",
+      "stem": "What did Susan's maid of honor advise her to do?",
+      "stemZh": "Susan的伴娘建议她做什么?",
+      "answer": "C",
+      "answerText": "Keep to her budget.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Her maid of honor told her to stick to the budget, as she was asking too much from her guests. 她的伴娘劝她守住预算，因为她对宾客的要求太过分了。"
+        },
+        {
+          "label": "信号",
+          "text": "建议信号 told her to。Her maid of honor told her to stick to the budget 中的 told her to 就是\"建议\"信号，信号后紧跟的动作 stick to the budget 即答案所在。听建议题， 认准 told sb to / advised 这类信号，落点就在其后的动词短语。"
+        },
+        {
+          "label": "替换",
+          "text": "stick to the budget ↔Keep to her budget stick to = keep to"
+        },
+        {
+          "label": "排除",
+          "text": "A) 未提及 Postpone her wedding. 听着合理（婚礼出问题了，推迟很常见），但伴娘说的是守预算， 从没提推迟。婚礼最后是被取消（called off）而非推迟，考生易把\"取消\"的印象误当成伴娘 建议\"推迟\"。 B) 与原文相反 Ask her friends for help. 恰恰反了：原文里 Susan 正是因为 asking too much from her guests（向宾客 / 朋友要太多）才闹崩，伴娘是劝她\"别再这么要了、守预算\"，而非劝 她\"找朋友帮忙\"。方向完全相反。 借用原文：she was asking too much from her guests D) 与原文相反 Invite more guests. 与伴娘的本意相悖。伴娘嫌 Susan 对宾客要求太多、要她收着点（守 预算），怎会让她再多邀客人？这是把建议方向取反的干扰项。 借用原文：Her maid of honor told her to stick to the budget"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Postpone her wedding.",
+          "textZh": "推迟她的婚礼。"
+        },
+        {
+          "label": "B",
+          "text": "Ask her friends for help.",
+          "textZh": "向她的朋友寻求帮助。"
+        },
+        {
+          "label": "C",
+          "text": "Keep to her budget.",
+          "textZh": "遵守她的预算。"
+        },
+        {
+          "label": "D",
+          "text": "Invite more guests.",
+          "textZh": "邀请更多宾客。"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "sectionId": "listening",
+      "stem": "How did Susan respond to her future husband's suggestion?",
+      "stemZh": "Susan如何回应她未婚夫的建议?",
+      "answer": "D",
+      "answerText": "She rejected it flatly.",
+      "questionType": "态度观点题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The bride quickly shut down the idea, saying she did not want a wedding of gambling and heavy drinking. 新娘很快否决了这个主意，说她不想要一场满是赌博和酗酒的婚礼。"
+        },
+        {
+          "label": "信号",
+          "text": "强否定动作 shut down + 理由。The bride quickly shut down the idea 里 shut down （直接否决）加上副词 quickly，语气强烈而干脆；后面 she did not want 的否定理由再次 坐实拒绝。态度题就抓这种强否定动作 + 否定理由作为信号。"
+        },
+        {
+          "label": "替换",
+          "text": "quickly shut down the idea ↔rejected it flatly quickly shut down = rejected flatly"
+        },
+        {
+          "label": "排除",
+          "text": "A) 与原文相反 She called it romantic.（说它浪漫）是正面反应，与原文 shut down the idea 的干脆否 决完全相反。原文里浪漫一词根本没出现，是凭\"婚礼\"联想出的诱选。 借用原文：The bride quickly shut down the idea B) 与原文相反 She welcomed it with open arms.（张开双臂欢迎）是强烈接受，恰与 Susan 的强烈拒绝 相对。这是把态度光谱拨到了相反一端的干扰。 借用原文：quickly shut down the idea C) 偷换概念 She said she would think about it.（说她会考虑）是夹在接受与拒绝之间的中间态度，最 像\"温和版\"答案。但原文是 quickly shut down——又快又决绝，没有任何\"再想想\"的余 地。把强否定弱化成\"考虑\"，是程度偷改。 借用原文：The bride quickly shut down the idea Section C 1 It has long been scientifically established that weather changes can affect people's moods. Now, a new study has provided evidence that temperature can influence people's personalities. This study of over 1.6 million people revealed that 22 degrees Celsius is the perfect air temperature to live in. A city with an average annual temperature closer to 22 tends to have a population who are more agreeable, conscientious, emotionally stable, and outgoing. It is the least taxing temperature for the body to regulate its own temperature. 长期以来,科学已经证实天气变化会影响人们的情绪。现在,一项新研究提供了证据表明温度可以影响人们 的性格。这项针对160多万人的研究显示,22摄氏度是最理想的生活气温。年平均气温接近22度的城市,其 人口往往更随和、更尽责、情绪更稳定、更外向。这是身体调节自身温度负担最小的温度。 2 The study was observational and didn't show cause and effect, but the scientists behind it theorized that better weather leads people to leave their home more often. This, in turn, leads to more social interaction, which encourages them to develop a friendlier and socially more acceptable personality. Warmer climates also make people feel more positive in general. They tend to be more agreeable and conscientious. 该研究是观察性的,并未显示因果关系,但背后的科学家们提出理论认为,更好的天气会导致人们更频繁地离 开家。这反过来又会带来更多的社交互动,从而鼓励他们发展出更友好、社会上更容易被接受的性格。更温 暖的气候也会让人们总体上感觉更积极。他们往往更随和、更尽责。 Questions 16 to 18 are based on the recording you have just heard. 3 The findings might help explain why colder and warmer countries tend to produce people with different personalities. Roughly speaking, about 40% of a person's personality is determined by their genes, the other 60% by their environment. It was already well-known that personality traits vary across geographic regions. Scientists also knew that these geographic personality traits are associated with a broad range of consequential outcomes. These outcomes include economic activity, for example, entrepreneurial start-up rates, and also crime rates, health behaviors, and health outcomes. 这些发现可能有助于解释为什么较冷和较暖的国家往往会培养出性格不同的人。大致来说,一个人的性格约 40%由基因决定,另外60%由环境决定。人们早已知道性格特征在不同地理区域之间存在差异。科学家们 也知道这些地理性格特征与一系列重要结果相关。这些结果包括经济活动,例如创业启动率,以及犯罪率、 健康行为和健康结果。 4 And it is well established that personality traits differ between countries. The research team speculated the two might be linked. To test this, they gave online personality tests to 5,587 Chinese students and 1.66 million Americans. They then compared the results with the average annual temperature where they grew up. The tests measured personality along five well-studied characteristics. The five were agreeability, conscientiousness, emotional stability, outgoingness, and openness to new experiences. In both groups, the researchers found the closer a town's average annual temperature was to 22 degrees, the more its population exhibited those personality characteristics. 性格特征在不同国家之间存在差异已是公认的事实。研究团队推测两者可能存在联系。为了验证这一点,他 们对5587名中国学生和166万美国人进行了在线性格测试。然后他们将结果与这些人成长地的年平均气温 进行比较。这些测试沿着五个经过充分研究的特征来衡量性格。这五个特征是随和性、尽责性、情绪稳定 性、外向性和对新体验的开放性。在两组人群中,研究人员发现,一个城镇的年平均气温越接近22度,其人口 就越表现出这些性格特征。 5 However, the findings were much stronger for the Chinese group than the Americans studied, which suggests that though temperature plays a role, it does not play a dominant role. The effects are fairly weak. It's unlikely to lead to many arguments over the temperature setting of the office air conditioner. 然而,这些发现在中国群体中比在所研究的美国人中要强得多,这表明虽然温度起作用,但它并不起主导作 用。这些影响相当微弱。它不太可能导致人们对办公室空调温度设置产生太多争论。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She called it romantic.",
+          "textZh": "她称这个建议很浪漫。"
+        },
+        {
+          "label": "B",
+          "text": "She welcomed it with open arms.",
+          "textZh": "她张开双臂欢迎这个建议。"
+        },
+        {
+          "label": "C",
+          "text": "She said she would think about it.",
+          "textZh": "她说她会考虑一下。"
+        },
+        {
+          "label": "D",
+          "text": "She rejected it flatly.",
+          "textZh": "她断然拒绝了。"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "sectionId": "listening",
+      "stem": "What has a new study revealed about temperature?",
+      "stemZh": "一项新研究揭示了关于温度的什么信息?",
+      "answer": "D",
+      "answerText": "It can influence people's personalities.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Now, a new study has provided evidence that temperature can influence people's personalities. 如今，一项新研究提供了证据，表明温度能够影响人的性格。"
+        },
+        {
+          "label": "信号",
+          "text": "Now 引出新结论。前一句说\"天气影响情绪\"早已是定论，紧接 Now, a new study has provided evidence 用 \"Now\"（如今）把新旧对照开来——\"Now+新研 究\"正是答案信号，新研究的新发现就在这句，落点是 temperature can influence people's personalities。"
+        },
+        {
+          "label": "替换",
+          "text": "temperature can influence people's personalities ↔It can influence people's personalities. 近乎原句对应"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 A\"决定人的情绪 moods\"盗用了原文 weather changes can affect people's moods 里的 moods，但那是\"早已确立的旧定论\"、且用的是 affect（影响）不是 determine（决 定），并非\"新研究的发现\"，听到 moods 就选会掉进时间错位的坑。 借用原文：weather changes can affect people's moods B) 未提及 B 说温度\"影响人的福祉 wellbeing\"，可原文新研究讲的是影响\"personalities 性格\"，从没 出现 wellbeing 这层；属凭\"听着合理\"硬填，原文无据。 C) 答非所问 C\"与情绪密切相关 closely related to emotions\"对应的是 weather changes can affect people's moods 那条\"早已确立\"的旧知识，不是\"new study revealed\"的新发现；既错在 时间（旧非新），\"closely\"也夸大了原文 affect 的程度。 借用原文：It has long been scientifically established that weather changes can affect people's moods."
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It determines people's moods.",
+          "textZh": "它决定人们的心情。"
+        },
+        {
+          "label": "B",
+          "text": "It can impact people's wellbeing.",
+          "textZh": "它会影响人们的幸福感。"
+        },
+        {
+          "label": "C",
+          "text": "It is closely related to people's emotions.",
+          "textZh": "它与人们的情绪密切相关。"
+        },
+        {
+          "label": "D",
+          "text": "It can influence people's personalities.",
+          "textZh": "它会影响人们的性格。"
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about warmer climates?",
+      "stemZh": "说话者关于较温暖的气候说了什么?",
+      "answer": "C",
+      "answerText": "They tend to produce positive feelings.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Warmer climates also make people feel more positive in general. 温暖的气候总体上还会让人感觉更积极。"
+        },
+        {
+          "label": "信号",
+          "text": "主语直点 warmer climates。这句主语就是题干路标词 Warmer climates，谓语 \"make people feel more positive\" 正面回答\"温暖气候使人怎样\"，是直接应答式的答案句，无需 转折也无需推断。"
+        },
+        {
+          "label": "替换",
+          "text": "make people feel more positive in general ↔They tend to produce positive feelings. 使人感觉积极=产生积极感受"
+        },
+        {
+          "label": "排除",
+          "text": "A) 未提及 A\"使人更能生育 reproductive\"原文从未提及生育这一层，是凭\"暖 繁衍\"的常识硬推，无 原文依据。 B) 未提及 B\"延长寿命 life expectancy\"听着像健康类结论，但原文谈温暖气候只说让人更积极、更友 善，从未涉及寿命；属合理却无据。 D) 张冠李戴 D\"逐渐改变人的基因 genes\"盗用了原文 about 40% of a person's personality is determined by their genes 里的 genes，但原文 genes 是讲\"基因决定四成性格\"，根本 不是说\"温暖气候改变基因\"；把别处的词安到本题对象上，是张冠李戴。 借用原文：about 40% of a person's personality is determined by their genes"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They make people more reproductive.",
+          "textZh": "它们使人们更具生殖能力。"
+        },
+        {
+          "label": "B",
+          "text": "They increase people's life expectancy.",
+          "textZh": "它们延长人们的预期寿命。"
+        },
+        {
+          "label": "C",
+          "text": "They tend to produce positive feelings.",
+          "textZh": "它们往往会产生积极的情绪。"
+        },
+        {
+          "label": "D",
+          "text": "They may alter people's genes gradually.",
+          "textZh": "它们可能会逐渐改变人们的基因。"
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "sectionId": "listening",
+      "stem": "What did the online personality tests suggest?",
+      "stemZh": "在线性格测试表明了什么?",
+      "answer": "A",
+      "answerText": "The link between temperature and personality is fairly weak.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "However, the findings were much stronger for the Chinese group than the Americans studied, which suggests that though temperature plays a role, it does not play a dominant role. The effects are fairly weak. 然而，对中国组的研究结果比对所研究的美国人要强得多，这表明温度虽起作用，但并不起 主导作用。其影响相当微弱。"
+        },
+        {
+          "label": "信号",
+          "text": "However 转折收束。However 这个转折词把前文\"温度越接近22度、性格越明显\"的正面铺 陈一收，转折后的 it does not play a dominant role 和 The effects are fairly weak 才是 研究的真正定论——转折后才是落点，正是答案信号。"
+        },
+        {
+          "label": "替换",
+          "text": "The effects are fairly weak ↔The link between temperature and personality is fairly weak. 影响弱=关联弱 it does not play a dominant role ↔fairly weak 非主导=弱"
+        },
+        {
+          "label": "排除",
+          "text": "B) 与原文相反 B\"人们尽管国籍不同却共享许多性格特质\"，但原文 the findings were much stronger for the Chinese group than the Americans 恰恰强调中美两组结果差别很大（中国组强得 多），方向与\"跨国籍相似\"相反。 借用原文：the findings were much stronger for the Chinese group than the Americans studied C) 答非所问 C\"同一地理区域的人性格可能不同\"借用了原文 personality traits vary across geographic regions 关于地区差异的说法，但那是第三段的背景旧知识，且讲的是\"跨地区\"差异，不 是\"测试 suggest\"的结论；本题问 tests 说明了什么，答案在第五段的强弱定性，不在这 里。 借用原文：personality traits vary across geographic regions D) 原词陷阱 D\"美国人显然比中国人更外向\"盗用了原文测过的性格维度 outgoingness 和 Chinese/Americans 这些原词，但原文只说中国组的研究结果\"更强\"，从未比较两国谁更外 向；是把听过的词拼成一个原文没下的结论。 借用原文：outgoingness 1 Today, we are talking about loneliness. Loneliness and social isolation are growing public health concerns for people of all ages in the United States, from adolescence to the elderly. Public health experts are worried because loneliness seems to be on the rise, and studies have long found correlations between loneliness and an assortment of medical conditions that threaten health and longevity. 今天，我们要谈论孤独问题。孤独和社会隔离正在成为美国各年龄段人群日益关注的公共健康问题，从青 少年到老年人都受到影响。公共健康专家感到担忧，因为孤独似乎呈上升趋势，而且研究长期以来发现孤 独与威胁健康和寿命的各种医学状况之间存在关联。 2 The problem of loneliness may be even greater than we thought. A new national poll found that about a third of older Americans are lonely, and almost as many seniors feel isolated. This is a serious problem as research shows that chronic loneliness is particularly harmful to senior citizens. That's because it can impair older adults' memory and damage their physical and mental health. Chronic loneliness even impacts the life expectancy of seniors, increasing their risk of early mortality. 孤独问题可能比我们想象的更严重。一项新的全国性民意调查发现，约三分之一的美国老年人感到孤独， 几乎同样多的老年人感到孤立。这是一个严重的问题，因为研究表明慢性孤独对老年人尤其有害。这是因 为它会损害老年人的记忆力，损害他们的身心健康。慢性孤独甚至影响老年人的预期寿命，增加他们早逝 的风险。 Questions 19 to 21 are based on the recording you have just heard. 3 Let's take a closer look at that poll now. More than a third of seniors in the poll said they felt lonely at least some of the time, and 27% said they sometimes or often felt isolated. This reflects how much time the seniors spent with others. Almost 30% said they socialized with friends, family or neighbors once a week or less. Women were more likely than men to report loneliness. 现在让我们仔细看看这项民意调查。调查中超过三分之一的老年人表示他们至少有时感到孤独，27%的人 表示有时或经常感到孤立。这反映了老年人与他人相处的时间。近30%的人表示他们每周与朋友、家人或 邻居社交一次或更少。女性比男性更容易报告感到孤独。 4 But there is good news. It looks like loneliness can be reversed. But researchers are still trying to determine the best way to do so. Why is that? Resolving the problem of loneliness among seniors often isn't as simple as getting them together with others or moving them in with their children. In fact, the poll found that seniors who lived with their children were more likely to report feeling lonely than those who didn't. This may be because loneliness refers to the discrepancy between actual and desired relationships. So it's possible that someone who lives alone doesn't meet that definition, while someone in a house full of busy people does. 但也有好消息。看起来孤独是可以逆转的。但研究人员仍在试图确定最佳方法。为什么呢？解决老年人孤 独问题往往并不像让他们与他人聚在一起或让他们与子女同住那么简单。事实上，调查发现与子女同住的 老年人比不与子女同住的老年人更容易报告感到孤独。这可能是因为孤独指的是实际关系与期望关系之间 的差异。因此，独居的人可能不符合这个定义，而住在满是忙碌人群的房子里的人却符合。 5 How can we solve the problem? Well, the researchers assert that it's important to address each person's underlying cause of loneliness, whether it's the death of a spouse, medical problems, or social expectations that haven't been fulfilled. It's noteworthy that there is one general recommendation. While finding solutions for loneliness is highly personal, research suggests the best interventions are those that involve meaningful social contact at least once a week. Depending on the person, that could mean volunteering, seeing an old friend or something else. 我们如何解决这个问题？研究人员断言，重要的是要解决每个人孤独的根本原因，无论是配偶的去世、医 疗问题，还是未实现的社会期望。值得注意的是，有一个总体建议。虽然寻找孤独的解决方案是高度个人 化的，但研究表明最好的干预措施是那些涉及每周至少一次有意义的社交接触的措施。根据个人情况，这 可能意味着做志愿者、拜访老朋友或其他活动。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The link between temperature and personality is fairly weak.",
+          "textZh": "温度与性格之间的联系相当微弱。"
+        },
+        {
+          "label": "B",
+          "text": "People share many personality traits despite their nationalities.",
+          "textZh": "尽管国籍不同,人们有许多共同的性格特征。"
+        },
+        {
+          "label": "C",
+          "text": "People in the same geographical area may differ in personality.",
+          "textZh": "同一地理区域的人在性格上可能有所不同。"
+        },
+        {
+          "label": "D",
+          "text": "The Americans are apparently more outgoing than the Chinese.",
+          "textZh": "美国人显然比中国人更外向。"
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "sectionId": "listening",
+      "stem": "Why does the speaker say the finding of a new national poll reveals a serious problem?",
+      "stemZh": "为什么说话者说一项新的全国民意调查的发现揭示了一个严重的问题?",
+      "answer": "B",
+      "answerText": "Chronic loneliness does harm to senior citizens in particular.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "This is a serious problem as research shows that chronic loneliness is particularly harmful to senior citizens. 这是个严重的问题，因为研究显示长期的孤独对老年人尤其有害。"
+        },
+        {
+          "label": "信号",
+          "text": "原句直说 serious problem 加 as 因果。录音里 This is a serious problem as research shows that chronic loneliness is particularly harmful to senior citizens 用 a serious problem 直接呼应题干的 serious problem，再用 as（因为）引出原因——题干问 Why， 答案就在这个 as 因果句里。"
+        },
+        {
+          "label": "替换",
+          "text": "chronic loneliness is particularly harmful to senior citizens ↔ Chronic loneliness does harm to senior citizens in particular 近义改写：harmful 换 does harm，particularly 换 in particular"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 录音第1段确实念过 loneliness seems to be on the rise，选项 The number of older Americans living alone is on the rise 顺手借了 on the rise 制造耳熟，但录音说的是孤独 在上升，不是独居老人人数在上升，且这不是题干问的为何是严重问题，属听到原词就想选 的陷阱。 借用原文：loneliness seems to be on the rise C) 原词陷阱 第1段念过 correlations between loneliness and an assortment of medical conditions，选项 Correlations have been found between loneliness and ill health 借 此造耳熟。但这是讲座开场的背景铺垫，题干问的是新民调揭示的严重问题，那条具体落在 第2段的尤其伤害老人，C 答非所问。 借用原文：studies have long found correlations between loneliness and an assortment of medical conditions D) 原词陷阱 第2段念过 increasing their risk of early mortality，选项 A growing number of US seniors face the risk of early mortality 借走 early mortality 与 risk。但录音说的是长期 孤独提高了老人早亡风险，并没说越来越多老人面临早亡风险（人数增长），D 把风险升高 偷换成人数增多，答非所问。 借用原文：increasing their risk of early mortality"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The number of older Americans living alone is on the rise.",
+          "textZh": "独居的美国老年人数量正在上升。"
+        },
+        {
+          "label": "B",
+          "text": "Chronic loneliness does harm to senior citizens in particular.",
+          "textZh": "慢性孤独尤其对老年人造成伤害。"
+        },
+        {
+          "label": "C",
+          "text": "Correlations have been found between loneliness and ill health.",
+          "textZh": "孤独与健康不佳之间已被发现存在关联。"
+        },
+        {
+          "label": "D",
+          "text": "A growing number of US seniors face the risk of early mortality.",
+          "textZh": "越来越多的美国老年人面临早死的风险。"
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "sectionId": "listening",
+      "stem": "What is the good news the speaker talks about?",
+      "stemZh": "说话者谈到的好消息是什么?",
+      "answer": "D",
+      "answerText": "Loneliness is probably reversible.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "But there is good news. It looks like loneliness can be reversed. 但有个好消息。看起来孤独是可以被逆转的。"
+        },
+        {
+          "label": "信号",
+          "text": "转折 But 加提示词 good news。录音 But there is good news 用转折 But 加题干同词 good news 双重提示，紧接的 loneliness can be reversed 就是好消息的内容——转折后/ 提示词后的那句才是真正落点。"
+        },
+        {
+          "label": "替换",
+          "text": "loneliness can be reversed ↔Loneliness is probably reversible 词性转换：can be reversed 换 reversible"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 录音第5段提到 medical problems，选项 Medication is available for treating loneliness 借 medical 的耳熟造出有药可治。但录音只把 medical problems 列为孤独的诱因之一， 从没说有药物能治疗孤独，属无中生有的原词陷阱。 借用原文：medical problems B) 原词陷阱 第4段念过 someone who lives alone，选项 Loneliness rarely results from living alone 借 living alone 造耳熟。录音确实暗示独居未必孤独，但用 rarely（很少）把它说成了绝对 判断，且这不是题干问的好消息那一句，答非所问。 借用原文：someone who lives alone doesn't meet that definition C) 与原文相反 第4段念过 a house full of busy people，选项 Being busy helps fight loneliness 借 busy 造耳熟。可录音恰恰是说住在一屋子忙人中间的人反而可能孤独，busy 在原文是孤独 的反例，C 把它反着用成忙碌能对抗孤独，与原文相反。 借用原文：someone in a house full of busy people does"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Medication is available for treating loneliness."
+        },
+        {
+          "label": "B",
+          "text": "Loneliness rarely results from living alone."
+        },
+        {
+          "label": "C",
+          "text": "Being busy helps fight loneliness."
+        },
+        {
+          "label": "D",
+          "text": "Loneliness is probably reversible."
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "sectionId": "listening",
+      "stem": "What is the key to solving the loneliness problem according to the speaker?",
+      "stemZh": "根据说话者的说法,解决孤独问题的关键是什么?",
+      "answer": "C",
+      "answerText": "Meaningful social contact.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "While finding solutions for loneliness is highly personal, research suggests the best interventions are those that involve meaningful social contact at least once a week. 尽管为孤独寻找解决办法因人而异，但研究表明，最好的干预是那些每周至少有一次有意义 社交接触的方式。"
+        },
+        {
+          "label": "信号",
+          "text": "推荐信号 research suggests the best。录音 research suggests the best interventions are those that involve meaningful social contact 用 suggests 加 the best（最佳）双重 推荐信号点名办法——题干问 the key，答案就在这个给推荐的句子里。"
+        },
+        {
+          "label": "替换",
+          "text": "meaningful social contact at least once a week ↔Meaningful social contact 概括截取：选项是原句的核心保留"
+        },
+        {
+          "label": "排除",
+          "text": "A) 与原文相反 第4段念过 moving them in with their children，选项 Living with one's children 借 children 造耳熟。但录音明说和子女同住的老人反而更易孤独，把它当解决办法正好相反， 是听到熟词就选的陷阱。 借用原文：seniors who lived with their children were more likely to report feeling lonely B) 原词陷阱 第5段念过 social expectations that haven't been fulfilled，选项 Meeting social expectations 借 social expectations 造耳熟。但录音把它列为孤独的诱因之一，不是解决 孤独的关键，B 答非所问。 借用原文：social expectations that haven't been fulfilled D) 原词陷阱 录音念过 the best interventions 和第5段的 medical problems，选项 Timely medical intervention 拼合 medical 与 intervention 造耳熟。但录音说最佳 intervention 是有意义 的社交接触，不是医疗干预；medical 在原文是诱因，D 张冠李戴。 借用原文：the best interventions are those that involve meaningful social contact 1 Hello, I'm co-founder of the popular female travel community We Are Travel Girls. We collect and publish stories from women traveling all over the world. We promote women's blogs; we host meetings and events and are getting ready to launch our Travel With Us trips in Bali, Japan and Malawi. 你好,我是广受欢迎的女性旅行社区We Are Travel Girls的联合创始人。我们收集并发布来自世界各地旅行 女性的故事。我们推广女性博客,举办聚会和活动,并正准备在巴厘岛、日本和马拉维推出我们的Travel With Us旅行项目。 2 Before I started We Are Travel Girls, I had a successful 10-year career in finance in London, where I advised private clients on their investments. Having always had a huge love for travel, I finally took the leap and left finance to pursue my dream of starting a travel company. 在创办We Are Travel Girls之前,我在伦敦金融行业有着成功的十年职业生涯,为私人客户提供投资建议。 由于一直对旅行怀有巨大的热爱,我最终迈出了这一步,离开金融行业去追求创办旅行公司的梦想。 3 For as long as I can remember, I wanted to be a travel writer. Before blogs existed and everything we read was online, I would go to travel writing seminars by writers who were published in travel magazines. I was desperate to write for one of those magazines, but didn't know how to break into that Questions 22 to 25 are based on the recording you have just heard. industry. After university, I ended up working in finance, but always had a desire to travel and write about it. 从我记事起,我就想成为一名旅行作家。在博客出现之前,我们阅读的所有内容都还在网上之前,我会去参加 那些在旅行杂志上发表作品的作家举办的旅行写作研讨会。我非常渴望为那些杂志中的一本撰稿,但不知道 如何进入那个行业。大学毕业后,我最终在金融行业工作,但始终怀有旅行并写作的愿望。 4 In 2015, I was looking at ways to leave finance, and my best friend Vanessa, who grew up on a ranch on the Central Coast of California, suggested starting a blog. But when we started creating it, we realized that was the same thing every girl was doing. So we turned our attention to creating a community among these women. This led us to start We Are Travel Girls, which has now grown into a community of over 200,000 followers. 2015年,我在寻找离开金融行业的途径,我最好的朋友Vanessa——她在加利福尼亚中央海岸的一个牧场长 大——建议开设一个博客。但当我们开始创建它时,我们意识到这和每个女孩都在做的事情一样。于是我 们把注意力转向在这些女性之间建立一个社区。这促使我们创办了We Are Travel Girls,现在它已经发展成 为一个拥有超过20万粉丝的社区。 5 To anyone thinking about becoming a travel writer, I would suggest they first try and look for a unique way to enter the industry. There are a lot of travel writers now and it can be hard to stand out from the crowd, which is really why we started We Are Travel Girls. Be prepared to work hard if you want to turn it into a full-time business, and try not to rush to selling advertising spaces before you have created a dedicated audience. The size of your audience doesn't necessarily need to be huge, but you want them to be engaged. If you post too many promotions early on, you will turn many people off. 对于任何考虑成为旅行作家的人,我建议他们首先尝试寻找一种独特的方式进入这个行业。现在有很多旅行 作家,很难从人群中脱颖而出,这确实是我们创办We Are Travel Girls的原因。如果你想把它变成一项全职 事业,要做好努力工作的准备,并且在建立起忠实的受众之前,尽量不要急于出售广告位。你的受众规模不一 定需要很大,但你希望他们有参与度。如果你在早期发布太多推广内容,会让很多人反感。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Living with one's children.",
+          "textZh": "与子女同住。"
+        },
+        {
+          "label": "B",
+          "text": "Meeting social expectations.",
+          "textZh": "满足社会期望。"
+        },
+        {
+          "label": "C",
+          "text": "Meaningful social contact.",
+          "textZh": "有意义的社交接触。"
+        },
+        {
+          "label": "D",
+          "text": "Timely medical intervention.",
+          "textZh": "及时的医疗干预。"
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "sectionId": "listening",
+      "stem": "What do we learn about the speaker before she created the community We Are Travel Girls?",
+      "stemZh": "在创建 We Are Travel Girls 社区之前,我们对说话者有什么了解?",
+      "answer": "A",
+      "answerText": "She had a successful career in finance.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Before I started We Are Travel Girls, I had a successful 10-year career in finance in London, where I advised private clients on their investments. 在创办 We Are Travel Girls 之前，我在伦敦有过一段成功的、长达十年的金融职业生涯， 在那里我为私人客户提供投资建议。"
+        },
+        {
+          "label": "信号",
+          "text": "时间信号 Before…对上题干。答案句以 Before I started We Are Travel Girls 开头，与题 干的 before she created the community 时间状语完全对应，这个『Before…』就是定位 信号，它领出的那句正是讲她创办社区之前的身份。"
+        },
+        {
+          "label": "替换",
+          "text": "a successful 10-year career in finance ↔a successful career in finance 几乎原句，只省去年限"
+        },
+        {
+          "label": "排除",
+          "text": "B) 原词陷阱 选项 She wrote stories about women travelers. 盗用了录音第一段 We collect and publish stories from women traveling all over the world 里的 stories 与 women，但那 是她现在做的社区业务、且是『收集发布』而非她个人『写』，题目问的是『创办社区之 前』，时间和动作都对不上。 借用原文：We collect and publish stories from women traveling all over the world C) 原词陷阱 选项 She made regular trips to Asian countries. 借了录音 launch our Travel With Us trips in Bali, Japan 里的 trips 和亚洲地名，但那是社区『正准备推出』的旅行项目（未 来），不是她个人过去定期去亚洲，与题目问的『之前』不符。 借用原文：launch our Travel With Us trips in Bali, Japan and Malawi D) 偷换概念 选项 She invested in several private companies. 盗用录音 I advised private clients on their investments 里的 private 和 invest，但原文是她『为私人客户提供投资建议』，主 语和动作都被偷换成『她自己投资了几家私人公司』，意思已变。 借用原文：I advised private clients on their investments"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She had a successful career in finance.",
+          "textZh": "她在金融领域有一份成功的职业。"
+        },
+        {
+          "label": "B",
+          "text": "She wrote stories about women travelers.",
+          "textZh": "她撰写关于女性旅行者的故事。"
+        },
+        {
+          "label": "C",
+          "text": "She made regular trips to Asian countries.",
+          "textZh": "她定期前往亚洲国家旅行。"
+        },
+        {
+          "label": "D",
+          "text": "She invested in several private companies.",
+          "textZh": "她投资了几家私营公司。"
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "sectionId": "listening",
+      "stem": "What did the speaker's friend suggest they do in 2015?",
+      "stemZh": "说话者的朋友在2015年建议她们做什么?",
+      "answer": "B",
+      "answerText": "Start a blog.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "In 2015, I was looking at ways to leave finance, and my best friend Vanessa, who grew up on a ranch on the Central Coast of California, suggested starting a blog. 2015 年，我正在寻找离开金融业的办法，我最好的朋友 Vanessa——她在加州中央海岸的 一个牧场长大——建议（我们）开一个博客。"
+        },
+        {
+          "label": "信号",
+          "text": "年份 In 2015 + suggested 双信号。答案句同时出现题干两个关键信号：In 2015 对上题 干的 in 2015，suggested starting a blog 里的 suggested 正对题干的 suggest，年份加 建议动词双重锁定，这句就是答案句。"
+        },
+        {
+          "label": "替换",
+          "text": "suggested starting a blog ↔Start a blog 动词词形变化，意思不变"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 选项 Buy a ranch. 盗用录音 who grew up on a ranch on the Central Coast of California 里的 ranch，但 ranch 只是描述朋友在牧场长大的背景，没人提议『买牧场』， 纯属听到 ranch 就选的陷阱。 借用原文：who grew up on a ranch on the Central Coast of California C) 未提及 选项 Travel round the world. 借了本篇反复出现的 travel 主题氛围，但录音里朋友 2015 年的提议是开博客，从未提议『环游世界』，属未提及。 D) 偷换概念 选项 Set up a travel agency. 蹭了 travel 这个高频词，但录音里朋友提议的是 blog，后来 她们转做 creating a community（社区），从没说要开『旅行社』，动作对不上。 借用原文：we turned our attention to creating a community among these women"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Buy a ranch.",
+          "textZh": "购买一个牧场。"
+        },
+        {
+          "label": "B",
+          "text": "Start a blog.",
+          "textZh": "创建一个博客。"
+        },
+        {
+          "label": "C",
+          "text": "Travel round the world.",
+          "textZh": "环游世界。"
+        },
+        {
+          "label": "D",
+          "text": "Set up a travel agency.",
+          "textZh": "成立一家旅行社。"
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "sectionId": "listening",
+      "stem": "What does the speaker advise people to do if they want to become travel writers?",
+      "stemZh": "如果人们想成为旅行作家,说话者建议他们做什么?",
+      "answer": "D",
+      "answerText": "Create something unique to enter the industry.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "To anyone thinking about becoming a travel writer, I would suggest they first try and look for a unique way to enter the industry. 对任何想成为旅行作家的人，我建议他们首先去寻找一种独特的方式进入这个行业。"
+        },
+        {
+          "label": "信号",
+          "text": "建议信号 I would suggest。答案句以 I would suggest they first try and look for a unique way to enter the industry 给出，I would suggest 是明确的建议信号词，对上题 干的 advise，suggest 引出的内容就是她的忠告。"
+        },
+        {
+          "label": "替换",
+          "text": "look for a unique way to enter the industry ↔Create something unique to enter the industry find a way 概括为 create something"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 选项 Work hard to attract attention from publishers. 借了录音另一句建议 Be prepared to work hard 里的 work hard，但她说努力是为了把它变成全职生意，根本没提『吸引出 版商注意』，是把真实出现的 work hard 嫁接到没说过的目的上。 借用原文：Be prepared to work hard if you want to turn it into a full-time business B) 与原文相反 选项 Gain support from travel advertising companies. 盗用录音 try not to rush to selling advertising spaces 里的 advertising，但原文是劝人『别急着卖广告位』，方向与 『争取广告公司支持』相反，意思被反着用。 借用原文：try not to rush to selling advertising spaces before you have created a dedicated audience C) 偷换概念 选项 Try to find a full-time job in the travel business. 蹭了录音 turn it into a full-time business 里的 full-time，但原文说的是把事业做成全职生意，不是叫人去找一份旅行业的 全职工作，且这并非她对『如何入行』的核心建议。 借用原文：if you want to turn it into a full-time business"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Work hard to attract attention from publishers.",
+          "textZh": "努力工作以吸引出版商的关注。"
+        },
+        {
+          "label": "B",
+          "text": "Gain support from travel advertising companies.",
+          "textZh": "获得旅游广告公司的支持。"
+        },
+        {
+          "label": "C",
+          "text": "Try to find a full-time job in the travel business.",
+          "textZh": "尝试在旅游行业找到一份全职工作。"
+        },
+        {
+          "label": "D",
+          "text": "Create something unique to enter the industry.",
+          "textZh": "创造独特的东西以进入该行业。"
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "sectionId": "listening",
+      "stem": "What is the speaker's advice on winning a loyal audience?",
+      "stemZh": "关于赢得忠实受众,说话者的建议是什么?",
+      "answer": "C",
+      "answerText": "Avoiding too much advertising early on.",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Try not to rush to selling advertising spaces before you have created a dedicated audience. If you post too many promotions early on, you will turn many people off. 在你培养起一批忠实受众之前，不要急着去卖广告位。如果你早期发太多推广，会让很多人 反感离开。"
+        },
+        {
+          "label": "信号",
+          "text": "否定建议 try not to + early on。答案句是 Try not to rush to selling advertising spaces before you have created a dedicated audience 和 If you post too many promotions early on, you will turn many people off，try not to 这个否定建议信号配合 early on（早期），正是讲如何留住受众的关键句。"
+        },
+        {
+          "label": "替换",
+          "text": "try not to rush to selling advertising spaces before you have created a dedicated audience ↔ Avoiding too much advertising early on try not to 等于 avoiding，时机对应 early on"
+        },
+        {
+          "label": "排除",
+          "text": "A) 原词陷阱 选项 Attracting sufficient investment. 里 investment 让人联想第二段她的金融/投资背景 advised private clients on their investments，但讲『赢得受众』的这段从未谈吸引投 资，属拿别处话题词来干扰。 借用原文：I advised private clients on their investments B) 未提及 选项 Creating an exotic corporate culture. 没有任何录音原句支撑，exotic corporate culture（异域企业文化）是凭旅行主题臆造出来的，与赢得受众的建议无关，属未提及。 D) 偷换概念 选项 Refraining from promoting similar products. 盗用录音 post too many promotions 里的 promotion，但原文劝的是『别在早期发太多推广』，问题在数量与时 机，不是『别推类似产品』，similar products 是录音没有的偷换。 借用原文：If you post too many promotions early on, you will turn many people off They're not terribly active or knowledgeable about animal preservation efforts, but they're serious about their health. 第8段，第4句 转折并列句是常见句式，但本句两个分句都是主系表结构且都用 be 动词，结构过于相似，缺少动 宾结构、复合谓语等更典型的变化形式，代表性中等偏下。 Both are in their 70s now, but eat organic as often as possible and take part in regular physical exercise. 第8段，第5句 本句涵盖并列谓语（三个谓语共享主语）、系表结构（\"are in their 70s\"）、及物动词宾语（\"eat organic\"）、动词短语宾语（\"take part in exercise\"）、时间状语（\"now\"）和方式状语（\"as often as possible\"），成分种类较为丰富，适合训练并列谓语和多状语识别。 M: In that case, I might give it a try someday. 第9段，第1句 本句涵盖主语、谓语、双宾语（间接宾语 it + 直接宾语 a try）、条件状语、时间状语等多种成 分，且 \"give it a try\" 的双宾语结构是易错点（学生可能只识别出一个宾语），适合用于练习成分 划分和固定搭配辨析。 M: I did ask him a few more questions to try and narrow it down. 第4段，第1句 双宾语结构和不定式作目的状语都是四六级和考研真题中的常见句式。did 强调形式虽不算最高 频，但在口语和强调语境中经常出现。整体句式代表性较强，学习后可迁移到大量类似结构的 句子。 In most cases, I thought my honesty was helpful, as did my colleagues, but my manager thought otherwise. 第5段，第3句 句子包含并列主句、宾语从句、状语从句，这些都是考试中常见的句式结构。尤其是 but 连接的转 折并列、省略 that 的宾语从句、as 引导的倒装状语从句，都是典型的书面语句式，在四六级和考 研真题中频繁出现。掌握这个句子的结构分析方法后，可以应用到大量类似句型。 By virtue of having the loudest voice, they're able to command greater attention and to further assert their dominance, even when what they're saying doesn't really make much sense. 第8段，第3句 本句成分丰富且含多个训练要点：介词短语作方式状语、并列不定式作宾语、让步状语从句、主语 从句在从句内部充当主语、连接代词 \"what\" 的双重功能（引导词兼宾语）。这些都是四六级和考 研常考点，且容易混淆（如 \"what\" 的成分归属、状语从句的识别），作为划分练习句收益高 The man paid attention to trivial things. 第5题，C 句中包含主语、谓语、宾语三个基本成分，可用于初学者识别最基础的主谓宾结构，但成分种类单 一，无定语从句、状语从句、补语等复杂成分，缺乏易错点和进阶训练价值。 Athletes are seen as heroes because they can do things that most of us can't do. 第1段，第1句 本句结构高度典型：被动语态主句 + because原因状语从句 + 定语从句修饰从句宾语，是四六级和 考研阅读中的常见句式。被动语态表达客观评价、原因从句解释现象、定语从句限定名词，这种组 合在议论文和说明文中频繁出现，掌握后可大量复用。 Many show those same qualities off the playing field, too. 第2段，第2句 简单句在考试中常作为复杂句的对比材料或过渡句出现，但本句结构过于简单、未包含常考的从句 或特殊句式，作为真题句式代表性一般，学了之后可迁移的场景不多。 Although it's usually bad behavior that gets an athlete a spot on the six o'clock news, many high-profile players work hard to be positive role models to children. 第2段，第4句 让步状语从句 + 主句的对比结构、强调句 \"it is ... that\" 框架、双宾语结构 \"get sb sth\" 都是四六级 和考研阅读中的高频句式。全句整合了多个典型考点，具有很强的代表性，掌握后可大量复用到类 似结构的句子分析中。 Still, even the greatest champions have flaws. 第3段，第1句 本句涉及基本的主谓宾成分、句首状语、程度状语、定语等常见成分，成分种类有一定丰富度。但 所有成分都按标准位置排列，没有特殊的易错点（如形式主语、分隔、倒装），训练价值中等偏 下。适合用于巩固基础成分识别，但缺乏进阶挑战。 Before he died, baseball star Mickey Mantle, who was plagued with alcohol problems, told young ballplayers and the fans who admired him \"to play like me, don't be like me.\" 第3段，第6句 涵盖双宾语结构（told sb sth）、同位语（baseball star）、两类定语从句（限制性与非限制性）、 时间状语从句、直接引语作宾语，成分类型丰富，且双宾语和两类定语从句对比明显，训练价 值高。 They take part in kids' extra-curricular activities. 第10题，A 主谓宾简单句是英语最基础句式,take part in 是常考固定搭配,具有一定代表性;但此句过于简单,不 含四六级或考研真题中常见的复杂修饰、从句嵌套等典型难点结构,作为应试训练材料的针对性 不强。 Susan is causing quite the debate online after posting a bizarre Facebook complaint about her now-cancelled wedding. 第1段，第6句 涵盖主语、谓语、宾语、地点状语和时间状语五种成分，成分种类较为丰富。时间状语内部嵌套了 动名词结构和多层定语，可以训练学生识别介词短语作状语以及区分状语与从句的能力。但缺少从 句、复合宾语、表语等更复杂成分，训练广度有限。 Yes, the couple called off the wedding just days before their wedding vows. 第2段，第1句 本句包含主语、谓语（短语动词）、宾语、时间状语四种成分，覆盖基本句型的核心要素。短语动 词 \"called off\" 是一个值得练习的点，学生需要识别动词 + 副词小品词的组合。但整体成分种类较 少，没有定语从句、补语、同位语等更复杂的成分类型，训练价值中等偏下 Since their guests refused to pay the $1,500 attendance fee, the $60,000 dream wedding was put on permanent hold. 第2段，第2句 \"Since + 原因状语从句,主句\" 是四六级和考研阅读中高频出现的因果复合句式,被动语态结合原因状 语也是典型考点结构,掌握后可迁移至大量同类句子,代表性较强。 In her long explanation filled with cursing and swearing, the bride accused her friends and family of ruining her marriage and her life. 第2段，第3句 涵盖主谓宾基本成分，还包含介词短语作状语、过去分词短语作后置定语、动名词作介词宾语等多 种成分类型，适合练习区分谓语动词与非谓语形式，以及识别被状语分隔的主干 What did Susan's maid of honor advise her to do? 第14题题干 句式具有较高代表性：疑问句 + 双宾语结构 + 不定式作宾补的组合在四六级和考研阅读中频繁出 现，\"advise/tell/ask sb to do\" 类句型是典型考查对象，掌握后可迁移到大量类似句子。 This, in turn, leads to more social interaction, which encourages them to develop a friendlier and socially more acceptable personality. 第2段，第2句 非限制性定语从句补充说明主句结果、形成因果链条的句式在四六级和考研真题中非常常见,尤其 是议论文和说明文。本句结构清晰、逻辑典型,掌握后可大量复用到类似语境中。 Roughly speaking, about 40% of a person's personality is determined by their genes, the other 60% by their environment. 第3段，第2句 被动语态 + by引导施动者的结构在学术写作和考试阅读中非常常见，尤其是在陈述客观规律或科 学结论时。并列结构及谓语省略也是真题中的高频句式。本句的结构具有较强的代表性，掌握后可 以迁移到大量类似句子的理解和写作中。 They then compared the results with the average annual temperature where they grew up. 第4段，第4句 包含限制性定语从句修饰名词的结构在考试阅读中较常见，且 where 引导的定语从句也是典型考 点。整体句式有一定代表性，但不是特别复杂或高频的经典句式。 People share many personality traits despite their nationalities. 第18题，B 简单句加介词短语状语是常见句式，但在四六级和考研真题中，此类结构通常会嵌入从句或与其他 复杂成分结合，单独的简单句代表性较低，学生掌握后可迁移的场景有限。 In fact, the poll found that seniors who lived with their children were more likely to report feeling lonely than those who didn't. 第4段，第6句 宾语从句 + 定语从句的嵌套结构、比较结构 more likely ... than、关系代词 who 在从句中作主语， 都是四六级和考研阅读中的高频句式。掌握本句的结构分析方法可直接迁移到大量同类句子。 So it's possible that someone who lives alone doesn't meet that definition, while someone in a house full of busy people does. 第4段，第8句 本句结构不算过难，但覆盖了多个高频且实用的结构识别点，尤其适合做主干、从句层级和省略恢 复训练。对结构与时态的综合练习价值较高，值得优先学习。 Well, the researchers assert that it's important to address each person's underlying cause of loneliness, whether it's the death of a spouse, medical problems, or social expectations that haven't been fulfilled. 第5段，第2句 本句结构在四六级和考研阅读中极为典型：主句 + 宾语从句 + 从句内嵌套状语或定语的多层复合 句，且使用形式主语后置真正主语的写法，都是高频考查句式。掌握本句的分析方法可以直接复用 到大量真题长难句中。 Chronic loneliness does harm to senior citizens in particular. 第19题，B 简单句中使用助动词强调是常见手法，\"do/does/did + 动词原形\" 结构在考试中频繁出现，具有一 定代表性，但因句式过于简单，整体典型性中等 Loneliness rarely results from living alone. 第20题，B \"主语 + 不及物动词 + from 引导的来源状语\" 是常见句型，在表达因果或来源关系时较为典型。但 简单句本身在四六级或考研阅读中占比不高，复杂长难句更具代表性，因此本句的结构典型性处于 中等水平。 For as long as I can remember, I wanted to be a travel writer. 第3段，第1句 这句结构不复杂，但非常适合训练“先抓主干、再处理句首从属部分”的稳定步骤，同时还能练一个 基础过去时和一个情态动词结构，适合作为入门到进阶之间的过渡材料。 Before blogs existed and everything we read was online, I would go to travel writing seminars by writers who were published in travel magazines. 第3段，第2句 覆盖主语、谓语、宾语（隐含）、表语、状语、定语等多种成分，且包含关系代词省略（\"we read\"）和 \"who\" 在从句中作主语两种定语从句形式，以及被动语态的成分划分，训练价值较高。 In 2015, I was looking at ways to leave finance, and my best friend Vanessa, who grew up on a ranch on the Central Coast of California, suggested starting a blog. 第4段，第1句 并列句加非限制性定语从句的组合在四六级和考研真题中较为常见，是典型的叙事句式。过去进行 时 \"was looking\" 也是常考时态。学生掌握本句结构后，可迁移到大量类似并列叙事句的分析中。 To anyone thinking about becoming a travel writer, I would suggest they first try and look for a unique way to enter the industry. 第5段，第1句 本句体现了 suggest 类动词后接虚拟语气宾语从句的典型用法,以及情态动词 would 表达委婉建议 的常见句式,这两种结构在四六级和考研阅读写作中频繁出现,掌握后可迁移到大量类似句子,具有很 高的代表性 Be prepared to work hard if you want to turn it into a full-time business, and try not to rush to selling advertising spaces before you have created a dedicated audience. 第5段，第3句 本句的结构在四六级和考研真题中具有较高的典型性：祈使句表达建议或劝告、条件和时间状语从 句修饰主句、并列句通过连词连接,都是常考句式。特别是时间状语从句中使用现在完成时表示将 来某时间前完成的动作,这是考试中常见的时态用法。掌握这种结构后,学生可以复用到许多类似的 建议类、说明类句子中。 Set up a travel agency. 第23题，D 祈使句在日常交际和应用文中常见（如说明书、广告语、指示），但在四六级或考研阅读的长难句 中出现频率较低，典型性一般。 H I G H"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Attracting sufficient investment.",
+          "textZh": "吸引足够的投资。"
+        },
+        {
+          "label": "B",
+          "text": "Creating an exotic corporate culture.",
+          "textZh": "创建一种异国情调的企业文化。"
+        },
+        {
+          "label": "C",
+          "text": "Avoiding too much advertising early on.",
+          "textZh": "早期避免过多广告。"
+        },
+        {
+          "label": "D",
+          "text": "Refraining from promoting similar products.",
+          "textZh": "避免推广类似产品。"
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "the more likely __(26)__, according to Nick Bostrom, … is that we humans will destroy ourselves",
+      "answer": "K",
+      "answerText": "scenario",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "the more likely ___：形容词比较级后接单数名词作主语中心词"
+        },
+        {
+          "label": "依据",
+          "text": "scenario = 可能发生的情景，对应\"我们自我毁灭\"这种假设性结局 the more likely __(26)__, … is that we humans will destroy ourselves：与小行星、超级 火山\"可能发生的情景\"作比较，\"可能性更大的情景\"就是人类自毁，是 scenario 的典型用法 （the more likely scenario is that…）。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) evaporation evaporation 与上下文\"灾难情景\"无关 evaporation 指物理\"蒸发\"，无法与 asteroids、super volcanoes 这些\"可能事件\"作平行 比较。 O) variety the more likely variety 不构成自然搭配 variety 表\"种类、多样性\"，是分类词，不指向某个\"具体可能事件\"，与 is that 引导的同位语从 句\"具体事件\"不匹配。 34 35"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "human __(27)__ risks are poorly understood",
+      "answer": "G",
+      "answerText": "extinction",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "human ___ risks：两名词之间夹一空，作 noun adjunct 修饰 risks"
+        },
+        {
+          "label": "依据",
+          "text": "human extinction risks = 人类灭绝风险，呼应全文 wiped from the face of the Earth 的主旨 首段 humanity, every last person, could someday be wiped from the face of the Earth 已把全文核心议题定为\"人类灭绝\"；human extinction risks 是该议题在学术语篇里 的标准表达，与 human __(27)__ risks are poorly understood 中\"被理解得很差\"的对象完 全吻合；extinction 作 noun adjunct 前置修饰 risks，语法上完全合法（参照 climate change risks 同类构造）。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) essential essential risks 语义模糊、不切主题 essential 意为\"必不可少的\"，essential risks 不构成有意义的表达，更无法对应下文反复出现的 existential risks（生存性风险）这一主题词。 F) evaporation human evaporation 与主题不符 evaporation 表\"蒸发\"，与 human 组合无主流学术意义，也不与下文\"existential risks\"形成 对应。 H) obscure obscure 留给 29 题、且不修饰本句主语 下文 But others are __(29)__ or even exotic 才会用到\"鲜为人知\"这层意思；本句要刻画的 是\"人类面临的何种类别的风险被低估\"，应是题材性限定（灭绝），而非性质性修饰（模糊）。 O) variety human variety risks 不成立 variety 几乎只能用在 a variety of 结构中，无法作 noun adjunct 给 risks 加题材限定。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 E) —— essential risks 听着像\"关键风险\"很诱人。human __(27)__ risks are poorly understood 处若只看本句、不回主旨，很容易误选 essential\"本质风 险\"；防坑：始终回到首段 humanity, every last person, could someday be wiped from the face of the Earth 这句话定题材，与 extinction 一一对应。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "human __(27)__ risks are poorly understood and, worse still, __(28)__ underestimated by society",
+      "answer": "L",
+      "answerText": "severely",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "worse still, ___ underestimated：修饰过去分词 underestimated"
+        },
+        {
+          "label": "依据",
+          "text": "severely underestimated = 被严重低估，与 poorly understood 程度副词平行 poorly understood and, worse still, __(28)__ underestimated by society：前后并列结 构，副词位都修饰被动分词，描述\"理解不充分\"与\"低估\"的负面程度；severely 与 poorly 同色调、加重语气，呼应 worse still。"
+        },
+        {
+          "label": "竞争词",
+          "text": "M) shrewdly shrewdly 是褒义\"精明地\"，与 underestimated 的负面语境冲突 shrewdly underestimated 等于说\"精明地低估了\"，自相矛盾，且与 worse still 表示的\"更 糟\"色调相反。"
+        },
+        {
+          "label": "易错",
+          "text": "最具迷惑性的错误词是 M) —— shrewdly 与 severely 都是副词，词性对、易混。worse still, __(28)__ underestimated by society 处考生若只卡词性、不看色调，可能误选 shrewdly；防坑：紧盯 worse still 这一句间连接词，色调一负到底。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "But others are __(29)__ or even exotic",
+      "answer": "H",
+      "answerText": "obscure",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "others are ___ or even exotic：系动词 are 后接形容词作表语"
+        },
+        {
+          "label": "依据",
+          "text": "obscure 与 exotic 同色调：鲜为人知 甚至怪异 But others are __(29)__ or even exotic 与上句 Some of these existential risks are fairly well known 形成\"有些众所周知，但另一些则……\"的转折；空处需与 \"well known\" 反义， 与 exotic 同向，先\"鲜为人知\"再\"怪异\"层层递进，正是 obscure。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) essential essential 与 exotic 不同色、且与 well known 不构成反义 essential 意为\"本质的、必要的\"，既无法与 exotic 形成程度递进，也无法与上句 well known 构成转折，逻辑链断裂。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "the subset of existential risks that __(30)__ from human technology",
+      "answer": "B",
+      "answerText": "arise",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "risks that ___ from：that 引导的定语从句中作谓语，后接 from"
+        },
+        {
+          "label": "依据",
+          "text": "arise from = 源自、由……产生，对应\"来自人类技术的风险\" the subset of existential risks that __(30)__ from human technology 表达\"源自人类技 术的那一类生存风险\"，arise from 是英语描述\"源自/由……引起\"的固定搭配，与主语 risks 复数原形相配。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Despite his concerns about the risks __(31)__ to humans by technological progress",
+      "answer": "J",
+      "answerText": "posed",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "risks ___ to humans by …：名词后接非谓语作后置定语"
+        },
+        {
+          "label": "依据",
+          "text": "pose a risk to sb by sth = 由某物对某人造成风险 the risks __(31)__ to humans by technological progress：pose 与 risk/threat/challenge 是英语里\"造成……威胁/风险\"的强搭配，且 to humans 与 by technological progress 分别充当 pose 的间接宾语方向与施事，被动式 posed 一招 到位。"
+        },
+        {
+          "label": "竞争词",
+          "text": "C) emphasized emphasize 与 risk 不构成\"造成风险\"的语义 emphasize 意为\"强调\"，emphasized to humans by 表达不出\"由技术进步带给人类的风险\"的 因果关系；且 risks emphasized to humans 在逻辑上与\"Bostrom 担忧技术造成的风险\"主线 偏离。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "he is a longtime __(32)__ of trans-humanism",
+      "answer": "A",
+      "answerText": "advocate",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "a longtime ___ of：a 后接单数可数名词，of 引出对象"
+        },
+        {
+          "label": "依据",
+          "text": "an advocate of X = X 的倡导者，与上下文呼应 he is a longtime __(32)__ of trans-humanism—the effort to improve the human condition…through technological means，前句 Bostrom is no luddite 说他不是科技进 步反对者，正面身份就是\"长期倡导者\"，an advocate of trans-humanism 是固定搭配。"
+        },
+        {
+          "label": "竞争词",
+          "text": "D) encounter encounter 作名词义为\"遭遇\"，不指人 a longtime encounter of trans-humanism = \"超人类主义的一段长期遭遇\"，既不指人也无法 被 of 紧跟一个学说作宾语，与前句\"他不是反对者\"的逻辑承接不上。 F) evaporation evaporation 是物理过程词、不指人 evaporation of trans-humanism 无意义，且无法承接\"he is\"的身份判定。 O) variety a longtime variety of … 不指人，逻辑也不通 variety of 通常表\"……的多种类型\"，无法与 he is 构成身份关系。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Bostrom uses the tools of philosophy and mathematics, in __(33)__, probability theory",
+      "answer": "I",
+      "answerText": "particular",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "in ___ 介词后接名词或形容词，与 in particular 构成固定短语"
+        },
+        {
+          "label": "依据",
+          "text": "in particular = 尤其，引出后面的具体例子 probability theory in __(33)__, probability theory 后半段对前半句 the tools of philosophy and mathematics 中的 mathematics 作\"尤其是\"的细化举例，正是 in particular 的典型用法。"
+        },
+        {
+          "label": "竞争词",
+          "text": "E) essential in essential 不是英语固定搭配 essential 意为\"本质的\"，常说 in essence（本质上）而非 in essential；放进 in __(33)__, probability theory 既无搭配支撑、语义上也不能引出举例。 H) obscure in obscure 不成搭配且语义反向 obscure 是\"模糊/鲜为人知的\"，在此既无固定短语，也与 Bostrom\"明确使用概率论\"的语境 冲突。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "how we as a __(34)__ might achieve this safe passage",
+      "answer": "N",
+      "answerText": "species",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "we as a ___：as a 后接单数可数名词，we 的同位"
+        },
+        {
+          "label": "依据",
+          "text": "we as a species = 我们作为一个物种，与全文\"人类整体存亡\"主旨严丝合缝 how we as a __(34)__ might achieve this safe passage 的语境是讨论\"人类作为一个整体 如何安全跨越技术之桥\"，species（物种）正是把\"全人类\"集合化的标准学术用语，与首段 humanity, every last person 的视角一致。species 单复数同形，符合 as a 单数要求。"
+        },
+        {
+          "label": "竞争词",
+          "text": "F) evaporation evaporation 是\"蒸发\"，不能作 we 的同位身份 evaporation 描述物理/抽象过程，与\"我们作为一个 X\"的身份位完全不搭。 K) scenario scenario 留给 26 题且语义不通 scenario 是\"情景\"，we as a scenario 不构成意义；并且 26 题（the more likely ___）正是为 scenario 量身定做的位置。 O) variety we as a variety 不成立 variety 指\"多样性、种类\"，搭配上多说 a variety of，无法独立作 we 的身份同位；且 a variety 在此既无具体所指也偏离主题。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "about some of the most interesting and worrying existential risks that humanity might __(35)__ in the decades and centuries to come",
+      "answer": "D",
+      "answerText": "encounter",
+      "analysis": [
+        {
+          "label": "词性槽",
+          "text": "humanity might ___：情态动词 might 后接动词原形"
+        },
+        {
+          "label": "依据",
+          "text": "encounter risks = 遭遇风险，是及物动词，宾语正是先行词 risks existential risks that humanity might __(35)__ in the decades and centuries to come 中，空是定语从句的谓语动词、需要及物动词以\"risks\"为宾语；encounter 正是\"遭遇/碰到 （风险/困难）\"的标准搭配。"
+        },
+        {
+          "label": "竞争词",
+          "text": "B) arise arise 是不及物动词，不能直接带宾语 risks arise 意为\"产生、出现\"，是不及物动词（risks arise，而不是 humanity arise risks）；放 进\"humanity might arise risks\"语法立刻不成立。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "advocate",
+        "B": "arise",
+        "C": "emphasized",
+        "D": "encounter",
+        "E": "essential",
+        "F": "evaporation",
+        "G": "extinction",
+        "H": "obscure",
+        "I": "particular",
+        "J": "posed",
+        "K": "scenario",
+        "L": "severely",
+        "M": "shrewdly",
+        "N": "species",
+        "O": "variety"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "advocate"
+        },
+        {
+          "label": "B",
+          "text": "arise"
+        },
+        {
+          "label": "C",
+          "text": "emphasized"
+        },
+        {
+          "label": "D",
+          "text": "encounter"
+        },
+        {
+          "label": "E",
+          "text": "essential"
+        },
+        {
+          "label": "F",
+          "text": "evaporation"
+        },
+        {
+          "label": "G",
+          "text": "extinction"
+        },
+        {
+          "label": "H",
+          "text": "obscure"
+        },
+        {
+          "label": "I",
+          "text": "particular"
+        },
+        {
+          "label": "J",
+          "text": "posed"
+        },
+        {
+          "label": "K",
+          "text": "scenario"
+        },
+        {
+          "label": "L",
+          "text": "severely"
+        },
+        {
+          "label": "M",
+          "text": "shrewdly"
+        },
+        {
+          "label": "N",
+          "text": "species"
+        },
+        {
+          "label": "O",
+          "text": "variety"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The higher rate of employment, combined with limited housing supply, did not make it any easier to buy a house. 【定位】In spite of all that, the strength of the recent job growth, combined with policies that have traditionally limited housing development in the city and throughout the peninsula, did not help ease the affordability crisis.",
+      "answer": "E",
+      "answerText": "E 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "In spite of all that, the strength of the recent job growth, combined with policies that have traditionally limited housing development in the city and throughout the peninsula, did not help ease the affordability crisis. 尽管如此，近期就业增长的强劲势头，叠加传统上限制本市及整个半岛住房开发的政策，并 没有帮助缓解可负担危机。"
+        },
+        {
+          "label": "改写",
+          "text": "higher rate of employment ↔the strength of the recent job growth 就业率升 = 就业增长势头强 limited housing supply ↔policies that have traditionally limited housing development 限制开发即压缩供给 did not make it any easier to buy a house ↔did not help ease the affordability crisis 可负担危机未缓解 = 买房没变容易"
+        },
+        {
+          "label": "辨邻",
+          "text": "F F 段算的是 the minimum qualifying income to purchase a house has increased to $254,000 与 the average household income in the city currently stands at around $80,000 的差距，结论与买房难有关，但没有 higher rate of employment 这条原因要素，因此不是本题来源。 the minimum qualifying income to purchase a house has increased to $254,000 应对住房危机的一种方法是政府简化住房项目的审批程序。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "就业 + 供房不足却没让买房更易 effective high-speed commuting system linking the high-priced and crowded Bay Area with the low- priced and low-density Central Valley. This would dramatically reduce travel times. And based on the operating speeds of hovering trains used in countries such as Japan or Spain, high-speed rail could shorten the time to travel between San Francisco and California's capital, Sacramento, or from Stockton to San Jose, to under 30 minutes. This system would bring once distant regions within reasonable commute to heavy job centers. The city also needs to update existing transportation routes combined with smart home-building policies that dramatically increase housing density in areas surrounding high-speed rail stations. By doing so, we will be able to build affordable housing within acceptable commuting distances for a significant bulk of the workforce. 当然,仅靠房地产无法解决问题。交通也需要更新,基础设施需要延伸以连接偏远地区与硅谷和该市。我 们需要建立一个有效的高速通勤系统,连接高价格和拥挤的湾区与低价格和低密度的中央谷地。这将大 幅缩短旅行时间。根据日本或西班牙等国使用的悬浮列车的运行速度,高速铁路可以将旧金山与加利福 尼亚州首府萨克拉门托之间,或从斯托克顿到圣何塞之间的旅行时间缩短至30分钟以内。这个系统将使 曾经遥远的地区进入到主要就业中心的合理通勤范围内。该市还需要更新现有的交通路线,结合智能住 房建设政策,大幅提高高速铁路站周围地区的住房密度。通过这样做,我们将能够在可接受的通勤距离内 为大部分劳动力建造可负担的住房。 L) Our threatening housing crisis forces the difficult question of what type of society we would like to be. Will it be one where the elite command the vast bulk of wealth and regional culture is defined by an aggressive business world? We were recently treated to a taste of the latter, when local tech employee Justin Keller wrote an open letter to the city complaining about having to see homeless people on his way to work. 我们面临的威胁性住房危机迫使我们思考一个困难的问题:我们想成为什么样的社会。是一个精英掌控 绝大部分财富、地区文化由激进的商业世界定义的社会吗?我们最近就领略了后者的滋味,当地科技员工 Justin Keller写了一封公开信给该市,抱怨在上班路上不得不看到无家可归者。 M) It doesn't have to be this way. But solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern. It may take less than you might think. And in fact, the solutions to our housing crisis are already fairly clear. We need to increase the density of housing units. We need to use existing technology to shorten travel times and break the land limits. There is a way to solve complex social and economic problems without abandoning social responsibility. This is the Bay Area's opportunity to prove that it can innovate more than just technology. 事情不必如此。但解决方案需要现在就实施,在愤怒的人群从麻烦发展为严重问题之前。这可能比你想 象的要少。事实上,我们住房危机的解决方案已经相当清楚。我们需要提高住房单元的密度。我们需要 利用现有技术来缩短旅行时间并打破土地限制。有一种方法可以在不放弃社会责任的情况下解决复杂 的社会和经济问题。这是湾区证明自己不仅能在技术上创新的机会。 36. The higher rate of employment, combined with limited housing supply, did not make it any easier to buy a house."
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "One way to deal with the housing crisis is for the government to simplify approval procedures for housing projects.",
+      "answer": "J",
+      "answerText": "J 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "This means increasing housing density throughout the region and building upwards while streamlining the approval process. 这意味着要在整个地区提高住房密度、向上建造，同时精简审批流程。"
+        },
+        {
+          "label": "改写",
+          "text": "simplify approval procedures for housing projects ↔streamlining the approval process streamline = simplify，process = procedures"
+        },
+        {
+          "label": "辨邻",
+          "text": "M M 段重在 We need to increase the density of housing units 与 use existing technology to shorten travel times and break the land limits 等动作，未出现 approval 关联词，因此不是本题来源段。 the solutions to our housing crisis are already fairly clear San Francisco湾区的居民因科技行业造成的经济不平等而强烈不满。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "政府简化住房项目审批"
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Residents of the San Francisco Bay Area strongly resent the tech industry because of the economic inequality it has contributed to.",
+      "answer": "B",
+      "answerText": "B 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "While the residents of most cities display pride and support for their home industries, drastic market distortions in the San Francisco Bay Area have created boiling resentment in the region towards the tech industry. 尽管大多数城市的居民都为本地产业感到自豪并予以支持，旧金山湾区却因剧烈的市场扭 曲，对科技业产生了强烈的怨气。"
+        },
+        {
+          "label": "改写",
+          "text": "strongly resent the tech industry ↔boiling resentment in the region towards the tech industry 动词 resent 与名词 resentment 同根；strongly = boiling because of the economic inequality it has contributed to ↔ drastic market distortions in the San Francisco Bay Area have created boiling resentment 市场扭曲 = 经济不平等的具体表现"
+        },
+        {
+          "label": "辨邻",
+          "text": "I I 段 In the face of resentment, it is human to want revenge 是对已有怨气的回 应，没有把“怨气 科技业 经济不平等”这条归因链给出。 In the face of resentment, it is human to want revenge 土地和房屋价格的快速上涨加剧了人们之间的经济不平等。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "居民因贫富差距强烈憎恨科技业"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The fast rise in the prices of land and houses increases the economic inequality among people.",
+      "answer": "G",
+      "answerText": "G 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "When home prices soar above the reach of most households, the gap between the rich and the poor dramatically increases. 当房价飙升至大多数家庭难以企及时，贫富差距就会急剧扩大。"
+        },
+        {
+          "label": "改写",
+          "text": "fast rise in the prices of land and houses ↔ When home prices soar above the reach of most households fast rise = soar increases the economic inequality among people ↔ the gap between the rich and the poor dramatically increases 经济不平等 = 贫富差距 39. The fast rise in the prices of land and houses increases the economic inequality among people."
+        },
+        {
+          "label": "辨邻",
+          "text": "C C 段聚焦 San Francisco ranks first in California for economic difference 与 The average income of the top 1% of households in the city averages $3.6 million 等收入差距数字，没有把“房价/地价上升”作为原因引入。 San Francisco ranks first in California for economic difference H H 段 If contributing factors leading to housing becoming less than affordable are not resolved over multiple generations, a small elite will control a vast share of the country's total wealth 是远期社会后果论，与陈述句要的直接因果不同。 a small elite will control a vast share of the country's total wealth San Francisco市政府提供税收优惠以吸引科技公司在欠发达地区开展业务。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "地价/房价飙升扩大经济差距"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "San Francisco city government offered tax benefits to attract tech companies to establish operations in a less developed area.",
+      "answer": "D",
+      "answerText": "D 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Policies pushed by Mayor Ed Lee provided tax breaks for tech companies to set up shop along the city's long-neglected Mid-Market area. 由市长 Ed Lee 推动的政策为科技公司提供税收减免，让它们在该市长期被忽视的 Mid- Market 区域开设业务。"
+        },
+        {
+          "label": "改写",
+          "text": "offered tax benefits ↔provided tax breaks offered = provided，benefits = breaks to attract tech companies to establish operations ↔for tech companies to set up shop to attract ... to establish = for ... to set up shop in a less developed area ↔along the city's long-neglected Mid-Market area less developed = long-neglected"
+        },
+        {
+          "label": "辨邻",
+          "text": "I I 段 deteriorating policies such as heavily taxing technology companies or real estate developers 描述的是与本题相反的政策方向，且语境是“不要这么做”。看到 tax 就选会被“正话反说”诱导。 deteriorating policies such as heavily taxing technology companies 应在为时已晚之前引入社会和经济问题的创新解决方案。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "市政府用税收优惠引科技公司去欠发达区"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Innovative solutions to social and economic problems should be introduced before it is too late. 【改写】Innovative solutions to social and economic problems ↔ a way to solve complex social and economic problems without abandoning social responsibility social and economic problems 原词复现，Innovative ↔ innovate 同根 before it is too late ↔ solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern now + before sth gets worse = before it is too late",
+      "answer": "M",
+      "answerText": "M 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "But solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern. 但解决方案必须立刻实施，趁愤怒的人群还没从小麻烦发展成严重问题。 40. San Francisco city government offered tax benefits to attract tech companies to establish operations in a less developed area. 41. Innovative solutions to social and economic problems should be introduced before it is too late."
+        },
+        {
+          "label": "改写",
+          "text": "Innovative solutions to social and economic problems ↔ a way to solve complex social and economic problems without abandoning social responsibility social and economic problems 原词复现，Innovative ↔ innovate 同根 before it is too late ↔ solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern now + before sth gets worse = before it is too late"
+        },
+        {
+          "label": "辨邻",
+          "text": "J J 段更像问题剖析与对策列举；陈述句“创新解法 + 趁早”是宏观呼吁，与 M 段的尾段 定位匹配。 increasing housing density throughout the region and building upwards while streamlining the approval process K K 段聚焦 high-speed commuting system 这一具体方案，无 before it is too late 这 种时间紧迫性表述。 Transportation, too, needs to be updated and infrastructure extended to link distant regions to Silicon Valley and the city 当人们将自己的生活水平与他人进行比较时,这对他们的满足感有更大的影响。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "及时引入创新解法"
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "When people compare their own living standard with others', it has a greater impact on their sense of contentment.",
+      "answer": "H",
+      "answerText": "H 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "This means that how a person judges their security in comparison to their neighbors' has more of an impact on their happiness than their objective standard of living. 这意味着，一个人如何与邻居比较自己的安全感，对其幸福感的影响要大于他客观的生活 水平。"
+        },
+        {
+          "label": "改写",
+          "text": "compare their own living standard with others' ↔ how a person judges their security in comparison to their neighbors' compare with others' = in comparison to neighbors' it has a greater impact on their sense of contentment ↔ has more of an impact on their happiness than their objective standard of living sense of contentment = happiness; greater impact = more of an impact"
+        },
+        {
+          "label": "辨邻",
+          "text": "G G 段 When home prices soar above the reach of most households, the gap between the rich and the poor dramatically increases 是经济差距视角，缺少“幸福 感/满足感”这层。 the gap between the rich and the poor dramatically increases 42. When people compare their own living standard with others', it has a greater impact on their sense of contentment. San Francisco被发现是加利福尼亚州贫富收入差距最大的城市。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "和别人比较影响幸福感"
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "San Francisco has been found to have the biggest income gap in California between the rich and the poor.",
+      "answer": "C",
+      "answerText": "C 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "According to a recent study, San Francisco ranks first in California for economic difference. 根据最近的一项研究，旧金山在加州的经济差距方面排名第一。"
+        },
+        {
+          "label": "改写",
+          "text": "biggest income gap in California ↔ San Francisco ranks first in California for economic difference ranks first = biggest，economic difference = income gap between the rich and the poor ↔ The average income of the top 1% of households in the city averages $3.6 million. This is 44 times the average income of those at the bottom top 1% vs those at the bottom = rich vs poor 连接城市与遥远边缘地区的改善交通网络也将有助于解决住房危机。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "加州贫富差距最大的城市"
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Improved transport networks connecting the city to distant outlying areas will also help solve the housing crisis.",
+      "answer": "K",
+      "answerText": "K 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Transportation, too, needs to be updated and infrastructure extended to link distant regions to Silicon Valley and the city. 交通也需要升级，基础设施需要延伸，把远郊与硅谷及本市连接起来。"
+        },
+        {
+          "label": "改写",
+          "text": "Improved transport networks ↔ Transportation, too, needs to be updated and infrastructure extended Improved = updated + extended connecting the city to distant outlying areas ↔link distant regions to Silicon Valley and the city connect = link，distant outlying areas = distant regions will also help solve the housing crisis ↔ we will be able to build affordable housing within acceptable commuting distances for a significant bulk of the workforce 建可负担住房 = 帮助解决住房危机 43. San Francisco has been found to have the biggest income gap in California between the rich and the poor. 44. Improved transport networks connecting the city to distant outlying areas will also help solve the housing crisis. 湾区的平均收入使得大多数租户家庭几乎不可能购买住房。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "改善交通连接远郊缓解住房危机"
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Average incomes in the Bay Area make it virtually impossible for most tenant families to buy a home. B",
+      "answer": "F",
+      "answerText": "F 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Considering that the average household income in the city currently stands at around $80,000, it is not an exaggeration to say that the dream of home ownership is now beyond the grasp of the vast majority of today's people who rent. 考虑到该市目前家庭平均收入约 8 万美元，说“如今对绝大多数租户而言，拥有住房的梦想 已遥不可及”并不夸张。"
+        },
+        {
+          "label": "改写",
+          "text": "Average incomes in the Bay Area ↔ the average household income in the city currently stands at around $80,000 平均收入两端同义 virtually impossible for most tenant families to buy a home ↔ the dream of home ownership is now beyond the grasp of the vast majority of today's people who rent beyond the grasp = virtually impossible；people who rent = tenant families"
+        },
+        {
+          "label": "辨邻",
+          "text": "E E 段 did not help ease the affordability crisis 是结论性表述，无具体收入数字、无 “租户群体”指向，与陈述句的算账型命题对不上。 did not help ease the affordability crisis G G 段聚焦 the value of land has overtaken overall income growth 与 the gap between the rich and the poor dramatically increases 的宏观机制，与陈述句的具 体算账不同。 the value of land has overtaken overall income growth"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "平均收入让大多数租户买不起房"
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "In what way were humans thought to be unique?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "In what way were humans thought to be unique? 是 in what way 引导的客观信息问 句，对应原文一句话即可回答。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q46 是一个被动语态的疑问句，主干是 humans were thought to be unique，were thought 是过去时被动，提示这一观点是过去的传统看法（呼应原文 once thought to be unique to humans 中的 once）。in what way 问的是 unique 的具体维度。"
+        },
+        {
+          "label": "定位",
+          "text": "The ability to make inferences from same and different, once thought to be unique to humans, is viewed as a cornerstone of abstract intelligent thought. 曾被认为是人类独有的、对 \"同\" 与 \"异\" 进行推断的能力，被视为抽象智力思维的基石。 46. In what way were humans thought to be unique? A) Being a major source of animal intelligence. B) Being the cornerstone of the creative world. C) Being capable of same-different discrimination. D) Being able to distinguish abstract from concrete."
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 选项 Being a major source of animal intelligence 说人类是 \"动物智力的主要来源\"， 原文从未提出这一观点；文章只对比人与动物的智力，没说人是动物智力的源头。 B) 偷换概念 cornerstone of abstract intelligent thought 修饰的是 \"同/异推断能力\"，是 \"抽象智 力的基石\"，不是 \"创造性世界的基石\"；选项 Being the cornerstone of the creative world 把对象偷换成 the creative world。 C) ✓ 正确 make inferences from same and different ↔same-different discrimination once thought to be unique to humans ↔Being capable of same-different discrimination 预判 \"人类独有的是 same-different 推断能力\"，C 选项 Being capable of same- different discrimination 把这一信息完整还原，且来源于原文同一句话，是定位句的标 准同义改写。 D) 无中生有 原文只提及 abstract intelligent thought，从未提及 concrete 这一概念；选项 Being able to distinguish abstract from concrete 把抽象与具体编造成可区分的对象。 我们从发表在《科学》杂志上的研究中了解到什么? A) 我们对鸟类世界的理解存在偏见。 B) 我们对鸟类智能的概念是错误的。 C) 我们与鸟类的交流远远不够充分。 D) 我们关于鸟类心理学的知识需要更新。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Being a major source of animal intelligence."
+        },
+        {
+          "label": "B",
+          "text": "Being the cornerstone of the creative world."
+        },
+        {
+          "label": "C",
+          "text": "Being capable of same-different discrimination."
+        },
+        {
+          "label": "D",
+          "text": "Being able to distinguish abstract from concrete."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn from the study published in Science?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn from the study published in Science? 限定了来源，问该研究告诉我 们什么客观结论，对应原文该研究的总评句。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干是 What do we learn from the study；过去分词短语 published in Science 后 置修饰 the study，相当于定语从句 which was published in Science，用来锁定具体哪一 项研究。"
+        },
+        {
+          "label": "定位",
+          "text": "The study, published Thursday in Science, challenges our idea of what it means to have a birdbrain, said Edward Wasserman, an experimental psychologist at the University of Iowa who wrote an independent review of the study. Wasserman 表示，这项发表于周四《科学》杂志上的研究挑战了我们对 \"birdbrain\" 一词 含义的认知。 47. What do we learn from the study published in Science? A) Our understanding of the bird world was biased. B) Our conception of birds' intelligence was wrong. C) Our communication with birds was far from adequate. D) Our knowledge about bird psychology needs updating."
+        },
+        {
+          "label": "选项",
+          "text": "A) 以偏概全 选项 Our understanding of the bird world was biased 把对象从 \"鸟的智力\" 扩大成 \"鸟的世界\"——原文只挑战对鸟智力的看法，没说我们对整个鸟类世界的理解有偏见。 B) ✓ 正确 challenges our idea of what it means to have a birdbrain ↔ Our conception of birds' intelligence was wrong birds are extremely intelligent and our problem pretty much lies in figuring out how to get them to 'talk' to us ↔Our conception of birds' intelligence was wrong 预判 \"鸟脑认知被推翻\"，Our conception of birds' intelligence was wrong 与之严丝 合缝；B 是定位句的标准同义改写。 C) 答非所问 our problem pretty much lies in figuring out how to get them to 'talk' to us 是 Wasserman 的延伸说明，不是该研究本身告诉我们的核心结论；选项 Our communication with birds was far from adequate 误把延伸内容当作主结论。 D) 偷换概念 选项 Our knowledge about bird psychology needs updating 用 bird psychology 替换 birds' intelligence，鸟类心理学是更广的学科范畴，且 needs updating 改变了 原文 \"挑战\"（即推翻）的强度。 研究人员从实验中发现大多数雏鸭有什么特点? A) 它们能够将形状与颜色联系起来。 B) 它们对移动物体反应迅速。 C) 它们更喜欢有色物体而不是无色物体。 D) 它们能够判断物体是否相同。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Our understanding of the bird world was biased."
+        },
+        {
+          "label": "B",
+          "text": "Our conception of birds' intelligence was wrong."
+        },
+        {
+          "label": "C",
+          "text": "Our communication with birds was far from adequate."
+        },
+        {
+          "label": "D",
+          "text": "Our knowledge about bird psychology needs updating."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What did the researchers discover about most ducklings from their experiment?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What did the researchers discover about most ducklings from their experiment? 直 接问研究者发现了什么，是对实验结果的客观提问。"
+        },
+        {
+          "label": "拆句",
+          "text": "主干是 What did the researchers discover；about most ducklings 是 discover 的内容 限定，from their experiment 是来源状语。整句无陷阱，按 \"实验 发现 关于多数小 鸭的结论\" 这一链条去原文找即可。"
+        },
+        {
+          "label": "定位",
+          "text": "The researchers found that about 70% of the ducklings preferred to move toward the pair of objects that had the same shape or color relationship as the first objects they saw. 研究者发现，约 70% 的小鸭更倾向于走向与它们第一次看到的物体保持同种形状或颜色关 系的那一对物体。 48. What did the researchers discover about most ducklings from their experiment? A) They could associate shape with color. B) They reacted quickly to moving objects. C) They preferred colored objects to colorless ones. D) They could tell whether the objects were the same."
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 原文是 the same shape or color relationship——这里 or 表示 \"形状或颜色\" 二者之 一的关系，不是把形状和颜色 \"关联起来\"；选项 They could associate shape with color 是错读 or 的产物。 B) 无中生有 原文从未谈及小鸭 \"反应速度\"；选项 They reacted quickly to moving objects 是利用 moving objects 这一原词，凭空加上 quickly 这一速度属性。 C) 无中生有 原文只提到不同颜色（green、blue、orange、purple）之间的对照，从未涉及 \"colorless 无色\" 物体；选项 They preferred colored objects to colorless ones 凭空 造出有色与无色的对比。 D) ✓ 正确 the same shape or color relationship as the first objects they saw ↔ They could tell whether the objects were the same make inferences from same and different ↔ They could tell whether the objects were the same 预判 \"小鸭能识别同异关系\"，They could tell whether the objects were the same 与 之精确对应；tell whether X were the same 正是 same-different discrimination 的 口语化表述。 《科学》杂志报道的研究中,该实验的新颖之处是什么? A) 所使用的动物未接受任何训练。 B) 实验使用了多种颜色和形状。 C) 实验由实验心理学家进行。 D) 雏鸭与其他动物进行了比较。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They could associate shape with color."
+        },
+        {
+          "label": "B",
+          "text": "They reacted quickly to moving objects."
+        },
+        {
+          "label": "C",
+          "text": "They preferred colored objects to colorless ones."
+        },
+        {
+          "label": "D",
+          "text": "They could tell whether the objects were the same."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What was novel about the experiment in the study reported in Science?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What was novel about the experiment...? 问该实验本身新颖在哪里，是对实验属性的客 观提问，答案在原文有直接对应。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 What was novel about the experiment；过去分词短语 reported in Science 后置修饰 the study，相当于 which was reported in Science。novel 在此意为 \"前所未有 的、首次的\"，与原文 for the first time 直接呼应。 49. What was novel about the experiment in the study reported in Science? A) The animals used received no training. B) It used a number of colors and shapes. C) It was conducted by experimental psychologists. D) The ducklings were compared with other animals."
+        },
+        {
+          "label": "定位",
+          "text": "By studying imprinting, the authors of this study have shown for the first time that an animal can learn relationships between concepts without training, said Jeffrey Katz, an experimental psychologist at Auburn University who was not involved in the study. Auburn 大学的实验心理学家 Jeffrey Katz（未参与本研究）表示，通过研究印随现象，本 研究作者首次证明动物可以在 \"无需训练\" 的情况下学会概念之间的关系。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 an animal can learn relationships between concepts without training ↔ The animals used received no training untrained newborn ducklings ↔The animals used received no training 预判 \"未受训练即首次\"，The animals used received no training 与之严丝合缝；A 是 without training 与 untrained 的标准动宾化改写。 B) 答非所问 原文 two objects ... in shape or color 提到使用了不同颜色和形状，但这只是实验材料 的描述，不是 \"新颖之处\"——只是惯常做法；选项 It used a number of colors and shapes 把背景信息冒充为新颖之处。 C) 答非所问 experimental psychologist 与 experimental psychologist 只是介绍研究人员身份， 从未将 \"实验心理学家\" 当作本研究的新颖之处；选项 It was conducted by experimental psychologists 把背景信息错认为答案。 D) 与原文相反 原文 Previous studies have suggested that other animals ... can discern same from different 是用来反衬本研究新颖性的，而不是说本实验 \"把小鸭与其他动物作了比 较\"；选项 The ducklings were compared with other animals 误把语段功能当成实验 设计。 从文章结尾Wasserman博士对动物思维研究的评论中我们了解到什么? A) 研究正变得越来越复杂。 B) 研究方法正在更新。 C) 研究正吸引更多公众关注。 D) 研究正取得显著进展。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The animals used received no training."
+        },
+        {
+          "label": "B",
+          "text": "It used a number of colors and shapes."
+        },
+        {
+          "label": "C",
+          "text": "It was conducted by experimental psychologists."
+        },
+        {
+          "label": "D",
+          "text": "The ducklings were compared with other animals."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn from Dr. Wasserman's comment on the study of animal minds at the end of the passage?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn from Dr. Wasserman's comment...? 限定具体人和具体位置，问其评 论传达的客观信息，仍是细节题，不是推断题。 50. What do we learn from Dr. Wasserman's comment on the study of animal minds at the end of the passage? A) It is getting more and more intricate. B) Research methods are being updated. C) It is attracting more public attention. D) Remarkable progress is being made."
+        },
+        {
+          "label": "拆句",
+          "text": "主干 What do we learn from Dr. Wasserman's comment；on the study of animal minds 是介词短语限定 comment 的内容范围；at the end of the passage 是位置状语限 定 comment 的物理位置。注意 comment on 是固定搭配，意为 \"对……的评论\"。"
+        },
+        {
+          "label": "定位",
+          "text": "We are in a revolutionary phase in terms of our ability to understand the minds of other animals. 在理解其他动物心智的能力方面，我们正处于一个 \"革命性的阶段\"。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 原文 far more of the intricacies in their world 说的是 \"动物世界的复杂性\"，不是 \"研 究本身越来越复杂\"；选项 It is getting more and more intricate 把 intricacies 这一原 词扎根，但用错了对象。 B) 无中生有 Wasserman 谈的是认知层面的革命，不是方法层面的革新；原文未提 research methods are being updated。 C) 无中生有 Wasserman 谈的是学界对动物心智认知的进展，没有提及 \"公众关注\" 这一话题；选项 It is attracting more public attention 完全偏离。 D) ✓ 正确 revolutionary phase in terms of our ability to understand the minds of other animals ↔ Remarkable progress is being made animals process and appreciate far more of the intricacies in their world than we've ever understood ↔Remarkable progress is being made 预判 \"动物心智研究取得突破\"，Remarkable progress is being made 把 revolutionary phase 这一比喻翻译为 \"显著进展\"，是定位句的标准还原。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is getting more and more intricate."
+        },
+        {
+          "label": "B",
+          "text": "Research methods are being updated."
+        },
+        {
+          "label": "C",
+          "text": "It is attracting more public attention."
+        },
+        {
+          "label": "D",
+          "text": "Remarkable progress is being made."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What has been a standard piece of dietary advice for decades?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What has been a standard piece of dietary advice for decades? 直接发问\"几十年 来标准建议是什么\"，要的是文本陈述的客观事实。"
+        },
+        {
+          "label": "拆句",
+          "text": "What has been a standard piece of dietary advice for decades? 是 What 引导的特殊 疑问句，谓语用现在完成时 has been，强调\"从过去几十年延续至今的状态\"，与 for decades 时间状语呼应；无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "The suggestion that people should aim for dietary diversity by trying to eat a variety of foods has been a basic public health recommendation for decades in the United States and elsewhere. 几十年来，在美国及其他地方，建议人们通过尝试多种食物来追求饮食多样化，一直是一条 基本的公共健康建议。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 cultivate a healthy eating habit 是合理的常识建议，但原文标准建议特指\"多样化\"而 非泛泛的\"健康习惯\"——属于范围模糊的偷换。 B) 偷换概念 well-balanced diet 在中文里和\"多样化\"语感相近，但原文用的是 dietary diversity， 强调\"种类多\"而非\"营养均衡\"，两者不等值。 C) ✓ 正确 aim for dietary diversity by trying to eat a variety of foods ↔diversify what they eat 预判要的是\"使饮食多样化\"，C 项 diversify what they eat 就是这层意思的标准同义改 写，锁定 C。 D) 张冠李戴 limit calorie intake to avoid obesity 是文章后文 obesity 话题的延伸，但题干问的 是\"几十年来的标准建议\"，原文标准建议是 diversity 而非\"限制热量\"。 美国心脏协会的新研究发现了什么? A) 追求饮食多样性的人往往吃得更多。 B) 食量大的人更容易超重。 C) 饮食多样性与良好健康呈正相关。 D) 不健康的食物使人更容易增重。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "People should cultivate a healthy eating habit."
+        },
+        {
+          "label": "B",
+          "text": "People should have a well-balanced diet."
+        },
+        {
+          "label": "C",
+          "text": "People should diversify what they eat."
+        },
+        {
+          "label": "D",
+          "text": "People should limit calorie intake to avoid obesity."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did the new research by the American Heart Association find?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What did the new research by the American Heart Association find? 问\"研究发 现了什么\"，找的是研究结论的客观陈述。 52. What did the new research by the American Heart Association find? A) People seeking dietary diversity tend to eat more. B) Big eaters are more likely to become overweight. C) Dietary diversity is positively related to good health. D) Unhealthy food makes people gain weight more easily."
+        },
+        {
+          "label": "拆句",
+          "text": "What did the new research by the American Heart Association find? 是 What 引导的 一般疑问倒装，主干是 the new research found what，by 短语作后置定语；结构平铺直 叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Researchers reviewed all the evidence published related to dietary diversity and saw a correlation between dietary diversity and a greater intake of both healthy and unhealthy foods. This had implications for obesity, as researchers found a greater prevalence of obesity amongst people with a greater dietary diversity. 研究者回顾了所有已发表的与饮食多样化相关的证据，发现饮食多样化与摄入更多健康和不 健康食物之间存在相关性。这对肥胖问题有重要含义，因为研究者发现，饮食多样化程度更 高的人群中肥胖患病率也更高。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 a correlation between dietary diversity and a greater intake of both healthy and unhealthy foods ↔People seeking dietary diversity tend to eat more 预判是\"多样化与吃得更多相关\"，A 项 People seeking dietary diversity tend to eat more 即此意，且与原文 correlation 关系无矛盾，锁定 A。 B) 偷换概念 Big eaters are more likely to become overweight 的主语是\"吃得多的人\"，而原文论 述对象是\"追求多样化的人\"；\"吃得多 变胖\"是常识，但不是本研究发现的关系。 C) 与原文相反 原文说多样化与\"更多肥胖患病率\"相关，是负面相关；positively related to good health 却说与\"健康\"正相关——意思完全相反。 D) 无中生有 Unhealthy food makes people gain weight more easily 是常识，但原文研究发现的 是\"多样化与吃得更多/肥胖率高\"相关，并非\"不健康食物本身致胖\"。 什么可以帮助解释新发现与常见公共卫生建议之间的矛盾? A) 世界各地的大多数饮食指南相互矛盾。 B) 关于饮食的传统观念很少得到科学支持。 C) 研究人员测量营养的方法差异很大。 D) 对饮食多样性的定义几乎没有共识。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "People seeking dietary diversity tend to eat more."
+        },
+        {
+          "label": "B",
+          "text": "Big eaters are more likely to become overweight."
+        },
+        {
+          "label": "C",
+          "text": "Dietary diversity is positively related to good health."
+        },
+        {
+          "label": "D",
+          "text": "Unhealthy food makes people gain weight more easily."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What could help to explain the contradiction between the new findings and the common public health recommendation?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What could help to explain the contradiction 要求找原文给出的解释，答案是文本 中明示的原因陈述。 53. What could help to explain the contradiction between the new findings and the common public health recommendation? A) Most dietary guidelines around the world contradict one another. B) Conventional wisdom about diet is seldom supported by science. C) The methods researchers use to measure nutrition vary greatly. D) There is little consensus on the definition of dietary diversity."
+        },
+        {
+          "label": "拆句",
+          "text": "What could help to explain the contradiction between the new findings and the common public health recommendation? 主干是 What could help to explain the contradiction，between A and B 双介短语作 contradiction 的后置定语；结构略长但平 铺直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "But this advice does not seem to be supported by science, possibly because there is little agreement about the meaning of \"dietary diversity,\" which is not clearly and consistently defined. 但这一建议似乎并未得到科学的支持，可能是因为对于\"饮食多样化\"的含义，学界几乎没有 共识——它本身就没有清晰一致的定义。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 Most dietary guidelines around the world contradict one another 把\"指南间彼此 矛盾\"安给原文，原文实际说的是\"新研究与指南矛盾\"，而不是\"指南之间矛盾\"。 B) 过度推断 Conventional wisdom about diet is seldom supported by science 把原文\"这条建议 似乎未被科学支持\"扩大为\"所有饮食常识都很少被科学支持\"，从个例跳到普遍规律。 C) 偷换概念 The methods researchers use to measure nutrition vary greatly 把\"测量饮食多样 化的方法不同\"偷换为\"测量营养的方法不同\"——nutrition ≠ dietary diversity，主体 偏离。 D) ✓ 正确 there is little agreement about the meaning of \"dietary diversity\" ↔ There is little consensus on the definition of dietary diversity. 预判\"定义没共识\"，D 项 little consensus on the definition of dietary diversity 是其 标准同义改写，锁定 D。 Rao博士在20年的肥胖研究后发现了什么? A) 饮食多样性促进健康体重。 B) 饮食模式与体重增加密切相关。 C) 多样化的食物摄入可能无助于健康。 D) 最佳饮食模式没有明确定义。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Most dietary guidelines around the world contradict one another."
+        },
+        {
+          "label": "B",
+          "text": "Conventional wisdom about diet is seldom supported by science."
+        },
+        {
+          "label": "C",
+          "text": "The methods researchers use to measure nutrition vary greatly."
+        },
+        {
+          "label": "D",
+          "text": "There is little consensus on the definition of dietary diversity."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did Dr. Rao find after 20 years of research on obesity?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What did Dr. Rao find after 20 years of research on obesity? 锁定具体人物的具体 发现，是典型的人物观点细节题。 54. What did Dr. Rao find after 20 years of research on obesity? A) Dietary diversity promotes healthy body weight. B) Eating patterns and weight gain go hand in hand. C) Diversified food intake may not contribute to health. D) There is no clear definition of optimal eating patterns."
+        },
+        {
+          "label": "拆句",
+          "text": "What did Dr. Rao find after 20 years of research on obesity? What 引导一般疑问倒 装，after 短语作时间状语；结构平铺直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Dr. Rao, one of the study authors, noted that, after 20 years of experience in the field of obesity, he has observed that people who have a regimented lifestyle and diet tend to be thinner and healthier than people with a wide variety of consumption. 研究作者之一 Rao 博士指出，凭借 20 年肥胖研究领域的经验，他观察到饮食和生活方式有 规律的人，往往比饮食种类繁多的人更瘦、也更健康。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 Dietary diversity promotes healthy body weight 说\"多样化促进健康体重\"，与原文 Rao 的观察（多样化的人不如规律饮食的人瘦）方向完全相反。 B) 答非所问 Eating patterns and weight gain go hand in hand 谈\"饮食模式与体重增加同步\"，与 原文 Rao 的观察焦点（多样化 vs 规律化的比较）不对位，且 Rao 句中并未直接给出这 一结论。 C) ✓ 正确 people who have a regimented lifestyle and diet tend to be thinner and healthier than people with a wide variety of consumption ↔Diversified food intake may not contribute to health. 预判是\"多样化未必有利于健康/体重\"，C 项 Diversified food intake may not contribute to health 用否定形式表达同义，锁定 C。 D) 张冠李戴 no clear definition of optimal eating patterns 把 53 题里\"dietary diversity 没有清 晰定义\"换成\"optimal eating patterns 没有清晰定义\"，并把这个内容安到 Rao 的发现 头上——既偷换概念又移花接木。 文章对吃各种各样食物的人有什么说法? A) 他们往往摄入更多甜食、糖和红肉。 B) 他们直到吃过量才觉得吃够了。 C) 他们在获取充足营养方面没有任何问题。 D) 他们更有可能吃对健康有益的食物。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dietary diversity promotes healthy body weight."
+        },
+        {
+          "label": "B",
+          "text": "Eating patterns and weight gain go hand in hand."
+        },
+        {
+          "label": "C",
+          "text": "Diversified food intake may not contribute to health."
+        },
+        {
+          "label": "D",
+          "text": "There is no clear definition of optimal eating patterns."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the passage say about people who eat a great variety of food?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "题干 What does the passage say about people who eat a great variety of food? 要求 找原文对该群体的直接陈述。 55. What does the passage say about people who eat a great variety of food? A) They tend to consume more sweets, sugar and red meat. B) They don't feel they have had enough until they overeat. C) They don't have any problems getting sufficient nutrition. D) They are more likely to eat foods beneficial to their health."
+        },
+        {
+          "label": "拆句",
+          "text": "What does the passage say about people who eat a great variety of food? What 引 导特殊疑问句，about 介短语后接 people who... 限定性定语从句修饰 people；结构平铺 直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Further, there is some evidence that a greater variety of food options in a single meal may delay people's feeling of fullness and actually increase how much they eat. 此外，还有一些证据表明，一餐中食物种类越多，可能会推迟人们的饱腹感，反而让他们吃 得更多。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 张冠李戴 tend to consume more sweets, sugar and red meat 出自末段研究者建议的\"少吃这 些\"，并不是\"饮食多样的人实际吃得更多\"的内容——把第四段研究者的建议张冠到第三 段对群体的描述上。 B) ✓ 正确 may delay people's feeling of fullness and actually increase how much they eat ↔ They don't feel they have had enough until they overeat. 预判是\"饱腹感推迟、吃过头\"，B 项 don't feel they have had enough until they overeat 是这一因果链的同义改写，锁定 B。 C) 无中生有 don't have any problems getting sufficient nutrition 谈\"获取营养无障碍\"，原文从 未涉及\"营养是否充足\"这个话题——属凭空捏造。 D) 与原文相反 more likely to eat foods beneficial to their health 说\"更可能吃有益健康食物\"，与原 文 Rao 的观察（多样化者更胖更不健康）方向相反。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2023-03-1.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They tend to consume more sweets, sugar and red meat."
+        },
+        {
+          "label": "B",
+          "text": "They don't feel they have had enough until they overeat."
+        },
+        {
+          "label": "C",
+          "text": "They don't have any problems getting sufficient nutrition."
+        },
+        {
+          "label": "D",
+          "text": "They are more likely to eat foods beneficial to their health."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "Unthinkable as it may be, humanity, every last person, could someday be wiped from the face of the Earth. We have learned to worry about asteroids(小行星) and super volcanoes, but the more likely (26)______  , according to Nick Bostrom, a professor of philosophy at Oxford, is that we humans will destroy ourselves. Professor Bostrom, who directs Oxford's Future of Humanity Institute, has argued over the course of several papers that human risks are poorly understood and, worse still, underestimated by society. Some of these existential risks are fairly well known, especially the natural ones. But others are (29)______  or even exotic. Most worrying to Bostrom is the subset of existential risks that (30)______  from human technology, a subset that he expects to grow in number and potency over the next century. Despite his concerns about the risks (31)______  to humans by technological progress, Bostrom is no luddite(科技进步反对者). In fact, he is a longtime (32)______  of trans-humanism—the effort to improve the human condition, and even human nature itself, through technological means. In the long run he sees technology as a bridge, a bridge we humans must cross with great care, in order to reach new and better modes of being. In his work, Bostrom uses the tools of philosophy and mathematics, in (33)______  , 26 27 28 29 30 31 32 33 probability theory, to try and determine how we as a might achieve this safe passage. What follows is my conversation with Bostrom about some of the most interesting and worrying existential risks that humanity might (35)______  in the decades and centuries to come, and about what we can do to make sure we outlast them. A) advocate B) arise C) emphasized D) encounter E) essential F) evaporation G) extinction H) obscure I) particular J) posed K) scenario L) severely M) shrewdly N) species O) variety",
+      "blocks": [
+        {
+          "text": "Unthinkable as it may be, humanity, every last person, could someday be wiped from the face of the Earth. We have learned to worry about asteroids(小行星) and super volcanoes, but the more likely (26)______  , according to Nick Bostrom, a professor of philosophy at Oxford, is that we humans will destroy ourselves. Professor Bostrom, who directs Oxford's Future of Humanity Institute, has argued over the course of several papers that human risks are poorly understood and, worse still, underestimated by society. Some of these existential risks are fairly well known, especially the natural ones. But others are (29)______  or even exotic. Most worrying to Bostrom is the subset of existential risks that (30)______  from human technology, a subset that he expects to grow in number and potency over the next century. Despite his concerns about the risks (31)______  to humans by technological progress, Bostrom is no luddite(科技进步反对者). In fact, he is a longtime (32)______  of trans-humanism—the effort to improve the human condition, and even human nature itself, through technological means. In the long run he sees technology as a bridge, a bridge we humans must cross with great care, in order to reach new and better modes of being. In his work, Bostrom uses the tools of philosophy and mathematics, in (33)______  , 26 27 28 29 30 31 32 33 probability theory, to try and determine how we as a might achieve this safe passage. What follows is my conversation with Bostrom about some of the most interesting and worrying existential risks that humanity might (35)______  in the decades and centuries to come, and about what we can do to make sure we outlast them. A) advocate B) arise C) emphasized D) encounter E) essential F) evaporation G) extinction H) obscure I) particular J) posed K) scenario L) severely M) shrewdly N) species O) variety"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) The fog still chills the morning air and the cable cars still climb halfway to the stars. Yet on the ground, the Bay area has changed greatly since singer Tony Bennett left his heart here. Silicon Valley and the tech industry have led the region into a period of unprecedented wealth and innovation. But existing political and land limits have caused an alarming housing crisis and astronomical rise in social and economic difference.\nB) While the residents of most cities display pride and support for their home industries, drastic market distortions in the San Francisco Bay Area have created boiling resentment in the region towards the tech industry. A vocal minority is even calling on officials to punish those who are benefitting from the economic and housing boom. If this boom and its consequences are not resolved, a drastic increase in social and economic difference may have a profound impact on the region for generations. A history and analysis of this transformation may hold invaluable insights about the opportunities. Perils of tech cities are currently being cultivated across the US, and indeed around the world.\nC) According to a recent study, San Francisco ranks first in California for economic difference. The average income of the top 1% of households in the city averages $3.6 million. This is 44 times the average income of those at the bottom, which stands at $81,094. The top 1% of the San Francisco peninsula's share of total income now extends to 30.8% of the region's income. This was a dramatic jump from 1989, where it stood at 15.8%.\nD) The region's economy has been fundamentally transformed by the technology industry springing from Silicon Valley. Policies pushed by Mayor Ed Lee provided tax breaks for tech companies to set up shop along the city's long-neglected Mid-Market area. The city is now home to Twitter, Uber, Airbnb, Pinterest, Dropbox and others. In short, the Bay Area has become a global magnet for those with specialized skills, which has in turn helped fuel economic enthusiasm, and this economic growth has reduced unemployment to 3.4%, an admirable feat.\nE) In spite of all that, the strength of the recent job growth, combined with policies that have traditionally limited housing development in the city and throughout the peninsula, did not help ease the affordability crisis. In 2015 alone, the Bay Area added 64,000 in jobs. In the same year, only 5,000 new homes were built.\nF) With the average house in the city costing over $1.25 million and average flat prices over $1.11 million, the minimum qualifying income to purchase a house has increased to $254,000. Considering that the average household income in the city currently stands at around $80,000, it is not an exaggeration to say that the dream of home ownership is now beyond the grasp of the vast majority of today's people who rent.\nG) For generations, the stability and prosperity of the American middle class have been anchored by home ownership. Studies have consistently shown that the value of land has overtaken overall income growth, thus providing a huge advantage to property owners as a vehicle of wealth building. When home prices soar above the reach of most households, the gap between the rich and the poor dramatically increases.\nH) If contributing factors leading to housing becoming less than affordable are not resolved over multiple generations, a small elite will control a vast share of the country's total wealth. The result? A society where the threat of class warfare would loom large. A society's level of happiness is tied less to measures of quantitative wealth and more to measures of qualitative wealth. This means that how a person judges their security in comparison to their neighbors' has more of an impact on their happiness than their objective standard of living. At the same time, when a system no longer provides opportunities for the majority to participate in wealth building, it not only robs those who are excluded from opportunities, but also deprives them of their dignity.\nI) San Francisco and the Bay Area have long been committed to values which embrace inclusion and rejection of mainstream culture. To see these values coming apart so publicly adds insult to injury for a region once defined by its progressive social fabric. In the face of resentment, it is human to want revenge. But deteriorating policies such as heavily taxing technology companies or real estate developers are not likely to shift the balance.\nJ) The housing crisis is caused by two primary factors: the growing desirability of the Bay Area as a place to live due to its excellent economy, and our limited housing stock. Although the city is experiencing an unprecedented boom in new housing, more units are sorely needed. Protection policies were originally designed to suppress bad development and boost historic preservation in our urban areas. Now, too many developers are experiencing excessive delays. Meanwhile, there are the land limitations of the Bay Area to consider. The region is surrounded by water and mountains. Local governments need to aid development as well. This means increasing housing density throughout the region and building upwards while streamlining the approval process.\nK) Real estate alone will not solve the problem, of course. Transportation, too, needs to be updated and infrastructure extended to link distant regions to Silicon Valley and the city. We need to build an effective high-speed commuting system linking the high-priced and crowded Bay Area with the low- priced and low-density Central Valley. This would dramatically reduce travel times. And based on the operating speeds of hovering trains used in countries such as Japan or Spain, high-speed rail could shorten the time to travel between San Francisco and California's capital, Sacramento, or from Stockton to San Jose, to under 30 minutes. This system would bring once distant regions within reasonable commute to heavy job centers. The city also needs to update existing transportation routes combined with smart home-building policies that dramatically increase housing density in areas surrounding high-speed rail stations. By doing so, we will be able to build affordable housing within acceptable commuting distances for a significant bulk of the workforce.\nL) Our threatening housing crisis forces the difficult question of what type of society we would like to be. Will it be one where the elite command the vast bulk of wealth and regional culture is defined by an aggressive business world? We were recently treated to a taste of the latter, when local tech employee Justin Keller wrote an open letter to the city complaining about having to see homeless people on his way to work.\nM) It doesn't have to be this way. But solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern. It may take less than you might think. And in fact, the solutions to our housing crisis are already fairly clear. We need to increase the density of housing units. We need to use existing technology to shorten travel times and break the land limits. There is a way to solve complex social and economic problems without abandoning social responsibility. This is the Bay Area's opportunity to prove that it can innovate more than just technology. 36. The higher rate of employment, combined with limited housing supply, did not make it any easier to buy a house.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "The fog still chills the morning air and the cable cars still climb halfway to the stars. Yet on the ground, the Bay area has changed greatly since singer Tony Bennett left his heart here. Silicon Valley and the tech industry have led the region into a period of unprecedented wealth and innovation. But existing political and land limits have caused an alarming housing crisis and astronomical rise in social and economic difference."
+        },
+        {
+          "label": "B",
+          "text": "While the residents of most cities display pride and support for their home industries, drastic market distortions in the San Francisco Bay Area have created boiling resentment in the region towards the tech industry. A vocal minority is even calling on officials to punish those who are benefitting from the economic and housing boom. If this boom and its consequences are not resolved, a drastic increase in social and economic difference may have a profound impact on the region for generations. A history and analysis of this transformation may hold invaluable insights about the opportunities. Perils of tech cities are currently being cultivated across the US, and indeed around the world."
+        },
+        {
+          "label": "C",
+          "text": "According to a recent study, San Francisco ranks first in California for economic difference. The average income of the top 1% of households in the city averages $3.6 million. This is 44 times the average income of those at the bottom, which stands at $81,094. The top 1% of the San Francisco peninsula's share of total income now extends to 30.8% of the region's income. This was a dramatic jump from 1989, where it stood at 15.8%."
+        },
+        {
+          "label": "D",
+          "text": "The region's economy has been fundamentally transformed by the technology industry springing from Silicon Valley. Policies pushed by Mayor Ed Lee provided tax breaks for tech companies to set up shop along the city's long-neglected Mid-Market area. The city is now home to Twitter, Uber, Airbnb, Pinterest, Dropbox and others. In short, the Bay Area has become a global magnet for those with specialized skills, which has in turn helped fuel economic enthusiasm, and this economic growth has reduced unemployment to 3.4%, an admirable feat."
+        },
+        {
+          "label": "E",
+          "text": "In spite of all that, the strength of the recent job growth, combined with policies that have traditionally limited housing development in the city and throughout the peninsula, did not help ease the affordability crisis. In 2015 alone, the Bay Area added 64,000 in jobs. In the same year, only 5,000 new homes were built."
+        },
+        {
+          "label": "F",
+          "text": "With the average house in the city costing over $1.25 million and average flat prices over $1.11 million, the minimum qualifying income to purchase a house has increased to $254,000. Considering that the average household income in the city currently stands at around $80,000, it is not an exaggeration to say that the dream of home ownership is now beyond the grasp of the vast majority of today's people who rent."
+        },
+        {
+          "label": "G",
+          "text": "For generations, the stability and prosperity of the American middle class have been anchored by home ownership. Studies have consistently shown that the value of land has overtaken overall income growth, thus providing a huge advantage to property owners as a vehicle of wealth building. When home prices soar above the reach of most households, the gap between the rich and the poor dramatically increases."
+        },
+        {
+          "label": "H",
+          "text": "If contributing factors leading to housing becoming less than affordable are not resolved over multiple generations, a small elite will control a vast share of the country's total wealth. The result? A society where the threat of class warfare would loom large. A society's level of happiness is tied less to measures of quantitative wealth and more to measures of qualitative wealth. This means that how a person judges their security in comparison to their neighbors' has more of an impact on their happiness than their objective standard of living. At the same time, when a system no longer provides opportunities for the majority to participate in wealth building, it not only robs those who are excluded from opportunities, but also deprives them of their dignity."
+        },
+        {
+          "label": "I",
+          "text": "San Francisco and the Bay Area have long been committed to values which embrace inclusion and rejection of mainstream culture. To see these values coming apart so publicly adds insult to injury for a region once defined by its progressive social fabric. In the face of resentment, it is human to want revenge. But deteriorating policies such as heavily taxing technology companies or real estate developers are not likely to shift the balance."
+        },
+        {
+          "label": "J",
+          "text": "The housing crisis is caused by two primary factors: the growing desirability of the Bay Area as a place to live due to its excellent economy, and our limited housing stock. Although the city is experiencing an unprecedented boom in new housing, more units are sorely needed. Protection policies were originally designed to suppress bad development and boost historic preservation in our urban areas. Now, too many developers are experiencing excessive delays. Meanwhile, there are the land limitations of the Bay Area to consider. The region is surrounded by water and mountains. Local governments need to aid development as well. This means increasing housing density throughout the region and building upwards while streamlining the approval process."
+        },
+        {
+          "label": "K",
+          "text": "Real estate alone will not solve the problem, of course. Transportation, too, needs to be updated and infrastructure extended to link distant regions to Silicon Valley and the city. We need to build an effective high-speed commuting system linking the high-priced and crowded Bay Area with the low- priced and low-density Central Valley. This would dramatically reduce travel times. And based on the operating speeds of hovering trains used in countries such as Japan or Spain, high-speed rail could shorten the time to travel between San Francisco and California's capital, Sacramento, or from Stockton to San Jose, to under 30 minutes. This system would bring once distant regions within reasonable commute to heavy job centers. The city also needs to update existing transportation routes combined with smart home-building policies that dramatically increase housing density in areas surrounding high-speed rail stations. By doing so, we will be able to build affordable housing within acceptable commuting distances for a significant bulk of the workforce."
+        },
+        {
+          "label": "L",
+          "text": "Our threatening housing crisis forces the difficult question of what type of society we would like to be. Will it be one where the elite command the vast bulk of wealth and regional culture is defined by an aggressive business world? We were recently treated to a taste of the latter, when local tech employee Justin Keller wrote an open letter to the city complaining about having to see homeless people on his way to work."
+        },
+        {
+          "label": "M",
+          "text": "It doesn't have to be this way. But solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern. It may take less than you might think. And in fact, the solutions to our housing crisis are already fairly clear. We need to increase the density of housing units. We need to use existing technology to shorten travel times and break the land limits. There is a way to solve complex social and economic problems without abandoning social responsibility. This is the Bay Area's opportunity to prove that it can innovate more than just technology. 36. The higher rate of employment, combined with limited housing supply, did not make it any easier to buy a house."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 The ability to make inferences from same and different, once thought to be unique to humans, is viewed as a cornerstone of abstract intelligent thought. A new study, however, has shown that what psychologists call same-different discrimination is present in creatures generally seen as unintelligent: newborn ducklings(小鸭).\n\nP2 The study, published Thursday in Science, challenges our idea of what it means to have a birdbrain, said Edward Wasserman, an experimental psychologist at the University of Iowa who wrote an independent review of the study.\n\nP3 \"In fact, birds are extremely intelligent and our problem pretty much lies in figuring out how to get them to 'talk' to us, or tell us how smart they really are,\" he said.\n\nP4 Antone Martinho and Alex Kacelnik, co-authors of the new paper, devised a clever experiment Questions 46 to 50 are based on the following passage. to better test bird intelligence.\n\nP5 First, they took 1-day-old ducklings and exposed them to a pair of moving objects. The two objects were either the same or different in shape or color. Then they exposed each duckling to two entirely new pairs of moving objects.\n\nP6 The researchers found that about 70% of the ducklings preferred to move toward the pair of objects that had the same shape or color relationship as the first objects they saw. A duckling that was first shown two green spheres, in other words, was more likely to move toward a pair of blue spheres than a mismatched pair of orange and purple spheres.\n\nP7 Ducklings go through a rapid learning process called imprinting shortly after birth—it's what allows them to identify and follow their mothers.\n\nP8 These findings suggest that ducklings use abstract relationships between sensory inputs like color, shape, sounds and odor to recognize their mothers, said Dr. Kacelnik.\n\nP9 By studying imprinting, the authors of this study have shown for the first time that an animal can learn relationships between concepts without training, said Jeffrey Katz, an experimental psychologist at Auburn University who was not involved in the study.\n\nP10 Previous studies have suggested that other animals, including pigeons, dolphins, honeybees and some primates(灵长类动物), can discern same from different, but only after extensive training.\n\nP11 Adding ducklings to the list—particularly untrained newborn ducklings—suggests that the ability to compare abstract concepts \"is far more necessary to a wider variety of animals' survival than we previously thought,\" Dr. Martinho said. He believes the ability is so crucial because it helps animals consider context when identifying objects in their environment.\n\nP12 It's clear from this study and others like it that \"animals process and appreciate far more of the intricacies in their world than we've ever understood,\" Dr. Wasserman said. \"We are in a revolutionary phase in terms of our ability to understand the minds of other animals.\"",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "The ability to make inferences from same and different, once thought to be unique to humans, is viewed as a cornerstone of abstract intelligent thought. A new study, however, has shown that what psychologists call same-different discrimination is present in creatures generally seen as unintelligent: newborn ducklings(小鸭)."
+        },
+        {
+          "label": "P2",
+          "text": "The study, published Thursday in Science, challenges our idea of what it means to have a birdbrain, said Edward Wasserman, an experimental psychologist at the University of Iowa who wrote an independent review of the study."
+        },
+        {
+          "label": "P3",
+          "text": "\"In fact, birds are extremely intelligent and our problem pretty much lies in figuring out how to get them to 'talk' to us, or tell us how smart they really are,\" he said."
+        },
+        {
+          "label": "P4",
+          "text": "Antone Martinho and Alex Kacelnik, co-authors of the new paper, devised a clever experiment Questions 46 to 50 are based on the following passage. to better test bird intelligence."
+        },
+        {
+          "label": "P5",
+          "text": "First, they took 1-day-old ducklings and exposed them to a pair of moving objects. The two objects were either the same or different in shape or color. Then they exposed each duckling to two entirely new pairs of moving objects."
+        },
+        {
+          "label": "P6",
+          "text": "The researchers found that about 70% of the ducklings preferred to move toward the pair of objects that had the same shape or color relationship as the first objects they saw. A duckling that was first shown two green spheres, in other words, was more likely to move toward a pair of blue spheres than a mismatched pair of orange and purple spheres."
+        },
+        {
+          "label": "P7",
+          "text": "Ducklings go through a rapid learning process called imprinting shortly after birth—it's what allows them to identify and follow their mothers."
+        },
+        {
+          "label": "P8",
+          "text": "These findings suggest that ducklings use abstract relationships between sensory inputs like color, shape, sounds and odor to recognize their mothers, said Dr. Kacelnik."
+        },
+        {
+          "label": "P9",
+          "text": "By studying imprinting, the authors of this study have shown for the first time that an animal can learn relationships between concepts without training, said Jeffrey Katz, an experimental psychologist at Auburn University who was not involved in the study."
+        },
+        {
+          "label": "P10",
+          "text": "Previous studies have suggested that other animals, including pigeons, dolphins, honeybees and some primates(灵长类动物), can discern same from different, but only after extensive training."
+        },
+        {
+          "label": "P11",
+          "text": "Adding ducklings to the list—particularly untrained newborn ducklings—suggests that the ability to compare abstract concepts \"is far more necessary to a wider variety of animals' survival than we previously thought,\" Dr. Martinho said. He believes the ability is so crucial because it helps animals consider context when identifying objects in their environment."
+        },
+        {
+          "label": "P12",
+          "text": "It's clear from this study and others like it that \"animals process and appreciate far more of the intricacies in their world than we've ever understood,\" Dr. Wasserman said. \"We are in a revolutionary phase in terms of our ability to understand the minds of other animals.\""
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 The suggestion that people should aim for dietary diversity by trying to eat a variety of foods has been a basic public health recommendation for decades in the United States and elsewhere. Now, however, experts are warning that aiming for a diverse diet may actually lead to just eating more calories, and, thus, to obesity. One issue is that people may not interpret \"variety\" the way nutritionists intend. This problem is highlighted by new research conducted by the American Heart Association. Researchers reviewed all the evidence published related to dietary diversity and saw a correlation between dietary diversity and a greater intake of both healthy and unhealthy foods. This had implications for obesity, as researchers found a greater prevalence of obesity amongst people with a greater dietary diversity.\n\nP2 One author of the new study explained that their findings contradict standard dietary advice, as most dietary guidelines around the world include a statement of eating a variety of foods. But this advice does not seem to be supported by science, possibly because there is little agreement about the meaning of \"dietary diversity,\" which is not clearly and consistently defined. Some experts measure dietary diversity by counting the number of food groups eaten, while others look at the distribution of Questions 51 to 55 are based on the following passage. calories across individual foods, and still others measure how different the foods eaten are from each other.\n\nP3 Although the findings of this new study contradict standard dietary advice, they do not come as a surprise to all of the researchers involved. Dr. Rao, one of the study authors, noted that, after 20 years of experience in the field of obesity, he has observed that people who have a regimented lifestyle and diet tend to be thinner and healthier than people with a wide variety of consumption. This anecdotal evidence matches the conclusions of the study, which found no evidence that dietary diversity promotes healthy body weight or optimal eating patterns, and limited evidence that eating a variety of foods is actually associated with consuming more calories, poor eating patterns and weight gain. Further, there is some evidence that a greater variety of food options in a single meal may delay people's feeling of fullness and actually increase how much they eat.\n\nP4 Based on their findings, the researchers endorse a diet consisting of a limited number of healthy foods such as vegetables, fruits, grains, and poultry. They also recommend that people simultaneously endeavor to restrict consumption of sweets, sugar and red meat. The researchers stress, however, that their dietary recommendations do not imply dietary diversity is never positive, and that, in the past, diversity in diets of whole, unprocessed food may have actually been very beneficial. 51. What has been a standard piece of dietary advice for decades? A) People should cultivate a healthy eating habit. B) People should have a well-balanced diet. C) People should diversify what they eat. D) People should limit calorie intake to avoid obesity.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "The suggestion that people should aim for dietary diversity by trying to eat a variety of foods has been a basic public health recommendation for decades in the United States and elsewhere. Now, however, experts are warning that aiming for a diverse diet may actually lead to just eating more calories, and, thus, to obesity. One issue is that people may not interpret \"variety\" the way nutritionists intend. This problem is highlighted by new research conducted by the American Heart Association. Researchers reviewed all the evidence published related to dietary diversity and saw a correlation between dietary diversity and a greater intake of both healthy and unhealthy foods. This had implications for obesity, as researchers found a greater prevalence of obesity amongst people with a greater dietary diversity."
+        },
+        {
+          "label": "P2",
+          "text": "One author of the new study explained that their findings contradict standard dietary advice, as most dietary guidelines around the world include a statement of eating a variety of foods. But this advice does not seem to be supported by science, possibly because there is little agreement about the meaning of \"dietary diversity,\" which is not clearly and consistently defined. Some experts measure dietary diversity by counting the number of food groups eaten, while others look at the distribution of Questions 51 to 55 are based on the following passage. calories across individual foods, and still others measure how different the foods eaten are from each other."
+        },
+        {
+          "label": "P3",
+          "text": "Although the findings of this new study contradict standard dietary advice, they do not come as a surprise to all of the researchers involved. Dr. Rao, one of the study authors, noted that, after 20 years of experience in the field of obesity, he has observed that people who have a regimented lifestyle and diet tend to be thinner and healthier than people with a wide variety of consumption. This anecdotal evidence matches the conclusions of the study, which found no evidence that dietary diversity promotes healthy body weight or optimal eating patterns, and limited evidence that eating a variety of foods is actually associated with consuming more calories, poor eating patterns and weight gain. Further, there is some evidence that a greater variety of food options in a single meal may delay people's feeling of fullness and actually increase how much they eat."
+        },
+        {
+          "label": "P4",
+          "text": "Based on their findings, the researchers endorse a diet consisting of a limited number of healthy foods such as vegetables, fruits, grains, and poultry. They also recommend that people simultaneously endeavor to restrict consumption of sweets, sugar and red meat. The researchers stress, however, that their dietary recommendations do not imply dietary diversity is never positive, and that, in the past, diversity in diets of whole, unprocessed food may have actually been very beneficial. 51. What has been a standard piece of dietary advice for decades? A) People should cultivate a healthy eating habit. B) People should have a well-balanced diet. C) People should diversify what they eat. D) People should limit calorie intake to avoid obesity."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence “People are now increasingly aware of the danger of ‘appearance anxiety’ or being obsessed with one’s looks.” You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "model": "People are now increasingly aware of the danger of ‘appearance anxiety’ or being obsessed with one’s looks. This uneasiness rarely appears out of nowhere. Bombarded daily by filtered images and narrow aesthetic standards on social media, many young people measure themselves against unreachable models and feel that they never look good enough. The constant comparison quietly drains their confidence and even distracts them from things that truly matter. Yet a healthier attitude is well within our reach. The key is to shift attention from the mirror to inner value — our knowledge, kindness and abilities. I once spent hours worrying about a small scar before a presentation, until a friend reminded me that the audience remembered my ideas, not my face. That moment taught me that self-acceptance, rather than a flawless appearance, is what sets us free. In short, looks are only a thin surface of who we are. Once we learn to value character over appearance, ‘appearance anxiety’ loses its grip, and we can live with genuine confidence.",
+      "modelZh": "【参考译文】如今人们越来越意识到'容貌焦虑'或过度在意自己外表的危害。这种不安很少凭空产生。每天被社交媒体上的滤镜图片和狭隘的审美标准所包围，许多年轻人拿自己与遥不可及的模板相比，觉得自己怎么看都不够好看。这种持续的比较悄悄消耗着他们的自信，甚至让他们分心，忽略了真正重要的事情。然而，一种更健康的心态其实触手可及。关键在于把注意力从镜子转向内在价值——我们的知识、善良与能力。我曾在一次演讲前为一道小疤痕焦虑了好几个小时，直到一位朋友提醒我：观众记住的是我的想法，而不是我的脸。那一刻让我明白，让人自由的是自我接纳，而非完美无瑕的外表。总之，外表只是我们身上薄薄的一层。一旦我们学会看重品格胜过容貌，'容貌焦虑'便失去了它的掌控力，我们也就能带着真正的自信生活。【第 1 段】抄首句并下钻成因。首句逐字照抄给定句，紧接 'This uneasiness rarely appears out of",
+      "outline": [
+        {
+          "no": 1,
+          "text": "抄首句并下钻成因。首句逐字照抄给定句，紧接 'This uneasiness rarely appears out of nowhere.' 承接，再用 'Bombarded daily by filtered images...' 展开成因、'The constant comparison quietly drains...' 点出危害，落实'承接首句下钻'与 make comments。"
+        },
+        {
+          "no": 2,
+          "text": "转折加经历落地。'Yet a healthier attitude...' 完成从问题到对策的转折，'I once spent hours worrying about a small scar...' 用具体经历兑现 use your personal experiences to develop your essay，末句 'self-acceptance, rather than a flawless appearance...' 回扣内在价值，正是'以例证 代空喊'。"
+        },
+        {
+          "no": 3,
+          "text": "比喻收束定立场。'looks are only a thin surface...' 定调，'Once we learn to value character over appearance...' 把看重内在与焦虑消退因果绑定，给出'所以怎样'的落点，落实'回扣中心 收尾'。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 张骞(Zhang Qian)是中国第一个伟大的探险家。他不畏艰险,克服重重困难,两次出使西域,开通了中 国同西亚和欧洲的通商关系,将中国的丝和丝织品运往西亚和欧洲,开拓了历史上著名的\"丝绸之路\"。同 时,他又将西域的风土人情、地理文化以及特有物种等介绍到中原,极大地开阔了人们的视野。 正如历 史学家所指出的那样,如果没有张骞出使西域,就不可能有丝绸之路的开辟,也就不会有汉朝同西域或欧 洲的文化交流。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Zhang Qian was the first great explorer in Chinese history. Braving dangers and overcoming numerous difficulties, he made two journeys to the Western Regions, opened up trade between China, West Asia and Europe, transported Chinese silk and silk fabrics there, and thereby pioneered the famous Silk Road in history. Meanwhile, he introduced the local customs, geography, culture and unique species of the Western Regions to the Central Plains, greatly broadening people's horizons. As historians have pointed out, without Zhang Qian's mission to the Western Regions, there would have been no opening of the Silk Road, nor any cultural exchanges between the Han Dynasty and the Western Regions or Europe.",
+      "source": "张骞(Zhang Qian)是中国第一个伟大的探险家。他不畏艰险,克服重重困难,两次出使西域,开通了中国同西亚和欧洲的通商关系,将中国的丝和丝织品运往西亚和欧洲,开拓了历史上著名的\"丝绸之路\"。同时,他又将西域的风土人情、地理文化以及特有物种等介绍到中原,极大地开阔了人们的视野。 正如历史学家所指出的那样,如果没有张骞出使西域,就不可能有丝绸之路的开辟,也就不会有汉朝同西域或欧洲的文化交流。",
+      "reference": "Zhang Qian was the first great explorer in Chinese history. Braving dangers and overcoming numerous difficulties, he made two journeys to the Western Regions, opened up trade between China, West Asia and Europe, transported Chinese silk and silk fabrics there, and thereby pioneered the famous Silk Road in history. Meanwhile, he introduced the local customs, geography, culture and unique species of the Western Regions to the Central Plains, greatly broadening people's horizons. As historians have pointed out, without Zhang Qian's mission to the Western Regions, there would have been no opening of the Silk Road, nor any cultural exchanges between the Han Dynasty and the Western Regions or Europe.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "Zhang Qian was explorer（主系表）（主语策略：原句主语） 这是\"A是B\"的判断句，主语用原句已有的 张骞(Zhang Qian)，谓语用系动词 was，表语是 the first great explorer。主干即 Zhang Qian was the first great explorer，再把\"中国\"挂上去说明 范围。"
+          },
+          {
+            "label": "降级",
+            "text": "\"中国第一个伟大的\"全作前置定语 本句很短、结构简单，无需降级成从句。\"第一个\"\"伟大的\"是形容词，按英文习惯叠在名词 explorer 前作前置定语：the first great explorer；\"中国（的）\"表范围，可处理成 in China 后 置，或 in Chinese history，挂在 explorer 之后，避免一串修饰全压在名词前显得拥挤。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时，系动词用 was（张骞是古人，不是 is）。 冠词与序数词 序数词 first 前必须加定冠词 the：the first great explorer；漏掉 the 是高频硬伤。 单复数 explorer 此处特指张骞一人，用单数。"
+          },
+          {
+            "label": "译文",
+            "text": "Zhang Qian was the first great explorer in Chinese history. 2. 他不畏艰险,克服重重困难,两次出使西域,开通了中国同西亚和欧洲的通商关系,将中国的丝和 丝织品运往西亚和欧洲,开拓了历史上著名的\"丝绸之路\"。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "He + 一串并列谓语（主语策略：原句主语） 本句一个主语 他（指张骞）贯穿到底，后面跟着\"不畏\"\"克服\"\"出使\"\"开通\"\"运往\"\"开拓\"一连串动 作。骨架定为 He, ..., made two trips / journeys to the Western Regions，把\"两次出使西域\"这 个核心壮举作为主干谓语，其余分句分别降级或并列安放，避免六个动词全用 and 平铺。"
+          },
+          {
+            "label": "降级",
+            "text": "前提降级为分词、成就拆成并列分句 \"不畏艰险，克服重重困难\"是出使的前提条件，降级成现在分词短语 Braving dangers and overcoming numerous difficulties 作状语，置于句首。\"开通了……通商关系\"\"将丝和丝织品运 往……\"\"开拓了丝绸之路\"是出使带来的几项成就，因信息量大，拆成主干之后用分号或 thereby + 分词连接的并列结构：he opened up trade between China and West Asia and Europe, transported Chinese silk and silk fabrics there, and pioneered the famous Silk Road，用一 个 and 串起的并列谓语收束，避免写成六段流水。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：made / opened / transported / pioneered 全用过去式。 单复数 \"丝织品\"是多种、用复数 silk fabrics；\"困难\"重重、用复数 difficulties；\"两次\"出使 made two journeys 用复数 journeys。 介词搭配 \"开通……通商关系\"用 open up trade between A and B；\"运往\"用 transport ... to ... 或承前用 there；\"出使（前往）西域\"用 to。 专名统一 \"西域\"= the Western Regions、\"丝绸之路\"= the Silk Road，回指 glossary、加定冠词大写。"
+          },
+          {
+            "label": "译文",
+            "text": "Braving dangers and overcoming numerous difficulties, he made two journeys to the Western Regions, opened up trade between China, West Asia and Europe, transported Chinese silk and silk fabrics there, and thereby pioneered the famous Silk Road in history. 3. 同时,他又将西域的风土人情、地理文化以及特有物种等介绍到中原,极大地开阔了人们的 视野。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "He introduced ... to the Central Plains（主语策略：原句主语） 主语仍是 他（he），核心动词\"介绍到\"作谓语 introduced，宾语是\"西域的风土人情、地理文化以 及特有物种\"，地点状语\"到中原\"= to the Central Plains。主干即 he introduced the customs, geography, culture and unique species of the Western Regions to the Central Plains。"
+          },
+          {
+            "label": "降级",
+            "text": "\"极大地开阔视野\"降级为结果状语 句首 同时 译为 Meanwhile/At the same time 作连接状语。后半句\"极大地开阔了人们的视 野\"是\"介绍\"带来的结果，不另起一句，降级成现在分词短语 greatly broadening people’s horizons 作结果状语挂在主干后；并列的几个宾语（风土人情、地理文化、特有物种）用 and 连 成名词并列，共一个 of the Western Regions 收尾。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 回指全篇基调用一般过去时：introduced 用过去式。 单复数 \"特有物种\"不止一种、用复数 species（单复同形，但配 unique 取复数义）；\"人们的视野\"用 people’s horizons，horizon 在\"眼界\"义上常用复数。 专名统一 \"西域\"=the Western Regions、\"中原\"=the Central Plains，回指 glossary、加定冠词大写。"
+          },
+          {
+            "label": "译文",
+            "text": "Meanwhile, he introduced the local customs, geography, culture and unique species of the Western Regions to the Central Plains, greatly broadening people's horizons. 4. 正如历史学家所指出的那样,如果没有张骞出使西域,就不可能有丝绸之路的开辟,也就不会有汉 朝同西域或欧洲的文化交流。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "There would have been no ...（虚拟存在句）（主语策略：There be） \"就不可能有……开辟\"\"也就不会有……交流\"都是\"（不会）存在某事物\"，用 There be 句型表存 在最贴切；又因是与过去事实相反的假设（如果没有张骞出使西域），主句用虚拟语气 There would have been no...。前面 正如历史学家所指出的那样 作插入状语 As historians have pointed out。"
+          },
+          {
+            "label": "降级",
+            "text": "条件句 + 两个并列 no 结果 \"如果没有张骞出使西域\"是条件从句，与过去相反，用 Without Zhang Qian’s mission to the Western Regions 介词短语表条件（比 If there had been no... 更简洁），或 Had it not been for...。两个结果分句\"不可能有丝绸之路开辟\"\"不会有文化交流\"是并列，合进一个 There would have been no A, nor B 结构，用 nor 承接第二个否定，避免重复 there would have been no。"
+          },
+          {
+            "label": "语法",
+            "text": "虚拟语气 与过去事实相反，主句用 would have + 过去分词（would have been），不能用一般过去时 was/were；这是本句最易错也最显水平处。 时态（插入语） \"历史学家所指出的\"是延续到现在的评价，用现在完成时 have pointed out，可不必受全篇过去时 基调约束。 专名统一 \"西域\"=the Western Regions、\"丝绸之路\"=the Silk Road、\"汉朝\"=the Han Dynasty，回指 glossary。 单复数 \"历史学家\"泛指一类人、用复数 historians；\"文化交流\"用 cultural exchanges（交流多次、用复 数）。"
+          },
+          {
+            "label": "译文",
+            "text": "As historians have pointed out, without Zhang Qian's mission to the Western Regions, there would have been no opening of the Silk Road, nor any cultural exchanges between the Han Dynasty and the Western Regions or Europe. 英语六级 2023年3月·第1套 · 全卷构成 Part III Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": []
+}

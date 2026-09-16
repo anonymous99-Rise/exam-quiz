@@ -1,0 +1,8 @@
+# pnpm 11 起，设置不再读 package.json 的 "pnpm" 字段，统一放这里。
+#
+# allowBuilds：pnpm 11 默认阻止依赖的构建脚本，需要显式放行。
+#   ⚠ pnpm 自动写入的占位符是字符串 "set this to true or false"，
+#     它会让本 profile 的后续所有安装以 ERR_PNPM_IGNORED_BUILDS 中止 —— 必须换成布尔值。
+#   unrs-resolver 被 eslint-config-next 的 import 解析器使用，需要编译原生绑定。
+allowBuilds:
+  unrs-resolver: true

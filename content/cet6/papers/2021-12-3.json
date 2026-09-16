@@ -1,0 +1,1177 @@
+{
+  "id": "2021-12-3",
+  "examId": "cet6",
+  "year": 2021,
+  "month": 12,
+  "session": "2021下半年",
+  "setNo": 3,
+  "label": "2021年12月",
+  "questions": [
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "According to the author, humans can hardly survive if separated from their community.",
+      "answer": "D",
+      "answerText": "D 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Becoming separated from the tribe—or worse, being cast out—was a death sentence. 和部落分开——或更糟，被驱逐——等于被判了死刑。"
+        },
+        {
+          "label": "改写",
+          "text": "separated from their community ↔ Becoming separated from the tribe—or worse, being cast out community 是 tribe 的上位词 can hardly survive ↔was a death sentence 死刑=不能存活的程度化同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "C C 段只讲到 Humans need a reasonably accurate view of the world in order to survive，谈的是生存与世界观的关系，没有 separated/community/death 这条主 线，只覆盖陈述句一半。 Humans need a reasonably accurate view of the world in order to survive 人们常常接受错误的信念,因为他们优先考虑社会纽带而非事实。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "脱离社群难以生存"
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "People often accept false beliefs because they prioritize social bonds rather than facts.",
+      "answer": "G",
+      "answerText": "G 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "When we have to choose between the two, people often select friends and family over facts. 当我们必须在两者之间选择时，人们往往选择朋友与家人而非事实。"
+        },
+        {
+          "label": "改写",
+          "text": "prioritize social bonds rather than facts ↔people often select friends and family over facts 二选一句式同义改写 accept false beliefs ↔ False beliefs can be useful in a social sense even if they are not useful in a factual sense 采信错误信念在两侧呼应 36. According to the author, humans can hardly survive if separated from their community. 37. People often accept false beliefs because they prioritize social bonds rather than facts."
+        },
+        {
+          "label": "辨邻",
+          "text": "F F 段讲 We don't always believe things because they are correct. Sometimes we believe things because they make us look good，话题与社交动机相邻，但没有 friends and family vs facts 这种二选一表态，与题干 prioritize…rather than… 的句 式锚不上。 Sometimes we believe things because they make us look good to the people we care about E E 段讲 social connection is actually more helpful to your daily life than understanding the truth，侧重日常中社交连接对生活的助益（对应第 41 题），不 是题干强调的 accept false beliefs 这条因果。 social connection is actually more helpful to your daily life than understanding the truth of a particular fact or idea 人们最常从身边亲近的人那里学习。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "优先社交纽带而非事实"
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Most often people learn from those close to them.",
+      "answer": "M",
+      "answerText": "M 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The most heated arguments often occur between people on opposite ends of the spectrum, but the most frequent learning occurs from people who are nearby. 最激烈的争论往往发生在光谱两端的人之间，但最频繁的学习发生在彼此相近的人之间。"
+        },
+        {
+          "label": "改写",
+          "text": "Most often people learn ↔the most frequent learning occurs most often 与 most frequent 同义 those close to them ↔people who are nearby close 与 nearby 同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "K K 段说 The people who are most likely to change our minds are the ones we agree with on 98 percent of topics，主词是 change our minds，而题干 Q38 的主 词是 learn，并非同一动作。 The people who are most likely to change our minds are the ones we agree with on 98 percent of topics L L 段说 your time is better spent connecting with people who are at Positions 6 and 8，强调的是与邻位的人 connect，没有 learn from 这一动作，与题干主词 错位。 your time is better spent connecting with people who are at Positions 6 and 8, gradually pulling them in your direction 有时人们采纳某些信念是为了给自己珍视的人留下好印象。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "从亲近者处学到最多"
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Sometimes people adopt certain beliefs in order to leave a favorable impression on those dear to them.",
+      "answer": "F",
+      "answerText": "F 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Sometimes we believe things because they make us look good to the people we care about. 有时候我们相信某些事，是因为这些事让我们在我们在乎的人面前显得好看。"
+        },
+        {
+          "label": "改写",
+          "text": "adopt certain beliefs ↔we believe things adopt beliefs 与 believe things 同义 leave a favorable impression ↔make us look good 留下好印象 = 让自己显得好看 those dear to them ↔the people we care about 亲近的人 = 在乎的人"
+        },
+        {
+          "label": "辨邻",
+          "text": "G G 段重点是 select friends and family over facts，强调在事实与亲友间选择的结果， 而题干 Q39 强调的是 为留好印象 这一动机，落脚不同。 When we have to choose between the two, people often select friends and family over facts E E 段说 hold beliefs that bring the belief-holder the greatest number of allies, protectors, or disciples，谈的是争取盟友数量最大化，不是题干强调的 在所亲近者 面前留好印象 这层亲密关系动机。 hold beliefs that bring the belief-holder the greatest number of allies, protectors, or disciples 与面对面交流相比,书籍往往为改变人们的信念提供了更好的媒介。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "为给亲近者留好印象而采信"
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Compared with face-to-face communication, books often provide a better medium for changing people's beliefs.",
+      "answer": "N",
+      "answerText": "N 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "As a result, books are often a better vehicle for transforming beliefs than conversations or debates. 结果是，比起对话或辩论，书往往是一种更好的改变信念的载体。"
+        },
+        {
+          "label": "改写",
+          "text": "books often provide a better medium ↔books are often a better vehicle medium 与 vehicle 同义 changing people's beliefs ↔transforming beliefs changing 与 transforming 同义 face-to-face communication ↔conversations or debates 上位概括 在日常生活的许多场合,人们从社会纽带中获得的好处多于了解真相。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "书比面对面交流更利于改变信念"
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "On many occasions in daily life, people benefit more from their social bonds than from knowing the truth.",
+      "answer": "E",
+      "answerText": "E 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "In many circumstances, social connection is actually more helpful to your daily life than understanding the truth of a particular fact or idea. 在许多情形下，社交连接实际上比理解某一具体事实或观念的真相更有助于你的日常生活。"
+        },
+        {
+          "label": "改写",
+          "text": "On many occasions in daily life ↔In many circumstances 频次状语同义对换 benefit more from their social bonds than from knowing the truth ↔ social connection is actually more helpful to your daily life than understanding the truth of a particular fact or idea 比较句式重构"
+        },
+        {
+          "label": "辨邻",
+          "text": "C C 段说 truth and accuracy are not the only things that matter to the human mind. Humans also seem to have a deep desire to belong，只提出两种需要并列 存在，并未在日常情境下把社交连接置于真相之上。 truth and accuracy are not the only things that matter to the human mind. Humans also seem to have a deep desire to belong G G 段强调 When we have to choose between the two, people often select friends and family over facts，是被迫二选一时的选择，不是题干说的 在许多日常情形下 受 益更多。 When we have to choose between the two, people often select friends and family over facts 如果你想改变某人的信念,你应该首先与他们建立社会联系。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "日常中社交纽带比知道真相更有益"
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "If you want to change somebody's beliefs, you should first establish social connection with them.",
+      "answer": "I",
+      "answerText": "I 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The way to change people's minds is to become friends with them, to integrate them into your tribe, to bring them into your circle. 改变别人想法的方式是与他们成为朋友，把他们融入你的部落，把他们带进你的圈子。"
+        },
+        {
+          "label": "改写",
+          "text": "change somebody's beliefs ↔change people's minds beliefs 与 minds 在本文同义 first establish social connection ↔ become friends with them, to integrate them into your tribe, to bring them into your circle 上位概括 42. If you want to change somebody's beliefs, you should first establish social connection with them."
+        },
+        {
+          "label": "辨邻",
+          "text": "H H 段说 You can't expect someone to change their mind if you take away their community too. You have to give them somewhere to go，落脚是 别抽走他的群 体，与题干 first establish social connection 的正向先后步骤不一致。 You can't expect someone to change their mind if you take away their community too K K 段强调 Facts don't change our minds. Friendship does，回答的是 谁能改变想法 （友谊），不是题干问的 想改变想法你应先做什么（先建立社交连接）。 Facts don't change our minds. Friendship does 人类如果不具备对现实世界相当程度的了解就无法生存。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "想改信念先建立社交连接"
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Humans cannot survive without a fair knowledge of the actual world.",
+      "answer": "C",
+      "answerText": "C 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Humans need a reasonably accurate view of the world in order to survive. 人类要生存，就需要一种对世界相当准确的认识。"
+        },
+        {
+          "label": "改写",
+          "text": "Humans cannot survive without a fair knowledge of the actual world ↔ Humans need a reasonably accurate view of the world in order to survive 双重否定与肯定同义"
+        },
+        {
+          "label": "辨邻",
+          "text": "D D 段说 Becoming separated from the tribe—or worse, being cast out—was a death sentence，落脚是社群关系对生存的意义，与题干 a fair knowledge of the actual world 这一认知层面无关。 Becoming separated from the tribe—or worse, being cast out—was a death sentence 错误观念的重复增加了它们被接受的可能性。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "无对真实世界的认识则无法生存"
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Repetition of bad ideas increases their chances of being accepted.",
+      "answer": "O",
+      "answerText": "O 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "The more you repeat a bad idea, the more likely people are to believe it. 你越是重复一个坏想法，人们就越可能相信它。"
+        },
+        {
+          "label": "改写",
+          "text": "Repetition of bad ideas ↔repeat a bad idea 名词化 increases their chances of being accepted ↔the more likely people are to believe it 比较句式与可能性同义 43. Humans cannot survive without a fair knowledge of the actual world. 44. Repetition of bad ideas increases their chances of being accepted."
+        },
+        {
+          "label": "辨邻",
+          "text": "P P 段说 The number of people who believe an idea is directly proportional to the number of times it has been repeated during the last year，是把 O 段结论命名为 Clear's Law of Recurrence，是 给命题命名 而非首次提出 重复 被接受 这一命题。 题干 Q44 表述的是命题本身，首发在 O 段。 The number of people who believe an idea is directly proportional to the number of times it has been repeated during the last year 没有人愿意冒着被孤立的风险放弃自己的信念。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "重复坏想法增加被接受机会"
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Nobody is willing to give up their beliefs at the risk of getting isolated. B",
+      "answer": "H",
+      "answerText": "H 段",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "Nobody wants their worldview torn apart if loneliness is the outcome. 如果结果是孤独，没人愿意让自己的世界观被撕裂。"
+        },
+        {
+          "label": "改写",
+          "text": "Nobody is willing to give up their beliefs ↔Nobody wants their worldview torn apart 放弃信念 = 让世界观被撕裂 at the risk of getting isolated ↔if loneliness is the outcome 冒孤立之险 = 若结果是孤独"
+        },
+        {
+          "label": "辨邻",
+          "text": "I I 段说 they can change their beliefs without the risk of being abandoned socially，落脚是 提供方法让人能改信念，与题干 Q45 的 没人愿意放弃信念 这一反向 心理表述不一致。 they can change their beliefs without the risk of being abandoned socially D D 段说 Becoming separated from the tribe—or worse, being cast out—was a death sentence，落脚是 被部落驱逐的生死后果，与题干 Q45 的 不愿放弃信念以免 孤立 这一信念—孤立链条不同。 Becoming separated from the tribe—or worse, being cast out—was a death sentence"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "anchor": "不愿冒孤立之险而放弃信念"
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What can we observe from the author's description of our communities?",
+      "answer": "D",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What can we observe from the author's description of our communities 问的是从作 者描述中能 \"观察到\" 什么，是基于原文事实的客观提取，不含 infer/imply 等推断信号。"
+        },
+        {
+          "label": "拆句",
+          "text": "题干主干 What can we observe from the author's description of our communities， 主语 we、谓语 observe、宾语为 what；介词短语 from the author's description of our communities 是状语，提示 observe 的依据来源。结构平铺，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "We don't have to look further than our own communities to see the devastating impact of automation. From automated warehouses to cashierless grocery stores to neighborhood libraries that offer self-checkout lanes instead of employing real people—automation is increasingly replacing jobs and leaving too few good new jobs behind. 无需舍近求远，从我们自己的社区就能看到自动化的破坏性影响。从自动化仓库、无人收银 的杂货店，到提供自助结账通道而不再雇真人的社区图书馆——自动化正在不断取代工作岗 位，留给人们的好的新岗位太少。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 The growing passion for automation 称社区对自动化抱有越来越大的热情，但原文 the devastating impact of automation 是负面描述，没有任何 passion（热情）的 成分。 B) 无中生有 The shift from manual jobs to IT ones 提出岗位类型在 \"体力→IT\" 之间转移，但 P2 只说岗位被取代、好新岗不足，并未说明流向 IT；该说法在文中无依据。 C) 答非所问 Their changing views on employment 谈的是 \"对就业的看法在变\"，但题干问的是 description 描绘出的实际状况，且 P2 并未讨论 views（观念）的变化。 D) ✓ 正确 automation is increasingly replacing jobs and leaving too few good new jobs behind ↔ Their fading employment opportunities 预判答案的核心语义是 \"岗位机会在消逝\"，四个选项中只有 fading employment opportunities 与之严丝合缝。 46. What can we observe from the author's description of our communities? A) The growing passion for automation. B) The shift from manual jobs to IT ones. C) Their changing views on employment. D) Their fading employment opportunities. 我们从最近的一份报告中了解到什么? A) 制造业正在快速衰退。 B) 对贸易影响的担忧被夸大了。 C) 对贸易的恐惧已经广泛传播。 D) 贸易对就业的影响是惊人的。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The growing passion for automation."
+        },
+        {
+          "label": "B",
+          "text": "The shift from manual jobs to IT ones."
+        },
+        {
+          "label": "C",
+          "text": "Their changing views on employment."
+        },
+        {
+          "label": "D",
+          "text": "Their fading employment opportunities."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn from a recent report?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn from a recent report 直接问 report 里说了什么，是对原文事实的 转述。"
+        },
+        {
+          "label": "拆句",
+          "text": "What do we learn from a recent report，疑问句结构 What + 助动词 do + 主语 we + 谓语 learn + 介词短语 from a recent report；无从句、无否定，理解无障碍。"
+        },
+        {
+          "label": "定位",
+          "text": "Despite the widespread fears about trade, a recent report showed that just 13 percent of jobs lost in manufacturing are due to trade—the rest of the losses have been due to advances in technology. 尽管人们对贸易普遍感到担忧，最近一份报告显示，制造业的岗位流失中仅 13% 归因于贸 易——其余则归因于技术进步。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 The manufacturing sector is declining at a fast rate 称制造业整体在快速衰退，但 Our country is manufacturing more than ever before, but we are doing it with fewer workers 显示制造业产出反而 \"前所未有的多\"，并非 declining。 B) ✓ 正确 Despite the widespread fears about trade, a recent report showed that just 13 percent of jobs lost in manufacturing are due to trade ↔The concerns about the effect of trade are exaggerated 把预判 \"担忧言过其实\" 与四个选项一比，只有 exaggerated 与之同义。 C) 答非所问 The fears about trade have been spreading far and wide 描述的是恐惧本身在扩 散，但 P3 报告内容是 \"只有 13% 归因于贸易\"，并非讲恐惧的传播范围；且 widespread 是状态而非 \"正在扩散\"。 D) 与原文相反 The impact of trade on employment has been staggering 说贸易对就业影响 \"惊人 之大\"，但 just 13 percent…are due to trade 表明贸易影响极小；staggering 反而是 文中用于形容 \"statistics in manufacturing\" 的词，被错位挪用。 47. What do we learn from a recent report? A) The manufacturing sector is declining at a fast rate. B) The concerns about the effect of trade are exaggerated. C) The fears about trade have been spreading far and wide. D) The impact of trade on employment has been staggering. 文章告诉我们在转型时代美国工人的什么情况? A) 他们感到被政治家忽视。 B) 他们感到越来越脆弱。 C) 他们不断适应变化。 D) 他们不断抱怨但无济于事。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The manufacturing sector is declining at a fast rate."
+        },
+        {
+          "label": "B",
+          "text": "The concerns about the effect of trade are exaggerated."
+        },
+        {
+          "label": "C",
+          "text": "The fears about trade have been spreading far and wide."
+        },
+        {
+          "label": "D",
+          "text": "The impact of trade on employment has been staggering."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the passage tell us about American workers in an era of transformation?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the passage tell us about American workers 是询问文章对工人状况的客观 陈述，不涉及推理。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the passage tell us about American workers in an era of transformation：疑问句主干 the passage tell us about American workers；介词短语 in an era of transformation 是 workers 的后置定语，限定 workers 所处状态。"
+        },
+        {
+          "label": "定位",
+          "text": "Something transformative is happening in America that is having an adverse effect on American families. Whether policymakers and politicians admit it or not, workers have made clear their feelings about their economic insecurity and desire to keep good jobs in America. 美国正在发生某种变革性变化，对美国家庭产生不利影响。无论政策制定者和政客们是否承 认，工人们已经清楚地表达了他们对自身经济上不安全的感受，以及希望留住国内好工作的 愿望。"
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 They feel ignored by politicians 说工人觉得被政客忽视；原文 Whether policymakers and politicians admit it or not 只是让步状语，意思是 \"无论政客是否承 认\"，并未说工人 feel ignored；这是把 admit it or not 误读为 ignored。 B) ✓ 正确 workers have made clear their feelings about their economic insecurity ↔ They feel increasingly vulnerable 预判的核心 \"经济上不安全\" 与 vulnerable（易受伤、脆弱的）语义同义；四个选项中只 有 B 落在 \"工人感受\" 这一维度上。 C) 与原文相反 They keep adapting to the changes 称工人在不断适应变化；但 P4 强调工人 economic insecurity 与 desire to keep good jobs，是 \"抗拒变化、希望保住\"，与 \"adapting\" 方向相反。 D) 过度推断 They keep complaining but to no avail 说工人不断抱怨却毫无效果；原文 made clear their feelings 是 \"表达感受\"，并非 complaining；更无 \"无果\" 的结论。 48. What does the passage tell us about American workers in an era of transformation? A) They feel ignored by politicians. B) They feel increasingly vulnerable. C) They keep adapting to the changes. D) They keep complaining but to no avail. 作者对自动化有什么看法? A) 它将产生与工业化相同的影响。 B) 它为明智的公司提供了替代方案。 C) 其所谓的积极影响是值得怀疑的。 D) 其有害影响是不可避免的。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They feel ignored by politicians."
+        },
+        {
+          "label": "B",
+          "text": "They feel increasingly vulnerable."
+        },
+        {
+          "label": "C",
+          "text": "They keep adapting to the changes."
+        },
+        {
+          "label": "D",
+          "text": "They keep complaining but to no avail."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author think of automation?",
+      "answer": "C",
+      "questionType": "态度题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author think of automation 直接问作者对自动化的看法，是观点/态度题 的标准题干。"
+        },
+        {
+          "label": "拆句",
+          "text": "What does the author think of automation：主干 the author think of automation， think of 在此意为 \"对…的看法\"。结构简单，但要小心 think of 是固定短语，等同于 think about / view。"
+        },
+        {
+          "label": "定位",
+          "text": "I sincerely hope that those who assert that automation will make us more effective and pave the way for new occupations are right, but the reality of automation's detrimental effects on workers makes me skeptical. 我真诚地希望那些断言自动化将让我们更高效、为新职业铺路的人是对的，但自动化对工人 的不利影响这一现实让我心存疑虑。 49. What does the author think of automation? A) It will have the same impact as industrialization. B) It provides sensible companies with alternatives. C) Its alleged positive effects are doubtful. D) Its detrimental effects are unavoidable."
+        },
+        {
+          "label": "选项",
+          "text": "A) 偷换概念 It will have the same impact as industrialization 称自动化与工业化影响相同；但原 文 Resisting automation is futile: it is as inevitable as industrialization was before it 只用 industrialization 作 \"不可避免性\" 的类比，并未说两者 impact 一样。 B) 张冠李戴 It provides sensible companies with alternatives 说自动化为公司提供备选方案；原 文 any sensible company or country should prepare for all alternatives 是公司 \"应 自己准备好应对各种可能\"，主语错位（公司主动准备 选项变成自动化提供）。 C) ✓ 正确 I sincerely hope that those who assert that automation will make us more effective and pave the way for new occupations are right, but the reality of automation's detrimental effects on workers makes me skeptical ↔Its alleged positive effects are doubtful 预判语义 \"所谓正面效果不可靠\" 与 C 字面几乎一对一对应。 D) 过度推断 Its detrimental effects are unavoidable 称 \"不利影响不可避免\"；原文 it is as inevitable as industrialization 说的是 \"自动化本身不可避免\"，被诱导嫁接到 detrimental effects 上；且作者重点是 skeptical（怀疑乐观说法），而非给 detrimental effects 下 \"不可避免\" 的定论。 在应对自动化时我们应该重视什么? A) 大学毕业生的就业前景。 B) 女性获得就业的机会。 C) 人们的经济安全。 D) 人们的社会流动性。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It will have the same impact as industrialization."
+        },
+        {
+          "label": "B",
+          "text": "It provides sensible companies with alternatives."
+        },
+        {
+          "label": "C",
+          "text": "Its alleged positive effects are doubtful."
+        },
+        {
+          "label": "D",
+          "text": "Its detrimental effects are unavoidable."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What should we attach importance to when dealing with automation?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What should we attach importance to when dealing with automation 问的是应重视的 具体方面（某个对象/某种状态），是对原文呼吁句的细节提取，不是全文主旨。"
+        },
+        {
+          "label": "拆句",
+          "text": "What should we attach importance to when dealing with automation：主干 we should attach importance to what；when dealing with automation 是时间状语从句 （省略主语 we）。attach importance to 为固定搭配 = 重视。"
+        },
+        {
+          "label": "定位",
+          "text": "If we want an economy that allows everyone to be economically secure, we need to start thinking about how we can rightfully address automation. 如果我们想要一个让每个人都能在经济上获得保障的经济体，我们就需要开始思考如何妥善 应对自动化。 50. What should we attach importance to when dealing with automation? A) College graduates' job prospects. B) Women's access to employment. C) People's economic security. D) People's social mobility."
+        },
+        {
+          "label": "选项",
+          "text": "A) 以偏概全 College graduates' job prospects 把大学毕业生的就业前景当成应重视的对象；但 The value of a college degree is diminishing 只是用大学学位贬值作论据，并未将 \"大学毕业生就业前景\" 提升为应重视的核心。 B) 以偏概全 Women's access to employment 把 \"女性就业机会\" 当应重视对象；Women's labor force participation…has slipped back to the level it was at in the late 1980s 只是 数据例证，用以佐证劳动力问题，并非作者要重视的核心对象。 C) ✓ 正确 If we want an economy that allows everyone to be economically secure, we need to start thinking about how we can rightfully address automation ↔People's economic security 在四个选项中，只有 C 与预判语义完全等值，其他三个都是文中曾出现但未被作者 \"郑 重提出\" 的对象。 D) 偷换概念 People's social mobility 把 our upward mobility is declining 中的 upward mobility 改成 social mobility。upward mobility 强调 \"向上流动\"，social mobility 是更宽泛的 \"社会流动\"；且作者只把它列为现象之一，并未提升为应重视的核心。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "College graduates' job prospects."
+        },
+        {
+          "label": "B",
+          "text": "Women's access to employment."
+        },
+        {
+          "label": "C",
+          "text": "People's economic security."
+        },
+        {
+          "label": "D",
+          "text": "People's social mobility."
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What error do experts often make when describing people from other places?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What error do experts often make when describing people from other places? 是 问\"什么错误\"——指向文中明确陈述的事实，没有 infer/imply 一类词。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q51 主干是 What error do experts often make（experts 是主语、make 是谓语、error 前移作疑问宾语），后接时间状语从句 when describing people from other places （when + 现在分词，省略 they are）。结构平铺直叙，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Yet, when we speak of people from elsewhere, we seem to inevitably characterize them based on their country of origin. 然而，当我们谈论来自他处的人时，我们似乎总是不可避免地根据其原籍国来描述他们。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 characterize them based on their country of origin ↔overly rely on nationality 预判落在\"按国别给外国人贴标签\"上，A 选项的 overly rely on nationality 把\"按 X 归 类 + 不可避免\"两层意思干净打包，与预判完全对应。 B) 无中生有 exaggerate their differences 原文从未出现；P1 强调的是\"国别概括\" vs \"个体差异\"， 不是\"夸大\"或\"缩小\"差异。 C) 偷换概念 misunderstand their cultures 把\"按国别概括\"偷换成\"误解文化\"；P1 的错误是\"贴国别 标签\"这个动作本身，至于\"是否误解了文化内容\"，P1 并没有说。 D) 张冠李戴 dwell on national averages 出自 Statistics specialists, when they speak of national averages——national averages 是\"统计专家\"特有的工具，不是泛指的\"专家\"在描 述\"外国人\"时的通病。题干虽用 experts，但承接的是 P1 \"我们\"的归类错误，P2 只是 补充统计专家也犯\"同一个\"错；这个\"同一个错\"本质是\"按国别归类\"，而不是\"沉迷国家 平均值\"——national averages 只是统计专家展现这一错误的具体形式。 51. What error do experts often make when describing people from other places? A) They tend to overly rely on nationality. B) They often exaggerate their differences. C) They often misunderstand their cultures. D) They tend to dwell on national averages. 关于Hofstede的文化维度理论,我们了解到什么? A) 它们在跨时间和空间比较文化价值观方面很有用。 B) 它们为不同文化的人们带来了不同寻常的益处。 C) 它们被广泛用于识别人们的个体特征。 D) 它们为研究人员提供了有价值的研究问题。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They tend to overly rely on nationality."
+        },
+        {
+          "label": "B",
+          "text": "They often exaggerate their differences."
+        },
+        {
+          "label": "C",
+          "text": "They often misunderstand their cultures."
+        },
+        {
+          "label": "D",
+          "text": "They tend to dwell on national averages."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn about Hofstede's cultural dimensions?",
+      "answer": "A",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What do we learn about Hofstede's cultural dimensions? 问的是关于 X 我们\"了解到\"什 么，指向文中对该术语的客观陈述。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q52 主干 What do we learn（疑问宾语前移），介词短语 about Hofstede's cultural dimensions 限定话题。结构简单，无陷阱。"
+        },
+        {
+          "label": "定位",
+          "text": "Though the validity of Hofstede's dimensions has been questioned, they have the singular benefit of having been in use for decades, which allows for historical and international comparisons. 虽然 Hofstede 文化维度的有效性受到过质疑，但它有一个独到的优势——已被使用了数十 年，这使得历史性和国际性的比较成为可能。"
+        },
+        {
+          "label": "选项",
+          "text": "A) ✓ 正确 allows for historical and international comparisons ↔ useful in comparing cultural values across time and space having been in use for decades ↔useful 预判与 A 的核心信息在两个维度（时间/空间）和功能（comparing）上一一对应，无 多余、无遗漏。 B) 偷换概念 原文说该维度本身 have the singular benefit（\"自身具备这一优势\"，指研究工具属 性），而 brought unusual benefits to people of different cultures 把受益方偷换 成\"不同文化的人\"——文中从未说该维度给\"不同文化的人\"带来过好处。 C) 与原文相反 identify people's individual traits 与 P4 的 They are not a measure of visible cultural traits, such as food or dress. 不完全冲突，但 P4 明确 Hofstede 维度衡量的 是\"工作相关的文化价值\"，是\"群体/文化层面\"的 traits，而非\"个人特质\"。把\"群体文化 价值\"偷换成\"个人特质\"，方向相反。 D) 无中生有 provide valuable questions for researchers to study 在原文中找不到任何对应—— P4 只说该维度本身被研究者使用、能做比较，没说它\"提供研究问题\"。 52. What do we learn about Hofstede's cultural dimensions? A) They are useful in comparing cultural values across time and space. B) They have brought unusual benefits to people of different cultures. C) They are widely used to identify people's individual traits. D) They provide valuable questions for researchers to study. 研究人员对以往关于决定人们价值观因素的研究有何发现? A) 环境因素被优先考虑,超过了其他因素。 B) 个人的经济状况常常被低估。 C) 对个人职业的强调过多。 D) 社会进步对个人价值观的影响被忽视了。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are useful in comparing cultural values across time and space."
+        },
+        {
+          "label": "B",
+          "text": "They have brought unusual benefits to people of different cultures."
+        },
+        {
+          "label": "C",
+          "text": "They are widely used to identify people's individual traits."
+        },
+        {
+          "label": "D",
+          "text": "They provide valuable questions for researchers to study."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did researchers find about previous studies on factors determining people's values?",
+      "answer": "B",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What did researchers find about previous studies 问\"研究者发现了什么\"，对应原文 the researchers found that... 一类直接陈述。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q53 主干 What did researchers find，介词短语 about previous studies on factors determining people's values 三层嵌套：先讲 previous studies，再讲这些研究关于 factors，最后讲这些 factors 是 determining people's values 的。基础薄弱考生易把焦点 错认成 previous studies 本身，其实焦点在最里层的 factors。"
+        },
+        {
+          "label": "定位",
+          "text": "Occupation and social economic status were the most strongly correlated, suggesting that our values are more economically driven than we usually give them credit for. 职业和社会经济地位的相关性最强，这表明我们的价值观更多地是由经济因素驱动的，超出 了我们平时给它的认可程度。 53. What did researchers find about previous studies on factors determining people's values? A) Environmental factors were prioritized over other factors. B) An individual's financial status was often underestimated. C) Too much emphasis had been placed on one's occupation. D) The impact of social progress on one's values was ignored."
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 P5 说 both demographic factors, such as age, and environmental factors, such as long-term unemployment rates, were more correlated with cultural values than nationality——environmental factors 只是\"比国籍更相关\"的因素之一，且不是\"最 强\"；prioritized over other factors 把它说成\"凌驾于其他因素之上\"，与\"最强相关其实 是 occupation 和 social economic status\"相反。 B) ✓ 正确 our values are more economically driven than we usually give them credit for ↔ An individual's financial status was often underestimated Occupation and social economic status ↔An individual's financial status 预判与 B 的两个核心要素\"经济维度\"和\"被低估\"都精确对应，无偏。 C) 与原文相反 原文 suggesting that values are more economically driven than we usually give them credit for 表明 occupation/social economic status 一直被\"低估\"——而 Too much emphasis had been placed on one's occupation 说\"过度强调\"，方向反转。 D) 无中生有 The impact of social progress on one's values was ignored 中的 social progress 全 文未出现；P5 只列了 demographic、environmental、occupation、social economic status 等 factor，没出现 social progress 这个术语。 当文化与国家相关联时,对员工有什么影响? A) 他们可能无法看到其商业伙伴的文化偏见。 B) 他们可能无法对文化多样性给予足够的重视。 C) 他们可能不会被教导如何正确地与海外伙伴互动。 D) 他们可能无法学习商业交易的法律程序。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Environmental factors were prioritized over other factors."
+        },
+        {
+          "label": "B",
+          "text": "An individual's financial status was often underestimated."
+        },
+        {
+          "label": "C",
+          "text": "Too much emphasis had been placed on one's occupation."
+        },
+        {
+          "label": "D",
+          "text": "The impact of social progress on one's values was ignored."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What is the impact on employees when cultures are identified with countries?",
+      "answer": "C",
+      "questionType": "细节题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What is the impact on employees when cultures are identified with countries? 问\"产 生什么影响\"，对应原文中 caused / make / lead to 一类因果直陈句。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q54 主干 What is the impact on employees，时间状语从句 when cultures are identified with countries（被动语态 are identified with，意为\"被等同于\"）。被动语态 可能让基础薄弱考生分不清主客体，要记住\"文化\"被等同于\"国家\"，而不是反过来。"
+        },
+        {
+          "label": "定位",
+          "text": "Taras says our erroneous belief that countries are cultures has caused businesses to teach their employees useless or even harmful ways of interacting with their international peers. Taras 说，我们\"国家即文化\"的错误信念已经导致企业教给员工无用甚至有害的与国际同行 的相处方式。 54. What is the impact on employees when cultures are identified with countries? A) They may fail to see the cultural biases of their business partners. B) They may fail to attach sufficient importance to cultural diversity. C) They may not be taught how to properly interact with overseas partners. D) They may not be able to learn the legal procedures for business transactions."
+        },
+        {
+          "label": "选项",
+          "text": "A) 无中生有 fail to see the cultural biases of their business partners 中的\"文化偏见\"和\"看不 出\"原文均未提及；P7 谈的是\"员工被教错了方法\"，不是\"员工没能识别伙伴的偏见\"。 B) 偷换概念 fail to attach sufficient importance to cultural diversity 把考点偷换成\"对文化多样性 不够重视\"——而 P7 谴责的恰恰是\"按国家归类时，假定差异（如中国人不够个人主 义）\"，问题是\"错把差异本质化\"，而非\"忽视多样性\"。 C) ✓ 正确 teach their employees useless or even harmful ways of interacting with their international peers ↔may not be taught how to properly interact with overseas partners \"学到无用方式\"等于\"没学到正确方式\"——把同一事实的肯定—正面表述和否定—正面 表述对得上，就锁定 C。 D) 无中生有 learn the legal procedures for business transactions 利用 P7 例子里的 Chinese and American lawyers 这一职业关键词，生造出\"法律程序\"——但律师只是用来举 例\"中美专业人士因经济地位相似而其实很像\"，与\"法律程序\"无关。 作者在文章结尾提出了什么建议? A) 有充分的理由对一个国家的人口进行概括。 B) 大多数人仍然受到其国家身份的约束。 C) 国家是否应被视为权威单位是有争议的。 D) 作为个人价值观的指标,国籍不如社会经济地位有用。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They may fail to see the cultural biases of their business partners."
+        },
+        {
+          "label": "B",
+          "text": "They may fail to attach sufficient importance to cultural diversity."
+        },
+        {
+          "label": "C",
+          "text": "They may not be taught how to properly interact with overseas partners."
+        },
+        {
+          "label": "D",
+          "text": "They may not be able to learn the legal procedures for business transactions."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author suggest at the end of the passage?",
+      "answer": "D",
+      "questionType": "推断题",
+      "analysis": [
+        {
+          "label": "判型",
+          "text": "What does the author suggest at the end of the passage? 含 suggest 且指向作者，问 的是末段流露出的作者立场。"
+        },
+        {
+          "label": "拆句",
+          "text": "Q55 主干 What does the author suggest，位置状语 at the end of the passage。结构 平铺，无陷阱。 55. What does the author suggest at the end of the passage? A) There is sufficient reason to generalize about a country's population. B) The majority of people are still constrained by their national identity. C) It is arguable that the country should be regarded as the unit of authority. D) Nationality is less useful than socio-economic status as an indicator of one's values."
+        },
+        {
+          "label": "选项",
+          "text": "A) 与原文相反 sufficient reason to generalize about a country's population 与作者立场完全相 反；P8 只承认 convenient（便利），而 P9 紧接着用 However 否定这种概括是\"足 够的\"。\"convenient\"和\"sufficient reason\"差距巨大——前者只是方便，后者是充分 依据。 B) 偷换概念 The majority of people are still constrained by their national identity 把 P9 的 the factors that constrain their lives（约束他们生活的因素）中的 constrain 一词截下， 再换上 national identity 作主语——但原文 constrain 的施动者是 income 等\"经济 因素\"，不是\"国家身份\"；作者要表达的是\"按经济因素识别更好\"，而不是\"人被国籍 约束\"。 C) 无中生有 It is arguable that the country should be regarded as the unit of authority 抓住 P8 的 the unit of authority（权威单位） 做诱饵——但 P8 用这个表述只是描述\"国家 是一种概括方式\"，作者并没有在末段\"质疑国家是否应当被视为权威单位\"这个抽象问题 上展开。这是借原文具体术语生造出新的辩题。 D) ✓ 正确 we would be better off identifying people by the factors that constrain their lives, like income, rather than by the lines surrounding them on a map ↔Nationality is less useful than socio-economic status as an indicator of one's values 预判与 D 在比较的两端（国籍 vs 社会经济地位）和比较方向（前者不如后者）上完全 一致。"
+        }
+      ],
+      "provenance": {
+        "source": "legacy",
+        "ocr": false,
+        "file": "data/papers/2021-12-3.js"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "There is sufficient reason to generalize about a country's population."
+        },
+        {
+          "label": "B",
+          "text": "The majority of people are still constrained by their national identity."
+        },
+        {
+          "label": "C",
+          "text": "It is arguable that the country should be regarded as the unit of authority."
+        },
+        {
+          "label": "D",
+          "text": "Nationality is less useful than socio-economic status as an indicator of one's values."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "matching": {
+      "id": "matching",
+      "raw": "A) The economist J. K. Galbraith once wrote, \"Faced with a choice between changing one's mind and proving there is no need to do so, almost everyone gets busy with the proof.\"\nB) Leo Tolstoy was even bolder: \"The most difficult subjects can be explained to the most slow-witted man if he has not formed any idea of them already; but the simplest thing cannot be made clear to the most intelligent man if he is firmly persuaded that he knows already, without a shadow of a doubt, what is laid before him.\"\nC) What's going on here? Why don't facts change our minds? And why would someone continue to believe a false or inaccurate idea anyway? How do such behaviors serve us? Humans need a reasonably accurate view of the world in order to survive. If your model of reality is wildly different from the actual world, then you struggle to take effective actions each day. However, truth and accuracy are not the only things that matter to the human mind. Humans also seem to have a deep desire to belong.\nD) In Atomic Habits, I wrote, \"Humans are herd animals. We want to fit in, to bond with others, and to earn the respect and approval of our peers. Such inclinations are essential to our survival. For most of our evolutionary history, our ancestors lived in tribes. Becoming separated from the tribe—or worse, being cast out—was a death sentence.\"\nE) Understanding the truth of a situation is important, but so is remaining part of a tribe. While these two desires often work well together, they occasionally come into conflict. In many circumstances, social connection is actually more helpful to your daily life than understanding the truth of a particular fact or idea. The Harvard psychologist Steven Pinker put it this way, \"People are embraced or condemned according to their beliefs, so one function of the mind may be to hold beliefs that bring the belief-holder the greatest number of allies, protectors, or disciples(信徒), rather than beliefs that are most likely to be true.\"\nF) We don't always believe things because they are correct. Sometimes we believe things because they make us look good to the people we care about. I thought Kevin Simler put it well when he wrote, \"If a brain anticipates that it will be rewarded for adopting a particular belief, it's perfectly happy to do so, and doesn't much care where the reward comes from—whether it's pragmatic(实用主义的) (better outcomes resulting from better decisions), social (better treatment from one's peers), or some mix of the two.\"\nG) False beliefs can be useful in a social sense even if they are not useful in a factual sense. For lack of a better phrase, we might call this approach \"factually false, but socially accurate.\" When we have to choose between the two, people often select friends and family over facts. This insight not only explains why we might hold our tongue at a dinner party or look the other way when our parents say something offensive, but also reveals a better way to change the minds of others.\nH) Convincing someone to change their mind is really the process of convincing them to change their tribe. If they abandon their beliefs, they run the risk of losing social ties. You can't expect someone to change their mind if you take away their community too. You have to give them somewhere to go. Nobody wants their worldview torn apart if loneliness is the outcome.\nI) The way to change people's minds is to become friends with them, to integrate them into your tribe, to bring them into your circle. Now, they can change their beliefs without the risk of being abandoned socially.\nJ) Perhaps it is not difference, but distance, that breeds tribalism and hostility. As proximity increases, so does understanding. I am reminded of Abraham Lincoln's quote, \"I don't like that man. I must get to know him better.\"\nK) Facts don't change our minds. Friendship does. Years ago, Ben Casnocha mentioned an idea to me that I haven't been able to shake: The people who are most likely to change our minds are the ones we agree with on 98 percent of topics. If someone you know, like, and trust believes a radical idea, you are more likely to give it merit, weight, or consideration. You already agree with them in most areas of life. Maybe you should change your mind on this one too. But if someone wildly different than you proposes the same radical idea, well, it's easy to dismiss them as nuts.\nL) One way to visualize this distinction is by mapping beliefs on a spectrum. If you divide this spectrum into 10 units and you find yourself at Position 7, then there is little sense in trying to convince someone at Position 1. The gap is too wide. When you're at Position 7, your time is better spent connecting with people who are at Positions 6 and 8, gradually pulling them in your direction.\nM) The most heated arguments often occur between people on opposite ends of the spectrum, but the most frequent learning occurs from people who are nearby. The closer you are to someone, the more likely it becomes that the one or two beliefs you don't share will bleed over into your own mind and shape your thinking. The further away an idea is from your current position, the more likely you are to reject it outright. When it comes to changing people's minds, it is very difficult to jump from one side to another. You can't jump down the spectrum. You have to slide down it. N) Any idea that is sufficiently different from your current worldview will feel threatening. And the best place to ponder a threatening idea is in a non-threatening environment. As a result, books are often a better vehicle for transforming beliefs than conversations or debates. In conversation, people have to carefully consider their status and appearance. They want to save face and avoid looking stupid. When confronted with an uncomfortable set of facts, the tendency is often to double down on their current position rather than publicly admit to being wrong. Books resolve this tension. With a book, the conversation takes place inside someone's head and without the risk of being judged by others. It's easier to be open-minded when you aren't feeling defensive. O) There is another reason bad ideas continue to live on, which is that people continue to talk about them. Silence is death for any idea. An idea that is never spoken or written down dies with the person who conceived it. Ideas can only be remembered when they are repeated. They can only be believed when they are repeated. I have already pointed out that people repeat ideas to signal they are part of the same social group. But here's a crucial point most people miss: People also repeat bad ideas when they complain about them. Before you can criticize an idea, you have to reference that idea. You end up repeating the ideas you're hoping people will forget—but, of course, people can't forget them because you keep talking about them. The more you repeat a bad idea, the more likely people are to believe it. P) Let's call this phenomenon Clear's Law of Recurrence: The number of people who believe an idea is directly proportional to the number of times it has been repeated during the last year—even if the idea is false.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "The economist J. K. Galbraith once wrote, \"Faced with a choice between changing one's mind and proving there is no need to do so, almost everyone gets busy with the proof.\""
+        },
+        {
+          "label": "B",
+          "text": "Leo Tolstoy was even bolder: \"The most difficult subjects can be explained to the most slow-witted man if he has not formed any idea of them already; but the simplest thing cannot be made clear to the most intelligent man if he is firmly persuaded that he knows already, without a shadow of a doubt, what is laid before him.\""
+        },
+        {
+          "label": "C",
+          "text": "What's going on here? Why don't facts change our minds? And why would someone continue to believe a false or inaccurate idea anyway? How do such behaviors serve us? Humans need a reasonably accurate view of the world in order to survive. If your model of reality is wildly different from the actual world, then you struggle to take effective actions each day. However, truth and accuracy are not the only things that matter to the human mind. Humans also seem to have a deep desire to belong."
+        },
+        {
+          "label": "D",
+          "text": "In Atomic Habits, I wrote, \"Humans are herd animals. We want to fit in, to bond with others, and to earn the respect and approval of our peers. Such inclinations are essential to our survival. For most of our evolutionary history, our ancestors lived in tribes. Becoming separated from the tribe—or worse, being cast out—was a death sentence.\""
+        },
+        {
+          "label": "E",
+          "text": "Understanding the truth of a situation is important, but so is remaining part of a tribe. While these two desires often work well together, they occasionally come into conflict. In many circumstances, social connection is actually more helpful to your daily life than understanding the truth of a particular fact or idea. The Harvard psychologist Steven Pinker put it this way, \"People are embraced or condemned according to their beliefs, so one function of the mind may be to hold beliefs that bring the belief-holder the greatest number of allies, protectors, or disciples(信徒), rather than beliefs that are most likely to be true.\""
+        },
+        {
+          "label": "F",
+          "text": "We don't always believe things because they are correct. Sometimes we believe things because they make us look good to the people we care about. I thought Kevin Simler put it well when he wrote, \"If a brain anticipates that it will be rewarded for adopting a particular belief, it's perfectly happy to do so, and doesn't much care where the reward comes from—whether it's pragmatic(实用主义的) (better outcomes resulting from better decisions), social (better treatment from one's peers), or some mix of the two.\""
+        },
+        {
+          "label": "G",
+          "text": "False beliefs can be useful in a social sense even if they are not useful in a factual sense. For lack of a better phrase, we might call this approach \"factually false, but socially accurate.\" When we have to choose between the two, people often select friends and family over facts. This insight not only explains why we might hold our tongue at a dinner party or look the other way when our parents say something offensive, but also reveals a better way to change the minds of others."
+        },
+        {
+          "label": "H",
+          "text": "Convincing someone to change their mind is really the process of convincing them to change their tribe. If they abandon their beliefs, they run the risk of losing social ties. You can't expect someone to change their mind if you take away their community too. You have to give them somewhere to go. Nobody wants their worldview torn apart if loneliness is the outcome."
+        },
+        {
+          "label": "I",
+          "text": "The way to change people's minds is to become friends with them, to integrate them into your tribe, to bring them into your circle. Now, they can change their beliefs without the risk of being abandoned socially."
+        },
+        {
+          "label": "J",
+          "text": "Perhaps it is not difference, but distance, that breeds tribalism and hostility. As proximity increases, so does understanding. I am reminded of Abraham Lincoln's quote, \"I don't like that man. I must get to know him better.\""
+        },
+        {
+          "label": "K",
+          "text": "Facts don't change our minds. Friendship does. Years ago, Ben Casnocha mentioned an idea to me that I haven't been able to shake: The people who are most likely to change our minds are the ones we agree with on 98 percent of topics. If someone you know, like, and trust believes a radical idea, you are more likely to give it merit, weight, or consideration. You already agree with them in most areas of life. Maybe you should change your mind on this one too. But if someone wildly different than you proposes the same radical idea, well, it's easy to dismiss them as nuts."
+        },
+        {
+          "label": "L",
+          "text": "One way to visualize this distinction is by mapping beliefs on a spectrum. If you divide this spectrum into 10 units and you find yourself at Position 7, then there is little sense in trying to convince someone at Position 1. The gap is too wide. When you're at Position 7, your time is better spent connecting with people who are at Positions 6 and 8, gradually pulling them in your direction."
+        },
+        {
+          "label": "M",
+          "text": "The most heated arguments often occur between people on opposite ends of the spectrum, but the most frequent learning occurs from people who are nearby. The closer you are to someone, the more likely it becomes that the one or two beliefs you don't share will bleed over into your own mind and shape your thinking. The further away an idea is from your current position, the more likely you are to reject it outright. When it comes to changing people's minds, it is very difficult to jump from one side to another. You can't jump down the spectrum. You have to slide down it. N) Any idea that is sufficiently different from your current worldview will feel threatening. And the best place to ponder a threatening idea is in a non-threatening environment. As a result, books are often a better vehicle for transforming beliefs than conversations or debates. In conversation, people have to carefully consider their status and appearance. They want to save face and avoid looking stupid. When confronted with an uncomfortable set of facts, the tendency is often to double down on their current position rather than publicly admit to being wrong. Books resolve this tension. With a book, the conversation takes place inside someone's head and without the risk of being judged by others. It's easier to be open-minded when you aren't feeling defensive. O) There is another reason bad ideas continue to live on, which is that people continue to talk about them. Silence is death for any idea. An idea that is never spoken or written down dies with the person who conceived it. Ideas can only be remembered when they are repeated. They can only be believed when they are repeated. I have already pointed out that people repeat ideas to signal they are part of the same social group. But here's a crucial point most people miss: People also repeat bad ideas when they complain about them. Before you can criticize an idea, you have to reference that idea. You end up repeating the ideas you're hoping people will forget—but, of course, people can't forget them because you keep talking about them. The more you repeat a bad idea, the more likely people are to believe it. P) Let's call this phenomenon Clear's Law of Recurrence: The number of people who believe an idea is directly proportional to the number of times it has been repeated during the last year—even if the idea is false."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "P1 The subject of automation and its role in our economy has taken hold in American public discourse. Technology broadly and automation specifically are dramatically reshaping the way we work. And we need to have a plan for what's still to come.\n\nP2 We don't have to look further than our own communities to see the devastating impact of automation. From automated warehouses to cashierless grocery stores to neighborhood libraries that offer self-checkout lanes instead of employing real people—automation is increasingly replacing jobs and leaving too few good new jobs behind.\n\nP3 The statistics in manufacturing are staggering. Despite the widespread fears about trade, a recent report showed that just 13 percent of jobs lost in manufacturing are due to trade—the rest of the losses have been due to advances in technology. Questions 46 to 50 are based on the following passage.\n\nP4 That is why more people are criticizing the ever-increasing role of technology in our economy. Our country is manufacturing more than ever before, but we are doing it with fewer workers. However, it's not just factories that are seeing losses—software and information technology are also having a dramatic impact on jobs most people think are secure from the forces of a rapidly-changing economy. Something transformative is happening in America that is having an adverse effect on American families. Whether policymakers and politicians admit it or not, workers have made clear their feelings about their economic insecurity and desire to keep good jobs in America.\n\nP5 So why are people so insistent on ignoring the perils of automation? They are failing to look ahead at a time when planning for the future is more important than ever. Resisting automation is futile: it is as inevitable as industrialization was before it. I sincerely hope that those who assert that automation will make us more effective and pave the way for new occupations are right, but the reality of automation's detrimental effects on workers makes me skeptical. No one can currently say where the new jobs are coming from or when, and any sensible company or country should prepare for all alternatives.\n\nP6 I'm not overstating the danger: look at what's happened to the labor force. According to economic research, one in six working-age men, 25–54, doesn't have a job. Fifty years ago, nearly 100 percent of men that age were working. Women's labor force participation, meanwhile, has slipped back to the level it was at in the late 1980s.\n\nP7 American families and prominent business leaders are aware that there's a big problem with automation. The value of a college degree is diminishing, and our upward mobility is declining. If we want an economy that allows everyone to be economically secure, we need to start thinking about how we can rightfully address automation.",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "The subject of automation and its role in our economy has taken hold in American public discourse. Technology broadly and automation specifically are dramatically reshaping the way we work. And we need to have a plan for what's still to come."
+        },
+        {
+          "label": "P2",
+          "text": "We don't have to look further than our own communities to see the devastating impact of automation. From automated warehouses to cashierless grocery stores to neighborhood libraries that offer self-checkout lanes instead of employing real people—automation is increasingly replacing jobs and leaving too few good new jobs behind."
+        },
+        {
+          "label": "P3",
+          "text": "The statistics in manufacturing are staggering. Despite the widespread fears about trade, a recent report showed that just 13 percent of jobs lost in manufacturing are due to trade—the rest of the losses have been due to advances in technology. Questions 46 to 50 are based on the following passage."
+        },
+        {
+          "label": "P4",
+          "text": "That is why more people are criticizing the ever-increasing role of technology in our economy. Our country is manufacturing more than ever before, but we are doing it with fewer workers. However, it's not just factories that are seeing losses—software and information technology are also having a dramatic impact on jobs most people think are secure from the forces of a rapidly-changing economy. Something transformative is happening in America that is having an adverse effect on American families. Whether policymakers and politicians admit it or not, workers have made clear their feelings about their economic insecurity and desire to keep good jobs in America."
+        },
+        {
+          "label": "P5",
+          "text": "So why are people so insistent on ignoring the perils of automation? They are failing to look ahead at a time when planning for the future is more important than ever. Resisting automation is futile: it is as inevitable as industrialization was before it. I sincerely hope that those who assert that automation will make us more effective and pave the way for new occupations are right, but the reality of automation's detrimental effects on workers makes me skeptical. No one can currently say where the new jobs are coming from or when, and any sensible company or country should prepare for all alternatives."
+        },
+        {
+          "label": "P6",
+          "text": "I'm not overstating the danger: look at what's happened to the labor force. According to economic research, one in six working-age men, 25–54, doesn't have a job. Fifty years ago, nearly 100 percent of men that age were working. Women's labor force participation, meanwhile, has slipped back to the level it was at in the late 1980s."
+        },
+        {
+          "label": "P7",
+          "text": "American families and prominent business leaders are aware that there's a big problem with automation. The value of a college degree is diminishing, and our upward mobility is declining. If we want an economy that allows everyone to be economically secure, we need to start thinking about how we can rightfully address automation."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "P1 Look at the people around you. Some are passive, others more aggressive. Some work best alone, others crave companionship. We easily recognize that there is great variation among the individuals who live near us. Yet, when we speak of people from elsewhere, we seem to inevitably characterize them based on their country of origin.\n\nP2 Statistics specialists, when they speak of national averages, often make the same mistake.\n\nP3 Newly published research shows how erroneous such overviews are. Three researchers analyzed decades of values-based surveys and found that only between 16% and 21% of the variation in cultural values could be explained by differences between countries. In other words, the vast majority of what makes us culturally distinct from one another has nothing to do with our homeland. Questions 51 to 55 are based on the following passage.\n\nP4 To determine what factors really are associated with culture, the authors combined data from 558 prior surveys that each measured one or more of Hofstede's cultural dimensions. These are traits, such as individualism and masculinity, that describe work-related cultural values. (They are not a measure of visible cultural traits, such as food or dress.) Though the validity of Hofstede's dimensions has been questioned, they have the singular benefit of having been in use for decades, which allows for historical and international comparisons.\n\nP5 The researchers found that both demographic factors, such as age, and environmental factors, such as long-term unemployment rates, were more correlated with cultural values than nationality. Occupation and social economic status were the most strongly correlated, suggesting that our values are more economically driven than we usually give them credit for.\n\nP6 The evidence implies that people with similar jobs and incomes are more culturally alike, regardless of where they live. Vas Taras, the lead author of the study, puts it this way: \"Tell me how much you make and I will make a pretty accurate prediction about your cultural values. Tell me what your nationality is and I probably will make a wrong prediction.\"\n\nP7 Taras says our erroneous belief that countries are cultures has caused businesses to teach their employees useless or even harmful ways of interacting with their international peers. Chinese and American lawyers might be trained to interact based on the assumption that the Chinese person is less individualistic, even though their similar social economic situations make it probable they are actually quite alike in that regard.\n\nP8 The country, as the unit of authority, is often a convenient way of generalizing about a population.\n\nP9 However, our focus on countries can mask broad variations within them. In the majority of cases we would be better off identifying people by the factors that constrain their lives, like income, rather than by the lines surrounding them on a map.\n\nP10 52. What do we learn about Hofstede's cultural dimensions? A) They are useful in comparing cultural values across time and space. B) They have brought unusual benefits to people of different cultures. C) They are widely used to identify people's individual traits. D) They provide valuable questions for researchers to study. the researchers found that... 一类直接陈述。\n\nP11 说 both demographic factors, such as age, and environmental factors, such as long-term unemployment rates, were more correlated with cultural values than 是 occupation 和 social economic status\"相反。 B) our values are more economically driven than we usually give them credit for ↔ An individual's financial status was often underestimated Occupation and social economic status ↔An individual's financial status C) 原文 suggesting that values are more economically driven than we usually give them credit for 表明 occupation/social economic status 一直被\"低估\"——而 Too much emphasis had been placed on one's occupation 说\"过度强调\"，方向反转。 D) The impact of social progress on one's values was ignored 中的 social progress 全 文未出现；P5 只列了 demographic、environmental、occupation、social economic status 等 factor，没出现 social progress 这个术语。\n\nP12 D) we would be better off identifying people by the factors that constrain their lives, like income, rather than by the lines surrounding them on a map ↔Nationality is less useful than socio-economic status as an indicator of one's values",
+      "blocks": [
+        {
+          "label": "P1",
+          "text": "Look at the people around you. Some are passive, others more aggressive. Some work best alone, others crave companionship. We easily recognize that there is great variation among the individuals who live near us. Yet, when we speak of people from elsewhere, we seem to inevitably characterize them based on their country of origin."
+        },
+        {
+          "label": "P2",
+          "text": "Statistics specialists, when they speak of national averages, often make the same mistake."
+        },
+        {
+          "label": "P3",
+          "text": "Newly published research shows how erroneous such overviews are. Three researchers analyzed decades of values-based surveys and found that only between 16% and 21% of the variation in cultural values could be explained by differences between countries. In other words, the vast majority of what makes us culturally distinct from one another has nothing to do with our homeland. Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "label": "P4",
+          "text": "To determine what factors really are associated with culture, the authors combined data from 558 prior surveys that each measured one or more of Hofstede's cultural dimensions. These are traits, such as individualism and masculinity, that describe work-related cultural values. (They are not a measure of visible cultural traits, such as food or dress.) Though the validity of Hofstede's dimensions has been questioned, they have the singular benefit of having been in use for decades, which allows for historical and international comparisons."
+        },
+        {
+          "label": "P5",
+          "text": "The researchers found that both demographic factors, such as age, and environmental factors, such as long-term unemployment rates, were more correlated with cultural values than nationality. Occupation and social economic status were the most strongly correlated, suggesting that our values are more economically driven than we usually give them credit for."
+        },
+        {
+          "label": "P6",
+          "text": "The evidence implies that people with similar jobs and incomes are more culturally alike, regardless of where they live. Vas Taras, the lead author of the study, puts it this way: \"Tell me how much you make and I will make a pretty accurate prediction about your cultural values. Tell me what your nationality is and I probably will make a wrong prediction.\""
+        },
+        {
+          "label": "P7",
+          "text": "Taras says our erroneous belief that countries are cultures has caused businesses to teach their employees useless or even harmful ways of interacting with their international peers. Chinese and American lawyers might be trained to interact based on the assumption that the Chinese person is less individualistic, even though their similar social economic situations make it probable they are actually quite alike in that regard."
+        },
+        {
+          "label": "P8",
+          "text": "The country, as the unit of authority, is often a convenient way of generalizing about a population."
+        },
+        {
+          "label": "P9",
+          "text": "However, our focus on countries can mask broad variations within them. In the majority of cases we would be better off identifying people by the factors that constrain their lives, like income, rather than by the lines surrounding them on a map."
+        },
+        {
+          "label": "P10",
+          "text": "52. What do we learn about Hofstede's cultural dimensions? A) They are useful in comparing cultural values across time and space. B) They have brought unusual benefits to people of different cultures. C) They are widely used to identify people's individual traits. D) They provide valuable questions for researchers to study. the researchers found that... 一类直接陈述。"
+        },
+        {
+          "label": "P11",
+          "text": "说 both demographic factors, such as age, and environmental factors, such as long-term unemployment rates, were more correlated with cultural values than 是 occupation 和 social economic status\"相反。 B) our values are more economically driven than we usually give them credit for ↔ An individual's financial status was often underestimated Occupation and social economic status ↔An individual's financial status C) 原文 suggesting that values are more economically driven than we usually give them credit for 表明 occupation/social economic status 一直被\"低估\"——而 Too much emphasis had been placed on one's occupation 说\"过度强调\"，方向反转。 D) The impact of social progress on one's values was ignored 中的 social progress 全 文未出现；P5 只列了 demographic、environmental、occupation、social economic status 等 factor，没出现 social progress 这个术语。"
+        },
+        {
+          "label": "P12",
+          "text": "D) we would be better off identifying people by the factors that constrain their lives, like income, rather than by the lines surrounding them on a map ↔Nationality is less useful than socio-economic status as an indicator of one's values"
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay related to the short passage given below. In your essay, you are to comment on the phenomenon described in the passage and suggest measures to address the issue. You should write at least 150 words but no more than 200 words. Some parents in China are overprotective of their children. They plan everything for their children, make all the decisions for them, and do not allow them to explore on their own in case they make mistakes or get hurt.",
+      "model": "It is not uncommon nowadays that some parents in China are overprotective of their children. They arrange everything, make every decision on their behalf, and forbid any independent exploration for fear of mistakes or injuries. In my view, however well-intentioned this practice may be, it does far more harm than good. To begin with, such excessive protection deprives children of the chance to develop independence. When every choice is made for them, they never learn how to weigh options or solve problems on their own. Moreover, being shielded from all failure leaves them without resilience; a child who has never fallen simply does not know how to stand up again. As a result, these children may grow into adults who are competent in theory yet helpless in real life. To address this issue, parents should first loosen their grip and let children make age-appropriate decisions by themselves. In addition, they ought to treat mistakes as valuable lessons rather than disasters to be avoided at all costs. Ultimately, the wisest parents shift their role from controllers to guides, offering support from behind instead of clearing every obstacle ahead.",
+      "modelZh": "【参考译文】如今，中国一些家长对孩子过度保护的现象并不少见。他们替孩子安排好一切，代其做出每一个决定，还因为怕孩子犯错或受伤而禁止任何独立探索。在我看来，这种做法无论初衷多么美好，都是弊大于利的。首先，这种过度保护剥夺了孩子发展独立能力的机会。当所有选择都由别人替他们做时，他们永远学不会自己权衡利弊、自己解决问题。此外，把孩子隔绝在一切失败之外，会让他们缺乏抗挫力；一个从未跌倒过的孩子，根本不知道该如何重新站起来。结果，这些孩子可能长成理论上很能干、现实生活中却手足无措的成年人。为解决这一问题，家长首先应当松开双手，让孩子自己去做力所能及的决定。此外，他们应把犯错当作宝贵的一课，而不是不惜一切代价要避开的灾难。归根结底，最明智的家长会把自己的角色从掌控者转为引导者，在孩子身后给予支持，而不是替他们扫清前方的每一个障碍。【第 1 段】转述加让步亮态度。首段先用 It is not uncommon nowadays that... 把现象概括转述",
+      "outline": [
+        {
+          "no": 1,
+          "text": "转述加让步亮态度。首段先用 It is not uncommon nowadays that... 把现象概括转述 （arrange everything, make every decision, forbid any independent exploration），没有照抄原 句；再用 however well-intentioned this practice may be, it does far more harm than good 一句让 步转折亮明弊大于利的立场，落实了 outline 第 1 段'转述现象＋亮态度'的功能。"
+        },
+        {
+          "no": 2,
+          "text": "两条危害加因果收束。本段用 To begin with 领出'剥夺独立'、用 Moreover 递进到'缺乏抗挫 力'，最后 As a result 收一句 competent in theory yet helpless in real life，把两条危害的后果拧成一 股，正是 paragraphGuide 第 2 段'层层递进加因果收束'的落地。"
+        },
+        {
+          "no": 3,
+          "text": "三条落地对策。本段 To address this issue 呼应任务动词，给出 loosen their grip and let children make age-appropriate decisions、treat mistakes as valuable lessons、shift their role from controllers to guides 三条具体做法，每条都是可操作动作而非口号，达成 outline 第 3 段'给出对 策'的功能。"
+        }
+      ]
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2. 井冈山地处湖南、江西两省交界处，因其辉煌的革命历史被誉为\"中国革命红色摇篮\"。1927年10 月，毛泽东、朱德等老一辈革命家率领中国工农红军来到这里，开展了艰苦卓绝的斗争,创建了第一个 农村革命根据地，点燃了中国革命的星星之火，开辟了 \"农村包围 (besiege) 城市, 武装夺取政权\" 这 一具有中国特色的革命道路，中国革命从这里迈向胜利。井冈山现有100多处革命旧址，成为一个\"没 有围墙的革命历史博物馆\", 是爱国主义和革命传统教育的重要基地。 参考译文 整篇参考英译是复盘资产，考卷上只印中文原文——四六级 Part IV 翻译按整篇「表达通顺连贯、用词准确、语法 正确」四档评分。 Located on the border between Hunan and Jiangxi provinces, the Jinggang Mountains are honored as \"the cradle of the Chinese revolution\" for their glorious revolutionary history. In October 1927, Mao Zedong, Zhu De and other revolutionaries of the older generation led the Chinese Workers' and Peasants' Red Army here, where they waged an arduous struggle, founded the first rural revolutionary base, kindled the spark of the Chinese revolution, and opened up a revolutionary path with Chinese characteristics of \"besieging the cities from the countryside and seizing power by armed force.\" From here, the Chinese revolution marched toward victory. Today the Jinggang Mountains have more than 100 revolutionary sites and have become a \"revolutionary history museum without walls,\" serving as an important base for education in patriotism and revolutionary tradition.",
+      "source": "井冈山地处湖南、江西两省交界处，因其辉煌的革命历史被誉为\"中国革命红色摇篮\"。1927年10月，毛泽东、朱德等老一辈革命家率领中国工农红军来到这里，开展了艰苦卓绝的斗争,创建了第一个农村革命根据地，点燃了中国革命的星星之火，开辟了 \"农村包围 (besiege) 城市, 武装夺取政权\" 这一具有中国特色的革命道路，中国革命从这里迈向胜利。井冈山现有100多处革命旧址，成为一个\"没有围墙的革命历史博物馆\", 是爱国主义和革命传统教育的重要基地。",
+      "reference": "Located on the border between Hunan and Jiangxi provinces, the Jinggang Mountains are honored as \"the cradle of the Chinese revolution\" for their glorious revolutionary history. In October 1927, Mao Zedong, Zhu De and other revolutionaries of the older generation led the Chinese Workers' and Peasants' Red Army here, where they waged an arduous struggle, founded the first rural revolutionary base, kindled the spark of the Chinese revolution, and opened up a revolutionary path with Chinese characteristics of \"besieging the cities from the countryside and seizing power by armed force.\" From here, the Chinese revolution marched toward victory. Today the Jinggang Mountains have more than 100 revolutionary sites and have become a \"revolutionary history museum without walls,\" serving as an important base for education in patriotism and revolutionary tradition.",
+      "sentences": [
+        [
+          {
+            "label": "主干",
+            "text": "井冈山作主语，谓语\"地处\"与\"被誉为\"（主语策略：原句主语） 中文已有明确主语 井冈山，直接作英文主语 The Jinggang Mountains。本句其实并列了两个核心 动作：地处湖南、江西两省交界处（位于）和 被誉为\"中国革命红色摇篮\"（被称为）。可让二者共 享同一主语，其中\"被誉为\"是动作承受方，自然走被动。"
+          },
+          {
+            "label": "降级",
+            "text": "\"因……\"降级为原因状语 因其辉煌的革命历史 是\"被誉为\"的原因，不另起一句，降级为介词短语作状语：for its glorious revolutionary history，挂在 is honored as 之后。这样主干 located … and is honored as … 一 条线下来，原因用 for 短语轻轻挂上，避免拆成\"因为它有……历史，所以被称为……\"的两句平铺。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 本句讲\"地处\"\"被誉为\"都是至今成立的客观事实与现状，偏离全篇过去时基调，用一般现在时：is located / is honored。 语态 \"被誉为\"是承受动作，用被动 is honored as / is known as；\"地处\"虽是 located 形式，本质是 be located 的固定搭配表\"位于\"。 主谓一致 主语 The Jinggang Mountains 是约定俗成的复数形式专名，但作单一地名看待时谓语多用单数 is；为稳妥起见全篇对它统一用单数谓语 is/was。 介词搭配 \"地处……交界处\"用 located on the border between Hunan and Jiangxi（两省交界用 the border between A and B）；\"被誉为……\"用 honored as / known as。"
+          },
+          {
+            "label": "译文",
+            "text": "Located on the border between Hunan and Jiangxi provinces, the Jinggang Mountains are honored as \"the cradle of the Chinese revolution\" for their glorious revolutionary history. 2. 1927年10月，毛泽东、朱德等老一辈革命家率领中国工农红军来到这里，开展了艰苦卓绝的 斗争,创建了第一个农村革命根据地，点燃了中国革命的星星之火，开辟了\"农村包围(besiege)城 市,武装夺取政权\"这一具有中国特色的革命道路，中国革命从这里迈向胜利。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "革命家们作主语，串起一连串过去动作（主语策略：原句主语） 中文主语明确：毛泽东、朱德等老一辈革命家，作英文主语 Mao Zedong, Zhu De and other revolutionaries of the older generation。他们\"率领红军来到这里\"是主干谓语 led … and came here；后面 开展了艰苦卓绝的斗争 创建了第一个农村革命根据地 点燃了中国革命的星星之火 开辟 了……革命道路 是同一批人接连做出的并列动作。结尾 中国革命从这里迈向胜利 换了主语\"中国革 命\"，宜断成独立的一句或分句。"
+          },
+          {
+            "label": "降级",
+            "text": "多动作并列 + 引号道路名作宾语 + 末句独立 革命家发出的几个动作用并列谓语处理：came here, launched …, founded …, kindled …, and opened up …，共享一个主语，避免每个动作都重写一遍主语。其中 艰苦卓绝的斗争 译 an arduous struggle，星星之火 取比喻 the spark of the Chinese revolution。引号内 农村包围 (besiege)城市,武装夺取政权 是这条\"道路\"的具体内容，作 the revolutionary path 的同位/定 语：a revolutionary path with Chinese characteristics of \"besieging the cities from the countryside and seizing power by armed force\"。末句 中国革命从这里迈向胜利 主语变了，单 独成句 From here, the Chinese revolution marched toward victory。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 本句是 1927年10月 已经发生并结束的历史事件，回指全篇基调用一般过去时：led, came, launched, founded, kindled, opened up, marched。 单复数 \"革命家\"不止一位→revolutionaries 复数；\"100多处\"\"城市\"等复数概念注意加 s；\"第一个农村革 命根据地\"是单数特指，用 the first rural revolutionary base。 冠词 \"第一个\"用定冠词 the first；\"星星之火\"取比喻特指 the spark；\"中国革命\"特指那场革命用 the Chinese revolution。 用词 题目给出 besiege（包围），直接用其动名词 besieging the cities；\"武装夺取政权\"译 seizing (state) power by armed force/military force；\"率领\"用 led，\"创建\"用 founded/established。 主谓一致 主语 Mao Zedong, Zhu De and other revolutionaries 是复数，谓语全部用过去式复数形式 （led 等过去式不分单复数，但若用 were/have 等须配复数）。"
+          },
+          {
+            "label": "译文",
+            "text": "In October 1927, Mao Zedong, Zhu De and other revolutionaries of the older generation led the Chinese Workers' and Peasants' Red Army here, where they waged an arduous struggle, founded the first rural revolutionary base, kindled the spark of the Chinese revolution, and opened up a revolutionary path with Chinese characteristics of \"besieging the cities from the countryside and seizing power by armed force.\" From here, the Chinese revolution marched toward victory. 3. 井冈山现有100多处革命旧址，成为一个\"没有围墙的革命历史博物馆\", 是爱国主义和革命传 统教育的重要基地。"
+          }
+        ],
+        [
+          {
+            "label": "主干",
+            "text": "井冈山作主语，三个现状谓语并列（主语策略：原句主语） 主语仍是 井冈山，但与前句相邻、宜用代词 It 承接。三个动作都是现状：现有100多处革命旧址 （has / is home to）、成为一个\"没有围墙的革命历史博物馆\"（has become）、是……重要基地 （is）。可让 It 作主语带出这三层。"
+          },
+          {
+            "label": "降级",
+            "text": "\"100多处旧址\"作宾语、两个称号作表语并列 100多处革命旧址 作 has 的宾语：more than 100 revolutionary sites。没有围墙的革命历史博物 馆 与 爱国主义和革命传统教育的重要基地 都是对井冈山身份的判断，可处理成并列表语：has become a revolutionary history museum without walls and serves as an important base for education in patriotism and revolutionary tradition。\"爱国主义和革命传统教育\"用 education in patriotism and revolutionary tradition，把\"教育\"提为中心词、两项内容用 in 挂上。"
+          },
+          {
+            "label": "语法",
+            "text": "时态 本句讲井冈山今天的现状（现有、已成为、是），偏离过去时基调，用一般现在时与现在完成时： has, has become, serves。 单复数 \"100多处旧址\"是复数→more than 100 revolutionary sites（site 加 s）；\"博物馆\"\"基地\"是单数 →a museum, an important base。 冠词 \"一个博物馆\"用不定冠词 a；\"重要基地\"首次提及用 an important base；注意 an 在元音音素前。 数词表达 \"100多处\"译 more than 100 / over 100，不要写成 100 more（那是\"再多100个\"）。"
+          },
+          {
+            "label": "译文",
+            "text": "Today the Jinggang Mountains have more than 100 revolutionary sites and have become a \"revolutionary history museum without walls,\" serving as an important base for education in patriotism and revolutionary tradition. 英语六级 2021年12月·第3套 · 全卷构成 Part II 听力 与2021年12月第1套共用 · 题目解析 → Part III Section A 完形填空（选词填空） 与2021年12月第1套共用 · 题目解析 → Part III Part III Part III"
+          }
+        ]
+      ]
+    }
+  },
+  "flags": [
+    "no-audio",
+    "passage-truncated"
+  ]
+}

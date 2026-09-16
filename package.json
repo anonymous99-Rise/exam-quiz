@@ -1,0 +1,59 @@
+{
+  "name": "exam-quiz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "bank:inventory": "node tools/inventory.mjs",
+    "bank:probe": "node tools/pdf-probe.mjs",
+    "bank:index": "node tools/bank-index.mjs",
+    "bank:validate": "node tools/bank-validate.mjs",
+    "bank:add": "node tools/bank-add.mjs",
+    "bank:export": "node tools/bank-export.mjs",
+    "bank:roundtrip": "node tools/bank-roundtrip.mjs",
+    "bank:extract-doc": "node tools/doc-extract.mjs",
+    "bank:extract-report": "node tools/extract-report.mjs",
+    "bank:ans-probe": "node tools/ans-probe.mjs",
+    "bank:assets": "node tools/assets-audio.mjs",
+    "bank:fix-legacy": "node tools/fix-legacy-defects.mjs",
+    "bank:migrate-legacy": "node tools/migrate-legacy.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "clsx": "^2.1.1",
+    "hls.js": "^1.7.3",
+    "next": "^16.3.5",
+    "next-auth": "5.0.0-beta.32",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.5",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.3",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "exceljs": "^4.4.0",
+    "pg": "^8.23.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.1"
+  }
+}
