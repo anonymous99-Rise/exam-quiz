@@ -126,13 +126,29 @@ for (const examId of exams) {
       sectionNos.get(q.sectionId)?.add(q.no);
       sectionCount.set(q.sectionId, (sectionCount.get(q.sectionId) ?? 0) + 1);
 
+      /*
+       * 跨套重复题干：只有「题干 + 选项」都一致才算真的重复。
+       *
+       * 两处曾经全是误报，导致 10 条警告淹掉了真信号：
+       *   1. word-bank（选词填空）的 stem 是**共用的那段原文**，相邻两题天然同文；
+       *   2. 听力/阅读有大量套话题干（"What do we learn about the woman?" 之类），
+       *      跨年份反复出现是正常的，题不同、选项就不同。
+       */
       const key = q.stem.trim().toLowerCase();
-      if (key.length > 20) {
-        const prev = globalStems.get(key);
+      if (q.kind === 'word-bank') continue;
+      const optSig = Array.isArray(q.options)
+        ? q.options
+            .map((o) => `${o.label}:${o.text.trim().toLowerCase()}`)
+            .sort()
+            .join('|')
+        : '';
+      const dupKey = `${key}||${optSig}`;
+      if (key.length > 20 && optSig) {
+        const prev = globalStems.get(dupKey);
         if (prev && prev !== `${id}#${q.no}`) {
-          warn(`${examId}/${id}#${q.no}: 题干与 ${prev} 重复`);
+          warn(`${examId}/${id}#${q.no}: 题干与选项均与 ${prev} 重复`);
         } else {
-          globalStems.set(key, `${id}#${q.no}`);
+          globalStems.set(dupKey, `${id}#${q.no}`);
         }
       }
     }
