@@ -31,24 +31,60 @@ export type EnsureResult = {
   ok: boolean;
   /** 本次调用是否真的新建了表 */
   created?: boolean;
+  /** 成功时：用的是哪条连接（pooled / direct / database_url） */
+  via?: string;
   /** 失败原因（已脱敏，可安全回传/记日志） */
   error?: string;
   /** 失败发生在哪一步 */
   step?: 'no-url' | 'connect' | 'ddl' | 'verify';
 };
 
-/** 连接串：优先非池化直连（DDL 走 pgbouncer 偶有兼容问题），回退池化 */
+/** 连接串候选：池化在前（Supavisor 的证书链是正常 CA；直连是自签证书，且新项目常只给 IPv6） */
+export function pgCandidates(): { label: string; url: string }[] {
+  const list: { label: string; url: string }[] = [
+    { label: 'pooled', url: process.env.POSTGRES_URL ?? '' },
+    { label: 'direct', url: process.env.POSTGRES_URL_NON_POOLING ?? '' },
+    { label: 'database_url', url: process.env.DATABASE_URL ?? '' },
+  ];
+  const seen = new Set<string>();
+  return list.filter((c) => {
+    if (!c.url || seen.has(c.url)) return false;
+    seen.add(c.url);
+    return true;
+  });
+}
+
+/** 兼容旧调用：仍返回首选的连接串 */
 export function pgConnString(): string {
-  return (
-    process.env.POSTGRES_URL_NON_POOLING ??
-    process.env.DATABASE_URL ??
-    process.env.POSTGRES_URL ??
-    ''
-  );
+  return pgCandidates()[0]?.url ?? '';
+}
+
+/**
+ * 去掉连接串里的 ssl 相关参数。
+ *
+ * 为什么必须去掉：`pg` 会解析连接串里的 `sslmode`，而新版语义下 `sslmode=require`
+ * 会**开启证书校验**，覆盖我们显式传入的 `ssl` 配置 —— 线上实测报
+ * 「self-signed certificate in certificate chain」（Supabase 直连用自签证书），
+ * 于是建表这一步直接失败、表永远建不起来。
+ * 我们改用显式的 ssl 选项来控制校验行为，不让连接串插手。
+ */
+function stripSslParams(conn: string): string {
+  return conn
+    .replace(/([?&])(sslmode|ssl|uselibpqcompat|sslrootcert)=[^&]*/gi, '$1')
+    .replace(/[?&]+(&|$)/g, '$1')
+    .replace(/[?&]$/, '');
+}
+
+/** TLS：Supabase 直连是自签证书，必须放宽校验（仅此连接、不入库任何数据） */
+function sslFor(conn: string) {
+  if (/sslmode=disable/i.test(conn)) return undefined;
+  return { rejectUnauthorized: false, checkServerIdentity: () => undefined };
 }
 
 /** 进程内缓存：成功后不再重复尝试 */
 let ensured = false;
+/** 上次成功用的连接标签（自检端点回显，便于排查） */
+let ensuredVia: string | null = null;
 /**
  * 失败后的冷却时间：数据库不可达时，建表要等到连接超时（8s）。
  * 若每个同步请求都重试一次，用户每次同步都会被拖 8 秒才轮到 REST 兜底 ——
@@ -78,23 +114,41 @@ async function loadPg(): Promise<typeof pg> {
   return pgMod;
 }
 
-async function withClient<T>(fn: (c: pg.Client) => Promise<T>): Promise<T> {
-  const conn = pgConnString();
-  if (!conn) throw new Error('no-postgres-url');
+async function withClient<T>(label: string, rawConn: string, fn: (c: pg.Client) => Promise<T>): Promise<T> {
   const { Client } = await loadPg();
+  const conn = stripSslParams(rawConn);
   const client = new Client({
     connectionString: conn,
     connectionTimeoutMillis: 8000,
     statement_timeout: 8000,
-    // Supabase 要求 TLS；证书链在部分 serverless 环境里校验失败，故不强制校验
-    ssl: conn.includes('sslmode=disable') ? undefined : { rejectUnauthorized: false },
+    ssl: sslFor(rawConn),
   });
-  await client.connect();
+  try {
+    await client.connect();
+  } catch (e) {
+    throw new Error(`[${label}] ${e instanceof Error ? e.message : String(e)}`);
+  }
   try {
     return await fn(client);
   } finally {
     await client.end().catch(() => {});
   }
+}
+
+/** 依次尝试各候选连接串，返回第一个成功的；全失败则抛出汇总错误 */
+async function withFirstClient<T>(fn: (c: pg.Client) => Promise<T>): Promise<{ value: T; label: string }> {
+  const cands = pgCandidates();
+  if (!cands.length) throw new Error('no-postgres-url');
+  const errors: string[] = [];
+  for (const c of cands) {
+    try {
+      const value = await withClient(c.label, c.url, fn);
+      return { value, label: c.label };
+    } catch (e) {
+      errors.push(e instanceof Error ? e.message : String(e));
+    }
+  }
+  throw new Error(errors.join(' | '));
 }
 
 /**
@@ -110,7 +164,8 @@ export async function ensureProgressTable(force = false): Promise<EnsureResult> 
   if (!pgConnString()) return { ok: false, step: 'no-url', error: 'no-postgres-url' };
 
   try {
-    const created = await withClient(async (client) => {
+    // 回调只返回 boolean —— 不要把外层的 label 包进返回值，否则与解构变量互相引用
+    const res = await withFirstClient(async (client) => {
       const before = await client.query(
         `select to_regclass('public.progress') is not null as exists`,
       );
@@ -120,7 +175,8 @@ export async function ensureProgressTable(force = false): Promise<EnsureResult> 
     });
     ensured = true;
     lastFailAt = 0;
-    return { ok: true, created };
+    ensuredVia = res.label;
+    return { ok: true, created: res.value, via: res.label };
   } catch (e) {
     lastFailAt = Date.now();
     return { ok: false, step: 'ddl', error: safeError(e) };
@@ -133,10 +189,11 @@ export async function checkSchema(): Promise<{
   tableExists: boolean | null;
   tableError?: string;
   columnCount: number | null;
+  via: string | null;
 }> {
   const ddl = await ensureProgressTable(true);
   try {
-    const info = await withClient(async (client) => {
+    const info = await withFirstClient(async (client) => {
       const t = await client.query(`select to_regclass('public.progress') is not null as exists`);
       const cols = await client.query(
         `select count(*)::int as n from information_schema.columns
@@ -144,9 +201,14 @@ export async function checkSchema(): Promise<{
       );
       return { exists: Boolean(t.rows[0]?.exists), n: Number(cols.rows[0]?.n ?? 0) };
     });
-    return { ddl, tableExists: info.exists, columnCount: info.n };
+    return {
+      ddl,
+      tableExists: info.value.exists,
+      columnCount: info.value.n,
+      via: ddl.via ?? info.label ?? ensuredVia,
+    };
   } catch (e) {
-    return { ddl, tableExists: null, tableError: safeError(e), columnCount: null };
+    return { ddl, tableExists: null, tableError: safeError(e), columnCount: null, via: ddl.via ?? null };
   }
 }
 

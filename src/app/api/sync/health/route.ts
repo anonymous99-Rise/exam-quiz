@@ -60,6 +60,7 @@ export async function GET() {
       env,
       schema: {
         ddl: schema.ddl,
+        via: schema.via,
         tableExists: schema.tableExists,
         tableError: schema.tableError ?? null,
         columnCount: schema.columnCount,
