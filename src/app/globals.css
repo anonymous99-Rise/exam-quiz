@@ -137,13 +137,24 @@
     scrollbar-width: thin;
     scrollbar-color: var(--color-line-strong) transparent;
   }
+  .scroll-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scroll-thin::-webkit-scrollbar-thumb {
+    background: var(--color-line-strong);
+    border-radius: 999px;
+  }
+  .scroll-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
 
   /*
    * 触控命中区补足（WCAG 2.5.8 目标尺寸 ≥ 24×24）。
    *
-   * 面包屑与页脚小链接的文字只有 19px / 15px 高，手机上很难点中。用伪元素把
-   * 命中区向外扩一圈：伪元素属于链接本身，点击即可命中；因为是绝对定位，
-   * 行高与排版完全不变（用 padding 撑会把整行撑高，破坏既有版式）。
+   * 面包屑与页脚小链接的文字只有 15–19px 高，手机上很难点中。用伪元素把命中区
+   * 向外扩一圈：伪元素属于链接本身，点它就是点链接；因为是绝对定位，行高与排版
+   * 完全不变（改用 padding 撑会把整行撑高，破坏既有版式）。
    */
   nav[aria-label='面包屑'] a,
   .tap-expand {
@@ -155,17 +166,6 @@
     position: absolute;
     /* 19px 高的文字链接 → 约 31px 命中区；横向只扩 3px，避免相邻项命中区互相压住 */
     inset: -6px -3px;
-  }
-  .scroll-thin::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-  }
-  .scroll-thin::-webkit-scrollbar-thumb {
-    background: var(--color-line-strong);
-    border-radius: 999px;
-  }
-  .scroll-thin::-webkit-scrollbar-track {
-    background: transparent;
   }
 }
 

@@ -51,7 +51,10 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
           </span>
         </Link>
 
-        <nav className="-mx-1 flex min-w-0 flex-1 items-center gap-0.5 overflow-x-auto px-1">
+        <nav
+          aria-label="主导航"
+          className="-mx-1 flex min-w-0 flex-1 items-center gap-0.5 overflow-x-auto px-1"
+        >
           {LINKS.map((l) => {
             const active = l.href === '/' ? pathname === '/' : pathname.startsWith(l.href);
             const badge = l.badge ? badgeOf(l.badge) : null;

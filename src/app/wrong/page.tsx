@@ -52,7 +52,7 @@ export default function WrongPage() {
 
   return (
     <main className="mx-auto w-full max-w-[1120px] px-4 pt-10 pb-20 sm:px-5">
-      <nav className="t-small mb-6 flex items-center gap-1.5 text-muted">
+      <nav aria-label="面包屑" className="t-small mb-6 flex items-center gap-1.5 text-muted">
         <Link href="/" className="transition hover:text-ink">
           首页
         </Link>

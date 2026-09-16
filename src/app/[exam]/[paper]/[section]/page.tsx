@@ -48,7 +48,7 @@ export default async function SectionPage({
   if (!exam || !paper) notFound();
 
   const backLink = (
-    <nav className="mb-5 flex items-center gap-1.5 text-[12px] text-muted">
+    <nav aria-label="面包屑" className="mb-5 flex items-center gap-1.5 text-[12px] text-muted">
       <Link href="/" className="transition hover:text-ink">
         首页
       </Link>
