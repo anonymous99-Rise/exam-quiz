@@ -255,6 +255,36 @@ test.describe('听力播放器', () => {
     expect(src).toBe('/audio/cet6-2025-06-1.mp3');
   });
 
+  /*
+   * 回归护栏：曾经只断言「播放器元素存在」，于是掩盖了「全站自托管音频 404」的故障。
+   * 现在自托管 mp3 不在仓库里（public/audio 被 gitignore + vercelignore 排除），
+   * 所以这条用例断言的是**诚实的降级**：提示音源缺失、控件禁用、题干仍可作答，
+   * 而不是含糊的「音频播放出错」。
+   */
+  test('自托管音源缺失时给出明确提示，且不影响答题', async ({ page }) => {
+    // 本地 public/audio 里有 mp3（被 gitignore，不进部署包），线上才是 404。
+    // 用路由拦截把「部署包缺文件」这个状态确定性地复现出来。
+    await page.route('**/audio/*.mp3', (route) => route.fulfill({ status: 404, body: '' }));
+
+    await fresh(page, `${PAPER}/listening`);
+
+    // 注意：不能用 getByRole('alert') —— Next.js 的 route announcer 也是个
+    // role=alert 的空 div，会先被匹配到。
+    const alert = page.locator('p[role="alert"]');
+    await expect(alert).toContainText('本套听力音频未随本次部署提供', { timeout: 15_000 });
+    // 不能被 <audio> 自身的 error 事件覆写成通用文案
+    await expect(alert).not.toContainText('音频播放出错');
+    await expect(alert).toContainText('题干仍可正常作答');
+
+    // 传递控件禁用（避免点一个没反应的按钮），但题目仍可正常作答
+    await expect(page.getByRole('button', { name: '播放' })).toBeDisabled();
+    await expect(page.getByRole('slider', { name: '播放进度' })).toBeDisabled();
+    await expect(page.getByText('无音频')).toBeVisible();
+
+    await option(page, 1, 1).click();
+    await expect(page.locator('#q-1')).toContainText(/正确|答错/);
+  });
+
   test('分段标签带题号范围，点击滚动到对应题目', async ({ page }) => {
     await fresh(page, `${PAPER}/listening`);
     // 最后一段是 Section C 第 3 篇 · 22–25 题

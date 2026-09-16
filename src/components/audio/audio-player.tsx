@@ -259,8 +259,10 @@ export function AudioPlayer({
         <button
           type="button"
           onClick={toggle}
+          disabled={missingFile}
           aria-label={playing ? '暂停' : '播放'}
-          className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-solid text-white shadow-flat transition hover:bg-brand-ink"
+          title={missingFile ? '本套音频未随本次部署提供' : undefined}
+          className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-solid text-white shadow-flat transition hover:bg-brand-ink disabled:cursor-not-allowed disabled:opacity-40"
         >
           {playing ? (
             <svg viewBox="0 0 24 24" className="size-4" fill="currentColor">
@@ -283,11 +285,13 @@ export function AudioPlayer({
             value={current}
             onChange={(e) => seek(Number(e.target.value))}
             aria-label="播放进度"
-            className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand"
+            disabled={missingFile}
+            className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand disabled:cursor-not-allowed"
           />
           <div className="t-num mt-1 flex items-center justify-between text-[11px] text-muted">
             <span>{fmtTime(current)}</span>
-            <span>{ready ? fmtTime(duration) : '载入中…'}</span>
+            {/* 「载入中…」在音源缺失时会永远挂着 —— 那种情况给确定结论 */}
+            <span>{ready ? fmtTime(duration) : missingFile ? '无音频' : '载入中…'}</span>
           </div>
         </div>
 
@@ -296,7 +300,8 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={() => seekBy(-10)}
-            className="btn btn-ghost btn-sm t-num hidden min-h-10 sm:inline-flex"
+            disabled={missingFile}
+            className="btn btn-ghost btn-sm t-num hidden min-h-10 disabled:cursor-not-allowed disabled:opacity-40 sm:inline-flex"
             aria-label="后退 10 秒"
           >
             −10s
@@ -304,7 +309,8 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={() => seekBy(10)}
-            className="btn btn-ghost btn-sm t-num hidden min-h-10 sm:inline-flex"
+            disabled={missingFile}
+            className="btn btn-ghost btn-sm t-num hidden min-h-10 disabled:cursor-not-allowed disabled:opacity-40 sm:inline-flex"
             aria-label="前进 10 秒"
           >
             +10s
@@ -312,8 +318,9 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={cycleRate}
+            disabled={missingFile}
             title="播放速度"
-            className="btn btn-ghost btn-sm t-num min-h-10 w-14"
+            className="btn btn-ghost btn-sm t-num min-h-10 w-14 disabled:cursor-not-allowed disabled:opacity-40"
           >
             {rate}×
           </button>
@@ -355,7 +362,12 @@ export function AudioPlayer({
           role="alert"
           className={cn('chip mt-3', missingFile ? 'chip-warn' : 'chip-bad')}
         >
-          {error}
+          {/*
+           * missingFile 优先于 error：<audio> 自身的 error 事件会晚于 HEAD 预检
+           * 触发并把 error 覆写成含糊的「音频播放出错」，这里以渲染期的确定性
+           * 派生兜住竞态，保证提示始终是「未随部署提供」。
+           */}
+          {missingFile ? '本套听力音频未随本次部署提供' : error}
           {missingFile ? (
             <>· 题干仍可正常作答；音频补上后会自动恢复</>
           ) : (
