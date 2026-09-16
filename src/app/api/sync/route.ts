@@ -11,6 +11,7 @@
 import { NextResponse } from 'next/server';
 
 import { auth } from '@/auth';
+import { ensureProgressTable } from '@/lib/sync/ensure-schema';
 import { SYNC_TABLE, supabaseAdmin, syncEnabled } from '@/lib/sync/supabase';
 import { MAX_SNAPSHOT_BYTES, zProgressSnapshot } from '@/lib/sync/schema';
 
@@ -22,6 +23,19 @@ const disabled = () =>
 const unauthenticated = () =>
   NextResponse.json({ ok: false, reason: 'unauthenticated' }, { status: 401 });
 
+/**
+ * 建表「自愈」：Supabase 集成注入的连接串是 Secret，本地拿不到、也没法手动跑 DDL，
+ * 所以首次同步时由应用自己建一次（幂等）。失败不拦请求 —— 让 Supabase 调用去报真实错误。
+ */
+async function ensureSchemaOnce(): Promise<void> {
+  const res = await ensureProgressTable();
+  if (!res.ok) {
+    console.warn('[sync] 建表自愈失败（继续尝试读写）:', res.error);
+  } else if (res.created) {
+    console.log('[sync] 已创建 public.progress 表');
+  }
+}
+
 export async function GET() {
   if (!syncEnabled) return disabled();
 
@@ -31,6 +45,8 @@ export async function GET() {
 
   const sb = supabaseAdmin();
   if (!sb) return disabled();
+
+  await ensureSchemaOnce();
 
   const { data, error } = await sb
     .from(SYNC_TABLE)
@@ -63,6 +79,8 @@ export async function POST(req: Request) {
 
   const sb = supabaseAdmin();
   if (!sb) return disabled();
+
+  await ensureSchemaOnce();
 
   const raw = await req.text();
   if (raw.length > MAX_SNAPSHOT_BYTES) {
