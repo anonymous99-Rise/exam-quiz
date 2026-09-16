@@ -21,22 +21,20 @@ import { cn } from '@/lib/utils';
  */
 
 /**
- * 跨域 HLS 走自有代理。
+ * 跨域音源走自有代理。
  *
  * 第三方 HLS 源不返回 CORS 头，hls.js 直接 fetch 会被浏览器判 Failed to fetch
  * （实测 18 套使用 HLS 的卷子在 Chrome 里全部播不出来）。
- * 同源地址（自托管 mp3）与已代理的地址原样返回。
+ * 同源地址（自托管 mp3、已代理的地址）原样返回。
  */
-function proxiedSrc(audio: AudioAsset): string {
-  const isHls = audio.kind === 'hls' || /\.m3u8(\?|$)/.test(audio.url);
-  if (!isHls) return audio.url;
-  if (audio.url.startsWith('/api/audio/')) return audio.url;
-  if (!/^https?:\/\//i.test(audio.url)) return audio.url;
+function proxiedUrl(url: string): string {
+  if (url.startsWith('/api/audio/')) return url;
+  if (!/^https?:\/\//i.test(url)) return url;
   try {
-    const u = new URL(audio.url);
+    const u = new URL(url);
     return `/api/audio${u.pathname}`;
   } catch {
-    return audio.url;
+    return url;
   }
 }
 
@@ -65,8 +63,27 @@ export function AudioPlayer({
 
   /* ---------- 音源装载 ---------- */
   // 先算出最终地址与形态，effect 只依赖这两个稳定值（避免 exhaustive-deps 警告）
-  const src = proxiedSrc(audio);
-  const isHlsSource = audio.kind === 'hls' || /\.m3u8(\?|$)/.test(audio.url);
+  /**
+   * 部署包里没有这个 mp3 时，assets 里记的备用源（当年旧站用的第三方 HLS）通常还活着，
+   * 而且经我们的代理可播 —— 自动切过去，而不是让用户自己去找「备用音源」链接：
+   * 妹妹要的是「能听到听力」，不是「知道部署缺了文件」。
+   *
+   * 用**派生值**而不是 state：在 effect 里 setState 会触发级联渲染（本项目
+   * react-hooks/set-state-in-effect 是 error 级），而这里根本不需要独立状态，
+   * missingFile 一变就该跟着变。真实情况仍由下方琥珀色提示如实写明，没有隐瞒。
+   */
+  const usingFallback = missingFile && !!audio.fallbackUrl;
+  const effectiveUrl = usingFallback && audio.fallbackUrl ? audio.fallbackUrl : audio.url;
+  const src = proxiedUrl(effectiveUrl);
+  const isHlsSource =
+    /\.m3u8(\?|$)/i.test(effectiveUrl) || (!usingFallback && audio.kind === 'hls');
+  /**
+   * 没有可用音源：确认文件缺失、且没有可切过去的备用源。
+   *
+   * 不能用 missingFile 单独判：切到备用源后 missingFile 仍是 true（它记录的是
+   * 「部署包里没这个文件」这个事实），但播放器此时可用，禁用控件就错了。
+   */
+  const noSource = missingFile && !usingFallback;
 
   useEffect(() => {
     const el = audioRef.current;
@@ -142,6 +159,14 @@ export function AudioPlayer({
       alive = false;
     };
   }, [src, isHlsSource]);
+
+  /*
+   * 部署包里没有这个 mp3 时，assets 里记的备用源（当年旧站用的第三方 HLS）通常
+   * 还活着，而且经我们的代理可播。
+   *
+   * 切换逻辑写在渲染期的派生值里（见上面的 usingFallback），这里不再补 effect：
+   * 在 effect 里 setState 会触发级联渲染（本项目该规则是 error 级）。
+   */
 
   /* ---------- 事件 ---------- */
   useEffect(() => {
@@ -273,9 +298,9 @@ export function AudioPlayer({
         <button
           type="button"
           onClick={toggle}
-          disabled={missingFile}
+          disabled={noSource}
           aria-label={playing ? '暂停' : '播放'}
-          title={missingFile ? '本套音频未随本次部署提供' : undefined}
+          title={noSource ? '本套音频未随本次部署提供' : undefined}
           className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-solid text-white shadow-flat transition hover:bg-brand-ink disabled:cursor-not-allowed disabled:opacity-40"
         >
           {playing ? (
@@ -299,13 +324,13 @@ export function AudioPlayer({
             value={current}
             onChange={(e) => seek(Number(e.target.value))}
             aria-label="播放进度"
-            disabled={missingFile}
+            disabled={noSource}
             className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand disabled:cursor-not-allowed"
           />
           <div className="t-num mt-1 flex items-center justify-between text-[11px] text-muted">
             <span>{fmtTime(current)}</span>
             {/* 「载入中…」在音源缺失时会永远挂着 —— 那种情况给确定结论 */}
-            <span>{ready ? fmtTime(duration) : missingFile ? '无音频' : '载入中…'}</span>
+            <span>{ready ? fmtTime(duration) : noSource ? '无音频' : '载入中…'}</span>
           </div>
         </div>
 
@@ -314,7 +339,7 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={() => seekBy(-10)}
-            disabled={missingFile}
+            disabled={noSource}
             className="btn btn-ghost btn-sm t-num hidden min-h-10 disabled:cursor-not-allowed disabled:opacity-40 sm:inline-flex"
             aria-label="后退 10 秒"
           >
@@ -323,7 +348,7 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={() => seekBy(10)}
-            disabled={missingFile}
+            disabled={noSource}
             className="btn btn-ghost btn-sm t-num hidden min-h-10 disabled:cursor-not-allowed disabled:opacity-40 sm:inline-flex"
             aria-label="前进 10 秒"
           >
@@ -332,7 +357,7 @@ export function AudioPlayer({
           <button
             type="button"
             onClick={cycleRate}
-            disabled={missingFile}
+            disabled={noSource}
             title="播放速度"
             className="btn btn-ghost btn-sm t-num min-h-10 w-14 disabled:cursor-not-allowed disabled:opacity-40"
           >
@@ -371,20 +396,29 @@ export function AudioPlayer({
         </div>
       )}
 
+      {/*
+       * 已切到在线备用源：不说「出错」，如实说明来源变化即可（琥珀色＝须知，不是故障）。
+       */}
+      {usingFallback && !error && (
+        <p className="chip chip-warn mt-3" role="status">
+          本套音频未随本次部署提供，已自动改用在线音源
+        </p>
+      )}
+
       {error && (
         <p
           role="alert"
-          className={cn('chip mt-3', missingFile ? 'chip-warn' : 'chip-bad')}
+          className={cn('chip mt-3', noSource ? 'chip-warn' : 'chip-bad')}
         >
           {/*
-           * missingFile 优先于 error：<audio> 自身的 error 事件会晚于 HEAD 预检
-           * 触发并把 error 覆写成含糊的「音频播放出错」，这里以渲染期的确定性
-           * 派生兜住竞态，保证提示始终是「未随部署提供」。
+           * noSource 优先于 error：<audio> 自身的 error 事件会晚于 HEAD 预检触发并
+           * 把 error 覆写成含糊的「音频播放出错」，这里以渲染期的确定性派生兜住竞态。
            */}
-          {missingFile ? '本套听力音频未随本次部署提供' : error}
-          {missingFile ? (
+          {noSource ? '本套听力音频未随本次部署提供' : error}
+          {noSource ? (
             <>· 题干仍可正常作答；音频补上后会自动恢复</>
           ) : (
+            !usingFallback &&
             audio.fallbackUrl && (
               <>
                 {' · '}

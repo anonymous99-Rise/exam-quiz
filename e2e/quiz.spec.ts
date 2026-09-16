@@ -276,29 +276,33 @@ test.describe('听力播放器', () => {
 
   /*
    * 回归护栏：曾经只断言「播放器元素存在」，于是掩盖了「全站自托管音频 404」的故障。
+   *
    * 现在自托管 mp3 不在仓库里（public/audio 被 gitignore + vercelignore 排除），
-   * 所以这条用例断言的是**诚实的降级**：提示音源缺失、控件禁用、题干仍可作答，
-   * 而不是含糊的「音频播放出错」。
+   * 所以线上这些卷会走降级路径。这里断言的是**降级的质量**：
+   *   1. 自动切到 assets 里记的在线备用源（用户要的是能听到，不是看到报错）；
+   *   2. 用 role=status 如实告知来源变了，而不是含糊的「音频播放出错」；
+   *   3. 题干照常可作答。
    */
-  test('自托管音源缺失时给出明确提示，且不影响答题', async ({ page }) => {
+  test('自托管音源不在部署包里时，自动切到在线备用音源', async ({ page }) => {
     // 本地 public/audio 里有 mp3（被 gitignore，不进部署包），线上才是 404。
     // 用路由拦截把「部署包缺文件」这个状态确定性地复现出来。
     await page.route('**/audio/*.mp3', (route) => route.fulfill({ status: 404, body: '' }));
 
+    // 切换后要请求代理过的 m3u8 —— 先挂监听，避免竞态
+    const m3u8 = page.waitForRequest((r) => /\/api\/audio\/.*\.m3u8/.test(r.url()), {
+      timeout: 25_000,
+    });
+
     await fresh(page, `${PAPER}/listening`);
 
-    // 注意：不能用 getByRole('alert') —— Next.js 的 route announcer 也是个
-    // role=alert 的空 div，会先被匹配到。
-    const alert = page.locator('p[role="alert"]');
-    await expect(alert).toContainText('本套听力音频未随本次部署提供', { timeout: 15_000 });
-    // 不能被 <audio> 自身的 error 事件覆写成通用文案
-    await expect(alert).not.toContainText('音频播放出错');
-    await expect(alert).toContainText('题干仍可正常作答');
+    await expect(page.locator('p[role="status"]')).toContainText('已自动改用在线音源', {
+      timeout: 20_000,
+    });
+    await m3u8;
 
-    // 传递控件禁用（避免点一个没反应的按钮），但题目仍可正常作答
-    await expect(page.getByRole('button', { name: '播放' })).toBeDisabled();
-    await expect(page.getByRole('slider', { name: '播放进度' })).toBeDisabled();
-    await expect(page.getByText('无音频')).toBeVisible();
+    // 切换成功 = 播放器可用（不是禁用），且不再把它当成故障报错
+    await expect(page.getByRole('button', { name: '播放' })).toBeEnabled();
+    await expect(page.getByText('无音频')).toHaveCount(0);
 
     await option(page, 1, 1).click();
     await expect(page.locator('#q-1')).toContainText(/正确|答错/);
