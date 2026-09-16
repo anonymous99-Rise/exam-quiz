@@ -27,10 +27,10 @@ export function SubjectiveView({
     <div className="space-y-6">
       {subjective.writing && (
         <section className="card p-5">
-          <h2 className="mb-3 text-sm font-bold text-brand-strong">Part I · Writing</h2>
+          <h2 className="t-h2 mb-4 text-ink">Part I · Writing</h2>
 
-          <div className="rounded-[12px] border border-line bg-surface-warm p-3.5">
-            <h3 className="mb-1.5 text-xs font-semibold text-muted">题目要求</h3>
+          <div className="rounded-[10px] border border-line bg-surface-sunken p-3.5">
+            <h3 className="t-eyebrow mb-2">题目要求</h3>
             <p className="prose-en text-[14px] leading-7 whitespace-pre-wrap text-ink">
               {subjective.writing.directions}
             </p>
@@ -46,7 +46,7 @@ export function SubjectiveView({
           {/* 真题册只印题目要求，范文在解析册里 —— 没有范文时整块不显示 */}
           {subjective.writing.model && (
             <details className="mt-4">
-              <summary className="cursor-pointer text-xs font-semibold text-brand">
+              <summary className="cursor-pointer text-[13px] font-semibold text-brand-ink">
                 对照参考范文（建议先自己写完再看）
               </summary>
               <div className="mt-2" data-testid="writing-model">
@@ -65,11 +65,11 @@ export function SubjectiveView({
                 )}
                 {subjective.writing.outline.length > 0 && (
                   <div className="mt-3">
-                    <h3 className="mb-2 text-xs font-semibold text-muted">逐段拆解</h3>
-                    <ol className="space-y-2">
+                    <h3 className="t-eyebrow mb-2">逐段拆解</h3>
+                    <ol className="space-y-2.5">
                       {subjective.writing.outline.map((o) => (
-                        <li key={o.no} className="rounded-[12px] border border-line p-3">
-                          <div className="mb-1 text-[11px] font-bold text-brand-strong">
+                        <li key={o.no} className="rounded-[10px] border border-line p-3">
+                          <div className="mb-1.5 text-[11px] font-semibold text-muted">
                             第 {o.no} 段
                           </div>
                           <p className="text-[13px] leading-6 text-ink-soft">{o.text}</p>
@@ -86,17 +86,17 @@ export function SubjectiveView({
 
       {subjective.translation && (
         <section className="card p-5">
-          <h2 className="mb-3 text-sm font-bold text-brand-strong">Part II · Translation</h2>
+          <h2 className="t-h2 mb-4 text-ink">Part II · Translation</h2>
 
-          <div className="rounded-[12px] border border-line bg-surface-warm p-3.5">
-            <h3 className="mb-1.5 text-xs font-semibold text-muted">题目要求</h3>
-            <p className="text-[13px] leading-6 whitespace-pre-wrap text-ink">
+          <div className="rounded-[10px] border border-line bg-surface-sunken p-3.5">
+            <h3 className="t-eyebrow mb-2">题目要求</h3>
+            <p className="text-[14px] leading-6 whitespace-pre-wrap text-ink">
               {subjective.translation.directions}
             </p>
           </div>
 
           <div className="mt-4">
-            <h3 className="mb-2 text-xs font-semibold text-muted">中文原文</h3>
+            <h3 className="t-eyebrow mb-2">中文原文</h3>
             <p className="text-[14px] leading-7 whitespace-pre-wrap text-ink">
               {subjective.translation.source}
             </p>
@@ -109,7 +109,7 @@ export function SubjectiveView({
           />
 
           <details className="mt-4">
-            <summary className="cursor-pointer text-xs font-semibold text-brand">
+            <summary className="cursor-pointer text-[13px] font-semibold text-brand-ink">
               对照参考译文与逐句解析
             </summary>
             <div className="mt-2">
@@ -124,11 +124,11 @@ export function SubjectiveView({
               )}
               {subjective.translation.sentences.length > 0 && (
                 <div className="mt-3">
-                  <h3 className="mb-2 text-xs font-semibold text-muted">逐句解析</h3>
-                  <ol className="space-y-2">
+                  <h3 className="t-eyebrow mb-2">逐句解析</h3>
+                  <ol className="space-y-2.5">
                     {subjective.translation.sentences.map((sent, i) => (
-                      <li key={i} className="rounded-[12px] border border-line p-3">
-                        <div className="mb-1.5 text-[11px] font-bold text-brand-strong">
+                      <li key={i} className="rounded-[10px] border border-line p-3">
+                        <div className="mb-1.5 text-[11px] font-semibold text-muted">
                           第 {i + 1} 句
                         </div>
                         <AnalysisList analysis={sent} dense />
@@ -192,19 +192,18 @@ function DraftBox({
 
   return (
     <div className="mt-4">
-      <div className="mb-2 flex flex-wrap items-baseline gap-x-3">
-        <h3 className="text-xs font-semibold text-muted">我的作答</h3>
-        <span className="font-mono text-[11px] tabular-nums text-muted">
+      <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+        <h3 className="text-[13px] font-semibold text-ink-soft">我的作答</h3>
+        <span className="t-num text-[12px] text-muted">
           {count}
           {isChinese ? ' 字' : ' 词'}
         </span>
         {status && (
           <span
             className={cn(
-              'text-[11px]',
-              status.tone === 'ok' && 'text-ok',
-              status.tone === 'bad' && 'text-bad',
-              status.tone === 'muted' && 'text-faint',
+              'chip',
+              status.tone === 'ok' && 'chip-ok',
+              status.tone === 'bad' && 'chip-bad',
             )}
           >
             {status.text}
@@ -219,7 +218,8 @@ function DraftBox({
         rows={isChinese ? 6 : 10}
         spellCheck={false}
         className={cn(
-          'w-full resize-y rounded-[12px] border border-line bg-surface p-3 text-[14px] leading-7 text-ink',
+          // 200 词英文写作至少要 400px 高才不用一直滚（旧版 10 行 ≈ 300px）
+          'min-h-[300px] w-full resize-y rounded-[10px] border border-line bg-surface p-4 text-[15px] leading-7 text-ink sm:min-h-[420px]',
           'placeholder:text-faint focus:border-brand focus:outline-none',
           !isChinese && 'prose-en',
         )}

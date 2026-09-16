@@ -4,7 +4,11 @@ import { cn } from '@/lib/utils';
 
 /**
  * 单选类题目（听力 / 仔细阅读）
- * 支持题干中英对照、选项中英对照、答案高亮。
+ *
+ * v2 重写：
+ *   · 选项用 .opt 原语 —— 48px 命中高度、整行可点、状态用「颜色 + 左侧 3px 竖条 + 图标」三重编码
+ *     （色盲或灰度打印也能分辨）。
+ *   · 题号降级为中性小徽标（旧版题号是品牌粉大号，视觉权重压过题干）。
  */
 export function SingleChoiceView({
   question,
@@ -21,11 +25,12 @@ export function SingleChoiceView({
     <div>
       <Stem question={question} />
 
-      <ul className="mt-3 space-y-1.5">
+      <ul className="mt-3.5">
         {question.options.map((o) => {
           const isAnswer = o.label === question.answer;
           const isPicked = selected === o.label;
-          const wrong = reveal && isPicked && !isAnswer;
+          const isWrongPick = reveal && isPicked && !isAnswer;
+          const dimmed = reveal && !isAnswer && !isPicked;
 
           return (
             <li key={o.label}>
@@ -33,49 +38,51 @@ export function SingleChoiceView({
                 type="button"
                 disabled={reveal}
                 onClick={() => onSelect?.(o.label)}
+                aria-pressed={isPicked}
                 className={cn(
-                  'flex w-full items-start gap-2.5 rounded-[12px] border px-3 py-2 text-left transition',
-                  'disabled:cursor-default',
-                  reveal && isAnswer && 'border-ok/40 bg-ok-soft',
-                  wrong && 'border-bad/40 bg-bad-soft',
-                  !reveal && isPicked && 'border-brand bg-brand-soft',
-                  !reveal && !isPicked && 'border-line hover:border-brand/60 hover:bg-brand-soft/40',
-                  reveal && !isAnswer && !wrong && 'border-line opacity-70',
+                  'opt',
+                  !reveal && isPicked && 'opt-picked',
+                  reveal && isAnswer && 'opt-ok',
+                  isWrongPick && 'opt-bad',
+                  dimmed && 'opt-dim',
                 )}
               >
                 <span
                   className={cn(
-                    'mt-px grid size-5 shrink-0 place-items-center rounded-md border text-[11px] font-bold',
-                    reveal && isAnswer && 'border-ok bg-ok text-white',
-                    wrong && 'border-bad bg-bad text-white',
-                    !reveal && isPicked && 'border-brand bg-brand text-white',
-                    !(reveal && isAnswer) && !wrong && !(!reveal && isPicked) &&
-                      'border-line-strong text-muted',
+                    'optkey',
+                    !reveal && isPicked && 'optkey-picked',
+                    reveal && isAnswer && 'optkey-ok',
+                    isWrongPick && 'optkey-bad',
                   )}
+                  aria-hidden
                 >
                   {o.label}
                 </span>
-                <span className="min-w-0 flex-1">
-                  <span className="block text-[14px] leading-6 text-ink">{o.text}</span>
+
+                <span className="min-w-0 flex-1 pt-0.5">
+                  <span className="block text-[15px] leading-7 text-ink">{o.text}</span>
                   {o.textZh && (
-                    <span className="mt-0.5 block text-xs leading-5 text-muted">{o.textZh}</span>
+                    <span className="mt-1 block text-[13px] leading-6 text-muted">{o.textZh}</span>
                   )}
                 </span>
+
                 {reveal && isAnswer && (
-                  <span className="mt-px shrink-0 text-xs font-semibold text-ok">✓ 答案</span>
+                  <span className="mt-0.5 shrink-0 text-[12px] font-semibold text-ok-ink">
+                    ✓ 答案
+                  </span>
                 )}
-                {wrong && <span className="mt-px shrink-0 text-xs font-semibold text-bad">✕ 你选</span>}
+                {isWrongPick && (
+                  <span className="mt-0.5 shrink-0 text-[12px] font-semibold text-bad-ink">
+                    ✕ 你选
+                  </span>
+                )}
               </button>
             </li>
           );
         })}
       </ul>
 
-      {reveal && (
-        <div className="mt-4 rounded-[12px] border border-line bg-brand-soft/40 p-3">
-          <AnalysisList analysis={question.analysis} dense />
-        </div>
-      )}
+      {reveal && <AnalysisBlock analysis={question.analysis} />}
     </div>
   );
 }
@@ -95,43 +102,57 @@ export function WordBankView({
   reveal?: boolean;
   onSelect?: (label: string) => void;
 }) {
+  /*
+   * ⚠ 字母表必须**按 A→O 排序**后再渲染。
+   * wordBank 是对象，键顺序取决于来源文档的排版（2018-06-1 的真题册是双栏印刷，
+   * 键序是 A,I,B,J,C,K…），直接 Object.keys() 会让字母键盘变成「AIBJCKDLEMFNGOH」。
+   */
+  const letters = Object.keys(question.wordBank).sort((a, b) => a.localeCompare(b));
+
   return (
     <div>
       <Stem question={question} />
 
       {allBanks.length > 0 && (
-        <section className="mt-3 rounded-[12px] border border-line bg-surface-warm p-3">
-          <h4 className="mb-2 text-xs font-semibold text-muted">词库（15 选 10）</h4>
-          <ul className="grid grid-cols-2 gap-x-4 gap-y-1 sm:grid-cols-3">
-            {allBanks.map((w) => (
-              <li key={w.label} className="text-[13px] text-ink-soft">
-                <b className="mr-1.5 font-semibold text-brand-strong">{w.label})</b>
-                {w.text}
-              </li>
-            ))}
+        <section className="mt-3.5 rounded-[12px] border border-line bg-surface-sunken p-3.5">
+          <h4 className="t-eyebrow mb-2.5">词库 · 15 选 10</h4>
+          <ul className="grid grid-cols-2 gap-x-5 gap-y-1.5 sm:grid-cols-3">
+            {[...allBanks]
+              .sort((a, b) => a.label.localeCompare(b.label))
+              .map((w) => (
+                <li key={w.label} className="flex items-baseline gap-1.5 text-[14px] text-ink-soft">
+                  <b className="font-bold text-brand-ink">{w.label}</b>
+                  <span className="min-w-0 truncate">{w.text}</span>
+                </li>
+              ))}
           </ul>
         </section>
       )}
 
-      <ul className="mt-3 flex flex-wrap gap-1.5">
-        {Object.keys(question.wordBank).map((letter) => {
+      {/* 字母键盘：44px 触控目标（旧版 36px、手机上是 3 行 7 列挤在一起） */}
+      <ul className="mt-3.5 grid grid-cols-5 gap-2 sm:grid-cols-8 sm:gap-1.5">
+        {letters.map((letter) => {
           const isAnswer = letter === question.answer;
           const isPicked = selected === letter;
-          const wrong = reveal && isPicked && !isAnswer;
+          const isWrongPick = reveal && isPicked && !isAnswer;
           return (
             <li key={letter}>
               <button
                 type="button"
                 disabled={reveal}
                 onClick={() => onSelect?.(letter)}
+                aria-pressed={isPicked}
+                aria-label={`选项 ${letter}`}
                 className={cn(
-                  'grid size-9 place-items-center rounded-[10px] border text-sm font-bold transition',
+                  'grid h-11 w-full place-items-center rounded-[10px] border text-[15px] font-bold transition sm:h-10',
                   'disabled:cursor-default',
                   reveal && isAnswer && 'border-ok bg-ok text-white',
-                  wrong && 'border-bad bg-bad text-white',
-                  !reveal && isPicked && 'border-brand bg-brand text-white',
-                  !reveal && !isPicked && 'border-line-strong text-ink-soft hover:border-brand hover:bg-brand-soft',
-                  reveal && !isAnswer && !wrong && 'border-line text-faint',
+                  isWrongPick && 'border-bad bg-bad text-white',
+                  !reveal && isPicked && 'border-brand bg-brand-solid text-white',
+                  !reveal &&
+                    !isPicked &&
+                    'border-line-strong bg-surface text-ink-soft hover:border-brand hover:bg-brand-soft',
+                  reveal && !isAnswer && !isWrongPick && 'border-line text-faint',
                 )}
               >
                 {letter}
@@ -141,11 +162,7 @@ export function WordBankView({
         })}
       </ul>
 
-      {reveal && (
-        <div className="mt-4 rounded-[12px] border border-line bg-brand-soft/40 p-3">
-          <AnalysisList analysis={question.analysis} dense />
-        </div>
-      )}
+      {reveal && <AnalysisBlock analysis={question.analysis} />}
     </div>
   );
 }
@@ -162,36 +179,42 @@ export function ParagraphMatchView({
   reveal?: boolean;
   onSelect?: (label: string) => void;
 }) {
+  const letters = [...question.paraOptions].sort((a, b) => a.localeCompare(b));
+
   return (
     <div>
       <Stem question={question} />
 
       {question.anchor && (
-        <p className="mt-2 text-xs text-muted">
-          <span className="font-semibold text-brand-strong">定位锚点 </span>
+        <p className="mt-2.5 rounded-[10px] border-l-[3px] border-brand-line bg-brand-soft/50 px-3 py-2 text-[13px] leading-6 text-ink-soft">
+          <span className="font-semibold text-brand-ink">定位锚点 </span>
           {question.anchor}
         </p>
       )}
 
-      <ul className="mt-3 flex flex-wrap gap-1.5">
-        {question.paraOptions.map((letter) => {
+      <ul className="mt-3.5 grid grid-cols-5 gap-2 sm:grid-cols-8 sm:gap-1.5">
+        {letters.map((letter) => {
           const isAnswer = letter === question.answer;
           const isPicked = selected === letter;
-          const wrong = reveal && isPicked && !isAnswer;
+          const isWrongPick = reveal && isPicked && !isAnswer;
           return (
             <li key={letter}>
               <button
                 type="button"
                 disabled={reveal}
                 onClick={() => onSelect?.(letter)}
+                aria-pressed={isPicked}
+                aria-label={`段落 ${letter}`}
                 className={cn(
-                  'grid size-9 place-items-center rounded-[10px] border text-sm font-bold transition',
+                  'grid h-11 w-full place-items-center rounded-[10px] border text-[15px] font-bold transition sm:h-10',
                   'disabled:cursor-default',
                   reveal && isAnswer && 'border-ok bg-ok text-white',
-                  wrong && 'border-bad bg-bad text-white',
-                  !reveal && isPicked && 'border-brand bg-brand text-white',
-                  !reveal && !isPicked && 'border-line-strong text-ink-soft hover:border-brand hover:bg-brand-soft',
-                  reveal && !isAnswer && !wrong && 'border-line text-faint',
+                  isWrongPick && 'border-bad bg-bad text-white',
+                  !reveal && isPicked && 'border-brand bg-brand-solid text-white',
+                  !reveal &&
+                    !isPicked &&
+                    'border-line-strong bg-surface text-ink-soft hover:border-brand hover:bg-brand-soft',
+                  reveal && !isAnswer && !isWrongPick && 'border-line text-faint',
                 )}
               >
                 {letter}
@@ -201,11 +224,19 @@ export function ParagraphMatchView({
         })}
       </ul>
 
-      {reveal && (
-        <div className="mt-4 rounded-[12px] border border-line bg-brand-soft/40 p-3">
-          <AnalysisList analysis={question.analysis} dense />
-        </div>
-      )}
+      {reveal && <AnalysisBlock analysis={question.analysis} />}
+    </div>
+  );
+}
+
+/**
+ * 解析区块 —— 统一底色与栏宽。
+ * 解析宽度跟随题干（不单独撑宽），避免阅读时视线来回跳。
+ */
+function AnalysisBlock({ analysis }: { analysis: Question['analysis'] }) {
+  return (
+    <div className="mt-4 rounded-[12px] border border-line bg-surface-sunken p-3.5">
+      <AnalysisList analysis={analysis} />
     </div>
   );
 }
@@ -214,14 +245,17 @@ export function ParagraphMatchView({
 function Stem({ question }: { question: Question }) {
   return (
     <div>
-      <div className="flex items-start gap-2">
-        <span className="mt-0.5 shrink-0 rounded-md bg-brand-soft px-1.5 py-0.5 text-[11px] font-bold text-brand-strong">
+      <div className="flex items-start gap-2.5">
+        <span
+          className="mt-1 grid size-6 shrink-0 place-items-center rounded-[7px] bg-line text-[12px] font-bold text-ink-soft tabular-nums"
+          aria-label={`第 ${question.no} 题`}
+        >
           {question.no}
         </span>
-        <p className="min-w-0 flex-1 text-[15px] leading-7 text-ink">{question.stem}</p>
+        <p className="min-w-0 flex-1 text-[16px] leading-7 font-medium text-ink">{question.stem}</p>
       </div>
       {question.stemZh && (
-        <p className="mt-1 pl-[2.1rem] text-[13px] leading-6 text-muted">{question.stemZh}</p>
+        <p className="mt-1.5 pl-[34px] text-[13px] leading-6 text-muted">{question.stemZh}</p>
       )}
     </div>
   );

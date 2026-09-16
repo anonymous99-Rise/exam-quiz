@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { ParagraphMatchView, SingleChoiceView, WordBankView } from '@/components/question/question-views';
 import type { Question } from '@/lib/bank/schema';
@@ -7,7 +7,12 @@ import { cn } from '@/lib/utils';
 
 /**
  * 单题卡片 —— 分部分练习与整卷模考共用的唯一渲染实现。
- * 判分态、解析展开、收藏都在这里；调用方只管传状态与回调。
+ *
+ * v2 重写要点：
+ *   1. **当前题不靠 ring 环**（旧版整卡套一圈粉色 ring，像被选中两次）；
+ *      改为「1px 品牌描边 + 左侧 3px 竖条」，与选项的选中语言一致。
+ *   2. 判分条独立成行（旧版把「答对/答错」「展开解析」「收藏」挤在同一行 12px 灰字里）。
+ *   3. 收藏按钮改成图标按钮，不再与判分信息抢注意力。
  */
 export function QuestionCard({
   examId,
@@ -41,14 +46,22 @@ export function QuestionCard({
   const toggleFav = useProgress((s) => s.toggleFav);
 
   const reveal = picked !== null && !collapsed;
+  const correct = picked !== null && picked === question.answer;
 
   return (
     <li
       id={`q-${question.no}`}
       data-no={question.no}
       className={cn(
-        'card scroll-mt-24 p-4 transition-shadow sm:p-5',
-        isCursor && 'ring-2 ring-brand/45',
+        /*
+         * scroll-mt = 导航(56) + runner 吸顶头(56) + 吸顶播放器实测高度(--audio-h)。
+         * 写死 112px 时，听力页点分段跳题会把题卡顶到播放器底下（实测播放器可达 266px）。
+         */
+        'scroll-mt-[calc(7rem+var(--audio-h,0px))] scroll-mb-24 rounded-[14px] border bg-surface p-4 transition sm:p-5',
+        isCursor
+          ? 'border-brand shadow-flat before:absolute before:inset-y-3 before:-left-px before:w-[3px] before:rounded-full before:bg-brand'
+          : 'border-line shadow-flat',
+        'relative',
       )}
       onPointerDown={() => onFocus?.(question.no)}
     >
@@ -78,33 +91,36 @@ export function QuestionCard({
         />
       )}
 
-      <div className="mt-3 flex items-center gap-3 border-t border-line pt-3">
+      {/* ── 判分条 / 作答提示 ─────────────────────────────────────────── */}
+      <div className="mt-4 flex min-h-8 items-center gap-2 border-t border-line pt-3">
         {picked !== null ? (
           <>
-            <span
-              className={cn(
-                'text-xs font-semibold',
-                picked === question.answer ? 'text-ok' : 'text-bad',
-              )}
-            >
-              {picked === question.answer ? '✓ 答对' : `✕ 答错，正确答案 ${question.answer}`}
+            <span className={cn('chip', correct ? 'chip-ok' : 'chip-bad')}>
+              {correct ? '✓ 答对' : `✕ 答错 · 正确答案 ${question.answer}`}
             </span>
             <button
               type="button"
               onClick={() => onToggleCollapse(question.no)}
-              className="text-xs text-brand hover:underline"
+              className="btn btn-quiet btn-sm"
             >
               {collapsed ? '展开解析' : '收起解析'}
             </button>
           </>
         ) : (
-          <span className="text-xs text-faint">
+          <span className="text-[12px] text-faint">
             {locked ? (
               '本题未作答'
             ) : (
               <>
-                按 <kbd className="rounded border border-line px-1">A</kbd>–
-                <kbd className="rounded border border-line px-1">Z</kbd> 作答
+                按{' '}
+                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[11px] text-muted">
+                  A
+                </kbd>
+                –
+                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[11px] text-muted">
+                  Z
+                </kbd>{' '}
+                答题，↑/↓ 切题
               </>
             )}
           </span>
@@ -113,9 +129,14 @@ export function QuestionCard({
         <button
           type="button"
           onClick={() => toggleFav(qidOf(examId, paperId, question.no))}
+          aria-pressed={Boolean(fav)}
+          aria-label={fav ? '取消收藏' : '收藏本题'}
+          title={fav ? '取消收藏' : '收藏本题'}
           className={cn(
-            'ml-auto text-xs transition',
-            fav ? 'font-semibold text-brand' : 'text-faint hover:text-brand',
+            'ml-auto inline-flex shrink-0 items-center gap-1 rounded-[9px] px-2 py-1.5 text-[12px] font-medium transition',
+            fav
+              ? 'bg-brand-soft text-brand-ink'
+              : 'text-faint hover:bg-surface-hover hover:text-brand-ink',
           )}
         >
           {fav ? '★ 已收藏' : '☆ 收藏'}

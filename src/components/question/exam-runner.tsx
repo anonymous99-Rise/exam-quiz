@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
@@ -127,116 +127,139 @@ export function ExamRunner({
   const mmss = (s: number) =>
     `${String(Math.floor(s / 60)).padStart(3, '0')}:${String(s % 60).padStart(2, '0')}`;
 
+  const progressPct = r.stats.total ? (r.stats.done / r.stats.total) * 100 : 0;
+  const urgent = !submitted && remainSec < 300;
+
   return (
-    <div>
-      <header data-testid="runner-header"
-        className="sticky top-0 z-20 -mx-5 mb-4 border-b border-line bg-surface-warm/90 px-5 py-3 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center gap-3">
-          <h1 className="min-w-0 flex-1 truncate text-sm font-semibold text-ink">
+    <div className="pb-10">
+      {/* ── 吸顶状态栏 ──────────────────────────────────────────────────
+          v2：倒计时是模考屏最该被一眼看到的信息（旧版只有 12px 灰字，
+          夹在两个按钮中间）；交卷按钮反而收敛成次要尺寸。 */}
+      <header
+        data-testid="runner-header"
+        className="sticky top-14 z-10 -mx-4 mb-6 border-b border-line bg-surface/90 px-4 backdrop-blur-md sm:-mx-5 sm:px-5"
+      >
+        <div className="mx-auto flex h-16 w-full max-w-[1120px] items-center gap-3">
+          <h1 className="min-w-0 flex-1 truncate text-[14px] font-semibold text-ink">
             {title}
             <span className="ml-2 font-normal text-muted">整卷模考</span>
           </h1>
 
-          <div className="shrink-0 font-mono text-xs tabular-nums">
-            {submitted ? (
-              <span className="text-ok">已交卷</span>
-            ) : (
-              <span className={cn(remainSec < 300 ? 'font-semibold text-bad' : 'text-ink-soft')}>
-                ⏱ {hydrated ? mmss(remainSec) : '--:--'}
-              </span>
+          {/* 倒计时：等宽数字 + 醒目尺寸；最后 5 分钟转成警示胶囊 */}
+          <span
+            className={cn(
+              'shrink-0 rounded-[10px] px-3 py-1.5 text-[19px] leading-none font-semibold tabular-nums',
+              submitted && 'bg-surface-sunken text-ok-ink',
+              !submitted && urgent && 'bg-bad-soft text-bad-ink',
+              !submitted && !urgent && 'bg-surface-sunken text-ink',
             )}
-          </div>
+            aria-live="off"
+          >
+            {submitted ? '已交卷' : hydrated ? mmss(remainSec) : '--:--'}
+          </span>
 
-          <div className="hidden shrink-0 text-xs text-muted sm:block">
-            已答 <b className="font-semibold text-ink-soft">{hydrated ? r.stats.done : '–'}</b>/
-            {r.stats.total}
+          <div className="hidden shrink-0 text-[12px] text-muted sm:block">
+            已答 <b className="font-semibold text-ink tabular-nums">{hydrated ? r.stats.done : '–'}</b>
+            <span className="tabular-nums">/{r.stats.total}</span>
           </div>
 
           <button
             type="button"
             onClick={() => r.setSheetOpen(true)}
-            className="btn btn-ghost shrink-0 px-2.5 py-1 text-xs"
+            className="btn btn-ghost btn-sm shrink-0"
           >
             答题卡
           </button>
 
           {!submitted && (
-            <button type="button" onClick={submit} className="btn btn-primary shrink-0 px-3 py-1 text-xs">
+            <button type="button" onClick={submit} className="btn btn-primary btn-sm shrink-0">
               交卷
             </button>
           )}
         </div>
-        <div className="mx-auto mt-2 h-1 max-w-6xl overflow-hidden rounded-full bg-line">
+
+        {/* 2px 进度细线 */}
+        <div className="absolute inset-x-0 bottom-0 h-0.5 bg-line">
           <div
-            className={cn(
-              'h-full rounded-full transition-[width] duration-300',
-              submitted ? 'bg-ok' : 'bg-brand',
-            )}
-            style={{ width: `${r.stats.total ? (r.stats.done / r.stats.total) * 100 : 0}%` }}
+            className={cn('h-full transition-[width] duration-300', submitted ? 'bg-ok' : 'bg-brand')}
+            style={{ width: `${progressPct}%` }}
           />
         </div>
       </header>
 
       {submitted && (
-        <section className="mx-auto mb-6 max-w-6xl">
-          <div className="card p-5">
-            <div className="flex flex-wrap items-baseline gap-x-6 gap-y-2">
-              <h2 className="text-sm font-bold text-brand-strong">成绩报告</h2>
-              <div className="text-xs text-muted">
-                正确率{' '}
-                <b className={cn('text-base font-bold', r.stats.rate >= 60 ? 'text-ok' : 'text-bad')}>
-                  {r.stats.rate}%
-                </b>
-              </div>
-              <div className="text-xs text-muted">
-                客观题折算分{' '}
-                <b className="text-base font-bold text-ink">
+        <section className="mx-auto mb-8 w-full max-w-[1120px]">
+          <div className="panel p-6">
+            <p className="t-eyebrow mb-4">成绩报告</p>
+
+            <div className="flex flex-wrap items-end gap-x-8 gap-y-4">
+              <div>
+                <div className="text-[34px] leading-none font-extrabold text-ink tabular-nums">
                   {report.scoreGot.toFixed(1)}
-                </b>
-                <span className="text-faint"> / {report.scoreMax}</span>
+                  <span className="ml-1 text-[15px] font-medium text-faint">
+                    / {report.scoreMax}
+                  </span>
+                </div>
+                <div className="mt-2 text-[12px] text-muted">客观题折算分</div>
               </div>
-              <div className="text-xs text-muted">
-                答对 {r.stats.right} · 答错 {r.stats.wrong} · 未答 {r.stats.blank}
+              <div>
+                <div
+                  className={cn(
+                    'text-[26px] leading-none font-bold tabular-nums',
+                    r.stats.rate >= 60 ? 'text-ok-ink' : 'text-bad-ink',
+                  )}
+                >
+                  {r.stats.rate}%
+                </div>
+                <div className="mt-2 text-[12px] text-muted">正确率</div>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 pb-1">
+                <span className="chip chip-ok">答对 {r.stats.right}</span>
+                <span className="chip chip-bad">答错 {r.stats.wrong}</span>
+                <span className="chip">未答 {r.stats.blank}</span>
               </div>
             </div>
 
-            <table className="mt-4 w-full text-sm">
-              <thead className="text-left text-[11px] text-muted">
-                <tr>
-                  <th className="py-1 font-semibold">部分</th>
-                  <th className="py-1 text-right font-semibold">答对/题量</th>
-                  <th className="py-1 text-right font-semibold">正确率</th>
-                  <th className="py-1 text-right font-semibold">折算分</th>
+            <div className="rule my-5" />
+
+            <table className="w-full text-[13px]">
+              <thead className="text-left">
+                <tr className="t-eyebrow">
+                  <th className="pb-2 font-bold">部分</th>
+                  <th className="pb-2 text-right font-bold">答对/题量</th>
+                  <th className="pb-2 text-right font-bold">正确率</th>
+                  <th className="pb-2 text-right font-bold">折算分</th>
                 </tr>
               </thead>
               <tbody>
                 {report.rows.map((row) => (
                   <tr key={row.id} className="border-t border-line">
-                    <td className="py-1.5 text-ink">{row.name}</td>
-                    <td className="py-1.5 text-right font-mono text-xs tabular-nums text-ink-soft">
+                    <td className="py-2.5 text-ink">{row.name}</td>
+                    <td className="py-2.5 text-right tabular-nums text-ink-soft">
                       {row.right}/{row.total}
                       {row.done < row.total && (
-                        <span className="ml-1 text-faint">(未答 {row.total - row.done})</span>
+                        <span className="ml-1.5 text-faint">(未答 {row.total - row.done})</span>
                       )}
                     </td>
                     <td
                       className={cn(
-                        'py-1.5 text-right font-mono text-xs tabular-nums',
-                        row.rate >= 60 ? 'text-ok' : 'text-bad',
+                        'py-2.5 text-right font-semibold tabular-nums',
+                        row.rate >= 60 ? 'text-ok-ink' : 'text-bad-ink',
                       )}
                     >
                       {row.rate}%
                     </td>
-                    <td className="py-1.5 text-right font-mono text-xs tabular-nums text-ink-soft">
-                      {row.scoreGot.toFixed(1)} / {row.scoreMax}
+                    <td className="py-2.5 text-right tabular-nums text-ink-soft">
+                      {row.scoreGot.toFixed(1)}
+                      <span className="text-faint"> / {row.scoreMax}</span>
                     </td>
                   </tr>
                 ))}
               </tbody>
             </table>
 
-            <div className="mt-4 flex flex-wrap gap-3">
-              <button type="button" onClick={() => r.setSheetOpen(true)} className="btn btn-ghost px-3 py-1.5 text-xs">
+            <div className="mt-5 flex flex-wrap gap-3">
+              <button type="button" onClick={() => r.setSheetOpen(true)} className="btn btn-ghost">
                 看错题（答题卡）
               </button>
               <button
@@ -247,7 +270,7 @@ export function ExamRunner({
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }
                 }}
-                className="btn btn-ghost px-3 py-1.5 text-xs"
+                className="btn btn-ghost"
               >
                 重做本卷
               </button>

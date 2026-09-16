@@ -207,10 +207,14 @@ export function InkLayer({
         onPointerCancel={onUp}
       />
 
-      {/* 工具栏：z-40 压在画布之上，既不会被涂层挡住，也不会误落笔 */}
-      <div className="fixed right-4 bottom-4 z-40 flex flex-col items-end gap-2 print:hidden">
+      {/*
+        工具栏：z-40 压在画布之上，既不会被涂层挡住，也不会误落笔。
+        位置：底部操作条（64px）之上 —— 旧版固定在 bottom-4、宽 112×38，
+        实测会压住选项与「按 A–Z 作答」提示；现在收成 40×40 图标按钮，只在角落。
+      */}
+      <div className="fixed right-4 bottom-[5.25rem] z-40 flex flex-col items-end gap-2 print:hidden">
         {on && (
-          <div className="card flex flex-wrap items-center gap-1.5 px-2 py-1.5 shadow-[var(--shadow-float)]">
+          <div className="card flex flex-wrap items-center gap-1.5 px-2.5 py-2 shadow-float">
             {COLORS.map((c) => (
               <button
                 key={c.c}
@@ -236,8 +240,10 @@ export function InkLayer({
                 type="button"
                 onClick={() => setSize(s.s)}
                 className={cn(
-                  'grid size-6 place-items-center rounded-md text-[11px] font-semibold transition',
-                  size === s.s && !eraser ? 'bg-brand text-white' : 'text-muted hover:bg-brand-soft',
+                  'grid size-6 place-items-center rounded-[7px] text-[11px] font-semibold transition',
+                  size === s.s && !eraser
+                    ? 'bg-brand-solid text-white'
+                    : 'text-muted hover:bg-surface-hover',
                 )}
               >
                 {s.n}
@@ -248,8 +254,8 @@ export function InkLayer({
               type="button"
               onClick={() => setEraser((v) => !v)}
               className={cn(
-                'rounded-md px-1.5 py-1 text-[11px] font-medium transition',
-                eraser ? 'bg-brand text-white' : 'text-muted hover:bg-brand-soft',
+                'rounded-[7px] px-1.5 py-1 text-[11px] font-medium transition',
+                eraser ? 'bg-brand-solid text-white' : 'text-muted hover:bg-surface-hover',
               )}
             >
               橡皮
@@ -258,7 +264,7 @@ export function InkLayer({
               type="button"
               onClick={() => undo(layerKey)}
               disabled={!count}
-              className="rounded-md px-1.5 py-1 text-[11px] font-medium text-muted transition hover:bg-brand-soft disabled:opacity-40"
+              className="rounded-[7px] px-1.5 py-1 text-[11px] font-medium text-muted transition hover:bg-surface-hover disabled:opacity-40"
             >
               撤销
             </button>
@@ -295,20 +301,35 @@ export function InkLayer({
           type="button"
           onClick={() => setOn((v) => !v)}
           title={`开启 / 关闭透明手写层（快捷键 ${shortcutHint}）`}
-          className={cn('btn shadow-[var(--shadow-card)]', on ? 'btn-primary' : 'btn-ghost bg-surface')}
+          aria-label={on ? '关闭透明手写层' : '开启透明手写层'}
+          aria-pressed={on}
+          className={cn(
+            'relative grid size-10 place-items-center rounded-full border shadow-float transition',
+            on
+              ? 'border-brand-line bg-brand-solid text-white'
+              : 'border-line bg-surface text-muted hover:border-brand-line hover:text-brand-ink',
+          )}
         >
           <svg
             viewBox="0 0 24 24"
-            className="size-4"
+            className="size-4.5"
             fill="none"
             stroke="currentColor"
             strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path d="M4 20h4l10-10-4-4L4 16v4z" />
             <path d="M14 6l4 4" />
           </svg>
-          透明模块
-          {count > 0 && <span className="font-mono text-[11px] opacity-70">{count}</span>}
+          {count > 0 && (
+            <span
+              className="absolute -top-1 -right-1 grid min-w-[18px] place-items-center rounded-full bg-ink px-1 text-[10px] font-semibold text-white tabular-nums"
+              aria-hidden
+            >
+              {count}
+            </span>
+          )}
         </button>
       </div>
     </>

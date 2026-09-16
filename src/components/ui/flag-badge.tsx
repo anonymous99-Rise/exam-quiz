@@ -27,10 +27,8 @@ export function FlagBadge({ flag, className }: { flag: string; className?: strin
     <span
       title={meta?.hint ?? ''}
       className={cn(
-        'inline-flex items-center rounded-md border px-1.5 py-0.5 text-[11px] leading-4 font-medium whitespace-nowrap',
-        meta?.tone === 'warn'
-          ? 'border-bad/25 bg-bad-soft text-bad'
-          : 'border-line-strong bg-brand-soft text-brand-strong',
+        'chip',
+        meta?.tone === 'warn' ? 'chip-warn' : '',
         className,
       )}
     >
@@ -42,7 +40,7 @@ export function FlagBadge({ flag, className }: { flag: string; className?: strin
 /** 一套卷的 flags 汇总徽标（同一种 tone 只显示一次，避免卡片上挂一排） */
 export function FlagBadges({ flags, max = 2 }: { flags: string[]; max?: number }) {
   if (!flags.length) {
-    return <span className="text-[11px] font-medium text-ok">完整</span>;
+    return <span className="text-[11px] font-medium text-ok-ink">数据完整</span>;
   }
   const shown = flags.slice(0, max);
   const rest = flags.length - shown.length;

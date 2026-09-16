@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import { fmtTime, parsePieceRange, pieceIndexAt } from '@/lib/audio/pieces';
 import type { AudioAsset } from '@/lib/bank/schema';
@@ -24,12 +24,16 @@ export function AudioPlayer({
   audio,
   title,
   className,
+  /** 吸顶摆放时上报自身高度到 CSS 变量 --audio-h，供下方吸顶条让位 */
+  reportHeight = false,
 }: {
   audio: AudioAsset;
   title?: string;
   className?: string;
+  reportHeight?: boolean;
 }) {
   const audioRef = useRef<HTMLAudioElement>(null);
+  const boxRef = useRef<HTMLElement>(null);
   const [ready, setReady] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [current, setCurrent] = useState(0);
@@ -143,11 +147,36 @@ export function AudioPlayer({
 
   const pieces = audio.pieces ?? [];
 
+  /*
+   * 吸顶场景下把「播放器的实际高度」写进 CSS 变量，让下方的 runner 吸顶头动态让位。
+   * 为什么不用固定偏移：播放器高度随「分段定位」条数换行而变（实测 210px，估 120px 会重叠 37px），
+   * 实测上报才是稳的。这里只写外部 DOM 属性，不用 state，避免级联渲染。
+   */
+  useLayoutEffect(() => {
+    if (!reportHeight) return;
+    const el = boxRef.current;
+    if (!el) return;
+    const apply = () =>
+      document.documentElement.style.setProperty('--audio-h', `${el.offsetHeight}px`);
+    apply();
+    const ro = new ResizeObserver(apply);
+    ro.observe(el);
+    return () => {
+      ro.disconnect();
+      document.documentElement.style.setProperty('--audio-h', '0px');
+    };
+  }, [reportHeight]);
+
   return (
-    <section className={cn('card p-4', className)}>
+    <section ref={boxRef} className={cn('card p-4', className)}>
       <div className="mb-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-        <h3 className="text-xs font-semibold tracking-wide text-muted">
-          🎧 听力原声{title ? ` · ${title}` : ''}
+        <h3 className="t-eyebrow flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" aria-hidden className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round">
+            <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
+            <rect x="3" y="13" width="4" height="7" rx="1.5" />
+            <rect x="17" y="13" width="4" height="7" rx="1.5" />
+          </svg>
+          听力原声{title ? ` · ${title}` : ''}
         </h3>
         {audio.sharedWith && (
           <span className="text-[11px] text-faint">
@@ -164,7 +193,7 @@ export function AudioPlayer({
           type="button"
           onClick={toggle}
           aria-label={playing ? '暂停' : '播放'}
-          className="grid size-10 shrink-0 place-items-center rounded-full bg-brand text-white transition hover:bg-brand-strong"
+          className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-solid text-white shadow-flat transition hover:bg-brand-ink"
         >
           {playing ? (
             <svg viewBox="0 0 24 24" className="size-4" fill="currentColor">
@@ -189,24 +218,26 @@ export function AudioPlayer({
             aria-label="播放进度"
             className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand"
           />
-          <div className="mt-1 flex items-center justify-between font-mono text-[11px] tabular-nums text-muted">
+          <div className="t-num mt-1 flex items-center justify-between text-[11px] text-muted">
             <span>{fmtTime(current)}</span>
             <span>{ready ? fmtTime(duration) : '载入中…'}</span>
           </div>
         </div>
 
-        <div className="flex shrink-0 items-center gap-1">
+        <div className="flex shrink-0 items-center gap-1.5">
           <button
             type="button"
             onClick={() => seekBy(-10)}
-            className="rounded-md border border-line-strong px-1.5 py-1 text-[11px] text-muted hover:border-brand hover:text-brand"
+            className="btn btn-ghost btn-sm t-num"
+            aria-label="后退 10 秒"
           >
             −10s
           </button>
           <button
             type="button"
             onClick={() => seekBy(10)}
-            className="rounded-md border border-line-strong px-1.5 py-1 text-[11px] text-muted hover:border-brand hover:text-brand"
+            className="btn btn-ghost btn-sm t-num"
+            aria-label="前进 10 秒"
           >
             +10s
           </button>
@@ -214,7 +245,7 @@ export function AudioPlayer({
             type="button"
             onClick={cycleRate}
             title="播放速度"
-            className="rounded-md border border-line-strong px-1.5 py-1 font-mono text-[11px] text-muted hover:border-brand hover:text-brand"
+            className="btn btn-ghost btn-sm t-num w-14"
           >
             {rate}×
           </button>
@@ -223,10 +254,8 @@ export function AudioPlayer({
 
       {/* 分段定位 */}
       {pieces.length > 0 && (
-        <div className="mt-3">
-          <h4 className="mb-1.5 text-[11px] font-semibold text-muted">
-            分段定位（点击跳到该篇，并滚到对应题）
-          </h4>
+        <div className="mt-3.5">
+          <h4 className="t-eyebrow mb-2">分段定位 · 点击跳到该篇并滚到对应题</h4>
           <ul className="flex flex-wrap gap-1.5">
             {pieces.map((p, i) => {
               const active = pieceIndexAt(pieces, current) === i;
@@ -238,10 +267,10 @@ export function AudioPlayer({
                     onClick={() => seek(p.start, range?.[0])}
                     title={`${fmtTime(p.start)} – ${fmtTime(p.end)}`}
                     className={cn(
-                      'rounded-lg border px-2 py-1 text-left text-[11px] leading-4 transition',
+                      'rounded-[10px] border px-2.5 py-1.5 text-left text-[11.5px] leading-4 transition',
                       active
-                        ? 'border-brand bg-brand-soft text-brand-strong'
-                        : 'border-line-strong text-muted hover:border-brand hover:text-brand-strong',
+                        ? 'border-brand-line bg-brand-soft font-medium text-brand-ink'
+                        : 'border-line-strong text-muted hover:border-brand-line hover:bg-surface-hover hover:text-ink',
                     )}
                   >
                     {p.label}
@@ -254,17 +283,12 @@ export function AudioPlayer({
       )}
 
       {error && (
-        <p className="mt-3 text-xs text-bad">
+        <p className="chip chip-bad mt-3">
           {error}
           {audio.fallbackUrl && (
             <>
               {' · '}
-              <a
-                href={audio.fallbackUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="underline hover:text-brand"
-              >
+              <a href={audio.fallbackUrl} target="_blank" rel="noreferrer" className="underline">
                 打开备用音源
               </a>
             </>

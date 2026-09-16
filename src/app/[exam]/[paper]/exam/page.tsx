@@ -78,20 +78,20 @@ export default async function ExamModePage({
   const audio = paper.assets?.audio;
 
   return (
-    <main className="mx-auto w-full max-w-6xl px-5 pt-5 pb-16">
-      <nav className="mb-5 text-xs text-muted">
-        <Link href="/" className="hover:text-brand">
+    <main className="mx-auto w-full max-w-[1120px] px-4 pt-6 pb-16 sm:px-5">
+      <nav className="mb-5 flex items-center gap-1.5 text-[12px] text-muted">
+        <Link href="/" className="transition hover:text-ink">
           首页
         </Link>
-        <span className="mx-1.5">/</span>
-        <Link href={`/${examId}`} className="hover:text-brand">
+        <span className="text-faint">/</span>
+        <Link href={`/${examId}`} className="transition hover:text-ink">
           {exam.shortName}
         </Link>
-        <span className="mx-1.5">/</span>
-        <Link href={`/${examId}/${paperId}`} className="hover:text-brand">
+        <span className="text-faint">/</span>
+        <Link href={`/${examId}/${paperId}`} className="transition hover:text-ink">
           {paperTitle(paper)}
         </Link>
-        <span className="mx-1.5">/</span>
+        <span className="text-faint">/</span>
         <span className="text-ink-soft">整卷模考</span>
       </nav>
 

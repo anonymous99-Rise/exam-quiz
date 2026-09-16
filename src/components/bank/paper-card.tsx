@@ -1,14 +1,27 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
+import type { Metadata } from 'next';
 
 import { PaperProgress } from '@/components/progress/progress-bits';
 import { FlagBadges } from '@/components/ui/flag-badge';
 import type { PaperIndexEntry, Section } from '@/lib/bank/schema';
 import { cn } from '@/lib/utils';
 
+/** section 名的短标签（卡片里放不下「长篇阅读（信息匹配）」这种全称） */
+const SHORT: Record<string, string> = {
+  listening: '听力',
+  cloze: '选词',
+  matching: '匹配',
+  reading: '阅读',
+  writing: '写作',
+  translation: '翻译',
+  subjective: '主观',
+};
+
 /**
  * 套卷卡片 —— 首页/考试页的主列表单元。
- * 显示套卷名、题量、分题型题量、数据完整性标记。
- * （进度条在 M5 接上 ProgressStore 后再填。）
+ *
+ * v2 重写：主信息（套卷名）与 CTA 的视觉权重不再倒挂；
+ * 题型题量做成微标签、进度条改为中性色（品牌粉只留给交互与当前态）。
  */
 export function PaperCard({
   examId,
@@ -23,44 +36,51 @@ export function PaperCard({
   href: string;
   className?: string;
 }) {
-  const isIncomplete = paper.questionCount === 0;
+  const empty = paper.questionCount === 0;
 
   return (
     <Link
       href={href}
       className={cn(
-        'card group flex flex-col gap-3 p-4 transition hover:-translate-y-0.5 hover:border-brand',
-        isIncomplete && 'opacity-60',
+        'card-flat group flex flex-col gap-3 p-4 transition',
+        'hover:border-brand-line hover:bg-white hover:shadow-card',
+        empty && 'opacity-55',
         className,
       )}
     >
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <div className="truncate text-sm font-semibold text-ink group-hover:text-brand-strong">
+          <div className="truncate text-[15px] font-semibold text-ink group-hover:text-brand-ink">
             {paper.label} · 第{paper.setNo}套
           </div>
-          <div className="mt-0.5 text-xs text-muted">
-            {paper.questionCount > 0 ? `${paper.questionCount} 题` : '暂无题目'}
-            {paper.hasSubjective && paper.questionCount > 0 && ' + 写作/翻译'}
+          <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-muted">
+            <span>{empty ? '暂无题目' : `${paper.questionCount} 题`}</span>
+            {paper.hasSubjective && !empty && <span className="text-faint">·</span>}
+            {paper.hasSubjective && !empty && <span>写作/翻译</span>}
+            {paper.hasAudio && (
+              <>
+                <span className="text-faint">·</span>
+                <span className="text-ok-ink">有音频</span>
+              </>
+            )}
           </div>
         </div>
-        {paper.hasAudio && (
-          <span className="shrink-0 rounded-md bg-brand-soft px-1.5 py-0.5 text-[11px] font-medium text-brand-strong">
-            有音频
-          </span>
-        )}
+        <span className="mt-0.5 shrink-0 text-[13px] font-semibold text-brand-ink">
+          开始 →
+        </span>
       </div>
 
-      {paper.questionCount > 0 && (
+      {!empty && (
         <>
           <PaperProgress examId={examId} paperId={paper.id} nos={paper.nos} />
-          <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-muted">
+          <ul className="flex flex-wrap gap-1">
             {sections.map((s) => {
               const n = paper.sectionCounts[s.id] ?? 0;
               if (!n) return null;
               return (
-                <li key={s.id} className="whitespace-nowrap">
-                  {s.name} <b className="font-semibold text-ink-soft">{n}</b>
+                <li key={s.id} className="chip" title={s.name}>
+                  {SHORT[s.id] ?? s.name}
+                  <b className="font-semibold text-ink-soft tabular-nums">{n}</b>
                 </li>
               );
             })}

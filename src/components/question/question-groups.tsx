@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import type { RefObject } from 'react';
 
@@ -23,8 +23,11 @@ export type QuestionGroup = {
 /**
  * 题目主体的唯一渲染实现 —— 分部分练习与整卷模考共用。
  *
- * 布局：有原文的组走「左原文右题目」，原文 sticky；
- * 匹配题额外高亮「最近作答的那道题」的答案段落。
+ * 布局（v2 重写，旧版是 50:50 等宽双栏，实测原文每行 102 字符）：
+ *   · 有原文的组走「左原文（占 55%，正文栏宽锁 36em）+ 右题目」
+ *   · 原文面板 sticky 且**独立滚动**（`lg:max-h-[calc(100dvh-9rem)]`），
+ *     这样「读原文」与「看题目」永远同屏，不用来回滚整页。
+ *   · 分组标题改成带题量的区块头，Part 之间用分隔线（旧版只有一行小字）。
  */
 export function QuestionGroups({
   examId,
@@ -56,7 +59,7 @@ export function QuestionGroups({
   const total = groups.reduce((a, g) => a + g.questions.length, 0);
 
   return (
-    <div className="mx-auto max-w-6xl space-y-8" ref={listRef}>
+    <div className="mx-auto w-full max-w-[1120px] space-y-10" ref={listRef}>
       {groups.map((g, gi) => {
         const highlight =
           g.questions[0]?.kind === 'paragraph-match'
@@ -69,20 +72,22 @@ export function QuestionGroups({
         return (
           <section key={`${g.sectionId}-${gi}`} className="space-y-5">
             {g.sectionName && (
-              <h2 className="border-b border-line pb-2 text-sm font-bold text-brand-strong">
-                {g.sectionName}
-                <span className="ml-2 font-normal text-muted">{g.questions.length} 题</span>
+              <h2 className="flex items-baseline gap-3 border-b border-line pb-2.5">
+                <span className="t-h3 text-ink">{g.sectionName}</span>
+                <span className="text-[13px] text-muted tabular-nums">
+                  {g.questions.length} 题
+                </span>
               </h2>
             )}
 
             <div
               className={cn(
                 g.passage &&
-                  'lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,26rem)] lg:items-start lg:gap-6',
+                  'lg:grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:items-start lg:gap-7',
               )}
             >
               {g.passage && (
-                <div className="mb-4 lg:sticky lg:top-24 lg:mb-0 lg:max-h-[calc(100dvh-8rem)] lg:overflow-y-auto lg:pr-1">
+                <div className="mb-5 lg:sticky lg:top-24 lg:mb-0 lg:max-h-[calc(100dvh-9rem)] lg:overflow-y-auto lg:pr-2 scroll-thin">
                   <PassagePanel passage={g.passage} title={g.title} highlight={highlight} />
                 </div>
               )}
@@ -92,7 +97,6 @@ export function QuestionGroups({
                   <QuestionCard
                     key={q.no}
                     examId={examId}
-
                     paperId={paperId}
                     question={q}
                     wordBankOptions={wordBankOptions}
@@ -111,7 +115,7 @@ export function QuestionGroups({
         );
       })}
 
-      {total === 0 && <p className="py-10 text-center text-sm text-muted">本部分暂无题目。</p>}
+      {total === 0 && <p className="py-16 text-center text-[14px] text-muted">本部分暂无题目。</p>}
     </div>
   );
 }

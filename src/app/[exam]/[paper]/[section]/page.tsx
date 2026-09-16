@@ -1,4 +1,4 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { AudioPlayer } from '@/components/audio/audio-player';
@@ -48,16 +48,16 @@ export default async function SectionPage({
   if (!exam || !paper) notFound();
 
   const backLink = (
-    <nav className="mb-5 text-xs text-muted">
-      <Link href="/" className="hover:text-brand">
+    <nav className="mb-5 flex items-center gap-1.5 text-[12px] text-muted">
+      <Link href="/" className="transition hover:text-ink">
         首页
       </Link>
-      <span className="mx-1.5">/</span>
-      <Link href={`/${examId}`} className="hover:text-brand">
+      <span className="text-faint">/</span>
+      <Link href={`/${examId}`} className="transition hover:text-ink">
         {exam.shortName}
       </Link>
-      <span className="mx-1.5">/</span>
-      <Link href={`/${examId}/${paperId}`} className="hover:text-brand">
+      <span className="text-faint">/</span>
+      <Link href={`/${examId}/${paperId}`} className="transition hover:text-ink">
         {paperTitle(paper)}
       </Link>
     </nav>
@@ -66,10 +66,13 @@ export default async function SectionPage({
   if (sectionId === 'subjective') {
     if (!paper.subjective) notFound();
     return (
-      <main className="mx-auto w-full max-w-3xl px-5 py-10">
+      <main className="mx-auto w-full max-w-[1120px] px-4 pb-16 pt-6 sm:px-5">
         {backLink}
-        <h1 className="mb-5 text-lg font-bold text-ink">{paperTitle(paper)} · 写作与翻译</h1>
-        <SubjectiveView examId={examId} paperId={paperId} subjective={paper.subjective} />
+        <h1 className="t-h1 mb-6 text-ink">{paperTitle(paper)} · 写作与翻译</h1>
+        {/* 写作/翻译是「读+写」的长文本任务，正文栏宽收在 820px，避免整屏一行太宽 */}
+        <div className="max-w-[820px]">
+          <SubjectiveView examId={examId} paperId={paperId} subjective={paper.subjective} />
+        </div>
       </main>
     );
   }
@@ -108,11 +111,20 @@ export default async function SectionPage({
   const audio = section.media === 'none' ? undefined : paper.assets?.audio;
 
   return (
-    <main className="mx-auto w-full max-w-6xl px-5 pt-5 pb-16">
+    <main className="mx-auto w-full max-w-[1120px] px-4 pt-6 pb-16 sm:px-5">
       {backLink}
       {audio && (
-        <div className="mb-5">
-          <AudioPlayer audio={audio} title={`${paper.label} · 第${paper.setNo}套`} />
+        /*
+         * 听力播放器在桌面端吸顶：一篇文章对应 3–4 题，做完要切下一篇，
+         * 播放器滚走的话每次都得滚回顶部（这是听力练习的核心动线）。
+         * 手机屏小，不吸顶（避免吃掉一半可视高度）。
+         */
+        <div className="mb-5 lg:sticky lg:top-14 lg:z-20">
+          <AudioPlayer
+            audio={audio}
+            title={`${paper.label} · 第${paper.setNo}套`}
+            reportHeight
+          />
         </div>
       )}
       <SectionRunner
@@ -122,6 +134,9 @@ export default async function SectionPage({
         wordBankOptions={wordBankOptions}
         title={title}
         sectionNames={sectionNames}
+        // 有吸顶播放器时，runner 头部落在「导航 56px + 实测播放器高度」之下：
+        // --audio-h 由播放器自己上报（高度随分段条换行而变，写死数字会重叠）
+        headerTopClass={audio ? 'top-14 lg:top-[calc(3.5rem+var(--audio-h,0px))]' : 'top-14'}
       />
       <InkLayer layerKey={`${examId}/${paperId}#${section.id}`} />
     </main>

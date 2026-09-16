@@ -1,8 +1,12 @@
-﻿'use client';
+'use client';
 
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 
+import { PaperCard } from '@/components/bank/paper-card';
+import { OverallStats, PaperProgress } from '@/components/progress/progress-bits';
+import type { PaperIndexEntry, Section } from '@/lib/bank/schema';
+import type { ExamMeta } from '@/lib/bank/use-bank-meta';
 import { useBankMeta, useQidLocator } from '@/lib/bank/use-bank-meta';
 import { qidOf, statsOf, useProgress } from '@/lib/progress/store';
 import { useProgressHydrated } from '@/lib/progress/use-hydrated';
@@ -16,6 +20,59 @@ const SCOPES: { id: Scope; label: string; hint: string }[] = [
   { id: 'wrong', label: '错题', hint: '只看错题本里的题' },
   { id: 'fav', label: '收藏', hint: '只看收藏的题' },
 ];
+
+/** 一套未刷完的套卷 + 「继续」落点 */
+type Row = {
+  examId: string;
+  examName: string;
+  paperId: string;
+  paper: PaperIndexEntry;
+  done: number;
+  nextHref: string;
+  nextNo: number | null;
+};
+
+/**
+ * 筛选 Tab 的样式：选中态＝**中性浅底 + 品牌细下划线**。
+ * 不用粉色胶囊 —— 页面上的粉色视觉锚点只留给主操作按钮。
+ */
+function tabClass(active: boolean): string {
+  return cn(
+    'relative inline-flex min-h-[40px] items-center rounded-[10px] px-3 text-[13px] transition',
+    "after:absolute after:inset-x-2 after:bottom-1 after:h-[2px] after:rounded-full after:content-['']",
+    active
+      ? 'bg-surface-hover font-semibold text-ink after:bg-brand'
+      : 'font-medium text-muted after:bg-transparent hover:text-ink',
+  );
+}
+
+/**
+ * PaperCard 的 `sections` 需要完整 Section，而客户端索引里只有 id/name/score。
+ * 卡片实际只读 id 与 name（题量取自 paper.sectionCounts），其余字段补位以满足类型，
+ * 不参与任何渲染判断。
+ */
+function toCardSections(list: ExamMeta['sections']): Section[] {
+  return list.map((s) => ({
+    id: s.id,
+    name: s.name,
+    kind: 'single-choice',
+    questionNos: [],
+    score: s.score,
+    renderer: 'flat-list',
+    media: 'none',
+  }));
+}
+
+/** 空状态：min-h-[52vh] 居中 + 一句说明 + 一个主 CTA */
+function EmptyState({ title, note, action }: { title: string; note: string; action: ReactNode }) {
+  return (
+    <div className="flex min-h-[52vh] flex-col items-center justify-center px-2 text-center">
+      <h2 className="t-h2 text-ink">{title}</h2>
+      <p className="t-small mt-2 max-w-[34ch] text-muted">{note}</p>
+      <div className="mt-5">{action}</div>
+    </div>
+  );
+}
 
 /**
  * 刷题入口
@@ -41,17 +98,7 @@ export default function PracticePage() {
 
   /* 每套卷的进度 + 「继续」落点 */
   const rows = useMemo(() => {
-    const out: {
-      examId: string;
-      examName: string;
-      paperId: string;
-      label: string;
-      total: number;
-      done: number;
-      rate: number;
-      nextHref: string | null;
-      nextNo: number | null;
-    }[] = [];
+    const out: Row[] = [];
 
     for (const exam of exams) {
       if (examFilter && exam.id !== examFilter) continue;
@@ -77,10 +124,8 @@ export default function PracticePage() {
           examId: exam.id,
           examName: exam.shortName,
           paperId: paper.id,
-          label: `${paper.label} · 第${paper.setNo}套`,
-          total: st.total,
+          paper,
           done: st.done,
-          rate: st.rate,
           nextHref,
           nextNo: nextNo ?? null,
         });
@@ -97,55 +142,38 @@ export default function PracticePage() {
       .sort((a, b) => a.paperId.localeCompare(b.paperId) || a.no - b.no);
   }, [locate, scopeKeys]);
 
-  const totalDone = Object.keys(answers).length;
-  const totalRight = Object.values(answers).filter((a) => a.ok).length;
+  /** 每个考试的 section 列表（PaperCard 用，见 toCardSections 注释） */
+  const cardSections = useMemo(() => {
+    const m: Record<string, Section[]> = {};
+    for (const e of exams) m[e.id] = toCardSections(e.sections);
+    return m;
+  }, [exams]);
+
+  const top = rows[0];
 
   return (
-    <main className="mx-auto w-full max-w-4xl px-5 py-10">
-      <header className="mb-6">
-        <h1 className="text-xl font-bold text-ink">刷题</h1>
-        <p className="mt-1 text-sm text-muted">
-          {hydrated ? (
-            <>
-              已刷 <b className="font-semibold text-ink-soft">{totalDone}</b> 题
-              {totalDone > 0 && (
-                <>
-                  {' · 正确率 '}
-                  <b
-                    className={cn(
-                      'font-semibold',
-                      Math.round((totalRight / totalDone) * 100) >= 60 ? 'text-ok' : 'text-bad',
-                    )}
-                  >
-                    {Math.round((totalRight / totalDone) * 100)}%
-                  </b>
-                </>
-              )}
-              {' · 错题 '}
-              <b className="font-semibold text-bad">{Object.keys(wrong).length}</b>
-              {' · 收藏 '}
-              <b className="font-semibold text-brand-strong">{Object.keys(fav).length}</b>
-            </>
-          ) : (
-            '正在载入本地进度…'
-          )}
-        </p>
+    <main className="mx-auto w-full max-w-[1120px] px-4 pt-10 pb-20 sm:px-5">
+      {/* ── 页头：眉标 + 标题 + 说明，右侧总览 ─────────────────────────── */}
+      <header className="mb-7 flex flex-wrap items-end justify-between gap-x-10 gap-y-5">
+        <div className="min-w-0">
+          <p className="t-eyebrow mb-2">逐题精练</p>
+          <h1 className="t-h1 text-ink">刷题</h1>
+          <p className="t-small mt-2 max-w-[46ch] text-muted">
+            {hydrated ? '接着上次停下的地方继续；也可以按套卷整卷模考。' : '正在载入本地进度…'}
+          </p>
+        </div>
+        <OverallStats className="pb-0.5" />
       </header>
 
-      {/* 范围切换 */}
-      <div className="mb-5 flex flex-wrap items-center gap-1.5">
+      {/* ── 范围 / 考试筛选 ──────────────────────────────────────────── */}
+      <div className="mb-7 flex flex-wrap items-center gap-x-1 gap-y-1 border-b border-line pb-2">
         {SCOPES.map((s) => (
           <button
             key={s.id}
             type="button"
             onClick={() => setScope(s.id)}
             title={s.hint}
-            className={cn(
-              'rounded-lg border px-2.5 py-1 text-xs font-medium transition',
-              scope === s.id
-                ? 'border-brand bg-brand-soft text-brand-strong'
-                : 'border-line-strong text-muted hover:border-brand hover:text-brand-strong',
-            )}
+            className={tabClass(scope === s.id)}
           >
             {s.label}
           </button>
@@ -153,131 +181,143 @@ export default function PracticePage() {
 
         {exams.length > 1 && (
           <>
-            <span className="mx-1 h-5 w-px bg-line" />
-            <button
-              type="button"
-              onClick={() => setExamFilter('')}
-              className={cn(
-                'rounded-lg border px-2.5 py-1 text-xs font-medium transition',
-                !examFilter
-                  ? 'border-brand bg-brand-soft text-brand-strong'
-                  : 'border-line-strong text-muted hover:border-brand',
-              )}
-            >
-              全部考试
-            </button>
-            {exams.map((e) => (
-              <button
-                key={e.id}
-                type="button"
-                onClick={() => setExamFilter(e.id)}
-                className={cn(
-                  'rounded-lg border px-2.5 py-1 text-xs font-medium transition',
-                  examFilter === e.id
-                    ? 'border-brand bg-brand-soft text-brand-strong'
-                    : 'border-line-strong text-muted hover:border-brand',
-                )}
-              >
-                {e.shortName}
-              </button>
-            ))}
+            <span className="mx-2 hidden h-5 w-px bg-line-strong sm:block" aria-hidden />
+            {[{ id: '', label: '全部考试' }, ...exams.map((e) => ({ id: e.id, label: e.shortName }))].map(
+              (e) => (
+                <button
+                  key={e.id || 'all'}
+                  type="button"
+                  onClick={() => setExamFilter(e.id)}
+                  className={tabClass(examFilter === e.id)}
+                >
+                  {e.label}
+                </button>
+              ),
+            )}
           </>
         )}
       </div>
 
-      {loading && <div className="card p-8 text-center text-sm text-muted">正在载入题库索引…</div>}
-
-      {/* 错题 / 收藏：直接列题 */}
-      {(scope === 'wrong' || scope === 'fav') && !loading && (
-        <section>
-          {scopeList.length === 0 ? (
-            <div className="card p-8 text-center text-sm text-muted">
-              {scope === 'wrong' ? '错题本是空的。' : '还没有收藏。'}
-            </div>
-          ) : (
-            <ul className="grid gap-2 sm:grid-cols-2">
-              {scopeList.map((it) => (
-                <li key={it.key}>
-                  <Link
-                    href={it.href}
-                    className="card flex items-center gap-3 p-3 transition hover:-translate-y-0.5 hover:border-brand"
-                  >
-                    <span
-                      className={cn(
-                        'grid size-8 shrink-0 place-items-center rounded-lg font-mono text-[11px] tabular-nums',
-                        scope === 'wrong'
-                          ? 'bg-bad-soft text-bad'
-                          : 'bg-brand-soft text-brand-strong',
-                      )}
-                    >
-                      {it.no}
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block truncate text-xs font-medium text-ink">
-                        {it.paperTitle}
-                      </span>
-                      <span className="block truncate text-[11px] text-muted">
-                        {it.sectionName}
-                      </span>
-                    </span>
-                    <span className="shrink-0 text-xs text-brand">去重做 →</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
-        </section>
+      {loading && (
+        <div className="panel px-6 py-10 text-center t-small text-muted">正在载入题库索引…</div>
       )}
 
-      {/* 全部 / 未做：按套卷继续 */}
-      {(scope === 'all' || scope === 'undone') && !loading && (
-        <section className="space-y-2">
-          {rows.length === 0 ? (
-            <div className="card p-8 text-center text-sm text-muted">
-              所有套卷都刷完了。去错题本收尾吧。
-            </div>
-          ) : (
-            rows.map((r) => (
-              <div key={`${r.examId}/${r.paperId}`} className="card flex items-center gap-3 p-3.5">
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-baseline gap-2">
-                    <span className="truncate text-sm font-medium text-ink">{r.label}</span>
-                    {exams.length > 1 && (
-                      <span className="shrink-0 text-[11px] text-muted">{r.examName}</span>
+      {/* ── 错题 / 收藏：直接列题 ────────────────────────────────────── */}
+      {(scope === 'wrong' || scope === 'fav') &&
+        !loading &&
+        (scopeList.length === 0 ? (
+          <EmptyState
+            title={scope === 'wrong' ? '错题本是空的' : '还没有收藏'}
+            note={
+              scope === 'wrong'
+                ? '答错的题会自动收进错题本，方便回头收尾。'
+                : '答题时点题目右下角的「☆ 收藏」，题目就会出现在这里。'
+            }
+            action={
+              <button
+                type="button"
+                onClick={() => setScope('undone')}
+                className="btn btn-primary h-11 px-5"
+              >
+                去刷题 →
+              </button>
+            }
+          />
+        ) : (
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {scopeList.map((it) => (
+              <li key={it.key}>
+                <Link
+                  href={it.href}
+                  className="card-flat group grid min-h-[64px] grid-cols-[2.5rem_minmax(0,1fr)_auto] items-center gap-x-3 p-3 transition hover:border-line-strong hover:bg-surface-hover"
+                >
+                  <span className="t-num grid size-10 place-items-center rounded-[10px] border border-line bg-surface-sunken text-[15px] font-semibold text-ink-soft">
+                    {it.no}
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block truncate text-[15px] font-semibold text-ink">
+                      {it.paperTitle}
+                    </span>
+                    <span className="t-small block truncate text-muted">
+                      {it.sectionName || '套卷页'}
+                    </span>
+                  </span>
+                  <span
+                    aria-hidden
+                    className={cn(
+                      'shrink-0 text-[15px]',
+                      scope === 'fav' ? 'text-brand-ink' : 'text-muted',
                     )}
-                  </div>
-                  <div className="mt-1.5 flex items-center gap-2">
-                    <div className="h-1.5 w-28 overflow-hidden rounded-full bg-line">
-                      <div
-                        className={cn(
-                          'h-full rounded-full',
-                          r.rate >= 60 ? 'bg-brand' : 'bg-bad',
-                        )}
-                        style={{ width: `${(r.done / r.total) * 100}%` }}
-                      />
-                    </div>
-                    <span className="font-mono text-[11px] tabular-nums text-muted">
-                      {r.done}/{r.total}
-                    </span>
-                    <Link href={`/${r.examId}/${r.paperId}/exam`} className="text-[11px] text-muted hover:text-brand">
-                      整卷模考
-                    </Link>
-                  </div>
-                </div>
-
-                {scope === 'all' || r.nextHref ? (
-                  <Link
-                    href={scope === 'all' ? `/${r.examId}/${r.paperId}` : r.nextHref!}
-                    className="btn btn-primary shrink-0 px-3 py-1 text-xs"
                   >
-                    {scope === 'all' ? '查看套卷' : r.nextNo ? `继续第 ${r.nextNo} 题` : '继续'}
-                  </Link>
-                ) : null}
+                    {scope === 'fav' ? '★' : '→'}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ))}
+
+      {/* ── 全部 / 未做：一键继续 + 套卷网格 ─────────────────────────── */}
+      {(scope === 'all' || scope === 'undone') &&
+        !loading &&
+        (rows.length === 0 ? (
+          <EmptyState
+            title="所有套卷都刷完了"
+            note="去错题本收尾，把还没掌握的那几道再过一遍。"
+            action={
+              <Link href="/wrong" className="btn btn-primary h-11 px-5">
+                查看错题本 →
+              </Link>
+            }
+          />
+        ) : (
+          <section>
+            {scope === 'undone' && top && (
+              <div className="panel mb-6 flex flex-wrap items-center justify-between gap-5 p-5 sm:p-6">
+                <div className="min-w-0">
+                  <p className="t-eyebrow mb-1.5">接着上次 · {top.examName}</p>
+                  <h2 className="t-h3 truncate text-ink">
+                    {top.paper.label} · 第{top.paper.setNo}套
+                  </h2>
+                  <p className="t-small mt-1 text-muted">
+                    {top.nextNo ? `下一题：第 ${top.nextNo} 题` : '本套已收尾，可以先看整卷'}
+                  </p>
+                  <PaperProgress
+                    examId={top.examId}
+                    paperId={top.paperId}
+                    nos={top.paper.nos}
+                    className="mt-3 max-w-[300px]"
+                  />
+                </div>
+                <Link href={top.nextHref} className="btn btn-primary h-11 shrink-0 px-5">
+                  {top.nextNo ? `继续第 ${top.nextNo} 题` : '继续'}
+                </Link>
               </div>
-            ))
-          )}
-        </section>
-      )}
+            )}
+
+            <div className="mb-4 flex items-baseline justify-between gap-3">
+              <h2 className="t-h2 text-ink">{scope === 'all' ? '套卷列表' : '待完成套卷'}</h2>
+              <span className="t-small text-muted tabular-nums">{rows.length} 套</span>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {rows.map((r) => (
+                <div key={`${r.examId}/${r.paperId}`} className="flex flex-col gap-1.5">
+                  {exams.length > 1 && (
+                    <span className="px-0.5 t-small text-muted">{r.examName}</span>
+                  )}
+                  <PaperCard
+                    examId={r.examId}
+                    paper={r.paper}
+                    sections={cardSections[r.examId] ?? []}
+                    href={scope === 'all' ? `/${r.examId}/${r.paperId}` : r.nextHref}
+                    className="h-full"
+                  />
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
     </main>
   );
 }

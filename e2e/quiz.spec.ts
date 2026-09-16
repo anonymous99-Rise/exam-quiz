@@ -54,7 +54,7 @@ test.describe('答题与判分', () => {
     await fresh(page, `${PAPER}/listening`);
 
     await option(page, 1, 0).click(); // A 是错的
-    await expect(page.locator('#q-1')).toContainText('✕ 答错，正确答案 C');
+    await expect(page.locator('#q-1')).toContainText('✕ 答错 · 正确答案 C');
 
     await page.goto('/wrong');
     await expect(page.getByRole('heading', { name: '错题本' })).toBeVisible();

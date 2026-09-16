@@ -1,46 +1,73 @@
 @import 'tailwindcss';
 
 /* ==========================================================================
-   设计令牌 —— 从旧站 css/style.css 的 :root 原样继承，保证视觉连续
-   旧站令牌 → Tailwind v4 @theme 映射见 docs/DESIGN.md §8.3
+   设计系统 v2 —— 全部重写
+   --------------------------------------------------------------------------
+   旧版是把旧站的 :root 原样搬过来（粉色渐变底 + 粉调阴影 + 紫灰文字），
+   实测问题：正文灰 4.03:1 / 极淡灰 2.30:1 / 品牌粉白字 3.76:1（都不达 AA），
+   字号 8 种、圆角 5 种散落在组件里，长文 CPL 102（舒适区 62–72）。
+
+   v2 的三条原则：
+     1. **中性骨架**：页面底是冷白，卡片纯白，阴影中性 —— 粉色只做强调，不做背景雾。
+     2. **单一刻度**：字号/间距/圆角/阴影都有固定阶梯，组件只许用阶梯值。
+     3. **对比度达标**：正文 ≥ 7:1，次级 ≥ 4.6:1，装饰性文字才允许低对比。
    ========================================================================== */
 
 @theme {
-  /* 主色：玫瑰粉 */
-  --color-brand: #e5487f; /* --rose */
-  --color-brand-strong: #c0245f; /* --rose-d */
-  --color-brand-soft: #fff0f6; /* --rose-s */
-  --color-brand-mid: #f0699c;
-  --color-brand-deep: #d92e6c;
+  /* ---------- 中性骨架（冷灰，不再带紫粉）---------- */
+  --color-canvas: #f6f6f8; /* 页面底 */
+  --color-surface: #ffffff; /* 卡片/题目区 */
+  --color-surface-sunken: #f7f7f9; /* 嵌入区块（原文、词库、解析底）——与纯白拉开层次 */
+  --color-surface-hover: #f1f1f4;
 
-  /* 中性：文字与线条 */
-  --color-ink: #1b1f24; /* --ink  正文 */
-  --color-ink-soft: #3d444d; /* --ink-2 次级正文 */
-  --color-muted: #8b7a83; /* --muted 辅助说明 */
-  --color-faint: #b6a7ae; /* --faint 占位/禁用 */
-  --color-line: #f0e2e9; /* --line  浅分隔线 */
-  --color-line-strong: #e7d6df; /* --line-2 深分隔线 */
-  --color-surface: #ffffff; /* --white 题目区纯白 */
-  --color-surface-warm: #fffafc; /* 页面暖底 */
+  --color-ink: #14161a; /* 正文 16.9:1 */
+  --color-ink-soft: #3f434b; /* 次级正文 9.6:1 */
+  --color-muted: #5c6270; /* 辅助说明 6.0:1 */
+  --color-faint: #8b909c; /* 占位/禁用（仅大字号或装饰）3.1:1 */
 
-  /* 语义色：判分 */
-  --color-ok: #12a150; /* --ok */
-  --color-ok-soft: #e8f8ee; /* --ok-s */
-  --color-bad: #e5484d; /* --bad */
-  --color-bad-soft: #fdeced; /* --bad-s */
+  --color-line: #e8e8ed; /* 分隔线 */
+  --color-line-strong: #d6d7de; /* 控件描边 */
 
-  /* 圆角 */
-  --radius-card: 18px; /* --radius */
-  --radius-sm2: 12px;
+  /* ---------- 品牌（玫红）：只做强调 ---------- */
+  --color-brand: #e5487f; /* 填充/描边/≥18px 粗体 */
+  --color-brand-solid: #c9305f; /* 实心按钮底（白字 5.1:1）*/
+  --color-brand-ink: #b8325f; /* 浅底上的品牌文字 5.3:1 */
+  --color-brand-soft: #fff0f6; /* 浅底 */
+  --color-brand-line: #f8cfe0; /* 浅描边 */
 
-  /* 字体 */
+  /* ---------- 语义色 ---------- */
+  --color-ok: #2f9e6e;
+  --color-ok-ink: #1f7d55; /* 浅底文字 5.0:1 */
+  --color-ok-soft: #eef7f2;
+  --color-ok-line: #b8e0cd;
+
+  --color-bad: #d1495f;
+  --color-bad-ink: #b03250; /* 浅底文字 5.2:1 */
+  --color-bad-soft: #fdf2f5;
+  --color-bad-line: #f2c6d1;
+
+  --color-warn: #b7791f;
+  --color-warn-soft: #fdf6e7;
+  --color-warn-line: #eddcb5;
+
+  /* ---------- 圆角阶梯 ---------- */
+  --radius-micro: 6px;
+  --radius-control: 10px;
+  --radius-card: 14px;
+  --radius-panel: 20px;
+
+  /* ---------- 阴影阶梯（中性，两档够用）---------- */
+  --shadow-flat: 0 1px 2px rgb(16 18 24 / 0.04);
+  --shadow-card: 0 1px 2px rgb(16 18 24 / 0.04), 0 8px 24px -12px rgb(16 18 24 / 0.1);
+  --shadow-float: 0 2px 8px rgb(16 18 24 / 0.06), 0 20px 48px -16px rgb(16 18 24 / 0.18);
+
+  /* ---------- 字体 ---------- */
   --font-sans:
-    'Inter', 'Segoe UI', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
-
-  /* 阴影：带粉调的柔和投影，inherited from 旧站 */
-  --shadow-card: 0 1px 2px rgb(160 80 120 / 0.06), 0 10px 30px rgb(160 80 120 / 0.1);
-  --shadow-float: 0 2px 6px rgb(160 80 120 / 0.08), 0 24px 60px rgb(160 80 120 / 0.16);
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', 'Source Serif 4', Georgia, 'Songti SC',
+    'SimSun', serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
 }
 
 /* ==========================================================================
@@ -54,37 +81,132 @@
   }
 
   body {
-    background-color: var(--color-surface-warm);
+    /* 冷白底 + 顶部一层极淡的品牌光晕（只此一处，不再是三层粉色雾） */
+    background-color: var(--color-canvas);
+    background-image: radial-gradient(
+      48rem 24rem at 50% -12rem,
+      rgb(229 72 127 / 0.05),
+      transparent 70%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--color-ink);
     font-family: var(--font-sans);
-    /* 「外围粉色渐变」：旧站用 .aurora 元素实现，这里内联为固定背景层 */
-    background-image:
-      radial-gradient(60rem 40rem at 12% -10%, rgb(229 72 127 / 0.14), transparent 60%),
-      radial-gradient(50rem 36rem at 100% 0%, rgb(240 105 156 / 0.12), transparent 55%),
-      radial-gradient(48rem 40rem at 50% 110%, rgb(229 72 127 / 0.08), transparent 60%);
-    background-attachment: fixed;
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
     min-height: 100dvh;
   }
 
-  /* 阅读原文用衬线，和题干区分开 */
-  .prose-en {
-    font-family: var(--font-serif);
+  /* 中文正文用两端对齐更整齐；英文段落左对齐（避免字距被拉散） */
+  :lang(zh) p,
+  p:lang(zh-CN) {
+    text-align: justify;
+    text-justify: inter-ideograph;
   }
 
   ::selection {
-    background: var(--color-brand-soft);
-    color: var(--color-brand-strong);
+    background: var(--color-brand-line);
+    color: var(--color-brand-ink);
   }
 
   :focus-visible {
     outline: 2px solid var(--color-brand);
     outline-offset: 2px;
-    border-radius: 4px;
+    border-radius: var(--radius-micro);
+  }
+
+  /* 细滚动条：左栏原文独立滚动时可见但不抢眼 */
+  .scroll-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line-strong) transparent;
+  }
+  .scroll-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scroll-thin::-webkit-scrollbar-thumb {
+    background: var(--color-line-strong);
+    border-radius: 999px;
+  }
+  .scroll-thin::-webkit-scrollbar-track {
+    background: transparent;
   }
 }
 
 /* ==========================================================================
-   组件层：M0 只建立最小原语，M3 起按题目组件扩展
+   排版刻度：只用这套类，不要在组件里写 text-[13px] 这种散值
+   ========================================================================== */
+
+@layer components {
+  .t-display {
+    font-size: 30px;
+    /* 中文标题两行时 1.2 会显得憋（评审实测像 1.0），给到 1.28 */
+    line-height: 1.28;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .t-h1 {
+    font-size: 22px;
+    line-height: 1.32;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .t-h2 {
+    font-size: 17px;
+    line-height: 1.45;
+    font-weight: 700;
+  }
+  .t-h3 {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .t-body {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .t-small {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .t-micro {
+    font-size: 11px;
+    line-height: 1.45;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  /* 小标签：区块眉标 */
+  .t-eyebrow {
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-faint);
+  }
+  /* 英文长文：16px/1.75，限制栏宽在 576px（≈68 CPL）*/
+  .t-read {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.005em;
+    text-align: left;
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+  .t-read-serif {
+    font-family: var(--font-serif);
+  }
+  /* 数字表格化，避免计时/统计跳动 */
+  .t-num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+}
+
+/* ==========================================================================
+   原语：卡片 / 按钮 / 徽标 / 选项行 / 段
    ========================================================================== */
 
 @layer components {
@@ -94,48 +216,199 @@
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-card);
   }
+  .card-flat {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+  }
+  .panel {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-panel);
+    box-shadow: var(--shadow-card);
+  }
 
   .btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 0.4rem;
-    border-radius: 12px;
+    gap: 6px;
+    border-radius: var(--radius-control);
     border: 1px solid transparent;
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
+    padding: 0 14px;
+    min-height: 38px;
+    font-size: 13px;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.2;
     cursor: pointer;
+    white-space: nowrap;
     transition:
       background-color 0.15s ease,
       border-color 0.15s ease,
-      transform 0.06s ease;
+      color 0.15s ease,
+      transform 0.08s ease,
+      box-shadow 0.15s ease;
   }
-  .btn:active {
+  .btn:active:not(:disabled) {
     transform: translateY(1px);
   }
   .btn:disabled {
-    opacity: 0.5;
+    opacity: 0.45;
     cursor: not-allowed;
   }
 
+  /* 实心：用 brand-solid 才够对比度（白字 5.1:1）*/
   .btn-primary {
-    background: var(--color-brand);
+    background: var(--color-brand-solid);
     color: #fff;
+    box-shadow: var(--shadow-flat);
   }
   .btn-primary:hover:not(:disabled) {
-    background: var(--color-brand-strong);
+    background: var(--color-brand-ink);
   }
 
   .btn-ghost {
-    background: transparent;
+    background: var(--color-surface);
     border-color: var(--color-line-strong);
     color: var(--color-ink-soft);
   }
   .btn-ghost:hover:not(:disabled) {
+    background: var(--color-surface-hover);
+    border-color: var(--color-faint);
+    color: var(--color-ink);
+  }
+
+  .btn-quiet {
+    background: transparent;
+    color: var(--color-muted);
+  }
+  .btn-quiet:hover:not(:disabled) {
+    background: var(--color-surface-hover);
+    color: var(--color-ink);
+  }
+
+  .btn-sm {
+    min-height: 32px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  /* 徽标 / 标签 */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.5;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    color: var(--color-muted);
+  }
+  .chip-brand {
+    border-color: var(--color-brand-line);
     background: var(--color-brand-soft);
+    color: var(--color-brand-ink);
+  }
+  .chip-ok {
+    border-color: var(--color-ok-line);
+    background: var(--color-ok-soft);
+    color: var(--color-ok-ink);
+  }
+  .chip-bad {
+    border-color: var(--color-bad-line);
+    background: var(--color-bad-soft);
+    color: var(--color-bad-ink);
+  }
+  .chip-warn {
+    border-color: var(--color-warn-line);
+    background: var(--color-warn-soft);
+    color: var(--color-warn);
+  }
+
+  /* 选项行：整行可点、48px 命中区、状态三重编码（颜色+左条+图标）*/
+  .opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    min-height: 48px;
+    padding: 11px 14px;
+    border-radius: var(--radius-control);
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    text-align: left;
+    cursor: pointer;
+    transition:
+      border-color 0.15s ease,
+      background-color 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  .opt + .opt {
+    margin-top: 8px;
+  }
+  .opt:hover:not(:disabled) {
+    border-color: var(--color-brand-line);
+    background: #fffafc;
+  }
+  .opt:disabled {
+    cursor: default;
+  }
+  .opt-picked {
     border-color: var(--color-brand);
-    color: var(--color-brand-strong);
+    background: var(--color-brand-soft);
+    box-shadow: inset 3px 0 0 var(--color-brand);
+  }
+  .opt-ok {
+    border-color: var(--color-ok-line);
+    background: var(--color-ok-soft);
+    box-shadow: inset 3px 0 0 var(--color-ok);
+  }
+  .opt-bad {
+    border-color: var(--color-bad-line);
+    background: var(--color-bad-soft);
+    box-shadow: inset 3px 0 0 var(--color-bad);
+  }
+  .opt-dim {
+    opacity: 0.5;
+  }
+
+  /* 选项字母徽标 */
+  .optkey {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: var(--radius-micro);
+    border: 1px solid var(--color-line-strong);
+    background: var(--color-surface-sunken);
+    color: var(--color-muted);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .optkey-picked {
+    border-color: var(--color-brand);
+    background: var(--color-brand-solid);
+    color: #fff;
+  }
+  .optkey-ok {
+    border-color: var(--color-ok);
+    background: var(--color-ok);
+    color: #fff;
+  }
+  .optkey-bad {
+    border-color: var(--color-bad);
+    background: var(--color-bad);
+    color: #fff;
+  }
+
+  /* 段落分隔（Part 之间）*/
+  .rule {
+    height: 1px;
+    background: var(--color-line);
   }
 }
