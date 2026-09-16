@@ -149,8 +149,18 @@ export function AudioPlayer({
     if (!el) return;
     const onTime = () => setCurrent(el.currentTime);
     const onMeta = () => {
-      setDuration(el.duration || 0);
-      setReady(true);
+      const d = el.duration || 0;
+      setDuration(d);
+      /*
+       * 元数据到了就说明音频其实是好的 —— 把超时兜底留下的告警撤掉，
+       * 否则冷启动慢一拍的卷会一直挂着一句已经过期的「音频加载超时」。
+       * 只在拿到有限正时长时清（NaN/Infinity 的 durationchange 不算加载成功），
+       * 真正的加载失败也不会触发 loadedmetadata。
+       */
+      if (Number.isFinite(d) && d > 0) {
+        setReady(true);
+        setError(null);
+      }
     };
     const onPlay = () => setPlaying(true);
     const onPause = () => setPlaying(false);
@@ -173,13 +183,17 @@ export function AudioPlayer({
 
   /*
    * 载入超时兜底：ready 只在 loadedmetadata 置位，网络卡住时会永远显示「载入中…」，
-   * 用户分不清是慢还是坏了。12 秒还没元数据就给一个明确结论。
+   * 用户分不清是慢还是坏了。
+   *
+   * 阈值取 20s 而非 12s：冷启动的 Serverless 函数 + 第三方 HLS CDN 首次拉清单
+   * 实测会超过 12s（部署后台实测出现过），12s 会把「慢」误报成「坏」；而这个
+   * 告警本身不阻塞答题，晚一点说比说错好。元数据到达时 onMeta 会把告警撤掉。
    */
   useEffect(() => {
     if (ready || error) return;
     const t = window.setTimeout(() => {
       if (!audioRef.current?.duration) setError('音频加载超时，可先看题干作答');
-    }, 12_000);
+    }, 20_000);
     return () => window.clearTimeout(t);
   }, [ready, error]);
 

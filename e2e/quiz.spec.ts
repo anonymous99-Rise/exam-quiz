@@ -253,6 +253,25 @@ test.describe('听力播放器', () => {
     // 2025-06-1 的音源已换成素材库自托管 mp3（原本是第三方 HLS）
     const src = await page.locator('audio').getAttribute('src');
     expect(src).toBe('/audio/cet6-2025-06-1.mp3');
+
+    /*
+     * 关键：断言音频**真的能加载**，而不只是 <audio> 元素存在。
+     * 之前只断言元素存在，正好掩盖了「全站自托管音频 404」这个故障。
+     * 这个 mp3 在仓库里（本地 public/audio）存在，所以不依赖外部网络。
+     */
+    const load = await page.waitForFunction(
+      () => {
+        const a = document.querySelector('audio');
+        return a && a.readyState >= 1 && Number.isFinite(a.duration) && a.duration > 0
+          ? { readyState: a.readyState, duration: Math.round(a.duration) }
+          : false;
+      },
+      undefined,
+      { timeout: 30_000 },
+    );
+    const { duration } = (await load.jsonValue()) as { duration: number };
+    expect(duration).toBeGreaterThan(60); // 一整套听力十几分钟
+    await expect(page.locator('p[role="alert"]')).toHaveCount(0);
   });
 
   /*
