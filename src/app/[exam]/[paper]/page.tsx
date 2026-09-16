@@ -92,7 +92,10 @@ export default async function PaperPage({
                 />
                 <div className="t-small min-w-0 flex-1">
                   <span className="t-micro text-warn">{flagLabel(f)}</span>
-                  <span className="text-ink-soft"> · {flagHint(f)}</span>
+                  <span className="text-ink-soft">
+                    {' '}
+                    · {flagHint(f, { questionCount: paper.questions.length })}
+                  </span>
                 </div>
               </li>
             ))}

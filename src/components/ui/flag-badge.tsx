@@ -17,7 +17,14 @@ export function flagLabel(flag: string) {
   return FLAG_META[flag]?.label ?? flag;
 }
 
-export function flagHint(flag: string) {
+/**
+ * 缺口说明。`questionCount` 用于消歧：同样是 `incomplete`，
+ * 缺几题（「仅能练习已收录部分」）和一题都没有（「尚未收录」）不是一回事。
+ */
+export function flagHint(flag: string, opts?: { questionCount?: number }) {
+  if (flag === 'incomplete' && opts?.questionCount === 0) {
+    return '该套真题尚未收录题目，目前只提供写作与翻译';
+  }
   return FLAG_META[flag]?.hint ?? '';
 }
 

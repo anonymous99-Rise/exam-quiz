@@ -65,8 +65,9 @@ export function PaperCard({
             )}
           </div>
         </div>
+        {/* 0 题的卷点进去没有可做的题（只有写作/翻译），写「开始」会误导；改「查看」 */}
         <span className="mt-0.5 shrink-0 text-[13px] font-semibold text-brand-ink">
-          开始 →
+          {empty ? '查看 →' : '开始 →'}
         </span>
       </div>
 

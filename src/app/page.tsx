@@ -145,7 +145,10 @@ export default function Home() {
           不用于商业用途、不再分发原始材料。
         </p>
         <p className="mt-2">
-          <Link href="/design" className="text-muted underline decoration-line-strong hover:text-brand-ink">
+          <Link
+            href="/design"
+            className="tap-expand text-muted underline decoration-line-strong hover:text-brand-ink"
+          >
             设计系统预览
           </Link>
         </p>
