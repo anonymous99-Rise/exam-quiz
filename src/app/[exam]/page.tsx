@@ -13,7 +13,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ exam: string }> }) {
   const { exam: examId } = await params;
   const exam = getExamConfig(examId);
-  return { title: exam ? `${exam.name} · 真题刷题` : '考试' };
+  /*
+   * 考试 id 不存在时页面会 notFound()，但 generateMetadata 先跑 —— 标题必须与
+   * 404 一致，否则标签页会显示「考试」而正文写着「没有找到这个页面」（实测如此）。
+   */
+  return { title: exam ? `${exam.name} · 真题刷题` : '页面不存在' };
 }
 
 /** section.kind → 中文题型名（仅展示用，不参与任何数据派生） */

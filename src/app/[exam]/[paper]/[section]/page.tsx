@@ -29,7 +29,7 @@ export async function generateMetadata({
   const { exam: examId, paper: paperId, section } = await params;
   const exam = getExamConfig(examId);
   const paper = getPaper(examId, paperId);
-  if (!exam || !paper) return { title: '答题' };
+  if (!exam || !paper) return { title: '页面不存在' };
   const name =
     section === 'subjective'
       ? '写作与翻译'

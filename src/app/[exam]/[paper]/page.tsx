@@ -19,7 +19,8 @@ export async function generateMetadata({
   const { exam: examId, paper: paperId } = await params;
   const paper = getPaper(examId, paperId);
   const exam = getExamConfig(examId);
-  return { title: paper ? `${paperTitle(paper)} · ${exam?.shortName ?? ''}` : '试卷' };
+  // 套卷不存在时页面会 notFound()，标题跟着说「页面不存在」（见 [exam]/page.tsx 同注）
+  return { title: paper ? `${paperTitle(paper)} · ${exam?.shortName ?? ''}` : '页面不存在' };
 }
 
 /**

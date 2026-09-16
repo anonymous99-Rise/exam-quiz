@@ -23,7 +23,7 @@ export async function generateMetadata({
   const exam = getExamConfig(examId);
   const paper = getPaper(examId, paperId);
   return {
-    title: paper ? `${paperTitle(paper)} · 整卷模考 · ${exam?.shortName ?? ''}` : '整卷模考',
+    title: paper ? `${paperTitle(paper)} · 整卷模考 · ${exam?.shortName ?? ''}` : '页面不存在',
   };
 }
 
