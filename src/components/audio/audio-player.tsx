@@ -20,6 +20,26 @@ import { cn } from '@/lib/utils';
  * hls.js 用动态 import：只有真正播 HLS 时才下载，不拖累首屏。
  */
 
+/**
+ * 跨域 HLS 走自有代理。
+ *
+ * 第三方 HLS 源不返回 CORS 头，hls.js 直接 fetch 会被浏览器判 Failed to fetch
+ * （实测 18 套使用 HLS 的卷子在 Chrome 里全部播不出来）。
+ * 同源地址（自托管 mp3）与已代理的地址原样返回。
+ */
+function proxiedSrc(audio: AudioAsset): string {
+  const isHls = audio.kind === 'hls' || /\.m3u8(\?|$)/.test(audio.url);
+  if (!isHls) return audio.url;
+  if (audio.url.startsWith('/api/audio/')) return audio.url;
+  if (!/^https?:\/\//i.test(audio.url)) return audio.url;
+  try {
+    const u = new URL(audio.url);
+    return `/api/audio${u.pathname}`;
+  } catch {
+    return audio.url;
+  }
+}
+
 export function AudioPlayer({
   audio,
   title,
@@ -42,21 +62,24 @@ export function AudioPlayer({
   const [error, setError] = useState<string | null>(null);
 
   /* ---------- 音源装载 ---------- */
+  // 先算出最终地址与形态，effect 只依赖这两个稳定值（避免 exhaustive-deps 警告）
+  const src = proxiedSrc(audio);
+  const isHlsSource = audio.kind === 'hls' || /\.m3u8(\?|$)/.test(audio.url);
+
   useEffect(() => {
     const el = audioRef.current;
     if (!el) return;
     setError(null);
     setReady(false);
 
-    const isHls = audio.kind === 'hls' || /\.m3u8(\?|$)/.test(audio.url);
-    if (!isHls) {
-      el.src = audio.url;
+    if (!isHlsSource) {
+      el.src = src;
       return;
     }
 
     // Safari / iOS 原生支持 HLS，不需要 hls.js
     if (el.canPlayType('application/vnd.apple.mpegurl')) {
-      el.src = audio.url;
+      el.src = src;
       return;
     }
 
@@ -71,10 +94,16 @@ export function AudioPlayer({
           return;
         }
         const inst = new Hls({ enableWorker: true });
-        inst.loadSource(audio.url);
+        inst.loadSource(src);
         inst.attachMedia(el);
-        inst.on(Hls.Events.ERROR, (_e: unknown, data: { fatal?: boolean }) => {
-          if (data?.fatal) setError('音频加载失败');
+        inst.on(Hls.Events.ERROR, (_e: unknown, data: { fatal?: boolean; details?: string }) => {
+          if (data?.fatal) {
+            setError(
+              data.details
+                ? `音频加载失败（${data.details}）`
+                : '音频加载失败',
+            );
+          }
         });
         hls = inst;
       } catch {
@@ -86,7 +115,7 @@ export function AudioPlayer({
       cancelled = true;
       hls?.destroy();
     };
-  }, [audio.kind, audio.url]);
+  }, [src, isHlsSource]);
 
   /* ---------- 事件 ---------- */
   useEffect(() => {
