@@ -121,7 +121,8 @@ export function WordBankView({
               .sort((a, b) => a.label.localeCompare(b.label))
               .map((w) => (
                 <li key={w.label} className="flex items-baseline gap-1.5 text-[14px] text-ink-soft">
-                  <b className="font-bold text-brand-ink">{w.label}</b>
+                  {/* 字母用中性色：品牌色留给「已选中」状态，避免「红＝已用」的误读 */}
+                  <b className="font-bold text-ink">{w.label}</b>
                   <span className="min-w-0 truncate">{w.text}</span>
                 </li>
               ))}

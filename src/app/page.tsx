@@ -22,7 +22,7 @@ export default function Home() {
       <section className="mb-14 grid items-start gap-10 lg:grid-cols-[1.35fr_1fr]">
         <div>
           <p className="t-eyebrow mb-2.5">CET-6 · CET-4 历年真题</p>
-          <h1 className="t-display text-ink">
+          <h1 className="t-display text-[26px] text-ink sm:text-[30px]">
             把每一道真题
             <br className="hidden sm:block" />
             真正吃透

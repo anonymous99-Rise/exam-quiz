@@ -210,9 +210,10 @@ export function InkLayer({
       {/*
         工具栏：z-40 压在画布之上，既不会被涂层挡住，也不会误落笔。
         位置：底部操作条（64px）之上 —— 旧版固定在 bottom-4、宽 112×38，
-        实测会压住选项与「按 A–Z 作答」提示；现在收成 40×40 图标按钮，只在角落。
+        实测会压住选项与「按 A–Z 作答」提示；现在收成 40×40 图标按钮。
+        ⚠ 手机上隐藏：触屏写字与滚动冲突，且实测该按钮会压住题卡的「收藏」按钮。
       */}
-      <div className="fixed right-4 bottom-[5.25rem] z-40 flex flex-col items-end gap-2 print:hidden">
+      <div className="fixed right-4 bottom-[5.25rem] z-40 hidden flex-col items-end gap-2 sm:flex print:hidden">
         {on && (
           <div className="card flex flex-wrap items-center gap-1.5 px-2.5 py-2 shadow-float">
             {COLORS.map((c) => (

@@ -69,8 +69,8 @@ export default async function SectionPage({
       <main className="mx-auto w-full max-w-[1120px] px-4 pb-16 pt-6 sm:px-5">
         {backLink}
         <h1 className="t-h1 mb-6 text-ink">{paperTitle(paper)} · 写作与翻译</h1>
-        {/* 写作/翻译是「读+写」的长文本任务，正文栏宽收在 820px，避免整屏一行太宽 */}
-        <div className="max-w-[820px]">
+        {/* 写作/翻译是「读+写」的长文本任务，正文栏宽收在 900px（不是满宽，避免一行过长） */}
+        <div className="max-w-[900px]">
           <SubjectiveView examId={examId} paperId={paperId} subjective={paper.subjective} />
         </div>
       </main>
