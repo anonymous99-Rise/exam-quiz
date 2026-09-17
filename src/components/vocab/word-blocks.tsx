@@ -132,47 +132,38 @@ export function ExamSentenceBlock({
  * 发音（英美两音）
  *
  * 用有道词典的公开发音直链 —— 上游数据里只存了 `word&type=N` 这种片段，
- * 拼出来就是 dictvoice。外网不可达时按钮自动隐藏（onError），不留死按钮。
+ * 拼出来就是 dictvoice。外网不可达时静默失败，不留死按钮。
+ *
+ * 按钮里**不重复显示音标**：卡片/详情页的正上方已经有一行 英/美 音标了，
+ * 再印一遍是噪音（第一版就犯了这个错，被截图一眼看出来）。
  */
-export function PronounceBlock({
-  word,
-  uk,
-  us,
-  className,
-}: {
-  word: string;
-  uk?: string;
-  us?: string;
-  className?: string;
-}) {
+export function PronounceBlock({ word, className }: { word: string; className?: string }) {
   const url = (type: 1 | 2) =>
     `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(word)}&type=${type}`;
   return (
     <div className={cn('flex flex-wrap items-center gap-2', className)}>
       {(
         [
-          [1, '英', uk],
-          [2, '美', us],
+          [1, '英式'],
+          [2, '美式'],
         ] as const
-      ).map(([type, label, phone]) => (
+      ).map(([type, label]) => (
         <button
           key={type}
           type="button"
           onClick={() => {
             const a = new Audio(url(type));
-            a.volume = 1;
             void a.play().catch(() => {
               /* 播放被拒或不可达：静默失败，不弹错误 */
             });
           }}
-          aria-label={`播放${label}式发音`}
+          aria-label={`播放${label}发音`}
           className="inline-flex h-8 items-center gap-1.5 rounded-full border border-line-strong px-2.5 text-[12.5px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
         >
           <svg viewBox="0 0 16 16" aria-hidden className="size-3.5 fill-current">
             <path d="M8 2.2 4.6 5H2.2v6h2.4L8 13.8V2.2Zm3.4 1.5a6 6 0 0 1 0 8.6l-1-1a4.6 4.6 0 0 0 0-6.6l1-1Z" />
           </svg>
           {label}
-          {phone && <span className="display font-normal text-faint">/{phone}/</span>}
         </button>
       ))}
     </div>

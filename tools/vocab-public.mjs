@@ -15,7 +15,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const SRC = path.join('content', 'vocab');
-const DST = path.join('public', 'vocab');
+/*
+ * ⚠ 目录名必须**避开 app 路由**。
+ * 踩过的坑：数据放在 public/vocab/<book>/index.json 时，线上访问 /vocab/cet6
+ * 会被解析成那个静态 JSON（application/json），动态路由 /vocab/[book] 根本没机会跑 ——
+ * 页面直接吐原始 JSON。改叫 vocab-data/ 之后，/vocab/* 全部归 app 路由。
+ */
+const DST = path.join('public', 'vocab-data');
 
 if (!fs.existsSync(SRC)) {
   console.error(`✗ ${SRC} 不存在 —— 先跑 node tools/vocab-import.mjs`);
@@ -42,4 +48,4 @@ function copyDir(from, to) {
   }
 }
 copyDir(SRC, DST);
-console.log(`✓ public/vocab：${files} 个文件 · ${(bytes / 1048576).toFixed(1)}MB`);
+console.log(`✓ public/vocab-data：${files} 个文件 · ${(bytes / 1048576).toFixed(1)}MB`);

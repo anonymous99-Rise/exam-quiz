@@ -148,15 +148,10 @@ export default function WordPage({ params }: { params: Promise<{ book: string; w
             {entry?.posTags?.length ? <span className="text-faint">{entry.posTags.join(' / ')}</span> : null}
           </p>
 
-          <PronounceBlock
-            word={entry?.sp ?? word}
-            uk={entry?.uk}
-            us={entry?.us}
-            className="mt-4"
-          />
+          <PronounceBlock word={entry?.sp ?? word} className="mt-4" />
 
           <ul className="mt-6 space-y-1.5 border-t border-line pt-5">
-            {entry?.pos.map((p, i) => (
+            {entry?.pos?.map((p, i) => (
               <li key={i} className="text-[17px] leading-7 text-ink">
                 {p.t && <span className="mr-2 text-[13px] text-brand-ink">{p.t}.</span>}
                 {p.z}
@@ -180,7 +175,7 @@ export default function WordPage({ params }: { params: Promise<{ book: string; w
             <section className="mt-7">
               <h2 className="t-eyebrow mb-2.5">词组</h2>
               <ul className="space-y-1.5">
-                {entry.phr.map((p, i) => (
+                {entry.phr?.map((p, i) => (
                   <li key={i} className="text-[14.5px] text-ink-soft">
                     <span className="font-medium">{p.p}</span>
                     <span className="mx-2 text-faint">—</span>
@@ -195,7 +190,7 @@ export default function WordPage({ params }: { params: Promise<{ book: string; w
             <section className="mt-7">
               <h2 className="t-eyebrow mb-2.5">例句</h2>
               <ul className="space-y-3">
-                {entry.sent.map((s, i) => (
+                {entry.sent?.map((s, i) => (
                   <li key={i} className="border-l-[3px] border-brand-line pl-3.5">
                     <p className="text-[15.5px] leading-7 text-ink">{s.en}</p>
                     {s.zh && <p className="mt-0.5 text-[13px] text-muted">{s.zh}</p>}

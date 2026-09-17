@@ -262,7 +262,7 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
                 {card.uk && <span>英 /{card.uk}/</span>}
                 {card.us && <span className="ml-4">美 /{card.us}/</span>}
               </p>
-              <PronounceBlock word={card.sp ?? card.w} uk={card.uk} us={card.us} className="mt-3" />
+              <PronounceBlock word={card.sp ?? card.w} className="mt-3" />
 
               {(() => {
                 const hit = refs[card.w];
@@ -279,7 +279,7 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
               {flipped ? (
                 <div className="mt-7 border-t border-line pt-6">
                   <ul className="space-y-1.5">
-                    {card.pos.map((p, i) => (
+                    {card.pos?.map((p, i) => (
                       <li key={i} className="text-[17px] leading-7 text-ink">
                         {p.t && <span className="mr-2 text-[13px] text-brand-ink">{p.t}.</span>}
                         {p.z}
@@ -306,11 +306,11 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
                     <ExamSentenceBlock exs={card.exs} className="mt-5" />
                   ) : null}
 
-                  {card.phr.length > 0 && (
+                  {(card.phr?.length ?? 0) > 0 && (
                     <div className="mt-5">
                       <p className="t-eyebrow mb-2">词组</p>
                       <ul className="space-y-1">
-                        {card.phr.map((p, i) => (
+                        {card.phr?.map((p, i) => (
                           <li key={i} className="text-[14px] text-ink-soft">
                             <span className="font-medium">{p.p}</span>
                             <span className="mx-2 text-faint">—</span>
@@ -321,11 +321,11 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
                     </div>
                   )}
 
-                  {card.sent.length > 0 && (
+                  {(card.sent?.length ?? 0) > 0 && (
                     <div className="mt-5">
                       <p className="t-eyebrow mb-2">例句</p>
                       <ul className="space-y-2.5">
-                        {card.sent.map((s, i) => (
+                        {card.sent?.map((s, i) => (
                           <li key={i} className="border-l-[3px] border-brand-line pl-3.5">
                             <p className="text-[15px] leading-6 text-ink">{s.en}</p>
                             {s.zh && <p className="mt-0.5 text-[13px] text-muted">{s.zh}</p>}

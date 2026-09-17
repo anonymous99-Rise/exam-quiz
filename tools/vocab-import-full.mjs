@@ -201,8 +201,13 @@ for (const id of books) {
       else delete e.rel;
       if (extra?.exs) e.exs = extra.exs;
       else delete e.exs;
+      /*
+       * 短语特殊：这一份是**增补**，不是替换。
+       * 上游 full 里没有短语时（六级 4169/5651 有），原来由 sentence 那份导入的短语
+       * 必须保留 —— 踩过的坑：这里写成 else delete，结果 1482 个词丢了短语，
+       * 学习卡背面读 card.phr.length 直接抛异常，整页白屏。
+       */
       if (extra?.phr) e.phr = extra.phr;
-      else delete e.phr;
       if (extra?.sp) e.sp = extra.sp;
       else delete e.sp;
       if (extra) merged++;
