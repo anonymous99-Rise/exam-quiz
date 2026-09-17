@@ -186,7 +186,6 @@ export function StickyPager({
           <Chevron dir="right" />
         </button>
       </div>
-      <p className="mt-1 text-center text-[11.5px] text-faint">可左右滑动翻页</p>
       </div>
     </div>
   );

@@ -246,7 +246,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
   if (idxError) {
     const notFound = /404/.test(idxError);
     return (
-      <main className="shell w-full pt-10 pb-40 sm:pb-24">
+      <main className="shell w-full pt-10 pb-48 sm:pb-24">
         <p className="text-[15px] font-semibold text-ink">
           {notFound ? `没有「${bookId}」这本词书` : `词书「${bookId}」加载失败`}
         </p>
@@ -581,6 +581,10 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
               第 <span className="display text-muted">{safePage}</span> /{' '}
               <span className="display text-muted">{totalPages}</span> 页 · 共{' '}
               <span className="display text-muted">{sorted.length}</span> 个词
+              {/* 手势提示放这里，不放在吸底条上 —— 那会让条高从 92 涨到 113px，压住最后一行 */}
+              {totalPages > 1 && (
+                <span className="ml-2 [@media(hover:hover)]:hidden">· 左右滑动翻页</span>
+              )}
             </p>
 
             <div className="flex flex-wrap items-center gap-2">
