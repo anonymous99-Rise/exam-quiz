@@ -52,7 +52,10 @@ export default function Home() {
             <Link href="/practice" className="btn btn-primary">
               开始刷题
             </Link>
-            <Link href="/wrong" className="btn btn-ghost">
+            <Link href="/vocab" className="btn btn-ghost">
+              背单词
+            </Link>
+            <Link href="/wrong" className="btn btn-quiet">
               查看错题本
             </Link>
           </div>

@@ -20,6 +20,7 @@ const S = (over: Partial<ProgressState> = {}): ProgressState => ({
   positionAt: {},
   submitted: {},
   examStarted: {},
+  vocab: {},
   ...over,
 });
 

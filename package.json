@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node tools/vocab-public.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -15,6 +16,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "vocab:import": "node tools/vocab-import.mjs",
+    "vocab:public": "node tools/vocab-public.mjs",
     "bank:inventory": "node tools/inventory.mjs",
     "bank:probe": "node tools/pdf-probe.mjs",
     "bank:index": "node tools/bank-index.mjs",

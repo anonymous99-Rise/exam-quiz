@@ -34,6 +34,22 @@ export type AnswerRecord = {
   n: number;
 };
 
+/** 词汇学习状态（与 lib/vocab/srs.ts 的 WordState 同构，这里只做存储用） */
+export type VocabWordState = {
+  /** 掌握档位 */
+  s: number;
+  /** 下次到期时间戳 */
+  d: number;
+  /** 复习次数 */
+  n: number;
+  /** 认识/模糊次数 */
+  ok: number;
+  /** 不认识次数 */
+  bad: number;
+  /** 首次学习时间 */
+  t: number;
+};
+
 export type ProgressState = {
   answers: Record<Qid, AnswerRecord>;
   /** 错题本：只存键，详情从 answers 取（语义＝最近一次答错的题；手动移出记在 off） */
@@ -65,6 +81,12 @@ export type ProgressState = {
    * （用户会以为自己没开始，也能靠刷新无限续时）。
    */
   examStarted: Record<string, number>;
+  /**
+   * 词汇（v4 新增）：`${bookId}:${word}` → 学习状态。
+   * 用字符串键而不是嵌套对象：云同步的合并逻辑、墓碑机制都是按扁平键写的，
+   * 嵌一层就要改合并代码，扁平键直接复用现有全部机制（LWW + 墓碑）。
+   */
+  vocab: Record<string, VocabWordState>;
 };
 
 export type ProgressActions = {
@@ -79,6 +101,10 @@ export type ProgressActions = {
   clearSubmitted: (paperKey: string) => void;
   /** 记下开考时间（整卷模考计时用；已记过则不覆盖） */
   markExamStarted: (paperKey: string) => void;
+  /** 词汇：给某个词打分并写入下一档状态（key = `${bookId}:${word}`） */
+  gradeWord: (bookId: string, word: string, next: VocabWordState) => void;
+  /** 词汇：清空某本书的学习记录（词表数据不动） */
+  clearBook: (bookId: string) => void;
   /** 清空某一套卷的作答与错题（收藏保留），用于「重做本卷」 */
   clearPaper: (examId: string, paperId: string) => void;
   resetAll: () => void;
@@ -100,6 +126,7 @@ const EMPTY: ProgressState = {
   positionAt: {},
   submitted: {},
   examStarted: {},
+  vocab: {},
 };
 
 /** `cet6/2025-06-1#13` */
@@ -238,6 +265,16 @@ export const useProgress = create<ProgressState & ProgressActions>()(
         });
       },
 
+      gradeWord: (bookId, word, next) =>
+        set((s) => ({ vocab: { ...s.vocab, [`${bookId}:${word.toLowerCase()}`]: next } })),
+
+      clearBook: (bookId) =>
+        set((s) => ({
+          vocab: Object.fromEntries(
+            Object.entries(s.vocab).filter(([k]) => !k.startsWith(`${bookId}:`)),
+          ),
+        })),
+
       resetAll: () => set({ ...EMPTY }),
 
       applyRemote: (snapshot) => set({ ...snapshot }),
@@ -246,7 +283,7 @@ export const useProgress = create<ProgressState & ProgressActions>()(
       name: 'examquiz.progress.v1',
       // v2：fav 由 `1` 改为时间戳，并新增 off / draftAt / positionAt（云同步的判据）
       // v3：新增 examStarted（整卷开考时间，刷新不再重置倒计时）
-      version: 3,
+      version: 4,
       storage: createJSONStorage(() => localStorage),
       migrate: (persisted, version) => {
         const old = (persisted ?? {}) as Partial<ProgressState>;
@@ -269,6 +306,7 @@ export const useProgress = create<ProgressState & ProgressActions>()(
         positionAt: s.positionAt,
         submitted: s.submitted,
         examStarted: s.examStarted,
+        vocab: s.vocab,
       }),
     },
   ),

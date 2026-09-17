@@ -106,8 +106,9 @@ describe('进度持久化', () => {
     // 键名**不能改** —— 改了等于把所有人的历史进度丢掉
     expect(keys).toEqual(['examquiz.progress.v1']);
     const raw = JSON.parse(storage.getItem('examquiz.progress.v1')!);
-    // v3：新增 examStarted（整卷开考时间）；v2 曾把 fav 由 `1` 改为时间戳并新增 off/draftAt/positionAt
-    expect(raw.version).toBe(3);
+    // v4：新增 vocab（词汇学习状态）；v3 曾新增 examStarted；
+    // v2 曾把 fav 由 `1` 改为时间戳并新增 off/draftAt/positionAt
+    expect(raw.version).toBe(4);
     // partialize 只存数据，不存 action
     expect(Object.keys(raw.state).sort()).toEqual(
       [
@@ -120,9 +121,28 @@ describe('进度持久化', () => {
         'positionAt',
         'positions',
         'submitted',
+        'vocab',
         'wrong',
       ].sort(),
     );
+  });
+
+  it('词汇学习状态进同一份持久化（只背单词也算有进度）', async () => {
+    const a = await import('./store');
+    a.useProgress.getState().gradeWord('cet6', 'Abandon', {
+      s: 1,
+      d: 5_000,
+      n: 1,
+      ok: 1,
+      bad: 0,
+      t: 1_000,
+    });
+
+    vi.resetModules();
+    const b = await import('./store');
+    await b.useProgress.persist.rehydrate();
+    // 键统一小写：同一个词不管从哪个词书、什么大小写进来都是同一条记录
+    expect(b.useProgress.getState().vocab['cet6:abandon']).toMatchObject({ s: 1, n: 1 });
   });
 
   it('v1 旧数据能无损升到 v2（fav 补时间戳、新字段补齐）', async () => {

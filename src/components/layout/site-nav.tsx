@@ -11,6 +11,7 @@ import { cn } from '@/lib/utils';
 const LINKS = [
   { href: '/', label: '首页' },
   { href: '/practice', label: '刷题' },
+  { href: '/vocab', label: '词汇' },
   { href: '/wrong', label: '错题本', badge: 'wrong' as const },
   { href: '/fav', label: '收藏', badge: 'fav' as const },
 ];

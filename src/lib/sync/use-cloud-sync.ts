@@ -53,6 +53,7 @@ export function snapshotOf(s: ProgressState): ProgressState {
     positionAt: s.positionAt ?? {},
     submitted: s.submitted ?? {},
     examStarted: s.examStarted ?? {},
+    vocab: s.vocab ?? {},
   };
 }
 
@@ -67,6 +68,7 @@ const EMPTY_SNAPSHOT: ProgressState = {
   positionAt: {},
   submitted: {},
   examStarted: {},
+  vocab: {},
 };
 
 type PullResult = { data: ProgressState | null } | { error: string; detail?: string };

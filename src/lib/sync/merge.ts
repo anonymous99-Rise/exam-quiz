@@ -155,6 +155,25 @@ export function mergeProgress(local: ProgressState, remote: ProgressState): Prog
     if (vals.length) examStarted[k] = Math.min(...vals);
   }
 
+  /*
+   * 词汇学习状态：逐词按「复习次数多者胜」，同次数取到期更晚者。
+   *
+   * 为什么不用时间戳做 LWW：单词的学习状态没有「最后修改时间」这个概念有意义 ——
+   * 真正要保护的是**不丢复习记录**。两台设备各背了一部分时，取各自的记录即可；
+   * 同一个词两边都背过，取档位高的（避免把已掌握的词退回新词，那会让人反复重背）。
+   */
+  const vocab: ProgressState['vocab'] = { ...(remote.vocab ?? {}) };
+  for (const [k, lo] of Object.entries(local.vocab ?? {})) {
+    const ro = vocab[k];
+    if (!ro) {
+      vocab[k] = lo;
+      continue;
+    }
+    const better =
+      lo.s > ro.s || (lo.s === ro.s && lo.n > ro.n) || (lo.s === ro.s && lo.n === ro.n && lo.d > ro.d);
+    if (better) vocab[k] = lo;
+  }
+
   return {
     answers,
     wrong,
@@ -166,6 +185,7 @@ export function mergeProgress(local: ProgressState, remote: ProgressState): Prog
     positionAt: positions.at,
     submitted,
     examStarted,
+    vocab,
   };
 }
 
@@ -176,6 +196,8 @@ export function isEmptyProgress(s: ProgressState | null | undefined): boolean {
     Object.keys(s.answers ?? {}).length === 0 &&
     Object.keys(s.fav ?? {}).length === 0 &&
     Object.keys(s.wrong ?? {}).length === 0 &&
-    Object.keys(s.drafts ?? {}).length === 0
+    Object.keys(s.drafts ?? {}).length === 0 &&
+    // 只背了单词、一题没做的人也算「有进度」，不能被「远端为空」判定覆盖掉
+    Object.keys(s.vocab ?? {}).length === 0
   );
 }
