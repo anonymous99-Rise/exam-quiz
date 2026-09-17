@@ -285,7 +285,7 @@ export function AudioPlayer({
           听力原声{title ? ` · ${title}` : ''}
         </h3>
         {audio.sharedWith && (
-          <span className="text-[11px] text-faint">
+          <span className="text-[12.5px] text-faint">
             本套与 {audio.sharedWith} 共用同一份音频
           </span>
         )}
@@ -327,7 +327,7 @@ export function AudioPlayer({
             disabled={noSource}
             className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand disabled:cursor-not-allowed"
           />
-          <div className="t-num mt-1 flex items-center justify-between text-[11px] text-muted">
+          <div className="t-num mt-1 flex items-center justify-between text-[12.5px] text-muted">
             <span>{fmtTime(current)}</span>
             {/* 「载入中…」在音源缺失时会永远挂着 —— 那种情况给确定结论 */}
             <span>{ready ? fmtTime(duration) : noSource ? '无音频' : '载入中…'}</span>
@@ -381,7 +381,7 @@ export function AudioPlayer({
                     onClick={() => seek(p.start, range?.[0])}
                     title={`${fmtTime(p.start)} – ${fmtTime(p.end)}`}
                     className={cn(
-                      'min-h-9 rounded-[10px] border px-2.5 py-1.5 text-left text-[11.5px] leading-4 transition',
+                      'min-h-9 rounded-[10px] border px-2.5 py-1.5 text-left text-[13px] leading-4 transition',
                       active
                         ? 'border-brand-line bg-brand-soft font-medium text-brand-ink'
                         : 'border-line-strong text-muted hover:border-brand-line hover:bg-surface-hover hover:text-ink',

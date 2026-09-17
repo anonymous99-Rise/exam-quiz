@@ -129,7 +129,7 @@ export default async function PaperPage({
                   </div>
                 </div>
                 {!disabled && (
-                  <span className="shrink-0 rounded-control border border-line px-2.5 py-1 text-[12px] font-semibold text-ink-soft transition-colors group-hover:border-brand-line group-hover:text-brand-ink">
+                  <span className="shrink-0 rounded-control border border-line px-2.5 py-1 text-[13px] font-semibold text-ink-soft transition-colors group-hover:border-brand-line group-hover:text-brand-ink">
                     开始 →
                   </span>
                 )}
@@ -168,7 +168,7 @@ export default async function PaperPage({
                   {' · 参考范文 / 逐句解析'}
                 </div>
               </div>
-              <span className="shrink-0 rounded-control border border-line px-2.5 py-1 text-[12px] font-semibold text-ink-soft transition-colors group-hover:border-brand-line group-hover:text-brand-ink">
+              <span className="shrink-0 rounded-control border border-line px-2.5 py-1 text-[13px] font-semibold text-ink-soft transition-colors group-hover:border-brand-line group-hover:text-brand-ink">
                 开始 →
               </span>
             </Link>
@@ -208,7 +208,7 @@ export default async function PaperPage({
               </div>
               <Link
                 href={`/${examId}/${paperId}/exam`}
-                className="btn btn-primary h-11 shrink-0 px-6 text-[14px]"
+                className="btn btn-primary h-11 shrink-0 px-6 text-[15px]"
               >
                 开始整卷模考
               </Link>

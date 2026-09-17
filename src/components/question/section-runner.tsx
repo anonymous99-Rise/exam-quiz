@@ -58,9 +58,16 @@ export function SectionRunner({
         )}
       >
         <div className="mx-auto flex h-14 w-full max-w-[1120px] items-center gap-3">
-          <h1 className="min-w-0 flex-1 truncate text-[14px] font-semibold text-ink">{title}</h1>
+          {/*
+           * 吸顶头的标题就是这一页的 h1。v3：15px → 18px ——
+           * 实测旧值下它是全页最小的文字（比 15px 正文、16px 题干都小），
+           * 顶级标题反而最弱，层级整个是倒的。
+           */}
+          <h1 className="min-w-0 flex-1 truncate text-[18px] font-bold tracking-tight text-ink">
+            {title}
+          </h1>
 
-          <div className="hidden shrink-0 items-center gap-3 text-[12px] text-muted sm:flex">
+          <div className="hidden shrink-0 items-center gap-3 text-[13px] text-muted sm:flex">
             <span className="tabular-nums">
               已答 <b className="font-semibold text-ink">{hydrated ? r.stats.done : '–'}</b>/
               {r.stats.total}
@@ -129,7 +136,7 @@ export function SectionRunner({
           </button>
 
           <div className="min-w-0 flex-1 text-center">
-            <div className="text-[13px] font-semibold text-ink tabular-nums">
+            <div className="text-[14px] font-semibold text-ink tabular-nums">
               {r.cursorQ ? `第 ${r.cursorQ.no} 题` : '—'}
               <span className="font-normal text-muted">
                 {' '}
@@ -137,7 +144,7 @@ export function SectionRunner({
               </span>
             </div>
             {/* 快捷键提示只在有物理键盘的宽度上显示（手机上纯噪音） */}
-            <div className="hidden text-[11px] text-faint sm:block">
+            <div className="hidden text-[12.5px] text-faint sm:block">
               ↑/↓ 或 J/K 切题 · A–Z 作答
             </div>
           </div>

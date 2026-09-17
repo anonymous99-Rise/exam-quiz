@@ -31,7 +31,7 @@ export function SubjectiveView({
 
           <div className="rounded-[10px] border border-line bg-surface-sunken p-3.5">
             <h3 className="t-eyebrow mb-2">题目要求</h3>
-            <p className="prose-en text-[14px] leading-7 whitespace-pre-wrap text-ink">
+            <p className="prose-en text-[15px] leading-7 whitespace-pre-wrap text-ink">
               {subjective.writing.directions}
             </p>
           </div>
@@ -46,11 +46,11 @@ export function SubjectiveView({
           {/* 真题册只印题目要求，范文在解析册里 —— 没有范文时整块不显示 */}
           {subjective.writing.model && (
             <details className="mt-4">
-              <summary className="cursor-pointer text-[13px] font-semibold text-brand-ink">
+              <summary className="cursor-pointer text-[14px] font-semibold text-brand-ink">
                 对照参考范文（建议先自己写完再看）
               </summary>
               <div className="mt-2" data-testid="writing-model">
-                <p className="prose-en text-[14px] leading-7 whitespace-pre-wrap text-ink-soft">
+                <p className="prose-en text-[15px] leading-7 whitespace-pre-wrap text-ink-soft">
                   {subjective.writing.model}
                 </p>
                 {subjective.writing.modelZh && (
@@ -58,7 +58,7 @@ export function SubjectiveView({
                     <summary className="cursor-pointer text-xs font-semibold text-muted">
                       展开整篇中译
                     </summary>
-                    <p className="mt-2 text-[13px] leading-6 whitespace-pre-wrap text-ink-soft">
+                    <p className="mt-2 text-[14px] leading-6 whitespace-pre-wrap text-ink-soft">
                       {subjective.writing.modelZh}
                     </p>
                   </details>
@@ -69,10 +69,10 @@ export function SubjectiveView({
                     <ol className="space-y-2.5">
                       {subjective.writing.outline.map((o) => (
                         <li key={o.no} className="rounded-[10px] border border-line p-3">
-                          <div className="mb-1.5 text-[11px] font-semibold text-muted">
+                          <div className="mb-1.5 text-[12.5px] font-semibold text-muted">
                             第 {o.no} 段
                           </div>
-                          <p className="text-[13px] leading-6 text-ink-soft">{o.text}</p>
+                          <p className="text-[14px] leading-6 text-ink-soft">{o.text}</p>
                         </li>
                       ))}
                     </ol>
@@ -90,14 +90,14 @@ export function SubjectiveView({
 
           <div className="rounded-[10px] border border-line bg-surface-sunken p-3.5">
             <h3 className="t-eyebrow mb-2">题目要求</h3>
-            <p className="text-[14px] leading-6 whitespace-pre-wrap text-ink">
+            <p className="text-[15px] leading-6 whitespace-pre-wrap text-ink">
               {subjective.translation.directions}
             </p>
           </div>
 
           <div className="mt-4">
             <h3 className="t-eyebrow mb-2">中文原文</h3>
-            <p className="text-[14px] leading-7 whitespace-pre-wrap text-ink">
+            <p className="text-[15px] leading-7 whitespace-pre-wrap text-ink">
               {subjective.translation.source}
             </p>
           </div>
@@ -109,12 +109,12 @@ export function SubjectiveView({
           />
 
           <details className="mt-4">
-            <summary className="cursor-pointer text-[13px] font-semibold text-brand-ink">
+            <summary className="cursor-pointer text-[14px] font-semibold text-brand-ink">
               对照参考译文与逐句解析
             </summary>
             <div className="mt-2">
               {subjective.translation.reference ? (
-                <p className="prose-en text-[14px] leading-7 whitespace-pre-wrap text-ink-soft">
+                <p className="prose-en text-[15px] leading-7 whitespace-pre-wrap text-ink-soft">
                   {subjective.translation.reference}
                 </p>
               ) : (
@@ -128,7 +128,7 @@ export function SubjectiveView({
                   <ol className="space-y-2.5">
                     {subjective.translation.sentences.map((sent, i) => (
                       <li key={i} className="rounded-[10px] border border-line p-3">
-                        <div className="mb-1.5 text-[11px] font-semibold text-muted">
+                        <div className="mb-1.5 text-[12.5px] font-semibold text-muted">
                           第 {i + 1} 句
                         </div>
                         <AnalysisList analysis={sent} dense />
@@ -193,8 +193,8 @@ function DraftBox({
   return (
     <div className="mt-4">
       <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
-        <h3 className="text-[13px] font-semibold text-ink-soft">我的作答</h3>
-        <span className="t-num text-[12px] text-muted">
+        <h3 className="text-[14px] font-semibold text-ink-soft">我的作答</h3>
+        <span className="t-num text-[13px] text-muted">
           {count}
           {isChinese ? ' 字' : ' 词'}
         </span>
@@ -209,7 +209,7 @@ function DraftBox({
             {status.text}
           </span>
         )}
-        {hydrated && text && <span className="text-[11px] text-faint">已自动保存</span>}
+        {hydrated && text && <span className="text-[12.5px] text-faint">已自动保存</span>}
       </div>
       <textarea
         value={text}
@@ -219,7 +219,7 @@ function DraftBox({
         spellCheck={false}
         className={cn(
           // 200 词英文写作至少要 400px 高才不用一直滚（旧版 10 行 ≈ 300px）
-          'min-h-[300px] w-full resize-y rounded-[10px] border border-line bg-surface p-4 text-[15px] leading-7 text-ink sm:min-h-[420px]',
+          'min-h-[300px] w-full resize-y rounded-[10px] border border-line bg-surface p-4 text-[16px] leading-7 text-ink sm:min-h-[420px]',
           // 不要用 focus:outline-none —— 它在 utilities 层，会把 globals.css 里
           // @layer base 的 :focus-visible 焦点环整个吃掉，键盘用户看不到焦点
           'placeholder:text-faint focus:border-brand focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand',

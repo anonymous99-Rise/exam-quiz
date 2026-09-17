@@ -74,7 +74,7 @@ export function QuestionGroups({
             {g.sectionName && (
               <h2 className="flex items-baseline gap-3 border-b border-line pb-2.5">
                 <span className="t-h3 text-ink">{g.sectionName}</span>
-                <span className="text-[13px] text-muted tabular-nums">
+                <span className="text-[14px] text-muted tabular-nums">
                   {g.questions.length} 题
                 </span>
               </h2>
@@ -115,7 +115,7 @@ export function QuestionGroups({
         );
       })}
 
-      {total === 0 && <p className="py-16 text-center text-[14px] text-muted">本部分暂无题目。</p>}
+      {total === 0 && <p className="py-16 text-center text-[15px] text-muted">本部分暂无题目。</p>}
     </div>
   );
 }

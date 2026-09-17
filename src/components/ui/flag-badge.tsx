@@ -47,7 +47,7 @@ export function FlagBadge({ flag, className }: { flag: string; className?: strin
 /** 一套卷的 flags 汇总徽标（同一种 tone 只显示一次，避免卡片上挂一排） */
 export function FlagBadges({ flags, max = 2 }: { flags: string[]; max?: number }) {
   if (!flags.length) {
-    return <span className="text-[11px] font-medium text-ok-ink">数据完整</span>;
+    return <span className="text-[12.5px] font-medium text-ok-ink">数据完整</span>;
   }
   const shown = flags.slice(0, max);
   const rest = flags.length - shown.length;
@@ -56,7 +56,7 @@ export function FlagBadges({ flags, max = 2 }: { flags: string[]; max?: number }
       {shown.map((f) => (
         <FlagBadge key={f} flag={f} />
       ))}
-      {rest > 0 && <span className="text-[11px] text-faint">+{rest}</span>}
+      {rest > 0 && <span className="text-[12.5px] text-faint">+{rest}</span>}
     </span>
   );
 }

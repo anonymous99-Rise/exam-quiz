@@ -59,7 +59,7 @@ export default function DesignPage() {
       <header className="mb-8">
         <p className="t-eyebrow mb-2.5">Design System v2</p>
         <h1 className="t-h1 text-ink">设计系统预览</h1>
-        <p className="mt-3 max-w-[60ch] text-[14px] leading-7 text-muted">
+        <p className="mt-3 max-w-[60ch] text-[15px] leading-7 text-muted">
           v2 重写了旧站继承来的令牌：去掉粉色雾底、把品牌色收敛成「强调」一种角色、
           文本灰阶全部满足 WCAG AA（正文 9.9:1、辅助 6.1:1）、字号/间距/圆角/阴影阶梯化。
           组件只允许使用本页列出的刻度，不再写零散值。
@@ -77,7 +77,7 @@ export default function DesignPage() {
 
       <section className="panel mb-6 p-6">
         <h2 className="t-eyebrow mb-1">品牌色（只做强调）</h2>
-        <p className="mb-4 text-[13px] leading-6 text-muted">
+        <p className="mb-4 text-[14px] leading-6 text-muted">
           <code className="text-ink">#e5487f</code> 只用于填充/描边/大字；
           实心按钮用 <code className="text-ink">brand-solid</code>（白字才够 5.1:1），
           浅底上的文字用 <code className="text-ink">brand-ink</code>。
@@ -98,10 +98,10 @@ export default function DesignPage() {
           ))}
         </ul>
         <div className="grid gap-3 sm:grid-cols-2">
-          <div className="rounded-[10px] border border-ok-line bg-ok-soft px-4 py-3 text-[13px] text-ok-ink">
+          <div className="rounded-[10px] border border-ok-line bg-ok-soft px-4 py-3 text-[14px] text-ok-ink">
             ✓ 答对 — 绿底 + 左侧 3px 绿条 + 勾选标记（三重编码，灰度也能分辨）
           </div>
-          <div className="rounded-[10px] border border-bad-line bg-bad-soft px-4 py-3 text-[13px] text-bad-ink">
+          <div className="rounded-[10px] border border-bad-line bg-bad-soft px-4 py-3 text-[14px] text-bad-ink">
             ✕ 答错 — 红底 + 左侧 3px 红条 + 叉号，同时把正确答案点亮
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function DesignPage() {
         <ul className="space-y-4">
           {TYPE_SCALE.map((t) => (
             <li key={t.cls} className="flex flex-col gap-1 border-b border-line pb-3 last:border-b-0">
-              <span className="text-[11px] text-faint tabular-nums">{t.label}</span>
+              <span className="text-[12.5px] text-faint tabular-nums">{t.label}</span>
               <span className={cn(t.cls, 'text-ink')}>{t.sample}</span>
             </li>
           ))}
@@ -135,7 +135,7 @@ export default function DesignPage() {
           <li>
             <button type="button" className="opt">
               <span className="optkey">A</span>
-              <span className="min-w-0 flex-1 pt-0.5 text-[15px] leading-7 text-ink">
+              <span className="min-w-0 flex-1 pt-0.5 text-[16px] leading-7 text-ink">
                 未作答：白底 + 1px 中性描边
               </span>
             </button>
@@ -143,7 +143,7 @@ export default function DesignPage() {
           <li>
             <button type="button" className="opt opt-picked">
               <span className="optkey optkey-picked">B</span>
-              <span className="min-w-0 flex-1 pt-0.5 text-[15px] leading-7 text-ink">
+              <span className="min-w-0 flex-1 pt-0.5 text-[16px] leading-7 text-ink">
                 已选中：品牌描边 + 浅底 + 左侧 3px 竖条
               </span>
             </button>
@@ -151,7 +151,7 @@ export default function DesignPage() {
           <li>
             <button type="button" className="opt opt-ok">
               <span className="optkey optkey-ok">C</span>
-              <span className="min-w-0 flex-1 pt-0.5 text-[15px] leading-7 text-ink">
+              <span className="min-w-0 flex-1 pt-0.5 text-[16px] leading-7 text-ink">
                 正确答案：绿底 + 左绿条 + ✓ 答案
               </span>
             </button>
@@ -159,7 +159,7 @@ export default function DesignPage() {
           <li>
             <button type="button" className="opt opt-bad">
               <span className="optkey optkey-bad">D</span>
-              <span className="min-w-0 flex-1 pt-0.5 text-[15px] leading-7 text-ink">
+              <span className="min-w-0 flex-1 pt-0.5 text-[16px] leading-7 text-ink">
                 答错项：红底 + 左红条 + ✕ 你选
               </span>
             </button>
@@ -173,18 +173,18 @@ export default function DesignPage() {
           {RADII.map((r) => (
             <li key={r.name} className="text-center">
               <span className={cn('mx-auto mb-2 block size-12 border border-line-strong bg-surface-sunken', r.cls)} />
-              <span className="text-[11px] text-muted">{r.name}</span>
+              <span className="text-[12.5px] text-muted">{r.name}</span>
             </li>
           ))}
         </ul>
         <div className="mb-5 flex flex-wrap items-center gap-4">
-          <span className="grid h-16 w-28 place-items-center rounded-[10px] border border-line bg-surface text-[11px] text-muted shadow-flat">
+          <span className="grid h-16 w-28 place-items-center rounded-[10px] border border-line bg-surface text-[12.5px] text-muted shadow-flat">
             shadow-flat
           </span>
-          <span className="grid h-16 w-28 place-items-center rounded-[14px] border border-line bg-surface text-[11px] text-muted shadow-card">
+          <span className="grid h-16 w-28 place-items-center rounded-[14px] border border-line bg-surface text-[12.5px] text-muted shadow-card">
             shadow-card
           </span>
-          <span className="grid h-16 w-28 place-items-center rounded-[20px] border border-line bg-surface text-[11px] text-muted shadow-float">
+          <span className="grid h-16 w-28 place-items-center rounded-[20px] border border-line bg-surface text-[12.5px] text-muted shadow-float">
             shadow-float
           </span>
         </div>
@@ -211,8 +211,8 @@ function Swatch({ name, cls, note }: { name: string; cls: string; note: string }
     <li className="flex items-center gap-3">
       <span className={cn('size-9 shrink-0 rounded-[8px] border border-line-strong', cls)} aria-hidden />
       <span className="min-w-0">
-        <span className="block truncate text-[12px] font-medium text-ink">{name}</span>
-        <span className="block truncate text-[11px] text-muted">{note}</span>
+        <span className="block truncate text-[13px] font-medium text-ink">{name}</span>
+        <span className="block truncate text-[12.5px] text-muted">{note}</span>
       </span>
     </li>
   );

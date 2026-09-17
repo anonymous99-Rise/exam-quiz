@@ -64,7 +64,7 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
         <div className="min-w-0">
           <p className="t-eyebrow">历年真题 · 逐题解析</p>
           <h1 className="t-h1 mt-2.5 text-ink">{exam.name}</h1>
-          <p className="mt-3.5 max-w-[54ch] text-[15px] leading-7 text-muted">
+          <p className="mt-3.5 max-w-[54ch] text-[16px] leading-7 text-muted">
             {exam.description ?? `${exam.shortName} 历年真题`}。收录 {sessionCount} 个考期、
             {entries.length} 套卷，共 {totalQuestions} 题；每套都可按部分精练，也可整卷模考。
           </p>
@@ -80,7 +80,7 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
             ].map((s) => (
               <div key={s.l}>
                 <div className="t-num text-[26px] leading-none font-extrabold text-ink">{s.v}</div>
-                <div className="mt-2 text-[12px] text-muted">{s.l}</div>
+                <div className="mt-2 text-[13px] text-muted">{s.l}</div>
               </div>
             ))}
           </div>
@@ -102,11 +102,11 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
       <section className="mt-12">
         <div className="mb-3.5 flex items-baseline justify-between gap-3">
           <h2 className="t-h3 text-ink">试卷结构</h2>
-          <span className="text-[12px] text-muted">各考期套卷共用同一结构</span>
+          <span className="text-[13px] text-muted">各考期套卷共用同一结构</span>
         </div>
         <div className="panel overflow-hidden">
           <div className="overflow-x-auto">
-            <table className="w-full text-[13px]">
+            <table className="w-full text-[14px]">
               <thead>
                 <tr className="bg-surface-sunken text-left text-muted">
                   <th className="px-4 py-2.5 font-semibold">部分</th>
@@ -154,10 +154,10 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
               <li key={year} className="shrink-0">
                 <a
                   href={`#year-${year}`}
-                  className="flex min-h-11 items-center gap-1.5 border-b-2 border-transparent px-3 text-[13px] font-medium text-muted transition-colors hover:bg-surface-hover hover:text-ink focus-visible:border-brand active:bg-surface-hover"
+                  className="flex min-h-11 items-center gap-1.5 border-b-2 border-transparent px-3 text-[14px] font-medium text-muted transition-colors hover:bg-surface-hover hover:text-ink focus-visible:border-brand active:bg-surface-hover"
                 >
                   {year}
-                  <span className="t-num text-[11px] font-normal text-faint">{papers.length}</span>
+                  <span className="t-num text-[12.5px] font-normal text-faint">{papers.length}</span>
                 </a>
               </li>
             ))}
@@ -178,7 +178,7 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
             <section key={year} id={`year-${year}`} className="scroll-mt-32">
               <div className="mb-6 flex items-baseline justify-between gap-3 border-b border-line pb-3">
                 <h2 className="t-h2 text-ink">{year} 年</h2>
-                <span className="t-num text-[13px] text-muted">{papers.length} 套</span>
+                <span className="t-num text-[14px] text-muted">{papers.length} 套</span>
               </div>
 
               <div className="space-y-8">

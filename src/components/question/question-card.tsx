@@ -114,17 +114,17 @@ function QuestionCardImpl({
             </button>
           </>
         ) : (
-          <span className="text-[12px] text-faint">
+          <span className="text-[13px] text-faint">
             {locked ? (
               '本题未作答'
             ) : (
               <>
                 按{' '}
-                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[11px] text-muted">
+                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[12.5px] text-muted">
                   A
                 </kbd>
                 –
-                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[11px] text-muted">
+                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[12.5px] text-muted">
                   Z
                 </kbd>{' '}
                 答题，↑/↓ 切题
@@ -140,7 +140,7 @@ function QuestionCardImpl({
           aria-label={fav ? '取消收藏' : '收藏本题'}
           title={fav ? '取消收藏' : '收藏本题'}
           className={cn(
-            'ml-auto inline-flex min-h-9 shrink-0 items-center gap-1 rounded-[9px] px-2.5 py-1.5 text-[12px] font-medium transition',
+            'ml-auto inline-flex min-h-9 shrink-0 items-center gap-1 rounded-[9px] px-2.5 py-1.5 text-[13px] font-medium transition',
             fav
               ? 'bg-brand-soft text-brand-ink'
               : 'text-faint hover:bg-surface-hover hover:text-brand-ink',

@@ -79,7 +79,7 @@ export default async function ExamModePage({
 
   return (
     <main className="mx-auto w-full max-w-[1120px] px-4 pt-6 pb-16 sm:px-5">
-      <nav aria-label="面包屑" className="mb-5 flex items-center gap-1.5 text-[12px] text-muted">
+      <nav aria-label="面包屑" className="mb-5 flex items-center gap-1.5 text-[13px] text-muted">
         <Link href="/" className="transition hover:text-ink">
           首页
         </Link>

@@ -118,19 +118,19 @@ export default function FavPage() {
                 <li key={it.key}>
                   <div className="card-flat grid grid-cols-[2.5rem_minmax(0,1fr)] items-center gap-x-3 gap-y-2 p-3.5 sm:grid-cols-[2.5rem_minmax(0,1fr)_auto_auto_auto] sm:gap-y-0">
                     {/* ① 题号 */}
-                    <span className="t-num grid size-10 place-items-center rounded-[10px] border border-line bg-surface-sunken text-[15px] font-semibold text-ink-soft">
+                    <span className="t-num grid size-10 place-items-center rounded-[10px] border border-line bg-surface-sunken text-[16px] font-semibold text-ink-soft">
                       {it.no}
                     </span>
 
                     {/* ② 所属套卷 + 部分（星标＝收藏） */}
                     <span className="min-w-0">
                       <span className="flex items-center gap-1.5">
-                        <span aria-hidden className="shrink-0 text-[15px] leading-none text-brand-ink">
+                        <span aria-hidden className="shrink-0 text-[16px] leading-none text-brand-ink">
                           ★
                         </span>
                         <Link
                           href={it.href}
-                          className="min-w-0 truncate text-[15px] font-semibold text-ink transition hover:text-brand-ink"
+                          className="min-w-0 truncate text-[16px] font-semibold text-ink transition hover:text-brand-ink"
                         >
                           {it.paperTitle}
                         </Link>
@@ -143,7 +143,7 @@ export default function FavPage() {
                     {/* ③ 你选的 */}
                     <span className="t-small col-start-2 flex items-baseline gap-1.5 sm:col-start-auto">
                       <span className="text-muted">你选的</span>
-                      <b className="text-[15px] font-semibold text-ink-soft tabular-nums">
+                      <b className="text-[16px] font-semibold text-ink-soft tabular-nums">
                         {picked ?? '—'}
                       </b>
                     </span>
@@ -153,7 +153,7 @@ export default function FavPage() {
                       <span className="text-muted">正确答案</span>
                       <Link
                         href={it.href}
-                        className="text-[13px] font-semibold text-ink-soft underline decoration-line-strong underline-offset-2 transition hover:text-ink"
+                        className="text-[14px] font-semibold text-ink-soft underline decoration-line-strong underline-offset-2 transition hover:text-ink"
                       >
                         看解析 →
                       </Link>
@@ -163,7 +163,7 @@ export default function FavPage() {
                     <button
                       type="button"
                       onClick={() => toggleFav(it.key)}
-                      className="col-start-2 inline-flex min-h-[40px] items-center justify-self-start rounded-[10px] border border-line px-3 text-[13px] font-medium text-muted transition hover:border-line-strong hover:bg-surface-hover hover:text-ink sm:col-start-auto sm:justify-self-end"
+                      className="col-start-2 inline-flex min-h-[40px] items-center justify-self-start rounded-[10px] border border-line px-3 text-[14px] font-medium text-muted transition hover:border-line-strong hover:bg-surface-hover hover:text-ink sm:col-start-auto sm:justify-self-end"
                     >
                       取消收藏
                     </button>

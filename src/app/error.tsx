@@ -23,11 +23,11 @@ export default function Error({
     <main className="mx-auto flex min-h-[62vh] w-full max-w-[1120px] flex-col items-center justify-center px-4 text-center sm:px-5">
       <p className="t-eyebrow mb-3">出错了</p>
       <h1 className="t-h1 text-ink">这个页面没能渲染出来</h1>
-      <p className="mt-3 max-w-[44ch] text-[14px] leading-7 text-muted">
+      <p className="mt-3 max-w-[44ch] text-[15px] leading-7 text-muted">
         你的作答进度保存在本机，不受影响。可以先重试；若一直失败，把下面的错误信息发给我。
       </p>
       {error.message && (
-        <p className="mt-4 max-w-[60ch] break-all rounded-[10px] bg-surface-sunken px-3 py-2 text-[11px] text-faint">
+        <p className="mt-4 max-w-[60ch] break-all rounded-[10px] bg-surface-sunken px-3 py-2 text-[12.5px] text-faint">
           {error.message}
           {error.digest ? ` (${error.digest})` : ''}
         </p>

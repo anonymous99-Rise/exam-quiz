@@ -60,19 +60,19 @@ export function SingleChoiceView({
                 </span>
 
                 <span className="min-w-0 flex-1 pt-0.5">
-                  <span className="block text-[15px] leading-7 text-ink">{o.text}</span>
+                  <span className="block text-[16px] leading-7 text-ink">{o.text}</span>
                   {o.textZh && (
-                    <span className="mt-1 block text-[13px] leading-6 text-muted">{o.textZh}</span>
+                    <span className="mt-1 block text-[14px] leading-6 text-muted">{o.textZh}</span>
                   )}
                 </span>
 
                 {reveal && isAnswer && (
-                  <span className="mt-0.5 shrink-0 text-[12px] font-semibold text-ok-ink">
+                  <span className="mt-0.5 shrink-0 text-[13px] font-semibold text-ok-ink">
                     ✓ 答案
                   </span>
                 )}
                 {isWrongPick && (
-                  <span className="mt-0.5 shrink-0 text-[12px] font-semibold text-bad-ink">
+                  <span className="mt-0.5 shrink-0 text-[13px] font-semibold text-bad-ink">
                     ✕ 你选
                   </span>
                 )}
@@ -120,7 +120,7 @@ export function WordBankView({
             {[...allBanks]
               .sort((a, b) => a.label.localeCompare(b.label))
               .map((w) => (
-                <li key={w.label} className="flex items-baseline gap-1.5 text-[14px] text-ink-soft">
+                <li key={w.label} className="flex items-baseline gap-1.5 text-[15px] text-ink-soft">
                   {/* 字母用中性色：品牌色留给「已选中」状态，避免「红＝已用」的误读 */}
                   <b className="font-bold text-ink">{w.label}</b>
                   <span className="min-w-0 truncate">{w.text}</span>
@@ -145,7 +145,7 @@ export function WordBankView({
                 aria-pressed={isPicked}
                 aria-label={`选项 ${letter}`}
                 className={cn(
-                  'grid h-11 w-full place-items-center rounded-[10px] border text-[15px] font-bold transition sm:h-10',
+                  'grid h-11 w-full place-items-center rounded-[10px] border text-[16px] font-bold transition sm:h-10',
                   'disabled:cursor-default',
                   reveal && isAnswer && 'border-ok bg-ok text-white',
                   isWrongPick && 'border-bad bg-bad text-white',
@@ -187,7 +187,7 @@ export function ParagraphMatchView({
       <Stem question={question} />
 
       {question.anchor && (
-        <p className="mt-2.5 rounded-[10px] border-l-[3px] border-brand-line bg-brand-soft/50 px-3 py-2 text-[13px] leading-6 text-ink-soft">
+        <p className="mt-2.5 rounded-[10px] border-l-[3px] border-brand-line bg-brand-soft/50 px-3 py-2 text-[14px] leading-6 text-ink-soft">
           <span className="font-semibold text-brand-ink">定位锚点 </span>
           {question.anchor}
         </p>
@@ -207,7 +207,7 @@ export function ParagraphMatchView({
                 aria-pressed={isPicked}
                 aria-label={`段落 ${letter}`}
                 className={cn(
-                  'grid h-11 w-full place-items-center rounded-[10px] border text-[15px] font-bold transition sm:h-10',
+                  'grid h-11 w-full place-items-center rounded-[10px] border text-[16px] font-bold transition sm:h-10',
                   'disabled:cursor-default',
                   reveal && isAnswer && 'border-ok bg-ok text-white',
                   isWrongPick && 'border-bad bg-bad text-white',
@@ -248,15 +248,15 @@ function Stem({ question }: { question: Question }) {
     <div>
       <div className="flex items-start gap-2.5">
         <span
-          className="mt-1 grid size-6 shrink-0 place-items-center rounded-[7px] bg-line text-[12px] font-bold text-ink-soft tabular-nums"
+          className="mt-1 grid size-6 shrink-0 place-items-center rounded-[7px] bg-line text-[13px] font-bold text-ink-soft tabular-nums"
           aria-label={`第 ${question.no} 题`}
         >
           {question.no}
         </span>
-        <p className="min-w-0 flex-1 text-[16px] leading-7 font-medium text-ink">{question.stem}</p>
+        <p className="min-w-0 flex-1 text-[17px] leading-7 font-medium text-ink">{question.stem}</p>
       </div>
       {question.stemZh && (
-        <p className="mt-1.5 pl-[34px] text-[13px] leading-6 text-muted">{question.stemZh}</p>
+        <p className="mt-1.5 pl-[34px] text-[14px] leading-6 text-muted">{question.stemZh}</p>
       )}
     </div>
   );

@@ -248,7 +248,7 @@ export function InkLayer({
                 type="button"
                 onClick={() => setSize(s.s)}
                 className={cn(
-                  'grid size-6 place-items-center rounded-[7px] text-[11px] font-semibold transition',
+                  'grid size-6 place-items-center rounded-[7px] text-[12.5px] font-semibold transition',
                   size === s.s && !eraser
                     ? 'bg-brand-solid text-white'
                     : 'text-muted hover:bg-surface-hover',
@@ -262,7 +262,7 @@ export function InkLayer({
               type="button"
               onClick={() => setEraser((v) => !v)}
               className={cn(
-                'rounded-[7px] px-1.5 py-1 text-[11px] font-medium transition',
+                'rounded-[7px] px-1.5 py-1 text-[12.5px] font-medium transition',
                 eraser ? 'bg-brand-solid text-white' : 'text-muted hover:bg-surface-hover',
               )}
             >
@@ -272,7 +272,7 @@ export function InkLayer({
               type="button"
               onClick={() => undo(layerKey)}
               disabled={!count}
-              className="rounded-[7px] px-1.5 py-1 text-[11px] font-medium text-muted transition hover:bg-surface-hover disabled:opacity-40"
+              className="rounded-[7px] px-1.5 py-1 text-[12.5px] font-medium text-muted transition hover:bg-surface-hover disabled:opacity-40"
             >
               撤销
             </button>
@@ -280,7 +280,7 @@ export function InkLayer({
               type="button"
               onClick={() => clear(layerKey)}
               disabled={!count}
-              className="rounded-md px-1.5 py-1 text-[11px] font-medium text-muted transition hover:bg-brand-soft disabled:opacity-40"
+              className="rounded-md px-1.5 py-1 text-[12.5px] font-medium text-muted transition hover:bg-brand-soft disabled:opacity-40"
             >
               清空
             </button>
@@ -288,7 +288,7 @@ export function InkLayer({
               type="button"
               onClick={savePng}
               disabled={!count}
-              className="rounded-md px-1.5 py-1 text-[11px] font-medium text-muted transition hover:bg-brand-soft disabled:opacity-40"
+              className="rounded-md px-1.5 py-1 text-[12.5px] font-medium text-muted transition hover:bg-brand-soft disabled:opacity-40"
             >
               存图
             </button>
@@ -296,7 +296,7 @@ export function InkLayer({
               type="button"
               onClick={() => setPassThrough((v) => !v)}
               className={cn(
-                'rounded-md px-1.5 py-1 text-[11px] font-medium transition',
+                'rounded-md px-1.5 py-1 text-[12.5px] font-medium transition',
                 passThrough ? 'bg-ink text-white' : 'text-muted hover:bg-brand-soft',
               )}
             >
@@ -332,7 +332,7 @@ export function InkLayer({
           </svg>
           {count > 0 && (
             <span
-              className="absolute -top-1 -right-1 grid min-w-[18px] place-items-center rounded-full bg-ink px-1 text-[10px] font-semibold text-white tabular-nums"
+              className="absolute -top-1 -right-1 grid min-w-[18px] place-items-center rounded-full bg-ink px-1 text-[11.5px] font-semibold text-white tabular-nums"
               aria-hidden
             >
               {count}

@@ -11,7 +11,7 @@ export default function NotFound() {
     <main className="mx-auto flex min-h-[62vh] w-full max-w-[1120px] flex-col items-center justify-center px-4 text-center sm:px-5">
       <p className="t-eyebrow mb-3">404</p>
       <h1 className="t-h1 text-ink">没有找到这个页面</h1>
-      <p className="mt-3 max-w-[42ch] text-[14px] leading-7 text-muted">
+      <p className="mt-3 max-w-[42ch] text-[15px] leading-7 text-muted">
         链接可能来自旧数据，或者这一套题还没有收录。可以去刷题页看看现有的套卷。
       </p>
       <div className="mt-7 flex flex-wrap items-center justify-center gap-3">

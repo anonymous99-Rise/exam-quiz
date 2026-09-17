@@ -40,13 +40,13 @@ export function PaperProgress({
           style={{ width: `${pct}%` }}
         />
       </div>
-      <span className="shrink-0 text-[12px] text-muted tabular-nums">
+      <span className="shrink-0 text-[13px] text-muted tabular-nums">
         {hydrated ? `${stats.done}/${stats.total}` : `–/${stats.total}`}
       </span>
       {hydrated && stats.done > 0 && (
         <span
           className={cn(
-            'shrink-0 text-[12px] font-semibold tabular-nums',
+            'shrink-0 text-[13px] font-semibold tabular-nums',
             stats.rate >= 60 ? 'text-ok-ink' : 'text-bad-ink',
           )}
         >
@@ -85,10 +85,10 @@ export function OverallStats({ className }: { className?: string }) {
     <dl className={cn('flex flex-wrap items-center gap-x-6 gap-y-2', className)}>
       {items.map((it) => (
         <div key={it.label} className="flex items-baseline gap-1.5">
-          <dt className="text-[12px] text-muted">{it.label}</dt>
+          <dt className="text-[13px] text-muted">{it.label}</dt>
           <dd
             className={cn(
-              'text-[15px] font-semibold tabular-nums',
+              'text-[16px] font-semibold tabular-nums',
               it.tone === 'ok' && 'text-ok-ink',
               it.tone === 'bad' && 'text-bad-ink',
               it.tone === 'brand' && 'text-brand-ink',

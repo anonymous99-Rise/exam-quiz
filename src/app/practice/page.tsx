@@ -38,7 +38,7 @@ type Row = {
  */
 function tabClass(active: boolean): string {
   return cn(
-    'relative inline-flex min-h-[40px] items-center rounded-[10px] px-3 text-[13px] transition',
+    'relative inline-flex min-h-[40px] items-center rounded-[10px] px-3 text-[14px] transition',
     "after:absolute after:inset-x-2 after:bottom-1 after:h-[2px] after:rounded-full after:content-['']",
     active
       ? 'bg-surface-hover font-semibold text-ink after:bg-brand'
@@ -210,7 +210,7 @@ export default function PracticePage() {
       {!loading && metaError && (
         <div className="panel px-6 py-10 text-center">
           <p className="t-h3 text-ink">题库索引加载失败</p>
-          <p className="mt-2 text-[13px] leading-6 text-muted">{metaError}</p>
+          <p className="mt-2 text-[14px] leading-6 text-muted">{metaError}</p>
           <button type="button" onClick={reload} className="btn btn-primary mt-5 h-10">
             重试
           </button>
@@ -247,11 +247,11 @@ export default function PracticePage() {
                   href={it.href}
                   className="card-flat group grid min-h-[64px] grid-cols-[2.5rem_minmax(0,1fr)_auto] items-center gap-x-3 p-3 transition hover:border-line-strong hover:bg-surface-hover"
                 >
-                  <span className="t-num grid size-10 place-items-center rounded-[10px] border border-line bg-surface-sunken text-[15px] font-semibold text-ink-soft">
+                  <span className="t-num grid size-10 place-items-center rounded-[10px] border border-line bg-surface-sunken text-[16px] font-semibold text-ink-soft">
                     {it.no}
                   </span>
                   <span className="min-w-0">
-                    <span className="block truncate text-[15px] font-semibold text-ink">
+                    <span className="block truncate text-[16px] font-semibold text-ink">
                       {it.paperTitle}
                     </span>
                     <span className="t-small block truncate text-muted">
@@ -261,7 +261,7 @@ export default function PracticePage() {
                   <span
                     aria-hidden
                     className={cn(
-                      'shrink-0 text-[15px]',
+                      'shrink-0 text-[16px]',
                       scope === 'fav' ? 'text-brand-ink' : 'text-muted',
                     )}
                   >

@@ -119,7 +119,7 @@ export function AnswerSheet({
         </header>
 
         {/* 图例：可见文字 + 数字（旧版是三个色点 + 裸数字，屏幕阅读器读不出来） */}
-        <ul className="flex shrink-0 items-center gap-4 border-b border-line px-4 py-2.5 text-[12px] text-muted">
+        <ul className="flex shrink-0 items-center gap-4 border-b border-line px-4 py-2.5 text-[13px] text-muted">
           <li className="flex items-center gap-1.5">
             <i className="size-2 rounded-full bg-ok" aria-hidden />
             答对 <b className="font-semibold text-ok-ink tabular-nums">{tally.ok}</b>
@@ -159,11 +159,13 @@ export function AnswerSheet({
                           /* 对错只靠底色时读屏读不出来，必须写进可访问名 */
                           aria-label={`第 ${q.no} 题，${STATE_TEXT[s]}`}
                           className={cn(
-                            'grid h-9 w-full place-items-center rounded-[8px] border text-[12px] font-semibold tabular-nums transition',
-                            s === 'ok' && 'border-ok-line bg-ok-soft text-ok-ink',
-                            s === 'bad' && 'border-bad-line bg-bad-soft text-bad-ink',
+                            /* v3：36→40px 高、13→14px 字；未答态去掉描边改用浅底，
+                               一屏 55 个格子全是描边会像一张表格纸 */
+                            'grid h-10 w-full place-items-center rounded-[10px] text-[14px] font-semibold tabular-nums transition',
+                            s === 'ok' && 'bg-ok-soft text-ok-ink',
+                            s === 'bad' && 'bg-bad-soft text-bad-ink',
                             s === 'blank' &&
-                              'border-line-strong text-muted hover:border-brand hover:text-brand-ink',
+                              'bg-surface-sunken text-muted hover:bg-brand-soft hover:text-brand-ink',
                             /* 当前题用外圈 ring 标，不覆盖底色（否则当前题上看不出对错） */
                             isCursor && 'ring-2 ring-brand ring-offset-1',
                           )}

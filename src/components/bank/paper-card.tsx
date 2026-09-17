@@ -50,10 +50,10 @@ export function PaperCard({
     >
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <div className="truncate text-[15px] font-semibold text-ink group-hover:text-brand-ink">
+          <div className="truncate text-[16px] font-semibold text-ink group-hover:text-brand-ink">
             {paper.label} · 第{paper.setNo}套
           </div>
-          <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-muted">
+          <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[14px] text-muted">
             <span>{empty ? '暂无题目' : `${paper.questionCount} 题`}</span>
             {paper.hasSubjective && !empty && <span className="text-faint">·</span>}
             {paper.hasSubjective && !empty && <span>写作/翻译</span>}
@@ -66,7 +66,7 @@ export function PaperCard({
           </div>
         </div>
         {/* 0 题的卷点进去没有可做的题（只有写作/翻译），写「开始」会误导；改「查看」 */}
-        <span className="mt-0.5 shrink-0 text-[13px] font-semibold text-brand-ink">
+        <span className="mt-0.5 shrink-0 text-[14px] font-semibold text-brand-ink">
           {empty ? '查看 →' : '开始 →'}
         </span>
       </div>

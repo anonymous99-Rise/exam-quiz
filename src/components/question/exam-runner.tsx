@@ -161,9 +161,9 @@ export function ExamRunner({
         className="sticky top-14 z-10 -mx-4 mb-6 border-b border-line bg-surface/90 px-4 backdrop-blur-md sm:-mx-5 sm:px-5"
       >
         <div className="mx-auto flex h-16 w-full max-w-[1120px] items-center gap-3">
-          <h1 className="min-w-0 flex-1 truncate text-[14px] font-semibold text-ink">
+          <h1 className="min-w-0 flex-1 truncate text-[18px] font-bold tracking-tight text-ink">
             {title}
-            <span className="ml-2 font-normal text-muted">整卷模考</span>
+            <span className="ml-2 text-[14px] font-normal text-muted">整卷模考</span>
           </h1>
 
           {/* 倒计时：等宽数字 + 醒目尺寸；最后 5 分钟转成警示胶囊 */}
@@ -179,7 +179,7 @@ export function ExamRunner({
             {submitted ? '已交卷' : hydrated ? mmss(remainSec) : '--:--'}
           </span>
 
-          <div className="hidden shrink-0 text-[12px] text-muted sm:block">
+          <div className="hidden shrink-0 text-[13px] text-muted sm:block">
             已答 <b className="font-semibold text-ink tabular-nums">{hydrated ? r.stats.done : '–'}</b>
             <span className="tabular-nums">/{r.stats.total}</span>
           </div>
@@ -213,7 +213,7 @@ export function ExamRunner({
         <div className="mx-auto mb-6 w-full max-w-[1120px]">
           <div className="rounded-[14px] border border-warn-line bg-warn-soft p-5">
             <p className="t-h3 text-warn">这一场已经超过考试时长</p>
-            <p className="mt-2 text-[13px] leading-6 text-ink-soft">
+            <p className="mt-2 text-[14px] leading-6 text-ink-soft">
               开考记录显示这一场已经超过 {durationMin} 分钟。已答的题都保留着，你可以选择重新计时
               继续作答，或直接交卷看成绩。
             </p>
@@ -245,11 +245,11 @@ export function ExamRunner({
               <div>
                 <div className="text-[34px] leading-none font-extrabold text-ink tabular-nums">
                   {report.scoreGot.toFixed(1)}
-                  <span className="ml-1 text-[15px] font-medium text-faint">
+                  <span className="ml-1 text-[16px] font-medium text-faint">
                     / {report.scoreMax}
                   </span>
                 </div>
-                <div className="mt-2 text-[12px] text-muted">客观题折算分</div>
+                <div className="mt-2 text-[13px] text-muted">客观题折算分</div>
               </div>
               <div>
                 <div
@@ -260,7 +260,7 @@ export function ExamRunner({
                 >
                   {r.stats.rate}%
                 </div>
-                <div className="mt-2 text-[12px] text-muted">正确率</div>
+                <div className="mt-2 text-[13px] text-muted">正确率</div>
               </div>
               <div className="flex flex-wrap items-center gap-2 pb-1">
                 <span className="chip chip-ok">答对 {r.stats.right}</span>
@@ -271,7 +271,7 @@ export function ExamRunner({
 
             <div className="rule my-5" />
 
-            <table className="w-full text-[13px]">
+            <table className="w-full text-[14px]">
               <thead className="text-left">
                 <tr className="t-eyebrow">
                   <th className="pb-2 font-bold">部分</th>

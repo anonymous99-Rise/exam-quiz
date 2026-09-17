@@ -95,7 +95,7 @@ function UserMenuInner() {
       >
         <GitHubMark className="size-3.5" />
         登录
-        <span className="hidden text-[10px] font-normal text-faint sm:inline">（可选）</span>
+        <span className="hidden text-[11.5px] font-normal text-faint sm:inline">（可选）</span>
       </button>
     );
   }
@@ -138,7 +138,7 @@ function UserMenuInner() {
             )}
             <div className="min-w-0">
               <div className="truncate font-semibold text-ink">{name}</div>
-              <div className="text-[10px] text-faint">进度已绑定此账号</div>
+              <div className="text-[11.5px] text-faint">进度已绑定此账号</div>
             </div>
           </div>
 
@@ -156,10 +156,10 @@ function UserMenuInner() {
           </div>
 
           {sync.status === 'error' && (
-            <div className="mb-2 rounded-[8px] bg-bad-soft px-2.5 py-2 text-[10px] leading-relaxed text-bad-ink">
+            <div className="mb-2 rounded-[8px] bg-bad-soft px-2.5 py-2 text-[11.5px] leading-relaxed text-bad-ink">
               <p>{reasonText(sync.reason)}</p>
               {sync.retryAt && (
-                <p className="mt-1 text-[10px] text-muted">
+                <p className="mt-1 text-[11.5px] text-muted">
                   下次自动重试：
                   {new Date(sync.retryAt).toLocaleTimeString('zh-CN', {
                     hour: '2-digit',
@@ -170,8 +170,8 @@ function UserMenuInner() {
               )}
               {sync.detail && (
                 <details className="mt-1">
-                  <summary className="cursor-pointer text-[10px] text-muted">技术细节</summary>
-                  <p className="mt-1 break-all text-[10px] text-faint">{sync.detail}</p>
+                  <summary className="cursor-pointer text-[11.5px] text-muted">技术细节</summary>
+                  <p className="mt-1 break-all text-[11.5px] text-faint">{sync.detail}</p>
                 </details>
               )}
             </div>
@@ -197,7 +197,7 @@ function UserMenuInner() {
             </button>
           </div>
 
-          <p className="mt-2 text-[10px] leading-relaxed text-faint">
+          <p className="mt-2 text-[11.5px] leading-relaxed text-faint">
             退出后本机进度仍保留，可继续离线刷题。
           </p>
         </div>

@@ -17,16 +17,22 @@
   /* ---------- 中性骨架（冷灰，不再带紫粉）---------- */
   --color-canvas: #f6f6f8; /* 页面底 */
   --color-surface: #ffffff; /* 卡片/题目区 */
-  --color-surface-sunken: #f7f7f9; /* 嵌入区块（原文、词库、解析底）——与纯白拉开层次 */
-  --color-surface-hover: #f1f1f4;
+  --color-surface-sunken: #f3f3f7; /* 嵌入区块（原文、词库、解析底）——与纯白拉开层次 */
+  --color-surface-hover: #eeeef3;
 
+  /*
+   * 文字三档。
+   * v3：次级文字整体压深（muted 6.0:1 → 7.4:1，faint 3.1:1 → 4.4:1）。
+   * 实测旧值下全站最常用的文字色是「辅助灰」（听力页 291 处 vs 正文黑 129 处），
+   * 于是整页读起来发灰、像没做完的草稿；压深后同样的排版立刻"实"起来。
+   */
   --color-ink: #14161a; /* 正文 16.9:1 */
-  --color-ink-soft: #3f434b; /* 次级正文 9.6:1 */
-  --color-muted: #5c6270; /* 辅助说明 6.0:1 */
-  --color-faint: #8b909c; /* 占位/禁用（仅大字号或装饰）3.1:1 */
+  --color-ink-soft: #383c44; /* 次级正文 10.6:1 */
+  --color-muted: #4d525e; /* 辅助说明 7.4:1 */
+  --color-faint: #6f7480; /* 占位/装饰 4.4:1 */
 
-  --color-line: #e8e8ed; /* 分隔线 */
-  --color-line-strong: #d6d7de; /* 控件描边 */
+  --color-line: #ebebf0; /* 分隔线 */
+  --color-line-strong: #d8d9e0; /* 控件描边 */
 
   /* ---------- 品牌（玫红）：只做强调 ---------- */
   --color-brand: #e5487f; /* 填充/描边/≥18px 粗体 */
@@ -50,16 +56,16 @@
   --color-warn-soft: #fdf6e7;
   --color-warn-line: #eddcb5;
 
-  /* ---------- 圆角阶梯 ---------- */
-  --radius-micro: 6px;
-  --radius-control: 10px;
-  --radius-card: 14px;
+  /* ---------- 圆角阶梯（v3 整体放大一档，硬边更容易显廉价）---------- */
+  --radius-micro: 7px;
+  --radius-control: 12px;
+  --radius-card: 16px;
   --radius-panel: 20px;
 
-  /* ---------- 阴影阶梯（中性，两档够用）---------- */
-  --shadow-flat: 0 1px 2px rgb(16 18 24 / 0.04);
-  --shadow-card: 0 1px 2px rgb(16 18 24 / 0.04), 0 8px 24px -12px rgb(16 18 24 / 0.1);
-  --shadow-float: 0 2px 8px rgb(16 18 24 / 0.06), 0 20px 48px -16px rgb(16 18 24 / 0.18);
+  /* ---------- 阴影阶梯（中性、更散更淡；v3 起卡片**不再用 1px 边框**）---------- */
+  --shadow-flat: 0 1px 2px rgb(16 18 24 / 0.05);
+  --shadow-card: 0 1px 3px rgb(16 18 24 / 0.05), 0 12px 32px -16px rgb(16 18 24 / 0.14);
+  --shadow-float: 0 2px 8px rgb(16 18 24 / 0.06), 0 24px 56px -20px rgb(16 18 24 / 0.2);
 
   /* ---------- 字体 ---------- */
   --font-sans:
@@ -92,8 +98,10 @@
     background-attachment: fixed;
     color: var(--color-ink);
     font-family: var(--font-sans);
-    font-size: 15px;
-    line-height: 1.6;
+    /* v3：基准字号 15 → 16px。全站绝大多数文字走 .t-* 刻度，但裸文本、
+       表单控件、第三方片段会继承这里 —— 基准偏小会让它们整体显得毛躁。 */
+    font-size: 16px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     min-height: 100dvh;
@@ -171,60 +179,64 @@
 
 /* ==========================================================================
    排版刻度：只用这套类，不要在组件里写 text-[13px] 这种散值
+
+   v3：整体放大一档并拉开层级。实测旧刻度的问题 ——
+     · 正文 15px、小字 13px、微字 11px，全站有 394 个 11px 元素，手机上看就是一片毛边；
+     · 内容页的 h1 只有 14px（比正文 15px 还小），顶级标题完全没有存在感。
    ========================================================================== */
 
 @layer components {
   .t-display {
-    font-size: 30px;
-    /* 中文标题两行时 1.2 会显得憋（评审实测像 1.0），给到 1.28 */
-    line-height: 1.28;
+    font-size: 34px;
+    /* 中文标题两行时 1.2 会显得憋（评审实测像 1.0），给到 1.26 */
+    line-height: 1.26;
     font-weight: 800;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.022em;
   }
   .t-h1 {
-    font-size: 22px;
-    line-height: 1.32;
+    font-size: 26px;
+    line-height: 1.28;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+  .t-h2 {
+    font-size: 20px;
+    line-height: 1.4;
     font-weight: 700;
     letter-spacing: -0.01em;
   }
-  .t-h2 {
+  .t-h3 {
     font-size: 17px;
     line-height: 1.45;
-    font-weight: 700;
-  }
-  .t-h3 {
-    font-size: 15px;
-    line-height: 1.5;
     font-weight: 600;
   }
   .t-body {
-    font-size: 15px;
-    line-height: 1.7;
-  }
-  .t-small {
-    font-size: 13px;
-    line-height: 1.55;
-  }
-  .t-micro {
-    font-size: 11px;
-    line-height: 1.45;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
-  /* 小标签：区块眉标 */
-  .t-eyebrow {
-    font-size: 11px;
-    line-height: 1.4;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-faint);
-  }
-  /* 英文长文：16px/1.75，限制栏宽在 576px（≈68 CPL）*/
-  .t-read {
     font-size: 16px;
     line-height: 1.75;
-    letter-spacing: 0.005em;
+  }
+  .t-small {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .t-micro {
+    font-size: 12px;
+    line-height: 1.45;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  /* 小标签：区块眉标。用 muted（7.4:1）而不是 faint —— 它是标签，不是装饰 */
+  .t-eyebrow {
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--color-muted);
+  }
+  /* 英文长文：17px/1.8，限制栏宽在 576px（≈68 CPL）*/
+  .t-read {
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0.004em;
     text-align: left;
     hyphens: auto;
     overflow-wrap: break-word;
@@ -244,20 +256,25 @@
    ========================================================================== */
 
 @layer components {
+  /*
+   * v3 关键改动：卡片**不再用 1px 边框**。
+   *
+   * 实测旧版全站 21%–32% 的可见元素带 1px 边框（模考页 824 个、其中 513 个圆角卡片），
+   * 于是整页像一张网格纸 —— 边框是最容易显廉价的手段。改用
+   * 「纯白底 + 一层很淡的投影」拉开层次，边框只留给真正需要描出可点范围的控件。
+   */
   .card {
     background: var(--color-surface);
-    border: 1px solid var(--color-line);
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-card);
   }
   .card-flat {
     background: var(--color-surface);
-    border: 1px solid var(--color-line);
     border-radius: var(--radius-card);
+    box-shadow: var(--shadow-flat);
   }
   .panel {
     background: var(--color-surface);
-    border: 1px solid var(--color-line);
     border-radius: var(--radius-panel);
     box-shadow: var(--shadow-card);
   }
@@ -269,9 +286,9 @@
     gap: 6px;
     border-radius: var(--radius-control);
     border: 1px solid transparent;
-    padding: 0 14px;
-    min-height: 38px;
-    font-size: 13px;
+    padding: 0 16px;
+    min-height: 40px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 1.2;
     cursor: pointer;
@@ -295,7 +312,7 @@
   .btn-primary {
     background: var(--color-brand-solid);
     color: #fff;
-    box-shadow: var(--shadow-flat);
+    box-shadow: 0 1px 2px rgb(16 18 24 / 0.08), 0 6px 16px -8px var(--color-brand);
   }
   .btn-primary:hover:not(:disabled) {
     background: var(--color-brand-ink);
@@ -322,54 +339,53 @@
   }
 
   .btn-sm {
-    min-height: 32px;
-    padding: 0 10px;
-    font-size: 12px;
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 13px;
   }
 
-  /* 徽标 / 标签 */
+  /*
+   * 徽标 / 标签。
+   * v3：去掉描边，改用「浅灰底 + 深一点的字」—— 徽标常常一排好几个，
+   * 每个都描边会让整块区域变得嘈杂。
+   */
   .chip {
     display: inline-flex;
     align-items: center;
     gap: 4px;
     border-radius: 999px;
-    padding: 2px 8px;
-    font-size: 11px;
+    padding: 3px 10px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 1.5;
-    border: 1px solid var(--color-line);
-    background: var(--color-surface);
-    color: var(--color-muted);
+    background: var(--color-surface-sunken);
+    color: var(--color-ink-soft);
   }
   .chip-brand {
-    border-color: var(--color-brand-line);
     background: var(--color-brand-soft);
     color: var(--color-brand-ink);
   }
   .chip-ok {
-    border-color: var(--color-ok-line);
     background: var(--color-ok-soft);
     color: var(--color-ok-ink);
   }
   .chip-bad {
-    border-color: var(--color-bad-line);
     background: var(--color-bad-soft);
     color: var(--color-bad-ink);
   }
   .chip-warn {
-    border-color: var(--color-warn-line);
     background: var(--color-warn-soft);
     color: var(--color-warn);
   }
 
-  /* 选项行：整行可点、48px 命中区、状态三重编码（颜色+左条+图标）*/
+  /* 选项行：整行可点、52px 命中区、状态三重编码（颜色+左条+图标）*/
   .opt {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 12px;
     width: 100%;
-    min-height: 48px;
-    padding: 11px 14px;
+    min-height: 52px;
+    padding: 13px 16px;
     border-radius: var(--radius-control);
     border: 1px solid var(--color-line);
     background: var(--color-surface);
@@ -381,11 +397,12 @@
       box-shadow 0.15s ease;
   }
   .opt + .opt {
-    margin-top: 8px;
+    margin-top: 10px;
   }
   .opt:hover:not(:disabled) {
     border-color: var(--color-brand-line);
     background: #fffafc;
+    box-shadow: var(--shadow-flat);
   }
   .opt:disabled {
     cursor: default;
@@ -414,28 +431,24 @@
     display: grid;
     place-items: center;
     flex-shrink: 0;
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     border-radius: var(--radius-micro);
-    border: 1px solid var(--color-line-strong);
     background: var(--color-surface-sunken);
     color: var(--color-muted);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     line-height: 1;
   }
   .optkey-picked {
-    border-color: var(--color-brand);
     background: var(--color-brand-solid);
     color: #fff;
   }
   .optkey-ok {
-    border-color: var(--color-ok);
     background: var(--color-ok);
     color: #fff;
   }
   .optkey-bad {
-    border-color: var(--color-bad);
     background: var(--color-bad);
     color: #fff;
   }

@@ -22,7 +22,7 @@ export function AnalysisList({
   dense?: boolean;
 }) {
   if (!analysis.length) {
-    return <p className="text-[13px] text-faint">本题暂无解析</p>;
+    return <p className="text-[14px] text-faint">本题暂无解析</p>;
   }
 
   return (
@@ -32,7 +32,7 @@ export function AnalysisList({
           <dt className="chip chip-brand mb-1.5">{a.label}</dt>
           <dd
             className={cn(
-              'text-[14px] leading-7 whitespace-pre-wrap text-ink-soft',
+              'text-[15px] leading-7 whitespace-pre-wrap text-ink-soft',
               dense && 'text-[13.5px] leading-[26px]',
             )}
           >
