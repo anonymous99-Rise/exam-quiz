@@ -406,6 +406,30 @@
     background: #fffafc;
     box-shadow: var(--shadow-flat);
   }
+  /*
+   * 判分反馈（v3.3）：答对/答错时选项轻微「弹一下」。
+   *
+   * 视觉评审点名「过程里没有即时反馈，而『答对绿一下』正是刷题产品的爽点」。
+   * 只做 180ms 的 1.02 缩放 + 淡入，不做位移与循环动画；
+   * prefers-reduced-motion 时会被上面的全局规则压成 0.01ms（等于不动），不额外处理。
+   */
+  @keyframes opt-pop {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    60% {
+      transform: scale(1.012);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .opt-ok,
+  .opt-bad {
+    animation: opt-pop 180ms ease-out;
+  }
   .opt:disabled {
     cursor: default;
   }

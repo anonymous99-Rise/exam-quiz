@@ -64,13 +64,78 @@ function toCardSections(list: ExamMeta['sections']): Section[] {
 }
 
 /** 空状态：min-h-[52vh] 居中 + 一句说明 + 一个主 CTA */
-function EmptyState({ title, note, action }: { title: string; note: string; action: ReactNode }) {
+/**
+ * 空态（v3.3）。
+ *
+ * 旧版只有一句标题 + 说明，空空的像「页面没加载出来」。视觉评审点名「空态缺失：
+ * 无图标 + 说明 + 行动按钮」。这里补一枚 56px 描边图标（与全站同一套 1.5px 描边语言），
+ * 文案与按钮保持原样。
+ */
+function EmptyState({
+  title,
+  note,
+  action,
+  icon = 'inbox',
+}: {
+  title: string;
+  note: string;
+  action: ReactNode;
+  icon?: 'inbox' | 'star' | 'wrong' | 'search';
+}) {
   return (
     <div className="flex min-h-[52vh] flex-col items-center justify-center px-2 text-center">
+      <span
+        aria-hidden
+        className="mb-5 grid size-14 place-items-center rounded-full bg-surface-sunken text-faint"
+      >
+        <EmptyIcon kind={icon} />
+      </span>
       <h2 className="t-h2 text-ink">{title}</h2>
       <p className="t-small mt-2 max-w-[34ch] text-muted">{note}</p>
       <div className="mt-5">{action}</div>
     </div>
+  );
+}
+
+/** 空态图标：统一 1.5px 描边、24px 网格（与页头 logo 的 1.5px 语言一致） */
+function EmptyIcon({ kind }: { kind: 'inbox' | 'star' | 'wrong' | 'search' }) {
+  const common = {
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.5,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    className: 'size-6',
+  };
+  if (kind === 'star') {
+    return (
+      <svg {...common}>
+        <path d="M12 4.5l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.6-4.8 2.6.9-5.4L4.2 10.2l5.4-.8z" />
+      </svg>
+    );
+  }
+  if (kind === 'wrong') {
+    return (
+      <svg {...common}>
+        <circle cx="12" cy="12" r="8" />
+        <path d="M9.5 9.5l5 5M14.5 9.5l-5 5" />
+      </svg>
+    );
+  }
+  if (kind === 'search') {
+    return (
+      <svg {...common}>
+        <circle cx="11" cy="11" r="6.5" />
+        <path d="M16 16l4 4" />
+      </svg>
+    );
+  }
+  return (
+    <svg {...common}>
+      <path d="M4 6.5A2.5 2.5 0 016.5 4h11A2.5 2.5 0 0120 6.5V14a2.5 2.5 0 01-2.5 2.5H9l-5 4z" />
+      <path d="M8.5 9h7M8.5 12.5h4" />
+    </svg>
   );
 }
 
@@ -223,6 +288,7 @@ export default function PracticePage() {
         !metaError &&
         (scopeList.length === 0 ? (
           <EmptyState
+            icon={scope === 'wrong' ? 'wrong' : 'star'}
             title={scope === 'wrong' ? '错题本是空的' : '还没有收藏'}
             note={
               scope === 'wrong'
@@ -279,6 +345,7 @@ export default function PracticePage() {
         !metaError &&
         (rows.length === 0 ? (
           <EmptyState
+            icon="search"
             title="所有套卷都刷完了"
             note="去错题本收尾，把还没掌握的那几道再过一遍。"
             action={
