@@ -1,10 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { use, useCallback, useMemo, useState } from 'react';
+import { use, useCallback, useEffect, useMemo, useState } from 'react';
 
+import { Pager, StickyPager } from '@/components/vocab/pager';
 import { useProgress } from '@/lib/progress/store';
 import { useProgressHydrated } from '@/lib/progress/use-hydrated';
+import { useIsMobile } from '@/lib/use-media';
+import { useSwipe } from '@/lib/use-swipe';
 import { useBookAffixes, useBookIndex, useBookList } from '@/lib/vocab/client';
 import {
   DIFF_BANDS,
@@ -84,19 +87,6 @@ function seededShuffle(rows: ListEntry[], seed: number): ListEntry[] {
   return out;
 }
 
-/** 页码条：1 … 4 5 [6] 7 8 … 283（最多 7 个按钮） */
-function pageItems(current: number, total: number): (number | '…')[] {
-  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
-  const out: (number | '…')[] = [1];
-  const from = Math.max(2, current - 1);
-  const to = Math.min(total - 1, current + 1);
-  if (from > 2) out.push('…');
-  for (let i = from; i <= to; i++) out.push(i);
-  if (to < total - 1) out.push('…');
-  out.push(total);
-  return out;
-}
-
 export default function BookPage({ params }: { params: Promise<{ book: string }> }) {
   const { book: bookId } = use(params);
   const { data: index, loading: idxLoading, error: idxError, reload } = useBookIndex(bookId);
@@ -119,6 +109,8 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
   const [cutoff, setCutoff] = useState(0);
   /** 移动端筛选区折叠 */
   const [openFilters, setOpenFilters] = useState(false);
+  /** 窄屏要渲染结构不同的 UI（筛选抽屉），所以必须在 JS 层判断而不是 CSS 隐藏 */
+  const isMobile = useIsMobile();
 
   const prefix = `${bookId}:`;
   const progress = useMemo(
@@ -219,12 +211,42 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
     touch();
   };
 
+  /** 翻页：按钮 / 左右滑动 / 键盘三个入口都走这里，切页后把列表滚回顶部 */
+  const goPage = useCallback(
+    (p: number) => {
+      setPage(Math.max(1, Math.min(totalPages, p)));
+      if (typeof window !== 'undefined' && window.scrollY > 240) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    },
+    [totalPages],
+  );
+
+  /* 左右滑动翻页：手指往左滑＝下一页（与阅读方向一致） */
+  const { swiped } = useSwipe({
+    onLeft: () => goPage(safePage + 1),
+    onRight: () => goPage(safePage - 1),
+    enabled: totalPages > 1,
+  });
+
+  /* 桌面键盘 ← → 翻页（在输入框/下拉里不触发） */
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (e.key === 'ArrowLeft') goPage(safePage - 1);
+      else if (e.key === 'ArrowRight') goPage(safePage + 1);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [goPage, safePage]);
+
   const loading = idxLoading || listLoading;
 
   if (idxError) {
     const notFound = /404/.test(idxError);
     return (
-      <main className="shell w-full pt-10 pb-24">
+      <main className="shell w-full pt-10 pb-28 sm:pb-24">
         <p className="text-[15px] font-semibold text-ink">
           {notFound ? `没有「${bookId}」这本词书` : `词书「${bookId}」加载失败`}
         </p>
@@ -244,6 +266,88 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
       </main>
     );
   }
+
+  /*
+   * 筛选面板内容（结构只有一份）：
+   *   桌面 —— 内联展开在检索区里；
+   *   移动 —— 放进底部抽屉（不推挤列表）。
+   * 用 JS 层二选一而不是 CSS 隐藏：两套同名表单同时进 DOM 会让读屏与测试拿到两份。
+   */
+  const filterBody = (
+    <div className="space-y-3.5">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="w-16 shrink-0 text-[12.5px] text-faint">词性</span>
+        {POS_FILTERS.map((p) => (
+          <button
+            key={p.t}
+            type="button"
+            onClick={() => toggle(poses, p.t, setPoses)}
+            aria-pressed={poses.includes(p.t)}
+            className={cn('pill-btn', poses.includes(p.t) && ACTIVE)}
+          >
+            {p.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="w-16 shrink-0 text-[12.5px] text-faint">难度</span>
+        {DIFF_BANDS.map((b) => (
+          <button
+            key={b.d}
+            type="button"
+            onClick={() => toggle(diffs, b.d, setDiffs)}
+            aria-pressed={diffs.includes(b.d)}
+            title={`${b.label}（按音节数与拼写长度估算）`}
+            className={cn('pill-btn', diffs.includes(b.d) && ACTIVE)}
+          >
+            {b.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="w-16 shrink-0 self-center text-[12.5px] text-faint">词根/缀</span>
+        <select
+          value={affix}
+          onChange={(e) => {
+            setAffix(e.target.value);
+            touch();
+          }}
+          aria-label="按词根或词缀筛选"
+          className="h-11 min-w-0 max-w-[280px] flex-1 rounded-[6px] border border-line-strong bg-surface px-3 text-[13.5px] text-ink focus:border-ink focus:outline-none"
+        >
+          <option value="">全部（不按词根词缀筛）</option>
+          <optgroup label="前缀（否定、重复、方向…）">
+            {affixGroups.prefix.map(([part, n]) => (
+              <option key={part} value={part}>
+                {part} · {n} 词
+              </option>
+            ))}
+          </optgroup>
+          <optgroup label="词根（核心含义）">
+            {affixGroups.root.map(([part, n]) => (
+              <option key={part} value={part}>
+                {part} · {n} 词
+              </option>
+            ))}
+          </optgroup>
+          <optgroup label="后缀（词性、状态）">
+            {affixGroups.suffix.map(([part, n]) => (
+              <option key={part} value={part}>
+                {part} · {n} 词
+              </option>
+            ))}
+          </optgroup>
+        </select>
+      </div>
+      {affix && (
+        <p className="text-[12.5px] text-faint">
+          含「{affix}」的词按命中筛选（可能同时含其他词缀）
+        </p>
+      )}
+    </div>
+  );
 
   return (
     <main className="shell w-full pt-10 pb-24">
@@ -281,14 +385,14 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
             </p>
           )}
         </div>
-        <Link href={`/vocab/${bookId}/study`} className="btn btn-primary">
+        <Link href={`/vocab/${bookId}/study`} className="btn btn-primary w-full sm:w-auto">
           开始学习
         </Link>
       </header>
 
       {/* ── 检索区 ───────────────────────────────────────────────────── */}
       <section className="mt-8 border-y border-line">
-        {/* 第一行：状态 + 排序 + 每页（桌面常显；移动端也保留，这是最常用的） */}
+        {/* 第一行：状态（主）｜ 排序（次） */}
         <div className="flex flex-wrap items-center gap-x-2 gap-y-2 py-3">
           <div className="flex flex-wrap items-center gap-1.5">
             <span className="text-[12.5px] text-faint">状态</span>
@@ -310,40 +414,66 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
 
           <span aria-hidden className="hidden h-5 w-px bg-line-strong sm:block" />
 
-          {/* 排序：降一级（更小、更淡、激活态不用品牌色）——与状态筛选拉开主次 */}
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="text-[12.5px] text-faint">排序</span>
-            {SORTS.map((s) => (
-              <button
-                key={s.id}
-                type="button"
-                onClick={() => {
-                  setSort(s.id);
-                  if (s.id === 'random') setSeed((x) => x + 1);
+          {/*
+            排序：小屏用一个下拉（4 个胶囊会把整行撑爆、还会挤掉右侧的筛选按钮），
+            大屏保留胶囊组。两条分支只渲染一条，不存在同名控件重复的问题。
+          */}
+          {isMobile ? (
+            <label className="ml-auto flex items-center gap-1.5 text-[12.5px] text-faint">
+              排序
+              <select
+                value={sorts}
+                onChange={(e) => {
+                  const v = e.target.value as SortKey;
+                  setSort(v);
+                  if (v === 'random') setSeed((x) => x + 1);
                   touch();
                 }}
-                aria-pressed={sorts === s.id}
-                className={cn(
-                  'rounded-full px-2.5 py-1 text-[13px] transition-colors',
-                  sorts === s.id
-                    ? 'bg-surface-sunken font-semibold text-ink'
-                    : 'text-muted hover:bg-surface-hover hover:text-ink',
-                )}
+                aria-label="排序方式"
+                className="h-9 rounded-[5px] border border-line-strong bg-surface px-2 text-[13px] text-ink focus:border-ink focus:outline-none"
               >
-                {s.label}
-              </button>
-            ))}
-            {sorts === 'random' && (
-              <button
-                type="button"
-                onClick={() => setSeed((x) => x + 1)}
-                title="换一批随机顺序（同一批翻页不会重复）"
-                className="rounded-full px-2.5 py-1 text-[13px] text-brand-ink transition-colors hover:bg-brand-soft"
-              >
-                ↻ 换一批
-              </button>
-            )}
-          </div>
+                {SORTS.map((s) => (
+                  <option key={s.id} value={s.id}>
+                    {s.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          ) : (
+            <div className="flex flex-wrap items-center gap-1.5">
+              <span className="text-[12.5px] text-faint">排序</span>
+              {SORTS.map((s) => (
+                <button
+                  key={s.id}
+                  type="button"
+                  onClick={() => {
+                    setSort(s.id);
+                    if (s.id === 'random') setSeed((x) => x + 1);
+                    touch();
+                  }}
+                  aria-pressed={sorts === s.id}
+                  className={cn(
+                    'rounded-full px-2.5 py-1 text-[13px] transition-colors',
+                    sorts === s.id
+                      ? 'bg-surface-sunken font-semibold text-ink'
+                      : 'text-muted hover:bg-surface-hover hover:text-ink',
+                  )}
+                >
+                  {s.label}
+                </button>
+              ))}
+              {sorts === 'random' && (
+                <button
+                  type="button"
+                  onClick={() => setSeed((x) => x + 1)}
+                  title="换一批随机顺序（同一批翻页不会重复）"
+                  className="rounded-full px-2.5 py-1 text-[13px] text-brand-ink transition-colors hover:bg-brand-soft"
+                >
+                  ↻ 换一批
+                </button>
+              )}
+            </div>
+          )}
 
           <button
             type="button"
@@ -371,7 +501,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
 
         {/* 已选条件：常显在列表上方（旧版在筛选面板底部，要滚下去才能确认条件） */}
         {activeCount > 0 && (
-          <div className="flex flex-wrap items-center gap-2 border-t border-line py-2.5">
+          <div className="flex flex-wrap items-center gap-2 border-t border-line py-3">
             <span className="text-[12.5px] text-faint">已选</span>
             {state !== 'all' && (
               <Chip onClear={() => { setState('all'); touch(); }}>
@@ -402,83 +532,37 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
           </div>
         )}
 
-        {/* 第三行：词性 / 难度 / 词根词缀（可折叠） */}
-        {openFilters && (
-          <div className="space-y-3.5 border-t border-line py-4">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="w-16 shrink-0 text-[12.5px] text-faint">词性</span>
-              {POS_FILTERS.map((p) => (
+        {/*
+          第三行：筛选面板。
+          桌面＝内联展开；移动＝**底部抽屉**（评审实测：内联展开会把列表整个推到屏外，
+          用户必须先折叠才能继续浏览，这是移动端最严重的流程问题）。
+          用 JS 层二选一而不是 CSS 隐藏，避免两套同名表单同时进 DOM。
+        */}
+        {openFilters && isMobile && (
+          <>
+            <button
+              type="button"
+              aria-label="关闭筛选"
+              onClick={() => setOpenFilters(false)}
+              className="fixed inset-0 z-40 bg-ink/25 sm:hidden"
+            />
+            <div className="fixed inset-x-0 bottom-0 z-50 max-h-[78vh] overflow-y-auto rounded-t-[14px] border-t border-line-strong bg-canvas px-5 pt-4 pb-8 shadow-float sm:hidden">
+              <div className="mb-3 flex items-center justify-between">
+                <span className="t-eyebrow">筛选</span>
                 <button
-                  key={p.t}
                   type="button"
-                  onClick={() => toggle(poses, p.t, setPoses)}
-                  aria-pressed={poses.includes(p.t)}
-                  className={cn('pill-btn', poses.includes(p.t) && ACTIVE)}
+                  onClick={() => setOpenFilters(false)}
+                  className="text-[14px] font-medium text-brand-ink"
                 >
-                  {p.label}
+                  完成
                 </button>
-              ))}
+              </div>
+              {filterBody}
             </div>
-
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="w-16 shrink-0 text-[12.5px] text-faint">难度</span>
-              {DIFF_BANDS.map((b) => (
-                <button
-                  key={b.d}
-                  type="button"
-                  onClick={() => toggle(diffs, b.d, setDiffs)}
-                  aria-pressed={diffs.includes(b.d)}
-                  title={`${b.label}（按音节数与拼写长度估算）`}
-                  className={cn('pill-btn', diffs.includes(b.d) && ACTIVE)}
-                >
-                  {b.label}
-                </button>
-              ))}
-            </div>
-
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="w-16 shrink-0 text-[12.5px] text-faint">词根/缀</span>
-              <select
-                value={affix}
-                onChange={(e) => {
-                  setAffix(e.target.value);
-                  touch();
-                }}
-                aria-label="按词根或词缀筛选"
-                className="h-9 max-w-[260px] flex-1 rounded-[5px] border border-line-strong bg-surface px-2.5 text-[13px] text-ink focus:border-ink focus:outline-none"
-              >
-                <option value="">全部（不按词根词缀筛）</option>
-                <optgroup label="前缀（否定、重复、方向…）">
-                  {affixGroups.prefix.map(([part, n]) => (
-                    <option key={part} value={part}>
-                      {part} · {n} 词
-                    </option>
-                  ))}
-                </optgroup>
-                <optgroup label="词根（核心含义）">
-                  {affixGroups.root.map(([part, n]) => (
-                    <option key={part} value={part}>
-                      {part} · {n} 词
-                    </option>
-                  ))}
-                </optgroup>
-                <optgroup label="后缀（词性、状态）">
-                  {affixGroups.suffix.map(([part, n]) => (
-                    <option key={part} value={part}>
-                      {part} · {n} 词
-                    </option>
-                  ))}
-                </optgroup>
-              </select>
-              {affix && (
-                <span className="text-[12.5px] text-faint">
-                  含「{affix}」的词按命中筛选（可能同时含其他词缀）
-                </span>
-              )}
-            </div>
-
-
-          </div>
+          </>
+        )}
+        {openFilters && !isMobile && (
+          <div className="border-t border-line py-4">{filterBody}</div>
         )}
       </section>
 
@@ -501,25 +585,25 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
 
             <div className="flex flex-wrap items-center gap-2">
               {totalPages > 1 && (
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1.5">
                   <button
                     type="button"
-                    onClick={() => setPage(Math.max(1, safePage - 1))}
+                    onClick={() => goPage(safePage - 1)}
                     disabled={safePage === 1}
                     aria-label="上一页"
-                    className="grid h-8 w-8 place-items-center rounded-full text-[13px] text-muted transition-colors hover:bg-surface-hover hover:text-ink disabled:opacity-35 disabled:hover:bg-transparent"
+                    className="grid h-9 w-9 place-items-center rounded-full border border-line-strong text-muted transition-colors hover:border-ink hover:text-ink disabled:cursor-not-allowed disabled:border-line disabled:text-line-strong"
                   >
                     ‹
                   </button>
-                  <span className="display px-1 text-[12.5px] text-muted tabular-nums">
+                  <span className="display px-0.5 text-[12.5px] text-muted tabular-nums">
                     {safePage} / {totalPages}
                   </span>
                   <button
                     type="button"
-                    onClick={() => setPage(Math.min(totalPages, safePage + 1))}
+                    onClick={() => goPage(safePage + 1)}
                     disabled={safePage === totalPages}
                     aria-label="下一页"
-                    className="grid h-8 w-8 place-items-center rounded-full text-[13px] text-muted transition-colors hover:bg-surface-hover hover:text-ink disabled:opacity-35 disabled:hover:bg-transparent"
+                    className="grid h-9 w-9 place-items-center rounded-full border border-line-strong text-muted transition-colors hover:border-ink hover:text-ink disabled:cursor-not-allowed disabled:border-line disabled:text-line-strong"
                   >
                     ›
                   </button>
@@ -554,6 +638,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
                 bookId={bookId}
                 state={progress[e.w.toLowerCase()]}
                 showRank={sorts === 'order'}
+                suppressClick={swiped}
               />
             ))}
           </ul>
@@ -564,10 +649,9 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
             </p>
           )}
 
-          {/* ── 分页 ─────────────────────────────────────────────────── */}
-          {totalPages > 1 && (
-            <Pager page={safePage} total={totalPages} onGo={setPage} />
-          )}
+          {/* ── 分页：底部完整分页条（桌面）＋ 吸底翻页条（移动）──────── */}
+          <Pager page={safePage} total={totalPages} onGo={goPage} className="mt-8" />
+          <StickyPager page={safePage} total={totalPages} onGo={goPage} />
         </>
       )}
     </main>
@@ -580,18 +664,24 @@ function WordRow({
   bookId,
   state,
   showRank,
+  suppressClick = false,
 }: {
   entry: ListEntry;
   bookId: string;
   state?: { s: number; d: number; n: number };
   showRank: boolean;
+  /** 刚完成一次左右滑动时抑制点击，避免「翻页顺手点进词条」 */
+  suppressClick?: boolean;
 }) {
   const pct = state ? Math.min(100, (state.s / 6) * 100) : 0;
   return (
     <li className="border-b border-line">
       <Link
         href={`/vocab/${bookId}/word/${encodeURIComponent(entry.w)}`}
-        className="grid grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 gap-y-0.5 py-2.5 transition-colors hover:bg-surface sm:grid-cols-[2.6rem_236px_minmax(0,1fr)_auto]"
+        onClick={(e) => {
+          if (suppressClick) e.preventDefault();
+        }}
+        className="grid min-h-[46px] grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 gap-y-0.5 py-3 transition-colors hover:bg-surface sm:grid-cols-[2.6rem_236px_minmax(0,1fr)_auto] sm:py-2.5"
       >
         {showRank ? (
           <span className="display hidden text-[12.5px] text-faint sm:block">{entry.r}</span>
@@ -670,81 +760,10 @@ function Chip({ children, onClear }: { children: React.ReactNode; onClear: () =>
         type="button"
         onClick={onClear}
         aria-label={`移除筛选 ${String(children)}`}
-        className="text-faint transition-colors hover:text-bad"
+        className="-m-2 p-2 text-[13px] text-faint transition-colors hover:text-bad"
       >
         ✕
       </button>
     </span>
-  );
-}
-
-/** 分页控件：上一页 / 页码 / 下一页 + 跳页（页码多时才有跳页框） */
-function Pager({ page, total, onGo }: { page: number; total: number; onGo: (p: number) => void }) {
-  const items = pageItems(page, total);
-  const [jump, setJump] = useState('');
-  return (
-    <nav aria-label="分页" className="mt-7 flex flex-wrap items-center justify-center gap-2">
-      <button
-        type="button"
-        onClick={() => onGo(Math.max(1, page - 1))}
-        disabled={page === 1}
-        className="pill-btn px-3 disabled:cursor-not-allowed disabled:opacity-40"
-      >
-        上一页
-      </button>
-
-      {items.map((it, i) =>
-        it === '…' ? (
-          <span key={`gap-${i}`} className="px-1 text-[13px] text-faint">
-            …
-          </span>
-        ) : (
-          <button
-            key={it}
-            type="button"
-            onClick={() => onGo(it)}
-            aria-current={it === page ? 'page' : undefined}
-            className={cn(
-              'grid h-8 min-w-8 place-items-center rounded-full px-2 text-[13px] tabular-nums transition-colors',
-              it === page
-                ? 'bg-ink font-semibold text-white'
-                : 'text-muted hover:bg-surface-hover hover:text-ink',
-            )}
-          >
-            {it}
-          </button>
-        ),
-      )}
-
-      <button
-        type="button"
-        onClick={() => onGo(Math.min(total, page + 1))}
-        disabled={page === total}
-        className="pill-btn px-3 disabled:cursor-not-allowed disabled:opacity-40"
-      >
-        下一页
-      </button>
-
-      {total > 10 && (
-        <form
-          className="ml-1 flex items-center gap-1.5"
-          onSubmit={(ev) => {
-            ev.preventDefault();
-            const n = Number(jump);
-            if (Number.isFinite(n) && n >= 1) onGo(Math.min(total, Math.floor(n)));
-            setJump('');
-          }}
-        >
-          <input
-            value={jump}
-            onChange={(ev) => setJump(ev.target.value)}
-            inputMode="numeric"
-            placeholder="跳页"
-            aria-label="跳到第几页"
-            className="h-8 w-16 rounded-[5px] border border-line-strong bg-surface px-2 text-center text-[12.5px] text-ink placeholder:text-faint focus:border-ink focus:outline-none"
-          />
-        </form>
-      )}
-    </nav>
   );
 }

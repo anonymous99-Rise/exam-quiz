@@ -203,7 +203,9 @@ export default function WordPage({ params }: { params: Promise<{ book: string; w
         </article>
 
         {/* ── 右：复习状态 ─────────────────────────────────────────── */}
-        <aside className="lg:border-l lg:border-line lg:pl-8">
+        {/* min-w-0 必需：grid 子项默认 min-width:auto，会被内部 min-w-[520px] 的
+            遗忘曲线撑开，导致整页在手机上横向溢出 150px（实测） */}
+        <aside className="min-w-0 space-y-6 lg:border-l lg:border-line lg:pl-8">
           <div className="rounded-[6px] border border-line bg-surface p-4">
             <p className="t-eyebrow">我的复习状态</p>
             {state ? (
@@ -248,7 +250,7 @@ export default function WordPage({ params }: { params: Promise<{ book: string; w
                     <li key={p}>
                       <Link
                         href={`/${bookId === 'cet6' ? 'cet6' : bookId}/${p}`}
-                        className="display inline-block rounded-[4px] border border-line-strong px-2 py-0.5 text-[12px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
+                        className="display inline-block rounded-[4px] border border-line-strong px-2.5 py-1 text-[12px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
                       >
                         {p}
                       </Link>

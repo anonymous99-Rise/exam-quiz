@@ -23,6 +23,7 @@ import {
   type Grade,
   type WordEntry,
 } from '@/lib/vocab/srs';
+import { useSwipe } from '@/lib/use-swipe';
 import { cn } from '@/lib/utils';
 
 type Queue = { review: number[]; fresh: number[] };
@@ -178,6 +179,25 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
     [card, progress, gradeStore, bookId, pos, order.length, advance],
   );
 
+  /*
+    手势（单手流程）：
+      · 还没翻面 —— 左右滑任意方向都翻面（先看释义再说）
+      · 已翻面 —— 左滑＝认识（往后走）、右滑＝不认识（退回去）
+    只在触屏生效由浏览器决定（桌面没有 touch 事件，自然不触发）。
+  */
+  useSwipe({
+    onLeft: () => {
+      if (!card || done) return;
+      if (!flipped) setFlipped(true);
+      else submit('easy');
+    },
+    onRight: () => {
+      if (!card || done) return;
+      if (!flipped) setFlipped(true);
+      else submit('again');
+    },
+  });
+
   /* 键盘：空格翻卡；1/2/3 评价（翻面前评价无效，避免盲打分） */
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -269,7 +289,7 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
               onClick={() => changeMode(m)}
               aria-pressed={mode === m}
               className={cn(
-                'rounded-full px-2.5 py-1 text-[12.5px] transition-colors',
+                'rounded-full px-3.5 py-2 text-[12.5px] transition-colors',
                 mode === m
                   ? 'bg-ink font-semibold text-white'
                   : 'text-muted hover:bg-surface-hover hover:text-ink',
@@ -466,6 +486,10 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
               评价决定下次什么时候再见到它：不认识 → 10 分钟后；认识 → 1 / 2 / 4 / 7 … 天，逐次拉长。
             </p>
           )}
+          {/* 触屏提示：手势是隐藏功能，不提示基本没人会用 */}
+          <p className="mt-3 text-center text-[12px] text-faint [@media(hover:hover)]:hidden">
+            {flipped ? '左滑 = 认识 · 右滑 = 不认识' : '左右滑动可翻面查看释义'}
+          </p>
 
           {/* 艾宾浩斯节点：让「下次 4 天后」变成看得见的一串点 */}
           {flipped && (
