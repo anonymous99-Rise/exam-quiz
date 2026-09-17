@@ -349,8 +349,14 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
     </div>
   );
 
+  /*
+   * 底部留白按实测重算：移动端吸底翻页条实高 97px（44px 按钮 + 内边距 + 上方 24px 渐变），
+   * 留 192px 让最后一行完全露出，中间还留着呼吸。
+   * ⚠ 这个文件里有**两个 <main>**（错误分支 / 正常分支），改留白务必改这一个 ——
+   *   我第一次改到了错误分支上，线上实测 padding 还是 96px，白折腾一轮。
+   */
   return (
-    <main className="shell w-full pt-10 pb-24">
+    <main className="shell w-full pt-10 pb-48 sm:pb-24">
       <nav aria-label="面包屑" className="t-small flex items-center gap-2 text-muted">
         <Link href="/" className="transition-colors hover:text-ink">
           首页
