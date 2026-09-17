@@ -1,21 +1,30 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
+import { DailyStrip } from '@/components/daily/daily-strip';
 import { HomeProgress, OverallStats } from '@/components/progress/progress-bits';
 import { HomeContinue } from '@/components/progress/home-continue';
 import { getExamSummaries } from '@/lib/bank/registry';
+import { fetchSentence } from '@/lib/daily/api';
 import { cn } from '@/lib/utils';
+
+/**
+ * 首页也带一天的缓存：每日一句来自第三方接口，构建期的结果就是兜底，
+ * 首页不该为了这一条内容在每次请求时去打上游。
+ */
+export const revalidate = 1800;
 
 export const metadata: Metadata = {
   title: '英语真题刷题站',
   description: '多考试真题刷题：CET-6 · CET-4，逐题解析、听力原声、整卷模考',
 };
 
-export default function Home() {
+export default async function Home() {
   const exams = getExamSummaries();
   const totalPapers = exams.reduce((n, e) => n + e.paperCount, 0);
   const totalQuestions = exams.reduce((n, e) => n + e.questionCount, 0);
   const totalSessions = exams.reduce((n, e) => n + e.sessionCount, 0);
+  const daily = await fetchSentence();
 
   return (
     <main className="shell w-full pt-14 pb-24">
@@ -157,6 +166,9 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      {/* ── 每日一句（上游取不到时整条不渲染，不留空盒子）───────────────── */}
+      <DailyStrip sentence={daily.ok ? daily.data : null} className="mt-16" />
 
       <footer className="mt-16 border-t border-line pt-6 text-[13px] leading-6 text-muted">
         <p>
