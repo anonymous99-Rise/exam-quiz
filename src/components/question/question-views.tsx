@@ -60,9 +60,13 @@ export function SingleChoiceView({
                 </span>
 
                 <span className="min-w-0 flex-1 pt-0.5">
-                  <span className="block text-[16px] leading-7 text-ink">{o.text}</span>
+                  {/* v3：行高 28→24px、与中文译文的间距 4→2px。
+                      每行省 ~8px，25 题的听力页能少滚近一屏（实测选项行 86→74px）。 */}
+                  <span className="block text-[16px] leading-6 text-ink">{o.text}</span>
                   {o.textZh && (
-                    <span className="mt-1 block text-[14px] leading-6 text-muted">{o.textZh}</span>
+                    <span className="mt-0.5 block text-[14px] leading-6 text-muted">
+                      {o.textZh}
+                    </span>
                   )}
                 </span>
 

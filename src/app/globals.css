@@ -62,10 +62,12 @@
   --radius-card: 16px;
   --radius-panel: 20px;
 
-  /* ---------- 阴影阶梯（中性、更散更淡；v3 起卡片**不再用 1px 边框**）---------- */
-  --shadow-flat: 0 1px 2px rgb(16 18 24 / 0.05);
-  --shadow-card: 0 1px 3px rgb(16 18 24 / 0.05), 0 12px 32px -16px rgb(16 18 24 / 0.14);
-  --shadow-float: 0 2px 8px rgb(16 18 24 / 0.06), 0 24px 56px -20px rgb(16 18 24 / 0.2);
+  /* ---------- 阴影阶梯（中性、更散更淡；v3 起卡片**不再用 1px 边框**）----------
+     v3.1：投影略加深。卡片去掉边框后全靠它和白底建立边界，
+     实测旧值（0.05/0.14）在 #f6f6f8 底上几乎看不出卡片边缘。 */
+  --shadow-flat: 0 1px 2px rgb(16 18 24 / 0.06);
+  --shadow-card: 0 1px 3px rgb(16 18 24 / 0.07), 0 12px 32px -16px rgb(16 18 24 / 0.17);
+  --shadow-float: 0 2px 8px rgb(16 18 24 / 0.07), 0 24px 56px -20px rgb(16 18 24 / 0.22);
 
   /* ---------- 字体 ---------- */
   --font-sans:
@@ -385,7 +387,7 @@
     gap: 12px;
     width: 100%;
     min-height: 52px;
-    padding: 13px 16px;
+    padding: 12px 14px;
     border-radius: var(--radius-control);
     border: 1px solid var(--color-line);
     background: var(--color-surface);

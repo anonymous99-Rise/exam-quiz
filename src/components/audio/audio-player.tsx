@@ -293,7 +293,12 @@ export function AudioPlayer({
 
       <audio ref={audioRef} preload="metadata" aria-label="听力音频" className="hidden" />
 
-      {/* 进度条：窄屏让进度条独占一行，否则会被右侧按钮挤成十几像素宽 */}
+      {/*
+        控件分组（v3）：[播放] [−10s] [+10s] | 进度条+时间 | [倍速]
+        旧版把 ±10s 放在最右边，与播放键相距约 800px —— 三个相邻操作的按钮
+        被拉到屏幕两端，鼠标得来回跨半屏。同一组动作放在一起才符合直觉。
+        窄屏：±10s 隐藏（进度条可拖），进度条独占一行。
+      */}
       <div className="flex flex-wrap items-center gap-x-3 gap-y-3">
         <button
           type="button"
@@ -315,25 +320,6 @@ export function AudioPlayer({
           )}
         </button>
 
-        <div className="order-last min-w-[8rem] flex-1 basis-full sm:order-none sm:basis-auto">
-          <input
-            type="range"
-            min={0}
-            max={duration || 0}
-            step={1}
-            value={current}
-            onChange={(e) => seek(Number(e.target.value))}
-            aria-label="播放进度"
-            disabled={noSource}
-            className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand disabled:cursor-not-allowed"
-          />
-          <div className="t-num mt-1 flex items-center justify-between text-[12.5px] text-muted">
-            <span>{fmtTime(current)}</span>
-            {/* 「载入中…」在音源缺失时会永远挂着 —— 那种情况给确定结论 */}
-            <span>{ready ? fmtTime(duration) : noSource ? '无音频' : '载入中…'}</span>
-          </div>
-        </div>
-
         <div className="flex shrink-0 items-center gap-1.5">
           {/* 窄屏隐藏 ±10s：屏幕上没有空间，且进度条可拖（触控目标 ≥40px） */}
           <button
@@ -354,6 +340,28 @@ export function AudioPlayer({
           >
             +10s
           </button>
+        </div>
+
+        <div className="order-last min-w-[8rem] flex-1 basis-full sm:order-none sm:basis-auto">
+          <input
+            type="range"
+            min={0}
+            max={duration || 0}
+            step={1}
+            value={current}
+            onChange={(e) => seek(Number(e.target.value))}
+            aria-label="播放进度"
+            disabled={noSource}
+            className="h-2 w-full cursor-pointer appearance-none rounded-full bg-line accent-brand disabled:cursor-not-allowed"
+          />
+          <div className="t-num mt-1 flex items-center justify-between text-[12.5px] text-muted">
+            <span>{fmtTime(current)}</span>
+            {/* 「载入中…」在音源缺失时会永远挂着 —— 那种情况给确定结论 */}
+            <span>{ready ? fmtTime(duration) : noSource ? '无音频' : '载入中…'}</span>
+          </div>
+        </div>
+
+        <div className="flex shrink-0 items-center gap-1.5">
           <button
             type="button"
             onClick={cycleRate}

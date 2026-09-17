@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 
 import { OverallStats } from '@/components/progress/progress-bits';
 import { getExamSummaries } from '@/lib/bank/registry';
+import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: '英语真题刷题站',
@@ -94,41 +95,63 @@ export default function Home() {
           )}
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2">
-          {exams.map((e) => (
-            <Link
-              key={e.id}
-              href={`/${e.id}`}
-              className="panel group flex flex-col gap-4 p-6 transition hover:border-brand-line"
-            >
-              <div className="flex items-start justify-between gap-4">
+        {/*
+          只有 CET-6 一套题库时用**横向双栏卡**撑满容器。
+          旧版固定 sm:grid-cols-2，于是 1080px 的容器里卡片只占 532px，
+          右边 532px 是纯空底 —— 首屏看起来像「第二张卡没渲染出来」。
+        */}
+        <div className={cn('grid gap-4', exams.length > 1 && 'sm:grid-cols-2')}>
+          {exams.map((e) => {
+            const solo = exams.length === 1;
+            const stats = [
+              { v: e.sessionCount, l: '考期' },
+              { v: e.paperCount, l: '套卷' },
+              { v: e.questionCount, l: '题目' },
+            ];
+            return (
+              <Link
+                key={e.id}
+                href={`/${e.id}`}
+                className={cn(
+                  'panel group transition hover:border-brand-line',
+                  solo
+                    ? 'flex flex-col gap-6 p-6 sm:flex-row sm:items-center sm:justify-between sm:gap-10 sm:p-7'
+                    : 'flex flex-col gap-4 p-6',
+                )}
+              >
                 <div className="min-w-0">
-                  <h3 className="t-h1 text-ink group-hover:text-brand-ink">{e.shortName}</h3>
-                  <p className="mt-1.5 text-[14px] text-muted">{e.name}</p>
-                </div>
-                <span className="chip shrink-0">
-                  {e.yearRange ? `${e.yearRange[0]}–${e.yearRange[1]}` : '—'}
-                </span>
-              </div>
-
-              <div className="rule" />
-
-              <dl className="grid grid-cols-3 gap-3 text-center">
-                {[
-                  { v: e.sessionCount, l: '考期' },
-                  { v: e.paperCount, l: '套卷' },
-                  { v: e.questionCount, l: '题目' },
-                ].map((s) => (
-                  <div key={s.l}>
-                    <dd className="text-[19px] font-bold text-ink tabular-nums">{s.v}</dd>
-                    <dt className="text-[13px] text-muted">{s.l}</dt>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <h3 className="t-h1 text-ink group-hover:text-brand-ink">{e.shortName}</h3>
+                    <span className="chip shrink-0">
+                      {e.yearRange ? `${e.yearRange[0]}–${e.yearRange[1]}` : '—'}
+                    </span>
                   </div>
-                ))}
-              </dl>
+                  <p className="mt-1.5 text-[14px] text-muted">{e.name}</p>
 
-              <span className="btn btn-primary mt-auto w-full">进入 {e.shortName}</span>
-            </Link>
-          ))}
+                  {/* 统计：横向排在标题下，卡片变宽后不再用居中三栏（居中在大卡里会散） */}
+                  <dl className="mt-5 flex flex-wrap items-baseline gap-x-7 gap-y-3">
+                    {stats.map((s) => (
+                      <div key={s.l} className="flex items-baseline gap-1.5">
+                        <dd className="text-[22px] leading-none font-bold text-ink tabular-nums">
+                          {s.v}
+                        </dd>
+                        <dt className="text-[13px] text-muted">{s.l}</dt>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+
+                <span
+                  className={cn(
+                    'btn btn-primary shrink-0',
+                    solo ? 'h-11 w-full text-[15px] sm:w-auto sm:min-w-[190px]' : 'mt-auto w-full',
+                  )}
+                >
+                  进入 {e.shortName}
+                </span>
+              </Link>
+            );
+          })}
         </div>
 
         {exams.length === 0 && (
@@ -139,19 +162,16 @@ export default function Home() {
         )}
       </section>
 
-      <footer className="mt-16 border-t border-line pt-6 text-[13px] leading-6 text-faint">
+      <footer className="mt-16 border-t border-line pt-6 text-[13px] leading-6 text-muted">
         <p>
           题库整理自历年真题及配套解析，版权归原命题方所有。本站为个人备考练习工具，
           不用于商业用途、不再分发原始材料。
         </p>
-        <p className="mt-2">
-          <Link
-            href="/design"
-            className="tap-expand text-muted underline decoration-line-strong hover:text-brand-ink"
-          >
-            设计系统预览
-          </Link>
-        </p>
+        {/*
+          不再把「设计系统预览」挂在页脚：那是给开发看的内部页面。出现在生产站页脚里，
+          用户会看到一个和「进入 CET-6」同字重同颜色的链接，第一观感是「这站还没做完」。
+          需要预览直接访问 /design。
+        */}
       </footer>
     </main>
   );

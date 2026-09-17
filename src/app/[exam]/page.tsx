@@ -190,7 +190,13 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
                         {list.length} 套
                       </span>
                     </h3>
-                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    {/*
+                      v3：lg 三栏 → 两栏。三栏时每张卡只有 349px，标题、题型徽标、
+                      进度、缺口徽标全挤在 12px 字号里，47 张一模一样的白卡分不出
+                      哪套做过、哪套没做；两栏（约 500px）才放得下 15–16px 的标题
+                      与一行状态信息。
+                    */}
+                    <div className="grid gap-4 sm:grid-cols-2">
                       {list.map((p) => (
                         <PaperCard
                           key={p.id}

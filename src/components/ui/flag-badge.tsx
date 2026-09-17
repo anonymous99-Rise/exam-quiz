@@ -44,11 +44,16 @@ export function FlagBadge({ flag, className }: { flag: string; className?: strin
   );
 }
 
-/** 一套卷的 flags 汇总徽标（同一种 tone 只显示一次，避免卡片上挂一排） */
+/**
+ * 一套卷的 flags 汇总徽标（同一种 tone 只显示一次，避免卡片上挂一排）
+ *
+ * v3：没有缺口时**什么都不渲染**。
+ * 旧版给健康套卷显示「数据完整」—— 47 张卡里 25 张挂着这枚绿色徽标，
+ * 它描述的是默认状态、不提供任何决策信息，只是把标签行撑满、
+ * 让真正需要注意的 amber 缺口徽标淹没在噪声里。
+ */
 export function FlagBadges({ flags, max = 2 }: { flags: string[]; max?: number }) {
-  if (!flags.length) {
-    return <span className="text-[12.5px] font-medium text-ok-ink">数据完整</span>;
-  }
+  if (!flags.length) return null;
   const shown = flags.slice(0, max);
   const rest = flags.length - shown.length;
   return (

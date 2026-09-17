@@ -5,10 +5,14 @@ import { useProgressHydrated } from '@/lib/progress/use-hydrated';
 import { cn } from '@/lib/utils';
 
 /**
- * 套卷进度条（卡片上用）
+ * 套卷进度（卡片上用）
  *
- * v2：进度条改**中性色**（品牌粉不再兼任「进度」语义），只有达到整卷完成才切成绿色；
+ * v2：进度条改**中性色**（品牌粉不再兼任「进度」语义），只有整卷完成才切绿色；
  * 数字用 tabular-nums，避免逐题变化时宽度跳动。
+ *
+ * v3：加一枚**状态词**（进行中 / 已完成）并把裸数字写成「12/55 题」。
+ * 47 张套卷卡长得一模一样时，原来只能靠 2px 进度条猜哪套做过；
+ * 未开始的卷不给徽标（默认状态不该占视觉预算），有进度才出现。
  * 未水合时只渲染底槽与占位数字，保证服务端/客户端一致。
  */
 export function PaperProgress({
@@ -28,10 +32,14 @@ export function PaperProgress({
 
   const pct = hydrated && stats.total ? (stats.done / stats.total) * 100 : 0;
   const finished = hydrated && stats.total > 0 && stats.done === stats.total;
+  const started = hydrated && stats.done > 0 && !finished;
 
   return (
-    <div className={cn('flex items-center gap-2.5', className)}>
-      <div className="h-1.5 min-w-0 flex-1 overflow-hidden rounded-full bg-line">
+    <div className={cn('flex flex-wrap items-center gap-x-2.5 gap-y-1.5', className)}>
+      {finished && <span className="chip chip-ok">已完成</span>}
+      {started && <span className="chip chip-brand">进行中</span>}
+
+      <div className="h-2 min-w-[3rem] flex-1 overflow-hidden rounded-full bg-line">
         <div
           className={cn(
             'h-full rounded-full transition-[width] duration-500',
@@ -41,7 +49,7 @@ export function PaperProgress({
         />
       </div>
       <span className="shrink-0 text-[13px] text-muted tabular-nums">
-        {hydrated ? `${stats.done}/${stats.total}` : `–/${stats.total}`}
+        {hydrated ? `${stats.done}/${stats.total} 题` : `–/${stats.total} 题`}
       </span>
       {hydrated && stats.done > 0 && (
         <span

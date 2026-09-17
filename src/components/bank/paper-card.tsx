@@ -42,8 +42,10 @@ export function PaperCard({
     <Link
       href={href}
       className={cn(
-        'card-flat group flex flex-col gap-3 p-4 transition',
-        'hover:border-brand-line hover:bg-white hover:shadow-card',
+        /* v3：内边距 16→20px、行距 12→14px；默认态是「白底 + 淡投影」，
+           hover 才出现品牌色描边（ring），不再常驻 1px 边框 */
+        'card-flat group flex flex-col gap-3.5 p-5 transition',
+        'hover:shadow-card hover:ring-1 hover:ring-brand-line',
         empty && 'opacity-55',
         className,
       )}
@@ -88,7 +90,6 @@ export function PaperCard({
           </ul>
         </>
       )}
-
       <FlagBadges flags={paper.flags} />
     </Link>
   );
