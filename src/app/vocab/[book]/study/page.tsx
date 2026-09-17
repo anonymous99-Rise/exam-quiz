@@ -5,6 +5,15 @@ import { use, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { useProgress } from '@/lib/progress/store';
 import { useProgressHydrated } from '@/lib/progress/use-hydrated';
+import { ForgettingCurve } from '@/components/vocab/forgetting-curve';
+import { FunBlock, MorphBlock } from '@/components/vocab/mnemonic';
+import {
+  ExamSentenceBlock,
+  PronounceBlock,
+  RemBlock,
+  SynonymBlock,
+  WordFamilyBlock,
+} from '@/components/vocab/word-blocks';
 import { fetchRefs, fetchShard, useBookIndex, useBookList } from '@/lib/vocab/client';
 import { grade as gradeWord, intervalLabel, type Grade, type WordEntry } from '@/lib/vocab/srs';
 import { cn } from '@/lib/utils';
@@ -253,6 +262,7 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
                 {card.uk && <span>英 /{card.uk}/</span>}
                 {card.us && <span className="ml-4">美 /{card.us}/</span>}
               </p>
+              <PronounceBlock word={card.sp ?? card.w} uk={card.uk} us={card.us} className="mt-3" />
 
               {(() => {
                 const hit = refs[card.w];
@@ -276,6 +286,25 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
                       </li>
                     ))}
                   </ul>
+
+                  {/*
+                    记忆钩子（优先级）：
+                      1. 上游 remMethod 词源记忆法（人工撰写，六级覆盖 54%）—— 最可信
+                      2. 我按词表推断的词根词缀拆解（覆盖 10%，但解释了「为什么」）
+                      3. 人工趣味提示（谐音/音译，覆盖 2.6%）—— 兜底
+                    三者可能同时有，按上面的顺序都展示，不互相替代。
+                  */}
+                  {card.rem && <RemBlock rem={card.rem} className="mt-5" />}
+                  {card.morph && card.morph.length >= 2 && (
+                    <MorphBlock morph={card.morph} className="mt-4" />
+                  )}
+                  {card.fun && <FunBlock fun={card.fun} className="mt-4" />}
+
+                  {card.syn?.length ? <SynonymBlock syn={card.syn} className="mt-5" /> : null}
+                  {card.rel?.length ? <WordFamilyBlock rel={card.rel} className="mt-5" /> : null}
+                  {card.exs?.length ? (
+                    <ExamSentenceBlock exs={card.exs} className="mt-5" />
+                  ) : null}
 
                   {card.phr.length > 0 && (
                     <div className="mt-5">
@@ -370,6 +399,13 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
             <p className="mt-5 text-center text-[12.5px] leading-6 text-faint">
               评价决定下次什么时候再见到它：不认识 → 10 分钟后；认识 → 1 / 2 / 4 / 7 … 天，逐次拉长。
             </p>
+          )}
+
+          {/* 艾宾浩斯节点：让「下次 4 天后」变成看得见的一串点 */}
+          {flipped && (
+            <section className="mx-auto mt-8 max-w-[640px] border-t border-line pt-5">
+              <ForgettingCurve state={progress[card.w.toLowerCase()]} />
+            </section>
           )}
         </>
       ) : (

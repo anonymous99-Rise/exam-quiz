@@ -84,6 +84,17 @@ export async function fetchRefs(bookId: string): Promise<Record<string, string[]
   }
 }
 
+/** 词根词缀 → 词数（筛选下拉用） */
+export async function fetchAffixes(bookId: string): Promise<Record<string, number>> {
+  try {
+    const res = await fetch(`/vocab/${bookId}/affixes.json`);
+    if (!res.ok) return {};
+    return (await res.json()) as Record<string, number>;
+  } catch {
+    return {};
+  }
+}
+
 /* ---------- hooks ---------- */
 
 type Async<T> = { data: T | null; loading: boolean; error: string | null; reload: () => void };
@@ -129,3 +140,4 @@ export const useVocabRoot = () => useAsync(fetchVocabRoot, []);
 export const useBookIndex = (bookId: string) => useAsync(() => fetchBookIndex(bookId), [bookId]);
 export const useBookList = (bookId: string) => useAsync(() => fetchBookList(bookId), [bookId]);
 export const useBookRefs = (bookId: string) => useAsync(() => fetchRefs(bookId), [bookId], {});
+export const useBookAffixes = (bookId: string) => useAsync(() => fetchAffixes(bookId), [bookId], {});

@@ -46,8 +46,51 @@ export type BookIndex = {
   shards: { id: string; from: number; to: number; count: number; file: string }[];
 };
 
-/** 列表页用的轻量词条 */
-export type ListEntry = { r: number; w: string; p: string; z: string };
+/** 列表页用的轻量词条（含全部可筛维度，列表页只读它） */
+export type ListEntry = {
+  /** 书内序号（顺序排序用） */
+  r: number;
+  w: string;
+  /** 音标 */
+  p: string;
+  /** 首条释义 */
+  z: string;
+  /** 归一后的词性：['n','v','adj',…] */
+  t: string[];
+  /** 难度 1–4（按音节数与拼写长度估算，非词频分级） */
+  d: number;
+  /** 命中的词根词缀，如 ['un-','-tion','spect'] */
+  af: string[];
+};
+
+/** 难度分层（口径写死在 UI 上） */
+export const DIFF_BANDS = [
+  { d: 1, label: '基础' },
+  { d: 2, label: '常用' },
+  { d: 3, label: '进阶' },
+  { d: 4, label: '高阶' },
+] as const;
+
+/** 词性筛选项（顺序＝展示顺序） */
+export const POS_FILTERS = [
+  { t: 'n', label: '名词' },
+  { t: 'v', label: '动词' },
+  { t: 'adj', label: '形容词' },
+  { t: 'adv', label: '副词' },
+] as const;
+
+/** 词根词缀的类别（由 part 的连字符位置推断，不必额外加载词典） */
+export function affixKind(part: string): 'prefix' | 'suffix' | 'root' {
+  if (part.endsWith('-')) return 'prefix';
+  if (part.startsWith('-')) return 'suffix';
+  return 'root';
+}
+
+/** 词根词缀拆解的一段（展示层用） */
+export type MorphPart = { part: string; kind: 'prefix' | 'root' | 'suffix'; gloss: string };
+
+/** 趣味记忆钩子 */
+export type FunHint = { kind: 'translit' | 'homophone' | 'assoc' | 'split'; text: string };
 
 /** 完整词条（学习卡片用） */
 export type WordEntry = {
@@ -58,6 +101,28 @@ export type WordEntry = {
   pos: { t: string; z: string }[];
   phr: { p: string; z: string }[];
   sent: { en: string; zh: string }[];
+  /** 以下由 tools/vocab-enrich.mjs 补齐（基于词表推断） */
+  posTags?: string[];
+  syl?: number;
+  diff?: number;
+  affixes?: string[];
+  morph?: MorphPart[];
+  fun?: FunHint;
+  /** 以下由 tools/vocab-import-full.mjs 从上游 full 词典结构补全（权威字段） */
+  /** 词源记忆法（上游人工撰写） */
+  rem?: string;
+  /** 英文释义 */
+  en?: string;
+  /** 同近义词 */
+  syn?: { pos: string; tran: string; ws: string[] }[];
+  /** 同根词（真实词族，带中文释义） */
+  rel?: { pos: string; words: { w: string; z: string }[] }[];
+  /** 真题例句（带出处：年份 · 第几套 · 题型） */
+  exs?: { en: string; src: string }[];
+  /** 星级（上游该字段实测全为 0，保留结构以便将来数据补全） */
+  star?: number;
+  /** 发音用的词形 */
+  sp?: string;
 };
 
 /** 三档评价 */

@@ -3,15 +3,25 @@
 import Link from 'next/link';
 
 import { BookRow } from '@/components/vocab/book-row';
+import { ForgettingCurve, ReviewForecast } from '@/components/vocab/forgetting-curve';
 import { useProgress } from '@/lib/progress/store';
 import { useProgressHydrated } from '@/lib/progress/use-hydrated';
 import { useVocabRoot } from '@/lib/vocab/client';
 import { bookStats } from '@/lib/vocab/srs';
 
 /**
+ * 当前时间戳。
+ *
+ * 组件体里直接写 Date.now() 会被 react-hooks 的 purity 规则判为 error（渲染必须纯净）；
+ * 这里读时间是**安全的** —— 到期节律面板只在客户端水合完成后才渲染（`hydrated` 为真），
+ * 服务端那一轮根本不会渲染它，因此不存在水合不一致。
+ */
+const nowMs = () => Date.now();
+
+/**
  * 词汇首页
  *
- * 三块：今日待复习（跨词书汇总）→ 词书清单 → 数据出处。
+ * 三块：今日待复习（跨词书汇总）→ 艾宾浩斯复习节律 → 词书清单。
  * 「今日待复习」是背单词产品的第一入口：没有它，用户不知道该背哪本。
  */
 export default function VocabPage() {
@@ -23,6 +33,8 @@ export default function VocabPage() {
   let dueTotal = 0;
   let seenTotal = 0;
   let masteredTotal = 0;
+  /** 按到期时间分桶（艾宾浩斯节律面板用） */
+  const dueBuckets = { today: 0, tomorrow: 0, d3: 0, d7: 0, later: 0 };
   if (hydrated && root) {
     for (const b of root.books) {
       const prefix = `${b.id}:`;
@@ -35,6 +47,15 @@ export default function VocabPage() {
       dueTotal += st.due;
       seenTotal += st.seen;
       masteredTotal += st.mastered;
+      for (const v of Object.values(progress)) {
+        if (v.d <= nowMs()) continue; // 已到期的上面单独统计
+        const days = (v.d - nowMs()) / 86_400_000;
+        if (days <= 1) dueBuckets.today++;
+        else if (days <= 2) dueBuckets.tomorrow++;
+        else if (days <= 3) dueBuckets.d3++;
+        else if (days <= 7) dueBuckets.d7++;
+        else dueBuckets.later++;
+      }
     }
   }
 
@@ -99,6 +120,37 @@ export default function VocabPage() {
               )}
             </div>
           </section>
+
+          {/* ── 艾宾浩斯：复习节律 ─────────────────────────────────────
+              遗忘曲线光讲概念没用，得让用户看到「我有多少个词落在哪个节点上」，
+              才知道今天该花多少时间。 */}
+          {hydrated && seenTotal > 0 && (
+            <section className="mt-12">
+              <h2 className="t-eyebrow section-rule">复习节律</h2>
+              <div className="mt-5 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+                <div>
+                  <p className="text-[14px] leading-6 text-muted">
+                    每个词按艾宾浩斯节点往后排：复习对了就往后挪一格（1 → 2 → 4 → 7 → 15 → 30 天），
+                    答「不认识」退回第一格（10 分钟后重来）。下面是未来几天的到期量分布。
+                  </p>
+                  <ReviewForecast
+                    className="mt-4"
+                    buckets={[
+                      { label: '已到期', n: dueTotal },
+                      { label: '今天内', n: dueBuckets.today },
+                      { label: '明天', n: dueBuckets.tomorrow },
+                      { label: '3 天内', n: dueBuckets.d3 },
+                      { label: '7 天内', n: dueBuckets.d7 },
+                      { label: '更久', n: dueBuckets.later },
+                    ]}
+                  />
+                </div>
+                <div className="lg:border-l lg:border-line lg:pl-8">
+                  <ForgettingCurve />
+                </div>
+              </div>
+            </section>
+          )}
 
           {/* 词书清单 */}
           <section className="mt-12">

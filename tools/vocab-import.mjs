@@ -110,7 +110,15 @@ function buildPaperTokens(exam) {
   return map;
 }
 
+/** 本地稀疏克隆路径（见 vocab-import-full.mjs 的注释：gh api 拉大文件会被掐断） */
+const CLONE = path.join(SOURCES_DIR, 'upstream');
+
 function fetchRaw(upName, id) {
+  const fromClone = path.join(CLONE, 'full_line_jsonl', 'sentence', '正序', `${upName}.jsonl`);
+  if (fs.existsSync(fromClone)) {
+    console.log(`  = ${id}: 用本地克隆的 sentence/${upName}.jsonl`);
+    return fs.readFileSync(fromClone, 'utf8');
+  }
   fs.mkdirSync(SOURCES_DIR, { recursive: true });
   const local = path.join(SOURCES_DIR, `${id}.jsonl`);
   if (fs.existsSync(local) && fs.statSync(local).size > 1000) {
