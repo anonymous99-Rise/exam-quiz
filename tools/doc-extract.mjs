@@ -293,6 +293,30 @@ function splitOptionFragments(line) {
     .filter(Boolean);
 }
 
+/**
+ * 收一条选项 —— 带两道「越界」闸门。
+ *
+ * 听力小节最后一题的选项后面紧跟着下一节的开头：
+ *   `… D) Its willingness to make investments.`
+ *   `Directions: In this section, you will hear …`
+ *   `… Then mark the corresponding letter on Answer Sheet 1 with a single line …`
+ * 这些行里同样出现 `B) ,` `C) and` `D) Then mark…` 之类形态，旧逻辑照收不误，
+ * 于是 2016.06 第 1 套的第 7、15 题长出 7 个/6 个选项（渲染出来是重复选项）。
+ *
+ * 闸门一：文本里出现 `Directions:` / `Answer Sheet` / `答题卡` → 已是下一节的导语。
+ * 闸门二：选项字母**重复**（本题已收过 B，又来一个 B）→ 已越过本题选项区。
+ * 命中即整行丢弃（既不收选项，也不当续行拼到上一条选项文本里）。
+ */
+function pushOption(list, frag) {
+  const om = frag.match(RE.optStart);
+  if (!om) return;
+  const label = om[1].toUpperCase();
+  const text = om[2].trim();
+  if (/Directions?\s*[:：]|Answer\s+Sheet|答题卡/i.test(text)) return;
+  if (list.some((o) => o.label === label)) return;
+  list.push({ label, text });
+}
+
 const PART_OF = (title) => {
   const t = title.toLowerCase();
   if (t.includes('writing')) return 'writing';
@@ -557,10 +581,7 @@ function extractChoiceSection(L, start, end, sectionId, out, warnings, opts) {
         analysis: [],
       };
       if (first) {
-        for (const frag of frags) {
-          const om = frag.match(RE.optStart);
-          if (om) cur.options.push({ label: om[1].toUpperCase(), text: om[2].trim() });
-        }
+        for (const frag of frags) pushOption(cur.options, frag);
       }
       continue;
     }
@@ -568,10 +589,7 @@ function extractChoiceSection(L, start, end, sectionId, out, warnings, opts) {
     const o = s.match(RE.optStart);
     if (o && cur) {
       // 一行可能含多个选项（TAB 分隔）
-      for (const frag of splitOptionFragments(s)) {
-        const om = frag.match(RE.optStart);
-        if (om) cur.options.push({ label: om[1].toUpperCase(), text: om[2].trim() });
-      }
+      for (const frag of splitOptionFragments(s)) pushOption(cur.options, frag);
       continue;
     }
 

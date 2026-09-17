@@ -1,0 +1,831 @@
+{
+  "id": "2014-06-1",
+  "examId": "cet4",
+  "year": 2014,
+  "month": 6,
+  "session": "2014上半年",
+  "setNo": 1,
+  "label": "2014年6月",
+  "questions": [
+    {
+      "no": 1,
+      "sectionId": "listening",
+      "stem": "What does the man suggest the woman do?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "See a doctor about her strained shoulder."
+        },
+        {
+          "label": "B",
+          "text": "Use a ladder to help her reach the tea."
+        },
+        {
+          "label": "C",
+          "text": "Replace the cupboard with a new one."
+        },
+        {
+          "label": "D",
+          "text": "Place the tea on lower shelf next time."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sectionId": "listening",
+      "stem": "Where does the conversation most probably take place?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "At Mary Johnson’s."
+        },
+        {
+          "label": "B",
+          "text": "At a painter’s studio."
+        },
+        {
+          "label": "C",
+          "text": "In an exhibition hall."
+        },
+        {
+          "label": "D",
+          "text": "Outside an art gallery."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "sectionId": "listening",
+      "stem": "What does the woman imply?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The teacher evaluated lacks teaching experience."
+        },
+        {
+          "label": "B",
+          "text": "She does not quite agree with what the man said."
+        },
+        {
+          "label": "C",
+          "text": "The man had better talk with the students himself."
+        },
+        {
+          "label": "D",
+          "text": "New students usually cannot offer a fair evaluation."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "sectionId": "listening",
+      "stem": "What does the man mean?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He helped Doris build up the furniture."
+        },
+        {
+          "label": "B",
+          "text": "Doris helped him arrange the furniture."
+        },
+        {
+          "label": "C",
+          "text": "Doris fixed up some of the bookshelves."
+        },
+        {
+          "label": "D",
+          "text": "He was good at assembling bookshelves."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "sectionId": "listening",
+      "stem": "听力原文:W: Rod, I hear you’ll be leaving at the end of this month. Is it true?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He doesn’t get on with the others."
+        },
+        {
+          "label": "B",
+          "text": "He doesn’t feel at ease m the firm."
+        },
+        {
+          "label": "C",
+          "text": "He has been taken for a fool."
+        },
+        {
+          "label": "D",
+          "text": "He has found a better position."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "sectionId": "listening",
+      "stem": "What does the man mean?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They should finish the work as soon as possible."
+        },
+        {
+          "label": "B",
+          "text": "He will continue to work in the garden himself."
+        },
+        {
+          "label": "C",
+          "text": "He is tired of doing gardening on weekends."
+        },
+        {
+          "label": "D",
+          "text": "They can hire a gardener to do the work."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "sectionId": "listening",
+      "stem": "What do we learn from the conversation?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The man has to get rid of the used furniture."
+        },
+        {
+          "label": "B",
+          "text": "The man’s apartment is ready for rent."
+        },
+        {
+          "label": "C",
+          "text": "The furniture is covered with lots of dust."
+        },
+        {
+          "label": "D",
+          "text": "The furniture the man bought is inexpensive."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "sectionId": "listening",
+      "stem": "What do we learn from the conversation?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The man will give the mechanic a call."
+        },
+        {
+          "label": "B",
+          "text": "The woman is waiting for a call."
+        },
+        {
+          "label": "C",
+          "text": "The woman is doing some repairs."
+        },
+        {
+          "label": "D",
+          "text": "The man knows the mechanic very well."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "sectionId": "listening",
+      "stem": "Why couldn’t the woman’s roommate attend the Shakespearean English class that afternoon?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She had a job interview to attend."
+        },
+        {
+          "label": "B",
+          "text": "She was busy finishing her project."
+        },
+        {
+          "label": "C",
+          "text": "She had to attend an important meeting."
+        },
+        {
+          "label": "D",
+          "text": "She was in the middle of writing an essay."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "sectionId": "listening",
+      "stem": "What favor is the woman going to do for her roommate?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Accompany her roommate to the classroom."
+        },
+        {
+          "label": "B",
+          "text": "Hand in her roommate’s application form."
+        },
+        {
+          "label": "C",
+          "text": "Submit her roommate’s assignment."
+        },
+        {
+          "label": "D",
+          "text": "Help her roommate with her report."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "sectionId": "listening",
+      "stem": "What does the woman want to know at the end of the conversation?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Where Dr. Ellis’s office is located."
+        },
+        {
+          "label": "B",
+          "text": "When Dr. Ellis’ leaves his office."
+        },
+        {
+          "label": "C",
+          "text": "Directions to the classroom building."
+        },
+        {
+          "label": "D",
+          "text": "Dr. Ellis’s schedule for the afternoon."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "sectionId": "listening",
+      "stem": "What does the man say about his job?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He finds it rather stressful."
+        },
+        {
+          "label": "B",
+          "text": "He is thinking of quitting it."
+        },
+        {
+          "label": "C",
+          "text": "He can handle it quite well."
+        },
+        {
+          "label": "D",
+          "text": "He has to work extra hours."
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "sectionId": "listening",
+      "stem": "Which train does the man take to work every day?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The 6:00 one."
+        },
+        {
+          "label": "B",
+          "text": "The 6:30 one."
+        },
+        {
+          "label": "C",
+          "text": "The 7:00 one."
+        },
+        {
+          "label": "D",
+          "text": "The 7:30 one."
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "sectionId": "listening",
+      "stem": "How does the man feel about commuting to work every day now?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is an awful waste of time."
+        },
+        {
+          "label": "B",
+          "text": "He finds it rather unbearable."
+        },
+        {
+          "label": "C",
+          "text": "The time on the train is enjoyable."
+        },
+        {
+          "label": "D",
+          "text": "It is something difficult to get used to."
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "sectionId": "listening",
+      "stem": "How does the man spend his time on the morning train?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reading newspapers."
+        },
+        {
+          "label": "B",
+          "text": "Chatting with friends."
+        },
+        {
+          "label": "C",
+          "text": "Listening to the daily news."
+        },
+        {
+          "label": "D",
+          "text": "Planning the day’s work. Directions: In this section, you will hear 3 short passages. At the end of each passage, you will hear some questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet I with a single line through the centre. Passage One"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "sectionId": "listening",
+      "stem": "What should American college students do to cope with their heavy reading assignments?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ignore small details while reading."
+        },
+        {
+          "label": "B",
+          "text": "Read at least several chapters at one sitting."
+        },
+        {
+          "label": "C",
+          "text": "Develop a habit of reading critically."
+        },
+        {
+          "label": "D",
+          "text": "Get key information by reading just once or twice."
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "sectionId": "listening",
+      "stem": "What suggestion does the speaker give about marking a textbook?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Choose one’s own system of marking."
+        },
+        {
+          "label": "B",
+          "text": "Underline the key words and phrases."
+        },
+        {
+          "label": "C",
+          "text": "Make as few marks as possible."
+        },
+        {
+          "label": "D",
+          "text": "Highlight details in a red color."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "sectionId": "listening",
+      "stem": "How should students prepare for an exam according to the speaker?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "By reading the textbooks carefully again."
+        },
+        {
+          "label": "B",
+          "text": "By reviewing only the marked parts."
+        },
+        {
+          "label": "C",
+          "text": "By focusing on the notes in the margins."
+        },
+        {
+          "label": "D",
+          "text": "By comparing notes with their classmates. Passage Two"
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "sectionId": "listening",
+      "stem": "What is taken for granted by most people?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The sleep a person needs varies from day to day."
+        },
+        {
+          "label": "B",
+          "text": "The amount of sleep for each person is similar."
+        },
+        {
+          "label": "C",
+          "text": "One can get by with a couple of hours of sleep."
+        },
+        {
+          "label": "D",
+          "text": "Everybody needs some sleep for survival."
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "sectionId": "listening",
+      "stem": "What do doctors think of A1 Herpin’s case?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is a made-up story."
+        },
+        {
+          "label": "B",
+          "text": "It is beyond cure."
+        },
+        {
+          "label": "C",
+          "text": "It is a rare exception."
+        },
+        {
+          "label": "D",
+          "text": "It is due to an accident."
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "sectionId": "listening",
+      "stem": "What could have accounted for A1 Herpin’s sleeplessness?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "His extraordinary physical condition."
+        },
+        {
+          "label": "B",
+          "text": "His mother’s injury just before his birth."
+        },
+        {
+          "label": "C",
+          "text": "The unique surroundings of his living place."
+        },
+        {
+          "label": "D",
+          "text": "The rest he got from sitting in a rocking chair. Passage Three"
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "sectionId": "listening",
+      "stem": "What do we learn about Hetty Green as a child?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She invested in stocks and shares on Wall Street."
+        },
+        {
+          "label": "B",
+          "text": "She learned to write for financial newspapers."
+        },
+        {
+          "label": "C",
+          "text": "She developed a strong interest in finance."
+        },
+        {
+          "label": "D",
+          "text": "She tenderly looked after her sick mother."
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "sectionId": "listening",
+      "stem": "How did Hetty Green become rich overnight?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She made a wise investment in real estate."
+        },
+        {
+          "label": "B",
+          "text": "She sold her restaurant with a substantial profit."
+        },
+        {
+          "label": "C",
+          "text": "She got 7.5 million dollars from her ex-husband."
+        },
+        {
+          "label": "D",
+          "text": "She inherited a big fortune from her father."
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "sectionId": "listening",
+      "stem": "Why was Hetty Green much hated?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She was extremely mean with her money."
+        },
+        {
+          "label": "B",
+          "text": "She was dishonest in business dealings."
+        },
+        {
+          "label": "C",
+          "text": "She frequently ill-treated her employees."
+        },
+        {
+          "label": "D",
+          "text": "She abused animals including her pet dog."
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "sectionId": "listening",
+      "stem": "What do we learn about Hetty’s daughter?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 ❤ 2014年6月四级真题第1套.pdf + L3 2014年6月英语四级真题答案及解析（卷一）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She made a big fortune from wise investment."
+        },
+        {
+          "label": "B",
+          "text": "She built a hospital with her mother’s money."
+        },
+        {
+          "label": "C",
+          "text": "She made huge donations to charities."
+        },
+        {
+          "label": "D",
+          "text": "She carried on her family’s tradition. Directions: In this section, you will hear a passage three times. When the passage is read for the first time, you should listen carefully for its general idea. When the passage is read for the second time, you are required to fill in the blanks with the exact words you have just heard. Finally, when the passage is read for the third time, you should check what you have written. Among the kinds of social gestures most significant .for second-language teachers are those which are      26    in form but different .in meaning in the two cultures. For example, a Colombian who wants someone to            27   him often signals with a hand movement in which all the fingers of one hand, cupped, point downward as they move rapidly     28 . Speakers of English have a similar gesture though the hand may not be cupped .and the fingers may be held more loosely, but for them the gesture means goodbye or go away, quite the      29   of the Colombian gesture. Again, in Columbia, a speaker of English would have to know that when he         30     height he must choose between different gestures depending on whether he is          31    a human being or an animal. If he keeps the palm of the hand     32    the floor, as he would in his own culture when making known the height of a child, for example, he will very likely be greeted by laughter, in Colombia this gesture is    33    for the description of animals. In order to describe human beings he should keep the palm of his hand            34 to the floor. Substitutions of one gesture for the other often create not only humorous but also    35   moments. In both of the examples above, speakers from two different cultures have the same gesture, physically, but its meaning differs sharply."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "select one word for each blank from a list of choices given in a word\nbank following the passage: Read the passage through carefully before\nmaking your choices. Each choice in the bank is identified by a letter.\nPlease mark the corresponding letter for each item on Answer Sheet 2\nwith a single line through the centre. You may not use any of the words in\nthe bank more than once.\nMany Brazilians cannot read. In 2000, a quarter of those aged 15 and older were\nfunctionally illiterate (文盲). Many      36   do not want to. Only one literate adult in\nthree reads book. The    37   Brazilian reads 1.8 non-academic books a year, less than\nhalf the figure in Europe and the United States. In a recent survey of reading habits,\nBrazilians came 27th out of 30 countries. Argentines, their neighbours,     38    18th.\nThe government and businesses are all struggling in different ways to change this.\nOn March 13 the government            39   a National Plan for Books and Reading. This\nseeks to boost reading, by founding libraries and financing publishers among other\nthings.\nOne discouragement to reading is that books are            40 . Most books have small\nprint-runs, pushing up their price.\nBut Brazilians’ indifference to books has deeper roots. Centuries of slavery\nmeant the country’s leaders long           41      education. Primary schooling became\nuniversal only in the 1990s.\nAll this means Brazil’s book market has the biggest growth         42   in the western\nworld.\nBut reading is a difficult habit to form. Brazilians bought fewer books in 2004,\n89 million, including textbooks       43   by the government, than they did in 1991. Last\nyear the director of Brazil’s national library     44 . He complained that he had haft the\nlibrarians he needed and termites (白蚁) had eaten much of the           45 . That ought to be\na cause for national shame.",
+      "blocks": [
+        {
+          "text": "select one word for each blank from a list of choices given in a word\nbank following the passage: Read the passage through carefully before\nmaking your choices. Each choice in the bank is identified by a letter.\nPlease mark the corresponding letter for each item on Answer Sheet 2\nwith a single line through the centre. You may not use any of the words in\nthe bank more than once.\nMany Brazilians cannot read. In 2000, a quarter of those aged 15 and older were\nfunctionally illiterate (文盲). Many      36   do not want to. Only one literate adult in\nthree reads book. The    37   Brazilian reads 1.8 non-academic books a year, less than\nhalf the figure in Europe and the United States. In a recent survey of reading habits,\nBrazilians came 27th out of 30 countries. Argentines, their neighbours,     38    18th.\nThe government and businesses are all struggling in different ways to change this.\nOn March 13 the government            39   a National Plan for Books and Reading. This\nseeks to boost reading, by founding libraries and financing publishers among other\nthings.\nOne discouragement to reading is that books are            40 . Most books have small\nprint-runs, pushing up their price.\nBut Brazilians’ indifference to books has deeper roots. Centuries of slavery\nmeant the country’s leaders long           41      education. Primary schooling became\nuniversal only in the 1990s.\nAll this means Brazil’s book market has the biggest growth         42   in the western\nworld.\nBut reading is a difficult habit to form. Brazilians bought fewer books in 2004,\n89 million, including textbooks       43   by the government, than they did in 1991. Last\nyear the director of Brazil’s national library     44 . He complained that he had haft the\nlibrarians he needed and termites (白蚁) had eaten much of the           45 . That ought to be\na cause for national shame."
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) On a chilly day last spring, a few dozen developers of children’s apps (应用程序) for phones and tablets (平板电脑) gathered at an old beach resort in Monterey, California, to show off their games. The gathering was organized by Warren Buckleitner, a longtime reviewer of interactive children’s media. Buckleitner spent the breaks testing whether his own remote-control helicopter could reach the hall’s .second story, while various children who had come with their parents looked up in awe (敬畏) and delight. But mostly they looked down, at the iPads and other tablets displayed around the hall like so many open boxes of candy. I walked around and talked with developers, and several quoted a famous saying of Maria Montessori’s, “The hands are the instruments of man’s intelligence.”\nB) What, really, would Maria Montessori have made of this scene? The 30 or so children here were not down at the shore poking (戳) their fingers in the sand or running them along stones or picking seashells. Instead they were all inside, alone or in groups of two or three, their faces a few inches from a screen, their hands doing things Montessori surely did not imagine.\nC) In 2011, the American Academy of Pediatrics updated .its policy on very young children and media. In 1999, the group had discouraged television viewing for children younger than 2, citing research on brain development that showed this age group’s critical need for “direct interactions with parents and other significant care givers.” The updated report began by acknowledging that things had changed significantly since then. In 2006, 90% of parents said that their children younger than 2 consumed some form of electronic media. Nevertheless, the group took largely the same approach it did in1999, uniformly discouraging passive media use, on any type of screen, for these kids. (For older children, the academy noted, “high-quality programs” could have “educational benefits”.) The 2011 report mentioned “smart cell phone” and “new screen” technologies, but did not address interactive apps. Nor did it bring up the possibility that has likely occurred to those 90% of American parents that some good might come from those little swiping (在电子产品上刷) fingers.\nD) I had come to the developers’ conference partly because I hoped that this",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "On a chilly day last spring, a few dozen developers of children’s apps (应用程序) for phones and tablets (平板电脑) gathered at an old beach resort in Monterey, California, to show off their games. The gathering was organized by Warren Buckleitner, a longtime reviewer of interactive children’s media. Buckleitner spent the breaks testing whether his own remote-control helicopter could reach the hall’s .second story, while various children who had come with their parents looked up in awe (敬畏) and delight. But mostly they looked down, at the iPads and other tablets displayed around the hall like so many open boxes of candy. I walked around and talked with developers, and several quoted a famous saying of Maria Montessori’s, “The hands are the instruments of man’s intelligence.”"
+        },
+        {
+          "label": "B",
+          "text": "What, really, would Maria Montessori have made of this scene? The 30 or so children here were not down at the shore poking (戳) their fingers in the sand or running them along stones or picking seashells. Instead they were all inside, alone or in groups of two or three, their faces a few inches from a screen, their hands doing things Montessori surely did not imagine."
+        },
+        {
+          "label": "C",
+          "text": "In 2011, the American Academy of Pediatrics updated .its policy on very young children and media. In 1999, the group had discouraged television viewing for children younger than 2, citing research on brain development that showed this age group’s critical need for “direct interactions with parents and other significant care givers.” The updated report began by acknowledging that things had changed significantly since then. In 2006, 90% of parents said that their children younger than 2 consumed some form of electronic media. Nevertheless, the group took largely the same approach it did in1999, uniformly discouraging passive media use, on any type of screen, for these kids. (For older children, the academy noted, “high-quality programs” could have “educational benefits”.) The 2011 report mentioned “smart cell phone” and “new screen” technologies, but did not address interactive apps. Nor did it bring up the possibility that has likely occurred to those 90% of American parents that some good might come from those little swiping (在电子产品上刷) fingers."
+        },
+        {
+          "label": "D",
+          "text": "I had come to the developers’ conference partly because I hoped that this"
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write a short essay on the following question. You should write at least 120 words but no more than 180 words. Suppose a foreign friend of yours is coming to visit your hometown, what is the most interesting place you would like to take him/her to see and why?",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from",
+      "source": "中国应进一步发展核能，因为核电目前只占其总发电量的 2％。该比例在所\n有核国家中居第 30 位，几乎是最低的。\n2011 年 3 月日本核电站事故后，中国的核能开发停了下来，中止审批新的\n核电站，并开展全国性的核安全检查。到 2012 年 10 月，审批才又谨慎地恢复。\n随着技术和安全措施的改进，发生核事故的可能性完全可以降到最低程度。\n换句话说，核能是可以安全开发和利用的。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}

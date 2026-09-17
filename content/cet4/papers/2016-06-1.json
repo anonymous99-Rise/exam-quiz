@@ -1,0 +1,2439 @@
+{
+  "id": "2016-06-1",
+  "examId": "cet4",
+  "year": 2016,
+  "month": 6,
+  "session": "2016上半年",
+  "setNo": 1,
+  "label": "2016年6月",
+  "questions": [
+    {
+      "no": 1,
+      "sectionId": "listening",
+      "stem": "What is the news report mainly about?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The International Labor Organization's key objective."
+        },
+        {
+          "label": "B",
+          "text": "The basic social protection for the most vulnerable."
+        },
+        {
+          "label": "C",
+          "text": "Rising unemployment worldwide."
+        },
+        {
+          "label": "D",
+          "text": "Global economic recovery."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sectionId": "listening",
+      "stem": "What does, Juan Somavia, director general of the International Labor Organization say?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Many countries have not taken measures to create enough jobs."
+        },
+        {
+          "label": "B",
+          "text": "Few countries know how to address the current economic crisis."
+        },
+        {
+          "label": "C",
+          "text": "Few countries have realized the seriousness of the current crisis."
+        },
+        {
+          "label": "D",
+          "text": "Many countries need support to improve their people's livelihood. Questions 3 and 4 are based on the news report you have just heard. Questions 3and 4 are based on the news report you have just heard."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "sectionId": "listening",
+      "stem": "What are big fast food chains in New York City required to do according to the new rule?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Serve standardized food nationwide."
+        },
+        {
+          "label": "B",
+          "text": "Put calorie information on the menu."
+        },
+        {
+          "label": "C",
+          "text": "Increase protein content in the food."
+        },
+        {
+          "label": "D",
+          "text": "Offer convenient food to customers."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "sectionId": "listening",
+      "stem": "What will happen to big restaurant chains that violate the new rule?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They will be fined."
+        },
+        {
+          "label": "B",
+          "text": "They will be closed."
+        },
+        {
+          "label": "C",
+          "text": "They will get a warning."
+        },
+        {
+          "label": "D",
+          "text": "They will lose customers."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "sectionId": "listening",
+      "stem": "what is the problem with many companies according to the news report?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Inability to implement their business plans."
+        },
+        {
+          "label": "B",
+          "text": "Inability to keep turning out novel products. - 1 -"
+        },
+        {
+          "label": "C",
+          "text": "Lack of a successful business model of their own."
+        },
+        {
+          "label": "D",
+          "text": "Failure to integrate innovation into their business."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "sectionId": "listening",
+      "stem": "What do many people tend to think of innovation?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is the secret to business success."
+        },
+        {
+          "label": "B",
+          "text": "It is the creation of something new."
+        },
+        {
+          "label": "C",
+          "text": "It is a magic tool to bring big rewards."
+        },
+        {
+          "label": "D",
+          "text": "It is an essential part of business culture."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "sectionId": "listening",
+      "stem": "What does the company Procter & Gamble owe its success to?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its hardworking employees."
+        },
+        {
+          "label": "B",
+          "text": "Its flexible promotion strategy."
+        },
+        {
+          "label": "C",
+          "text": "Its innovation culture."
+        },
+        {
+          "label": "D",
+          "text": "Its willingness to make investments. Directions: In this section, you will hear two long conversations. At the end of each conversations you will hear four questions. Both the conversations and the question-s will be spoken only once. After you hear a question. You must choose the best answer from the four choices marked A), through the centre."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "sectionId": "listening",
+      "stem": "What does the man say about himself?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He's got addicted to technology."
+        },
+        {
+          "label": "B",
+          "text": "He is not very good at socializing."
+        },
+        {
+          "label": "C",
+          "text": "He is crazy about text-messaging."
+        },
+        {
+          "label": "D",
+          "text": "He does not talk long on the phone."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "sectionId": "listening",
+      "stem": "What does the woman tend to do while she is on the phone?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Talk big."
+        },
+        {
+          "label": "B",
+          "text": "Talk at length."
+        },
+        {
+          "label": "C",
+          "text": "Gossip a lot."
+        },
+        {
+          "label": "D",
+          "text": "Forget herself."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "sectionId": "listening",
+      "stem": "Why did the man text message all his friends when he first got his cell phone?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He thought it was cool."
+        },
+        {
+          "label": "B",
+          "text": "He needed the practice."
+        },
+        {
+          "label": "C",
+          "text": "He wanted to stay connected with them."
+        },
+        {
+          "label": "D",
+          "text": "He had an urgent message to send."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "sectionId": "listening",
+      "stem": "What does the woman' s father think of text messaging?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It poses a challenge to seniors."
+        },
+        {
+          "label": "B",
+          "text": "It saves both time and money."
+        },
+        {
+          "label": "C",
+          "text": "It is childish and unprofessional."
+        },
+        {
+          "label": "D",
+          "text": "It is cool and convenient."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "sectionId": "listening",
+      "stem": "What do we learn about the man from the conversation?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He wants to change his job assignment."
+        },
+        {
+          "label": "B",
+          "text": "He is unhappy with his department manager."
+        },
+        {
+          "label": "C",
+          "text": "He thinks he deserves extra pay for overtime. - 2 -"
+        },
+        {
+          "label": "D",
+          "text": "He is often singled out for criticism by his boss."
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "sectionId": "listening",
+      "stem": "What is the man's chief complaint?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "His workload was much too heavy."
+        },
+        {
+          "label": "B",
+          "text": "His immediate boss did not trust him."
+        },
+        {
+          "label": "C",
+          "text": "His colleagues often refused to cooperate."
+        },
+        {
+          "label": "D",
+          "text": "His salary was too low for his responsibility."
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "sectionId": "listening",
+      "stem": "How does the woman interpret the fact tliat the man was asked to help His colleagues with",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He never knows how to refuse."
+        },
+        {
+          "label": "B",
+          "text": "He is always ready to help others."
+        },
+        {
+          "label": "C",
+          "text": "His boss has a lot of trust in him."
+        },
+        {
+          "label": "D",
+          "text": "His boss has no sense of fairness."
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "sectionId": "listening",
+      "stem": "What did the woman advise the man to do?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Put all his complaints in writing."
+        },
+        {
+          "label": "B",
+          "text": "Wait and see what happens next."
+        },
+        {
+          "label": "C",
+          "text": "Learn to say no when necessary."
+        },
+        {
+          "label": "D",
+          "text": "Talk to his boss in person first. Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A),        B), centre."
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "sectionId": "listening",
+      "stem": "What is the speaker mainly talking about?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The importance of sleep to a healthy life."
+        },
+        {
+          "label": "B",
+          "text": "Reasons for Americans' decline in sleep."
+        },
+        {
+          "label": "C",
+          "text": "Some tips to improve the quality of sleep."
+        },
+        {
+          "label": "D",
+          "text": "Diseases associated with lack of sleep."
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "sectionId": "listening",
+      "stem": "What do we learn from the talk about today's Americans?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are more health-conscious."
+        },
+        {
+          "label": "B",
+          "text": "They are changing their living habits."
+        },
+        {
+          "label": "C",
+          "text": "They get less and less sleep."
+        },
+        {
+          "label": "D",
+          "text": "They know the dangers of lack of sleep."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "sectionId": "listening",
+      "stem": "What does the speaker say will happen to people who lack sleep?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their weight will go down."
+        },
+        {
+          "label": "B",
+          "text": "Their mind function will deteriorate."
+        },
+        {
+          "label": "C",
+          "text": "Their work efficiency will decrease."
+        },
+        {
+          "label": "D",
+          "text": "Their blood pressure will rise."
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "sectionId": "listening",
+      "stem": "What is the first decision you should make in preparing to apply for a place at a university?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "How much you can afford to pay."
+        },
+        {
+          "label": "B",
+          "text": "What course you are going to choose."
+        },
+        {
+          "label": "C",
+          "text": "Which university you are going to apply to."
+        },
+        {
+          "label": "D",
+          "text": "When you are going to submit your application."
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "sectionId": "listening",
+      "stem": "What is the most important part of the application?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The list of courses studied. - 3 -"
+        },
+        {
+          "label": "B",
+          "text": "The full record of scores."
+        },
+        {
+          "label": "C",
+          "text": "The references from teachers."
+        },
+        {
+          "label": "D",
+          "text": "The personal statement."
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "sectionId": "listening",
+      "stem": "What must applicants do in their personal statements?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Specify what they would like to do after graduation."
+        },
+        {
+          "label": "B",
+          "text": "Describe in detail how much they would enjoy studying."
+        },
+        {
+          "label": "C",
+          "text": "Indicate they have reflected and thought about the subject."
+        },
+        {
+          "label": "D",
+          "text": "Emphasize that they admire the professors in the university."
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about the first motor car?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was equipped with rubber tyres."
+        },
+        {
+          "label": "B",
+          "text": "It was built in the late 19th century."
+        },
+        {
+          "label": "C",
+          "text": "It was purchased by the Royal family."
+        },
+        {
+          "label": "D",
+          "text": "It was designed by an English engineer."
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "sectionId": "listening",
+      "stem": "What was the problem with the early cars in Britain?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They consumed lots of petrol."
+        },
+        {
+          "label": "B",
+          "text": "They took two passengers only."
+        },
+        {
+          "label": "C",
+          "text": "They were difficult to drive."
+        },
+        {
+          "label": "D",
+          "text": "They often broke down."
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "sectionId": "listening",
+      "stem": "Why did Henry Ford' s Model T cars cost less?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They were produced on the assembly line."
+        },
+        {
+          "label": "B",
+          "text": "They were built with less costly materials."
+        },
+        {
+          "label": "C",
+          "text": "They were modeled after British cars."
+        },
+        {
+          "label": "D",
+          "text": "They were made for ordinary use."
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "sectionId": "listening",
+      "stem": "What do we learn about the Preston Bypass?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It made news all over the world."
+        },
+        {
+          "label": "B",
+          "text": "It was built for the Royal family."
+        },
+        {
+          "label": "C",
+          "text": "It marked a new era in motor travel."
+        },
+        {
+          "label": "D",
+          "text": "It attracted large numbers of motorists."
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "their own,      __(26)__     to have higher GPAs and better scores on standardized tests.",
+      "answer": "O",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "In a             __(27)__",
+      "answer": "M",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "of 14 studies that looked at physical activity and academic        __(28)__   , investigators found that the",
+      "answer": "L",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "more children moved, the better their grades were in school,       __(29)__     in the basic subjects of math,",
+      "answer": "K",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "be cut as schools struggle to         __(30)__      on smaller budgets.",
+      "answer": "N",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "__(31)__     in recent years, some administrators believe students",
+      "answer": "E",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "exercise and academics may not be           __(32)__      exclusive.",
+      "answer": "J",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "__(33)__     to the brain, fueling memory, attention and creativity, which are     __(34)__     to learning.",
+      "answer": "H",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "__(33)__     to the brain, fueling memory, attention and creativity, which are     __(34)__     to learning.",
+      "answer": "F",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "exercise releases hormones that can improve         __(35)__      and relieve stress, which can also help",
+      "answer": "I",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attendance",
+        "E": "dropping",
+        "I": "mood",
+        "M": "review",
+        "B": "consequently",
+        "F": "essential",
+        "J": "mutually",
+        "N": "survive",
+        "C": "current",
+        "G": "feasible",
+        "K": "particularly",
+        "O": "tend",
+        "D": "depressing",
+        "H": "flow",
+        "L": "performance"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attendance"
+        },
+        {
+          "label": "B",
+          "text": "consequently"
+        },
+        {
+          "label": "C",
+          "text": "current"
+        },
+        {
+          "label": "D",
+          "text": "depressing"
+        },
+        {
+          "label": "E",
+          "text": "dropping"
+        },
+        {
+          "label": "F",
+          "text": "essential"
+        },
+        {
+          "label": "G",
+          "text": "feasible"
+        },
+        {
+          "label": "H",
+          "text": "flow"
+        },
+        {
+          "label": "I",
+          "text": "mood"
+        },
+        {
+          "label": "J",
+          "text": "mutually"
+        },
+        {
+          "label": "K",
+          "text": "particularly"
+        },
+        {
+          "label": "L",
+          "text": "performance"
+        },
+        {
+          "label": "M",
+          "text": "review"
+        },
+        {
+          "label": "N",
+          "text": "survive"
+        },
+        {
+          "label": "O",
+          "text": "tend"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Many people feel guilty when they cannot find a place other than a nursing home for their parents.",
+      "answer": "E",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Though it helps for children to investigate care facilities, involving their parents in the - 6 - decision-making process may prove very important.",
+      "answer": "L",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "It is really difficult to tell if assisted living is better than a nursing home.",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "How a resident feels depends on an interaction between themselves and the care facility they live in.",
+      "answer": "H",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The author thinks her friend made a rational decision in choosing a more hospitable place over an apparently elegant assisted living home.",
+      "answer": "N",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The system Medicare developed to rate nursing home quality is of little help to finding a satisfactory place.",
+      "answer": "J",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "At first the researchers of the most recent study found residents in assisted living facilities gave higher scores on social interaction.",
+      "answer": "F",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "What kind of care facility old people live in may be less important than we think.",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The findings of the latest research were similar to an earlier multi-state study of assisted living.",
+      "answer": "I",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "A resident's satisfaction with a care facility has much to do with whether they had participated in the decision to move in and how long they had stayed there.",
+      "answer": "G",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author say about the threat of robots?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It may constitute a challenge to computer programmers."
+        },
+        {
+          "label": "B",
+          "text": "It accompanies all machinery involving high technology."
+        },
+        {
+          "label": "C",
+          "text": "It can be avoided if human values are translated into their language."
+        },
+        {
+          "label": "D",
+          "text": "It has become an inevitable peril as technology gets more sophisticated."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What would we think of a person who invades our personal space according to the author?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are aggressive."
+        },
+        {
+          "label": "B",
+          "text": "They are outgoing."
+        },
+        {
+          "label": "C",
+          "text": "They are ignorant."
+        },
+        {
+          "label": "D",
+          "text": "They are ill-bred."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "How do robots learn human values?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "By interacting with humans in everyday life situations."
+        },
+        {
+          "label": "B",
+          "text": "By following the daily routines of civilized human beings."
+        },
+        {
+          "label": "C",
+          "text": "By picking up patterns from massive data on human behavior."
+        },
+        {
+          "label": "D",
+          "text": "By imitating the behavior of property brought-up human beings."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What will a well-programmed robot do when facing an unusual situation?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Keep a distance from possible dangers."
+        },
+        {
+          "label": "B",
+          "text": "Stop to seek advice from a human being."
+        },
+        {
+          "label": "C",
+          "text": "Trigger its built-in alarm system at once."
+        },
+        {
+          "label": "D",
+          "text": "Do sufficient testing before taking action."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What is most difficult to do when we turn human values into a programmable code?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Determine what is moral and ethical."
+        },
+        {
+          "label": "B",
+          "text": "Design some large-scale experiments."
+        },
+        {
+          "label": "C",
+          "text": "Set rules for man-machine interaction."
+        },
+        {
+          "label": "D",
+          "text": "Develop a more sophisticated program. Passage Two"
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "The aim of the study in the Journal of the American Geriatrics Society is____.",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "to see whether people's personality affects their life span"
+        },
+        {
+          "label": "B",
+          "text": "to find out if one's lifestyle has any effect on their health"
+        },
+        {
+          "label": "C",
+          "text": "to investigate the role of exercise in living a long life"
+        },
+        {
+          "label": "D",
+          "text": "to examine all the factors contributing to longevity"
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author imply about outgoing and sympathetic people?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They have a good understanding of evolution."
+        },
+        {
+          "label": "B",
+          "text": "They are better at negotiating an agreement."
+        },
+        {
+          "label": "C",
+          "text": "They generally appear more resourceful."
+        },
+        {
+          "label": "D",
+          "text": "They are more likely to get over hardship."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What finding of the study might prove somewhat out of our expectation?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Easy-going people can also live a relatively long life."
+        },
+        {
+          "label": "B",
+          "text": "Personality characteristics that prove advantageous actually vary with times."
+        },
+        {
+          "label": "C",
+          "text": "Such personality characteristics as self-discipline have no effect on longevity."
+        },
+        {
+          "label": "D",
+          "text": "Readiness to accept new ideas helps one enjoy longevity."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the recent study of Norwegian mothers show?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Children's personality characteristics are invariably determined by their mothers."
+        },
+        {
+          "label": "B",
+          "text": "People with unhealthy eating habits are likely to die sooner."
+        },
+        {
+          "label": "C",
+          "text": "Mothers' influence on children may last longer than fathers'."
+        },
+        {
+          "label": "D",
+          "text": "Mothers' negative personality characteristics may affect their children's life spans."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What can we learn from the findings of the two new studies?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第1套真题.pdf + L3 2016年6月大学英语四级第1套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anxiety and depression more often than not cut short one's life span."
+        },
+        {
+          "label": "B",
+          "text": "Longevity results from a combination of mental and physical health."
+        },
+        {
+          "label": "C",
+          "text": "Personality plays a decisive role in how healthy one is."
+        },
+        {
+          "label": "D",
+          "text": "Health is in large part related to one's lifestyle."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "for each blank from a list of choices given in a word bank following the passage. Read the passage\nthrough carefully before making your choices. Each choice in the bank is identified by a letter.\nPlease mark the corresponding letter for each item on Answer Sheet 2 with a single line through\nthe centre. You may not use any of the words in the bank more than once.\nPhysical activity does the body good, and there's growing evidence that it helps the brain too.\nResearchers in the Netherlands report that children who get more exercise, whether at school or on\ntheir own,      __26__     to have higher GPAs and better scores on standardized tests. In a             __27__\nof 14 studies that looked at physical activity and academic        __28__   , investigators found that the\nmore children moved, the better their grades were in school,       __29__     in the basic subjects of math,\nEnglish and reading.\nThe data will certainly fuel the ongoing debate over whether physical education classes should\nbe cut as schools struggle to         __30__      on smaller budgets. The arguments against physical\neducation have included concerns that gym time may be taking away from study time. With\nstandardized test scores in the U.S.     __31__     in recent years, some administrators believe students\nneed to spend more time in the classroom instead of on the playground. But as these findings show,\nexercise and academics may not be           __32__      exclusive. Physical activity can improve blood\n- 4 -\n__33__     to the brain, fueling memory, attention and creativity, which are     __34__     to learning. And\nexercise releases hormones that can improve         __35__      and relieve stress, which can also help\nlearning. So while it may seem as if kids are just exercising their bodies when they're running\naround, they may actually be exercising their brains as well.",
+      "blocks": [
+        {
+          "text": "for each blank from a list of choices given in a word bank following the passage. Read the passage\nthrough carefully before making your choices. Each choice in the bank is identified by a letter.\nPlease mark the corresponding letter for each item on Answer Sheet 2 with a single line through\nthe centre. You may not use any of the words in the bank more than once.\nPhysical activity does the body good, and there's growing evidence that it helps the brain too.\nResearchers in the Netherlands report that children who get more exercise, whether at school or on\ntheir own,      __26__     to have higher GPAs and better scores on standardized tests. In a             __27__\nof 14 studies that looked at physical activity and academic        __28__   , investigators found that the\nmore children moved, the better their grades were in school,       __29__     in the basic subjects of math,\nEnglish and reading.\nThe data will certainly fuel the ongoing debate over whether physical education classes should\nbe cut as schools struggle to         __30__      on smaller budgets. The arguments against physical\neducation have included concerns that gym time may be taking away from study time. With\nstandardized test scores in the U.S.     __31__     in recent years, some administrators believe students\nneed to spend more time in the classroom instead of on the playground. But as these findings show,\nexercise and academics may not be           __32__      exclusive. Physical activity can improve blood\n- 4 -\n__33__     to the brain, fueling memory, attention and creativity, which are     __34__     to learning. And\nexercise releases hormones that can improve         __35__      and relieve stress, which can also help\nlearning. So while it may seem as if kids are just exercising their bodies when they're running\naround, they may actually be exercising their brains as well."
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) When your elderly relative needs to enter some sort of long-term care facility—a moment few parents or children approach without fear—what you would like is to have everything made clear.\nB) Does assisted living really mark a great improvement over a nursing home, or has the industry simply hired better interior designers? Are nursing homes as bad as people fear, or is that an out-moded stereotype（固定看法)? Can doing one's homework really steer families to the best places? It is genuinely hard to know.\nC) I am about to make things more complicated by suggesting that what kind of facility an older person lives in may matter less than we have assumed. And that the characteristics adult children look for when they begin the search are not necessarily the things that make a difference to the people who are going to move in. I am not talking about the quality of care, let me hastily add. Nobody flourishes in a gloomy environment with irresponsible staff and a poor safety record. But an accumulating body of research indicates that some distinctions between one type of elder care and another have little real bearing on how well residents do.\nD) The most recent of these studies, published in The journal of Applied Gerontology, surveyed 150 Connecticut residents of assisted living, nursing homes and smaller residential care homes（known in some states as board and care homes or adult care homes). Researchers from the University of Connecticut Health Center asked the residents a large number of questions about their quality of life, emotional well-being and social interaction, as well as about the quality of the facilities.\nE) “We thought we would see differences based on the housing types,” said the lead author of the study, Julie Robison, an associate professor of medicine at the university. A reasonable assumption—don't families struggle to avoid nursing homes and suffer real guilt if they can't?\nF) In the initial results, assisted living residents did paint the most positive picture. They were less likely to report symptoms of depression than those in the other facilities, for instance, and less likely to be bored or lonely. They scored higher on social interaction.\nG) But when the researchers plugged in a number of other variables, such differences disappeared. It is not the housing type, they found, that creates differences in residents' responses. “It is the characteristics of the specific environment they are in, combined with their own personal - 5 - characteristics—how healthy they feel they are, their age and marital status,” Dr. Robison explained. Whether residents felt involved in the decision to move and how long they had lived there also proved significant.\nH) An elderly person who describes herself as in poor health, therefore, might be no less depressed in assisted living（even if her children preferred it) than in a nursing home. A person who had input into where he would move and has had time to adapt to it might do as well in a nursing home as in a small residential care home, other factors being equal. It is an interaction between the person and the place, not the sort of place in itself, that leads to better or worse experiences. “You can't just say, 'Let's put this person in a residential care home instead of a nursing home—she will be much better off,'” Dr. Robison said. What matters, she added, “is a combination of what people bring in with them, and what they find there.”\nI) Such findings, which run counter to common sense, have surfaced before. In a multi-state study of assisted living, for instance, University of North Carolina researchers found that a host of variables—the facility's type, size or age；whether a chain owned it；how attractive the neighborhood was—had no significant relationship to how the residents fared in terms of illness, mental decline, hospitalizations or mortality. What mattered most was the residents' physical health and mental status. What people were like when they came in had greater consequence than what happened once they were there.\nJ) As I was considering all this, a press release from a respected research firm crossed my desk, announcing that the five-star rating system that Medicare developed in 2008 to help families compare nursing home quality also has little relationship to how satisfied its residents or their family members are. As a matter of fact, consumers expressed higher satisfaction with the one-star facilities, the lowest rated, than with the five-star ones.（More on this study and the star ratings will appear in a subsequent post.)\nK) Before we collectively tear our hair out—how are we supposed to find our way in a landscape this confusing?—here is a thought from Dr. Philip Sloane, a geriatrician（老年病学专家)at the University of North Carolina:“In a way, that could be liberating for families.”\nL) Of course, sons and daughters want to visit the facilities, talk to the administrators and residents and other families, and do everything possible to fulfill their duties. But perhaps they don't have to turn themselves into private investigators or Congressional subcommittees. “Families can look a bit more for where the residents are going to be happy,” Dr. Sloane said. And involving the future resident in the process can be very important.\nM) We all have our own ideas about what would bring our parents happiness. They have their ideas, too. A friend recently took her mother to visit an expensive assisted living/nursing home near my town. I have seen this place—it is elegant, inside and out. But nobody greeted the daughter and mother when they arrived, though the visit had been planned；nobody introduced them to the other residents. When they had lunch in the dining room, they sat alone at a table.\nN) The daughter feared her mother would be ignored there, and so she decided to move her into a more welcoming facility. Based on what is emerging from some of this research, that might have been as rational a way as any to reach a decision. 36. Many people feel guilty when they cannot find a place other than a nursing home for their parents. 37.Though it helps for children to investigate care facilities, involving their parents in the - 6 - decision-making process may prove very important. 38.It is really difficult to tell if assisted living is better than a nursing home. 39.How a resident feels depends on an interaction between themselves and the care facility they live in. 40.The author thinks her friend made a rational decision in choosing a more hospitable place over an apparently elegant assisted living home. 41.The system Medicare developed to rate nursing home quality is of little help to finding a satisfactory place. 42.At first the researchers of the most recent study found residents in assisted living facilities gave higher scores on social interaction. 43.What kind of care facility old people live in may be less important than we think. 44.The findings of the latest research were similar to an earlier multi-state study of assisted living. 45.A resident's satisfaction with a care facility has much to do with whether they had participated in the decision to move in and how long they had stayed there.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "When your elderly relative needs to enter some sort of long-term care facility—a moment few parents or children approach without fear—what you would like is to have everything made clear."
+        },
+        {
+          "label": "B",
+          "text": "Does assisted living really mark a great improvement over a nursing home, or has the industry simply hired better interior designers? Are nursing homes as bad as people fear, or is that an out-moded stereotype（固定看法)? Can doing one's homework really steer families to the best places? It is genuinely hard to know."
+        },
+        {
+          "label": "C",
+          "text": "I am about to make things more complicated by suggesting that what kind of facility an older person lives in may matter less than we have assumed. And that the characteristics adult children look for when they begin the search are not necessarily the things that make a difference to the people who are going to move in. I am not talking about the quality of care, let me hastily add. Nobody flourishes in a gloomy environment with irresponsible staff and a poor safety record. But an accumulating body of research indicates that some distinctions between one type of elder care and another have little real bearing on how well residents do."
+        },
+        {
+          "label": "D",
+          "text": "The most recent of these studies, published in The journal of Applied Gerontology, surveyed 150 Connecticut residents of assisted living, nursing homes and smaller residential care homes（known in some states as board and care homes or adult care homes). Researchers from the University of Connecticut Health Center asked the residents a large number of questions about their quality of life, emotional well-being and social interaction, as well as about the quality of the facilities."
+        },
+        {
+          "label": "E",
+          "text": "“We thought we would see differences based on the housing types,” said the lead author of the study, Julie Robison, an associate professor of medicine at the university. A reasonable assumption—don't families struggle to avoid nursing homes and suffer real guilt if they can't?"
+        },
+        {
+          "label": "F",
+          "text": "In the initial results, assisted living residents did paint the most positive picture. They were less likely to report symptoms of depression than those in the other facilities, for instance, and less likely to be bored or lonely. They scored higher on social interaction."
+        },
+        {
+          "label": "G",
+          "text": "But when the researchers plugged in a number of other variables, such differences disappeared. It is not the housing type, they found, that creates differences in residents' responses. “It is the characteristics of the specific environment they are in, combined with their own personal - 5 - characteristics—how healthy they feel they are, their age and marital status,” Dr. Robison explained. Whether residents felt involved in the decision to move and how long they had lived there also proved significant."
+        },
+        {
+          "label": "H",
+          "text": "An elderly person who describes herself as in poor health, therefore, might be no less depressed in assisted living（even if her children preferred it) than in a nursing home. A person who had input into where he would move and has had time to adapt to it might do as well in a nursing home as in a small residential care home, other factors being equal. It is an interaction between the person and the place, not the sort of place in itself, that leads to better or worse experiences. “You can't just say, 'Let's put this person in a residential care home instead of a nursing home—she will be much better off,'” Dr. Robison said. What matters, she added, “is a combination of what people bring in with them, and what they find there.”"
+        },
+        {
+          "label": "I",
+          "text": "Such findings, which run counter to common sense, have surfaced before. In a multi-state study of assisted living, for instance, University of North Carolina researchers found that a host of variables—the facility's type, size or age；whether a chain owned it；how attractive the neighborhood was—had no significant relationship to how the residents fared in terms of illness, mental decline, hospitalizations or mortality. What mattered most was the residents' physical health and mental status. What people were like when they came in had greater consequence than what happened once they were there."
+        },
+        {
+          "label": "J",
+          "text": "As I was considering all this, a press release from a respected research firm crossed my desk, announcing that the five-star rating system that Medicare developed in 2008 to help families compare nursing home quality also has little relationship to how satisfied its residents or their family members are. As a matter of fact, consumers expressed higher satisfaction with the one-star facilities, the lowest rated, than with the five-star ones.（More on this study and the star ratings will appear in a subsequent post.)"
+        },
+        {
+          "label": "K",
+          "text": "Before we collectively tear our hair out—how are we supposed to find our way in a landscape this confusing?—here is a thought from Dr. Philip Sloane, a geriatrician（老年病学专家)at the University of North Carolina:“In a way, that could be liberating for families.”"
+        },
+        {
+          "label": "L",
+          "text": "Of course, sons and daughters want to visit the facilities, talk to the administrators and residents and other families, and do everything possible to fulfill their duties. But perhaps they don't have to turn themselves into private investigators or Congressional subcommittees. “Families can look a bit more for where the residents are going to be happy,” Dr. Sloane said. And involving the future resident in the process can be very important."
+        },
+        {
+          "label": "M",
+          "text": "We all have our own ideas about what would bring our parents happiness. They have their ideas, too. A friend recently took her mother to visit an expensive assisted living/nursing home near my town. I have seen this place—it is elegant, inside and out. But nobody greeted the daughter and mother when they arrived, though the visit had been planned；nobody introduced them to the other residents. When they had lunch in the dining room, they sat alone at a table."
+        },
+        {
+          "label": "N",
+          "text": "The daughter feared her mother would be ignored there, and so she decided to move her into a more welcoming facility. Based on what is emerging from some of this research, that might have been as rational a way as any to reach a decision. 36. Many people feel guilty when they cannot find a place other than a nursing home for their parents. 37.Though it helps for children to investigate care facilities, involving their parents in the - 6 - decision-making process may prove very important. 38.It is really difficult to tell if assisted living is better than a nursing home. 39.How a resident feels depends on an interaction between themselves and the care facility they live in. 40.The author thinks her friend made a rational decision in choosing a more hospitable place over an apparently elegant assisted living home. 41.The system Medicare developed to rate nursing home quality is of little help to finding a satisfactory place. 42.At first the researchers of the most recent study found residents in assisted living facilities gave higher scores on social interaction. 43.What kind of care facility old people live in may be less important than we think. 44.The findings of the latest research were similar to an earlier multi-state study of assisted living. 45.A resident's satisfaction with a care facility has much to do with whether they had participated in the decision to move in and how long they had stayed there."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "As Artificial Intelligence (AI) becomes increasingly sophisticated, there are growing\nconcerns that robots could become a threat. This danger can be avoided, according to computer\nscience professor Stuart Russell, if we figure out how to turn human values into a programmable\ncode.\nRussell argues that as robots take on more complicated tasks, it's necessary to translate our\nmorals into AI language.\nFor example, if a robot does chores around the house, you wouldn't want it to put the pet cat\nin the oven to make dinner for the hungry children. “You would want that robot preloaded with a\ngood set of values,” said Russell.\nSome robots are already programmed with basic human values. For example, mobile robots\nhave been programmed to keep a comfortable distance from humans. Obviously there are cultural\ndifferences, but if you were talking to another person and they came up close in your personal\nspace, you wouldn't think that's the kind of thing a properly brought-up person would do.\nIt will be possible to create more sophisticated moral machines, if only we can find a way to\nset out human values as clear rules.\nRobots could also learn values from drawing patterns from large sets of data on human\nbehavior. They are dangerous only if programmers are careless.\nThe biggest concern with robots going against human values is that human beings fail to do\nsufficient testing and they've produced a system that will break some kind of taboo（禁忌).\nOne simple check would be to program a robot to check the correct course of action with a\nhuman when presented with an unusual situation.\nIf the robot is unsure whether an animal is suitable for the microwave, it has the opportunity\nto stop, send out beeps（嘟嘟声), and ask for directions from a human. If we humans aren't quite\nsure about a decision, we go and ask somebody else.\n- 7 -\nThe most difficult step in programming values will be deciding exactly what we believe in\nmoral, and how to create a set of ethical rules. But if we come up with an answer, robots could be\ngood for humanity.",
+      "blocks": [
+        {
+          "text": "As Artificial Intelligence (AI) becomes increasingly sophisticated, there are growing\nconcerns that robots could become a threat. This danger can be avoided, according to computer\nscience professor Stuart Russell, if we figure out how to turn human values into a programmable\ncode.\nRussell argues that as robots take on more complicated tasks, it's necessary to translate our\nmorals into AI language.\nFor example, if a robot does chores around the house, you wouldn't want it to put the pet cat\nin the oven to make dinner for the hungry children. “You would want that robot preloaded with a\ngood set of values,” said Russell.\nSome robots are already programmed with basic human values. For example, mobile robots\nhave been programmed to keep a comfortable distance from humans. Obviously there are cultural\ndifferences, but if you were talking to another person and they came up close in your personal\nspace, you wouldn't think that's the kind of thing a properly brought-up person would do.\nIt will be possible to create more sophisticated moral machines, if only we can find a way to\nset out human values as clear rules.\nRobots could also learn values from drawing patterns from large sets of data on human\nbehavior. They are dangerous only if programmers are careless.\nThe biggest concern with robots going against human values is that human beings fail to do\nsufficient testing and they've produced a system that will break some kind of taboo（禁忌).\nOne simple check would be to program a robot to check the correct course of action with a\nhuman when presented with an unusual situation.\nIf the robot is unsure whether an animal is suitable for the microwave, it has the opportunity\nto stop, send out beeps（嘟嘟声), and ask for directions from a human. If we humans aren't quite\nsure about a decision, we go and ask somebody else.\n- 7 -\nThe most difficult step in programming values will be deciding exactly what we believe in\nmoral, and how to create a set of ethical rules. But if we come up with an answer, robots could be\ngood for humanity."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "Why do some people live to be older than others? You know the standard explanations:\nkeeping a moderate diet, engaging in regular exercise, etc. But what effect does your personality\nhave on your longevity（长寿）?Do some kinds of personalities lead to longer lives? A new study in\nthe Journal of the American Geriatrics Society looked at this question by examining the personality\ncharacteristics of 246 children of people who had lived to be at least 100.\nThe study shows that those living the longest are more outgoing, more active and less neurotic\n（神经质的) than other people. Long-living women are also more likely to be sympathetic and\ncooperative than women with a normal life span. These findings are in agreement with what you\nwould expect from the evolutionary theory: those who like to make friends and help others can\ngather enough resources to make it through tough times.\nInterestingly, however, other characteristics that you might consider advantageous had no\nimpact on whether study participants were likely to live longer. Those who were more\nself-disciplined, for instance, were no more likely to live to be very old. Also, being open to new\nideas had no relationship to long life, which might explain all those bad-tempered old people who\nare fixed in their ways.\nWhether you can successfully change your personality as an adult is the subject of a\nlongstanding psychological debate. But the new paper suggests that if you want long life, you\nshould strive to be as outgoing as possible.\nUnfortunately, another recent study shows that your mother's personality may also help\ndetermine your longevity. That study looked at nearly 28,000 Norwegian mothers and found that\n- 8 -\nthose moms who were more anxious, depressed and angry were more likely to feed their kids\nunhealthy diets. Patterns of childhood eating can be hard to break when we're adults, which may\nmean that kids of depressed moms end up dying younger.\nPersonality isn't destiny（命运), and everyone knows that individuals can learn to change. But\nboth studies show that long life isn't just a matter of your physical health but of your mental health.",
+      "blocks": [
+        {
+          "text": "Why do some people live to be older than others? You know the standard explanations:\nkeeping a moderate diet, engaging in regular exercise, etc. But what effect does your personality\nhave on your longevity（长寿）?Do some kinds of personalities lead to longer lives? A new study in\nthe Journal of the American Geriatrics Society looked at this question by examining the personality\ncharacteristics of 246 children of people who had lived to be at least 100.\nThe study shows that those living the longest are more outgoing, more active and less neurotic\n（神经质的) than other people. Long-living women are also more likely to be sympathetic and\ncooperative than women with a normal life span. These findings are in agreement with what you\nwould expect from the evolutionary theory: those who like to make friends and help others can\ngather enough resources to make it through tough times.\nInterestingly, however, other characteristics that you might consider advantageous had no\nimpact on whether study participants were likely to live longer. Those who were more\nself-disciplined, for instance, were no more likely to live to be very old. Also, being open to new\nideas had no relationship to long life, which might explain all those bad-tempered old people who\nare fixed in their ways.\nWhether you can successfully change your personality as an adult is the subject of a\nlongstanding psychological debate. But the new paper suggests that if you want long life, you\nshould strive to be as outgoing as possible.\nUnfortunately, another recent study shows that your mother's personality may also help\ndetermine your longevity. That study looked at nearly 28,000 Norwegian mothers and found that\n- 8 -\nthose moms who were more anxious, depressed and angry were more likely to feed their kids\nunhealthy diets. Patterns of childhood eating can be hard to break when we're adults, which may\nmean that kids of depressed moms end up dying younger.\nPersonality isn't destiny（命运), and everyone knows that individuals can learn to change. But\nboth studies show that long life isn't just a matter of your physical health but of your mental health."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write a letter to express your thanks to your parents or any family members upon making memorable achievement. You should write at least 120 words but no more than 180 words.",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into",
+      "source": "功夫（Kong Fu) 是中国武术（martial arts）的俗称。中国武术的起源可以追溯到自卫的\n需要，狩猎活动以及古代中国的军士训练。它是中国传统体育运动的一种，年轻人和老年人\n都练。它已逐渐演变成了中国文化的独特元素。作为中国的国宝，武术有上百种不同的风格，\n是世界上练得最多的武术形式。有些风格模仿了动物的动作，还有一些则受到了中国哲学思\n想，神话和传说的启发。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}

@@ -1,0 +1,868 @@
+{
+  "id": "2015-12-3",
+  "examId": "cet4",
+  "year": 2015,
+  "month": 12,
+  "session": "2015下半年",
+  "setNo": 3,
+  "label": "2015年12月",
+  "questions": [
+    {
+      "no": 1,
+      "sectionId": "listening",
+      "stem": "What does the woman mean?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Children should be taught to be more careful."
+        },
+        {
+          "label": "B",
+          "text": "Children shouldn't drink so much orange juice."
+        },
+        {
+          "label": "C",
+          "text": "There is no need for the man to make such a fuss."
+        },
+        {
+          "label": "D",
+          "text": "Timmy should learn to do things in the right way."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sectionId": "listening",
+      "stem": "What is the woman interested in?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fitness training."
+        },
+        {
+          "label": "B",
+          "text": "The new job offer."
+        },
+        {
+          "label": "C",
+          "text": "Computer programming."
+        },
+        {
+          "label": "D",
+          "text": "Directorship of the club."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "sectionId": "listening",
+      "stem": "what does the man mean?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He needs to buy a new sweater."
+        },
+        {
+          "label": "B",
+          "text": "He has got to save on fuel bills."
+        },
+        {
+          "label": "C",
+          "text": "The fuel price has skyrocketed."
+        },
+        {
+          "label": "D",
+          "text": "The heating system doesn't work."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "sectionId": "listening",
+      "stem": "What does the man think the woman was doing?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Committing theft."
+        },
+        {
+          "label": "B",
+          "text": "Taking pictures."
+        },
+        {
+          "label": "C",
+          "text": "Window shopping."
+        },
+        {
+          "label": "D",
+          "text": "Posing for the camera."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "sectionId": "listening",
+      "stem": "What do we learn about the woman?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She is taking some medicine."
+        },
+        {
+          "label": "B",
+          "text": "She has not seen a doctor yet."
+        },
+        {
+          "label": "C",
+          "text": "She does not trust the man's advice."
+        },
+        {
+          "label": "D",
+          "text": "She has almost recovered from the cough."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "sectionId": "listening",
+      "stem": "What does the woman imply?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pamela's report is not finished as scheduled."
+        },
+        {
+          "label": "B",
+          "text": "Pamela has a habit of doing things in a hurry."
+        },
+        {
+          "label": "C",
+          "text": "Pamela is not good at writing research papers."
+        },
+        {
+          "label": "D",
+          "text": "Pamela's mistakes could have been avoided."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "sectionId": "listening",
+      "stem": "Where did this conversation most probably take place?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the left-luggage office."
+        },
+        {
+          "label": "B",
+          "text": "At the hotel reception."
+        },
+        {
+          "label": "C",
+          "text": "In a hotel room."
+        },
+        {
+          "label": "D",
+          "text": "At an airport."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "sectionId": "listening",
+      "stem": "what does the man say about the speaker?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She was an excellent student at college."
+        },
+        {
+          "label": "B",
+          "text": "She works in the entertainment business."
+        },
+        {
+          "label": "C",
+          "text": "She is fond of telling stories in her speech."
+        },
+        {
+          "label": "D",
+          "text": "She is good at conveying her message."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "sectionId": "listening",
+      "stem": "What are the speakers doing?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arranging the woman's appointment with Mr. Romero."
+        },
+        {
+          "label": "B",
+          "text": "Fixing the time for the designer's latest fashion show."
+        },
+        {
+          "label": "C",
+          "text": "Talking about an important gathering on Tuesday."
+        },
+        {
+          "label": "D",
+          "text": "Preparing for the filming on Monday morning."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "sectionId": "listening",
+      "stem": "What is the woman going to discuss with her agent over lunch on Monday?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her travel to Japan."
+        },
+        {
+          "label": "B",
+          "text": "The awards ceremony."
+        },
+        {
+          "label": "C",
+          "text": "The proper hairstyle for her new role."
+        },
+        {
+          "label": "D",
+          "text": "When to start the make-up session."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "sectionId": "listening",
+      "stem": "What do we learn from the conversation about the man?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He is Mr. Romero's agent."
+        },
+        {
+          "label": "B",
+          "text": "He is an entertainment journalist."
+        },
+        {
+          "label": "C",
+          "text": "He is the woman's assistant."
+        },
+        {
+          "label": "D",
+          "text": "He is a famous movie star."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "sectionId": "listening",
+      "stem": "What does the woman say an applicant should do first to apply for the job?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Make an appointment for an interview."
+        },
+        {
+          "label": "B",
+          "text": "Send in an application letter."
+        },
+        {
+          "label": "C",
+          "text": "Fill in an application form."
+        },
+        {
+          "label": "D",
+          "text": "Make a brief self-introduction on the phone."
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "sectionId": "listening",
+      "stem": "What kind of a person is the company looking for?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Someone having a college degree in advertising."
+        },
+        {
+          "label": "B",
+          "text": "Someone experienced in business management."
+        },
+        {
+          "label": "C",
+          "text": "Someone ready to take on more responsibilities."
+        },
+        {
+          "label": "D",
+          "text": "Someone willing to work beyond regular hours."
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "sectionId": "listening",
+      "stem": "What does the man like most about the job?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Travel opportunities."
+        },
+        {
+          "label": "B",
+          "text": "Handsome pay."
+        },
+        {
+          "label": "C",
+          "text": "Prospects for promotion."
+        },
+        {
+          "label": "D",
+          "text": "Flexible working hours."
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "sectionId": "listening",
+      "stem": "What does the woman say about the salary if the man is accepted by the company?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It depends on the working hours."
+        },
+        {
+          "label": "B",
+          "text": "It is about 500 pounds a week."
+        },
+        {
+          "label": "C",
+          "text": "It will be set by the Human Resources."
+        },
+        {
+          "label": "D",
+          "text": "It is to be negotiated. Directions.In this section, you will hear 3 short passages. At the end of each passage, you will hear some questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A., B, C and D..Then mark the corresponding letter on Answer Sheet 1 with a single line through the center. Passage One"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "sectionId": "listening",
+      "stem": "Why are essential goods displayed in totally different parts of the supermarket?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "To give customers a wider range of choices."
+        },
+        {
+          "label": "B",
+          "text": "To make shoppers see as many items as possible."
+        },
+        {
+          "label": "C",
+          "text": "To supply as many varieties of goods as it can."
+        },
+        {
+          "label": "D",
+          "text": "To save space for more profitable products."
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "sectionId": "listening",
+      "stem": "Where are goods with a high profit margin usually found?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "On the top shelves."
+        },
+        {
+          "label": "B",
+          "text": "On the bottom shelves."
+        },
+        {
+          "label": "C",
+          "text": "On easily accessible shelves."
+        },
+        {
+          "label": "D",
+          "text": "On clearly marked shelves."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about supermarket goers?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Many of them buy things on impulse."
+        },
+        {
+          "label": "B",
+          "text": "A few of them are fathers with babies."
+        },
+        {
+          "label": "C",
+          "text": "A majority of them are young couples."
+        },
+        {
+          "label": "D",
+          "text": "Over 60% of them make shopping lists."
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "sectionId": "listening",
+      "stem": "What shouldn't be too surprising according to the speaker?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sales assistants promoting high margin goods."
+        },
+        {
+          "label": "B",
+          "text": "Sales assistants following customers around."
+        },
+        {
+          "label": "C",
+          "text": "Customers competing for good bargains."
+        },
+        {
+          "label": "D",
+          "text": "Customers losing all sense of time. Passage Two"
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "sectionId": "listening",
+      "stem": "What was Matty Sallin doing when he created an alarm clock?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Teaching mathematics at a school."
+        },
+        {
+          "label": "B",
+          "text": "Doing research in an institute."
+        },
+        {
+          "label": "C",
+          "text": "Studying for a college degree."
+        },
+        {
+          "label": "D",
+          "text": "Working in a hi-tech company"
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "sectionId": "listening",
+      "stem": "What did Matty Sallin do before making the new type of alarm clock?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He studied the designs of various clocks."
+        },
+        {
+          "label": "B",
+          "text": "He did experiments on different materials."
+        },
+        {
+          "label": "C",
+          "text": "He bought an alarm clock with a pig face."
+        },
+        {
+          "label": "D",
+          "text": "He asked different people for their opinions."
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "sectionId": "listening",
+      "stem": "What makes the newly invented alarm clock so unique?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its automatic mechanism."
+        },
+        {
+          "label": "B",
+          "text": "Its manufacturing process."
+        },
+        {
+          "label": "C",
+          "text": "Its way of waking people up."
+        },
+        {
+          "label": "D",
+          "text": "Its funny-looking pig face. Passage Three"
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about situational loneliness?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is often caused by a change of circumstances."
+        },
+        {
+          "label": "B",
+          "text": "It actually doesn't require any special treatment."
+        },
+        {
+          "label": "C",
+          "text": "It usually appears all of a sudden."
+        },
+        {
+          "label": "D",
+          "text": "It generally lasts for several years."
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "sectionId": "listening",
+      "stem": "What problem will people have if they experience habitual loneliness?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They cannot mix well with others."
+        },
+        {
+          "label": "B",
+          "text": "They irrationally annoy their friends."
+        },
+        {
+          "label": "C",
+          "text": "They depend heavily on family members."
+        },
+        {
+          "label": "D",
+          "text": "They blame others for ignoring their needs."
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "sectionId": "listening",
+      "stem": "Why do some people suffer loneliness according to psychologists?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2015年12月英语四级考试真题（第3套）.pdf + L3 2015年12月英语四级真题答案及解析（卷三）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They lack consistent support from peers."
+        },
+        {
+          "label": "B",
+          "text": "They doubt their own popularity."
+        },
+        {
+          "label": "C",
+          "text": "They were born psychologically weak."
+        },
+        {
+          "label": "D",
+          "text": "They focus too much on themselves."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "from a list of choices given, in a word bank following the passage. Read the passage through carefully before\nmaking your choices. Each. choice in the bank is identified by a letter. Please mark the corresponding letter for\neach item on Answer Sheet2 with a single line through the center. You may not use any of the words in the bank\nmore than once.\nChildren do not think the way adults do. For most of the first year of life, if something is out of sight, it's out\nof mind. If you cover a baby's36toy with a piece of cloth, the baby thinks the toyhas disappeared and stops\nlooking for it. A 4-year-old may 37 that a sister has more fruit juice when it is only the shapes of the glasses that\ndiffer, not the38 of juice.\nYet children are smart in their own way. Like good little scientists, children are always testing their\nchild-sized39 about how things work. When your child throws her spoon on the floor for the sixth time as you try\nto feed her, and you say, \"That's enough! I will not pick up your spoon again!\" the child will 40 test your claim.\nAre you serious? Are you angry? What will happen if she throws the spoon again? She is not doing this to drive\nyou41; rather, she is learning that her desires and yours can differ, and that sometimes those42 are important and\nsometimes they are not.\nHow and why does children's thinking change? In the 1920s, Swiss psychologist Jean Piaget proposed that\nchildren's cognitive (认知的) abilities unfold 43, like the blooming of a flower, almost independent of what else\nis44in their lives. Although many of his specific conclusions havebeen45 or modified over the years, his ideas\ninspired thousands of studies by investigators all over the world.",
+      "blocks": [
+        {
+          "text": "from a list of choices given, in a word bank following the passage. Read the passage through carefully before\nmaking your choices. Each. choice in the bank is identified by a letter. Please mark the corresponding letter for\neach item on Answer Sheet2 with a single line through the center. You may not use any of the words in the bank\nmore than once.\nChildren do not think the way adults do. For most of the first year of life, if something is out of sight, it's out\nof mind. If you cover a baby's36toy with a piece of cloth, the baby thinks the toyhas disappeared and stops\nlooking for it. A 4-year-old may 37 that a sister has more fruit juice when it is only the shapes of the glasses that\ndiffer, not the38 of juice.\nYet children are smart in their own way. Like good little scientists, children are always testing their\nchild-sized39 about how things work. When your child throws her spoon on the floor for the sixth time as you try\nto feed her, and you say, \"That's enough! I will not pick up your spoon again!\" the child will 40 test your claim.\nAre you serious? Are you angry? What will happen if she throws the spoon again? She is not doing this to drive\nyou41; rather, she is learning that her desires and yours can differ, and that sometimes those42 are important and\nsometimes they are not.\nHow and why does children's thinking change? In the 1920s, Swiss psychologist Jean Piaget proposed that\nchildren's cognitive (认知的) abilities unfold 43, like the blooming of a flower, almost independent of what else\nis44in their lives. Although many of his specific conclusions havebeen45 or modified over the years, his ideas\ninspired thousands of studies by investigators all over the world."
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) Looking back on too many years of education, I can identify one truly impossible teacher. She cared about me, and my intellectual life, even when I didn't. Her expectations were high--impossibly so. She was an English teacher. She was also my mother.\nB) When good students turn in an essay, they dream of their instructor returning it to them in exactly the same condition, save for a single word added in the margin of the final page : \"Flawless.\" This dream came true for me one afternoon in the ninth grade. Of course, I had heard that genius could show itself at an early age, so I was only slightly taken aback that I had achieved perfection at the tender age of 14.Obviously, I did what any professional writer would do; I hurried off to spread the good news. I didn't get very far. The first person I told was my mother.\nC) My mother, who is just shy of five feet tall, is normally incredibly soft-spoken, but on the rare occasion when she got angry, she was terrifying. I am not sure if she was more upset by my hubris(得意忘形) or by the fact that my English teacher had let my ego get so out of hand. In any event, my mother and her red pen showed me how deeply flawed a flawless essay could be. At the time, I am sure she thought she was teaching me about mechanics, transitions (过渡), structure, style and voice. But what I learned, and what stuck with me through my time teaching writing at Harvard, was a deeper lesson about the nature of creative criticism.\nD) First off, it hurts. Genuine criticism, the type that leaves a lasting mark on you as a writer, also leaves an existential imprint (印记) on you as a person. I have heard people say that a writer should never take criticism personally. I say that we should never listen to these people.\nE) Criticism, at its best, is deeply personal, and gets to the heart of why we write the way we do. The intimate nature of genuine criticism implies something about who is able to give it, namely, someone who knows you well enough to show you how your mental life is getting in the way of good writing. Conveniently, they are also the people who care enough to see you through this painful realization. For me it took the form of my first, and I hope only, encounter with writer's block--I was not able to produce anything for three years.\nF) Franz Kafka once said: \"Writing is utter solitude ( 独 处 ), the descent into the cold abyss ( 深 渊 ) of oneself.\" My mother's criticism had shown me that Kafka is right about the cold abyss, and when you make the introspective ( 内 省 的 ) descent that writing requires you are not always pleased by what you find. But, in the years that followed, her sustained tutoring suggested that Kafka might be wrong about the solitude. I was lucky enough to find a critic and teacher who was willing to make the journey of writing with me.\"It is a thing of no great difficulty,\" according to Plutarch, \"to raise objections against another man's speech, it is a very easy matter; but to produce a better in its place is a work extremely troublesome.\" I am sure I wrote essays in the later years of high school without my mother's guidance, but I can't recall them. What I remember, however, is how she took up the \"extremely troublesome\" work of ongoing criticism.\nG) There are two ways to interpret Plutarch when he suggests that a critic should be able to produce \"a better in its place.\" In a straightforward sense, he could mean that a critic must be more talented than the artist she critiques (评论).My mother was well covered on this count. But perhaps Plutarch is suggesting something slightly different, something a bit closer to Marcus Cicero's claim that one should \"criticize by creation, not by finding fault.\" Genuine criticism creates a precious opening for an author to become better on his own terms--a process that is often extremely painful, but also almost always meaningful.\nH) My mother said she would help me with my writing, but first I had to help myself. For each assignment, I was to write the best essay I could. Real criticism is not meant to find obvious mistakes, so if she found any--the type I could have found on my own--I had to start from scratch. From scratch. Once the essay was \"flawless,\" she would take an evening to walk me through my errors. That was when true criticism, the type that changed me as a person, began.\nI) She criticized me when I included little-known references and professional jargon ( 行 话 ).She hadno patience for brilliant but irrelevant figures of speech.\"Writers can't bluff ( 虚 张 声 势 ) their way through ignorance.\" That was news to me--I would need to freed another way to structure my daily existence.\nJ) She trimmed back my flowery language, drew lines through my exclamation marks and argued for the value of restraint in expression.\"John,\" she almost whispered. I leaned in to hear her: \"I can't hear you when you shout at me.\" So I stopped shouting and bluffing, and slowly my writing improved.\nK) Somewhere along the way I set aside my hopes of writing that flawless essay. But perhaps I missed something important in my mother's lessons about creativity and perfection. Perhaps the point of writing the flawless essay was not to give up, but to never willingly finish. Whit man repeatedly reworked \"Song of Myself' between 1855 and 1891.Repeatedly.We do our absolute best with a piece of writing, and come as close as we can to the ideal. And, for the time being, we settle. In critique, however, we are forced to depart, to give up the perfection we thought we had achieved for the chance of being even a little bit better. This is the lesson I took from my mother: If perfection were possible, it would not be motivating. 46.The author was advised against the improper use of figures of speech. 47.The author's mother taught him a valuable lesson by pointing out lots of flaws in his seemingly perfect essay. 48.A writer should polish his writing repeatedly so as to get closer to perfection. 49.Writers may experience periods of time in their life when they just can't produce anything. 50.The author was not much surprised when his school teacher marked his essay as \"flawless\". 51.Criticizing someone's speech is said to be easier than coming up with a better one. 52.The author looks upon his mother as his most demanding and caring instructor. 53.The criticism the author received from his mother changed him as a person. 54.The author gradually improved his writing by avoiding fancy language. 55.Constructive criticism gives an author a good start to improve his writing.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "Looking back on too many years of education, I can identify one truly impossible teacher. She cared about me, and my intellectual life, even when I didn't. Her expectations were high--impossibly so. She was an English teacher. She was also my mother."
+        },
+        {
+          "label": "B",
+          "text": "When good students turn in an essay, they dream of their instructor returning it to them in exactly the same condition, save for a single word added in the margin of the final page : \"Flawless.\" This dream came true for me one afternoon in the ninth grade. Of course, I had heard that genius could show itself at an early age, so I was only slightly taken aback that I had achieved perfection at the tender age of 14.Obviously, I did what any professional writer would do; I hurried off to spread the good news. I didn't get very far. The first person I told was my mother."
+        },
+        {
+          "label": "C",
+          "text": "My mother, who is just shy of five feet tall, is normally incredibly soft-spoken, but on the rare occasion when she got angry, she was terrifying. I am not sure if she was more upset by my hubris(得意忘形) or by the fact that my English teacher had let my ego get so out of hand. In any event, my mother and her red pen showed me how deeply flawed a flawless essay could be. At the time, I am sure she thought she was teaching me about mechanics, transitions (过渡), structure, style and voice. But what I learned, and what stuck with me through my time teaching writing at Harvard, was a deeper lesson about the nature of creative criticism."
+        },
+        {
+          "label": "D",
+          "text": "First off, it hurts. Genuine criticism, the type that leaves a lasting mark on you as a writer, also leaves an existential imprint (印记) on you as a person. I have heard people say that a writer should never take criticism personally. I say that we should never listen to these people."
+        },
+        {
+          "label": "E",
+          "text": "Criticism, at its best, is deeply personal, and gets to the heart of why we write the way we do. The intimate nature of genuine criticism implies something about who is able to give it, namely, someone who knows you well enough to show you how your mental life is getting in the way of good writing. Conveniently, they are also the people who care enough to see you through this painful realization. For me it took the form of my first, and I hope only, encounter with writer's block--I was not able to produce anything for three years."
+        },
+        {
+          "label": "F",
+          "text": "Franz Kafka once said: \"Writing is utter solitude ( 独 处 ), the descent into the cold abyss ( 深 渊 ) of oneself.\" My mother's criticism had shown me that Kafka is right about the cold abyss, and when you make the introspective ( 内 省 的 ) descent that writing requires you are not always pleased by what you find. But, in the years that followed, her sustained tutoring suggested that Kafka might be wrong about the solitude. I was lucky enough to find a critic and teacher who was willing to make the journey of writing with me.\"It is a thing of no great difficulty,\" according to Plutarch, \"to raise objections against another man's speech, it is a very easy matter; but to produce a better in its place is a work extremely troublesome.\" I am sure I wrote essays in the later years of high school without my mother's guidance, but I can't recall them. What I remember, however, is how she took up the \"extremely troublesome\" work of ongoing criticism."
+        },
+        {
+          "label": "G",
+          "text": "There are two ways to interpret Plutarch when he suggests that a critic should be able to produce \"a better in its place.\" In a straightforward sense, he could mean that a critic must be more talented than the artist she critiques (评论).My mother was well covered on this count. But perhaps Plutarch is suggesting something slightly different, something a bit closer to Marcus Cicero's claim that one should \"criticize by creation, not by finding fault.\" Genuine criticism creates a precious opening for an author to become better on his own terms--a process that is often extremely painful, but also almost always meaningful."
+        },
+        {
+          "label": "H",
+          "text": "My mother said she would help me with my writing, but first I had to help myself. For each assignment, I was to write the best essay I could. Real criticism is not meant to find obvious mistakes, so if she found any--the type I could have found on my own--I had to start from scratch. From scratch. Once the essay was \"flawless,\" she would take an evening to walk me through my errors. That was when true criticism, the type that changed me as a person, began."
+        },
+        {
+          "label": "I",
+          "text": "She criticized me when I included little-known references and professional jargon ( 行 话 ).She hadno patience for brilliant but irrelevant figures of speech.\"Writers can't bluff ( 虚 张 声 势 ) their way through ignorance.\" That was news to me--I would need to freed another way to structure my daily existence."
+        },
+        {
+          "label": "J",
+          "text": "She trimmed back my flowery language, drew lines through my exclamation marks and argued for the value of restraint in expression.\"John,\" she almost whispered. I leaned in to hear her: \"I can't hear you when you shout at me.\" So I stopped shouting and bluffing, and slowly my writing improved."
+        },
+        {
+          "label": "K",
+          "text": "Somewhere along the way I set aside my hopes of writing that flawless essay. But perhaps I missed something important in my mother's lessons about creativity and perfection. Perhaps the point of writing the flawless essay was not to give up, but to never willingly finish. Whit man repeatedly reworked \"Song of Myself' between 1855 and 1891.Repeatedly.We do our absolute best with a piece of writing, and come as close as we can to the ideal. And, for the time being, we settle. In critique, however, we are forced to depart, to give up the perfection we thought we had achieved for the chance of being even a little bit better. This is the lesson I took from my mother: If perfection were possible, it would not be motivating. 46.The author was advised against the improper use of figures of speech. 47.The author's mother taught him a valuable lesson by pointing out lots of flaws in his seemingly perfect essay. 48.A writer should polish his writing repeatedly so as to get closer to perfection. 49.Writers may experience periods of time in their life when they just can't produce anything. 50.The author was not much surprised when his school teacher marked his essay as \"flawless\". 51.Criticizing someone's speech is said to be easier than coming up with a better one. 52.The author looks upon his mother as his most demanding and caring instructor. 53.The criticism the author received from his mother changed him as a person. 54.The author gradually improved his writing by avoiding fancy language. 55.Constructive criticism gives an author a good start to improve his writing."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "Could you reproduce Silicon Valley elsewhere, or is there something unique about it?\nIt wouldn't be surprising if it were hard to reproduce in other countries, because you couldn't reproduce it in\nmost of the US either. What does it take to make a Silicon Valley?\nIt's the right people. If you could get the right ten thousand people to move from Silicon Valley to Buffalo,\nBuffalo would become Silicon Valley.\nYou only need two kinds of people to create a technology hub (中心) : rich people and nerds (痴迷科研的\n人).\nObservation bears this out. Within the US, towns have become star, up hubs if and only if they have both\nrich people and nerds. Few startups happen in Miami, for example, because although it's full of rich people, it has\nfew nerds. It's not the kind of place nerds like.\nWhereas Pittsburgh has the opposite problem: plenty of nerds, but no rich people.The top US Computer\nScience departments are said to be MIT, Stanford, Berkeley, and Carnegie-Mellon. MIT yielded Route\n128.Stanford and Berkeley yielded Silicon Valley. But what did Carnegie-Mellon yield in Pittsburgh? And what\nhappened in Ithaca, home of Cornell University, which is also high on the list?\nI grew up in Pittsburgh and went to college at Cornell, so I can answer for both. The weather is terrible,",
+      "blocks": [
+        {
+          "text": "Could you reproduce Silicon Valley elsewhere, or is there something unique about it?\nIt wouldn't be surprising if it were hard to reproduce in other countries, because you couldn't reproduce it in\nmost of the US either. What does it take to make a Silicon Valley?\nIt's the right people. If you could get the right ten thousand people to move from Silicon Valley to Buffalo,\nBuffalo would become Silicon Valley.\nYou only need two kinds of people to create a technology hub (中心) : rich people and nerds (痴迷科研的\n人).\nObservation bears this out. Within the US, towns have become star, up hubs if and only if they have both\nrich people and nerds. Few startups happen in Miami, for example, because although it's full of rich people, it has\nfew nerds. It's not the kind of place nerds like.\nWhereas Pittsburgh has the opposite problem: plenty of nerds, but no rich people.The top US Computer\nScience departments are said to be MIT, Stanford, Berkeley, and Carnegie-Mellon. MIT yielded Route\n128.Stanford and Berkeley yielded Silicon Valley. But what did Carnegie-Mellon yield in Pittsburgh? And what\nhappened in Ithaca, home of Cornell University, which is also high on the list?\nI grew up in Pittsburgh and went to college at Cornell, so I can answer for both. The weather is terrible,"
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write an essay commenting on the saying\" Never go out there to see what happens, go out there to make things happen.\" You can cit examples to illustrate the importance of being participants rather than mere onlookers in life. You should write at least 120 words but no more than 180 words.",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You",
+      "source": "今年在长沙举行了一年一度的外国人汉语演讲比赛.这项比赛证明是促进中国和世界其他地区文化交\n流的好方法.它为世界各地的年轻人提供了更好地了解中国的机会.来自 87 个国家共计 126 位选手聚集在湖\n南省省会参加了从 7 月 6 日到 8 月 5 日进行的半决赛和决赛.比赛并不是唯一的活动.选手们还有机会参观\n了中国其他地区的著名景点和历史名胜.",
+      "sentences": []
+    }
+  },
+  "flags": []
+}

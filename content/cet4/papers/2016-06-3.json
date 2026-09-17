@@ -1,0 +1,1650 @@
+{
+  "id": "2016-06-3",
+  "examId": "cet4",
+  "year": 2016,
+  "month": 6,
+  "session": "2016上半年",
+  "setNo": 3,
+  "label": "2016年6月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "But the __(26)__ popularity of electronic medical records has forced hospital-based",
+      "answer": "G",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "doctors to become __(27)__ on computers throughout the day, and desktops—which keep doctors from",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "bedsides—are __(28)__ giving way to wireless devices.",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "As clerical loads increased, “something had to __(29)__ , and that was always face time with patients,”",
+      "answer": "F",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "In fall 2010, she helped __(30)__ a pilot project in Chicago to see if the iPad could improve",
+      "answer": "H",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "The experiment was so __(31)__ that all internal-medicine program",
+      "answer": "N",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "adopted the same __(32)__ in 2011.",
+      "answer": "I",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "the new lab coats __(33)__ with large pockets to accommodate tablet computers.",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "A study of the University of Chicago iPad project found that patients got tests and __(34)__ faster if they",
+      "answer": "O",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Many patients also __(35)__ a better understanding of the",
+      "answer": "E",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "dependent",
+        "B": "designed",
+        "C": "fast",
+        "D": "flying",
+        "E": "gained",
+        "F": "give",
+        "G": "growing",
+        "H": "launch",
+        "I": "policy",
+        "J": "prospect",
+        "K": "rather",
+        "L": "reliable",
+        "M": "signal",
+        "N": "successful",
+        "O": "treatments"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "dependent"
+        },
+        {
+          "label": "B",
+          "text": "designed"
+        },
+        {
+          "label": "C",
+          "text": "fast"
+        },
+        {
+          "label": "D",
+          "text": "flying"
+        },
+        {
+          "label": "E",
+          "text": "gained"
+        },
+        {
+          "label": "F",
+          "text": "give"
+        },
+        {
+          "label": "G",
+          "text": "growing"
+        },
+        {
+          "label": "H",
+          "text": "launch"
+        },
+        {
+          "label": "I",
+          "text": "policy"
+        },
+        {
+          "label": "J",
+          "text": "prospect"
+        },
+        {
+          "label": "K",
+          "text": "rather"
+        },
+        {
+          "label": "L",
+          "text": "reliable"
+        },
+        {
+          "label": "M",
+          "text": "signal"
+        },
+        {
+          "label": "N",
+          "text": "successful"
+        },
+        {
+          "label": "O",
+          "text": "treatments"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "According to an ancient Greek philosopher, it is impossible for us to understand every aspect of our life.",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Ancient Philosophers saw life in a different light from people of today.",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Not all your business partners are your soul mates.",
+      "answer": "F",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "We can live a peaceful life despite the various challenges of the modern world.",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The doer of a good deed can feel spiritually rewarded even when they gain no concrete benefits.",
+      "answer": "L",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "How to achieve mental calmness and contentment is well worth our consideration today.",
+      "answer": "H",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Michael Soupios suggests that we should stop and think carefully about our priorities in life.",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Ancient philosophers strongly advise that we do good.",
+      "answer": "K",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The wise teachings of ancient Greek thinkers are timeless, and are applicable to contemporary life.",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Do harm to others and you do harm to yourself.",
+      "answer": "J",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What happens when a new technology emerges?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It further widens the gap between the old and the young."
+        },
+        {
+          "label": "B",
+          "text": "It often leads to innovations in other related fields."
+        },
+        {
+          "label": "C",
+          "text": "It contributes greatly to the advance of society as a whole."
+        },
+        {
+          "label": "D",
+          "text": "It usually draws different reactions from different age groups."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author say about the driverless car?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It does not seem to create a generational divide."
+        },
+        {
+          "label": "B",
+          "text": "It will not necessarily reduce road accidents."
+        },
+        {
+          "label": "C",
+          "text": "It may start a revolution in the car industry."
+        },
+        {
+          "label": "D",
+          "text": "It has given rise to unrealistic expectations."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Why does the driverless car appeal to some old people?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It saves their energy."
+        },
+        {
+          "label": "B",
+          "text": "It helps with their mobility."
+        },
+        {
+          "label": "C",
+          "text": "It adds to the safety of their travel."
+        },
+        {
+          "label": "D",
+          "text": "It stirs up their interest in life."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What is likely to affect one’s attitude toward the driverless car?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The location of their residence."
+        },
+        {
+          "label": "B",
+          "text": "The field of their special interest"
+        },
+        {
+          "label": "C",
+          "text": "The amount of training they received."
+        },
+        {
+          "label": "D",
+          "text": "The length of their driving experience."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Who are likely to be the first to buy the driverless car?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The senior."
+        },
+        {
+          "label": "B",
+          "text": "The educated. - 4 -"
+        },
+        {
+          "label": "C",
+          "text": "The wealthy."
+        },
+        {
+          "label": "D",
+          "text": "The tech fans. Passage Two"
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn from the passage about people in pre-industrial Europe?",
+      "answer": "C",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They had to work from early morning till late at night."
+        },
+        {
+          "label": "B",
+          "text": "They were so busy working that they only ate simple meals."
+        },
+        {
+          "label": "C",
+          "text": "Their daily routine followed the rhythm of the natural cycle."
+        },
+        {
+          "label": "D",
+          "text": "Their life was much more comfortable than that of today."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does Professor Carole Counihan say about pre-industrial European families eating meals together?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was helpful to maintaining a nation’s tradition."
+        },
+        {
+          "label": "B",
+          "text": "It brought family members closer to each other."
+        },
+        {
+          "label": "C",
+          "text": "It was characteristic of the agrarian culture."
+        },
+        {
+          "label": "D",
+          "text": "It enabled families to save a lot of money."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does “cultural metabolism” (Line 1, Para. 3) refer to?",
+      "answer": "D",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evolutionary adaptation."
+        },
+        {
+          "label": "B",
+          "text": "Changes in lifestyle."
+        },
+        {
+          "label": "C",
+          "text": "Social progress."
+        },
+        {
+          "label": "D",
+          "text": "Pace of life."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author think of the food people eat today?",
+      "answer": "B",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its quality is usually guaranteed."
+        },
+        {
+          "label": "B",
+          "text": "It is varied, abundant and nutritious."
+        },
+        {
+          "label": "C",
+          "text": "It is more costly than what our ancestors ate."
+        },
+        {
+          "label": "D",
+          "text": "Its production depends too much on technology."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the author say about Italians of the old days? - 5 -",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2016年6月大学英语四级第3套真题.pdf + L3 2016年6月大学英语四级第3套答案解析.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They enjoyed cooking as well as eating."
+        },
+        {
+          "label": "B",
+          "text": "They ate a big dinner late in the evening."
+        },
+        {
+          "label": "C",
+          "text": "They ate three meals regularly every day."
+        },
+        {
+          "label": "D",
+          "text": "They were expert at cooking meals."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "word for each blank from a list of choices given in a word bank following the passage. Read the\npassage through carefully before making your choices. Each choice in the bank is identified by a\nletter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line\nthrough the center. You may not use any of the words in the bank more than once.\nSigns barring cell-phone use are a familiar sight to anyone who has ever sat in a hospital\nwaiting room. But the __26__ popularity of electronic medical records has forced hospital-based\ndoctors to become __27__ on computers throughout the day, and desktops—which keep doctors from\nbedsides—are __28__ giving way to wireless devices.\nAs clerical loads increased, “something had to __29__ , and that was always face time with patients,”\nsays Dr.Bhakti Patel, a former chief resident in the University of Chicago’s internal-medicine\nprogram. In fall 2010, she helped __30__ a pilot project in Chicago to see if the iPad could improve\nworking conditions and patient care. The experiment was so __31__ that all internal-medicine program\nadopted the same __32__ in 2011. Medical schools at Yale and Stanford now have paperless,\niPad-based curriculums. “You’ll want an iPad just so you can wear this” is the slogan for one of\nthe new lab coats __33__ with large pockets to accommodate tablet computers.\nA study of the University of Chicago iPad project found that patients got tests and __34__ faster if they\nwere cared for by iPad-equipped residents. Many patients also __35__ a better understanding of the\nillnesses that landed them in the hospital in the first place.\n注意：此部分试题请在答题卡 2 上作答。",
+      "blocks": [
+        {
+          "text": "word for each blank from a list of choices given in a word bank following the passage. Read the\npassage through carefully before making your choices. Each choice in the bank is identified by a\nletter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line\nthrough the center. You may not use any of the words in the bank more than once.\nSigns barring cell-phone use are a familiar sight to anyone who has ever sat in a hospital\nwaiting room. But the __26__ popularity of electronic medical records has forced hospital-based\ndoctors to become __27__ on computers throughout the day, and desktops—which keep doctors from\nbedsides—are __28__ giving way to wireless devices.\nAs clerical loads increased, “something had to __29__ , and that was always face time with patients,”\nsays Dr.Bhakti Patel, a former chief resident in the University of Chicago’s internal-medicine\nprogram. In fall 2010, she helped __30__ a pilot project in Chicago to see if the iPad could improve\nworking conditions and patient care. The experiment was so __31__ that all internal-medicine program\nadopted the same __32__ in 2011. Medical schools at Yale and Stanford now have paperless,\niPad-based curriculums. “You’ll want an iPad just so you can wear this” is the slogan for one of\nthe new lab coats __33__ with large pockets to accommodate tablet computers.\nA study of the University of Chicago iPad project found that patients got tests and __34__ faster if they\nwere cared for by iPad-equipped residents. Many patients also __35__ a better understanding of the\nillnesses that landed them in the hospital in the first place.\n注意：此部分试题请在答题卡 2 上作答。"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) Is it possible to enjoy a peaceful life in a world that is increasingly challenged by threats and uncertainties from wars, terrorism, economic crises and a widespread outbreak of infectious diseases? The answer is yes, according to a new book The 10 Golden Rules: Ancient Wisdom from the Greek Philosophers on Living a Good Life. The book is co-authored by Long Island University’s philosophy professor Michael Soupios and economics professor Panos Mourdoukoutas.\nB) The wisdom of the ancient Greek philosophers is timeless, says Soupios. The philosophy professor says it is as relevant today as when it was first written many centuries ago. “There is no expiration ( 失效) date on wisdom,” he says, “There is no shelf life on intelligence. I think that things have become very gloomy these day, lots of misunderstanding, misleading cues, a lot of what the ancients would have called sophistry ( 诡辩 ). The nice thing about ancient philosophy as offered by the Greeks is that they tended to see life clear and whole, in a way that we tend not to see life today.” Examine your life\nC) Soupios, along with his co-author Panos Mourdoukoutas, developed their 10 golden rules by turning to the men behind that philosophy—Aristotle, Socrates, Epictetus and Pythagoras, among others. The first rule—examine your life—is the common thread that runs through the entire book. Soupios says that it is based on Plato’s observation that the unexamined life is not worth living. “The Greeks are always concerned about boxing themselves in, in terms of convictions ( 信念 ),” he says. “So take a step back, switch off the automatic pilot and actually stop and reflect about things like our priorities, our values, and our relationships.” Stop worrying about what you can not control\nD) As we begin to examine our life, Soupios says, we come to Rule No.2: Worry only about things that you can control. “The individual who promoted this idea was a Stoic philosopher. His name is Epictetus,” he says. “And what the Stoics say in general is simply this: There is a larger plan in life. You are not really going to be able to understand all of the dimensions of this plan. You are not going to be able to control the dimensions of this plan.”\nE) So, Soupios explains, it is not worth it to waste our physical, intellectual and spiritual energy worrying about things that are beyond our control. “I can not control whether or not I wind up getting the disease swine flu, for example.” He says. “I mean, there are some cautious steps I can take, but ultimately I can not guarantee myself that. So what Epictetus would say is sitting at home worrying about that would be wrong and wasteful and irrational. You should live your life attempting to identify and control those things which you can genuinely control.” Seek true pleasure\nF) To have a meaningful, happy life we need friends. But according to Aristotle—a student of Plato and teacher of Alexander the Great—most relationships don’t qualify as true friendships. “Just because I have a business relationship with an individual and I can profit from that relationship, it does not necessarily mean that this person is my friend,” Soupios says. “Real friendship is when two individuals share the same soul. It is a beautiful and uncharacteristically poetic image that Aristotle offers.”\nG) In our pursuit of the good life, he says, it is important to seek out true pleasures—advice which was originally offered by Epicurus. But unlike the modern definition of Epicureanism as a life of indulgence ( 放纵 ) and luxury, for the ancient Greeks, it meant finding a state of calm, peace and mental ease. - 2 -\nH) “This was the highest and most desirable form of pleasure and happiness for the ancient Epicureans,” Soupios says. “This is something that is very much well worth considering here in the modern era. I do not think that we spend nearly enough time trying to concentrate on achieving a sort of calmness, a sort of contentment in mental and spiritual way, which was identified by these people as the highest form of happiness and pleasure.” Do good to others\nI) Other golden rules counsel us to master ourselves, to avoid excess and not to be a prosperous ( 发迹的 ) fool. There are also rules dealing with interpersonal relationships: Be a responsible human being and do not do evil things to others.\nJ) “This is Hesiod, of course, a younger contemporary poet, we believe, with Homer,” Soupios says. “Hesiod offers an idea—which you very often find in some of the world’s great religions, in the Judeo-Christian tradition and in Islam and others—that in some sense, when you hurt another human being, you hurt yourself. That damaging other people in your community and in your life, trashing relationships, results in a kind of self-inflicted ( 自己招致的 ) spiritual wound.”\nK) Instead, Soupios says, ancient wisdom urges us to do good. Golden Rule No.10 for a good life is that kindness toward others tends to be rewarded.\nL) “This is Aesop, the fabulist ( 寓言家 ), the man of these charming little tales, often told in terms of animals and animal relationships,” he says. “I think what Aesop was suggesting is that when you offer a good turn to another human being, one can hope that that good deed will come back and sort of pay a profit to you, the doer of the good deed. Even if there is no concrete benefit paid in response to your good deed, at the very least, the doer of the good deed has the opportunity to enjoy a kind of spiritually enlightened moment.”\nM) Soupios says following the 10 Golden Rules based on ancient wisdom can guide us to the path of the good life where we stop living as onlookers and become engaged and happier human beings. And that, he notes, is a life worth living. 注意：此部分试题请在答题卡 2 上作答。 36. According to an ancient Greek philosopher, it is impossible for us to understand every aspect of our life. 37. Ancient Philosophers saw life in a different light from people of today. 38. Not all your business partners are your soul mates. 39. We can live a peaceful life despite the various challenges of the modern world. 40. The doer of a good deed can feel spiritually rewarded even when they gain no concrete benefits. 41. How to achieve mental calmness and contentment is well worth our consideration today. 42. Michael Soupios suggests that we should stop and think carefully about our priorities in life. 43. Ancient philosophers strongly advise that we do good. 44. The wise teachings of ancient Greek thinkers are timeless, and are applicable to contemporary life. 45. Do harm to others and you do harm to yourself.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "Is it possible to enjoy a peaceful life in a world that is increasingly challenged by threats and uncertainties from wars, terrorism, economic crises and a widespread outbreak of infectious diseases? The answer is yes, according to a new book The 10 Golden Rules: Ancient Wisdom from the Greek Philosophers on Living a Good Life. The book is co-authored by Long Island University’s philosophy professor Michael Soupios and economics professor Panos Mourdoukoutas."
+        },
+        {
+          "label": "B",
+          "text": "The wisdom of the ancient Greek philosophers is timeless, says Soupios. The philosophy professor says it is as relevant today as when it was first written many centuries ago. “There is no expiration ( 失效) date on wisdom,” he says, “There is no shelf life on intelligence. I think that things have become very gloomy these day, lots of misunderstanding, misleading cues, a lot of what the ancients would have called sophistry ( 诡辩 ). The nice thing about ancient philosophy as offered by the Greeks is that they tended to see life clear and whole, in a way that we tend not to see life today.” Examine your life"
+        },
+        {
+          "label": "C",
+          "text": "Soupios, along with his co-author Panos Mourdoukoutas, developed their 10 golden rules by turning to the men behind that philosophy—Aristotle, Socrates, Epictetus and Pythagoras, among others. The first rule—examine your life—is the common thread that runs through the entire book. Soupios says that it is based on Plato’s observation that the unexamined life is not worth living. “The Greeks are always concerned about boxing themselves in, in terms of convictions ( 信念 ),” he says. “So take a step back, switch off the automatic pilot and actually stop and reflect about things like our priorities, our values, and our relationships.” Stop worrying about what you can not control"
+        },
+        {
+          "label": "D",
+          "text": "As we begin to examine our life, Soupios says, we come to Rule No.2: Worry only about things that you can control. “The individual who promoted this idea was a Stoic philosopher. His name is Epictetus,” he says. “And what the Stoics say in general is simply this: There is a larger plan in life. You are not really going to be able to understand all of the dimensions of this plan. You are not going to be able to control the dimensions of this plan.”"
+        },
+        {
+          "label": "E",
+          "text": "So, Soupios explains, it is not worth it to waste our physical, intellectual and spiritual energy worrying about things that are beyond our control. “I can not control whether or not I wind up getting the disease swine flu, for example.” He says. “I mean, there are some cautious steps I can take, but ultimately I can not guarantee myself that. So what Epictetus would say is sitting at home worrying about that would be wrong and wasteful and irrational. You should live your life attempting to identify and control those things which you can genuinely control.” Seek true pleasure"
+        },
+        {
+          "label": "F",
+          "text": "To have a meaningful, happy life we need friends. But according to Aristotle—a student of Plato and teacher of Alexander the Great—most relationships don’t qualify as true friendships. “Just because I have a business relationship with an individual and I can profit from that relationship, it does not necessarily mean that this person is my friend,” Soupios says. “Real friendship is when two individuals share the same soul. It is a beautiful and uncharacteristically poetic image that Aristotle offers.”"
+        },
+        {
+          "label": "G",
+          "text": "In our pursuit of the good life, he says, it is important to seek out true pleasures—advice which was originally offered by Epicurus. But unlike the modern definition of Epicureanism as a life of indulgence ( 放纵 ) and luxury, for the ancient Greeks, it meant finding a state of calm, peace and mental ease. - 2 -"
+        },
+        {
+          "label": "H",
+          "text": "“This was the highest and most desirable form of pleasure and happiness for the ancient Epicureans,” Soupios says. “This is something that is very much well worth considering here in the modern era. I do not think that we spend nearly enough time trying to concentrate on achieving a sort of calmness, a sort of contentment in mental and spiritual way, which was identified by these people as the highest form of happiness and pleasure.” Do good to others"
+        },
+        {
+          "label": "I",
+          "text": "Other golden rules counsel us to master ourselves, to avoid excess and not to be a prosperous ( 发迹的 ) fool. There are also rules dealing with interpersonal relationships: Be a responsible human being and do not do evil things to others."
+        },
+        {
+          "label": "J",
+          "text": "“This is Hesiod, of course, a younger contemporary poet, we believe, with Homer,” Soupios says. “Hesiod offers an idea—which you very often find in some of the world’s great religions, in the Judeo-Christian tradition and in Islam and others—that in some sense, when you hurt another human being, you hurt yourself. That damaging other people in your community and in your life, trashing relationships, results in a kind of self-inflicted ( 自己招致的 ) spiritual wound.”"
+        },
+        {
+          "label": "K",
+          "text": "Instead, Soupios says, ancient wisdom urges us to do good. Golden Rule No.10 for a good life is that kindness toward others tends to be rewarded."
+        },
+        {
+          "label": "L",
+          "text": "“This is Aesop, the fabulist ( 寓言家 ), the man of these charming little tales, often told in terms of animals and animal relationships,” he says. “I think what Aesop was suggesting is that when you offer a good turn to another human being, one can hope that that good deed will come back and sort of pay a profit to you, the doer of the good deed. Even if there is no concrete benefit paid in response to your good deed, at the very least, the doer of the good deed has the opportunity to enjoy a kind of spiritually enlightened moment.”"
+        },
+        {
+          "label": "M",
+          "text": "Soupios says following the 10 Golden Rules based on ancient wisdom can guide us to the path of the good life where we stop living as onlookers and become engaged and happier human beings. And that, he notes, is a life worth living. 注意：此部分试题请在答题卡 2 上作答。 36. According to an ancient Greek philosopher, it is impossible for us to understand every aspect of our life. 37. Ancient Philosophers saw life in a different light from people of today. 38. Not all your business partners are your soul mates. 39. We can live a peaceful life despite the various challenges of the modern world. 40. The doer of a good deed can feel spiritually rewarded even when they gain no concrete benefits. 41. How to achieve mental calmness and contentment is well worth our consideration today. 42. Michael Soupios suggests that we should stop and think carefully about our priorities in life. 43. Ancient philosophers strongly advise that we do good. 44. The wise teachings of ancient Greek thinkers are timeless, and are applicable to contemporary life. 45. Do harm to others and you do harm to yourself."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "- 3 -\nAttitudes toward new technologies often fall along generational lines. That is, generally, younger\npeople tend to outnumber older people on the front end of a technological shift.\nIt is not always the case, though. When you look at attitudes toward driverless cars, there doesn’t\nseem to be a clear generational divide. The public overall is split on whether they’d like to use a\ndriverless car. In a study last year, of all people surveyed, 48 percent said they wanted to ride in\none, while 50 percent did not.\nThe fact that attitudes toward self-driving cars appear to be so steady across generations suggests\nhow transformative the shift to driverless cars could be. Not everyone wants a driverless car\nnow—and no one can get one yet—but among those who are open to them, every age group is\nsimilarly engaged.\nActually, this isn’t surprising. Whereas older generations are sometimes reluctant to adopt new\ntechnologies, driverless cars promise real value to these age groups in particular. Older adults,\nespecially those with limited mobility or difficulty driving on their own, are one of the classic use\ncases for driverless cars.\nThis is especially interesting when you consider that younger people are generally more interested\nin travel-related technologies than older ones.\nWhen it comes to driverless cars, differences in attitude are more pronounced based on factors not\nrelated to age. College graduates, for example, are particularly interested in driverless cars\ncompared with those who have less education: 59 percent of college graduates said they would\nlike to use a driverless car compared with 38 percent of those with a high-school diploma or less.\nWhere a person lives matters, too. More people who lives in cities and suburbs said they wanted to\ntry driverless cars than those who lived in rural areas.\nWhile there’s reason to believe that interest in self-driving cars is going up across the board, a\nperson’s age will have little to do with how self-driving cars can become mainstream. Once\ndriverless cares are actually available for sale, the early adopters will be the people who can afford\nto buy them.",
+      "blocks": [
+        {
+          "text": "- 3 -\nAttitudes toward new technologies often fall along generational lines. That is, generally, younger\npeople tend to outnumber older people on the front end of a technological shift.\nIt is not always the case, though. When you look at attitudes toward driverless cars, there doesn’t\nseem to be a clear generational divide. The public overall is split on whether they’d like to use a\ndriverless car. In a study last year, of all people surveyed, 48 percent said they wanted to ride in\none, while 50 percent did not.\nThe fact that attitudes toward self-driving cars appear to be so steady across generations suggests\nhow transformative the shift to driverless cars could be. Not everyone wants a driverless car\nnow—and no one can get one yet—but among those who are open to them, every age group is\nsimilarly engaged.\nActually, this isn’t surprising. Whereas older generations are sometimes reluctant to adopt new\ntechnologies, driverless cars promise real value to these age groups in particular. Older adults,\nespecially those with limited mobility or difficulty driving on their own, are one of the classic use\ncases for driverless cars.\nThis is especially interesting when you consider that younger people are generally more interested\nin travel-related technologies than older ones.\nWhen it comes to driverless cars, differences in attitude are more pronounced based on factors not\nrelated to age. College graduates, for example, are particularly interested in driverless cars\ncompared with those who have less education: 59 percent of college graduates said they would\nlike to use a driverless car compared with 38 percent of those with a high-school diploma or less.\nWhere a person lives matters, too. More people who lives in cities and suburbs said they wanted to\ntry driverless cars than those who lived in rural areas.\nWhile there’s reason to believe that interest in self-driving cars is going up across the board, a\nperson’s age will have little to do with how self-driving cars can become mainstream. Once\ndriverless cares are actually available for sale, the early adopters will be the people who can afford\nto buy them."
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "In agrarian ( 农业的 ), pre-industrial Europe, “you’d want to wake up early, start working with\nthe sunrise, have a break to have the largest meal, and then you’d go back to work,” says Ken\nAlbala, a professor of history at the University of the Pacific, “Later, at 5 or 6, you’d have a\nsmaller supper.”\nThis comfortable cycle, in which the rhythms of the day helped shape the rhythms of the meals,\ngave rise to the custom of the large midday meal, eaten with the extended family. “Meals are the\nfoundation of the family,” says Carole Counihan, a professor at Millersville University in\nPensylvania, “so there was a very important interconnection between eating together” and\nstrengthening family ties.\nSince industrialization, maintaining such a slow cultural metabolism has been much harder, with\nthe long midday meal shrinking to whatever could be stuffed into a lunch bucket or bought at a\nfood stand. Certainly, there were benefits. Modern techniques for producing and shipping food led\nto greater variety and quantity, including a tremendous increase in the amount of animal protein\nand dairy products available, making us more vigorous than our ancestors.\nYet plenty has been lost too, even in cultures that still live to eat. Take Italy. It’s no secret that the\nMediterranean diet is healthy, but it was also a joy to prepare and eat. Italians, says Counihan,\ntraditionally began the day with a small meal. The big meal came at around 1 p.m. In between the\nmidday meal and a late, smaller dinner came a small snack. Today, when time zones have less and\nless meaning, there is little tolerance for offices’ closing for lunch, and worsening traffic in cities\nmeans workers can’t make it home and back fast enough anyway. So the formerly small supper\nafter sundown becomes the big meal of the day, the only one at which the family has a chance to\nget together. “The evening meal carries the full burden that used to be spread over two meals,”\nsays Counihan.",
+      "blocks": [
+        {
+          "text": "In agrarian ( 农业的 ), pre-industrial Europe, “you’d want to wake up early, start working with\nthe sunrise, have a break to have the largest meal, and then you’d go back to work,” says Ken\nAlbala, a professor of history at the University of the Pacific, “Later, at 5 or 6, you’d have a\nsmaller supper.”\nThis comfortable cycle, in which the rhythms of the day helped shape the rhythms of the meals,\ngave rise to the custom of the large midday meal, eaten with the extended family. “Meals are the\nfoundation of the family,” says Carole Counihan, a professor at Millersville University in\nPensylvania, “so there was a very important interconnection between eating together” and\nstrengthening family ties.\nSince industrialization, maintaining such a slow cultural metabolism has been much harder, with\nthe long midday meal shrinking to whatever could be stuffed into a lunch bucket or bought at a\nfood stand. Certainly, there were benefits. Modern techniques for producing and shipping food led\nto greater variety and quantity, including a tremendous increase in the amount of animal protein\nand dairy products available, making us more vigorous than our ancestors.\nYet plenty has been lost too, even in cultures that still live to eat. Take Italy. It’s no secret that the\nMediterranean diet is healthy, but it was also a joy to prepare and eat. Italians, says Counihan,\ntraditionally began the day with a small meal. The big meal came at around 1 p.m. In between the\nmidday meal and a late, smaller dinner came a small snack. Today, when time zones have less and\nless meaning, there is little tolerance for offices’ closing for lunch, and worsening traffic in cities\nmeans workers can’t make it home and back fast enough anyway. So the formerly small supper\nafter sundown becomes the big meal of the day, the only one at which the family has a chance to\nget together. “The evening meal carries the full burden that used to be spread over two meals,”\nsays Counihan."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "注意：此部分试题请在答题卡 1 上作答。",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into",
+      "source": "乌镇是浙江的一座古老水镇，坐落在京杭大运河畔。这是一处迷人的地方，有许多古桥、中\n式旅店和餐馆。在过去一千年里，乌镇的水系和生活方式并未经历多少变化，是一座展现古\n文明的博物馆。乌镇所有房屋都用石木建造。 数百年来， 当地人沿着河边建起了住宅和集\n市。 无数宽敞美丽的庭院藏身于屋舍之间，游客们每到一处都有会惊喜的发现。\n注意：此部分试题请在答题卡 2 上作答。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}
