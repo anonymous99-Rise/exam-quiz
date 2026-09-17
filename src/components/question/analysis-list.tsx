@@ -11,6 +11,9 @@ import { cn } from '@/lib/utils';
  * v2 呈现：label 从「左侧固定栏」改为**行内小标签**。
  * 理由：旧版 4.5rem 的固定左栏在窄屏（手机 / 双栏右列）会把正文挤成细条，
  * 而解析文本往往很长（一段就 200+ 字）。
+ *
+ * v4 编辑风：整块加一条 3px 朱红左竖线（像批改时划出的重点），label 用大写间距的小字，
+ * 不再用彩色胶囊 —— 一屏里七八个彩色胶囊会把「答案/解析/缺口」三种语义混在一起。
  */
 export function AnalysisList({
   analysis,
@@ -26,10 +29,10 @@ export function AnalysisList({
   }
 
   return (
-    <dl className={cn('space-y-3', className)}>
+    <dl className={cn('space-y-3.5 border-l-[3px] border-brand-line pl-4', className)}>
       {analysis.map((a, i) => (
         <div key={`${a.label}-${i}`}>
-          <dt className="chip chip-brand mb-1.5">{a.label}</dt>
+          <dt className="t-eyebrow mb-1 text-brand-ink">{a.label}</dt>
           <dd
             className={cn(
               'text-[15px] leading-7 whitespace-pre-wrap text-ink-soft',

@@ -36,24 +36,24 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
   };
 
   return (
-    <header className="sticky top-0 z-30 border-b border-line bg-surface/85 backdrop-blur-md">
-      <div className="mx-auto flex h-14 w-full max-w-[1120px] items-center gap-3 px-4 sm:px-5">
-        {/* 品牌：只在这里出现一次（首页 hero 不再重复品牌名） */}
-        <Link href="/" className="flex shrink-0 items-center gap-2">
+    <header className="sticky top-0 z-30 border-b border-line-strong bg-canvas/92 backdrop-blur-md">
+      <div className="mx-auto flex h-15 w-full max-w-[1040px] items-center gap-4 px-5 sm:px-8">
+        {/* 品牌：方角墨块 + 站名（编辑风里品牌是一枚「印记」，不做圆角胶囊） */}
+        <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <span
             aria-hidden
-            className="grid size-7 place-items-center rounded-[8px] bg-brand-solid text-[12.5px] font-black text-white"
+            className="grid size-7 place-items-center rounded-[3px] bg-ink text-[11.5px] font-black tracking-wide text-white"
           >
             EQ
           </span>
-          <span className="hidden text-[16px] font-bold tracking-tight text-ink sm:block">
+          <span className="hidden text-[15.5px] font-bold tracking-tight text-ink sm:block">
             真题刷题站
           </span>
         </Link>
 
         <nav
           aria-label="主导航"
-          className="-mx-1 flex min-w-0 flex-1 items-center gap-0.5 overflow-x-auto px-1"
+          className="-mx-1 flex min-w-0 flex-1 items-center gap-1 overflow-x-auto px-1"
         >
           {LINKS.map((l) => {
             const active = l.href === '/' ? pathname === '/' : pathname.startsWith(l.href);
@@ -64,14 +64,14 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
                 href={l.href}
                 aria-current={active ? 'page' : undefined}
                 /*
-                 * 当前态用「中性浅底 + 品牌细下划线」，不用粉色胶囊 ——
-                 * 粉底胶囊与主按钮同色系，等于让一种颜色承担两种语义（评审点名的「一色多义」）。
+                 * v4：当前态 = 墨色文字 + 底下一条 2px 朱红横线（像目录里被划到的那一栏），
+                 * 不用彩色胶囊 —— 胶囊会和「可点筛选」的形状撞车。
                  */
                 className={cn(
-                  'relative flex min-h-9 shrink-0 items-center gap-1.5 rounded-[10px] px-3.5 py-1.5 text-[14px] transition',
+                  'relative flex min-h-9 shrink-0 items-center gap-1.5 px-3 py-1.5 text-[14.5px] transition-colors',
                   active
-                    ? 'font-semibold text-ink after:absolute after:inset-x-3.5 after:-bottom-[11px] after:h-[2px] after:rounded-full after:bg-brand'
-                    : 'font-medium text-muted hover:bg-surface-hover hover:text-ink',
+                    ? 'font-semibold text-ink after:absolute after:inset-x-3 after:-bottom-[9px] after:h-[2px] after:bg-brand'
+                    : 'font-medium text-muted hover:text-ink',
                 )}
               >
                 {l.label}

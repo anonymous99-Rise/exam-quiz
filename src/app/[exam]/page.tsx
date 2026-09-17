@@ -199,12 +199,11 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
                       </span>
                     </h3>
                     {/*
-                      v3：lg 三栏 → 两栏。三栏时每张卡只有 349px，标题、题型徽标、
-                      进度、缺口徽标全挤在 12px 字号里，47 张一模一样的白卡分不出
-                      哪套做过、哪套没做；两栏（约 500px）才放得下 15–16px 的标题
-                      与一行状态信息。
+                      v4：卡片网格 → 行列表。条目本身自带下横线，容器只负责首尾
+                      两条线由 .first: 控制；这样一屏能扫读一整年的套卷，
+                      而不再是一屏看 4 张白卡。
                     */}
-                    <div className="grid gap-4 sm:grid-cols-2">
+                    <div className="-mt-px border-t border-line">
                       {list.map((p) => (
                         <PaperCard
                           key={p.id}

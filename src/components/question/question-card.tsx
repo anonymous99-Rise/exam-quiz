@@ -61,12 +61,14 @@ function QuestionCardImpl({
         /*
          * scroll-mt = 导航(56) + runner 吸顶头(56) + 吸顶播放器实测高度(--audio-h)。
          * 写死 112px 时，听力页点分段跳题会把题卡顶到播放器底下（实测播放器可达 266px）。
+         *
+         * v4 编辑风：题卡是「带细边框的纸面」，不用投影；当前题用左侧 3px 朱红竖条标记
+         * （竖条画在边框内侧，不会把相邻卡片推位）。
          */
-        'scroll-mt-[calc(7rem+var(--audio-h,0px))] scroll-mb-24 rounded-[14px] border bg-surface p-4 transition sm:p-5',
-        isCursor
-          ? 'border-brand shadow-flat before:absolute before:inset-y-3 before:-left-px before:w-[3px] before:rounded-full before:bg-brand'
-          : 'border-line shadow-flat',
-        'relative',
+        'relative scroll-mt-[calc(7rem+var(--audio-h,0px))] scroll-mb-24 border border-line bg-surface p-4 transition sm:p-5',
+        isCursor && 'border-brand-line',
+        'before:absolute before:top-4 before:bottom-4 before:-left-[4px] before:w-[3px] before:bg-brand before:content-[""]',
+        !isCursor && 'before:hidden',
       )}
       /*
        * 指针与键盘两条路径都要同步「当前题」：

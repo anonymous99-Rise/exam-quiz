@@ -384,18 +384,18 @@ export default function PracticePage() {
               <span className="t-small text-muted tabular-nums">{rows.length} 套</span>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {/* v4：卡片网格 → 行列表（同考试页；条目自带下横线） */}
+            <div className="border-t border-line">
               {rows.map((r) => (
-                <div key={`${r.examId}/${r.paperId}`} className="flex flex-col gap-1.5">
+                <div key={`${r.examId}/${r.paperId}`}>
                   {exams.length > 1 && (
-                    <span className="px-0.5 t-small text-muted">{r.examName}</span>
+                    <span className="mt-3 block text-[12.5px] text-faint">{r.examName}</span>
                   )}
                   <PaperCard
                     examId={r.examId}
                     paper={r.paper}
                     sections={cardSections[r.examId] ?? []}
                     href={scope === 'all' ? `/${r.examId}/${r.paperId}` : r.nextHref}
-                    className="h-full"
                   />
                 </div>
               ))}

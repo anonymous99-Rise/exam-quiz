@@ -1,12 +1,11 @@
 import Link from 'next/link';
-import type { Metadata } from 'next';
 
 import { PaperProgress } from '@/components/progress/progress-bits';
 import { FlagBadges } from '@/components/ui/flag-badge';
 import type { PaperIndexEntry, Section } from '@/lib/bank/schema';
 import { cn } from '@/lib/utils';
 
-/** section 名的短标签（卡片里放不下「长篇阅读（信息匹配）」这种全称） */
+/** section 名的短标签（规格串里放不下「长篇阅读（信息匹配）」这种全称） */
 const SHORT: Record<string, string> = {
   listening: '听力',
   cloze: '选词',
@@ -18,10 +17,12 @@ const SHORT: Record<string, string> = {
 };
 
 /**
- * 套卷卡片 —— 首页/考试页的主列表单元。
+ * 套卷条目（v4：从「卡片」改成**行**）
  *
- * v2 重写：主信息（套卷名）与 CTA 的视觉权重不再倒挂；
- * 题型题量做成微标签、进度条改为中性色（品牌粉只留给交互与当前态）。
+ * 为什么改：视觉评审对旧版的判断是「47 张长得一模一样的白卡，只有进度条能区分」。
+ * 编辑风的解法是行 + 细横线：日期走衬线体拉开层级、规格串一行说完题型与题量、
+ * 右侧是**按题型分段**的进度条与状态。同样的信息，扫读成本低得多，
+ * 也不再需要卡片投影来划分区域。
  */
 export function PaperCard({
   examId,
@@ -42,55 +43,67 @@ export function PaperCard({
     <Link
       href={href}
       className={cn(
-        /* v3：内边距 16→20px、行距 12→14px；默认态是「白底 + 淡投影」，
-           hover 才出现品牌色描边（ring），不再常驻 1px 边框 */
-        'card-flat group flex flex-col gap-3.5 p-5 transition',
-        'hover:shadow-card hover:ring-1 hover:ring-brand-line',
-        empty && 'opacity-55',
+        'group grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-6 gap-y-2 border-b border-line py-4 transition-colors',
+        'sm:grid-cols-[220px_minmax(0,1fr)_190px]',
+        'hover:bg-surface',
+        empty && 'opacity-60',
         className,
       )}
     >
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <div className="truncate text-[16px] font-semibold text-ink group-hover:text-brand-ink">
-            {paper.label} · 第{paper.setNo}套
-          </div>
-          <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[14px] text-muted">
-            <span>{empty ? '暂无题目' : `${paper.questionCount} 题`}</span>
-            {paper.hasSubjective && !empty && <span className="text-faint">·</span>}
-            {paper.hasSubjective && !empty && <span>写作/翻译</span>}
-            {paper.hasAudio && (
-              <>
-                <span className="text-faint">·</span>
-                <span className="text-ok-ink">有音频</span>
-              </>
-            )}
-          </div>
+      {/* 左：考期 + 套号 */}
+      <div className="min-w-0">
+        <div className="display text-[17px] leading-tight font-semibold text-ink group-hover:text-brand-ink">
+          {paper.label}
         </div>
-        {/* 0 题的卷点进去没有可做的题（只有写作/翻译），写「开始」会误导；改「查看」 */}
-        <span className="mt-0.5 shrink-0 text-[14px] font-semibold text-brand-ink">
-          {empty ? '查看 →' : '开始 →'}
-        </span>
+        <div className="mt-0.5 text-[12.5px] text-faint">
+          第 {paper.setNo} 套
+          {paper.hasAudio && <span className="ml-2">· 含音频</span>}
+          {paper.hasSubjective && !empty && <span className="ml-2">· 写作/翻译</span>}
+        </div>
       </div>
 
-      {!empty && (
-        <>
-          <PaperProgress examId={examId} paperId={paper.id} nos={paper.nos} />
-          <ul className="flex flex-wrap gap-1">
+      {/* 中：规格串（题型 + 题量） */}
+      <div className="col-span-2 min-w-0 sm:col-span-1">
+        {empty ? (
+          <span className="text-[13px] text-muted">暂无题目（源材料未收录客观题）</span>
+        ) : (
+          <ul className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-[13px] text-muted">
+            <li className="text-ink-soft">{paper.questionCount} 题</li>
             {sections.map((s) => {
               const n = paper.sectionCounts[s.id] ?? 0;
               if (!n) return null;
               return (
-                <li key={s.id} className="chip" title={s.name}>
+                <li key={s.id} title={s.name}>
                   {SHORT[s.id] ?? s.name}
-                  <b className="font-semibold text-ink-soft tabular-nums">{n}</b>
+                  <b className="ml-1 font-semibold text-ink-soft tabular-nums">{n}</b>
                 </li>
               );
             })}
           </ul>
-        </>
+        )}
+      </div>
+
+      {/* 右：分段进度 + 状态 */}
+      <div className="flex items-center justify-end gap-3">
+        {empty ? (
+          <span className="text-[13px] text-muted">查看 →</span>
+        ) : (
+          <PaperProgress
+            examId={examId}
+            paperId={paper.id}
+            nos={paper.nos}
+            sectionNos={paper.sectionNos}
+            className="w-[124px]"
+          />
+        )}
+      </div>
+
+      {/* flags 单独一行（有缺口时才出现，健康套卷不挂徽标） */}
+      {paper.flags.length > 0 && (
+        <div className="col-span-2 sm:col-span-3">
+          <FlagBadges flags={paper.flags} max={3} />
+        </div>
       )}
-      <FlagBadges flags={paper.flags} />
     </Link>
   );
 }

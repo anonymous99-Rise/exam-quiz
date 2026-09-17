@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-import { OverallStats } from '@/components/progress/progress-bits';
+import { HomeProgress, OverallStats } from '@/components/progress/progress-bits';
 import { getExamSummaries } from '@/lib/bank/registry';
 import { cn } from '@/lib/utils';
 
@@ -17,30 +17,29 @@ export default function Home() {
   const totalSessions = exams.reduce((n, e) => n + e.sessionCount, 0);
 
   return (
-    <main className="mx-auto w-full max-w-[1120px] px-4 pb-20 pt-10 sm:px-5">
-      {/* ── Hero ──────────────────────────────────────────────────────────
-          不重复导航里的品牌名；主标题讲价值，右侧只放硬统计（卖点移到左侧 feature row）。 */}
-      <section className="mb-14 grid items-start gap-10 lg:grid-cols-[1.35fr_1fr]">
+    <main className="mx-auto w-full max-w-[1040px] px-5 pb-24 pt-14 sm:px-8">
+      {/*
+        ── Hero（v4 编辑风）────────────────────────────────────────────────
+        左侧价值主张 + 继续 CTA；右侧是**进度环 + 硬数字**。
+        视觉评审对 v3 的判断是「整屏缺进度感，只有 47/1914/14 三个静态数字」——
+        进度环把「我做了多少」这件事放到首屏最显眼处。
+      */}
+      <section className="grid items-start gap-12 border-b border-line-strong pb-12 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div>
-          <p className="t-eyebrow mb-2.5">CET-6 · CET-4 历年真题</p>
-          <h1 className="t-display text-[26px] text-ink sm:text-[30px]">
+          <p className="t-eyebrow">CET-6 · CET-4 历年真题</p>
+          <h1 className="t-display mt-4 text-ink">
             把每一道真题
             <br className="hidden sm:block" />
             真正吃透
           </h1>
-          <p className="mt-5 max-w-[44ch] text-[16px] leading-7 text-muted">
-            逐题即时判分、段落级解析、原文与题目同屏对照，听力原声分段定位。
+          <p className="mt-5 max-w-[46ch] text-[16.5px] leading-[1.8] text-muted">
+            逐题即时判分、段落级解析、原文与题目同屏对照，听力原声按篇分段定位。
             <span className="text-ink-soft">不登录也能完整刷完</span>
             ；登录后进度跟账号走，换设备接着做。
           </p>
 
-          {/* feature row：产品能力放这里（之前混在统计卡里，语类不清） */}
-          <ul className="mt-6 grid gap-x-6 gap-y-2.5 sm:grid-cols-3">
-            {[
-              '每题都有答案与解析',
-              '听力按篇分段、跳题定位',
-              '整卷模考：计时 + 答题卡',
-            ].map((t) => (
+          <ul className="mt-7 flex flex-wrap gap-x-7 gap-y-2.5">
+            {['每题都有答案与解析', '听力按篇分段、跳题定位', '整卷模考：计时 + 答题卡'].map((t) => (
               <li key={t} className="flex items-start gap-2 text-[14px] leading-6 text-muted">
                 <CheckIcon />
                 <span>{t}</span>
@@ -48,39 +47,37 @@ export default function Home() {
             ))}
           </ul>
 
-          <div className="mt-7 flex flex-wrap items-center gap-3">
-            <Link href="/practice" className="btn btn-primary h-11 px-5 text-[15px]">
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <Link href="/practice" className="btn btn-primary">
               开始刷题
             </Link>
-            <Link href="/wrong" className="btn btn-ghost h-11 px-5 text-[15px]">
+            <Link href="/wrong" className="btn btn-ghost">
               查看错题本
             </Link>
           </div>
 
-          <OverallStats className="mt-7" />
+          <OverallStats className="mt-8" />
         </div>
 
-        {/* 统计卡：只放硬数字（与 feature row 的「承诺」分开） */}
-        <div className="panel p-6">
-          <p className="t-eyebrow mb-4">全部题库</p>
-          <dl className="grid grid-cols-3 gap-4">
+        {/* 右栏：进度环 + 题库规模。竖排的「硬数字」比三列居中更稳 */}
+        <div className="lg:border-l lg:border-line lg:pl-10">
+          <HomeProgress />
+          <dl className="mt-8 space-y-5">
             {[
               { v: totalPapers, u: '套', l: '真题卷' },
               { v: totalQuestions, u: '题', l: '题目' },
               { v: totalSessions, u: '个', l: '考期' },
             ].map((s) => (
-              <div key={s.l}>
-                <dd className="text-[26px] leading-none font-extrabold text-ink tabular-nums">
+              <div key={s.l} className="flex items-baseline justify-between gap-4">
+                <dt className="text-[13.5px] text-muted">{s.l}</dt>
+                <dd className="display text-[24px] leading-none font-semibold text-ink">
                   {s.v}
+                  <span className="ml-1 text-[12px] font-normal text-faint">{s.u}</span>
                 </dd>
-                <dt className="mt-2 text-[13px] text-muted">
-                  {s.u} {s.l}
-                </dt>
               </div>
             ))}
           </dl>
-          <div className="rule my-5" />
-          <p className="text-[13px] leading-5 text-faint">
+          <p className="mt-7 border-t border-line pt-5 text-[12.5px] leading-6 text-faint">
             收录范围随素材持续补充；数据不完整的套卷会明确标注缺口，不伪造题目。
           </p>
         </div>
@@ -128,11 +125,11 @@ export default function Home() {
                   </div>
                   <p className="mt-1.5 text-[14px] text-muted">{e.name}</p>
 
-                  {/* 统计：横向排在标题下，卡片变宽后不再用居中三栏（居中在大卡里会散） */}
-                  <dl className="mt-5 flex flex-wrap items-baseline gap-x-7 gap-y-3">
+                  {/* 统计：拉丁数字走衬线，与日期同一套语汇 */}
+                  <dl className="mt-5 flex flex-wrap items-baseline gap-x-8 gap-y-3">
                     {stats.map((s) => (
                       <div key={s.l} className="flex items-baseline gap-1.5">
-                        <dd className="text-[22px] leading-none font-bold text-ink tabular-nums">
+                        <dd className="display text-[22px] leading-none font-semibold text-ink">
                           {s.v}
                         </dd>
                         <dt className="text-[13px] text-muted">{s.l}</dt>

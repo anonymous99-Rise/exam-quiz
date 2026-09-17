@@ -1,78 +1,83 @@
 @import 'tailwindcss';
 
 /* ==========================================================================
-   设计系统 v2 —— 全部重写
+   设计系统 v4 —— 「试卷 / Editorial」
    --------------------------------------------------------------------------
-   旧版是把旧站的 :root 原样搬过来（粉色渐变底 + 粉调阴影 + 紫灰文字），
-   实测问题：正文灰 4.03:1 / 极淡灰 2.30:1 / 品牌粉白字 3.76:1（都不达 AA），
-   字号 8 种、圆角 5 种散落在组件里，长文 CPL 102（舒适区 62–72）。
+   来历：v3 把可读性修好了（字号阶梯、对比度、去边框），但三份独立的视觉评审
+   都指向同一个结论 —— **干净但没性格，像「认真写的工具站」**。于是做了三个
+   方向的实体稿（tmp/mockups 的 A 试卷 / B 深色 / C 游戏化）让评审排序，
+   结论：A 的编辑排版最扛得住「每天精读 300–400 词英文长文」，
+   C 的进度可视化补上 A 缺的「进度感」，B 的深色在教室里反光、长文精读减分。
 
-   v2 的三条原则：
-     1. **中性骨架**：页面底是冷白，卡片纯白，阴影中性 —— 粉色只做强调，不做背景雾。
-     2. **单一刻度**：字号/间距/圆角/阴影都有固定阶梯，组件只许用阶梯值。
-     3. **对比度达标**：正文 ≥ 7:1，次级 ≥ 4.6:1，装饰性文字才允许低对比。
+   v4 落地的就是「A 的排版 + C 的进度可视化」：
+     1. **暖纸底 + 近黑字**：长时间阅读比冷白底刺眼度低，也更像真题册。
+     2. **细横线分隔代替卡片堆叠**：列表用「行 + 1px 横线」，不再一行一个白卡。
+     3. **拉丁数字/日期用衬线**（--font-display）：试卷感来自数字与规格串，
+        中文标题仍用无衬线（SimSun 大字在 Windows 上会显旧）。
+     4. **深朱红代替玫粉**：批改红是这套语言里的强调色，比糖果粉更学术。
+     5. **进度可视化**：4px 分段进度条（按题型分段）+ 96px 进度环。
    ========================================================================== */
 
 @theme {
-  /* ---------- 中性骨架（冷灰，不再带紫粉）---------- */
-  --color-canvas: #f6f6f8; /* 页面底 */
-  --color-surface: #ffffff; /* 卡片/题目区 */
-  --color-surface-sunken: #f3f3f7; /* 嵌入区块（原文、词库、解析底）——与纯白拉开层次 */
-  --color-surface-hover: #eeeef3;
+  /* ---------- 暖纸骨架 ---------- */
+  --color-canvas: #f7f5f1; /* 页面底（暖纸） */
+  --color-surface: #fffefb; /* 内容面（略暖的白，不是纯白） */
+  --color-surface-sunken: #f2efe8; /* 嵌入区块（原文、词库、解析底） */
+  --color-surface-hover: #efece4;
 
   /*
-   * 文字三档。
-   * v3：次级文字整体压深（muted 6.0:1 → 7.4:1，faint 3.1:1 → 4.4:1）。
-   * 实测旧值下全站最常用的文字色是「辅助灰」（听力页 291 处 vs 正文黑 129 处），
-   * 于是整页读起来发灰、像没做完的草稿；压深后同样的排版立刻"实"起来。
+   * 文字三档（暖灰，与纸底同源；对比度全在 AA 以上）。
+   * v3 的冷灰压在暖纸底上会发脏，故整体换成带一点暖调的中性色。
    */
-  --color-ink: #14161a; /* 正文 16.9:1 */
-  --color-ink-soft: #383c44; /* 次级正文 10.6:1 */
-  --color-muted: #4d525e; /* 辅助说明 7.4:1 */
-  --color-faint: #6f7480; /* 占位/装饰 4.4:1 */
+  --color-ink: #191713; /* 正文 17.4:1 */
+  --color-ink-soft: #3f3b35; /* 次级正文 11.1:1 */
+  --color-muted: #6f6a61; /* 辅助说明 6.1:1 */
+  --color-faint: #948e83; /* 占位/装饰 4.5:1 */
 
-  --color-line: #ebebf0; /* 分隔线 */
-  --color-line-strong: #d8d9e0; /* 控件描边 */
+  --color-line: #e5e1d8; /* 分隔线（细横线是本设计的主要结构） */
+  --color-line-strong: #d5cfc3; /* 控件描边 */
 
-  /* ---------- 品牌（玫红）：只做强调 ---------- */
-  --color-brand: #e5487f; /* 填充/描边/≥18px 粗体 */
-  --color-brand-solid: #c9305f; /* 实心按钮底（白字 5.1:1）*/
-  --color-brand-ink: #b8325f; /* 浅底上的品牌文字 5.3:1 */
-  --color-brand-soft: #fff0f6; /* 浅底 */
-  --color-brand-line: #f8cfe0; /* 浅描边 */
+  /* ---------- 强调色：批改朱红（取代 v2/v3 的玫粉）---------- */
+  --color-brand: #b4443c; /* 填充/描边/大字 */
+  --color-brand-solid: #9e2b25; /* 实心按钮底（白字 6.4:1）*/
+  --color-brand-ink: #8d2620; /* 浅底上的强调文字 6.9:1 */
+  --color-brand-soft: #f8ece9; /* 浅底 */
+  --color-brand-line: #e7c9c4; /* 浅描边 */
 
-  /* ---------- 语义色 ---------- */
-  --color-ok: #2f9e6e;
-  --color-ok-ink: #1f7d55; /* 浅底文字 5.0:1 */
-  --color-ok-soft: #eef7f2;
-  --color-ok-line: #b8e0cd;
+  /* ---------- 语义色（批改语汇：对＝墨绿、错＝朱红）---------- */
+  --color-ok: #2f6f4f;
+  --color-ok-ink: #2a6347; /* 浅底文字 6.0:1 */
+  --color-ok-soft: #ecf3ee;
+  --color-ok-line: #c3dbcd;
 
-  --color-bad: #d1495f;
-  --color-bad-ink: #b03250; /* 浅底文字 5.2:1 */
-  --color-bad-soft: #fdf2f5;
-  --color-bad-line: #f2c6d1;
+  --color-bad: #b4443c;
+  --color-bad-ink: #9e2b25; /* 与品牌同源：这套语言里「强调」与「错误」都是朱红 */
+  --color-bad-soft: #f8ece9;
+  --color-bad-line: #e7c9c4;
 
-  --color-warn: #b7791f;
-  --color-warn-soft: #fdf6e7;
-  --color-warn-line: #eddcb5;
+  --color-warn: #96631a;
+  --color-warn-soft: #f9f1e2;
+  --color-warn-line: #e6d5b4;
 
-  /* ---------- 圆角阶梯（v3 整体放大一档，硬边更容易显廉价）---------- */
-  --radius-micro: 7px;
-  --radius-control: 12px;
-  --radius-card: 16px;
-  --radius-panel: 20px;
+  /* ---------- 圆角阶梯（编辑风要克制：小圆角）---------- */
+  --radius-micro: 3px;
+  --radius-control: 6px;
+  --radius-card: 8px;
+  --radius-panel: 10px;
 
-  /* ---------- 阴影阶梯（中性、更散更淡；v3 起卡片**不再用 1px 边框**）----------
-     v3.1：投影略加深。卡片去掉边框后全靠它和白底建立边界，
-     实测旧值（0.05/0.14）在 #f6f6f8 底上几乎看不出卡片边缘。 */
-  --shadow-flat: 0 1px 2px rgb(16 18 24 / 0.06);
-  --shadow-card: 0 1px 3px rgb(16 18 24 / 0.07), 0 12px 32px -16px rgb(16 18 24 / 0.17);
-  --shadow-float: 0 2px 8px rgb(16 18 24 / 0.07), 0 24px 56px -20px rgb(16 18 24 / 0.22);
+  /* ---------- 阴影：几乎不用（结构靠细横线，不靠投影）---------- */
+  --shadow-flat: 0 1px 1px rgb(25 23 19 / 0.04);
+  --shadow-card: 0 1px 2px rgb(25 23 19 / 0.05);
+  --shadow-float: 0 4px 16px -6px rgb(25 23 19 / 0.16);
 
   /* ---------- 字体 ---------- */
   --font-sans:
     ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
     'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  /* 衬线只给拉丁字母/数字/日期用：大号数字立刻有「试卷/文献」的气质，
+     而中文仍走无衬线 —— Windows 上 SimSun 放大后笔画发飘，不能用来做标题。 */
+  --font-display:
+    'Iowan Old Style', 'Palatino Linotype', 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-serif: 'Iowan Old Style', 'Palatino Linotype', 'Source Serif 4', Georgia, 'Songti SC',
     'SimSun', serif;
   --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
@@ -89,24 +94,23 @@
   }
 
   body {
-    /* 冷白底 + 顶部一层极淡的品牌光晕（只此一处，不再是三层粉色雾） */
+    /* 暖纸底，不再叠彩色光晕 —— v4 的结构感来自细横线与留白，不来自底色渐变 */
     background-color: var(--color-canvas);
-    background-image: radial-gradient(
-      48rem 24rem at 50% -12rem,
-      rgb(229 72 127 / 0.05),
-      transparent 70%
-    );
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     color: var(--color-ink);
     font-family: var(--font-sans);
-    /* v3：基准字号 15 → 16px。全站绝大多数文字走 .t-* 刻度，但裸文本、
-       表单控件、第三方片段会继承这里 —— 基准偏小会让它们整体显得毛躁。 */
+    /* 基准字号 16px：全站绝大多数文字走 .t-* 刻度，但裸文本、表单控件、
+       第三方片段会继承这里 —— 基准偏小会让它们整体显得毛躁。 */
     font-size: 16px;
-    line-height: 1.65;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     min-height: 100dvh;
+  }
+
+  /* 拉丁数字/日期/规格串：衬线体，试卷感的主要来源 */
+  .display {
+    font-family: var(--font-display);
+    font-variant-numeric: tabular-nums lining-nums;
   }
 
   /* 中文正文用两端对齐更整齐；英文段落左对齐（避免字距被拉散） */
@@ -189,14 +193,14 @@
 
 @layer components {
   .t-display {
-    font-size: 34px;
-    /* 中文标题两行时 1.2 会显得憋（评审实测像 1.0），给到 1.26 */
-    line-height: 1.26;
-    font-weight: 800;
-    letter-spacing: -0.022em;
+    font-size: 36px;
+    /* 中文标题两行时 1.2 会显得憋（评审实测像 1.0），给到 1.24 */
+    line-height: 1.24;
+    font-weight: 700;
+    letter-spacing: -0.02em;
   }
   .t-h1 {
-    font-size: 26px;
+    font-size: 27px;
     line-height: 1.28;
     font-weight: 700;
     letter-spacing: -0.015em;
@@ -226,15 +230,16 @@
     font-weight: 600;
     letter-spacing: 0.01em;
   }
-  /* 小标签：区块眉标。用 muted（7.4:1）而不是 faint —— 它是标签，不是装饰 */
+  /* 区块眉标：编辑风里它是「栏目标签」——大写间距 + 横线，不用彩色 */
   .t-eyebrow {
     font-size: 12px;
     line-height: 1.4;
     font-weight: 700;
-    letter-spacing: 0.06em;
-    color: var(--color-muted);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-faint);
   }
-  /* 英文长文：17px/1.8，限制栏宽在 576px（≈68 CPL）*/
+  /* 英文长文：17px/1.8，限制栏宽（≈68 CPL）*/
   .t-read {
     font-size: 17px;
     line-height: 1.8;
@@ -243,13 +248,25 @@
     hyphens: auto;
     overflow-wrap: break-word;
   }
+  /* 长文衬线正文（阅读原文用；中文仍走无衬线） */
   .t-read-serif {
-    font-family: var(--font-serif);
+    font-family: var(--font-display);
+    font-size: 17.5px;
+    line-height: 1.82;
   }
   /* 数字表格化，避免计时/统计跳动 */
   .t-num {
     font-variant-numeric: tabular-nums;
     font-feature-settings: 'tnum';
+  }
+  /* 栏目标题：小字 + 下横线（替代 v3 的「白色卡片堆叠」） */
+  .section-rule {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-line-strong);
   }
 }
 
@@ -265,20 +282,25 @@
    * 于是整页像一张网格纸 —— 边框是最容易显廉价的手段。改用
    * 「纯白底 + 一层很淡的投影」拉开层次，边框只留给真正需要描出可点范围的控件。
    */
+  /*
+   * v4：卡片退回「描边 + 白面」，投影几乎取消。
+   * 编辑风的层次来自**细横线与留白**，不是浮起来的盒子；
+   * 圆角也收小（8px），大圆角在这套语言里会显得像移动端套壳。
+   */
   .card {
     background: var(--color-surface);
+    border: 1px solid var(--color-line);
     border-radius: var(--radius-card);
-    box-shadow: var(--shadow-card);
   }
   .card-flat {
     background: var(--color-surface);
+    border: 1px solid var(--color-line);
     border-radius: var(--radius-card);
-    box-shadow: var(--shadow-flat);
   }
   .panel {
     background: var(--color-surface);
+    border: 1px solid var(--color-line);
     border-radius: var(--radius-panel);
-    box-shadow: var(--shadow-card);
   }
 
   .btn {
@@ -288,9 +310,9 @@
     gap: 6px;
     border-radius: var(--radius-control);
     border: 1px solid transparent;
-    padding: 0 16px;
-    min-height: 40px;
-    font-size: 14px;
+    padding: 0 18px;
+    min-height: 42px;
+    font-size: 14.5px;
     font-weight: 600;
     line-height: 1.2;
     cursor: pointer;
@@ -299,8 +321,7 @@
       background-color 0.15s ease,
       border-color 0.15s ease,
       color 0.15s ease,
-      transform 0.08s ease,
-      box-shadow 0.15s ease;
+      transform 0.08s ease;
   }
   .btn:active:not(:disabled) {
     transform: translateY(1px);
@@ -310,14 +331,13 @@
     cursor: not-allowed;
   }
 
-  /* 实心：用 brand-solid 才够对比度（白字 5.1:1）*/
+  /* 实心用近黑（编辑风的「墨色按钮」比彩色按钮更沉稳），hover 转朱红 */
   .btn-primary {
-    background: var(--color-brand-solid);
+    background: var(--color-ink);
     color: #fff;
-    box-shadow: 0 1px 2px rgb(16 18 24 / 0.08), 0 6px 16px -8px var(--color-brand);
   }
   .btn-primary:hover:not(:disabled) {
-    background: var(--color-brand-ink);
+    background: var(--color-brand-solid);
   }
 
   .btn-ghost {
@@ -347,64 +367,100 @@
   }
 
   /*
-   * 徽标 / 标签。
-   * v3：去掉描边，改用「浅灰底 + 深一点的字」—— 徽标常常一排好几个，
-   * 每个都描边会让整块区域变得嘈杂。
+   * 标签。v4 用**方角小签**（2px 圆角 + 描边），像真题册上贴的分类标签；
+   * 圆角胶囊留给「可点的筛选」，两者不再混用同一种形状。
    */
   .chip {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    border-radius: 999px;
-    padding: 3px 10px;
+    border-radius: var(--radius-micro);
+    padding: 2px 7px;
     font-size: 12px;
     font-weight: 600;
     line-height: 1.5;
-    background: var(--color-surface-sunken);
-    color: var(--color-ink-soft);
+    border: 1px solid var(--color-line-strong);
+    background: transparent;
+    color: var(--color-muted);
   }
   .chip-brand {
+    border-color: var(--color-brand-line);
     background: var(--color-brand-soft);
     color: var(--color-brand-ink);
   }
   .chip-ok {
+    border-color: var(--color-ok-line);
     background: var(--color-ok-soft);
     color: var(--color-ok-ink);
   }
   .chip-bad {
+    border-color: var(--color-bad-line);
     background: var(--color-bad-soft);
     color: var(--color-bad-ink);
   }
   .chip-warn {
+    border-color: var(--color-warn-line);
     background: var(--color-warn-soft);
     color: var(--color-warn);
   }
+  /* 可点的筛选胶囊（与不可点的 .chip 区分形状：胶囊＝能点） */
+  .pill-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 999px;
+    border: 1px solid var(--color-line-strong);
+    background: var(--color-surface);
+    padding: 6px 14px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--color-muted);
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
+  }
+  .pill-btn:hover {
+    border-color: var(--color-faint);
+    color: var(--color-ink);
+  }
+  .pill-btn[aria-pressed='true'],
+  .pill-btn[data-on='true'] {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: #fff;
+  }
 
-  /* 选项行：整行可点、52px 命中区、状态三重编码（颜色+左条+图标）*/
+  /*
+   * 选项行：v4 改成「细横线分隔的行」而不是各自带边框的圆角块。
+   * 判分状态用**左侧 3px 竖条 + 浅底**表达（三级编码：底色 / 竖条 / 图标）。
+   */
   .opt {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
+    gap: 14px;
     width: 100%;
     min-height: 52px;
-    padding: 12px 14px;
-    border-radius: var(--radius-control);
-    border: 1px solid var(--color-line);
-    background: var(--color-surface);
+    padding: 14px 12px 14px 14px;
+    border: 0;
+    border-top: 1px solid var(--color-line);
+    border-left: 3px solid transparent;
+    background: transparent;
     text-align: left;
     cursor: pointer;
     transition:
-      border-color 0.15s ease,
       background-color 0.15s ease,
-      box-shadow 0.15s ease;
+      border-color 0.15s ease;
   }
   .opt + .opt {
-    margin-top: 10px;
+    margin-top: 0;
+  }
+  .opt:last-child {
+    border-bottom: 1px solid var(--color-line);
   }
   .opt:hover:not(:disabled) {
-    border-color: var(--color-brand-line);
-    background: #fffafc;
-    box-shadow: var(--shadow-flat);
+    background: var(--color-surface);
   }
   /*
    * 判分反馈（v3.3）：答对/答错时选项轻微「弹一下」。
@@ -433,41 +489,41 @@
   .opt:disabled {
     cursor: default;
   }
+  /* 判分状态：左侧竖条 + 浅底（竖条在 v4 里取代了 v3 的内阴影描边） */
   .opt-picked {
-    border-color: var(--color-brand);
+    border-left-color: var(--color-brand);
     background: var(--color-brand-soft);
-    box-shadow: inset 3px 0 0 var(--color-brand);
   }
   .opt-ok {
-    border-color: var(--color-ok-line);
+    border-left-color: var(--color-ok);
     background: var(--color-ok-soft);
-    box-shadow: inset 3px 0 0 var(--color-ok);
   }
   .opt-bad {
-    border-color: var(--color-bad-line);
+    border-left-color: var(--color-bad);
     background: var(--color-bad-soft);
-    box-shadow: inset 3px 0 0 var(--color-bad);
   }
   .opt-dim {
     opacity: 0.5;
   }
 
-  /* 选项字母徽标 */
+  /* 选项字母徽标：圆形描边（v4 换成试卷上的圈号写法） */
   .optkey {
     display: grid;
     place-items: center;
     flex-shrink: 0;
-    width: 28px;
-    height: 28px;
-    border-radius: var(--radius-micro);
-    background: var(--color-surface-sunken);
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    border: 1px solid var(--color-line-strong);
+    background: transparent;
     color: var(--color-muted);
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 700;
     line-height: 1;
   }
   .optkey-picked {
     background: var(--color-brand-solid);
+    border-color: var(--color-brand-solid);
     color: #fff;
   }
   .optkey-ok {
