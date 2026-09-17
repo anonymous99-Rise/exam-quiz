@@ -169,6 +169,26 @@ for (const examId of exams) {
       }
     }
 
+    /*
+     * 原文污染（passage bleed）—— 与上面的选项污染同源，但更严重：说明句把**句子劈开**。
+     * 实测 2020-07-1 reading-1 写着
+     *   「…entertainers, athletes, entrepreneurs and Questions 46 to 50 are based on
+     *     the following passage. scientists, positive stress practitioners…」
+     * 用户看到的是错句。2026-09 全量审计修掉 162 处（tools/scan-passage-bleed.mjs）。
+     * 这里是回归守卫：应为 0 命中。
+     */
+    for (const [pid, psg] of Object.entries(paper.passages ?? {})) {
+      const texts = [psg?.raw, ...(psg?.blocks ?? []).map((b) => b?.text)].filter(Boolean);
+      for (const t of texts) {
+        const m = t.match(/Questions?\s+\d+\s+to\s+\d+\s+are\s+based\s+on\s+the\s+following/i);
+        if (m) {
+          warn(
+            `${examId}/${id} ${pid}: 原文里串入试卷说明「${m[0]}…」（应为 0 命中，跑 tools/scan-passage-bleed.mjs --apply）`,
+          );
+        }
+      }
+    }
+
     // flags 与实测一致性抽查
     if (paper.questions.length === 0 && !paper.flags.includes('incomplete')) {
       warn(`${examId}/${id}: 空卷但 flags 未标 incomplete`);

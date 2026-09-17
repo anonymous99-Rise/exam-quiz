@@ -250,14 +250,17 @@ test.describe('听力播放器', () => {
     await expect(segments).toHaveCount(7);
     await expect(segments.first()).toContainText('1–4 题');
 
-    // 2025-06-1 的音源已换成素材库自托管 mp3（原本是第三方 HLS）
+    /*
+     * 2025-06-1 的音源是素材库自托管 mp3，现已搬进 Supabase Storage
+     * （对象存储直连：<audio> 跨域播放不需要 CORS，也不该让 18MB 走函数）。
+     */
     const src = await page.locator('audio').getAttribute('src');
-    expect(src).toBe('/audio/cet6-2025-06-1.mp3');
+    expect(src).toMatch(/\/audio\/cet6-2025-06-1\.mp3$/);
 
     /*
      * 关键：断言音频**真的能加载**，而不只是 <audio> 元素存在。
      * 之前只断言元素存在，正好掩盖了「全站自托管音频 404」这个故障。
-     * 这个 mp3 在仓库里（本地 public/audio）存在，所以不依赖外部网络。
+     * 这条会走网络（对象存储），所以给足超时。
      */
     const load = await page.waitForFunction(
       () => {

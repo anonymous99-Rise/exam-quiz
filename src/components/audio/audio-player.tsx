@@ -21,15 +21,19 @@ import { cn } from '@/lib/utils';
  */
 
 /**
- * 跨域音源走自有代理。
+ * 跨域音源按需走自有代理。
  *
- * 第三方 HLS 源不返回 CORS 头，hls.js 直接 fetch 会被浏览器判 Failed to fetch
- * （实测 18 套使用 HLS 的卷子在 Chrome 里全部播不出来）。
- * 同源地址（自托管 mp3、已代理的地址）原样返回。
+ * 只有 **HLS 播放列表**必须代理：第三方 HLS 源不返回 CORS 头，而 hls.js 走
+ * XHR/fetch 拉清单与分片，浏览器直接判 Failed to fetch（实测 18 套 HLS 卷子
+ * 在 Chrome 里全部播不出来）。分片很小，过一层函数没有代价。
+ *
+ * mp3 **不代理**：<audio src> 跨域播放本来就不需要 CORS，而一个 20–70MB 的
+ * 文件走 serverless 函数既没必要（Vercel 响应体有上限）也白白吃掉带宽。
  */
 function proxiedUrl(url: string): string {
   if (url.startsWith('/api/audio/')) return url;
   if (!/^https?:\/\//i.test(url)) return url;
+  if (!/\.m3u8(\?|$)/i.test(url)) return url;
   try {
     const u = new URL(url);
     return `/api/audio${u.pathname}`;

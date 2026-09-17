@@ -346,7 +346,7 @@
   "2022-06-1": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2022-06-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2022-06-1.mp3",
       "size": 13944033,
       "pieces": [
         {
@@ -387,14 +387,14 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/112/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2022.06/2022.06英语六级听力音频/2022年06月六级真题（全1套）.mp3"
+      "localPath": "cet6-2022-06-1.mp3",
+      "hosted": "supabase"
     }
   },
   "2022-09-1": {
     "audio": {
-      "kind": "mp3",
-      "url": "/audio/cet6-2022-09-1.mp3",
-      "size": 69537756,
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/115/index.m3u8",
       "pieces": [
         {
           "label": "Section A · 第 1 篇 · 1–4 题",
@@ -432,15 +432,13 @@
           "end": 1616.266
         }
       ],
-      "fallbackUrl": "https://listening.lazynote.cn/cet6/115/index.m3u8",
-      "source": "CET6-Resources",
-      "localPath": "CET6_2022.09/2022年09月六级真题（全1套）.mp3"
+      "note": "本套音频（66MB）超过对象存储单文件上限，暂用在线源"
     }
   },
   "2022-12-1": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2022-12-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2022-12-1.mp3",
       "size": 19911175,
       "pieces": [
         {
@@ -481,13 +479,14 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/118/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套听力.mp3"
+      "localPath": "cet6-2022-12-1.mp3",
+      "hosted": "supabase"
     }
   },
   "2022-12-2": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2022-12-2.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2022-12-2.mp3",
       "size": 19307494,
       "pieces": [
         {
@@ -528,7 +527,8 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/117/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2022.12/2022.12第2套/2022.12六级真题第2套听力.mp3"
+      "localPath": "cet6-2022-12-2.mp3",
+      "hosted": "supabase"
     }
   },
   "2023-03-1": {
@@ -577,7 +577,7 @@
   "2023-06-1": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2023-06-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2023-06-1.mp3",
       "size": 20119016,
       "pieces": [
         {
@@ -618,13 +618,14 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/124/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套听力音频.mp3"
+      "localPath": "cet6-2023-06-1.mp3",
+      "hosted": "supabase"
     }
   },
   "2023-06-2": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2023-06-2.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2023-06-2.mp3",
       "size": 20119815,
       "pieces": [
         {
@@ -665,7 +666,8 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/123/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2023.06/2023.06第2套/2023.06六级真题第2套听力音频.mp3"
+      "localPath": "cet6-2023-06-2.mp3",
+      "hosted": "supabase"
     }
   },
   "2023-12-1": {
@@ -842,9 +844,8 @@
   },
   "2024-12-1": {
     "audio": {
-      "kind": "mp3",
-      "url": "/audio/cet6-2024-12-1.mp3",
-      "size": 70863497,
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/207/index.m3u8",
       "pieces": [
         {
           "label": "Section A · 第 1 篇 · 1–4 题",
@@ -882,15 +883,13 @@
           "end": 1648.533
         }
       ],
-      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8",
-      "source": "CET6-Resources",
-      "localPath": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第1套.mp3"
+      "note": "本套音频（68MB）超过对象存储单文件上限，暂用在线源"
     }
   },
   "2024-12-2": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2024-12-2.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2024-12-2.mp3",
       "size": 27895942,
       "pieces": [
         {
@@ -931,13 +930,14 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/208/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第2套.mp3"
+      "localPath": "cet6-2024-12-2.mp3",
+      "hosted": "supabase"
     }
   },
   "2025-06-1": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2025-06-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2025-06-1.mp3",
       "size": 18501013,
       "pieces": [
         {
@@ -978,7 +978,8 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/219/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2025.06/2025年6月六级听力音频/2025年6月六级音频1.MP3"
+      "localPath": "cet6-2025-06-1.mp3",
+      "hosted": "supabase"
     }
   },
   "2025-06-2": {
@@ -1199,7 +1200,7 @@
   "2022-12-3": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2022-12-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2022-12-1.mp3",
       "size": 19911175,
       "pieces": [
         {
@@ -1240,15 +1241,16 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/118/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套听力.mp3",
+      "localPath": "cet6-2022-12-1.mp3",
       "sharedWith": "2022-12-1",
-      "note": "素材库注记：第3套听力与第2套或第1套完全相同"
+      "note": "素材库注记：第3套听力与第2套或第1套完全相同",
+      "hosted": "supabase"
     }
   },
   "2023-06-3": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2023-06-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2023-06-1.mp3",
       "size": 20119016,
       "pieces": [
         {
@@ -1289,16 +1291,16 @@
       ],
       "fallbackUrl": "https://listening.lazynote.cn/cet6/124/index.m3u8",
       "source": "CET6-Resources",
-      "localPath": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套听力音频.mp3",
+      "localPath": "cet6-2023-06-1.mp3",
       "sharedWith": "2023-06-1",
-      "note": "素材库注记：第3套听力与第2套或第1套完全相同"
+      "note": "素材库注记：第3套听力与第2套或第1套完全相同",
+      "hosted": "supabase"
     }
   },
   "2024-12-3": {
     "audio": {
-      "kind": "mp3",
-      "url": "/audio/cet6-2024-12-1.mp3",
-      "size": 70863497,
+      "kind": "hls",
+      "url": "https://listening.lazynote.cn/cet6/207/index.m3u8",
       "pieces": [
         {
           "label": "Section A · 第 1 篇 · 1–4 题",
@@ -1336,11 +1338,8 @@
           "end": 1648.533
         }
       ],
-      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8",
-      "source": "CET6-Resources",
-      "localPath": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第1套.mp3",
-      "sharedWith": "2024-12-1",
-      "note": "素材库注记：全国考试音频是2套，第3套与前面两套共用"
+      "note": "本套音频（68MB）超过对象存储单文件上限，暂用在线源",
+      "sharedWith": "2024-12-1"
     }
   }
 }
