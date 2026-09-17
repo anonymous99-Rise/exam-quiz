@@ -87,7 +87,13 @@ export function QuestionGroups({
         return (
           <section key={`${g.sectionId}-${gi}`} className="space-y-5">
             {g.sectionName && (
-              <h2 className="flex items-baseline gap-3 border-b border-line pb-2.5">
+              <h2
+                className={cn(
+                  'flex items-baseline gap-3 border-b border-line pb-2.5',
+                  /* 单栏（无原文）时标题与题目同宽，避免标题拉到 1080 而题卡只有 768 */
+                  !g.passage && 'max-w-[48rem]',
+                )}
+              >
                 <span className="t-h3 text-ink">{g.sectionName}</span>
                 <span className="text-[14px] text-muted tabular-nums">
                   {g.questions.length} 题
@@ -112,7 +118,7 @@ export function QuestionGroups({
                 </div>
               )}
 
-              <ol className="space-y-5">
+              <ol className={cn('space-y-5', !g.passage && 'max-w-[48rem]')}>
                 {g.questions.map((q, qi) => (
                   <QuestionCard
                     key={q.no}
