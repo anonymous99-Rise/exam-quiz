@@ -66,7 +66,7 @@ export default async function SectionPage({
   if (sectionId === 'subjective') {
     if (!paper.subjective) notFound();
     return (
-      <main className="mx-auto w-full max-w-[1120px] px-4 pb-16 pt-6 sm:px-5">
+      <main className="shell w-full pb-16 pt-6">
         {backLink}
         <h1 className="t-h1 mb-6 text-ink">{paperTitle(paper)} · 写作与翻译</h1>
         {/* 写作/翻译是「读+写」的长文本任务，正文栏宽收在 900px（不是满宽，避免一行过长） */}
@@ -111,7 +111,7 @@ export default async function SectionPage({
   const audio = section.media === 'none' ? undefined : paper.assets?.audio;
 
   return (
-    <main className="mx-auto w-full max-w-[1120px] px-4 pt-6 pb-16 sm:px-5">
+    <main className="shell w-full pt-6 pb-16">
       {backLink}
       {audio && (
         /*

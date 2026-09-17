@@ -268,6 +268,31 @@
     padding-bottom: 10px;
     border-bottom: 1px solid var(--color-line-strong);
   }
+
+  /*
+   * 全站唯一容器。
+   *
+   * 评审实测的断裂：顶栏与首页内容左缘 x=232，内页 x=180 —— 跨页时左边线跳 52px。
+   * 根因是三处各写了一份 max-width + padding（1040/px-8、1120/px-5、1120/px-4）。
+   * 统一成 1080px：1440 视口下内容正好落在 x=180–1260；
+   * 窄屏用 padding 让出安全边距，xl 起取消（此时外边距已足够）。
+   */
+  .shell {
+    width: 100%;
+    max-width: 1080px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 640px) {
+    .shell {
+      padding-inline: 24px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .shell {
+      padding-inline: 0;
+    }
+  }
 }
 
 /* ==========================================================================

@@ -38,7 +38,7 @@ type Row = {
  */
 function tabClass(active: boolean): string {
   return cn(
-    'relative inline-flex min-h-[40px] items-center rounded-[10px] px-3 text-[14px] transition',
+    'relative inline-flex min-h-[40px] items-center rounded-[5px] px-3 text-[14px] transition',
     "after:absolute after:inset-x-2 after:bottom-1 after:h-[2px] after:rounded-full after:content-['']",
     active
       ? 'bg-surface-hover font-semibold text-ink after:bg-brand'
@@ -217,7 +217,7 @@ export default function PracticePage() {
   const top = rows[0];
 
   return (
-    <main className="mx-auto w-full max-w-[1120px] px-4 pt-10 pb-20 sm:px-5">
+    <main className="shell w-full pt-10 pb-20">
       {/* ── 页头：眉标 + 标题 + 说明，右侧总览 ─────────────────────────── */}
       <header className="mb-7 flex flex-wrap items-end justify-between gap-x-10 gap-y-5">
         <div className="min-w-0">
@@ -313,7 +313,7 @@ export default function PracticePage() {
                   href={it.href}
                   className="card-flat group grid min-h-[64px] grid-cols-[2.5rem_minmax(0,1fr)_auto] items-center gap-x-3 p-3 transition hover:border-line-strong hover:bg-surface-hover"
                 >
-                  <span className="t-num grid size-10 place-items-center rounded-[10px] border border-line bg-surface-sunken text-[16px] font-semibold text-ink-soft">
+                  <span className="t-num grid size-10 place-items-center rounded-[5px] border border-line bg-surface-sunken text-[16px] font-semibold text-ink-soft">
                     {it.no}
                   </span>
                   <span className="min-w-0">

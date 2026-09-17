@@ -43,8 +43,13 @@ export function PaperCard({
     <Link
       href={href}
       className={cn(
-        'group grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-6 gap-y-2 border-b border-line py-4 transition-colors',
-        'sm:grid-cols-[220px_minmax(0,1fr)_190px]',
+        /*
+         * v4.1 三列栅格（评审实测旧版中间有 ~450px 黑洞、进度条只有 88px）：
+         *   考期 300px ｜ 规格串 300px ｜ 进度占剩余（1440 视口下约 400px）
+         * 进度条宽度由内容撑满，计数右对齐；元信息统一「标签 + 数字」顺序。
+         */
+        'group grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-6 gap-y-2 border-b border-line py-3.5 transition-colors',
+        'sm:grid-cols-[300px_300px_minmax(0,1fr)]',
         'hover:bg-surface',
         empty && 'opacity-60',
         className,
@@ -62,38 +67,38 @@ export function PaperCard({
         </div>
       </div>
 
-      {/* 中：规格串（题型 + 题量） */}
+      {/* 中：规格串。数字在后、衬线体，与全站数字语汇一致 */}
       <div className="col-span-2 min-w-0 sm:col-span-1">
         {empty ? (
           <span className="text-[13px] text-muted">暂无题目（源材料未收录客观题）</span>
         ) : (
-          <ul className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-[13px] text-muted">
-            <li className="text-ink-soft">{paper.questionCount} 题</li>
+          <ul className="flex flex-wrap items-baseline gap-x-3.5 gap-y-1 text-[12.5px] text-muted">
             {sections.map((s) => {
               const n = paper.sectionCounts[s.id] ?? 0;
               if (!n) return null;
               return (
-                <li key={s.id} title={s.name}>
+                <li key={s.id} title={s.name} className="whitespace-nowrap">
                   {SHORT[s.id] ?? s.name}
-                  <b className="ml-1 font-semibold text-ink-soft tabular-nums">{n}</b>
+                  <b className="display ml-1.5 font-semibold text-ink">{n}</b>
                 </li>
               );
             })}
+            <li className="display text-ink">{paper.questionCount} 题</li>
           </ul>
         )}
       </div>
 
       {/* 右：分段进度 + 状态 */}
-      <div className="flex items-center justify-end gap-3">
+      <div className="col-span-2 flex items-center gap-3 sm:col-span-1">
         {empty ? (
-          <span className="text-[13px] text-muted">查看 →</span>
+          <span className="ml-auto text-[13px] text-muted">查看 →</span>
         ) : (
           <PaperProgress
             examId={examId}
             paperId={paper.id}
             nos={paper.nos}
             sectionNos={paper.sectionNos}
-            className="w-[124px]"
+            className="w-full"
           />
         )}
       </div>

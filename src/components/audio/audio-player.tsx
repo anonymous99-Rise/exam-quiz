@@ -310,7 +310,7 @@ export function AudioPlayer({
           disabled={noSource}
           aria-label={playing ? '暂停' : '播放'}
           title={noSource ? '本套音频未随本次部署提供' : undefined}
-          className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-solid text-white shadow-flat transition hover:bg-brand-ink disabled:cursor-not-allowed disabled:opacity-40"
+          className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-solid text-white transition hover:bg-brand-ink disabled:cursor-not-allowed disabled:opacity-40"
         >
           {playing ? (
             <svg viewBox="0 0 24 24" className="size-4" fill="currentColor">
@@ -398,7 +398,7 @@ export function AudioPlayer({
                     onClick={() => seek(p.start, range?.[0])}
                     title={`${fmtTime(p.start)} – ${fmtTime(p.end)}`}
                     className={cn(
-                      'min-h-9 rounded-[10px] px-2.5 py-1.5 text-left text-[13px] leading-4 whitespace-nowrap transition',
+                      'min-h-9 rounded-[5px] px-2.5 py-1.5 text-left text-[13px] leading-4 whitespace-nowrap transition',
                       active
                         ? 'bg-brand-soft font-medium text-brand-ink'
                         : 'text-muted hover:bg-surface-hover hover:text-ink',

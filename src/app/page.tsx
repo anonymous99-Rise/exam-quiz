@@ -17,7 +17,7 @@ export default function Home() {
   const totalSessions = exams.reduce((n, e) => n + e.sessionCount, 0);
 
   return (
-    <main className="mx-auto w-full max-w-[1040px] px-5 pb-24 pt-14 sm:px-8">
+    <main className="shell w-full pt-14 pb-24">
       {/*
         ── Hero（v4 编辑风）────────────────────────────────────────────────
         左侧价值主张 + 继续 CTA；右侧是**进度环 + 硬数字**。
@@ -32,7 +32,7 @@ export default function Home() {
             <br className="hidden sm:block" />
             真正吃透
           </h1>
-          <p className="mt-5 max-w-[46ch] text-[16.5px] leading-[1.8] text-muted">
+          <p className="mt-5 max-w-[644px] text-[16.5px] leading-[1.8] text-muted">
             逐题即时判分、段落级解析、原文与题目同屏对照，听力原声按篇分段定位。
             <span className="text-ink-soft">不登录也能完整刷完</span>
             ；登录后进度跟账号走，换设备接着做。

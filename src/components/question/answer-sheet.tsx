@@ -111,7 +111,7 @@ export function AnswerSheet({
           <button
             type="button"
             onClick={onClose}
-            className="grid size-9 place-items-center rounded-[9px] text-[18px] leading-none text-muted transition hover:bg-surface-hover hover:text-ink"
+            className="grid size-9 place-items-center rounded-[5px] text-[18px] leading-none text-muted transition hover:bg-surface-hover hover:text-ink"
             aria-label="关闭答题卡"
           >
             ×
@@ -161,7 +161,7 @@ export function AnswerSheet({
                           className={cn(
                             /* v3：36→40px 高、13→14px 字；未答态去掉描边改用浅底，
                                一屏 55 个格子全是描边会像一张表格纸 */
-                            'grid h-10 w-full place-items-center rounded-[10px] text-[14px] font-semibold tabular-nums transition',
+                            'grid h-10 w-full place-items-center rounded-[5px] text-[14px] font-semibold tabular-nums transition',
                             s === 'ok' && 'bg-ok-soft text-ok-ink',
                             s === 'bad' && 'bg-bad-soft text-bad-ink',
                             s === 'blank' &&

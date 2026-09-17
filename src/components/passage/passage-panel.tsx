@@ -34,7 +34,7 @@ export function PassagePanel({
      */
     <section
       className={cn(
-        'rounded-[14px] border border-line bg-surface-sunken p-5 lg:border-r-2 lg:border-r-line-strong',
+        'rounded-[6px] border border-line bg-surface-sunken p-5 lg:border-r-2 lg:border-r-line-strong',
         className,
       )}
     >
@@ -55,7 +55,7 @@ export function PassagePanel({
               className={cn(
                 't-read t-read-serif text-ink-soft',
                 isHit &&
-                  '-mx-2 rounded-[10px] bg-ok-soft px-2 py-1 ring-1 ring-ok-line',
+                  '-mx-2 rounded-[5px] bg-ok-soft px-2 py-1 ring-1 ring-ok-line',
               )}
             >
               {b.label && (

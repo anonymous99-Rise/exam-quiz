@@ -121,7 +121,7 @@ export function WordBankView({
       <Stem question={question} />
 
       {!hideBank && allBanks.length > 0 && (
-        <section className="mt-3.5 rounded-[12px] border border-line bg-surface-sunken p-3.5">
+        <section className="mt-3.5 rounded-[6px] border border-line bg-surface-sunken p-3.5">
           <h4 className="t-eyebrow mb-2.5">词库 · 15 选 10</h4>
           <ul className="grid grid-cols-2 gap-x-5 gap-y-1.5 sm:grid-cols-3">
             {[...allBanks]
@@ -138,11 +138,12 @@ export function WordBankView({
       )}
 
       {/*
-        字母键盘：15 个字母固定 5×3。
-        旧版桌面端 sm:grid-cols-8 → 15 个字母排成 8+7 两行，右边缺一格，看着像没对齐；
-        5×3 正好整除，且整块宽度收在 26rem 内，不再是通栏一大片。
+        字母键盘：15 个字母 5×3，**铺满卡片内宽**。
+        评审实测旧版：5 列固定在 17.5rem（约 265px），而题卡内宽约 460px，
+        右侧空出 185px；150 个描边空框占了该页 60% 以上的面积。
+        现在 5 列等分内宽（每键约 78×44），方角 4px，未选浅底、选中朱红实心。
       */}
-      <ul className="mt-3.5 grid w-full max-w-[17.5rem] grid-cols-5 gap-2">
+      <ul className="mt-3.5 grid w-full grid-cols-5 gap-1 sm:gap-1.5">
         {letters.map((letter) => {
           const isAnswer = letter === question.answer;
           const isPicked = selected === letter;
@@ -156,15 +157,13 @@ export function WordBankView({
                 aria-pressed={isPicked}
                 aria-label={`选项 ${letter}`}
                 className={cn(
-                  'grid h-11 w-full place-items-center rounded-[10px] border text-[16px] font-bold transition sm:h-10',
+                  'grid h-10 w-full place-items-center rounded-[4px] text-[15px] font-bold transition sm:h-11',
                   'disabled:cursor-default',
-                  reveal && isAnswer && 'border-ok bg-ok text-white',
-                  isWrongPick && 'border-bad bg-bad text-white',
-                  !reveal && isPicked && 'border-brand bg-brand-solid text-white',
-                  !reveal &&
-                    !isPicked &&
-                    'border-line-strong bg-surface text-ink-soft hover:border-brand hover:bg-brand-soft',
-                  reveal && !isAnswer && !isWrongPick && 'border-line text-faint',
+                  reveal && isAnswer && 'bg-ok text-white',
+                  isWrongPick && 'bg-bad text-white',
+                  !reveal && isPicked && 'bg-brand-solid text-white',
+                  !reveal && !isPicked && 'bg-surface-sunken text-ink-soft hover:bg-brand-soft',
+                  reveal && !isAnswer && !isWrongPick && 'bg-surface-sunken text-faint',
                 )}
               >
                 {letter}
@@ -196,7 +195,7 @@ export function WordBankPanel({
 }) {
   if (!allBanks.length) return null;
   return (
-    <section className="mt-3 rounded-[12px] border border-line bg-surface-sunken p-4">
+    <section className="mt-3 rounded-[6px] border border-line bg-surface-sunken p-4">
       <h4 className="t-eyebrow mb-2.5">词库 · 15 选 10</h4>
       <ul className="grid grid-cols-2 gap-x-5 gap-y-1.5">
         {[...allBanks]
@@ -240,7 +239,7 @@ export function ParagraphMatchView({
       <Stem question={question} />
 
       {question.anchor && (
-        <p className="mt-2.5 rounded-[10px] border-l-[3px] border-brand-line bg-brand-soft/50 px-3 py-2 text-[14px] leading-6 text-ink-soft">
+        <p className="mt-2.5 rounded-[5px] border-l-[3px] border-brand-line bg-brand-soft/50 px-3 py-2 text-[14px] leading-6 text-ink-soft">
           <span className="font-semibold text-brand-ink">定位锚点 </span>
           {question.anchor}
         </p>
@@ -260,15 +259,13 @@ export function ParagraphMatchView({
                 aria-pressed={isPicked}
                 aria-label={`段落 ${letter}`}
                 className={cn(
-                  'grid h-11 w-full place-items-center rounded-[10px] border text-[16px] font-bold transition sm:h-10',
+                  'grid h-10 w-full place-items-center rounded-[4px] text-[15px] font-bold transition sm:h-11',
                   'disabled:cursor-default',
-                  reveal && isAnswer && 'border-ok bg-ok text-white',
-                  isWrongPick && 'border-bad bg-bad text-white',
-                  !reveal && isPicked && 'border-brand bg-brand-solid text-white',
-                  !reveal &&
-                    !isPicked &&
-                    'border-line-strong bg-surface text-ink-soft hover:border-brand hover:bg-brand-soft',
-                  reveal && !isAnswer && !isWrongPick && 'border-line text-faint',
+                  reveal && isAnswer && 'bg-ok text-white',
+                  isWrongPick && 'bg-bad text-white',
+                  !reveal && isPicked && 'bg-brand-solid text-white',
+                  !reveal && !isPicked && 'bg-surface-sunken text-ink-soft hover:bg-brand-soft',
+                  reveal && !isAnswer && !isWrongPick && 'bg-surface-sunken text-faint',
                 )}
               >
                 {letter}
@@ -289,7 +286,7 @@ export function ParagraphMatchView({
  */
 function AnalysisBlock({ analysis }: { analysis: Question['analysis'] }) {
   return (
-    <div className="mt-4 rounded-[12px] border border-line bg-surface-sunken p-3.5">
+    <div className="mt-4 rounded-[6px] border border-line bg-surface-sunken p-3.5">
       <AnalysisList analysis={analysis} />
     </div>
   );

@@ -27,7 +27,7 @@ export default function Error({
         你的作答进度保存在本机，不受影响。可以先重试；若一直失败，把下面的错误信息发给我。
       </p>
       {error.message && (
-        <p className="mt-4 max-w-[60ch] break-all rounded-[10px] bg-surface-sunken px-3 py-2 text-[12.5px] text-faint">
+        <p className="mt-4 max-w-[60ch] break-all rounded-[5px] bg-surface-sunken px-3 py-2 text-[12.5px] text-faint">
           {error.message}
           {error.digest ? ` (${error.digest})` : ''}
         </p>

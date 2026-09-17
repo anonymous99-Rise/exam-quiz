@@ -57,7 +57,7 @@ export function SectionRunner({
           headerTopClass,
         )}
       >
-        <div className="mx-auto flex h-14 w-full max-w-[1120px] items-center gap-3">
+        <div className="flex h-14 w-full max-w-[1080px] items-center gap-3">
           {/*
            * 吸顶头的标题就是这一页的 h1。v3：15px → 18px ——
            * 实测旧值下它是全页最小的文字（比 15px 正文、16px 题干都小），
@@ -125,7 +125,7 @@ export function SectionRunner({
 
       {/* ── 底部常驻操作条（手机上是唯一可靠的切题方式）─────────────── */}
       <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/92 backdrop-blur-md">
-        <div className="mx-auto flex h-16 w-full max-w-[1120px] items-center gap-3 px-4 sm:px-5">
+        <div className="flex h-16 w-full max-w-[1080px] items-center gap-3 px-4 sm:px-5">
           <button
             type="button"
             onClick={() => r.move(-1)}

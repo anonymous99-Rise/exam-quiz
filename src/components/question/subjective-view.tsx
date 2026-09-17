@@ -29,7 +29,7 @@ export function SubjectiveView({
         <section className="card p-5">
           <h2 className="t-h2 mb-4 text-ink">Part I · Writing</h2>
 
-          <div className="rounded-[10px] border border-line bg-surface-sunken p-3.5">
+          <div className="rounded-[5px] border border-line bg-surface-sunken p-3.5">
             <h3 className="t-eyebrow mb-2">题目要求</h3>
             <p className="prose-en text-[15px] leading-7 whitespace-pre-wrap text-ink">
               {subjective.writing.directions}
@@ -68,7 +68,7 @@ export function SubjectiveView({
                     <h3 className="t-eyebrow mb-2">逐段拆解</h3>
                     <ol className="space-y-2.5">
                       {subjective.writing.outline.map((o) => (
-                        <li key={o.no} className="rounded-[10px] border border-line p-3">
+                        <li key={o.no} className="rounded-[5px] border border-line p-3">
                           <div className="mb-1.5 text-[12.5px] font-semibold text-muted">
                             第 {o.no} 段
                           </div>
@@ -88,7 +88,7 @@ export function SubjectiveView({
         <section className="card p-5">
           <h2 className="t-h2 mb-4 text-ink">Part II · Translation</h2>
 
-          <div className="rounded-[10px] border border-line bg-surface-sunken p-3.5">
+          <div className="rounded-[5px] border border-line bg-surface-sunken p-3.5">
             <h3 className="t-eyebrow mb-2">题目要求</h3>
             <p className="text-[15px] leading-6 whitespace-pre-wrap text-ink">
               {subjective.translation.directions}
@@ -127,7 +127,7 @@ export function SubjectiveView({
                   <h3 className="t-eyebrow mb-2">逐句解析</h3>
                   <ol className="space-y-2.5">
                     {subjective.translation.sentences.map((sent, i) => (
-                      <li key={i} className="rounded-[10px] border border-line p-3">
+                      <li key={i} className="rounded-[5px] border border-line p-3">
                         <div className="mb-1.5 text-[12.5px] font-semibold text-muted">
                           第 {i + 1} 句
                         </div>
@@ -219,7 +219,7 @@ function DraftBox({
         spellCheck={false}
         className={cn(
           // 200 词英文写作至少要 400px 高才不用一直滚（旧版 10 行 ≈ 300px）
-          'min-h-[300px] w-full resize-y rounded-[10px] border border-line bg-surface p-4 text-[16px] leading-7 text-ink sm:min-h-[420px]',
+          'min-h-[300px] w-full resize-y rounded-[5px] border border-line bg-surface p-4 text-[16px] leading-7 text-ink sm:min-h-[420px]',
           // 不要用 focus:outline-none —— 它在 utilities 层，会把 globals.css 里
           // @layer base 的 :focus-visible 焦点环整个吃掉，键盘用户看不到焦点
           'placeholder:text-faint focus:border-brand focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand',

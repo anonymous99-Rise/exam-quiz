@@ -50,7 +50,7 @@ export default async function PaperPage({
   ].filter(Boolean);
 
   return (
-    <main className="mx-auto w-full max-w-[1120px] px-4 pb-20 pt-8 sm:px-5">
+    <main className="shell w-full pb-20 pt-8">
       <nav aria-label="面包屑" className="t-small flex flex-wrap items-center gap-2 text-muted">
         <Link href="/" className="transition-colors hover:text-brand-ink">
           首页
@@ -106,8 +106,13 @@ export default async function PaperPage({
 
       {/* ── 各部分入口：整行可点 ────────────────────────────────────────── */}
       <section className="mt-9">
-        <h2 className="t-eyebrow mb-3.5">各部分入口</h2>
-        <div className="grid gap-3">
+        <h2 className="t-eyebrow section-rule mb-0">各部分入口</h2>
+        {/*
+          v4.1：入口从「满宽圆角卡 + 描边按钮」改成**细线列表行**。
+          评审原话：「5 张满宽圆角卡正是要拿掉的那种卡，让这一页和目录页像两个产品」。
+          行高 64px、上下 1px 细线、右端是朱红文字链接（hover 出下划线）。
+        */}
+        <div>
           {exam.sections.map((s) => {
             const qs = paper.questions.filter((q) => q.sectionId === s.id);
             const disabled = qs.length === 0;
@@ -115,21 +120,27 @@ export default async function PaperPage({
               <>
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="t-h3 text-ink transition-colors group-hover:text-brand-ink">
+                    <span className="text-[16.5px] font-semibold text-ink transition-colors group-hover:text-brand-ink">
                       {s.name}
                     </span>
                     {s.media !== 'none' && paper.assets?.audio && (
                       <span className="chip">含音频</span>
                     )}
                   </div>
-                  <div className="t-small mt-1 text-muted">
-                    {disabled
-                      ? '本套无此部分'
-                      : `${qs.length} 题 · 第 ${qs[0]?.no}–${qs[qs.length - 1]?.no} 题`}
+                  <div className="mt-0.5 text-[13px] text-muted">
+                    {disabled ? (
+                      '本套无此部分'
+                    ) : (
+                      <>
+                        <span className="display">{qs.length}</span> 题 · 第{' '}
+                        <span className="display">{qs[0]?.no}</span>–
+                        <span className="display">{qs[qs.length - 1]?.no}</span> 题
+                      </>
+                    )}
                   </div>
                 </div>
                 {!disabled && (
-                  <span className="shrink-0 rounded-control border border-line px-2.5 py-1 text-[13px] font-semibold text-ink-soft transition-colors group-hover:border-brand-line group-hover:text-brand-ink">
+                  <span className="shrink-0 text-[13.5px] font-semibold text-brand-ink underline-offset-4 group-hover:underline">
                     开始 →
                   </span>
                 )}
@@ -139,7 +150,7 @@ export default async function PaperPage({
             return disabled ? (
               <div
                 key={s.id}
-                className="card-flat flex min-h-[64px] items-center gap-4 px-4 py-3.5 opacity-55"
+                className="flex min-h-[64px] items-center gap-4 border-b border-line py-3.5 opacity-55"
               >
                 {row}
               </div>
@@ -147,7 +158,7 @@ export default async function PaperPage({
               <Link
                 key={s.id}
                 href={`/${examId}/${paperId}/${s.id}`}
-                className="card-flat group flex min-h-[64px] items-center gap-4 px-4 py-3.5 transition hover:border-brand-line hover:bg-white"
+                className="group flex min-h-[64px] items-center gap-4 border-b border-line py-3.5 transition-colors hover:bg-surface"
               >
                 {row}
               </Link>
@@ -157,18 +168,18 @@ export default async function PaperPage({
           {paper.subjective && (
             <Link
               href={`/${examId}/${paperId}/subjective`}
-              className="card-flat group flex min-h-[64px] items-center gap-4 px-4 py-3.5 transition hover:border-brand-line hover:bg-white"
+              className="group flex min-h-[64px] items-center gap-4 border-b border-line py-3.5 transition-colors hover:bg-surface"
             >
               <div className="min-w-0 flex-1">
-                <span className="t-h3 text-ink transition-colors group-hover:text-brand-ink">
+                <span className="text-[16.5px] font-semibold text-ink transition-colors group-hover:text-brand-ink">
                   写作与翻译
                 </span>
-                <div className="t-small mt-1 text-muted">
+                <div className="mt-0.5 text-[13px] text-muted">
                   {subjectiveKinds.join(' + ')}
                   {' · 参考范文 / 逐句解析'}
                 </div>
               </div>
-              <span className="shrink-0 rounded-control border border-line px-2.5 py-1 text-[13px] font-semibold text-ink-soft transition-colors group-hover:border-brand-line group-hover:text-brand-ink">
+              <span className="shrink-0 text-[13.5px] font-semibold text-brand-ink underline-offset-4 group-hover:underline">
                 开始 →
               </span>
             </Link>
@@ -176,40 +187,41 @@ export default async function PaperPage({
         </div>
       </section>
 
-      {/* ── 整卷模考：另一种模式（panel + 主按钮，不是又一个 section）────── */}
+      {/* ── 整卷模考：另一种模式（细线分区 + 墨色主按钮，不是又一个 section）────── */}
       {paper.questions.length > 0 && (
-        <section className="mt-10" aria-labelledby="mock-exam">
-          <div className="panel p-6 sm:p-7">
+        <section className="mt-12" aria-labelledby="mock-exam">
+          <div className="border-t border-line-strong pt-6">
             <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
               <div className="min-w-0">
-                <span className="chip chip-brand">整卷模考</span>
-                <h2 id="mock-exam" className="t-h2 mt-3.5 text-ink">
-                  一次做完整套 · {paper.questions.length} 题
+                <p className="t-eyebrow">另一种模式</p>
+                <h2 id="mock-exam" className="t-h2 mt-2 text-ink">
+                  整卷模考 · <span className="display">{paper.questions.length}</span> 题
                 </h2>
-                <p className="t-small mt-2 max-w-[56ch] text-muted">
+                <p className="mt-2 max-w-[56ch] text-[14px] leading-6 text-muted">
                   {durationMin} 分钟倒计时，答题卡可任意跳题；提交后按客观题折算，直接出成绩报告。
                 </p>
-                <div className="mt-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
+                <div className="mt-4 flex flex-wrap items-baseline gap-x-7 gap-y-2">
                   <div className="flex items-baseline gap-1.5">
-                    <span className="t-small text-muted">题量</span>
-                    <span className="t-num t-h3 text-ink">{paper.questions.length} 题</span>
+                    <span className="text-[13px] text-muted">题量</span>
+                    <span className="display text-[16px] font-semibold text-ink">
+                      {paper.questions.length}
+                    </span>
                   </div>
                   <div className="flex items-baseline gap-1.5">
-                    <span className="t-small text-muted">时长</span>
-                    <span className="t-num t-h3 text-ink">{durationMin} 分钟</span>
+                    <span className="text-[13px] text-muted">时长</span>
+                    <span className="display text-[16px] font-semibold text-ink">{durationMin} 分</span>
                   </div>
                   {exam.objectiveScore && (
                     <div className="flex items-baseline gap-1.5">
-                      <span className="t-small text-muted">客观题总分</span>
-                      <span className="t-num t-h3 text-ink">{exam.objectiveScore} 分</span>
+                      <span className="text-[13px] text-muted">客观题总分</span>
+                      <span className="display text-[16px] font-semibold text-ink">
+                        {exam.objectiveScore} 分
+                      </span>
                     </div>
                   )}
                 </div>
               </div>
-              <Link
-                href={`/${examId}/${paperId}/exam`}
-                className="btn btn-primary h-11 shrink-0 px-6 text-[15px]"
-              >
+              <Link href={`/${examId}/${paperId}/exam`} className="btn btn-primary shrink-0">
                 开始整卷模考
               </Link>
             </div>

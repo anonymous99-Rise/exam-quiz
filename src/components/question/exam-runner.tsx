@@ -160,7 +160,7 @@ export function ExamRunner({
         data-testid="runner-header"
         className="sticky top-14 z-10 -mx-4 mb-6 border-b border-line bg-surface/90 px-4 backdrop-blur-md sm:-mx-5 sm:px-5"
       >
-        <div className="mx-auto flex h-16 w-full max-w-[1120px] items-center gap-3">
+        <div className="flex h-16 w-full max-w-[1080px] items-center gap-3">
           <h1 className="min-w-0 flex-1 truncate text-[18px] font-bold tracking-tight text-ink">
             {title}
             <span className="ml-2 text-[14px] font-normal text-muted">整卷模考</span>
@@ -169,7 +169,7 @@ export function ExamRunner({
           {/* 倒计时：等宽数字 + 醒目尺寸；最后 5 分钟转成警示胶囊 */}
           <span
             className={cn(
-              'shrink-0 rounded-[10px] px-3 py-1.5 text-[19px] leading-none font-semibold tabular-nums',
+              'shrink-0 rounded-[5px] px-3 py-1.5 text-[19px] leading-none font-semibold tabular-nums',
               submitted && 'bg-surface-sunken text-ok-ink',
               !submitted && urgent && 'bg-bad-soft text-bad-ink',
               !submitted && !urgent && 'bg-surface-sunken text-ink',
@@ -211,7 +211,7 @@ export function ExamRunner({
       {/* 离开过考场（超时很久）时不擅自交卷，把选择权交回用户 */}
       {expiredLongAgo && !submitted && (
         <div className="mx-auto mb-6 w-full max-w-[1120px]">
-          <div className="rounded-[14px] border border-warn-line bg-warn-soft p-5">
+          <div className="rounded-[6px] border border-warn-line bg-warn-soft p-5">
             <p className="t-h3 text-warn">这一场已经超过考试时长</p>
             <p className="mt-2 text-[14px] leading-6 text-ink-soft">
               开考记录显示这一场已经超过 {durationMin} 分钟。已答的题都保留着，你可以选择重新计时

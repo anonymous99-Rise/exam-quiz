@@ -48,7 +48,7 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
   const flagged = entries.filter((p) => p.flags.length > 0);
 
   return (
-    <main className="mx-auto w-full max-w-[1120px] px-4 pb-20 pt-8 sm:px-5">
+    <main className="shell w-full pb-20 pt-8">
       <nav aria-label="面包屑" className="t-small flex items-center gap-2 text-muted">
         <Link href="/" className="transition-colors hover:text-brand-ink">
           首页

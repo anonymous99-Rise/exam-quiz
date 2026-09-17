@@ -37,7 +37,7 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
 
   return (
     <header className="sticky top-0 z-30 border-b border-line-strong bg-canvas/92 backdrop-blur-md">
-      <div className="mx-auto flex h-15 w-full max-w-[1040px] items-center gap-4 px-5 sm:px-8">
+      <div className="shell flex h-15 items-center gap-4">
         {/* 品牌：方角墨块 + 站名（编辑风里品牌是一枚「印记」，不做圆角胶囊） */}
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <span

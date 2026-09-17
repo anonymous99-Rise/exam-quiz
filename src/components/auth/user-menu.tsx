@@ -156,7 +156,7 @@ function UserMenuInner() {
           </div>
 
           {sync.status === 'error' && (
-            <div className="mb-2 rounded-[8px] bg-bad-soft px-2.5 py-2 text-[11.5px] leading-relaxed text-bad-ink">
+            <div className="mb-2 rounded-[4px] bg-bad-soft px-2.5 py-2 text-[11.5px] leading-relaxed text-bad-ink">
               <p>{reasonText(sync.reason)}</p>
               {sync.retryAt && (
                 <p className="mt-1 text-[11.5px] text-muted">
