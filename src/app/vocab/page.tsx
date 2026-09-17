@@ -77,9 +77,15 @@ export default function VocabPage() {
                     </>
                   ) : seenTotal > 0 ? (
                     <>
-                      今天没有到期的词。已掌握{' '}
-                      <b className="display font-semibold text-ok-ink">{masteredTotal}</b> 个，
-                      可以继续学新词。
+                      今天没有到期的词。已学{' '}
+                      <b className="display font-semibold text-ink">{seenTotal}</b> 个词
+                      {masteredTotal > 0 && (
+                        <>
+                          ，其中 <b className="display font-semibold text-ok-ink">{masteredTotal}</b> 个
+                          已进长期记忆
+                        </>
+                      )}
+                      ，可以继续学新词。
                     </>
                   ) : (
                     '还没有学习记录。挑一本词书开始，第一轮先过 20 个新词。'
