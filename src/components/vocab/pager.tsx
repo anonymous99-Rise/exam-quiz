@@ -154,7 +154,14 @@ export function StickyPager({
 }) {
   if (total <= 1) return null;
   return (
-    <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-canvas/95 px-4 py-2.5 backdrop-blur-md sm:hidden">
+    /*
+     * 半透明会把底下滚过的行「透」出来，看起来像被裁了一半（评审实测）。
+     * 改成完全不透明，并在上方加一条渐变把内容优雅地淡出；
+     * pb 里加 env(safe-area-inset-bottom) 让 iPhone 小横条不压住按钮。
+     */
+    <div className="fixed inset-x-0 bottom-0 z-20 sm:hidden">
+      <div aria-hidden className="h-6 bg-gradient-to-t from-canvas to-transparent" />
+      <div className="border-t border-line bg-canvas px-4 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))]">
       <div className="flex items-center justify-between gap-3">
         {/* 两侧同款胶囊（评审指出旧版左「‹」右「下一页」不对称，看不出是同一组控件） */}
         <button
@@ -180,6 +187,7 @@ export function StickyPager({
         </button>
       </div>
       <p className="mt-1 text-center text-[11.5px] text-faint">可左右滑动翻页</p>
+      </div>
     </div>
   );
 }

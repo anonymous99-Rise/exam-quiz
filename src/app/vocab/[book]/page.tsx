@@ -246,7 +246,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
   if (idxError) {
     const notFound = /404/.test(idxError);
     return (
-      <main className="shell w-full pt-10 pb-28 sm:pb-24">
+      <main className="shell w-full pt-10 pb-40 sm:pb-24">
         <p className="text-[15px] font-semibold text-ink">
           {notFound ? `没有「${bookId}」这本词书` : `词书「${bookId}」加载失败`}
         </p>
@@ -315,7 +315,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
             touch();
           }}
           aria-label="按词根或词缀筛选"
-          className="h-11 min-w-0 max-w-[280px] flex-1 rounded-[6px] border border-line-strong bg-surface px-3 text-[13.5px] text-ink focus:border-ink focus:outline-none"
+          className="h-11 min-w-[9rem] max-w-[15rem] flex-1 rounded-[6px] border border-line-strong bg-surface px-3 text-[13.5px] text-ink focus:border-ink focus:outline-none"
         >
           <option value="">全部（不按词根词缀筛）</option>
           <optgroup label="前缀（否定、重复、方向…）">
@@ -584,8 +584,13 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
             </p>
 
             <div className="flex flex-wrap items-center gap-2">
+              {/*
+                移动端隐藏这一组翻页按钮：底部已有吸底翻页条，两套并存会被当成 bug
+                （评审实测「同一页面同时存在两套翻页控件」）。
+                顶部只留页码信息与每页密度，翻页动作统一交给吸底条 + 左右滑动。
+              */}
               {totalPages > 1 && (
-                <div className="flex items-center gap-1.5">
+                <div className="hidden items-center gap-1.5 sm:flex">
                   <button
                     type="button"
                     onClick={() => goPage(safePage - 1)}
