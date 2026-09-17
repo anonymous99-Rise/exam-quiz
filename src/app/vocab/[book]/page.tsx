@@ -32,7 +32,7 @@ import { cn } from '@/lib/utils';
    ========================================================================== */
 
 type StateFilter = 'all' | 'fresh' | 'due' | 'mastered';
-type SortKey = 'order' | 'random' | 'diff' | 'alpha';
+type SortKey = 'exam' | 'order' | 'random' | 'diff' | 'alpha';
 
 const STATE_FILTERS: { id: StateFilter; label: string }[] = [
   { id: 'all', label: '全部' },
@@ -42,6 +42,8 @@ const STATE_FILTERS: { id: StateFilter; label: string }[] = [
 ];
 
 const SORTS: { id: SortKey; label: string }[] = [
+  /* 默认「真题优先」：书内顺序≈字母序，先背 abandon 对备考没有意义 */
+  { id: 'exam', label: '真题优先' },
   { id: 'order', label: '书内顺序' },
   { id: 'random', label: '随机' },
   { id: 'diff', label: '按难度' },
@@ -105,7 +107,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
 
   /* ── 查询条件 ───────────────────────────────────────────────────────── */
   const [state, setState] = useState<StateFilter>('all');
-  const [sorts, setSort] = useState<SortKey>('order');
+  const [sorts, setSort] = useState<SortKey>('exam');
   const [seed, setSeed] = useState(20260101);
   const [poses, setPoses] = useState<string[]>([]);
   const [diffs, setDiffs] = useState<number[]>([]);
@@ -177,6 +179,8 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
 
   /* ── 排序（随机带种子） ─────────────────────────────────────────────── */
   const sorted = useMemo(() => {
+    /* 真题优先：list.json 已按分数排好，这里显式再排一次（过滤后仍保证顺序） */
+    if (sorts === 'exam') return [...filtered].sort((a, b) => (b.x ?? 0) - (a.x ?? 0) || a.r - b.r);
     if (sorts === 'random') return seededShuffle(filtered, seed);
     if (sorts === 'alpha') return [...filtered].sort((a, b) => a.w.localeCompare(b.w));
     if (sorts === 'diff') return [...filtered].sort((a, b) => a.d - b.d || a.r - b.r);
@@ -211,7 +215,7 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
     setDiffs([]);
     setAffix('');
     setQ('');
-    setSort('order');
+    setSort('exam');
     touch();
   };
 
@@ -621,6 +625,20 @@ function WordRow({
         </span>
 
         <span className="col-span-2 min-w-0 text-[13px] text-muted sm:col-span-1">
+          {/* 真题标记：让「真题优先」这条排序规则可见、可解释 */}
+          {entry.c ? (
+            <span
+              className={cn(
+                'mr-1.5 inline-block rounded-[3px] px-1.5 py-0.5 text-[11.5px]',
+                (entry.x ?? 0) >= 6
+                  ? 'bg-brand-soft text-brand-ink'
+                  : 'bg-surface-sunken text-muted',
+              )}
+              title={`在站内真题里出现过 ${entry.c} 套`}
+            >
+              真题 ×{entry.c}
+            </span>
+          ) : null}
           {entry.p && <span className="display mr-1.5 text-[12.5px] text-faint sm:hidden">/{entry.p}/</span>}
           {entry.t.length > 0 && (
             <span className="mr-1.5 text-[12px] text-brand-ink">{entry.t.join('/')}.</span>

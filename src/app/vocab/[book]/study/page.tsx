@@ -15,7 +15,14 @@ import {
   WordFamilyBlock,
 } from '@/components/vocab/word-blocks';
 import { fetchRefs, fetchShard, useBookIndex, useBookList } from '@/lib/vocab/client';
-import { grade as gradeWord, intervalLabel, type Grade, type WordEntry } from '@/lib/vocab/srs';
+import {
+  grade as gradeWord,
+  intervalLabel,
+  orderFresh,
+  type FreshOrder,
+  type Grade,
+  type WordEntry,
+} from '@/lib/vocab/srs';
 import { cn } from '@/lib/utils';
 
 type Queue = { review: number[]; fresh: number[] };
@@ -40,6 +47,14 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
   const vocab = useProgress((s) => s.vocab);
   const gradeStore = useProgress((s) => s.gradeWord);
 
+  /**
+   * 新词排序方式：默认「真题优先」。
+   * 书内顺序≈字母序，先背 abandon/abnormal 对备考没有意义；
+   * 真题优先按「出现套数 × 是否有真题例句」排，六级 69% 的词有依据。
+   */
+  const [mode, setMode] = useState<FreshOrder>('exam');
+  /** 切换排序时 +1，用来触发队列重建（state 变更都发生在事件处理器里） */
+  const [nonce, setNonce] = useState(0);
   const [queue, setQueue] = useState<Queue | null>(null);
   const [pos, setPos] = useState(0);
   /** 当前卡片是否已翻面 */
@@ -68,21 +83,27 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
     buildRef.current = true;
     const now = Date.now();
     const review: number[] = [];
-    const fresh: number[] = [];
+    const freshEntries: { r: number; x?: number }[] = [];
+    /* rank → 单词：list.json 是按真题分排序的，**位置不再等于题号**，必须建映射 */
+    const wordOfRank = new Map<number, string>();
     for (const e of list) {
+      wordOfRank.set(e.r, e.w.toLowerCase());
       const st = progress[e.w.toLowerCase()];
-      if (!st) fresh.push(e.r);
+      if (!st) freshEntries.push({ r: e.r, x: e.x });
       else if (st.d <= now) review.push(e.r);
     }
+    // 新词按所选方式排序（真题优先 / 书内顺序 / 随机）
+    const fresh = orderFresh(freshEntries, mode, 20260201).slice(0, NEW_LIMIT);
     // 到期越久越先还
     review.sort((a, b) => {
-      const sa = progress[list[a - 1]?.w?.toLowerCase() ?? '']?.d ?? 0;
-      const sb = progress[list[b - 1]?.w?.toLowerCase() ?? '']?.d ?? 0;
+      const sa = progress[wordOfRank.get(a) ?? '']?.d ?? 0;
+      const sb = progress[wordOfRank.get(b) ?? '']?.d ?? 0;
       return sa - sb;
     });
-    setQueue({ review: review.slice(0, REVIEW_LIMIT), fresh: fresh.slice(0, NEW_LIMIT) });
+    setQueue({ review: review.slice(0, REVIEW_LIMIT), fresh });
     setDone(review.length === 0 && fresh.length === 0);
-  }, [hydrated, list, progress]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hydrated, list, progress, nonce]);
 
   /* 队列展开成有序的 rank 列表：先复习后新词 */
   const order = useMemo(() => {
@@ -128,6 +149,17 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
     if (!rank || !needFile) return null;
     return shards[needFile]?.find((w) => w.rank === rank) ?? null;
   }, [order, pos, needFile, shards]);
+
+  const changeMode = (m: FreshOrder) => {
+    setMode(m);
+    buildRef.current = false; // 允许重建队列
+    setQueue(null);
+    setPos(0);
+    setFlipped(false);
+    setTally({ again: 0, good: 0, easy: 0 });
+    setDone(false);
+    setNonce((n) => n + 1);
+  };
 
   const advance = useCallback(() => {
     setFlipped(false);
@@ -217,6 +249,40 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
             <span className="display">{pos + 1}</span> /{' '}
             <span className="display">{order.length}</span>
           </span>
+        </div>
+      )}
+
+      {/* 新词排序方式：默认真题优先，可切成书内顺序或随机 */}
+      {!finished && (
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <span className="text-[12.5px] text-faint">新词顺序</span>
+          {(
+            [
+              ['exam', '真题优先'],
+              ['book', '书内顺序'],
+              ['random', '随机'],
+            ] as const
+          ).map(([m, label]) => (
+            <button
+              key={m}
+              type="button"
+              onClick={() => changeMode(m)}
+              aria-pressed={mode === m}
+              className={cn(
+                'rounded-full px-2.5 py-1 text-[12.5px] transition-colors',
+                mode === m
+                  ? 'bg-ink font-semibold text-white'
+                  : 'text-muted hover:bg-surface-hover hover:text-ink',
+              )}
+            >
+              {label}
+            </button>
+          ))}
+          {mode === 'exam' && (
+            <span className="text-[12px] text-faint">
+              按「在真题里出现的套数」排，没出现过的词排在后面
+            </span>
+          )}
         </div>
       )}
 

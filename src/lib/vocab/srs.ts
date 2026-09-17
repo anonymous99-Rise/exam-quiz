@@ -61,6 +61,10 @@ export type ListEntry = {
   d: number;
   /** 命中的词根词缀，如 ['un-','-tion','spect'] */
   af: string[];
+  /** 真题优先分：min(出现套数,8)×2 + (有真题例句?2:0)，由 vocab-priority.mjs 计算 */
+  x?: number;
+  /** 在站内真题里出现过的套数（0 = 没查到，展示用） */
+  c?: number;
 };
 
 /** 难度分层（口径写死在 UI 上） */
@@ -123,7 +127,62 @@ export type WordEntry = {
   star?: number;
   /** 发音用的词形 */
   sp?: string;
+  /** 真题优先分（见 ListEntry.x） */
+  x?: number;
+  /** 出现套数 */
+  c?: number;
 };
+
+/** 新词的排序方式 */
+export type FreshOrder = 'exam' | 'book' | 'random';
+
+/**
+ * 给一批新词排序（纯函数，便于单测）
+ *
+ * exam   —— 真题优先：按 x 降序（没真题信号的词自动排到最后，保持书内顺序）
+ * book   —— 书内顺序
+ * random —— 带种子洗牌（同一批结果一致）
+ */
+export function orderFresh(
+  entries: { r: number; x?: number }[],
+  mode: FreshOrder,
+  seed = 1,
+): number[] {
+  /*
+   * 书内顺序：**必须显式按 r 排**。
+   * 踩过的坑：list.json 现在按真题分降序存（默认排序就是真题优先），
+   * 于是「入参顺序 = 书内顺序」这个假设不成立 —— 切到「书内顺序」时首词
+   * 还是 achieve 而不是 abandonment，用户以为没生效。
+   */
+  if (mode === 'book') return entries.slice().sort((a, b) => a.r - b.r).map((e) => e.r);
+  if (mode === 'random') {
+    const rnd = mulberry32(seed);
+    const out = entries.slice();
+    for (let i = out.length - 1; i > 0; i--) {
+      const j = Math.floor(rnd() * (i + 1));
+      const t = out[i]!;
+      out[i] = out[j]!;
+      out[j] = t;
+    }
+    return out.map((e) => e.r);
+  }
+  return entries
+    .slice()
+    .sort((a, b) => (b.x ?? 0) - (a.x ?? 0) || a.r - b.r)
+    .map((e) => e.r);
+}
+
+/** mulberry32：小、快、种子稳定 */
+function mulberry32(seed: number) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
 
 /** 三档评价 */
 export type Grade = 'again' | 'good' | 'easy';
