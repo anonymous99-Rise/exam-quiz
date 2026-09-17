@@ -1485,7 +1485,7 @@
       "no": 27,
       "sectionId": "cloze",
       "passageId": "cloze",
-      "stem": "a schizophrenic\\(",
+      "stem": "The woman, who later turned out to be a schizophrenic without __(27)__ to her medications.",
       "answer": "A",
       "answerText": "access",
       "analysis": [

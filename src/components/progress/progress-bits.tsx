@@ -33,6 +33,16 @@ export function PaperProgress({
   const pct = hydrated && stats.total ? (stats.done / stats.total) * 100 : 0;
   const finished = hydrated && stats.total > 0 && stats.done === stats.total;
   const started = hydrated && stats.done > 0 && !finished;
+  /** 一题没做：画一条空轨道等于「加载未完成」的观感，直接给文案 */
+  const untouched = hydrated && stats.done === 0;
+
+  if (untouched) {
+    return (
+      <div className={cn('flex flex-wrap items-center gap-x-2.5 gap-y-1.5', className)}>
+        <span className="chip">{stats.total} 题 · 未开始</span>
+      </div>
+    );
+  }
 
   return (
     <div className={cn('flex flex-wrap items-center gap-x-2.5 gap-y-1.5', className)}>

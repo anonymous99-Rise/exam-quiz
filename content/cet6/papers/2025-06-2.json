@@ -2238,7 +2238,7 @@
       "no": 34,
       "sectionId": "cloze",
       "passageId": "cloze",
-      "stem": "The fibers support the cell's membranes(",
+      "stem": "The fibers support the cell's membranes and proteins, preventing them from breaking or __(34)__.",
       "answer": "O",
       "answerText": "unfolding",
       "analysis": [

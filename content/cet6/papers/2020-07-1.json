@@ -2242,7 +2242,7 @@
       "no": 34,
       "sectionId": "cloze",
       "passageId": "cloze",
-      "stem": "use the concept of \"triage(",
+      "stem": "Second, we need relentless focus, just like when paramedics arrive on a scene and use the concept of \"triage\" to ensure the most __(34)__ cases get treated first",
       "answer": "O",
       "answerText": "urgent",
       "analysis": [

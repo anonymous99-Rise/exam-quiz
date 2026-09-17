@@ -1707,7 +1707,7 @@
       "no": 29,
       "sectionId": "cloze",
       "passageId": "cloze",
-      "stem": "The pandemic(",
+      "stem": "The pandemic will take lives, economies and __(29)__ destroy routines, but it will pass.",
       "answer": "J",
       "answerText": "strangle",
       "analysis": [

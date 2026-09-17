@@ -142,7 +142,7 @@ export function WordBankView({
         旧版桌面端 sm:grid-cols-8 → 15 个字母排成 8+7 两行，右边缺一格，看着像没对齐；
         5×3 正好整除，且整块宽度收在 26rem 内，不再是通栏一大片。
       */}
-      <ul className="mt-3.5 grid w-full max-w-[26rem] grid-cols-5 gap-2">
+      <ul className="mt-3.5 grid w-full max-w-[17.5rem] grid-cols-5 gap-2">
         {letters.map((letter) => {
           const isAnswer = letter === question.answer;
           const isPicked = selected === letter;

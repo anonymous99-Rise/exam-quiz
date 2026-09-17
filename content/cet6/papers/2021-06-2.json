@@ -1378,7 +1378,7 @@
       "no": 26,
       "sectionId": "cloze",
       "passageId": "cloze",
-      "stem": "It was quite a , given where she had been two years earlier.",
+      "stem": "It was quite a __(26)__, given where she had been two years earlier.",
       "answer": "O",
       "answerText": "ultimately",
       "analysis": [

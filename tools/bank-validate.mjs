@@ -189,6 +189,23 @@ for (const examId of exams) {
       }
     }
 
+    /*
+     * 选词填空：题干必须含**自己的**空位 `__(no)__`。
+     * 不含说明抽取器把句子切断了 —— 实测 400 题里 7 题有此病，最典型的是
+     *   2020-07-1#34 题干 = `use the concept of "triage(`（引号括号都没闭合）
+     * 根因是原文里的中文注音 `"triage(伤员鉴别分类)"` 把句子切了。
+     * 修复脚本：tools/fix-cloze-stems.mjs（能自动定位的）+ fix-cloze-stems-manual.mjs
+     * （空位被注音吞掉、需按答案与解析人工定位的 5 条）。此处为回归守卫。
+     */
+    for (const q of paper.questions) {
+      if (q.kind !== 'word-bank') continue;
+      if (!new RegExp(`_{2,}\\s*\\(\\s*${q.no}\\s*\\)\\s*_{2,}`).test(q.stem ?? '')) {
+        warn(
+          `${examId}/${id}#${q.no}: 选词填空题干不含自己的空位 __(${q.no})__，疑被截断「${(q.stem ?? '').slice(-40)}」`,
+        );
+      }
+    }
+
     // flags 与实测一致性抽查
     if (paper.questions.length === 0 && !paper.flags.includes('incomplete')) {
       warn(`${examId}/${id}: 空卷但 flags 未标 incomplete`);

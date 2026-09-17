@@ -149,15 +149,23 @@ export default async function ExamPage({ params }: { params: Promise<{ exam: str
           aria-label="按年份跳转"
           className="sticky top-14 z-20 -mx-4 mt-12 border-b border-line bg-canvas/85 px-4 backdrop-blur-md sm:-mx-5 sm:px-5"
         >
-          <ul className="-mx-1 flex items-stretch gap-0.5 overflow-x-auto">
+          {/*
+            年份锚点（v3.3）：从「裸数字 + 透明下边框」改成**真胶囊**。
+            旧版实测 70×44 的点击区里只有 `2018 1` 一行小字、没有底色也没有选中态，
+            视觉评审原话「像渲染失败的文本行」。现在有底色、圆角、计数徽标，
+            并在窄屏保持横向滚动而不是换行。
+          */}
+          <ul className="-mx-1 flex items-center gap-1.5 overflow-x-auto px-1 py-2">
             {years.map(({ year, papers }) => (
               <li key={year} className="shrink-0">
                 <a
                   href={`#year-${year}`}
-                  className="flex min-h-11 items-center gap-1.5 border-b-2 border-transparent px-3 text-[14px] font-medium text-muted transition-colors hover:bg-surface-hover hover:text-ink focus-visible:border-brand active:bg-surface-hover"
+                  className="flex min-h-9 items-center gap-1.5 rounded-full bg-surface-sunken px-3 text-[14px] font-medium text-ink-soft transition-colors hover:bg-brand-soft hover:text-brand-ink"
                 >
                   {year}
-                  <span className="t-num text-[12.5px] font-normal text-faint">{papers.length}</span>
+                  <span className="t-num rounded-full bg-surface px-1.5 text-[12px] font-semibold text-muted">
+                    {papers.length}
+                  </span>
                 </a>
               </li>
             ))}
