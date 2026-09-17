@@ -12,6 +12,7 @@ dist/
 
 # Vercel 项目关联（本机私有）
 .vercel/
+.vercel
 
 # 临时诊断脚本
 tmp/
@@ -32,13 +33,18 @@ tmp/
 Thumbs.db
 *.log
 
-# 本地听力 mp3（267MB，由 tools/assets-audio.mjs --copy 生成；M9 改走对象存储）
-public/audio/
+# 听力 mp3
+# ---------------------------------------------------------------------------
+# 7 个在 Supabase Storage；剩下 2 个 66/68MB 超过 Supabase 免费项目的单文件上限，
+# 改由**仓库自带**（Vercel 静态资源同样支持 Range）。
+#
+# 必须写 `public/audio/*` 而不是 `public/audio/`：目录被整体排除后，
+# 后面的反排除对它内部的文件不生效（gitignore 规范：parent directory excluded
+# 时无法再 re-include 子文件）。
+public/audio/*
+!public/audio/cet6-2022-09-1.mp3
+!public/audio/cet6-2024-12-1.mp3
 
-.vercel
-.env*
-
-# Playwright ����
+# Playwright 产物
 test-results/
 playwright-report/
-

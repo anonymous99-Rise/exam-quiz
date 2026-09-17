@@ -8,8 +8,17 @@
 .sources/
 .candidates/
 
-# 本地听力 mp3（267MB，线上走 HLS 或对象存储）
-public/audio/
+# 听力 mp3
+# ---------------------------------------------------------------------------
+# 9 个 mp3 里有 7 个在 Supabase Storage；剩下 2 个（66/68MB）超过 Supabase 免费项目
+# 的单文件上限，改走**仓库 + 部署包**自带。
+#
+# 注意必须写成 `public/audio/*` 而不是 `public/audio/`：
+# gitignore 语义下目录被整体排除后，后面的 `!` 反排除对它内部的文件不生效
+# （"It is not possible to re-include a file if a parent directory of that file is excluded"）。
+public/audio/*
+!public/audio/cet6-2022-09-1.mp3
+!public/audio/cet6-2024-12-1.mp3
 
 # 构建产物与依赖
 .next/
