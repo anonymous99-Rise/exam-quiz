@@ -171,7 +171,12 @@ export default function StudyPage({ params }: { params: Promise<{ book: string }
     (g: Grade) => {
       if (!card) return;
       const prev = progress[card.w.toLowerCase()];
-      gradeStore(bookId, card.w, gradeWord(prev, g));
+      /*
+       * isNew：只有这个词此前完全没学过才算「新学」。
+       * 由调用方判断而不是 store 内部猜 —— store 只看得到「要写入的新状态」，
+       * 分不清这是一次新学还是一次复习。
+       */
+      gradeStore(bookId, card.w, gradeWord(prev, g), !prev);
       setTally((t) => ({ ...t, [g]: t[g] + 1 }));
       if (pos + 1 >= order.length) setDone(true);
       else advance();

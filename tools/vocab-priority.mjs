@@ -10,8 +10,15 @@
  *      六级覆盖 2775/5651（49%）
  * 两个信号取并：有真题例句说明这个词被考过；出现套数越多说明越常考。
  *
- * 打分（越小越好背 → 分数越大越该先背）：
+ * 打分（分数越大越该先背）：
  *   x = min(出现套数, 8) × 2 + (有真题例句 ? 2 : 0)
+ *
+ * 「出现套数」= **两个来源取并集去重**：
+ *   · refs.json —— 站内真题（可点击跳转）
+ *   · exs[].src  —— 上游真题例句自带的出处（如「2017.6 · 第三套 · 阅读理解」）
+ *     四级没有站内题库，全靠这一路信号；不并进来的话四级每个词的分数都一样，
+ *     「真题优先」就等于没排。
+ *
  * 例：出现在 8 套且带真题例句 = 18（最高档）；只出现 1 套 = 2；没出现过 = 0
  *
  * 产出：把 x（分数）与 c（出现套数）写进每个分片的词条，以及 list.json 的每行。
@@ -53,16 +60,33 @@ for (const bookId of books) {
     const rows = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
     for (const e of rows) {
       const key = e.w.toLowerCase();
-      const c = Math.min(8, refs[e.w]?.length ?? 0);
+      /*
+       * 出现过的套数：站内 refs ∪ 上游真题例句的出处。
+       * 上游出处写作「2017.6 · 第三套 · 阅读理解」，归一成 2017-6-3 去重 ——
+       * 同一套卷的听力与阅读题算一套，不能因为出现两次就翻倍。
+       */
+      const papers = new Set(refs[e.w] ?? []);
+      let inSite = refs[e.w]?.length ?? 0;
+      for (const ex of e.exs ?? []) {
+        const m = /^(\d{4})\.(\d{1,2})\s*·\s*第?([一二三四五六]|\d)?/.exec(ex.src ?? '');
+        if (!m) continue;
+        const paperNo = { 一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6 }[m[3] ?? ''] ?? Number(m[3] ?? 1) ?? 1;
+        papers.add(`${m[1]}-${String(m[2]).padStart(2, '0')}-${paperNo}`);
+      }
+      const c = Math.min(8, papers.size);
       const hasExamSentence = (e.exs?.length ?? 0) > 0;
       const x = c * 2 + (hasExamSentence ? 2 : 0);
       /* 幂等：能写也能删（x=0 时删字段，避免上一轮的旧分残留） */
       if (x > 0) {
         e.x = x;
         e.c = c;
+        /* 站内套数单独记：详情页要说清「其中 N 套能在本站点开」 */
+        if (inSite > 0) e.cs = inSite;
+        else delete e.cs;
       } else {
         delete e.x;
         delete e.c;
+        delete e.cs;
       }
       if (x >= 6) hot++;
       else if (x > 0) warm++;
@@ -73,9 +97,12 @@ for (const bookId of books) {
         if (x > 0) {
           row.x = x;
           row.c = c;
+          if (inSite > 0) row.cs = inSite;
+          else delete row.cs;
         } else {
           delete row.x;
           delete row.c;
+          delete row.cs;
         }
       }
     }

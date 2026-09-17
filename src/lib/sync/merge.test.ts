@@ -21,6 +21,8 @@ const S = (over: Partial<ProgressState> = {}): ProgressState => ({
   submitted: {},
   examStarted: {},
   vocab: {},
+  vocabDays: {},
+  vocabGoal: 20,
   ...over,
 });
 

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 
 import { BookRow } from '@/components/vocab/book-row';
+import { DailyPlan } from '@/components/vocab/daily-plan';
 import { ForgettingCurve, ReviewForecast } from '@/components/vocab/forgetting-curve';
 import { useProgress } from '@/lib/progress/store';
 import { useProgressHydrated } from '@/lib/progress/use-hydrated';
@@ -83,43 +84,8 @@ export default function VocabPage() {
 
       {!loading && !error && root && (
         <>
-          {/* 今日待复习 */}
-          <section className="mt-10">
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 rounded-[6px] border border-line bg-surface px-5 py-4">
-              <div className="min-w-0 flex-1">
-                <p className="t-eyebrow">今日复习</p>
-                <p className="mt-1 text-[15px] text-muted">
-                  {!hydrated ? (
-                    '正在读取本机进度…'
-                  ) : dueTotal > 0 ? (
-                    <>
-                      <b className="display text-[20px] font-semibold text-brand-ink">{dueTotal}</b>{' '}
-                      个词到期了 —— 先还旧账，再学新词记得更牢。
-                    </>
-                  ) : seenTotal > 0 ? (
-                    <>
-                      今天没有到期的词。已学{' '}
-                      <b className="display font-semibold text-ink">{seenTotal}</b> 个词
-                      {masteredTotal > 0 && (
-                        <>
-                          ，其中 <b className="display font-semibold text-ok-ink">{masteredTotal}</b> 个
-                          已进长期记忆
-                        </>
-                      )}
-                      ，可以继续学新词。
-                    </>
-                  ) : (
-                    '还没有学习记录。挑一本词书开始，第一轮先过 20 个新词。'
-                  )}
-                </p>
-              </div>
-              {hydrated && (dueTotal > 0 || seenTotal === 0) && (
-                <Link href="/vocab/cet6/study" className="btn btn-primary shrink-0">
-                  {dueTotal > 0 ? `复习 ${dueTotal} 个词` : '开始学习'}
-                </Link>
-              )}
-            </div>
-          </section>
+          {/* 今日计划 + 打卡（把原来的「今日复习」条升级成可打卡的每日计划） */}
+          <DailyPlan className="mt-10" dueTotal={dueTotal} studyHref="/vocab/cet6/study" />
 
           {/* ── 艾宾浩斯：复习节律 ─────────────────────────────────────
               遗忘曲线光讲概念没用，得让用户看到「我有多少个词落在哪个节点上」，

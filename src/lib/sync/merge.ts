@@ -174,6 +174,20 @@ export function mergeProgress(local: ProgressState, remote: ProgressState): Prog
     if (better) vocab[k] = lo;
   }
 
+  /*
+   * 每日打卡：两台设备同一天各学了一些时，**取各自的最大值**而不是相加 ——
+   * 相加会把同一批词算两遍（两端同步到的往往是同一段学习的两个快照），
+   * 取最大值只会少算，不会虚高；打卡记录少算一点比虚报好。
+   */
+  const vocabDays: ProgressState['vocabDays'] = { ...(remote.vocabDays ?? {}) };
+  for (const [k, lv] of Object.entries(local.vocabDays ?? {})) {
+    const rv = vocabDays[k];
+    if (!rv) vocabDays[k] = lv;
+    else vocabDays[k] = { n: Math.max(lv.n, rv.n), r: Math.max(lv.r, rv.r) };
+  }
+  /* 目标取「更明确」的那个：本地显式设过就用本地的 */
+  const vocabGoal = local.vocabGoal || remote.vocabGoal || 20;
+
   return {
     answers,
     wrong,
@@ -186,6 +200,8 @@ export function mergeProgress(local: ProgressState, remote: ProgressState): Prog
     submitted,
     examStarted,
     vocab,
+    vocabDays,
+    vocabGoal,
   };
 }
 

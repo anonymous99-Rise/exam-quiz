@@ -243,7 +243,13 @@ export default function WordPage({ params }: { params: Promise<{ book: string; w
             {hits.length > 0 ? (
               <>
                 <p className="mt-2.5 text-[13.5px] leading-6 text-muted">
-                  这个词在站内 <b className="display text-ink">{hits.length}</b> 套真题的原文或题干里出现过：
+                  这个词在站内 <b className="display text-ink">{hits.length}</b> 套真题的原文或题干里出现过
+                  {entry?.c && entry.c > hits.length && (
+                    <span className="text-faint">
+                      （累计考过 {entry.c} 套，其余出处来自上游题库）
+                    </span>
+                  )}
+                  ：
                 </p>
                 <ul className="mt-2.5 flex flex-wrap gap-1.5">
                   {hits.slice(0, 8).map((p) => (

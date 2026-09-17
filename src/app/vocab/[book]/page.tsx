@@ -739,7 +739,11 @@ function WordRow({
                   ? 'bg-brand-soft text-brand-ink'
                   : 'bg-surface-sunken text-muted',
               )}
-              title={`在站内真题里出现过 ${entry.c} 套`}
+              title={
+                entry.cs
+                  ? `在真题里出现过 ${entry.c} 套，其中 ${entry.cs} 套可在本站点开`
+                  : `在真题里出现过 ${entry.c} 套（出处来自上游题库，本站暂无对应试卷）`
+              }
             >
               真题 ×{entry.c}
             </span>

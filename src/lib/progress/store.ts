@@ -87,6 +87,14 @@ export type ProgressState = {
    * 嵌一层就要改合并代码，扁平键直接复用现有全部机制（LWW + 墓碑）。
    */
   vocab: Record<string, VocabWordState>;
+  /**
+   * 每日打卡：'YYYY-MM-DD' → { n: 新学词数, r: 复习词数 }。
+   * 存"每天学了多少"而不是只存一个连续天数：这样连续天数、周视图、
+   * 目标完成度都能从同一份数据推导出来，换设备也不会因为时区/跨天把记录算错。
+   */
+  vocabDays: Record<string, { n: number; r: number }>;
+  /** 每日新词目标（10/20/30/50），0 表示不设目标 */
+  vocabGoal: number;
 };
 
 export type ProgressActions = {
@@ -101,8 +109,14 @@ export type ProgressActions = {
   clearSubmitted: (paperKey: string) => void;
   /** 记下开考时间（整卷模考计时用；已记过则不覆盖） */
   markExamStarted: (paperKey: string) => void;
-  /** 词汇：给某个词打分并写入下一档状态（key = `${bookId}:${word}`） */
-  gradeWord: (bookId: string, word: string, next: VocabWordState) => void;
+  /**
+   * 词汇：给某个词打分并写入下一档状态（key = `${bookId}:${word}`）。
+   * isNew 由调用方给出（它才知道这个词此前有没有学过）—— 存进当天记录，
+   * 于是「今日新学 X 个 / 复习 Y 个」不需要遍历全部词条去反推。
+   */
+  gradeWord: (bookId: string, word: string, next: VocabWordState, isNew?: boolean) => void;
+  /** 设置每日新词目标 */
+  setVocabGoal: (goal: number) => void;
   /** 词汇：清空某本书的学习记录（词表数据不动） */
   clearBook: (bookId: string) => void;
   /** 清空某一套卷的作答与错题（收藏保留），用于「重做本卷」 */
@@ -127,6 +141,8 @@ const EMPTY: ProgressState = {
   submitted: {},
   examStarted: {},
   vocab: {},
+  vocabDays: {},
+  vocabGoal: 20,
 };
 
 /** `cet6/2025-06-1#13` */
@@ -265,8 +281,24 @@ export const useProgress = create<ProgressState & ProgressActions>()(
         });
       },
 
-      gradeWord: (bookId, word, next) =>
-        set((s) => ({ vocab: { ...s.vocab, [`${bookId}:${word.toLowerCase()}`]: next } })),
+      gradeWord: (bookId, word, next, isNew) =>
+        set((s) => {
+          const key = `${bookId}:${word.toLowerCase()}`;
+          // 当天记录：用本地日期（不能用 toISOString 的 UTC，晚上 8 点后会记到明天）
+          const d = new Date();
+          const p = (x: number) => String(x).padStart(2, '0');
+          const day = `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+          const today = s.vocabDays[day] ?? { n: 0, r: 0 };
+          return {
+            vocab: { ...s.vocab, [key]: next },
+            vocabDays: {
+              ...s.vocabDays,
+              [day]: { n: today.n + (isNew ? 1 : 0), r: today.r + (isNew ? 0 : 1) },
+            },
+          };
+        }),
+
+      setVocabGoal: (goal) => set({ vocabGoal: Math.max(0, Math.min(200, Math.round(goal))) }),
 
       clearBook: (bookId) =>
         set((s) => ({
@@ -283,7 +315,7 @@ export const useProgress = create<ProgressState & ProgressActions>()(
       name: 'examquiz.progress.v1',
       // v2：fav 由 `1` 改为时间戳，并新增 off / draftAt / positionAt（云同步的判据）
       // v3：新增 examStarted（整卷开考时间，刷新不再重置倒计时）
-      version: 4,
+      version: 5,
       storage: createJSONStorage(() => localStorage),
       migrate: (persisted, version) => {
         const old = (persisted ?? {}) as Partial<ProgressState>;
@@ -307,6 +339,8 @@ export const useProgress = create<ProgressState & ProgressActions>()(
         submitted: s.submitted,
         examStarted: s.examStarted,
         vocab: s.vocab,
+        vocabDays: s.vocabDays,
+        vocabGoal: s.vocabGoal,
       }),
     },
   ),

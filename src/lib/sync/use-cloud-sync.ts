@@ -54,6 +54,8 @@ export function snapshotOf(s: ProgressState): ProgressState {
     submitted: s.submitted ?? {},
     examStarted: s.examStarted ?? {},
     vocab: s.vocab ?? {},
+    vocabDays: s.vocabDays ?? {},
+    vocabGoal: s.vocabGoal ?? 20,
   };
 }
 
@@ -69,6 +71,8 @@ const EMPTY_SNAPSHOT: ProgressState = {
   submitted: {},
   examStarted: {},
   vocab: {},
+  vocabDays: {},
+  vocabGoal: 20,
 };
 
 type PullResult = { data: ProgressState | null } | { error: string; detail?: string };

@@ -63,8 +63,10 @@ export type ListEntry = {
   af: string[];
   /** 真题优先分：min(出现套数,8)×2 + (有真题例句?2:0)，由 vocab-priority.mjs 计算 */
   x?: number;
-  /** 在站内真题里出现过的套数（0 = 没查到，展示用） */
+  /** 出现过的真题套数（站内 ∪ 上游出处，去重后），展示用 */
   c?: number;
+  /** 其中能在本站点开的套数（仅考试类词书、且有对应题库时有值） */
+  cs?: number;
 };
 
 /** 难度分层（口径写死在 UI 上） */
@@ -129,8 +131,10 @@ export type WordEntry = {
   sp?: string;
   /** 真题优先分（见 ListEntry.x） */
   x?: number;
-  /** 出现套数 */
+  /** 出现套数（站内 ∪ 上游出处） */
   c?: number;
+  /** 其中站内可点开的套数 */
+  cs?: number;
 };
 
 /** 新词的排序方式 */
@@ -310,4 +314,80 @@ export function buildQueue(
     return sa - sb;
   });
   return { review: review.slice(0, reviewLimit), fresh: fresh.slice(0, newLimit) };
+}
+
+
+/* ==========================================================================
+   每日计划 / 打卡（纯函数，便于单测）
+   ========================================================================== */
+
+/** 一天的学习量：n = 新学词数，r = 复习词数 */
+export type DayStat = { n: number; r: number };
+
+/** 本地时区的「YYYY-MM-DD」——不能用 toISOString（那是 UTC，晚上 8 点后会算到明天） */
+export function dayKey(ts: number): string {
+  const d = new Date(ts);
+  const p = (x: number) => String(x).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+/** 往前推 n 天的 key（0 = 今天） */
+export function dayKeyBefore(ts: number, n: number): string {
+  const d = new Date(ts);
+  d.setHours(12, 0, 0, 0); // 定在正午，避免夏令时把日期挪走
+  d.setDate(d.getDate() - n);
+  return dayKey(d.getTime());
+}
+
+/**
+ * 连续打卡天数。
+ *
+ * 规则（背单词的人真实预期）：
+ *   · 今天有学习量 → 从今天往回数；
+ *   · 今天还没有 → 从昨天往回数（今天还没结束，不该立刻断掉连续记录）；
+ *   · 中间断掉一天就停。
+ */
+export function streakOf(days: Record<string, DayStat>, now = Date.now()): number {
+  const active = (k: string) => {
+    const d = days[k];
+    return Boolean(d && d.n + d.r > 0);
+  };
+  let start = 0;
+  if (!active(dayKey(now))) {
+    if (!active(dayKeyBefore(now, 1))) return 0;
+    start = 1;
+  }
+  let n = 0;
+  for (let i = start; ; i++) {
+    if (!active(dayKeyBefore(now, i))) break;
+    n++;
+    if (n >= 3650) break; // 防御：脏数据导致死循环
+  }
+  return n;
+}
+
+/** 最近 N 天（从旧到新）的量，用于画格子 */
+export function lastNDays(
+  days: Record<string, DayStat>,
+  n: number,
+  now = Date.now(),
+): { key: string; label: string; n: number; r: number }[] {
+  const out = [];
+  for (let i = n - 1; i >= 0; i--) {
+    const key = dayKeyBefore(now, i);
+    const d = days[key] ?? { n: 0, r: 0 };
+    out.push({ key, label: key.slice(5), n: d.n, r: d.r });
+  }
+  return out;
+}
+
+/** 今日进度：已完成多少新词 / 复习，以及目标完成度 */
+export function todayProgress(
+  days: Record<string, DayStat>,
+  goal: number,
+  now = Date.now(),
+): { n: number; r: number; goal: number; pct: number; done: boolean } {
+  const d = days[dayKey(now)] ?? { n: 0, r: 0 };
+  const pct = goal > 0 ? Math.min(100, Math.round((d.n / goal) * 100)) : 0;
+  return { n: d.n, r: d.r, goal, pct, done: goal > 0 ? d.n >= goal : d.n + d.r > 0 };
 }

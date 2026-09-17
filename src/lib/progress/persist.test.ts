@@ -106,9 +106,10 @@ describe('进度持久化', () => {
     // 键名**不能改** —— 改了等于把所有人的历史进度丢掉
     expect(keys).toEqual(['examquiz.progress.v1']);
     const raw = JSON.parse(storage.getItem('examquiz.progress.v1')!);
+    // v5：新增 vocabDays（每日打卡）与 vocabGoal；
     // v4：新增 vocab（词汇学习状态）；v3 曾新增 examStarted；
     // v2 曾把 fav 由 `1` 改为时间戳并新增 off/draftAt/positionAt
-    expect(raw.version).toBe(4);
+    expect(raw.version).toBe(5);
     // partialize 只存数据，不存 action
     expect(Object.keys(raw.state).sort()).toEqual(
       [
@@ -122,6 +123,8 @@ describe('进度持久化', () => {
         'positions',
         'submitted',
         'vocab',
+        'vocabDays',
+        'vocabGoal',
         'wrong',
       ].sort(),
     );
