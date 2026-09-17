@@ -145,7 +145,13 @@ export function ArchiveList({ initial }: { initial: DailyArchive }) {
                         text={item.zh ? `${item.en}\n${item.zh}` : item.en}
                         className="min-h-[38px] px-3.5 text-[13px]"
                       />
-                      {item.sid && <span className="chip display tabular-nums">第 {item.sid} 期</span>}
+                      {/* 期号用纯文字而不是再加一枚小签：一行里三种形状（图标胶囊 /
+                          纯文字胶囊 / 方角小签）会显得拼凑，评审点名过这一处 */}
+                      {item.sid && (
+                        <span className="display pl-1 text-[12px] tabular-nums text-faint">
+                          第 {item.sid} 期
+                        </span>
+                      )}
                     </div>
                   </div>
                 </details>

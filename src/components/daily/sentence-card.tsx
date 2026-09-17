@@ -58,7 +58,7 @@ export function SentenceCard({
             type="button"
             onClick={refresh.onRefresh}
             disabled={refresh.busy}
-            className="pill-btn shrink-0 min-h-[36px] px-3.5 text-[13px]"
+            className="pill-btn shrink-0 min-h-[44px] px-3.5 text-[13px] sm:min-h-[36px]"
             aria-label="随机换一句"
           >
             <RefreshIcon spin={refresh.busy} />
@@ -210,8 +210,7 @@ export function CopyButton({
   text: string;
   label?: string;
   className?: string;
-}) {
-  const [done, setDone] = useState(false);
+}) {  const [done, setDone] = useState(false);
 
   const copy = () => {
     const finish = () => {
@@ -240,8 +239,28 @@ export function CopyButton({
 
   return (
     <button type="button" onClick={copy} className={cn('pill-btn', className)}>
+      {/* 与「听原声 / 看配图 / 分享图」统一成「图标 + 文字」：
+          同一行里有的带图标有的不带，看着像拼凑（视觉评审点名过） */}
+      {done ? <CheckIcon /> : <CopyIcon />}
       {done ? '已复制' : label}
     </button>
+  );
+}
+
+function CopyIcon() {
+  return (
+    <svg viewBox="0 0 16 16" aria-hidden className="size-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="5.6" y="5.6" width="7.8" height="7.8" rx="1.3" />
+      <path d="M10.4 5.6V4a1.3 1.3 0 0 0-1.3-1.3H4a1.3 1.3 0 0 0-1.3 1.3v5.1A1.3 1.3 0 0 0 4 10.4h1.6" />
+    </svg>
+  );
+}
+
+function CheckIcon() {
+  return (
+    <svg viewBox="0 0 16 16" aria-hidden className="size-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M3 8.5 6.2 12 13 4.5" />
+    </svg>
   );
 }
 
