@@ -25,7 +25,7 @@ export function SingleChoiceView({
     <div>
       <Stem question={question} />
 
-      <ul className="mt-3.5">
+      <ul className="mt-3.5 max-w-[44rem]">
         {question.options.map((o) => {
           const isAnswer = o.label === question.answer;
           const isPicked = selected === o.label;
@@ -286,7 +286,7 @@ export function ParagraphMatchView({
  */
 function AnalysisBlock({ analysis }: { analysis: Question['analysis'] }) {
   return (
-    <div className="mt-4 rounded-[6px] border border-line bg-surface-sunken p-3.5">
+    <div className="mt-4 max-w-[44rem] rounded-[6px] border border-line bg-surface-sunken p-3.5">
       <AnalysisList analysis={analysis} />
     </div>
   );
@@ -295,18 +295,21 @@ function AnalysisBlock({ analysis }: { analysis: Question['analysis'] }) {
 /** 题干（英文 + 中文） */
 function Stem({ question }: { question: Question }) {
   return (
-    <div>
-      <div className="flex items-start gap-2.5">
+    <div className="max-w-[44rem]">
+      <div className="flex items-start gap-3">
+        {/* 题号：方角数字位（v5 去掉圆角方块底，改用细描边 + 衬线数字） */}
         <span
-          className="mt-1 grid size-6 shrink-0 place-items-center rounded-[7px] bg-line text-[13px] font-bold text-ink-soft tabular-nums"
+          className="display mt-0.5 grid size-7 shrink-0 place-items-center rounded-[4px] border border-line-strong text-[13.5px] font-semibold text-ink-soft"
           aria-label={`第 ${question.no} 题`}
         >
           {question.no}
         </span>
-        <p className="min-w-0 flex-1 text-[17px] leading-7 font-medium text-ink">{question.stem}</p>
+        <p className="min-w-0 flex-1 text-[17.5px] leading-[1.7] font-medium text-ink">
+          {question.stem}
+        </p>
       </div>
       {question.stemZh && (
-        <p className="mt-1.5 pl-[34px] text-[14px] leading-6 text-muted">{question.stemZh}</p>
+        <p className="mt-1.5 pl-10 text-[14px] leading-6 text-muted">{question.stemZh}</p>
       )}
     </div>
   );

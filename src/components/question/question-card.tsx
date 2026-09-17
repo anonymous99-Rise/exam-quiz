@@ -22,6 +22,7 @@ function QuestionCardImpl({
   question,
   wordBankOptions,
   hideWordBank = false,
+  showHint = false,
   picked,
   collapsed,
   isCursor,
@@ -36,6 +37,12 @@ function QuestionCardImpl({
   wordBankOptions: { label: string; text: string }[];
   /** 词库已提到左栏统一展示时不重复渲染（选词填空 section 会传 true） */
   hideWordBank?: boolean;
+  /**
+   * 是否显示「按 A–Z 答题」提示。
+   * v5：以前每张题卡都印一遍 —— 25 题的听力页会重复 25 行同样的说明。
+   * 现在只在该 section 的第一题显示（见 question-groups.tsx）。
+   */
+  showHint?: boolean;
   /** 已选字母，未答为 null */
   picked: string | null;
   /** 解析是否被收起 */
@@ -123,19 +130,19 @@ function QuestionCardImpl({
           <span className="text-[13px] text-faint">
             {locked ? (
               '本题未作答'
-            ) : (
+            ) : showHint ? (
               <>
                 按{' '}
-                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[12.5px] text-muted">
+                <kbd className="rounded-[3px] border border-line-strong bg-surface-sunken px-1.5 py-0.5 text-[12.5px] text-muted">
                   A
                 </kbd>
                 –
-                <kbd className="rounded-[5px] border border-line bg-surface-sunken px-1.5 py-0.5 text-[12.5px] text-muted">
+                <kbd className="rounded-[3px] border border-line-strong bg-surface-sunken px-1.5 py-0.5 text-[12.5px] text-muted">
                   Z
                 </kbd>{' '}
                 答题，↑/↓ 切题
               </>
-            )}
+            ) : null}
           </span>
         )}
 

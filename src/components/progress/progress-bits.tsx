@@ -55,6 +55,21 @@ export function PaperProgress({
   const done = stats.done;
   const pct = Math.round((done / total) * 100);
 
+  /*
+   * 一题没做 → **不画轨道**。
+   *
+   * 实测：「待完成套卷」列表里 41 行全是 0%，于是每行都躺着一条 320px 的灰线，
+   * 一点信息都不承载，还把行高撑到 109px。列表里「没有进度条」自然读作「没做过」——
+   * 和套卷卡删掉「数据完整」徽标是同一个原则：默认状态不占视觉预算。
+   */
+  if (done === 0) {
+    return (
+      <div className={cn('flex items-center justify-end', className)}>
+        <span className="text-[12.5px] text-faint">未开始</span>
+      </div>
+    );
+  }
+
   return (
     <div className={cn('flex items-center gap-3', className)}>
       <div className="flex h-1 min-w-[3rem] flex-1 gap-px overflow-hidden rounded-full">
@@ -88,7 +103,7 @@ export function PaperProgress({
       </div>
       <span className="shrink-0 text-[12.5px] text-muted tabular-nums">
         {done}/{stats.total}
-        {done > 0 && <b className="ml-1.5 font-semibold text-ink-soft">{pct}%</b>}
+        <b className="ml-1.5 font-semibold text-ink-soft">{pct}%</b>
       </span>
     </div>
   );

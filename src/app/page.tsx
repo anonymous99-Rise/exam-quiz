@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 import { HomeProgress, OverallStats } from '@/components/progress/progress-bits';
+import { HomeContinue } from '@/components/progress/home-continue';
 import { getExamSummaries } from '@/lib/bank/registry';
 import { cn } from '@/lib/utils';
 
@@ -83,20 +84,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── 选择考试 ─────────────────────────────────────────────────── */}
-      <section>
-        <div className="mb-4 flex items-baseline justify-between">
-          <h2 className="t-h2 text-ink">选择考试</h2>
-          {exams.length > 1 && (
-            <span className="text-[14px] text-muted">{exams.length} 个考试</span>
-          )}
-        </div>
+      {/* ── 接着上次（有进度时才出现）──────────────────────────────────── */}
+      <HomeContinue />
 
-        {/*
-          只有 CET-6 一套题库时用**横向双栏卡**撑满容器。
-          旧版固定 sm:grid-cols-2，于是 1080px 的容器里卡片只占 532px，
-          右边 532px 是纯空底 —— 首屏看起来像「第二张卡没渲染出来」。
-        */}
+      {/* ── 选择考试 ──────────────────────────────────────────────────
+          v5：只有一套题库时不再画「大空盒」—— 那张 1080×150 的卡中间有 600px
+          纯空，视觉上像没填完。改成**一条细线行**：名字 + 规格串 + 入口，
+          与目录页的套卷行同一种语言；将来加 CET-4 时自动回到两栏卡片。 */}
+      <section className="mt-16">
+        <h2 className="t-eyebrow section-rule">选择考试</h2>
+
         <div className={cn('grid gap-4', exams.length > 1 && 'sm:grid-cols-2')}>
           {exams.map((e) => {
             const solo = exams.length === 1;
@@ -110,29 +107,27 @@ export default function Home() {
                 key={e.id}
                 href={`/${e.id}`}
                 className={cn(
-                  'panel group transition hover:border-brand-line',
-                  solo
-                    ? 'flex flex-col gap-6 p-6 sm:flex-row sm:items-center sm:justify-between sm:gap-10 sm:p-7'
-                    : 'flex flex-col gap-4 p-6',
+                  'group items-center gap-x-8 border-b border-line transition-colors hover:bg-surface',
+                  solo ? 'grid grid-cols-[minmax(0,1fr)_auto] py-5' : 'flex flex-col gap-4 border p-6',
                 )}
               >
                 <div className="min-w-0">
-                  <div className="flex flex-wrap items-center gap-3">
-                    <h3 className="t-h1 text-ink group-hover:text-brand-ink">{e.shortName}</h3>
-                    <span className="chip shrink-0">
-                      {e.yearRange ? `${e.yearRange[0]}–${e.yearRange[1]}` : '—'}
+                  <div className="flex flex-wrap items-baseline gap-3">
+                    <h3 className="display text-[24px] leading-none font-semibold text-ink group-hover:text-brand-ink">
+                      {e.shortName}
+                    </h3>
+                    <span className="text-[13.5px] text-muted">{e.name}</span>
+                    <span className="text-[12.5px] text-faint">
+                      {e.yearRange ? `${e.yearRange[0]}–${e.yearRange[1]}` : ''}
                     </span>
                   </div>
-                  <p className="mt-1.5 text-[14px] text-muted">{e.name}</p>
-
-                  {/* 统计：拉丁数字走衬线，与日期同一套语汇 */}
-                  <dl className="mt-5 flex flex-wrap items-baseline gap-x-8 gap-y-3">
+                  <dl className="mt-3 flex flex-wrap items-baseline gap-x-6 gap-y-2">
                     {stats.map((s) => (
                       <div key={s.l} className="flex items-baseline gap-1.5">
-                        <dd className="display text-[22px] leading-none font-semibold text-ink">
+                        <dd className="display text-[17px] leading-none font-semibold text-ink-soft">
                           {s.v}
                         </dd>
-                        <dt className="text-[13px] text-muted">{s.l}</dt>
+                        <dt className="text-[12.5px] text-muted">{s.l}</dt>
                       </div>
                     ))}
                   </dl>
@@ -140,11 +135,12 @@ export default function Home() {
 
                 <span
                   className={cn(
-                    'btn btn-primary shrink-0',
-                    solo ? 'h-11 w-full text-[15px] sm:w-auto sm:min-w-[190px]' : 'mt-auto w-full',
+                    solo
+                      ? 'shrink-0 text-[14px] font-semibold text-brand-ink underline-offset-4 group-hover:underline'
+                      : 'btn btn-primary mt-auto w-full',
                   )}
                 >
-                  进入 {e.shortName}
+                  {solo ? '进入 →' : `进入 ${e.shortName}`}
                 </span>
               </Link>
             );

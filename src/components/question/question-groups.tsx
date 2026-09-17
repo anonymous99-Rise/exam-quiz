@@ -113,7 +113,7 @@ export function QuestionGroups({
               )}
 
               <ol className="space-y-5">
-                {g.questions.map((q) => (
+                {g.questions.map((q, qi) => (
                   <QuestionCard
                     key={q.no}
                     examId={examId}
@@ -121,6 +121,7 @@ export function QuestionGroups({
                     question={q}
                     wordBankOptions={wordBankOptions}
                     hideWordBank={isWordBank}
+                    showHint={qi === 0}
                     picked={answers[qidOf(examId, paperId, q.no)]?.c ?? null}
                     collapsed={collapsed[q.no] ?? false}
                     isCursor={cursorNo === q.no}
