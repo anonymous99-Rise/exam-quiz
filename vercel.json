@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "headers": [
     {
-      "//": "听力 mp3 是仓库自带的静态资源（对象存储放不下的那两个 66/68MB）。Vercel 默认给 public/ 资源 max-age=0，每次重听都要重下 67MB —— 文件名不含内容哈希但内容永不改动（改内容就换文件名），所以给最长缓存 + immutable。",
       "source": "/audio/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
@@ -10,7 +9,6 @@
       ]
     },
     {
-      "//": "Next.js 构建产物本身带哈希，可长缓存（Vercel 已默认，显式声明避免被上面的规则影响）",
       "source": "/_next/static/(.*)",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     }
