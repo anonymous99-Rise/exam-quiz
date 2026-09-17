@@ -53,21 +53,21 @@ const reasonText = (reason?: string) =>
 /**
  * 同步状态点。
  *
- * v5：它以前孤零零挂在用户胶囊的最右边，没有任何说明 —— 没人知道那个绿点是什么。
- * 现在有两处用法：当作头像角标（带一圈纸色描边，读起来像「状态徽标」），
- * 以及下拉里那一行「已同步 / 同步失败」前面的小点。title 里写明含义。
+ * v5：它以前孤零零挂在用户胶囊最右边、没有任何说明 —— 绿点是什么没人知道。
+ * 而且「已同步」是默认状态，默认状态不该占视觉预算（和套卷卡上的缺口徽标同一个道理）。
+ * 所以现在只在**有事情要说**时才出现：同步失败（红）/ 同步中（朱红呼吸）。
+ * 完整状态在下拉里那一行「已同步 / 同步失败」照常写全。
  */
 function SyncDot({ status, badge = false }: { status: SyncState['status']; badge?: boolean }) {
+  if (status !== 'error' && status !== 'syncing') return null;
   return (
     <span
       title={SYNC_TEXT[status]}
       className={cn(
         'inline-block shrink-0 rounded-full',
         badge ? 'size-2.5 ring-2 ring-canvas' : 'size-1.5',
-        status === 'synced' && 'bg-ok',
         status === 'syncing' && 'animate-pulse bg-brand',
         status === 'error' && 'bg-bad',
-        status === 'off' && 'bg-faint',
       )}
     />
   );
@@ -175,7 +175,15 @@ function UserMenuInner() {
           </div>
 
           <div className="mb-3 flex items-center gap-2 text-muted">
-            <SyncDot status={sync.status} />
+            <span
+              className={cn(
+                'inline-block size-1.5 shrink-0 rounded-full',
+                sync.status === 'synced' && 'bg-ok',
+                sync.status === 'syncing' && 'animate-pulse bg-brand',
+                sync.status === 'error' && 'bg-bad',
+                sync.status === 'off' && 'bg-faint',
+              )}
+            />
             <span>{SYNC_TEXT[sync.status]}</span>
             {sync.at && sync.status === 'synced' && (
               <span className="text-faint">
