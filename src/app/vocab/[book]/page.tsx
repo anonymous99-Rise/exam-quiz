@@ -74,18 +74,26 @@ export default function BookPage({ params }: { params: Promise<{ book: string }>
   const shown = rows.slice(0, LIMIT);
 
   if (idxError) {
+    // 区分「没这本书」与「取数失败」：前者是用户走错路（给出口），后者才是故障（给重试）
+    const notFound = /404/.test(idxError);
     return (
       <main className="shell w-full pt-10 pb-24">
-        <p className="text-[15px] font-semibold text-bad-ink">词书「{bookId}」加载失败</p>
-        <p className="mt-1.5 text-[13px] text-muted">{idxError}</p>
-        <button type="button" onClick={reload} className="btn btn-ghost mt-4">
-          重试
-        </button>
-        <p className="mt-6">
-          <Link href="/vocab" className="text-[14px] text-brand-ink hover:underline">
-            ← 返回词书列表
-          </Link>
+        <p className="text-[15px] font-semibold text-ink">
+          {notFound ? `没有「${bookId}」这本词书` : `词书「${bookId}」加载失败`}
         </p>
+        <p className="mt-1.5 text-[13px] text-muted">
+          {notFound ? '可能是链接过期，或者这本词书还没接进来。' : idxError}
+        </p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <Link href="/vocab" className="btn btn-primary">
+            去看所有词书
+          </Link>
+          {!notFound && (
+            <button type="button" onClick={reload} className="btn btn-ghost">
+              重试
+            </button>
+          )}
+        </div>
       </main>
     );
   }
