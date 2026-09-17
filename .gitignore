@@ -48,8 +48,13 @@ public/audio/*
 # 词汇数据（生成物）
 # ---------------------------------------------------------------------------
 # content/vocab/ 是**源**（进仓库）；public/vocab-data/ 是 prebuild 复制出来的
-# 客户端取数副本（37MB），只进部署包不进仓库 —— 见 tools/vocab-public.mjs。
-public/vocab/
+# 客户端取数副本（约 60MB），只进部署包不进仓库 —— 见 tools/vocab-public.mjs。
+#
+# ⚠ 目录名必须与 tools/vocab-public.mjs 的 DST 完全一致。曾经因为
+#   `str.replace('public/vocab/', …)` 只替换第一处（注释里那处），
+#   真正的忽略规则没改到，60MB 生成数据被提交进仓库。
+#   改这个文件时请核对下面这一行的实际路径。
+public/vocab-data/
 
 # Playwright 产物
 test-results/
