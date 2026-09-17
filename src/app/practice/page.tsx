@@ -357,23 +357,30 @@ export default function PracticePage() {
         ) : (
           <section>
             {scope === 'undone' && top && (
-              <div className="panel mb-6 flex flex-wrap items-center justify-between gap-5 p-5 sm:p-6">
-                <div className="min-w-0">
-                  <p className="t-eyebrow mb-1.5">接着上次 · {top.examName}</p>
-                  <h2 className="t-h3 truncate text-ink">
-                    {top.paper.label} · 第{top.paper.setNo}套
+              /*
+               * 「接着上次」条（v5）：从「大卡片 + 大片空白」压成**一行条**
+               * —— 左侧标题与下一题，中间进度条，右侧 CTA。旧稿是 panel + 三行文字
+               * + 右侧按钮，中间空出约 600px，看着像没填完。
+               */
+              <div className="mb-8 flex flex-wrap items-center gap-x-6 gap-y-3 rounded-[6px] border border-line bg-surface px-5 py-4">
+                <div className="min-w-0 flex-1">
+                  <p className="t-eyebrow">接着上次 · {top.examName}</p>
+                  <h2 className="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <span className="display text-[18px] font-semibold text-ink">
+                      {top.paper.label} · 第 {top.paper.setNo} 套
+                    </span>
+                    <span className="text-[13px] text-muted">
+                      {top.nextNo ? `下一题：第 ${top.nextNo} 题` : '本套已收尾，可以先看整卷'}
+                    </span>
                   </h2>
-                  <p className="t-small mt-1 text-muted">
-                    {top.nextNo ? `下一题：第 ${top.nextNo} 题` : '本套已收尾，可以先看整卷'}
-                  </p>
-                  <PaperProgress
-                    examId={top.examId}
-                    paperId={top.paperId}
-                    nos={top.paper.nos}
-                    className="mt-3 max-w-[300px]"
-                  />
                 </div>
-                <Link href={top.nextHref} className="btn btn-primary h-11 shrink-0 px-5">
+                <PaperProgress
+                  examId={top.examId}
+                  paperId={top.paperId}
+                  nos={top.paper.nos}
+                  className="w-[220px] shrink-0"
+                />
+                <Link href={top.nextHref} className="btn btn-primary shrink-0">
                   {top.nextNo ? `继续第 ${top.nextNo} 题` : '继续'}
                 </Link>
               </div>

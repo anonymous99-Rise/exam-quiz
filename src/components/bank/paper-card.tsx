@@ -67,24 +67,27 @@ export function PaperCard({
         </div>
       </div>
 
-      {/* 中：规格串。数字在后、衬线体，与全站数字语汇一致 */}
+      {/* 中：规格串 + 缺口徽标（徽标内联，避免把行撑成三行） */}
       <div className="col-span-2 min-w-0 sm:col-span-1">
         {empty ? (
           <span className="text-[13px] text-muted">暂无题目（源材料未收录客观题）</span>
         ) : (
-          <ul className="flex flex-wrap items-baseline gap-x-3.5 gap-y-1 text-[12.5px] text-muted">
-            {sections.map((s) => {
-              const n = paper.sectionCounts[s.id] ?? 0;
-              if (!n) return null;
-              return (
-                <li key={s.id} title={s.name} className="whitespace-nowrap">
-                  {SHORT[s.id] ?? s.name}
-                  <b className="display ml-1.5 font-semibold text-ink">{n}</b>
-                </li>
-              );
-            })}
-            <li className="display text-ink">{paper.questionCount} 题</li>
-          </ul>
+          <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1.5">
+            <ul className="flex flex-wrap items-baseline gap-x-3.5 gap-y-1 text-[12.5px] text-muted">
+              {sections.map((s) => {
+                const n = paper.sectionCounts[s.id] ?? 0;
+                if (!n) return null;
+                return (
+                  <li key={s.id} title={s.name} className="whitespace-nowrap">
+                    {SHORT[s.id] ?? s.name}
+                    <b className="display ml-1.5 font-semibold text-ink">{n}</b>
+                  </li>
+                );
+              })}
+              <li className="display text-ink">{paper.questionCount} 题</li>
+            </ul>
+            <FlagBadges flags={paper.flags} max={3} />
+          </div>
         )}
       </div>
 
@@ -102,13 +105,6 @@ export function PaperCard({
           />
         )}
       </div>
-
-      {/* flags 单独一行（有缺口时才出现，健康套卷不挂徽标） */}
-      {paper.flags.length > 0 && (
-        <div className="col-span-2 sm:col-span-3">
-          <FlagBadges flags={paper.flags} max={3} />
-        </div>
-      )}
     </Link>
   );
 }
