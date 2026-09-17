@@ -4,6 +4,7 @@ import type { RefObject } from 'react';
 
 import { PassagePanel } from '@/components/passage/passage-panel';
 import { QuestionCard } from '@/components/question/question-card';
+import { WordBankPanel } from '@/components/question/question-views';
 import type { Passage, Question } from '@/lib/bank/schema';
 import { qidOf, type AnswerRecord } from '@/lib/progress/store';
 import { cn } from '@/lib/utils';
@@ -69,6 +70,20 @@ export function QuestionGroups({
               )
             : null;
 
+        /*
+         * 选词填空：词库整段只渲染一次，放在左栏原文下方（见 WordBankPanel 注记），
+         * 题卡里不再重复。已用掉的字母灰掉，方便判断还剩哪些词。
+         */
+        const isWordBank = g.questions[0]?.kind === 'word-bank';
+        const sharedBank = isWordBank ? wordBankOptions : [];
+        const usedLetters = isWordBank
+          ? new Set(
+              g.questions
+                .map((q) => answers[qidOf(examId, paperId, q.no)]?.c)
+                .filter((c): c is string => !!c),
+            )
+          : undefined;
+
         return (
           <section key={`${g.sectionId}-${gi}`} className="space-y-5">
             {g.sectionName && (
@@ -82,13 +97,18 @@ export function QuestionGroups({
 
             <div
               className={cn(
-                g.passage &&
+                (g.passage || sharedBank.length > 0) &&
                   'lg:grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:items-start lg:gap-7',
               )}
             >
-              {g.passage && (
+              {(g.passage || sharedBank.length > 0) && (
                 <div className="mb-5 lg:sticky lg:top-24 lg:mb-0 lg:max-h-[calc(100dvh-9rem)] lg:overflow-y-auto lg:pr-2 scroll-thin">
-                  <PassagePanel passage={g.passage} title={g.title} highlight={highlight} />
+                  {g.passage && (
+                    <PassagePanel passage={g.passage} title={g.title} highlight={highlight} />
+                  )}
+                  {sharedBank.length > 0 && (
+                    <WordBankPanel allBanks={sharedBank} usedLetters={usedLetters} />
+                  )}
                 </div>
               )}
 
@@ -100,6 +120,7 @@ export function QuestionGroups({
                     paperId={paperId}
                     question={q}
                     wordBankOptions={wordBankOptions}
+                    hideWordBank={isWordBank}
                     picked={answers[qidOf(examId, paperId, q.no)]?.c ?? null}
                     collapsed={collapsed[q.no] ?? false}
                     isCursor={cursorNo === q.no}

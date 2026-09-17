@@ -325,12 +325,12 @@ export function AudioPlayer({
         </button>
 
         <div className="flex shrink-0 items-center gap-1.5">
-          {/* 窄屏隐藏 ±10s：屏幕上没有空间，且进度条可拖（触控目标 ≥40px） */}
+          {/* ±10s 在手机上同样保留：听力「重听一句」是最高频操作，藏起来等于砍功能 */}
           <button
             type="button"
             onClick={() => seekBy(-10)}
             disabled={noSource}
-            className="btn btn-ghost btn-sm t-num hidden min-h-10 disabled:cursor-not-allowed disabled:opacity-40 sm:inline-flex"
+            className="btn btn-ghost btn-sm t-num min-h-10 shrink-0 disabled:cursor-not-allowed disabled:opacity-40"
             aria-label="后退 10 秒"
           >
             −10s
@@ -339,7 +339,7 @@ export function AudioPlayer({
             type="button"
             onClick={() => seekBy(10)}
             disabled={noSource}
-            className="btn btn-ghost btn-sm t-num hidden min-h-10 disabled:cursor-not-allowed disabled:opacity-40 sm:inline-flex"
+            className="btn btn-ghost btn-sm t-num min-h-10 shrink-0 disabled:cursor-not-allowed disabled:opacity-40"
             aria-label="前进 10 秒"
           >
             +10s
@@ -382,21 +382,26 @@ export function AudioPlayer({
       {pieces.length > 0 && (
         <div className="mt-3.5">
           <h4 className="t-eyebrow mb-2">分段定位 · 点击跳到该篇并滚到对应题</h4>
-          <ul className="flex flex-wrap gap-1.5">
+          {/*
+            手机上是**横向滚动**而不是换行：7 个分段竖着排会吃掉近 300px，
+            把第 1 题推到屏幕外（实测首题被顶到 422px 处）。
+            桌面端空间够，直接换行铺开。
+          */}
+          <ul className="-mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1 lg:flex-wrap lg:overflow-visible lg:pb-0">
             {pieces.map((p, i) => {
               const active = pieceIndexAt(pieces, current) === i;
               const range = parsePieceRange(p.label);
               return (
-                <li key={`${p.label}-${i}`}>
+                <li key={`${p.label}-${i}`} className="shrink-0">
                   <button
                     type="button"
                     onClick={() => seek(p.start, range?.[0])}
                     title={`${fmtTime(p.start)} – ${fmtTime(p.end)}`}
                     className={cn(
-                      'min-h-9 rounded-[10px] border px-2.5 py-1.5 text-left text-[13px] leading-4 transition',
+                      'min-h-9 rounded-[10px] px-2.5 py-1.5 text-left text-[13px] leading-4 whitespace-nowrap transition',
                       active
-                        ? 'border-brand-line bg-brand-soft font-medium text-brand-ink'
-                        : 'border-line-strong text-muted hover:border-brand-line hover:bg-surface-hover hover:text-ink',
+                        ? 'bg-brand-soft font-medium text-brand-ink'
+                        : 'text-muted hover:bg-surface-hover hover:text-ink',
                     )}
                   >
                     {p.label}

@@ -98,6 +98,7 @@ export function WordBankView({
   selected,
   reveal,
   onSelect,
+  hideBank = false,
 }: {
   question: Extract<Question, { kind: 'word-bank' }>;
   /** 同一 section 的词库（同 section 内所有空位共用一份 15 词表） */
@@ -105,6 +106,8 @@ export function WordBankView({
   selected?: string | null;
   reveal?: boolean;
   onSelect?: (label: string) => void;
+  /** 词库已提到左栏统一展示时，题卡里不再重复渲染（见 question-groups.tsx v3 注记） */
+  hideBank?: boolean;
 }) {
   /*
    * ⚠ 字母表必须**按 A→O 排序**后再渲染。
@@ -117,7 +120,7 @@ export function WordBankView({
     <div>
       <Stem question={question} />
 
-      {allBanks.length > 0 && (
+      {!hideBank && allBanks.length > 0 && (
         <section className="mt-3.5 rounded-[12px] border border-line bg-surface-sunken p-3.5">
           <h4 className="t-eyebrow mb-2.5">词库 · 15 选 10</h4>
           <ul className="grid grid-cols-2 gap-x-5 gap-y-1.5 sm:grid-cols-3">
@@ -134,8 +137,12 @@ export function WordBankView({
         </section>
       )}
 
-      {/* 字母键盘：44px 触控目标（旧版 36px、手机上是 3 行 7 列挤在一起） */}
-      <ul className="mt-3.5 grid grid-cols-5 gap-2 sm:grid-cols-8 sm:gap-1.5">
+      {/*
+        字母键盘：15 个字母固定 5×3。
+        旧版桌面端 sm:grid-cols-8 → 15 个字母排成 8+7 两行，右边缺一格，看着像没对齐；
+        5×3 正好整除，且整块宽度收在 26rem 内，不再是通栏一大片。
+      */}
+      <ul className="mt-3.5 grid w-full max-w-[26rem] grid-cols-5 gap-2">
         {letters.map((letter) => {
           const isAnswer = letter === question.answer;
           const isPicked = selected === letter;
@@ -169,6 +176,48 @@ export function WordBankView({
 
       {reveal && <AnalysisBlock analysis={question.analysis} />}
     </div>
+  );
+}
+
+/**
+ * 词库面板（v3）：整个 section 只出现一次，放在左栏原文下方。
+ *
+ * 旧版把这份 15 词表渲染在**每一张题卡**里（选词填空 10 张卡 = 重复 10 次、
+ * 每张多 205px），实测该页因此高达 5443px，其中两千多像素是纯重复。
+ * 左栏是 sticky 的，滚到哪一题词库都在视野里，不需要每题再抄一遍。
+ */
+export function WordBankPanel({
+  allBanks,
+  usedLetters,
+}: {
+  allBanks: { label: string; text: string }[];
+  /** 已用掉的字母（已作答的题选过的），灰掉提示剩余选择 */
+  usedLetters?: Set<string>;
+}) {
+  if (!allBanks.length) return null;
+  return (
+    <section className="mt-3 rounded-[12px] border border-line bg-surface-sunken p-4">
+      <h4 className="t-eyebrow mb-2.5">词库 · 15 选 10</h4>
+      <ul className="grid grid-cols-2 gap-x-5 gap-y-1.5">
+        {[...allBanks]
+          .sort((a, b) => a.label.localeCompare(b.label))
+          .map((w) => {
+            const used = usedLetters?.has(w.label);
+            return (
+              <li
+                key={w.label}
+                className={cn(
+                  'flex items-baseline gap-1.5 text-[15px]',
+                  used ? 'text-faint line-through' : 'text-ink-soft',
+                )}
+              >
+                <b className={cn('font-bold', used ? 'text-faint' : 'text-ink')}>{w.label}</b>
+                <span className="min-w-0 truncate">{w.text}</span>
+              </li>
+            );
+          })}
+      </ul>
+    </section>
   );
 }
 

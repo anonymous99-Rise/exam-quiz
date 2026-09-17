@@ -21,6 +21,7 @@ function QuestionCardImpl({
   paperId,
   question,
   wordBankOptions,
+  hideWordBank = false,
   picked,
   collapsed,
   isCursor,
@@ -33,6 +34,8 @@ function QuestionCardImpl({
   paperId: string;
   question: Question;
   wordBankOptions: { label: string; text: string }[];
+  /** 词库已提到左栏统一展示时不重复渲染（选词填空 section 会传 true） */
+  hideWordBank?: boolean;
   /** 已选字母，未答为 null */
   picked: string | null;
   /** 解析是否被收起 */
@@ -84,6 +87,7 @@ function QuestionCardImpl({
         <WordBankView
           question={question}
           allBanks={wordBankOptions}
+          hideBank={hideWordBank}
           selected={picked}
           reveal={reveal}
           onSelect={(l) => !locked && onPick(question.no, l)}

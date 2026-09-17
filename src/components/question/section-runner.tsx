@@ -94,7 +94,7 @@ export function SectionRunner({
           <button
             type="button"
             onClick={backToTop}
-            className="btn btn-quiet btn-sm hidden shrink-0 sm:inline-flex"
+            className="btn btn-ghost btn-sm hidden shrink-0 sm:inline-flex"
           >
             回顶部
           </button>
