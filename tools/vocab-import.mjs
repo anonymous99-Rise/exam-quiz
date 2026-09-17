@@ -6,7 +6,7 @@
  *   （这份带 word / us / uk / translations / phrases / sentences —— 实测全量都带音标例句；
  *     仓库根目录那份 json/*.json 只有 word + 释义，不用）
  *
- * 产出（content/vocab/）：
+ * 产出（data/vocab/）：
  *   index.json                书单：id / 名称 / 词数 / 分片表 / 出处
  *   <bookId>/index.json       单本索引（分片表）
  *   <bookId>/list.json        轻量词表（rank/word/音标/首义），浏览页用
@@ -40,7 +40,7 @@ const ONLY = getArg('--only', '')
 
 const REPO = 'KyleBing/english-vocabulary';
 const SOURCES_DIR = path.join('.sources', 'vocab');
-const OUT_ROOT = path.join('content', 'vocab');
+const OUT_ROOT = path.join('data', 'vocab');
 
 /** 词书清单。exam 有值 = 站内有对应真题库，可做真题反查 */
 const BOOKS = [
@@ -137,8 +137,17 @@ function fetchRaw(upName, id) {
 }
 
 /* ---------- 主流程 ---------- */
-fs.rmSync(OUT_ROOT, { recursive: true, force: true });
+/*
+ * ⚠ 只清**本次要处理的词书**，不要清整个输出根。
+ * 踩过的坑：这里原先是 fs.rmSync(OUT_ROOT)，于是 `--only cet4` 把另外 6 本词书
+ * 一起删了（7 本变 1 本，public 副本也从 136 个文件掉到 21 个）。
+ * 带 --only 的工具必须把破坏范围限制在被选中的目标上。
+ */
 fs.mkdirSync(OUT_ROOT, { recursive: true });
+for (const b of BOOKS) {
+  if (ONLY.length && !ONLY.includes(b.id)) continue;
+  fs.rmSync(path.join(OUT_ROOT, b.id), { recursive: true, force: true });
+}
 
 const bookIndex = [];
 let totalWords = 0;

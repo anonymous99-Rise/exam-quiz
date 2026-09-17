@@ -1,0 +1,2889 @@
+{
+  "id": "2018-06-2",
+  "examId": "cet4",
+  "year": 2018,
+  "month": 6,
+  "session": "2018上半年",
+  "setNo": 2,
+  "label": "2018年6月",
+  "questions": [
+    {
+      "no": 1,
+      "sectionId": "listening",
+      "stem": "How did Kelly Swisher feel when she first came across the rat snake?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻中女士提到,她在周四遇到的那条蛇把她吓得魂不附体。因此答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Annoyed."
+        },
+        {
+          "label": "B",
+          "text": "Scared."
+        },
+        {
+          "label": "C",
+          "text": "Confused."
+        },
+        {
+          "label": "D",
+          "text": "Offended."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sectionId": "listening",
+      "stem": "What does the report say about the snake?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览两道题各选项,由其中反复出现的 fast-food 可推测,新闻内容与快餐有关。其中第 3 题各选项均为 概括性比较强的名词短语,可能考查新闻主旨;结合第 4 题各选项语义可推测,此题考查出现某个问题的原因。"
+        },
+        {
+          "label": "详解",
+          "text": "新闻中提到了 Swisher 对食鼠蛇的描述:它身上粗糙,鳞片很大。因此答案为 D。 News Report Two (3)Fast food, it turns out, isn’t quite as fast as it used to be. A new study finds that MacDonald’s posted its slowest drives-through times since this survey was first conducted fifteen years ago. As MacDonald’s, customers will spend on average three minutes and nine seconds from the time they placed their orders until they received their food. That’s about ten seconds more than the industry average--and a lot slower than a decade ago, according to the study, which was commissioned by QSR, an industry trade publication. And MacDonald’s wasn’t alone in slowing down: Other chains also saw their drive-through performance slow down. (4)Among the reasons for the slower service, today there are more choices on the menu, and the products themselves are more complex and take longer to prepare. Speed, of course, is essential to the drive-through experience. And drive-throughs are hugely important to chains, such as MacDonald’s, Burger King and Taco Bell. “Usually the drive-through accounts for sixty to seventy percent of all business that goes through a fast-food restaurant,” notes Sam Ochers, editor of QSR. Of course, consumers also want their orders prepared correctly and on that score, Ochers says, “accuracy is still really high.” Questions 3 and 4 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It crawled over the woman's hands."
+        },
+        {
+          "label": "B",
+          "text": "It wound up on the steering wheel."
+        },
+        {
+          "label": "C",
+          "text": "It was killed by the police on the spot."
+        },
+        {
+          "label": "D",
+          "text": "It was covered with large scales. Questions 3 and 4 are based on the news report you have just heard."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "sectionId": "listening",
+      "stem": "What is the news report mainly about?",
+      "answer": "A",
+      "analysis": [],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "A study of the fast-food service."
+        },
+        {
+          "label": "B",
+          "text": "Fast food customer satisfaction."
+        },
+        {
+          "label": "C",
+          "text": "McDonald's new business strategies."
+        },
+        {
+          "label": "D",
+          "text": "Competition in the fast-food industry."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "sectionId": "listening",
+      "stem": "What has slowed down MacDonald’s drive-through service?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览三道题各选项,由 space travel、space exploration、outer space 和 spacecraft 等词可推测,新闻内容 与航天和太空有关。第 5 题各选项均为概括性比较强的名词短语,可能考查新闻主旨;第 6 题各选项均为一般现在 时态的动词短语,结合 Deliver、a new mission、space programs 和 Launch 等词可推测,此题考查某航天机构将来的 行为动作;第 7 题各选项均为主系表结构,结合语义可推测,此题考查对某事物的评价。"
+        },
+        {
+          "label": "详解",
+          "text": "新闻中提到,服务速度变慢的原因是如今菜单上的选择多了,而且商品本身更复杂,需要更多的时间去准 备。因此答案为 C。 News Report Three (5)The first private mission outside of Earth’s orbit is closed to many of our think. U.S. government officials are set to approve a mission by privately-held space company Moon Express to travel outside of Earth’s orbit in late 2017. (6) Moon Express’s mission involves plans to land a suitcase-sized package of scientific equipment on the moon for ongoing exploration and commercial development. The decision involved months of lobbying and coordinated conversations between a number of factual agencies. Under international treaties, the U.S. is responsible for the cargo of both public and private spacecraft. This makes commercial space travel a complex legal issue not just domestically, but abroad. (7)A Moon Express representative declined to comment on the story but noted that the company is very optimistic about its proposal. Moon Express is not the only company seeking for the rights to travel to outerspace. Elon Musk’s space X aims to send an unmanned aircraft to Mars by 2018. Questions 5 and 7 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Customers' higher demands."
+        },
+        {
+          "label": "B",
+          "text": "The inefficiency of employees."
+        },
+        {
+          "label": "C",
+          "text": "Increased variety of products."
+        },
+        {
+          "label": "D",
+          "text": "The rising number of customers."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "sectionId": "listening",
+      "stem": "What is the news report mainly about?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻开头提到,第一个私人外太空任务越来越近了,比我们想象中要快。美国政府官员将会批准一个私人 控股航天公司 Moon Express 的一项任务:2017 年底穿越外太空。因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "International treaties regarding space travel programs."
+        },
+        {
+          "label": "B",
+          "text": "Legal issues involved in commercial space exploration."
+        },
+        {
+          "label": "C",
+          "text": "U.S. government's approval of private space missions."
+        },
+        {
+          "label": "D",
+          "text": "Competition among public and private space companies."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "sectionId": "listening",
+      "stem": "What is Moon Express planning to do?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻中提到,Moon Express 的任务包括在月球上放一个行李箱大小的包裹,里面是科技设备,以方便正在 进行中的探测和商业方面的发展。因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deliver scientific equipment to the moon."
+        },
+        {
+          "label": "B",
+          "text": "Approve a new mission to travel into outer space. 1"
+        },
+        {
+          "label": "C",
+          "text": "Work with federal agencies on space programs."
+        },
+        {
+          "label": "D",
+          "text": "Launch a manned spacecraft to Mars."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "sectionId": "listening",
+      "stem": "What does Moon Express think of its mission?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览四道题各选项,由 Visiting、Thailand、Phuket 以及反复出现的 Thai 等词可初步推测,对话内容涉 及在泰国旅游;再结合第 8 题第 9 题各选项语义可进一步推测,在泰国旅游的是女士。第 8 题各选项均为现在分词 短语,结合 A 选项中出现的 her 可推测,本题考查女士正在做什么;第 9 题均为过去时,且主语均为 She,因此考 查女士在泰国做了什么;第 10 题和第 11 题各选项均与男士有关,听音时留意与男士相关的细节描述。"
+        },
+        {
+          "label": "详解",
+          "text": "新闻中提到,Moon Express 的一位代表拒绝对这件事进行评论,但提到该公司对这个提议还是非常乐观的。 因此答案为 B。 Section B Conversation One M:Hey, Sophia, how are you doing? W: Hi, Bob. I’m good, thanks. Actually, I’m on holiday with my family in Thailand at the moment, although I wish it were with my friends instead. M: Really? You never said you are going to Thailand. How I envy you ! W: I’ve only been in here a week. But you know, Thailand is an amazing place. I’m having a great time here. (8)In fact, I am now lying on the beach in Phuket. I’ve been in the sun for around fifteen minutes only and I’m already getting sunburnt. Have you been here before? M: No, I wish I had. What else have you been doing in Thailand besides enjoying the sun? W: (9)Well, I met a guy from Germany yesterday. He showed me around the orphanage he works at. Then, I met many volunteer teachers who are mainly young people from Europe. M: Ah, that’s interesting. W: Yes. I also made a new little friend, Sarah. She was so cute. I was so sad that we were to leave at the end of the day. If I ever come back to Thailand, I’d definitely visit this place again as a volunteer. M: (10)Well, you can tell me all about it when you get back. My phone battery is almost dead now. (11)Remember to get me something from the souvenir shops. I like to collect bits and pieces from different parts of the world. Bye now. Enjoy yourself Sophia. W: Bye. Questions 8 and 11 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is significant."
+        },
+        {
+          "label": "B",
+          "text": "It is promising."
+        },
+        {
+          "label": "C",
+          "text": "It is unpredictable."
+        },
+        {
+          "label": "D",
+          "text": "It is unprofitable. Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will bespoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1with a si ngle line through the centre."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "sectionId": "listening",
+      "stem": "What does the woman say she is doing now?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中女士提到,她现在正在普吉岛的沙滩上躺着,在太阳底下仅仅待了大约 15 分钟就已经要晒伤了。因 此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visiting her family in Thailand."
+        },
+        {
+          "label": "B",
+          "text": "Showing friends around Phuket."
+        },
+        {
+          "label": "C",
+          "text": "Swimming around a Thai island."
+        },
+        {
+          "label": "D",
+          "text": "Lying in the sun on a Thai beach."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "sectionId": "listening",
+      "stem": "What did the woman do yesterday?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中女士提到,她昨天遇到了一个来自德国的男子,而且这名男子带她参观了他所工作的孤儿院。因此 答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She visited a Thai orphanage."
+        },
+        {
+          "label": "B",
+          "text": "She met a Thai girl's parents."
+        },
+        {
+          "label": "C",
+          "text": "She learned some Thai words."
+        },
+        {
+          "label": "D",
+          "text": "She sunbathed on a Thai beach."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "sectionId": "listening",
+      "stem": "Why does the man have to end the conversation?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中,男士对女士说等她从泰国回来再告诉他旅游的情况,他的手机电池马上就没电了。因此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "His class will start in a minute."
+        },
+        {
+          "label": "B",
+          "text": "He has got an incoming phone call."
+        },
+        {
+          "label": "C",
+          "text": "Someone is knocking at his door."
+        },
+        {
+          "label": "D",
+          "text": "His phone is running out of power."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "sectionId": "listening",
+      "stem": "Why does the man ask the woman to bring him something from Thailand?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览四道题各选项,由 fitness equipment 和反复出现的 new gym 可知,对话内容与健身设备和新开业的 健身房有关。第 12 题各选项均为动名词短语,且 B 选项中出现了 personal trainers,为复数形式,因此可能考查涉 及对话双方的问题,或者对话的主旨;第 13 题各选项均为优惠活动描述,因此考查的是健身房的优惠内容;第 14 题均为名词短语,且 C 中出现了 his,因此可能考查与男士相关的细节信息,声音时留意选项中的关键词;第 15 题 各选项主语均为 She,因此考查女士的情况,听音时留意对话最后与女士相关的信息。"
+        },
+        {
+          "label": "详解",
+          "text": "对话最后,男士叮嘱女士记得给他在纪念品商店里带点东西回来,并且提到他喜欢收集来自世界各地的小 物件。因此答案为 C。 Conversation Two W: (12-1)Hi, David. There’s a new gym opening in town today. Would you like to go with me this afternoon? M: (12-2)Yes, more than glad to. I haven’t been to a gym for ages. I need to do some exercise to tone up. W: Then this is a good chance. (13)They sent me an invitation with a note saying I could take a friend for free on the first day. Also, if we both sign up before Friday, we can get a discount on a six-month membership. M: Great. Count me in. I really want to lose some of these belly fat and turn it into muscle. But I’m not sure which of the gym equipment with best help. W: Well, I know expert of that, but I think you can try lifting weights and do at least 200 sit-ups twice a day. M: (14)I’ve never tried weight-lifting before. Is it dangerous? W: (15)No, not at all, if you know some of the basics. Don’t worry, I’ll show you the rules. I used to practice this at another gym before my membership ended. I’ll be your personal trainer. M: Thank you. What other equipment do they have? W: Well, like all gyms, they have all sorts of things to help build up muscles in different parts of the body, like applied bicycles, chest stretching machines, and running machines. You could use any of these to suit your purpose. Now the gym opens at noon. So can we meet up in town at 1:30 p.m.? M: Perfect. See you there, coach. Questions 12 and 15 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He is interested in Thai artworks."
+        },
+        {
+          "label": "B",
+          "text": "He is going to open a souvenir shop."
+        },
+        {
+          "label": "C",
+          "text": "He collects things from different countries."
+        },
+        {
+          "label": "D",
+          "text": "He wants to know more about Thai culture."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "sectionId": "listening",
+      "stem": "What are the speakers talking about?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话开头,女士提到今天镇上有一家新的健身房开业,并且邀请男士下午一起去看一下,男士欣然接受了 邀请,对话由此展开。因此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Buying some fitness equipment for the new gym."
+        },
+        {
+          "label": "B",
+          "text": "Opening a gym and becoming personal trainers."
+        },
+        {
+          "label": "C",
+          "text": "Signing up for a weight-loss course."
+        },
+        {
+          "label": "D",
+          "text": "Trying out a new gym in town."
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "sectionId": "listening",
+      "stem": "What does the gym offer at its opening?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中女士提到,健身房给的邀请函中写着开业第一天女士可以免费带一位朋友,而且如果女士和朋友都 在周五前报名的话,办理半年期会员会有折扣。因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Professional personal training."
+        },
+        {
+          "label": "B",
+          "text": "Free exercise for the first week."
+        },
+        {
+          "label": "C",
+          "text": "A discount for a half-year membership."
+        },
+        {
+          "label": "D",
+          "text": "Additional benefits for young couples."
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "sectionId": "listening",
+      "stem": "What is the man concerned about?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中,男士提到他以前从来没有尝试过举重,并问女士举重是否危险。由此可知,男士担心的是举重的 安全问题,答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The safety of weight-lifting."
+        },
+        {
+          "label": "B",
+          "text": "The high membership fee."
+        },
+        {
+          "label": "C",
+          "text": "The renewal of his membership."
+        },
+        {
+          "label": "D",
+          "text": "The operation of fitness equipment."
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "sectionId": "listening",
+      "stem": "What do we learn about the woman from the conversation?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览三道题各选项,由 interviews、apply for、positions 和 jobs 等词可推测,短文内容与求职有关。第 16 题主语为 They,由选项语义可知,They 指求职者,此题考查求职者求职过程中的细节信息;第 17 题各选项均 为动词短语,考查行为动作,听音时留意选项关键词;第 18 题各选项均为动词短语,结合选项语义可推测,此题 考查某人的建议或指示。"
+        },
+        {
+          "label": "详解",
+          "text": "对话中,女士对男士说如果知道一些基本知识,那么举重一点都不危险。女士让男士不要担心,她会交给 他一些窍门(the ropes),并且告诉男士她过去常常在另一家健身房练习举重。由此可知,女士知道举重的基本知 识,答案为 C。 Section C Passage One (16)In today’s job market, it’s now common for job seekers to send applications for many positions. That involves lots of time and lots of work to organize. Certainly, you can’t wait to waste your precious hours on following the developments in a disorderly fashion and miss important deadlines, confuse interview times, or forget to follow up a result. Accordingly, managing your job search properly is just as important as identifying job opportunities and submitting your applications. If you are familiar with Microsoft Excel or a similar program, creating a table is a simple and effective way to keep track of your job applications. If Excel isn’t quite your cup of tea , don’t worry, you can create a table in Microsoft Word or a similar word processor. (17)Google is another tool to help you get organize effectively. If you have a Gmail account, you can create, safe and send tables in addition to written document like your cover letter and resume. You can also link up with Google calendar to make sure you stay on top of important dates. Clearly, there are plenty of ways to keep track of your job search and making the effort to simplify your job search will paid off. Nevertheless, (18) you should always focus on quality, not quantity. Only apply for position you are qualified for, and make each application count, personalizing each cover letters ,and updating and editing your resume. Questions 16 and 18 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She wants her invitation renewed."
+        },
+        {
+          "label": "B",
+          "text": "She used to do 200 sit-ups every day. 2"
+        },
+        {
+          "label": "C",
+          "text": "She knows the basics of weight-lifting."
+        },
+        {
+          "label": "D",
+          "text": "She used to be the gym's personal trainer. Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once.After yo u hear a question, you must choose the best answer from the four choices marked A),B), C) and D) . Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about today’s jobseekers?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文开头提到,在如今的就业市场上,求职者申请多个职位是很常见的。因此答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They tend to be nervous during interviews."
+        },
+        {
+          "label": "B",
+          "text": "They often apply for a number of positions."
+        },
+        {
+          "label": "C",
+          "text": "They worry about the results of their applications."
+        },
+        {
+          "label": "D",
+          "text": "They search extensively for employers' information."
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "sectionId": "listening",
+      "stem": "What can job applicants do with the help of the Google?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,谷歌是另一个可以有效地帮你变得有条理的工具。因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Get better organized."
+        },
+        {
+          "label": "B",
+          "text": "Edit their references."
+        },
+        {
+          "label": "C",
+          "text": "Find better-paid jobs."
+        },
+        {
+          "label": "D",
+          "text": "Analyze the searching process."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "sectionId": "listening",
+      "stem": "What does the speaker suggest job seekers do?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览三道题各选项,由 kids、school 和 learning 等词可推测,短文内容与孩子的教育有关。第 19 题各选 项均为 If 条件句,听音时应留意逻辑关系处;第 20 题和第 21 题各选项均为动词短语,结合语义可推测,可能分别 考查下一步的行动计划、针对某事所采取的措施或给出的意见,听音时应留意计划、措施、意见等方面的描述。"
+        },
+        {
+          "label": "详解",
+          "text": "短文最后讲话者提到,求职者应该注重质量而不是数量,至申请那些自己可以胜任的职位,让每个申请都 有意义,而且每逢求职者都要个性化,要不断更新和编辑自己的简历。因此答案为 B。 Passage Two (19)Some people say, if kids didn’t happen to go to school, they’d all be out in the streets. My reply is “No, they wouldn’t.” First, even if schools stay just what they are, children would spend at least some time there, because that’s where they’d be likely to find their friends. Second, schools wouldn’t stay the way they are. They’d get better, because we would have to start making them what they ought to be right now. Last, (20)if we stirred up our brains and gave children a little help, those who did not want to go to school could find other things to do — things many children now do during their holidays. (21)There’s something easier we could do. We need to get kids out of the school buildings, give them a chance to learn about the world at first hand. In Philadelphia and Portland, Oregon, plans are being drawn up for public schools that won’t have any school buildings at all. That will take the students out into the city and help them to use it and its people as a resource. In others words, students perhaps in groups, perhaps independently, will go to libraries, museums, exhibitions, courtrooms, radios and TV stations, meetings, businesses, and laboratories to learn about their world and society at first hand. A small private school in Washington is already doing this. It makes sense. We need more of it. Questions 19 and 21 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Provide their data in detail."
+        },
+        {
+          "label": "B",
+          "text": "Personalize each application."
+        },
+        {
+          "label": "C",
+          "text": "Make use of better search engines."
+        },
+        {
+          "label": "D",
+          "text": "Apply for more promising positions."
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "sectionId": "listening",
+      "stem": "What are some people worried about according to the speaker?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文开头提到,有些人说,如果孩子们不需要去上学,那么他们都会在大街上(乱跑)。因此答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "If kids did not like school, real learning would not take place."
+        },
+        {
+          "label": "B",
+          "text": "If not forced to go to school, kids would be out in the streets."
+        },
+        {
+          "label": "C",
+          "text": "If schools stayed the way they are, parents were sure to protest."
+        },
+        {
+          "label": "D",
+          "text": "If teaching failed to improve, kids would stay away from school."
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "sectionId": "listening",
+      "stem": "What does the speaker think we could do for the kids who dislike school?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,如果我们动脑筋给孩子们一点帮助,那些不愿意去上学的孩子就可以找到其他的事情(很多 孩子目前在假期里做的事情)去做。也就是说,对于那些不愿意去学校上学的孩子,我们可以给他们设计一些他们 在假期里喜欢做的活动,答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allow them to play interesting games in class."
+        },
+        {
+          "label": "B",
+          "text": "Try to stir up their interest in lab experiments."
+        },
+        {
+          "label": "C",
+          "text": "Let them stay home and learn from their parents."
+        },
+        {
+          "label": "D",
+          "text": "Design activities they now enjoy doing on holidays."
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "sectionId": "listening",
+      "stem": "What does the speaker say is the easier thing we could do?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览四道题各选项,由 popular、social activity 和 more expressive 等词可推测,短文内容与某种流行的社 交活动有关,而且这种社交比较有表达力。第 22 题均为对 It 的描述,结合主题可知,It 指某种社交活动,听音时 注意确定 It 所指;结合第 23 题各选项语意可知,主语 It 指某个具体的事物,可能考查其位置、外观或益处;第 24 题考查某物给 They 带来的好处,听音时应留意对某物的益处的描述;第 25 题则是考查对 It 的评价,听音时留意短 文结尾处出现选项中关键形容词及其近义词的地方。"
+        },
+        {
+          "label": "详解",
+          "text": "短文中提到,有一件事情比较简单,我们可以做到。我们需要把孩子们带出教学楼,给他们一个直接了解 这个世界的机会。因此答案为 D。 Passage Three Before there was the written word, there was the language of dance. Dance expresses love and hate, joy and sorrow, life and death, and everything else in between,(22) Dance in America is everywhere. We dance from Florida to Alaska, from horizon to horizon, and coast to coast. We dance at weddings, birthdays, office parties, or just to fill the time. “ I can’t imagine doing anything else with my life ,” Bridges runs dance classes for all ages. “Teaching dance is wonderful. My older students say it makes them feel young. It’s marvelous to watch them. (23) For many of them, it’s a way of meeting people and having a social life. So why do we dance?I can tell you about one young couple,” says Bridges. (24)“They arrive at the class in a bad mood, and they leave with a smile. Dancing seems to change their mood completely.”So do we dance in order to make ourselves feel better, calmer, healthier? (25)Andrea Hillier, a dance teacher says, “Dance, like the rhythm of a beating heart, is life. Even after all these years, I want to get better and better. I keep practicing even when I’m exhausted. I find it hard to stop. Dancing reminds me I’m alive.” Questions 22 and 25 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allow kids to learn at their own pace."
+        },
+        {
+          "label": "B",
+          "text": "Encourage kids to learn from each other."
+        },
+        {
+          "label": "C",
+          "text": "Organize kids into various interest groups."
+        },
+        {
+          "label": "D",
+          "text": "Take kids out of school to learn at first hand."
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "sectionId": "listening",
+      "stem": "What does the passage say about the dance in America?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,跳舞在美国处处可见,从佛罗里达到阿拉斯加、从地平线的一端到地平线的另一端、从东海 岸到西海岸的美国人都跳舞。婚礼上、生日会上、办公室派对上,甚至是仅仅为了打发时间时,美国人都喜欢跳舞。 因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is especially popular in Florida and Alaska."
+        },
+        {
+          "label": "B",
+          "text": "It is a major social activity among the young."
+        },
+        {
+          "label": "C",
+          "text": "It is seen almost anywhere and on any occasion."
+        },
+        {
+          "label": "D",
+          "text": "It is even more expressive than the written word."
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "sectionId": "listening",
+      "stem": "What do we know about the Lester Bridges’ dance studio?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,Lester Bridges 说,对他的很多学生来说,跳舞是一种与人交往、拥有社交生活的方式。也就 是说,Lester Bridges 的舞蹈工作室给人们提供了社交的机会,答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is located in a big city in Iowa."
+        },
+        {
+          "label": "B",
+          "text": "It is really marvelous to look at."
+        },
+        {
+          "label": "C",
+          "text": "It offers free dance classes to seniors."
+        },
+        {
+          "label": "D",
+          "text": "It offers people a chance to socialize."
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "sectionId": "listening",
+      "stem": "What happened to the young couple after they attended Lester Bridges’ in class?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,Lester Bridges 说他的学生中有一对年轻夫妻,他们来上课的时候情绪不好,但却是带着微笑 离开的,看来跳舞彻底改变了他们的情绪。因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their state of mind improved."
+        },
+        {
+          "label": "B",
+          "text": "They became better dancers. 3"
+        },
+        {
+          "label": "C",
+          "text": "They enjoyed better health."
+        },
+        {
+          "label": "D",
+          "text": "Their relationship strengthened."
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "sectionId": "listening",
+      "stem": "What does Andrea Hillier say about dancing?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文最后提到了舞蹈老师 Andrea Hillier 的话:跳舞就像心脏跳动的节奏,是生命之所在。因此答案为 B。 Part Ⅲ Section A 全文翻译: 自从 20 世纪 40 年代以来,加利福尼亚州南部一直有雾霾出名。虽然现在的情况比以前好一些,但是根据美国 肺脏协会,洛杉矶仍然是美国(26)污染物水平最高的城市。从圣塔莫妮卡山上的一家艺术博物馆盖蒂中心俯瞰该 城市,你会发现太平洋的景色被雾霾所遮掩。该州糟糕的空气也不仅(27)限于南部。位于中央山谷区的夫勒斯诺 市在美国全年污染排行榜上列于首位。居民的心肺(28)因此而受损。 所有这些,再加上加利福尼亚州科技(29)创新之州而闻名,使得该州成为开发和测试(30)详细监测污染系统 的理想之地。这也正是旧金山一家名为 Aclima 的新公司过去几个月以来一直在做的事情。该公司一直在尝试建立 监测站,这些监测站(31)打算用来生成精确至分钟的(32)室外空气污染地图。这些监测站也能监测包括办公室 在内的建筑物内的空气情况。 为了达到这个目的,Aclima 一直与谷歌的街景系统(33)合作。Aclima 的老板戴维达·赫茨尔说,他们发现 污染值高的时候正是旧金山的运输工人罢工而(34)居民不得不使用私家车的时候。相反,“骑车上班”(35)创 造了污染低值,效果明显。 选项归类 名 词:C)consequence 后果; D)consumers 消费者; F) detail 细节;I) inhabitants 居民; J) innovation 新; M) pollutants 污染物;O) sum 金额,总和 动 词:A) assisted 帮助,协助;B) collaborating 合作;E) creating 创造;K) intended 打算,想要;N) restricted 制; O) sum 总结 形容词:G)domestic 国内的,家庭的;L) outdoor 户外的;N) restricted 狭小的,有限的 副 词:H) frequently 频繁地 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is fun."
+        },
+        {
+          "label": "B",
+          "text": "It is life."
+        },
+        {
+          "label": "C",
+          "text": "It is exhausting."
+        },
+        {
+          "label": "D",
+          "text": "It is rhythmical."
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "city in the United States for levels of __(26)__ .",
+      "answer": "M",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前有介词 of,应填入名词。本段第一句提到,加利福尼亚州以雾霾闻名。接着第二句指 出,虽然现在的情况比以前好一些,但是洛杉矶仍然是美国______水平最高的城市。而下一句也提到了 haze(霾)。 综合以上信息可知,洛杉矶的污染非常严重。所以本空应填入与“污染”相关的名词,因此答案为 M) pollutants 污 染物。在备选名词中,能与 levels 搭配的只有 J) innovation 和 M) pollutants,而 innovation 放在此处不符合上下文意 思,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Nor is the state's bad air __(27)__ to its south.",
+      "answer": "N",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。本句是一个倒装句,正常的语序是“The state’s bad air is not_____to its south.”,空格前有 is, 应填入形容词或动词分词。本句意为“该州糟糕的空气也不仅______南部。”而下一句指出中央山谷区的夫勒斯诺 市在美国全年污染排行榜上列于首位,说明加利福尼亚州不仅仅是南部污染严重,其他地区也如此。由此可知本题 应填入含有“仅仅是,限于”含义的词,因此本题答案为 N) restricted 狭小的,有限的。在备选项中,能与 to 搭配 的只有 K) intended 和 N) restricted,而 intended 不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "__(28)__ .",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前有不定冠词 a,因此应填入名词的单数形式。本句意为“居民的心肺_____受损。”第 一段主要介绍了加利福尼亚州的空气污染之严重,由常识可知空气污染的后果之一就是会影响人们的心肺功能。所 以,本句与前文有因果关系,应填入含有“结果”意义的名词,因此本题答案为 C)consequence 后果。在备选名词 中,单数形式有 C)consequence、F) detail、J) innovation 和 O) sum,而只有 consequence 能和 as a 搭配构成词组,意 为“因此”,所以排除其他选项。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "__(29)__ , makes the place ideal for developing and testing systems designed to monitor pollution",
+      "answer": "J",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前有形容词 technological,因此应填入名词。该处意为“加利福尼亚州以科技_____之州 而闻名”。由常识可知,加利福尼亚州是许多科技公司的总部所在地,以创新闻名,因此该空应填 J) innovation 新。 本段提到 Aclima 是一家新公司,也会让人想到创新,而且其他备选名词均不符合句意,所以排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "in __(30)__ .",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前有介词 in,应填入名词。该处意为“用来______监测污染的系统”而第 32 题所在句 提到了精确至分钟的空气污染地图,说明这些系统非常全面、详细,因此应填入 F) detail 细节。在备选名词中,只 有 in detail 和 in sum 是固定搭配,而 in sum 意思是“总之”,不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "It has been trying out monitoring stations that are __(31)__ to yield",
+      "answer": "K",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格前有 are,空格后是 to,因此该空很可能填入动词名词。空格所在的定语从句修饰 stations, 意为“______生成精确至分钟的_______空气污染地图”。下一句指出监测站还能监测室内的空气情况。由此可知 本句是在说明监测站的作用,应填入含有“(打算)用来”意义的动词,因此本题答案为 K) intended 打算,想要。 be intended to 意为“打算……,是用来……”。在备选动词中,能与 to 搭配的只有 K) intended 和 N) restricted,而 restricted 不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "minute-to-minute maps of __(32)__ air pollution.",
+      "answer": "L",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。空格前是 of,空格后是名词短语,因此该空很可能填入形容词。本句及下一句都在介绍这 些监测站的作用,而且下一句提到这些监测站也能监测室内的空气情况,关键词是 also,说明本句提到的是相对于 室内的室外空气污染情况,因此本题答案为 L) outdoor 户外的。在备选形容词中,G)domestic 和 N) restricted 不符 合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "To this end, Aclima has been __(33)__ with Google's Street View system.",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格前有 has been,因此应填动词的现在分词或过去分词形式。本句意为“为了达到这个目 的,Aclima 一直与谷歌的街景系统_______。”谷歌的街景系统可以实时显示街道情况,有助于 Aclima 的监测站收 集空气信息,由此可推断 Aclima 在与谷歌合作,因此本题答案为 B) collaborating 合作。在备选动词中可以首先排 除 O) sum,而其他动词都不能与 with 搭配,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "workers went on strike and the city's __(34)__ were forced to use their cars.",
+      "answer": "I",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前有名词所有格 the city’s,空格后是 were,因此应填入名词复数形式。此处是说,旧金 山的运输工人罢工使得该城市的______不得不使用私家车。由句意可知,运输工人罢工的话,人们无法利用公共交 通工具出行,只能被迫开车。本空应填入含有“人们,居民”意义的名词,因此本题答案为 I) inhabitants 居民。在 备选的复数名词中,D) consumers 也指人,但是“消费者”覆盖面不够广泛,inhabitants 更加符合句意。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "work\" days have done their job by __(35)__ pollution lows.",
+      "answer": "E",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格前是介词 by,空格后是名词短语,因此该空很可能填入动词现在分词形式。本句意为“相 反,‘骑行上班’效果明显,______污染低值。”本句与上一句形成对比,上一句提到运输工人罢工的时候人们都 在开车出行,所以污染值高,而骑行上班会减少汽车的使用,因此污染值低。“cycle to work”产生了这样的效果, 因此本空应填含有“产生、带来”含义的词,本题答案为 E) creating 创造。在备选动词中,现在分词有 B) collaborating 和 E) creating,collaborating 是不及物动词,因此排除。 Section B 全文翻译: 当游客挤走当地人时,威尼斯将面临被列入“濒危”名单 A) 最近一个秋天的早晨,一大群人堵住了威尼斯最主要的旅游景点之一——里亚托桥——的台阶。里亚托桥 是横跨大运河的四座桥梁之一。它是横跨大运河的最古老的桥梁,也是圣马可和圣保罗区之间的分界线。但是在这 一天,事情却有一个意外转折:桥上挤满了威尼斯人,而不是游客。 B) (42)“人们欢呼着,把手推车举到半空中,”乔凡尼·乔治说道。他与一个名为“90 一代”的草根组织一起 帮助组织了这次游行。他所说的手推车是指小型购物车,这是真正的威尼斯人的象征。“一开始这只是一个玩笑,” 他笑着说。“当时的想法是把刀片装在车轮上。你知道吗?像宾虚那样。就是像那样,你只需要出去转转,把人撞 倒。” C) 威尼斯是世界上最热门的旅游目的地之一。但那就是一个问题。(39)每天都有高达 9 万的游客挤在威尼 斯的街道和运河上——远远超过威尼斯 5.5 万名永久居民的数量。游客人数的增长是导致该城市人口从 20 世纪 50 年代的 17.5 万人下降到目前人数的一个关键原因。被游客人数远远超过的威尼斯人正在不断的逃离。那些还留在这 里的人去趟市场都要穿过一大片不停咔咔咔拍照的游客,他们已经厌烦了这样的生活。想象一下,在去学校或者上 班的路上要穿过 5 万人的人群是怎样的感觉。 D) (44)游行队伍中已经当了奶奶的劳拉·齐吉说,当地政府和国家政府几十年来一直没有对拥挤的游客采 取任何措施,因为他们只对旅游业——威尼斯的主要产业——感兴趣。2015 年威尼斯旅游业价值超过 30 亿美元。 “威尼斯就是一棵摇钱树,”她说,“每个人都想要分一杯羹。” E) 就在圣马克广场那边,一艘游轮经过,每年都有数百艘这样的游轮出现在这些中世纪建筑的周围。(36) 它们巨大的尾流在水底翻起波浪,导致这些具有数百年历史的建筑的根基松动。“每次一看见游轮,我就会觉得很 难过,”齐吉说。“你看到它拖起的烂泥了吗?你看到紧随它而来的毁坏了吗?这对水下支撑着威尼斯城的古老木 柱造成了损害。总有一天,我们将会看到威尼斯土崩瓦解。” F) 有一段时间,联合国教科文组织——联合国的文化组织似乎也这样认为。(41-1)两年前,它就曾警告意大 利,指出意大利政府并没有保护威尼斯。联合国教科文组织将整个威尼斯城列为世界遗产地,这是一项极大的荣誉, 意味着在文化层面,威尼斯属于世界上所有的人。(41-2)2014 年,联合国教科文组织给了意大利两年的时间来管 理威尼斯繁荣的旅游业,否则这个城市将被列入另一个名单——世界濒危遗产,加入被叙利亚战争摧毁的阿勒颇和 巴尔米拉等遗址的行列。 G) 威尼斯的最后期限就在今年夏天毫无声息的过去了,那时联合国教科文组织正在伊斯坦布尔召开大会。只 有来自黎巴嫩的一位代表佳德·塔贝特试图提出这个问题。(38)“多年来,威尼斯的遗产状况一直在恶化,现在 已经到了极度危险的境界,”塔贝特告诉联合国教科文组织。“我们必须采取行动;没有时间让我们浪费了。” H) 但是,联合国的教科文组织甚至都没有进行投票。“它已被推迟至 2017 年,”安娜·萨默斯说。安娜·萨 默斯是《艺术报》的创始人兼首席执行官,同时也是“危在旦夕的威尼斯“组织的前负责人,该组织致力于恢复威 尼斯的艺术。(45)她说,联合国的这一文化组织之所以没有投票宣布威尼斯成为世界濒危遗产地,主要原因是联 合国教科文组织已经变得“极度政治化了。会有一些幕后谈判。” I) 意大利以拥有比世界上其他任何国家都多的联合国教科文组织世界遗产地而自豪,这也赋予了它在联合国教 科文组织内相当大的权力和影响力。联合国教科文组织世界遗产中心负责监管遗产地,其前任负责人是威尼斯人弗 朗西斯科·班德林,他现在担任联合国教科文组织文化助理总干事。 J) (37)今年早些时候,意大利与联合国教科文组织签署了一项正式协议,建议一个由警察艺术侦探和考古学 家组成的工作组,以保护文化遗产免受自然灾害和诸如“伊斯兰国”等恐怖组织都破坏。该协议强调了意大利作为 艺术和文化的良好保护者的全球声誉。 K) 但将威尼斯列入联合国教科文组织濒危名单——这一名单主要被发展中国家和冲突缠身的国家所占据—— 将会是一个国际尴尬局面,甚至可能会伤害意大利有利可图的旅游业。意大利文化部表示,它并未察觉政府试图向 联合国教科文组织施加压力。至于联合国教科文组织本身,它拒绝了采访的要求。 L) (43)该市现任市长路易吉·布鲁加洛嘲笑了联合国教科文组织,让它少管闲事,同时他继续支持雇用了 5,000 名威尼斯人的游轮行业。 M) 而对于威尼斯人来说,他们极度沮丧,希望很快能有解决方案。“这对我来说是一场噩梦。到处都是游客, 有些局面真的很难,”乔治在里亚托桥上穿越人山人海时这样说道。“他们人真的是太多了。他们永远不知道他们 要去哪里,也不会有条不紊地走路。在街道上穿行会让人感到筋疲力尽。” N) 接着他突然意识到:这个人群不是游客组成的。他们都是威尼斯人。乔治说 22 年来他从未在里亚托桥上有 过这样的经历。“这一次是我们正在堵塞交通,”他开心地说道。“这让人感到不真实。感觉我们就像是某种形式 的濒危物种。这很好。这种感觉很纯粹。”(40)但是,他也担心,如果旅游也得不到管控,他的威尼斯同乡们继 续移居大陆,他们这一代人可能就是最后一代可以称自己为威尼斯人的人了。 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "assisted",
+        "B": "collaborating",
+        "C": "consequence",
+        "D": "consumers",
+        "E": "creating",
+        "F": "detail",
+        "G": "domestic",
+        "H": "frequently",
+        "I": "inhabitants",
+        "J": "innovation",
+        "K": "intended",
+        "L": "outdoor",
+        "M": "pollutants",
+        "N": "restricted",
+        "O": "sum"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "assisted"
+        },
+        {
+          "label": "B",
+          "text": "collaborating"
+        },
+        {
+          "label": "C",
+          "text": "consequence"
+        },
+        {
+          "label": "D",
+          "text": "consumers"
+        },
+        {
+          "label": "E",
+          "text": "creating"
+        },
+        {
+          "label": "F",
+          "text": "detail"
+        },
+        {
+          "label": "G",
+          "text": "domestic"
+        },
+        {
+          "label": "H",
+          "text": "frequently"
+        },
+        {
+          "label": "I",
+          "text": "inhabitants"
+        },
+        {
+          "label": "J",
+          "text": "innovation"
+        },
+        {
+          "label": "K",
+          "text": "intended"
+        },
+        {
+          "label": "L",
+          "text": "outdoor"
+        },
+        {
+          "label": "M",
+          "text": "pollutants"
+        },
+        {
+          "label": "N",
+          "text": "restricted"
+        },
+        {
+          "label": "O",
+          "text": "sum"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The passing cruise ships will undermine the foundations of the ancient buildings in Venice.",
+      "answer": "E",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 undermine、foundations 和 buildings 定位到文章 E 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位段第一句指出,就在圣马克广场那边,每年都有数百艘游轮出现在这些中世纪建筑的周围。第二句接 着指出,这些游轮的巨大尾流在水底翻起波浪,导致这些具有数百年历史的建筑的根基松动。由此可见,穿行的游 轮将会破坏威尼斯古建筑的根基,题干是对定位句地同意转述,故答案为 E。"
+        },
+        {
+          "label": "译文",
+          "text": "穿行的游轮将会破坏威尼斯古建筑 的根基。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The Italian government has just reached an agreement with UNESCO to take measures to protect its cultural heritage.",
+      "answer": "J",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Italian、UNESCO、protect 和 cultural heritage 定位到文章 J 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "文章 J 段第一句提到,今年早些时候,意大利与联合国教科文组织签署了一项正式协议,建立一个由警察 艺术侦探和考古学家组成的工作组,以保护文化遗产免受自然灾害和诸如“伊斯兰国”等恐怖组织的破坏。题干中 的 reached an agreement 对应原文中的 signed an accord;题干中的 take measures to protect its cultural heritage 对应原 文中的 establish a task force…to protect cultural heritage,故答案为 J。"
+        },
+        {
+          "label": "译文",
+          "text": "意大利政府最近刚刚与联合国教科文组织达成协议, 将采取措施保护期文化遗产。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The heritage situation in Venice has been deteriorating in the past few years.",
+      "answer": "G",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 heritage situation in Venice 和 in the past few years 定位到文章 G 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "文章 G 段第三句引用了联合国教科文组织代表佳德·塔贝特的话:多年来,威尼斯的遗产状况一直在恶化, 现在已经到了极度危险的境地。题干中的 The heritage situation in Venice 对应原文中的 the situation of heritage in Venice;题干中的 has been deteriorating 对应原文中的 has been worsening;题干中的 in the past few years 对应原文中的 For several years,故本题答案为 G。"
+        },
+        {
+          "label": "译文",
+          "text": "在过去几年里,威尼斯的遗产状况一直在 恶化。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The decrease in the number of permanent residents in Venice is mainly due to the increase of tourists.",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "定位句提到,每天都有高达 9 万的游客挤在威尼斯的街道和运河上——远远超过威尼斯 5.5 万名永久居民 的数量。游客人数的增长是导致该城市人口从 20 世纪 50 年代的 17.5 万人下降到目前人数的一个关键原因。题干是 对这两句的概括归纳,故答案为 C。"
+        },
+        {
+          "label": "译文",
+          "text": "威尼斯永久居民人数的减少主要 是由于游客的增加。 定 位: 由题干 中的 permanent residents 和 the increase of tourists 定位到文章 C 段画线处。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "If tourism gets out of control, native Venetians may desert the city altogether one day.",
+      "answer": "N",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 tourism 和 native themselves native Venetians. Venetians 定位到文章 N 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位段最后一句提到乔治的担心:如果旅游业得不到管控,他的威尼斯同乡们继续移居大陆,他们这一代 人可能就是最后一代可以称自己为威尼斯人的人了。换句话说,如果旅游业失控,威尼斯当地人终有一天可能会全 部离开这座城市,故答案为 N。"
+        },
+        {
+          "label": "译文",
+          "text": "如果旅游业失控,威尼斯当 feels unreal. It feels like we're some form of endangered species. It's just nice. The 地人终有一天可能会全部离开这座 feeling is just pure.\" But, he worries, if tourism isn't managed and his fellow locals 城市。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "UNESCO urged the Italian government to undertake its responsibility to protect Venice. 6",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 UNESCO、the Italian government 和 protect Venice 定位到文章 F 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位段第二句提到,两年前,联合国教科文组织警告意大利,指出意大利政府并没有保护威尼斯;接着第 四句又指出 2014 年,联合国教科文组织给了意大利两年的时间来管理威尼斯繁荣的旅游业,否则这个城市将被列 入世界濒危遗产名单。换句话说,联合国教科文组织在敦促意大利政府保护威尼斯,如果做不到,会采取惩罚措施。 题干是对定位句的概括归纳,故答案为 F。"
+        },
+        {
+          "label": "译文",
+          "text": "联合国教科文组织敦促意大利政府 承担保护威尼斯的责任。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The participants in the Venetian march used shopping carts to show they were 100% local residents.",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 march 和 shopping carts 定 位到文章 B 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位段首句引用乔凡尼·乔治的话,介绍了游行的情况:人们欢呼着,把手推车举到半空中。第二句接着 指出,乔治所说的手推车是小型购物车,这是真正的威尼斯人的象征。题干中的 100% local residents 对应原文中的 a true Venetian,故本题答案为 B。"
+        },
+        {
+          "label": "译文",
+          "text": "威尼斯人游行的参与者使用购物车证明 他们是 100%的当地人。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Ignoring UNESCO's warning, the mayor of Venice maintains his support of the city's tourism industry.",
+      "answer": "L",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 mayor、support 和 industry 定位到文章 L 段画线 处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位段提到,威尼斯市现任市长路易吉·布鲁加洛嘲笑了联合国教科文组织,让它少管闲事,同时他继续 支持雇佣了 5,000 名威尼斯人的游轮行业。题干中的 maintains his support of the city's tourism industry 与原文中的 continuing to support the cruise ship industry 意思相近,题干是对原文的概括归纳,故本题答案为 L。"
+        },
+        {
+          "label": "译文",
+          "text": "无视联合国教科文组织的警告,威尼斯市长继续支持该市的 旅游业。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "One woman says that for decades the Italian government and local authorities have only focused on the revenues from tourism.",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 government and local authorities 和 tourism 定位到文章 D 段画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位句提到,劳拉·齐吉说,当地政府和国家政府几十年来一直没有对拥挤的游客群采取任何措施,只对 旅游业感兴趣,2015 年威尼斯旅游业价值超过 30 亿美元。换句话说,意大利政府和地方当局只关注旅游收入,题 干中的 only focused on the revenues from tourism 是对原文中的 only interested in tourism 的同义转述,故本题答案为 D。"
+        },
+        {
+          "label": "译文",
+          "text": "一位女士说,几十年来,意大利政府和地方 当局只关注旅游收入。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "UNESCO has not yet decided to put Venice on the list of World Heritage Sites In Danger.",
+      "answer": "H",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 UNESCO、has not yet decided 和 World Heritage Sites In Danger 定位到文章 H 段 画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位段第三句提到,安娜·萨默斯说,联合国的这一文化组织之所以没有投票宣布威尼斯成为世界濒危遗 产地,主要原因是联合国教科文组织已经变得“极度政治化了”。换句话说,联合国教科文组织还没有决定是否将 威尼斯列入世界濒危遗产名录,题干是对定位句的概括归纳,故本题的答案为 H。 Section C Passage One 全文翻译: (46)一项研究表明,在城市中,居住在有绿色空间的地方会对人们的心理健康产生持久的积极影响。英国研 究人员发现,不同于升职、加薪那样只会让人们得到短期的激励,搬到绿色空间居住会给人们带来持续的积极影响。 来自英国埃克塞特大学的合著者马修·怀特解释说,这项研究表明,生活在绿色更好的城市地区的人们表现出的抑 郁或焦虑迹象较少。(47)“其原因可能有很多,”他说,“比如,人们为了让自己更快乐,会做很多事情:他们 会争取晋升或加薪,或者结婚。但问题是,在六个月到一年的时间内,人们的幸福水平又会恢复到最初的基准状态。 因此,这些事情不具有可持续性;从长远来看,这些事情并不会让我们快乐。我们发现,对于那些中了 50 多万英 镑的彩票得主,这种积极的影响确实是存在的,但六个月到一年时间以后,他们又会回到基准状态。” (48)怀特博士说,他的研究小组想知道生活在绿化更好的城市地区是否会对人们的幸福感产生持久的积极影 响以及这种积极影响是否在一段时间以后也会消失。为了做到这一点,该研究小组使用了埃塞克斯大学编制的“英 国家庭小组调查”中的数据。 在解释数据所揭示的内容时,他说:“你所看到的是,即使在三年后,人们的心理健康仍然更好,这不同于许 多我们认为会让自己快乐的事情。”(49)他评论道,生活在绿色空间的人们压力更小,而压力小的人会做出更明 智的决定,且与人交流也会更顺畅。 越来越多的证据表明,城市绿色空间与其对人类的幸福的积极影响之间存在联系,怀特博士说:“公共政策官 员对此兴趣越来越浓厚,但问题是谁来提供资金。(50)在政策层面上,我们真正需要做的决定是从哪里获得资金 来支持高质量的当地绿色空间。” 详解详析:"
+        },
+        {
+          "label": "译文",
+          "text": "联合国教科文组织尚未决定是否将威尼斯 列入世界濒危遗产名录。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "According to one study, what do green spaces do to people?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "点睛",
+          "text": "A)“提高他们的工作效率”,原文并未提及相关信息,故排除;C)“帮助他们建立积极的人生态度”, 首段第三句提到,生活在绿化更好的城市地区的人们表现出抑郁或焦虑迹象较少,而非帮助他们建立积极的人生态 度,本选项为过度推理,故排除;D)“减少他们对物质生活水平的忧虑”,首段第一句提到,居住在有绿色空间的 地方会对人们的心理健康产生持久的积极影响,而非减少他们对物质生活水平的忧虑,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "判断推理题。文章首段第一句指出,一项研究表明,在城市,居住在有绿色空间的地方会对人们的心理 健康产生持久的积极影响。由此可知,绿色空间会增加人们的持续幸福感,故答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Improve their work efficiency."
+        },
+        {
+          "label": "B",
+          "text": "Add to their sustained happiness."
+        },
+        {
+          "label": "C",
+          "text": "Help them build a positive attitude towards life."
+        },
+        {
+          "label": "D",
+          "text": "Lessen their concerns about material well-being."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does Dr. White say people usually do to make themselves happier?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Dr. White 和 make themselves happier 定位到首段第四句:\"There could be a number of reasons,\" he said, \"for example, people do many things to make themselves happier: they strive for promotion or pay rises, or they get married…”"
+        },
+        {
+          "label": "点睛",
+          "text": "B)“在城市定居”和 C)“赢得名誉和声望”,文中并没有提到,故均排除;D)“生活在绿色环境中”, 并非人们的常规做法,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。文章首段第四句提到,怀特博士认为人们为了让自己更快乐,会做很多事情:他们会争取 晋升或加薪,或者结婚。由此可知,人们为了让自己更快乐,经常会去赚更多的钱,故答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Earn more money."
+        },
+        {
+          "label": "B",
+          "text": "Settle in an urban area."
+        },
+        {
+          "label": "C",
+          "text": "Gain fame and popularity."
+        },
+        {
+          "label": "D",
+          "text": "Live in a green environment."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does Dr. White try to find out about living in a greener urban area?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 find out 和 living in a greener urban area 定位到第二段第一句:Dr. White said his team wanted to see whether living in greener urban areas had a lasting positive effect on people's sense of well-being or whether the effect also disappeared after a period of time."
+        },
+        {
+          "label": "点睛",
+          "text": "A)“它是如何影响不同人群的”,原文并未提及,故排除;B)“其积极影响会有多大”,定位句指出, 怀特博士想研究的是这种积极影响是否在一段时间以后会消失,即想知道这种影响的持续时长,而非强度,故排除; D)“它是如何使人类的身体受益的”,原文未提及,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。文章第二段第一句指出,怀特博士说,他的研究小组想知道生活在绿化更好的城市地区是 否会对人们的幸福感产生持久的积极影响以及这种积极影响是否在一段时间以后也会消失。由此可知,怀特博士想 发现生活在绿化更好的城市地区对人们有多长时间的积极影响,故答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "How it affects different people."
+        },
+        {
+          "label": "B",
+          "text": "How strong its positive effect is."
+        },
+        {
+          "label": "C",
+          "text": "How long its positive effect lasts."
+        },
+        {
+          "label": "D",
+          "text": "How it benefits people physically."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What did Dr. White's research reveal about people living in a green environment?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Dr. White's research 和 reveal 定位到第三段:Explaining what the data revealed, he said: \"What you see is that even after three years, mental health is still better, which is unlike many other things that we think will make us happy.\" He observed that people living in green spaces were less stressed, and less stressed people made more sensible decisions and communicated better."
+        },
+        {
+          "label": "点睛",
+          "text": "A)“他们的压力比实际的更明显”,定位句指出生活在绿色空间的人们压力会更小,该项与原文表述不 一致,故排除;B)“他们做决定不需要深思熟虑”,定位句指出,生活在绿色空间的人们因为压力小,所以经常会 做出更明智的决定,而非做决定不需要深思熟虑,本选项表述与定位句不一致,故排除;C)“他们的记忆力得到极 大的加强”,原文并未提及,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。第三段第二句提到,他评论道。生活在绿色空间的人们压力更小,而压力小的人经常会做 出更明智的决定,且与人交流也会更顺畅。由此可知,生活在绿色环境中,可以改善与他人的沟通,故答案为 D)。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their stress was more apparent than real."
+        },
+        {
+          "label": "B",
+          "text": "Their decisions required less deliberation."
+        },
+        {
+          "label": "C",
+          "text": "Their memories were greatly strengthened."
+        },
+        {
+          "label": "D",
+          "text": "Their communication with others improved."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "According to Dr. White, what should the government do to build more green spaces in cities?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 the government 和 build 定位到最后一段最后一句:What we really need at a policy level is to decide where the money will come from to help support good quality local green spaces."
+        },
+        {
+          "label": "点睛",
+          "text": "B)“改善城市规划”、C)“让当地居民一起努力”和 D)“提高公众对于此问题的意识”文中均没有提及, 故排除。 Passage Two 全文翻译: 你可能听说过泰坦尼克号,但实际上它只是当时最先进的三艘海轮之一。奥林匹克级邮轮是北爱尔兰的哈兰德 与沃尔夫船厂为英国白星航运公司建造的。该级别的邮轮共有三艘,分别是奥林匹克号、不列颠号和泰坦尼克号。 你可能不知道的是,泰坦尼克号甚至不是奥林匹克级邮轮的旗舰。(51)总而言之,奥林匹克级邮轮是海上工程的 奇迹,但他们似乎注定要遭受灾难性的命运。 奥林匹克号于 1910 年首次起航,泰坦尼克号也于 1911 年第一次下水,最后不列颠号于 1914 年起航。(52) 这些邮轮共有九层甲板,白星航运公司决定把重点放在将它们打造成水上最豪华的船只。 奥林匹克级邮轮长达 269.13 米,是舰船技术的奇迹,每个人都认为在很长时间内,这些轮船都会保持这个桂冠。 然而,这些豪华邮轮都在公海上遭遇了可怕的事故。在泰坦尼克号沉没之前,奥林匹克号就曾失事,但只有奥林匹 克号幸存下来并持续航行了 24 年成功的航运生涯。1912 年,众所周知,泰坦尼克号撞上了一座巨大的冰山,成为 第一艘沉没的奥林匹克级邮轮。这场灾难之后,不列颠号于 1916 年触雷沉没。 每艘船都有几台锅炉燃煤已产生动力,这些锅炉由甲板下面精疲力竭的船员持续运转。(53)最容易辨认的船 型设计是船上的烟囱,但实际上第四个烟囱本质上只有具有艺术价值,没有任何实际功能。(54)虽然这两艘船只 沉没了,但它们都是双船体设计,据说这种设计可令船只“永不沉没”,也许正是这个错误的想法导致了泰坦尼克 号和不列颠号的悲剧结局。 在第一次世界大战中,奥林匹克号与其他船只发生了两次碰撞,后来又负责医疗和军队的运输。(55)奥林匹 克号最终于 1935 年退役,结束了豪华的奥林匹克级远洋客轮时代。 详解详析:"
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。最后一段最后一句提到,在政策层面上,我们真正需要做的决定是从哪里获得资金来支持 高质量的当地绿色空间。由此可知,政府应找到资金来支持绿色空间的构建,故答案为 A)。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Find financial support."
+        },
+        {
+          "label": "B",
+          "text": "Improve urban planning."
+        },
+        {
+          "label": "C",
+          "text": "Involve local residents in the effort."
+        },
+        {
+          "label": "D",
+          "text": "Raise public awareness of the issue.Passage Two Passage Two"
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does the passage say about the three Olympic class ships?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 three Olympic class ships 定位到第一段最后一句:All in all, the Olympic class ships were marvels of sea engineering, but they seemed cursed to suffer disastrous fates."
+        },
+        {
+          "label": "点睛",
+          "text": "A)“它们在海上表现非凡”,本选项是对定位句中的 marvels 所设的干扰项,定位句指出,奥林匹克级邮 轮是海上工程的奇迹,但似乎注定要遭受灾难性的命运,由此可知它们的表现并不好,故排除;B)“它们都可以撞 碎前进道路上的冰”,本文第三段倒数第二句指出,1912 年,泰坦尼克号撞上了一座巨大的冰山,成为第一艘沉没 的奥林匹克级邮轮,由此可知,它们并非不怕冰山,故排除;D)“它们曾是现代工程的典范”,文章第一段最后一 句指出,奥林匹克级邮轮是海上工程的奇迹,而非现代工程的典范,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。第一段最后一句指出,总而言之,奥林匹克级邮轮是海上工程的奇迹,但他们似乎注定要 遭受灾难性的命运。由此可知,三艘奥林匹克级邮轮都遭受了可怕的灾难,故答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They performed marvellously on the sea."
+        },
+        {
+          "label": "B",
+          "text": "They could all break the ice in their way."
+        },
+        {
+          "label": "C",
+          "text": "They all experienced terrible misfortunes."
+        },
+        {
+          "label": "D",
+          "text": "They were models of modern engineering."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did White Star Line have in mind when it purchased the three ships?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 White Star Line 和 purchased 定位到第二段第二句:The ships had nine decks, and White Star Line decided to focus on making them the most luxurious ships on the water."
+        },
+        {
+          "label": "点睛",
+          "text": "A)“它们可在各种水域中行驶的能力”,C)“它们可以抵御各种灾难的能力”和 D)“它们可以进行长途 航行”,原文均未提及,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。文章第二段第二句指出,白星航运公司决定把重点放在将它们打造成水上最豪华的船只。 由此可知,白星航运公司在购买这三艘邮轮时,想让顾客体验到最舒适的享受,故答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their capacity of sailing across all waters."
+        },
+        {
+          "label": "B",
+          "text": "The utmost comfort passengers could enjoy."
+        },
+        {
+          "label": "C",
+          "text": "Their ability to survive disasters of any kind."
+        },
+        {
+          "label": "D",
+          "text": "The long voyages they were able to undertake."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What is said about the fourth stack of the ships?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 the fourth stack of the ships 定位到第四段第二句:Most recognizable of the ship designs are the ship's smoke stacks, but the fourth stack was actually just artistic in nature and served no functional purpose."
+        },
+        {
+          "label": "点睛",
+          "text": "D)“它是一名著名艺术家的作品”,原文并未提及,故排除;C)“该设计旨在排出额外的烟”,定位句 指出,该设计没有任何实际功能,本选项与原文表述不一致,故排除;D)“从远处就可以很容易地辨认出它来”, 原文并未提及,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。第四段第二句提到,最容易辨认的船型设计是船上的烟囱,但实际上第四个烟囱本质上只 具有艺术价值,没有任何实际功能。由此可知,第四个烟囱只是一个装饰品,故答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was a mere piece of decoration."
+        },
+        {
+          "label": "B",
+          "text": "It was the work of a famous artist."
+        },
+        {
+          "label": "C",
+          "text": "It was designed to let out extra smoke."
+        },
+        {
+          "label": "D",
+          "text": "It was easily identifiable from afar."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What might have led to the tragic end of the Titanic and the Britannic?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 the tragic end of the Titanic and the Britannic 定位到第四段第三句:While two of these ships sank, they were all designed with double hulls (船体) believed to make them \"unsinkable\", perhaps a mistaken idea that led to the Titanic's and the Britannic's tragic end."
+        },
+        {
+          "label": "点睛",
+          "text": "A)“它们的设计不科学”和 B)“船长判断失误”,原文并未提及,故排除;C)“它们是用最新的技术建 造而成的假象”与定位句表述不一致,故排除。"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。第四段第三句指出,这两艘轮船都是双船体设计,据说这种设计可令船只“永不沉没”, 也许正是这个错误的想法导致了泰坦尼克号和不列颠号的悲剧结局。由此可知,泰坦尼克号和不列颠号的悲剧有可 能是因为“双船体设计”可以令船永不沉没的想法,故答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their unscientific designs."
+        },
+        {
+          "label": "B",
+          "text": "Their captains' misjudgment."
+        },
+        {
+          "label": "C",
+          "text": "The assumption that they were built with the latest technology."
+        },
+        {
+          "label": "D",
+          "text": "The belief that they could never sink with a double-layer body."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What happened to the ship Olympic in the end?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 the ship Olympic in the end 定位到文章最后一段最后一句:Eventually, she was taken out of service in 1935, ending the era of the luxurious Olympic class ocean liners."
+        },
+        {
+          "label": "点睛",
+          "text": "A)“它被用来运输军队”,这是奥林匹克号之前的用途,并非最终结局,故排除;B)“它在第一次世界 大战中沉没了”,文章最后一段第一句指出,在第一次世界大战中,奥林匹克号与其他船只发生了两次碰撞,但并 没有沉没,故排除;C)“它被改成了一艘医用船”,文章最后一段第一句指出,奥林匹克号曾负责医疗和军队的运 输,这是奥林匹克号之前的用途,并非最终结局,故排除。 Part Ⅳ Translation 参考译文 Buses used to be the main means of transportation for the Chinese people. In recent years, with the number of private cars increasing, cities have been facing increasingly severe traffic problems. To encourage more people to travel by bus, many cities have been making efforts to improve their bus service quality. Bus facilities have been continuously renovated, and the bus speed has also increased dramatically. However, the prices of buses are still quite cheap. Noe, in most cities, many local elderly citizens can take a bus for free. 难点注释"
+        },
+        {
+          "label": "详解",
+          "text": "事实细节题。最后一段最后一句提到,奥林匹克号最终于 1935 年退役,结束了豪华的奥林匹克级远洋客 轮时代。由此可知,奥林匹克号在海军服役后,于 1935 年退役了,故答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第2套.pdf + L3 2018年6月英语四级真题答案解析（卷二）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "She was used to carry troops."
+        },
+        {
+          "label": "B",
+          "text": "She was sunk in World War"
+        },
+        {
+          "label": "C",
+          "text": "She was converted into a hospital ship."
+        },
+        {
+          "label": "D",
+          "text": "She was retired after her naval service. 9"
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "for      each blank from a list of choices given in a word bank following the passage. Read the\npassage through carefully before making your choices. Each choice in the bank is identified\nby a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a\nsingle line through the centre. You may not use any of the words in the bank more than once.\nSince the 1940s, southern California has had a reputation for smog. Things are not as bad as\nthey once were but, according to the American Lung Association, Los Angeles is still the worst\ncity in the United States for levels of __26__ . Gazing down on the city from the Getty Center, an\nart museum in the Santa Monica Mountains, one would find the view of the Pacific Ocean blurred\nby the haze (霾). Nor is the state's bad air __27__ to its south. Fresno, in the central valley, comes\ntop of the list in America for year-round pollution. Residents' hearts and lungs are affected as a\n__28__ . All of which, combined with California's reputation as the home of technological\n__29__ , makes the place ideal for developing and testing systems designed to monitor pollution\nin __30__ . And that is just what Aclima, a new firm in San Francisco, has been doing over the\npast few months. It has been trying out monitoring stations that are __31__ to yield\nminute-to-minute maps of __32__ air pollution. Such stations will also be able to keep an eye on\nwhat is happening inside buildings, including offices.\nTo this end, Aclima has been __33__ with Google's Street View system. Davida Herzl,\nAclima's boss, says they have revealed pollution highs on days when San Francisco's transit\nworkers went on strike and the city's __34__ were forced to use their cars. Conversely, \"cycle to\nwork\" days have done their job by __35__ pollution lows.",
+      "blocks": [
+        {
+          "text": "for      each blank from a list of choices given in a word bank following the passage. Read the\npassage through carefully before making your choices. Each choice in the bank is identified\nby a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a\nsingle line through the centre. You may not use any of the words in the bank more than once.\nSince the 1940s, southern California has had a reputation for smog. Things are not as bad as\nthey once were but, according to the American Lung Association, Los Angeles is still the worst\ncity in the United States for levels of __26__ . Gazing down on the city from the Getty Center, an\nart museum in the Santa Monica Mountains, one would find the view of the Pacific Ocean blurred\nby the haze (霾). Nor is the state's bad air __27__ to its south. Fresno, in the central valley, comes\ntop of the list in America for year-round pollution. Residents' hearts and lungs are affected as a\n__28__ . All of which, combined with California's reputation as the home of technological\n__29__ , makes the place ideal for developing and testing systems designed to monitor pollution\nin __30__ . And that is just what Aclima, a new firm in San Francisco, has been doing over the\npast few months. It has been trying out monitoring stations that are __31__ to yield\nminute-to-minute maps of __32__ air pollution. Such stations will also be able to keep an eye on\nwhat is happening inside buildings, including offices.\nTo this end, Aclima has been __33__ with Google's Street View system. Davida Herzl,\nAclima's boss, says they have revealed pollution highs on days when San Francisco's transit\nworkers went on strike and the city's __34__ were forced to use their cars. Conversely, \"cycle to\nwork\" days have done their job by __35__ pollution lows."
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) On a recent fall morning, a large crowd blocked the steps at one of Venice's main tourist sites, the Rialto Bridge. The Rialto Bridge is one of the four bridges spanning the Grand Canal. It is the oldest bridge across the canal, and was the dividing line between the districts of San Marco and San Polo. But on this day, there was a twist: it was filled with Venetians, not tourists. 4\nB) \"People are cheering and holding their carts in the air,\" says Giovanni Giorgio, who helped organize the march with a grass-roots organization called Generazione '90. The carts he refers to are small shopping carts—the symbol of a true Venetian. \"It started as a joke,\" he says with a laugh. \"The idea was to put blades on the wheels! You know? Like Ben Hur. Precisely like that, you just go around and run people down.\"\nC) Venice is one of the hottest tourist destinations in the world. But that's a problem. Up to 90,000 tourists crowd its streets and canals every day—far outnumbering the 55,000 permanent residents. The tourist increase is one key reason the city's population is down from 175,000 in the 1950s. The outnumbered Venetians have been steadily fleeing. And those who stick around are tired of living in a place where they can't even get to the market without swimming through a sea of picture-snapping tourists. Imagine, navigating through 50,000 people while on the way to school or to work.\nD) Laura Chigi, a grandmother at the march, says the local and national governments have failed to do anything about the crowds for decades, because they're only interested in tourism—the primary industry in Venice, worth more than $3 billion in 2015. \"Venice is a cash cow,\" she says, \"and everyone wants a piece.\"\nE) Just beyond St. Mark's Square, a cruise ship passes, one of hundreds every year that appear over their medieval (中世纪的) surroundings. Their massive wake creates waves at the bottom of the sea, weakening the foundations of the centuries-old buildings themselves. \"Every time I see a cruise ship, I feel sad,\" Chigi says. \"You see the mud it drags; the destruction it leaves in its wake? That hurts the ancient wooden poles holding up the city underwater. One day we'll see Venice break down.\"\nF) For a time, UNESCO, the cultural wing of the United Nations, seemed to agree. Two years ago, it put Italy on notice, saying the government was not protecting Venice. UNESCO considers the entire city a World Heritage Site, a great honor that means Venice, at the cultural level, belongs to all of the world's people. In 2014, UNESCO gave Italy two years to manage Venice's flourishing tourism or the city would be placed on another list—World Heritage In Danger, joining such sites as Aleppo and Palmyra, destroyed by the war in Syria.\nG) Venice's deadline passed with barely a murmur (嘟哝) this summer, just as UNESCO was meeting in Istanbul. Only one representative, Jad Tabet from Lebanon, tried to raise the issue. \"For several years, the situation of heritage in Venice has been worsening, and it has now reached a dramatic situation,\" Tabet told UNESCO. \"We have to act quickly—there is not a moment to waste.\"\nH) But UNESCO didn't even hold a vote. \"It's been postponed until 2017,\" says Anna Somers, the founder and CEO of The Art Newspaper and the former head of Venice in Peril, a group devoted to restoring Venetian art. She says the main reason the U.N. cultural organization didn't vote to declare Venice a World Heritage Site In Danger is because UNESCO has become 5 \"intensely politicized. There would have been some back-room negotiations.\"\nI) Italy boasts more UNESCO World Heritage Sites than any other country in the world, granting it considerable power and influence within the organization. The former head of the UNESCO World Heritage Centre, which oversees heritage sites, is Francesco Bandarin, a Venetian who now serves as UNESCO's assistant director-general for culture.\nJ) Earlier this year, Italy signed an accord with UNESCO to establish a task force of police art detectives and archaeologists (考古学家) to protect cultural heritage from natural disasters and terror groups, such as ISIS. The accord underlined Italy's global reputation as a good steward of art and culture.\nK) But adding Venice to the UNESCO endangered list—which is dominated by sites in developing and conflict-ridden countries—would be an international embarrassment, and could even hurt Italy's profitable tourism industry. The Italian Culture Ministry says it is unaware of any government efforts to pressure UNESCO. As for the organization itself, it declined a request for an interview.\nL) The city's current mayor, Luigi Brugnaro, has ridiculed UNESCO and told it to mind its own business, while continuing to support the cruise ship industry, which employs 5,000 Venice residents.\nM) As for Venetians, they're beyond frustrated and hoping for a solution soon. \"It's a nightmare for me. Some situations are really difficult with tourists around,\" says Giorgio as he navigates around a swelling crowd at the Rialto Bridge. \"There are just so many of them. They never know where they are going, and do not walk in an orderly manner. Navigating the streets can be exhausting.\"\nN) Then it hits him: This crowd isn't made up of tourists. They're Venetians. Giorgio says he's never experienced the Rialto Bridge this way in all his 22 years. \"For once, we are the ones who are blocking the traffic,\" he says delightedly. \"It feels unreal. It feels like we're some form of endangered species. It's just nice. The feeling is just pure.\" But, he worries, if tourism isn't managed and his fellow locals continue to move to the mainland, his generation might be the last who can call themselves native Venetians. 36. The passing cruise ships will undermine the foundations of the ancient buildings in Venice. 37. The Italian government has just reached an agreement with UNESCO to take measures to protect its cultural heritage. 38. The heritage situation in Venice has been deteriorating in the past few years. 39. The decrease in the number of permanent residents in Venice is mainly due to the increase of tourists. 40. If tourism gets out of control, native Venetians may desert the city altogether one day. 41. UNESCO urged the Italian government to undertake its responsibility to protect Venice. 6 42. The participants in the Venetian march used shopping carts to show they were 100% local residents. 43. Ignoring UNESCO's warning, the mayor of Venice maintains his support of the city's tourism industry. 44. One woman says that for decades the Italian government and local authorities have only focused on the revenues from tourism. 45. UNESCO has not yet decided to put Venice on the list of World Heritage Sites In Danger.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "On a recent fall morning, a large crowd blocked the steps at one of Venice's main tourist sites, the Rialto Bridge. The Rialto Bridge is one of the four bridges spanning the Grand Canal. It is the oldest bridge across the canal, and was the dividing line between the districts of San Marco and San Polo. But on this day, there was a twist: it was filled with Venetians, not tourists. 4"
+        },
+        {
+          "label": "B",
+          "text": "\"People are cheering and holding their carts in the air,\" says Giovanni Giorgio, who helped organize the march with a grass-roots organization called Generazione '90. The carts he refers to are small shopping carts—the symbol of a true Venetian. \"It started as a joke,\" he says with a laugh. \"The idea was to put blades on the wheels! You know? Like Ben Hur. Precisely like that, you just go around and run people down.\""
+        },
+        {
+          "label": "C",
+          "text": "Venice is one of the hottest tourist destinations in the world. But that's a problem. Up to 90,000 tourists crowd its streets and canals every day—far outnumbering the 55,000 permanent residents. The tourist increase is one key reason the city's population is down from 175,000 in the 1950s. The outnumbered Venetians have been steadily fleeing. And those who stick around are tired of living in a place where they can't even get to the market without swimming through a sea of picture-snapping tourists. Imagine, navigating through 50,000 people while on the way to school or to work."
+        },
+        {
+          "label": "D",
+          "text": "Laura Chigi, a grandmother at the march, says the local and national governments have failed to do anything about the crowds for decades, because they're only interested in tourism—the primary industry in Venice, worth more than $3 billion in 2015. \"Venice is a cash cow,\" she says, \"and everyone wants a piece.\""
+        },
+        {
+          "label": "E",
+          "text": "Just beyond St. Mark's Square, a cruise ship passes, one of hundreds every year that appear over their medieval (中世纪的) surroundings. Their massive wake creates waves at the bottom of the sea, weakening the foundations of the centuries-old buildings themselves. \"Every time I see a cruise ship, I feel sad,\" Chigi says. \"You see the mud it drags; the destruction it leaves in its wake? That hurts the ancient wooden poles holding up the city underwater. One day we'll see Venice break down.\""
+        },
+        {
+          "label": "F",
+          "text": "For a time, UNESCO, the cultural wing of the United Nations, seemed to agree. Two years ago, it put Italy on notice, saying the government was not protecting Venice. UNESCO considers the entire city a World Heritage Site, a great honor that means Venice, at the cultural level, belongs to all of the world's people. In 2014, UNESCO gave Italy two years to manage Venice's flourishing tourism or the city would be placed on another list—World Heritage In Danger, joining such sites as Aleppo and Palmyra, destroyed by the war in Syria."
+        },
+        {
+          "label": "G",
+          "text": "Venice's deadline passed with barely a murmur (嘟哝) this summer, just as UNESCO was meeting in Istanbul. Only one representative, Jad Tabet from Lebanon, tried to raise the issue. \"For several years, the situation of heritage in Venice has been worsening, and it has now reached a dramatic situation,\" Tabet told UNESCO. \"We have to act quickly—there is not a moment to waste.\""
+        },
+        {
+          "label": "H",
+          "text": "But UNESCO didn't even hold a vote. \"It's been postponed until 2017,\" says Anna Somers, the founder and CEO of The Art Newspaper and the former head of Venice in Peril, a group devoted to restoring Venetian art. She says the main reason the U.N. cultural organization didn't vote to declare Venice a World Heritage Site In Danger is because UNESCO has become 5 \"intensely politicized. There would have been some back-room negotiations.\""
+        },
+        {
+          "label": "I",
+          "text": "Italy boasts more UNESCO World Heritage Sites than any other country in the world, granting it considerable power and influence within the organization. The former head of the UNESCO World Heritage Centre, which oversees heritage sites, is Francesco Bandarin, a Venetian who now serves as UNESCO's assistant director-general for culture."
+        },
+        {
+          "label": "J",
+          "text": "Earlier this year, Italy signed an accord with UNESCO to establish a task force of police art detectives and archaeologists (考古学家) to protect cultural heritage from natural disasters and terror groups, such as ISIS. The accord underlined Italy's global reputation as a good steward of art and culture."
+        },
+        {
+          "label": "K",
+          "text": "But adding Venice to the UNESCO endangered list—which is dominated by sites in developing and conflict-ridden countries—would be an international embarrassment, and could even hurt Italy's profitable tourism industry. The Italian Culture Ministry says it is unaware of any government efforts to pressure UNESCO. As for the organization itself, it declined a request for an interview."
+        },
+        {
+          "label": "L",
+          "text": "The city's current mayor, Luigi Brugnaro, has ridiculed UNESCO and told it to mind its own business, while continuing to support the cruise ship industry, which employs 5,000 Venice residents."
+        },
+        {
+          "label": "M",
+          "text": "As for Venetians, they're beyond frustrated and hoping for a solution soon. \"It's a nightmare for me. Some situations are really difficult with tourists around,\" says Giorgio as he navigates around a swelling crowd at the Rialto Bridge. \"There are just so many of them. They never know where they are going, and do not walk in an orderly manner. Navigating the streets can be exhausting.\""
+        },
+        {
+          "label": "N",
+          "text": "Then it hits him: This crowd isn't made up of tourists. They're Venetians. Giorgio says he's never experienced the Rialto Bridge this way in all his 22 years. \"For once, we are the ones who are blocking the traffic,\" he says delightedly. \"It feels unreal. It feels like we're some form of endangered species. It's just nice. The feeling is just pure.\" But, he worries, if tourism isn't managed and his fellow locals continue to move to the mainland, his generation might be the last who can call themselves native Venetians. 36. The passing cruise ships will undermine the foundations of the ancient buildings in Venice. 37. The Italian government has just reached an agreement with UNESCO to take measures to protect its cultural heritage. 38. The heritage situation in Venice has been deteriorating in the past few years. 39. The decrease in the number of permanent residents in Venice is mainly due to the increase of tourists. 40. If tourism gets out of control, native Venetians may desert the city altogether one day. 41. UNESCO urged the Italian government to undertake its responsibility to protect Venice. 6 42. The participants in the Venetian march used shopping carts to show they were 100% local residents. 43. Ignoring UNESCO's warning, the mayor of Venice maintains his support of the city's tourism industry. 44. One woman says that for decades the Italian government and local authorities have only focused on the revenues from tourism. 45. UNESCO has not yet decided to put Venice on the list of World Heritage Sites In Danger."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "Living in an urban area with green spaces has a long-lasting positive impact on people's\nmental well-being, a study has suggested. UK researchers found moving to a green space had a\nsustained positive effect, unlike pay rises or promotions, which only provided a short-term boost.\nCo-author Mathew White, from the University of Exeter, UK, explained that the study showed\npeople living in greener urban areas were displaying fewer signs of depression or anxiety. \"There\ncould be a number of reasons,\" he said, \"for example, people do many things to make themselves\nhappier: they strive for promotion or pay rises, or they get married. But the trouble with those\nthings is that within six months to a year, people are back to their original baseline levels of\nwell-being. So, these things are not sustainable; they don't make us happy in the long term. We\nfound that for some lottery (彩票) winners who had won more than ￡500,000 the positive effect\nwas definitely there, but after six months to a year, they were back to the baseline.\"\nDr. White said his team wanted to see whether living in greener urban areas had a lasting\npositive effect on people's sense of well-being or whether the effect also disappeared after a period\nof time. To do this, the team used data from the British Household Panel Survey compiled by the\nUniversity of Essex.\nExplaining what the data revealed, he said: \"What you see is that even after three years,\nmental health is still better, which is unlike many other things that we think will make us happy.\"\nHe observed that people living in green spaces were less stressed, and less stressed people made\nmore sensible decisions and communicated better.\nWith a growing body of evidence establishing a link between urban green spaces and a\npositive impact on human well-being, Dr. White said, \"There's growing interest among public\npolicy officials, but the trouble is who funds it. What we really need at a policy level is to decide\nwhere the money will come from to help support good quality local green spaces.\"\n7",
+      "blocks": [
+        {
+          "text": "Living in an urban area with green spaces has a long-lasting positive impact on people's\nmental well-being, a study has suggested. UK researchers found moving to a green space had a\nsustained positive effect, unlike pay rises or promotions, which only provided a short-term boost.\nCo-author Mathew White, from the University of Exeter, UK, explained that the study showed\npeople living in greener urban areas were displaying fewer signs of depression or anxiety. \"There\ncould be a number of reasons,\" he said, \"for example, people do many things to make themselves\nhappier: they strive for promotion or pay rises, or they get married. But the trouble with those\nthings is that within six months to a year, people are back to their original baseline levels of\nwell-being. So, these things are not sustainable; they don't make us happy in the long term. We\nfound that for some lottery (彩票) winners who had won more than ￡500,000 the positive effect\nwas definitely there, but after six months to a year, they were back to the baseline.\"\nDr. White said his team wanted to see whether living in greener urban areas had a lasting\npositive effect on people's sense of well-being or whether the effect also disappeared after a period\nof time. To do this, the team used data from the British Household Panel Survey compiled by the\nUniversity of Essex.\nExplaining what the data revealed, he said: \"What you see is that even after three years,\nmental health is still better, which is unlike many other things that we think will make us happy.\"\nHe observed that people living in green spaces were less stressed, and less stressed people made\nmore sensible decisions and communicated better.\nWith a growing body of evidence establishing a link between urban green spaces and a\npositive impact on human well-being, Dr. White said, \"There's growing interest among public\npolicy officials, but the trouble is who funds it. What we really need at a policy level is to decide\nwhere the money will come from to help support good quality local green spaces.\"\n7"
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "You probably know about the Titanic, but it was actually just one of three state-of-the-art (先\n进的) ocean ships back in the day. The Olympic class ships were built by the Harland &amp;\nWolff ship makers in Northern Ireland for the White Star Line company. The Olympic class\nincluded the Olympic, the Britannic and the Titanic. What you may not know is that the Titanic\nwasn't even the flagship of this class. All in all, the Olympic class ships were marvels of sea\nengineering, but they seemed cursed to suffer disastrous fates.\nThe Olympic launched first in 1910, followed by the Titanic in 1911, and lastly the Britannic\nin 1914. The ships had nine decks, and White Star Line decided to focus on making them the most\nluxurious ships on the water.\nStretching 269.13 meters, the Olympic class ships were wonders of naval technology, and\neveryone thought that they would continue to be so for quite some time. However, all suffered\n8\nterrible accidents on the open seas. The Olympic got wrecked before the Titanic did, but it was the\nonly one to survive and maintain a successful career of 24 years. The Titanic was the first to sink\nafter famously hitting a huge iceberg in 1912. Following this disaster, the Britannic hit a naval\nmine in 1916 and subsequently sank as well.\nEach ship was coal-powered by several boilers constantly kept running by exhausted crews\nbelow deck. Most recognizable of the ship designs are the ship's smoke stacks, but the fourth stack\nwas actually just artistic in nature and served no functional purpose. While two of these ships sank,\nthey were all designed with double hulls (船体) believed to make them \"unsinkable\", perhaps a\nmistaken idea that led to the Titanic's and the Britannic's tragic end.\nThe Olympic suffered two crashes with other ships and went on to serve as a hospital ship\nand troop transport in World War I. Eventually, she was taken out of service in 1935, ending the\nera of the luxurious Olympic class ocean liners.",
+      "blocks": [
+        {
+          "text": "You probably know about the Titanic, but it was actually just one of three state-of-the-art (先\n进的) ocean ships back in the day. The Olympic class ships were built by the Harland &amp;\nWolff ship makers in Northern Ireland for the White Star Line company. The Olympic class\nincluded the Olympic, the Britannic and the Titanic. What you may not know is that the Titanic\nwasn't even the flagship of this class. All in all, the Olympic class ships were marvels of sea\nengineering, but they seemed cursed to suffer disastrous fates.\nThe Olympic launched first in 1910, followed by the Titanic in 1911, and lastly the Britannic\nin 1914. The ships had nine decks, and White Star Line decided to focus on making them the most\nluxurious ships on the water.\nStretching 269.13 meters, the Olympic class ships were wonders of naval technology, and\neveryone thought that they would continue to be so for quite some time. However, all suffered\n8\nterrible accidents on the open seas. The Olympic got wrecked before the Titanic did, but it was the\nonly one to survive and maintain a successful career of 24 years. The Titanic was the first to sink\nafter famously hitting a huge iceberg in 1912. Following this disaster, the Britannic hit a naval\nmine in 1916 and subsequently sank as well.\nEach ship was coal-powered by several boilers constantly kept running by exhausted crews\nbelow deck. Most recognizable of the ship designs are the ship's smoke stacks, but the fourth stack\nwas actually just artistic in nature and served no functional purpose. While two of these ships sank,\nthey were all designed with double hulls (船体) believed to make them \"unsinkable\", perhaps a\nmistaken idea that led to the Titanic's and the Britannic's tragic end.\nThe Olympic suffered two crashes with other ships and went on to serve as a hospital ship\nand troop transport in World War I. Eventually, she was taken out of service in 1935, ending the\nera of the luxurious Olympic class ocean liners."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30minutes to write a short essay on the importance of writing ability and how to develop it. You should write at least 120 words but no more than 180 words. ________________________________________________________________________ ________________________________________________________________________ ________________________________________________________________________",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30minutes to translate a passage from Chinese",
+      "source": "公交车曾是中国人出行的主要交通工具。近年来，由于私家车数量不断增多，城市的交通\n问题越来越严重。许多城市为了鼓励更多人乘坐公交车出行，一直在努力改善公交车的服务\n质量。车辆的设施不断更新，车速也有了显著提高。然而，公交车的票价却依然相当低廉。\n现在，在大多数城市，许多当地老年市民都可以免费乘坐公交车。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}

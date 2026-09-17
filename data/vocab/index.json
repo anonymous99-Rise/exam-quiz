@@ -1,0 +1,96 @@
+{
+  "source": {
+    "repo": "https://github.com/KyleBing/english-vocabulary",
+    "file": "full_line_jsonl/sentence/正序/*.jsonl",
+    "note": "上游未声明 license；本站仅作个人学习使用，保留出处"
+  },
+  "generatedAt": "2026-09-17T09:49:57.879Z",
+  "bookCount": 7,
+  "wordCount": 54356,
+  "books": [
+    {
+      "id": "cet6",
+      "name": "六级",
+      "note": "CET-6 大纲词",
+      "examId": "cet6",
+      "count": 5651,
+      "shards": 12,
+      "shardSize": 311560,
+      "listBytes": 413098,
+      "hasRefs": true,
+      "refsHit": 3400
+    },
+    {
+      "id": "cet4",
+      "name": "四级",
+      "note": "CET-4 大纲词",
+      "examId": "cet4",
+      "count": 7508,
+      "shards": 16,
+      "shardSize": 337312,
+      "listBytes": 527434,
+      "hasRefs": true,
+      "refsHit": 2009
+    },
+    {
+      "id": "kaoyan",
+      "name": "考研",
+      "note": "考研英语大纲词",
+      "examId": null,
+      "count": 9602,
+      "shards": 20,
+      "shardSize": 376010,
+      "listBytes": 750567,
+      "hasRefs": false,
+      "refsHit": 0
+    },
+    {
+      "id": "toefl",
+      "name": "托福",
+      "note": "TOEFL 核心词",
+      "examId": null,
+      "count": 13477,
+      "shards": 27,
+      "shardSize": 495548,
+      "listBytes": 950796,
+      "hasRefs": false,
+      "refsHit": 0
+    },
+    {
+      "id": "sat",
+      "name": "SAT",
+      "note": "SAT 核心词",
+      "examId": null,
+      "count": 8887,
+      "shards": 18,
+      "shardSize": 232513,
+      "listBytes": 704700,
+      "hasRefs": false,
+      "refsHit": 0
+    },
+    {
+      "id": "senior",
+      "name": "高中",
+      "note": "高中英语词汇",
+      "examId": null,
+      "count": 6008,
+      "shards": 13,
+      "shardSize": 382893,
+      "listBytes": 444348,
+      "hasRefs": false,
+      "refsHit": 0
+    },
+    {
+      "id": "junior",
+      "name": "初中",
+      "note": "初中英语词汇",
+      "examId": null,
+      "count": 3223,
+      "shards": 7,
+      "shardSize": 473154,
+      "listBytes": 253858,
+      "hasRefs": false,
+      "refsHit": 0
+    }
+  ]
+}

@@ -19,7 +19,7 @@
  *
  * 用法：
  *   node tools/vocab-import-full.mjs --stats         只看覆盖率与体量（不落盘）
- *   node tools/vocab-import-full.mjs --only cet6     抽取并合并进 content/vocab/cet6
+ *   node tools/vocab-import-full.mjs --only cet6     抽取并合并进 data/vocab/cet6
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -38,7 +38,7 @@ const ONLY = getArg('--only', '')
 
 const REPO = 'KyleBing/english-vocabulary';
 const SRC_DIR = path.join('.sources', 'vocab');
-const OUT_ROOT = path.join('content', 'vocab');
+const OUT_ROOT = path.join('data', 'vocab');
 
 /** 词书 id → 上游文件名 */
 const BOOKS = {

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * 把 content/vocab/ 复制到 public/vocab/，供浏览器 fetch。
+ * 把 data/vocab/ 复制到 public/vocab/，供浏览器 fetch。
  *
  * 为什么要有这一步：词书数据是**客户端按需取**的（列表页读 list.json，
  * 学习页一次取一片），所以必须落在 public/ 下由静态服务发出去。
  * 而 public/vocab/ 是**生成物**（37MB），不该进仓库 —— 仓库里只保留
- * content/vocab/ 这一份源。于是挂在 prebuild 上：git push 触发的 Vercel 构建
+ * data/vocab/ 这一份源。于是挂在 prebuild 上：git push 触发的 Vercel 构建
  * 会自动复制，本地 dev 前跑一次即可。
  *
  * 用硬链接/复制而不是软链：Windows 上软链需要管理员权限，且 Vercel 的构建
@@ -14,7 +14,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const SRC = path.join('content', 'vocab');
+const SRC = path.join('data', 'vocab');
 /*
  * ⚠ 目录名必须**避开 app 路由**。
  * 踩过的坑：数据放在 public/vocab/<book>/index.json 时，线上访问 /vocab/cet6

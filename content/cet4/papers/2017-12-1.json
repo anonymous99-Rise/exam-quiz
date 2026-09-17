@@ -1,0 +1,2598 @@
+{
+  "id": "2017-12-1",
+  "examId": "cet4",
+  "year": 2017,
+  "month": 12,
+  "session": "2017下半年",
+  "setNo": 1,
+  "label": "2017年12月",
+  "questions": [
+    {
+      "no": 1,
+      "sectionId": "listening",
+      "stem": "Who did Addison raise the money for?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻开头提到,新墨西哥州一个 9 岁的女孩已经为需要做心脏手术的弟弟筹集了 500 多美元。从新闻接下 来的讲述中可知,这个女孩名叫 Addison,因此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her grandfather."
+        },
+        {
+          "label": "B",
+          "text": "Her grandmother."
+        },
+        {
+          "label": "C",
+          "text": "Her friend Erika."
+        },
+        {
+          "label": "D",
+          "text": "Her little brother."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "sectionId": "listening",
+      "stem": "How did Addison raise the money?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览两道题各选项,由选项中出现的 new solar panel 和 clean energy 等词可推测,新闻内容与新能源有 关。第 3 题各选项均是分词结构,结合语义可知,本题旨在考查某事的意图;第 4 题主语均是 They,结合语义可知, 本题旨在考查 They 的特征,听音时要注意确定 They 的所指。"
+        },
+        {
+          "label": "详解",
+          "text": "新闻中,Addison 的奶奶讲述了 Addison 筹钱的经过:她或许是听到了家人讨论弟弟手术需要钱的事情,于 是决定外出摆摊卖柠檬水,并且画一些画卖掉。由此可知,女孩 Addison 是通过卖柠檬水和画为弟弟筹钱的,因此 答案为 B。 News Report Two (3)Last week, France announced that the country will pave 621 miles of road with solar panels over the next five years,with the goal of providing cheap, renewable energy to five million people. Called “the Ward Way,” the roads will be built through joint efforts with the French road building company Colas and the National Institute of Solar Energy. The company spent the last five years developing solar panels that are only about a quarter of inch thick and are strong enough to stand up to heavy highway traffic without breaking or making the roads more slippery. (4-1)The panels are also designed so that they can be installed directly on top of the existing roadways, making them relatively cheap and easy to install. France is the first country to kick around the idea of paving its roads with solar panels. In November 2015, the Netherlands completed a 229-foot long bike path paved with solar panels as a test for future projects. (4-2)However, this is the first time a panel has been designed to be laid directly on top existing roads and the first project to install the panels on public highways. Questions 3 and 4 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "By taking pictures for passers-by."
+        },
+        {
+          "label": "B",
+          "text": "By selling lemonade and pictures."
+        },
+        {
+          "label": "C",
+          "text": "By working part time at a hospital."
+        },
+        {
+          "label": "D",
+          "text": "By asking for help on social media. Questions 3 and 4 are based on the news report you have just heard."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "sectionId": "listening",
+      "stem": "What was France’s purpose of constructing the Ward Way?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻开头提到,上周法国宣布将在接下来的五年里用太阳能电池板铺设 621 英里长的公路,目的是为五百 万人提供廉价的可再生能源。从接下来的内容可知,这条路叫作“the Wattway”,因此答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Testing the efficiency of the new solar panel."
+        },
+        {
+          "label": "B",
+          "text": "Providing clean energy to five million people."
+        },
+        {
+          "label": "C",
+          "text": "Generating electric power for passing vehicles."
+        },
+        {
+          "label": "D",
+          "text": "Finding cheaper ways of highway construction."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "sectionId": "listening",
+      "stem": "What is special about the solar panels used in the Ward Way?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览三道题各选项,由选项中反复出现的 lions 可以初步推测,新闻内容与狮子有关;再结合 clues、research、 observe 和 find evidence 等词以及 Sudan、Ethiopia 两个国家名可进一步推测,新闻内容涉及在苏丹和埃塞俄比亚对 狮子展开的研究或者观察。"
+        },
+        {
+          "label": "详解",
+          "text": "新闻中提到即将修建的 the Wattway 的一些特征:太阳能电池板厚度只有四分之一英尺,但足以满足繁忙的 交通使用,也不会使路面变滑;电池板可以直接装在原有的公路上面,这样不但节约了成本而且容易安装。新闻末 尾又提到,这是第一次把电池板装在原有公路上,也是第一个把电池板装在公用道路上的项目。对比选项可知,C 为答案。 News Report Three Lions have disappeared from much of Africa, but for the past few years scientists have wondered if the big cats were hanging on in remote parts of Sudan and Ethiopia. (5)Continuous fighting in the region has made surveys difficult. (6) But scientists released a report Monday documenting with hard evidence the discovery of \"lost lions.\" A team with Oxford University’s Wildlife Conservation Research Unit, supported by a charity organization, spent two nights in November camping in a national park in northwest Ethiopia on the Ethiopia-Sudan border. (7)The researchers set out six camera traps, capturing images of lions, and the identified lion tracks. The scientists concluded that lions are also likely to live in a neighboring national park across the border in Sudan. The International Union for Conservation of Nature had previously considered the area a \"possible range\" for the species, and local people had reported seeing lions in the area, but no one presented convincing evidence. Questions 5 and 7 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are only about half an inch thick."
+        },
+        {
+          "label": "B",
+          "text": "They are made from cheap materials."
+        },
+        {
+          "label": "C",
+          "text": "They can be laid right on top of existing highways."
+        },
+        {
+          "label": "D",
+          "text": "They can stand the wear and tear of naturalelements."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "sectionId": "listening",
+      "stem": "What has made it difficult to survey lions in remote parts of Sudan and Ethiopia?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻开头提到,狮子在非洲大部分地区已经消失,但是在过去的几年,科学家们曾经猜想,在苏丹和埃塞 俄比亚的偏远地区是否会有狮子活动的迹象。然后,新闻提到这一地区战乱频繁,使科学家们的调查举步维艰,因 此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The lack of clues about the species."
+        },
+        {
+          "label": "B",
+          "text": "Inadequate funding for research."
+        },
+        {
+          "label": "C",
+          "text": "Endless fighting in the region."
+        },
+        {
+          "label": "D",
+          "text": "The hazards from the desert."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "sectionId": "listening",
+      "stem": "What was the main purpose of the research?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "新闻中提到,科学家在周一发布了一份报告,用强有力的证据证明发现了“消失的狮子”。接下来描述了 发现的过程:牛津大学野生动物保护与研究团队在位于苏埃边境的埃塞俄比亚西北部的国家公园守候了两个晚上, 发现了狮子的踪迹。由此可知,这一研究的主要目的就是找到“消失的狮子”存在的证据,因此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "To observe the wildlife in the two national parks."
+        },
+        {
+          "label": "B",
+          "text": "To study the habitat of lions in Sudan and Ethiopia."
+        },
+        {
+          "label": "C",
+          "text": "To identify the reasons for the lions’ disappearance."
+        },
+        {
+          "label": "D",
+          "text": "To find evidence of the existence of the “lost lions”."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "sectionId": "listening",
+      "stem": "What did the researchers find in the national park?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览四道题各选项,由 gift、wedding anniversary、birthday 和反复出现的 holiday 等词可以推测,对话内 容与结婚纪念日或者生日有关,内容涉及礼物,而礼物就是度假。"
+        },
+        {
+          "label": "详解",
+          "text": "新闻中提到,研究者们在国家公园设置了 6 个相机陷阱,捕捉到了狮子的图像,发现了狮子的踪迹,因此 答案为 A。 Section B Conversation One M: (8-1)I beg you’re looking forward to the end of this month, Aren’t you? W: Yes, I am. How did you know? M: David told me you had a special birthday coming up. W: (8-2)Oh, yes. That’s right. This year would be my golden birthday. M: What does that mean? I’ve never heard of a golden birthday. W: I’ve actually just learned of this concept myself. Fortunately, just in time to celebrate. (8-3)A golden or lucky birthday is when one turns the age of their birth date. (9)So, for example, my sister’s birthday is December 9th and her golden birthday would have been the year she turns 9 years old. Come to think of it , my parents did throw her a surprise party that year. M: Interesting. Too bad I missed mine. My golden birthday would’ve been four years ago. I assumedly got a big plan then. W: Actually yes. My husband is planning a surprise holiday for the two of us next week. I have no idea what he’s gotten in mind, but I’m excited to find out. Has he mentioned anything to you? M: He might have. W: Anything you’d like to share? (10)I’m dying to know what kind of trip he has planned where we’re going. M: Yeah, nothing at all. W: Not a clue. Hard to imagine, isn’t it! Though I must say, I think it has been even more fun keeping the secret for me the past few weeks. M: I’m sure both of you will have a fantastic time. Happy golden birthday! (11)I can’t wait to hear all about it when you get back. Questions 8 and 11 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lions’ tracks."
+        },
+        {
+          "label": "B",
+          "text": "Lions walking."
+        },
+        {
+          "label": "C",
+          "text": "Some camping facilities."
+        },
+        {
+          "label": "D",
+          "text": "Traps set by local hunters. Directions ： In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C), and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "sectionId": "listening",
+      "stem": "What does the woman looking forward to?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话开头,男士说女士一定在期盼月末的到来,女士表示肯定,并问男士是怎么知道的,男士回答因为 David 曾跟他说过女士快要过一个特殊的生日了。结合下文可知,生日特殊是因为它是 golden birthday,也叫 lucky birthday。 由此可知,女士期待的是她的 lucky birthday,答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "A special gift from the man."
+        },
+        {
+          "label": "B",
+          "text": "Her wedding anniversary."
+        },
+        {
+          "label": "C",
+          "text": "A call from her dad."
+        },
+        {
+          "label": "D",
+          "text": "Her ‘lucky birthday’."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "sectionId": "listening",
+      "stem": "What did the woman’s parents do on her sister’s lucky birthday?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中女士提到,她妹妹的生日是 12 月 9 日,那么她的 golden birthday 就是她九岁的生日,并且回想起当 时她的父母给她妹妹举办了一场惊喜派对,因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Threw her a surprise party."
+        },
+        {
+          "label": "B",
+          "text": "Took her on a trip overseas."
+        },
+        {
+          "label": "C",
+          "text": "Bought her a gold necklace. - 1 -"
+        },
+        {
+          "label": "D",
+          "text": "Gave her a big model plane."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "sectionId": "listening",
+      "stem": "What is the woman eager to find out about?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "女士说她的丈夫正准备下周给她一个惊喜之旅,她非常想知道是一个什么样的旅行或者是去哪里旅行。由 此可知,女士想知道的是她丈夫制订的旅行计划,因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "What her husband and the man are up to."
+        },
+        {
+          "label": "B",
+          "text": "What has been troubling her husband."
+        },
+        {
+          "label": "C",
+          "text": "The trip her husband has planned."
+        },
+        {
+          "label": "D",
+          "text": "The gift her husband has bought."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "sectionId": "listening",
+      "stem": "What does the man say at the end of the conversation?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览四道题各选项,由 rival、compromises、negotiation、principles、the other sides 和 strategy 等词可以 推测,对话内容与谈判有关,可能涉及谈判的原则和策略、技巧等。"
+        },
+        {
+          "label": "详解",
+          "text": "对话末尾,男士向女士表达生日祝贺,并说自己迫不及待地想要知道他们的旅途故事,因此答案为 B。 Conversation Two W: Mr. Green, What do you think makes a successful negotiator? M: Well, It does hard to define, but I think successful negotiators have several things in common. They are always polite and rational people, they are firm, but flexible. They can recognize power and know how to use it. (12)They are sensitive to the dynamics in the negotiation, the way it raises and falls, and how may change the direction. They project the image of confidence. (13)And perhaps most importantly, they know when to stop. W: And what about an unsuccessful negotiator? M: Well, this probably all of us when we start out. We are probably immature and over-trusting, too emotional or aggressive. We are unsure of ourselves and want to be liked by everyone. (14)Good negotiators learn fast, pool negotiators remain like that and go on losing negotiations. W: In your opinion, can the skills of negotiation be taught? M: Well, you can teach someone how to prepare for negotiation. (15)There’re perhaps six stages in every negotiation: get to know the other side; stay your goals; start the process; clarify there is a disagreement or conflict; reassess your position, making acceptable compromises; and finally reach some agreement in principals. These stages can be studied, and strategies to be used in each can be planned before-hand. But I think the really successful negotiator is probably born with the sixth sense that may respond properly to the situation at hand. W: The artistic sense you just described? M: Yes, that’s right Questions 12 and 15 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "He wants to find out about the couple’s holiday plan."
+        },
+        {
+          "label": "B",
+          "text": "He is eager to learn how the couple’s holiday turns out."
+        },
+        {
+          "label": "C",
+          "text": "He will tell the women the secret if her husband agrees."
+        },
+        {
+          "label": "D",
+          "text": "He will be glad to be a guide for the couple’s holiday trip."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "sectionId": "listening",
+      "stem": "What’s the man say about good negotiators?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话开头,女士询问男士什么造就了一个成功的谈判者。男士说成功的谈判者有一些共同特征:他们礼貌 而且有理性;他们立场坚定又不失灵活;他们知道着力点在哪里而且知道如何去运用;他们知道谈判的力度以及这 种力度会如何改变话题方向。因此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They take the rival’s attitude into account."
+        },
+        {
+          "label": "B",
+          "text": "They know when to adopt a tough attitude."
+        },
+        {
+          "label": "C",
+          "text": "They see the importance of making compromises."
+        },
+        {
+          "label": "D",
+          "text": "They are sensitive to the dynamics of a negotiation."
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "sectionId": "listening",
+      "stem": "What does the man say, maybe the most important thing to a successful negotiator?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "男士在讲述成功谈判者的特点时提到,最重要的是他们知道何时停下来。因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They know when to stop."
+        },
+        {
+          "label": "B",
+          "text": "They know how to adapt."
+        },
+        {
+          "label": "C",
+          "text": "They know when to make compromises."
+        },
+        {
+          "label": "D",
+          "text": "They know how to control their emotion."
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "sectionId": "listening",
+      "stem": "How is a good negotiator different from a poor one?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "对话中女士询问一个失败的谈判者是什么样子,男士说可能我们刚涉足谈判时都是失败的谈判者,我们不 成熟、过度信任、太过感情用事、咄咄逼人。后来善于学习的人成为成功的谈判者,而原地踏步的人成为失败者。 由此可知,成功的谈判者与失败的谈判者之间最大的区别在于成功者善于学习,因此答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are patient."
+        },
+        {
+          "label": "B",
+          "text": "They learn quickly."
+        },
+        {
+          "label": "C",
+          "text": "They are good at expression."
+        },
+        {
+          "label": "D",
+          "text": "They uphold their principles."
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "sectionId": "listening",
+      "stem": "What’s the first stage of a negation according to the man?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览三道题各选项,由选项中出现的 International Space Station、space shuttle missions、space program、 technology、astronauts 等词可以判断,短文内容与航天技术有关。"
+        },
+        {
+          "label": "详解",
+          "text": "对话中,女士询问谈判的技巧是否可以学会,男士回答说你可以教一个人如何准备一场谈判,并将谈判过 程分为六个阶段:了解堆放;说明自己的目标;开始谈判;明确双方冲突;重新评估自己的立场适当让步;在原则 上达成一致。由此可见,谈判的第一个环节是了解对方,因此答案为 C。 Section C Passage One Some people wonder why countries spend millions of dollars on space projects. (16)They want to know how space research helps people on Earth. Actually, space technology helps people on earth every day. This is called “spin-off technology.” Spin-off technology is space technology that is now used on Earth. (17)In early space programs, such as the Apollo missions of the 1960s and 1970s, and in the space shuttle missions today, scientists developed objects for the astronauts to use on the moon and in space. We now use some of these objects every day. (18)For example, we have quartz crystal clocks and watches accurate to within one minute a year. We purify the water we drink with the water filter designed for the astronauts’ use in space. The cordless hand-held tools we use in our homes, such as vacuum cleaners, flashlights, drills and saws came from the technology of these early space programs. On cold winter days, we can stay warm with battery-operated gloves and socks, and specially-made coats and jackets. All these clothes are similar to the spacesuit designs that kept astronauts comfortable in the temperatures of the moon, and are spin-offs from space technology. These products are only a few examples of the many ways space technology helps us in our everyday lives. No one knows how new spin-off technology from the International Space Station will help us in the future. Questions 16 and 18 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Clarify items of negotiation."
+        },
+        {
+          "label": "B",
+          "text": "Make clear one's intentions."
+        },
+        {
+          "label": "C",
+          "text": "Get to know the other side."
+        },
+        {
+          "label": "D",
+          "text": "Formulate one's strategy. Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C), D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "sectionId": "listening",
+      "stem": "What do some people want to know about space exploration?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文开头提到,有些人想知道为什么国家在太空项目上花费数百万美元,他们想知道太空研究如何能帮助 到在地球哈桑的人们。录音中的 helps 与 A 选项中的 benefits 是同义转述,因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "How space research benefits people on Earth."
+        },
+        {
+          "label": "B",
+          "text": "When the International Space Station was built."
+        },
+        {
+          "label": "C",
+          "text": "How many space shuttle missions there will be."
+        },
+        {
+          "label": "D",
+          "text": "When America's earliest space programstarted."
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "sectionId": "listening",
+      "stem": "What did scientist do for the space shuttle missions?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,在早期的太空项目中,如在 20 世纪 60 年代和 70 年代的阿波罗任务以及今天的航天飞机任务 中,科学家们开发了供宇航员们在月球上和太空中使用的物品。因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They tried to make best use of the latest technology."
+        },
+        {
+          "label": "B",
+          "text": "They tried to meet astronauts' specific requirements."
+        },
+        {
+          "label": "C",
+          "text": "They developed objects for astronauts to use in outer space."
+        },
+        {
+          "label": "D",
+          "text": "They accurately calculated the speed of the orbiting shuttles."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about the quartz crystal clocks and watches?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览三道题各选项,由选项中的 ancestors 和 America 等词可判断,短文内容与过去的美国有关。第 19 题的着眼点在描绘过去的状态或者过去某个时间点的特殊意义;第 20 题主要描述某类人群的细节信息;第 21 题均 是分词短语结构,旨在考查动作。"
+        },
+        {
+          "label": "详解",
+          "text": "短文提到,我们现在使用的石英钟和石英表的精确度达到了一年误差在一分钟以内,因此答案为 B。 Passage Two (19)Well, if I could go back in history and live, I'd like to go back to the 18th century and perhaps in colonial America in Yankee New England where one of my ancestors lived, because it was the beginning of something. By the 18th century, there was a feeling of community that had grown. My ancestor was a preacher traveling around the countryside. People lived in small communities. There were fisherman and farmers who provided fresh food that tasted and looked like food. unlike that in today’s supermarkets, and there were small towns and New York wasn't that far away. (20)I'm deeply attached to the Puritan tradition, not in a religious sense, but they believed in working for something, working for goals, and I like that. They worked hard at whatever they did, but they had a sense of achievement. They believed in goodness, in community, and helping one another. I love it. the colonial fabrics, all the silver work, the furnishings, the combination of elegance simplicity. I love it. The printing, the books, I’m very attached to all that kind of thing. That may not all be ve ry entertaining in the modern sense of the world, (21)but I would have enjoyed spending my evenings in that environment, discussing new ideas, building a new world, And I can see myself sitting on a small chair by the fire doing needlework. Questions 19 and 21 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are expensive to make."
+        },
+        {
+          "label": "B",
+          "text": "They are extremely accurate."
+        },
+        {
+          "label": "C",
+          "text": "They were first made in space."
+        },
+        {
+          "label": "D",
+          "text": "They were invented in the 1970s."
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "sectionId": "listening",
+      "stem": "Why does the speaker say she would like to go back and live in the 18th century America?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "讲话者在短文开头表示,如果能回到历史中生活,她愿意回到 18 世纪的美国,因为这个时期标志着一些东 西的开始,因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Everything was natural and genuine then."
+        },
+        {
+          "label": "B",
+          "text": "People had plenty of land to cultivate then."
+        },
+        {
+          "label": "C",
+          "text": "It marked the beginning of something new."
+        },
+        {
+          "label": "D",
+          "text": "It was when her ancestors came to America."
+        }
+      ]
+    },
+    {
+      "no": 20,
+      "sectionId": "listening",
+      "stem": "What does the speaker say about the Puritans?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "讲话者提到,她非常喜欢清教徒的传统并非是宗教信仰的缘故,而是清教徒认为工作是有意义的,他们为 了目标而工作,因此答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They were known to be creative."
+        },
+        {
+          "label": "B",
+          "text": "They enjoyed living a living a life of ease."
+        },
+        {
+          "label": "C",
+          "text": "They had all kinds of entertainment."
+        },
+        {
+          "label": "D",
+          "text": "They believed in working for goals."
+        }
+      ]
+    },
+    {
+      "no": 21,
+      "sectionId": "listening",
+      "stem": "What would the speaker like doing if she could go back to the past?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "未听先知",
+          "text": "预览四道题各选项,由 map、location、compass、food and drink 等词推测,短文内容与迷路有关。第 22 题和第 24 题各选项均为动词短语,结合语义可知,这两题考查迷路后应该怎么做;第 23 题各选项均含有 may,表 达可能性,考查采取某种行动可能会出现的后果;第 25 题各选项也都是动词短语,结合语义可推测,此题考查出 发前的注意事项。"
+        },
+        {
+          "label": "详解",
+          "text": "讲话者在短文末尾提到,如果能够回到从前,她喜欢在那样的环境里这样度过夜晚:讨论新的想法,建立 一个新的世界,坐在炉火旁的小椅子上做针线活,因此答案为 B。 Passage Three If you are lost in the woods, a little knowledge can turn what some people call a hardship into an enjoyable stay away from the troubles of modern society. (22)When you think you're lost, sit down on the log or rock, or lean against the tree, and recite something you have memorized to bring your mind to a point where it is under control. Don’t run blindly. If you must move, don't follow a stream unless you know it, and in that case you're not lost. (23)Streams normally flow through wetland before they reach a lake or a river. Though there are more eatable plants, there may also be wild animals, poisonous snakes, and other hazards. (24)Many experts feel it’s wisest to walk uphill. At the top of most hills and mountains are trails leading back to civilization. If there are no trails, you're much easier to be seen on top of a hill. and you may even spot a highway or a railroad from this point. Nowadays, the first way someone will search for you is by air. In a wetland or in dense growth, you're very hard to spot. (25)Anytime you go into the woods, somebody should know where you're going, and when you’re expected to return. Also when someone comes looking, you should be able to signal to them. Questions 22 and 25 are based on the news report you have just heard."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chatting with her ancestors."
+        },
+        {
+          "label": "B",
+          "text": "Doing needlework by the fire."
+        },
+        {
+          "label": "C",
+          "text": "Furnishing her country house."
+        },
+        {
+          "label": "D",
+          "text": "Polishing all the silver work."
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "sectionId": "listening",
+      "stem": "What does the speaker advise you to do first if you are lost in the woods?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文开头提到,当你觉得自己迷路了的时候,要坐在一块木头或石头上,或者靠在一棵树上,回忆一些你 记住的东西,把思想带到你能控制的地方。不要盲目地跑。由此可知,讲话者建议迷路的时候首先要坐下来冷静一 下,因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sit down and try to calm yourself."
+        },
+        {
+          "label": "B",
+          "text": "Call your family or friends for help."
+        },
+        {
+          "label": "C",
+          "text": "Use a map to identify your location. - 2 -"
+        },
+        {
+          "label": "D",
+          "text": "Try to follow your footprints back."
+        }
+      ]
+    },
+    {
+      "no": 23,
+      "sectionId": "listening",
+      "stem": "What will happen if you follow an unknown stream in the woods?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中提到,小溪一般经过湿地后才会汇入湖泊或河流,如果跟着不熟悉的小溪走,你也许会遇到更多可 吃的植物,但也会碰到野生动物、毒蛇以及其他危险。由此可知,沿着不了解的小溪走可能会使自己置身于意想不 到的危险中,因此答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "You may end up entering a wonderland."
+        },
+        {
+          "label": "B",
+          "text": "You may get drowned in a sudden flood."
+        },
+        {
+          "label": "C",
+          "text": "You may expose yourself to unexpected dangers."
+        },
+        {
+          "label": "D",
+          "text": "You may find a way out without your knowing it."
+        }
+      ]
+    },
+    {
+      "no": 24,
+      "sectionId": "listening",
+      "stem": "What do many experts think is the wisest thing to do if you're lost in the woods?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文中明确提到,很多专家认为,迷路的时候往山上走是最明智的选择。因此答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Walk uphill"
+        },
+        {
+          "label": "B",
+          "text": "Look for food."
+        },
+        {
+          "label": "C",
+          "text": "Start a fire."
+        },
+        {
+          "label": "D",
+          "text": "Wait patiently."
+        }
+      ]
+    },
+    {
+      "no": 25,
+      "sectionId": "listening",
+      "stem": "What should you do before you go into the woods?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "短文结尾处提到,任何时候你要进入森林,都应该有人知道你要去哪里,预计什么时候回来。由此可知, 在进入森林之前,应该让别人知道你的计划,因此答案为 D。 Part Ⅲ Section A 全文翻译: 老鼠和鸽子也许不是照看病人的最好的选择,但是这些生物有着(26)较好的技能帮助人类治疗疾病。 鸽子经常被视为很脏的鸟类和城市(27)公害,但是它们最近刚刚被列入有能力帮组人类的动物行列中的一员。 尽管鸽子只有一个不大于你食指(28)尖大小的脑子,它们却有着非常惊人的(29)视觉记忆。最近有观点指出, 它们可以被训练地和人类一样能精确地通过图像检测乳腺癌。 老鼠经常和传遍疾病(30)联系在一起,而不是(31)预防疾病,但是这种长尾巴动物高度(32)敏感。在老 鼠的鼻子中有多达 1,000 种不同的嗅觉感受器,而人类只有 100 至 200 种。这使得老鼠具有察觉(33)轻微气味的 能力。因此,一些老鼠被用来检测肺结核,当老鼠察觉到某种气味时,它们会停下来摩擦自己的腿,以(34)表明 样本被感染了。 通常,一百个样本要花费实验技术员超过两天的时间来(35)检测,但是一只老鼠只需要花费不到二十分钟, 这种老鼠检测方法并不依赖于专业设备。同时也更准确——老鼠能够发现更多的肺结核感染,因此能挽救更多的生 命。 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Check the local weather."
+        },
+        {
+          "label": "B",
+          "text": "Find a map and a compass."
+        },
+        {
+          "label": "C",
+          "text": "Prepare enough food and drink."
+        },
+        {
+          "label": "D",
+          "text": "Inform somebody of your plan."
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "A rat or pigeon might not be the obvious choice to tend to someone who is sick, but these creatures have some __(26)__ skills",
+      "answer": "K",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。空格前为 some,空格后为名词 skills,故应填入形容词。由于上文提到,老鼠和鸽子也许并不 是照看病人的最好的选择,是对这两种动物的一种否定,但从转折词 but 可以看出,空格所在句应该是对这两种动 物的肯定,因此应填入有积极含义的形容词。K) superior 意为“较好的”,符合句意,故为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Pigeons are often seen as dirty birds and an urban __(27)__ , but they are just the latest in a long line of animals that have",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前是形容词 urban,故应填入名词。该句中 and 前面的含义是“鸽子经常被视为很脏的 鸟类”,根据并列连词 and 可以推断 urban 后的名词也应该是贬义类词汇。D)nuisance 意为“讨厌的人或事”,符 合句意,故为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Despite having a brain no bigger than the __(28)__ of your index finger, pigeons have",
+      "answer": "M",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格前为冠词 the,后面是介词 of,可以推测此处应填入名词,且该词与 of 后面的 index finger 有关。该句是在描述鸽子脑子的大小,指出其不大于人类食指的某部分,选项中只有 M)tip“尖端,末梢”符合此 处的含义,故为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "a very impressive __(29)__ memory.",
+      "answer": "O",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。空格前为形容词 impressive,空格后为名词 memory,因此此处应填入形容词修饰 memory, 指某类记忆。结合下文句意,鸽子能够训练地和人类一样能精确地通过图像检测乳腺癌,可见鸽子的视觉优势比较 明显,故 O)visual“视觉的”为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Rats are often __(30)__ with spreading disease rather than __(31)__ it, but this long-tailed animal is highly __(32)__ .",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格前为 be 动词 are,空格后为介词 with,故推测此处应填入动词的过去分词构成被动语态。 With 后的部分 spreading disease 意为“传播疾病”,根据常识可知,老鼠通常都被认为是传播疾病的元凶,associated 意为“联系”,符合句意,be associated with 为固定搭配,意为“与……有关”,故答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Rats are often __(30)__ with spreading disease rather than __(31)__ it, but this long-tailed animal is highly __(32)__ .",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格所在句中的 rather than 起到了连词的作用,故前后的词性是一致的,其前面是动名词结 构,故空格处也应该填入动名词,且根据 rather than“而不是”可知,空格处的动名词与 spreading disease 的含义相 反,备选项中 preventing 意为“预防”,既符合词性要求,也符合句意,故 F)为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Rats are often __(30)__ with spreading disease rather than __(31)__ it, but this long-tailed animal is highly __(32)__ .",
+      "answer": "H",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。空格前为副词 highly,故此处应填入形容词。结合句意,but 前指出老鼠通常是传播疾病的, 为贬义,故 but 后的句意应为褒义,同时结合后文,老鼠的鼻子中有多达 1,000 种不同的嗅觉感受器,因此此处应 该表达老鼠“灵敏度高”的意思,H)sensitive 意为“敏感的”,符合句意,故为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "rats the ability to detect __(33)__ smells.",
+      "answer": "I",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。空格前为动词 detect,空格后为名词 smells,由此推测空格处应填入形容词。上文指出, 老鼠的鼻子中有多达 1,000 种不同的嗅觉感受器,可以推断老鼠的嗅觉很强,非常轻微的气味也能探测到,故答案 为 I)slight“轻微的”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "the smell, they stop and rub their legs to __(34)__ a sample is infected.",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格位于不定式符号 to 之后,且空格后为从句,故推测此处应填入动词原形。该句意为,当 老鼠察觉到某种气味时,它们会停下来摩擦自己的腿,以_______样本被感染了。C)indicate“表明,显示”符号句 意,故为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Traditionally, a hundred samples would take lab technicians more than two days to __(35)__ , but for a rat it takes less than",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格前为 to,根据句子结构推测此处为不定式结构,空格处应填入动词原形。结合句意,实 验室技术员工作应该是检测样本。Examine 意思是“检测”,符合句意,故 B 为答案。 Section B 全文翻译: 研究发现他们可能会更广泛的研究一些意想不到的事情,而不是寻求答案。 A) 我向来都不是一个会考试的人。(44)因此,我重返大学去完成四十年前中断的学位看似有些奇怪。我在 哥伦比亚大学学习,周围都是那些我还在读题而他们就已经给出口头答案的学霸们。 B) 由于无法躲避掉考试,所以我现在的问题是哪种考试是最累人也是最有益的。我已经在众多的课上期中和 期末考试中挥汗如雨,(40)现在有一位教授布置课后测试。当我得知这件事的时候感到很兴奋,心想我有一整周 的时间去做研究、看文章,然后把它写出来。事实上,在上交作业的当天上午我还在奋笔疾书。说我没有思路,这 只是委婉的说法。 C) 就在我煎熬于一周的焦虑、绞尽脑汁地思考材料以及猜想我掌握了多少时,我在学生和教授中做了一些调 查。(38)大卫·艾森巴赫在哥伦比亚大学教授一门有关美国总统的课程,很受欢迎,他更偏爱课上考试。他相信 学生最终会学到更多,并且鼓励他们组成学习小组。“那样的话,他们可以在课下因历史学习而进行社交,如果没 有课上考试的压力,这绝不可能发生,”他解释说。“另外,课上考试可以促使学生学到如何在压力下工作,这是 一项必要的工作技能。” D) (39)他还说,课上考试的作弊几率更低。2012 年的一个丑闻中,125 名哈佛大学生被抓获,发现他们在 一门“国会介绍”的课程所留的课后考试中作弊了。有些大学有他们所谓的“荣誉准则”,尽管如果你足够聪明考 进这些学校,你要么足够聪明能避开这些准则,要么出于道德而不考虑这么做。在我整整两天都毫无头绪的时候, 我突然想到关于我所处理的这个课题,我是否可以请教专家或者曾经学过这门课程的人来帮助我渡过难关。 E) 在哈佛考试作弊丑闻之后,耶鲁大学的前教导主任玛丽·米勒对她学校的教授们进行了饱含激情的呼吁, 呼吁他们不要课下考试。(37)“在老师们给出没有明确时间限制的课后考试时,学生们牺牲了健康和幸福,以及 其他的期末功课,”她告诉我。“现在研究表明,一个学期当中定期的小测试、简短的论文和其他任务都能更好的 强化学习和记忆力。” F) (43)大多数大学教授都认同他们选择的考试类型很大程度上取决于课程。比如,一门基于量化的课程, 不大可能会布置课后考试,因为带回家学生可能会像哥哥和姐姐们寻求帮助。而另一方面,职业类的课程,如计算 机科学或者新闻学,通常更加侧重研究,所以让学生们进行课后测试。克里斯·科克在马里兰州罗克韦尔市的蒙哥 马利社区大学教授“广播新闻学历史”,他指出报道是关于调查的而不是对片刻细节的记忆。“在我的领域,不是 你知道什么,而是你知道如何去发现信息,”科克说道。“有太多的信息,而且每时每刻都会有更多的信息扑面而 来,这让人们很难记住。我希望我的学生能够通过使用各种资源去寻找问题的答案。” G)(42)学生们对考试类型的偏好也不尽相同,通常取决于科目和课程的难度。巴纳德学院的一位大三学生伊 丽莎白·德雷瑟说,“我更喜欢课后论文,因为这是真正关于写作的,所以你会有时间去编辑和做更多的研究。” 其次,这就是压力因素。明德学院的一位大四学生费朗西斯卡·哈斯说,“我发现课上考试在短期看更有压力,但 是当你疯狂的吸收所有信息后,会感到立即解脱,然后你就可以把它们全部忘掉。课后的功课则需要深思熟虑,这 会带来更长时间的压力,因为没有任务完成的确切时间。”同时,埃默里大学的一个大二学生奥利维兰·鲁宾说, 她从来没把课后的功课当成是考试, “如果你能够理解材料,并且能表达自己的观点,那这就是很轻而易举的事情。” H) 学生们最终会如何应对考试可能取决于他们个人的应试能力。(41)有些人总是等到最后一分钟,让事情 变得比实际更难。然而,也有另外一些人不知道他们会遇到什么样的问题,也没有资源可以参考,这些人什么都不 做。此外,也有我们这种稀少的人群同时符合上以上两种描述。 I) (36-1)是的,我年长的年龄在等式中起到了作用,部分是由于我无法迅速地获取信息。就像哥伦比亚大学 另一位返校学习的学生凯特·马伯告诉我的一样。“我们不仅学习所有这些信息,更重要的是如何再次学习的能力。 我们的同学都是刚刚从高中毕业的。(36-2)很多都和我们当时上大学时不大一样了。” J) 说到底,这次经历让我和我读大学的儿子有了共同的话题。当我问他对这件事情的看法,是他回答说,(45) “我喜欢课上考试,因为时间已经被留出来了,不需要在家里用我的课余时间去完成考试,”他回答道。对我而言, 折中的方法是在考试前一两天提前得知题目,然后在课上按照规定时间完成考试。 K) 然而,更好的是,据说亨特学院的一个教授最近在她的期末考试中做了这样的事情:她鼓励学生不要感到 有压力,甚至不用学习,她承诺“这将会是一块蛋糕(很容易做到的事情)。”当学生走进教室,削好手中的铅笔 后,眼前却没有任何的试卷。相反,他们看到了一个巨型巧克力蛋糕,然后每人都分得了一块。 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "associated",
+        "I": "slight",
+        "B": "examine",
+        "J": "specify",
+        "C": "indicate",
+        "K": "superior",
+        "D": "nuisance",
+        "L": "suspicious",
+        "E": "peak",
+        "M": "tip",
+        "F": "preventing",
+        "N": "treated",
+        "G": "prohibiting",
+        "O": "visual",
+        "H": "sensitive"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "associated"
+        },
+        {
+          "label": "B",
+          "text": "examine"
+        },
+        {
+          "label": "C",
+          "text": "indicate"
+        },
+        {
+          "label": "D",
+          "text": "nuisance"
+        },
+        {
+          "label": "E",
+          "text": "peak"
+        },
+        {
+          "label": "F",
+          "text": "preventing"
+        },
+        {
+          "label": "G",
+          "text": "prohibiting"
+        },
+        {
+          "label": "H",
+          "text": "sensitive"
+        },
+        {
+          "label": "I",
+          "text": "slight"
+        },
+        {
+          "label": "J",
+          "text": "specify"
+        },
+        {
+          "label": "K",
+          "text": "superior"
+        },
+        {
+          "label": "L",
+          "text": "suspicious"
+        },
+        {
+          "label": "M",
+          "text": "tip"
+        },
+        {
+          "label": "N",
+          "text": "treated"
+        },
+        {
+          "label": "O",
+          "text": "visual"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Elderly students find it hard to keep up with the rapid changes in education.",
+      "answer": "I",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "第一句作者提到,自己的高龄对学习产生了一定的影响,部分是由于无法快速地获取信息。该段最后一句 也指出,现在的教育和作者当时上学时大不一样了。这两句话一方面说明了教育的变化,另一方面也指出偏大的年 龄让适应这种变化变得困难。题干是对这两句话的概括总结,故答案为 I。"
+        },
+        {
+          "label": "译文",
+          "text": "年长的学生发现很难跟上教育的快速变化。 another returning student at Columbia, Kate Marber, told me, “We 定 位 : 由 题 干 中 的 关 键 词 Elderly students 和 changes in education 定位到原文画线处。 has changed since we were last in school.”"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Some believe take-home exams may affect students' performance in other courses.",
+      "answer": "E",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 performance in other courses 定位到原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "E 段提到,耶鲁大学的前教导主任玛丽·米勒说,在老师们给出没有明确时间限制的课后考试时,学生们 牺牲了健康和幸福,以及其他的期末功课。题干中的 Some 对应原文中的 Mary Miller;performance in other courses 对应原文中的 performance in other end-of-term work,故答案为 E。"
+        },
+        {
+          "label": "译文",
+          "text": "一些人认为课后考试也许会影响 学生在其他课程上的表现。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Certain professors believe in-class exams are ultimately more helpful to students.",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 in-class exams 和 ultimately 定位 到原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "定位句指出,哥伦比亚大学的教授大卫·艾森巴赫更偏爱课上考试,他相信学生最终会学到更多,并且鼓 励他们组成学习小组。题干中的 are ultimately more helpful to students 对应原文中的 students ultimately learn more, 故答案为 C。"
+        },
+        {
+          "label": "译文",
+          "text": "一些教授认为课上考试最 终会对学生更有帮助。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "In-class exams are believed to discourage cheating in exams.",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 In-class exams 和 cheating 定位到原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "D 段第一句指出,课上考试的作弊几率更低。题干中的 discourage cheating 对应定位句中的 less chance of cheating,故答案为 D。"
+        },
+        {
+          "label": "译文",
+          "text": "课上考试被认为能阻 止考试作弊行为。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The author was happy to learn she could do some exams at home.",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 happy 和 do some exams at home.定位到原文 画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "句中提到,当作者得知一位教授布置课后考试任务时,她感到很兴奋。题干中的 happy 对应原文中的 excited, 故答案为 B。"
+        },
+        {
+          "label": "译文",
+          "text": "作者知道她能回家考试时非 常开心。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Students who put off their work until the last moment often find the exams more difficult than they actually are.",
+      "answer": "H",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 until the last moment 和 more difficult 定位到原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "H 段提到,学生们最终会如何应对考试可能取决于他们个人的应试能力。有些人总是等到最后一分钟,让 事情变得比实际更困难。题干中的 the last moment 是定位句中 the last minute 的同义转述;题干中的 find the exams more difficult 对应原文中的 make it much harder,故答案为 H。"
+        },
+        {
+          "label": "译文",
+          "text": "那些把功课留到最后一刻才做的学生往 往会感觉考试比实际更难。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Different students may prefer different types of exams.",
+      "answer": "G",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 prefer 和 types of exams 定 位到原文画线处。 understand the material and have the ability to articulate (说出) your thoughts, they should be a breeze.”"
+        },
+        {
+          "label": "详解",
+          "text": "G 段第一句指出,学生们对考试类型的偏好也不尽相同,通常取决于科目和课程的难度。题干中的 different 对应原文中的 wary;prefer 对应原文中的 preferences,故答案为 G。"
+        },
+        {
+          "label": "译文",
+          "text": "不同的学生可能偏 好不同的考试类型。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Most professors agree whether to give an in-class or a take-home exam depends on type of course being taught.",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "F 段首句指出,大多数大学教授都认同他们选择的考试类型很大程度上取决与课程。题干中提到的课上考 试和课后考试就是这里指的考试类型,题干中的 the type of course being taught 对应原文中的 the subject,故答案为 F。"
+        },
+        {
+          "label": "译文",
+          "text": "大多数教授都认同是 课上考试还是课后考试取决 于所教授的课程的类型。 定 位 : 由题干 中 的关 键词 Most professors agree 和 depends on 定位到原文画线 处。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The author dropped out of college some forty years ago.",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 college 和 some forty years ago 定位到原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "A 段提到,作者重返大学去完成四十年前中断的学位,说明其四十年前从大学辍学了。题干是对定位句的 同义转述,故答案为 A。"
+        },
+        {
+          "label": "译文",
+          "text": "作者大约四十年前从大学辍学了。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Some students think take-home exams will eat up their free time.",
+      "answer": "J",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的关键词 take-home exams 和 free time 定位到原文画线处。 overhead."
+        },
+        {
+          "label": "详解",
+          "text": "J 段提到,当作者问儿子关于考试类型这一话题时,儿子表示他喜欢课上考试,因为时间已经被留出来了, 不需要在家里用课余时间去完成考试。题干中的 eat up 是对定位句中 using 的同义转述,故答案为 J。 Section C Passage One 全文翻译: 在陌生的环境里,睡在一张不同的床上,人们通常会无法入眠,这种现象被称为“初夜效应”。如果接着的第 二天睡在同一个房间中,人们往往会睡得更香甜。布朗大学的尤佳·佐木和她的同事们开始探寻这一效应的起源。 佐木博士认为初夜效应很有可能和人类的进化方式有关。(46)问题是初夜效应可能会导致第二天表现不佳, 那它又能带来什么好处呢?(47)她还从之前对鸟类和海豚的研究工作中得知,这些动物每次睡觉时都让它们的半 边大脑处于睡眠中,这样它们能够一边保持对捕食者的警觉,一边休息。这让她猜想人类是否也会做同样的事。为 了更深入的研究,她的团队观察了 35 位健康的人在布朗大学心理科学系这一陌生环境的睡眠状态。(48)每个参 与者分别在系里睡两夜,并通过技术手段仔细的监控观察他们大脑的活动情况。正如所料,佐木博士发现,这些参 与者们第一晚没有第二晚睡得好,用了两倍的时间入睡,并且整体睡眠时间更少。在深度睡眠阶段,参与者的大脑 和鸟类与海豚处于类似的情况。仅在第一晚,他们的大脑的左半球完全没有右半球睡的沉。 大脑左半球是否真的保持清醒,以处理从周围环境中探测到的信息,这令佐木博士感到好奇,(49)因此她又 做了一次实验,这一次,她将定时响起且音调不变的蜂鸣声和随时响起且音调各异的蜂鸣声混杂在一起,播放给睡 眠中的参与者听。她发现,(50)如果大脑左半球在陌生的环境中为了防卫而保持警觉,那么它会对这种不规律的 蜂鸣声有所反应,从而把睡眠中的人弄醒,但是会忽略定时响起且音调不变的蜂鸣声。这正是她的发现。 详解详析:"
+        },
+        {
+          "label": "译文",
+          "text": "一些学生认为课后考试会占用自己 的业余时间。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does the author say is the problem with women?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 the problem with women 定位到第一段第二、三句:Being overworked or over-committed at home and on the job will not get you where you want to be in life. It will only slow you down and hinder your career goals."
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。文中第一段第二、三句指出,在家庭和工作中过度劳累或承担过多只会让女性减速,并且 妨碍其职业目标。这两种“过度”可以推断为女性承担超出自己能力范围的任务,故答案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are often unclear about the career goals to reach."
+        },
+        {
+          "label": "B",
+          "text": "They are usually more committed at home than on the job."
+        },
+        {
+          "label": "C",
+          "text": "They tend to be over-optimistic about how far they could go."
+        },
+        {
+          "label": "D",
+          "text": "They tend to push themselves beyond the limits of their ability."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Why do working women of child-bearing age tend to feel drained of energy?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 child-bearing age 和 feel drained of energy 定位到第三段第一、二句:This may not be surprising given that this is the age range when women have children. It's also the age range when many women are trying to balance careers and home."
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。文中第三段第一、二句提到,18 岁至 44 岁是女性生养孩子的年龄段,同时也是女性努力平 衡事业和家庭的阶段。结合上段内容可知,这一年龄段的女性尤其容易感到疲惫。因此,该年龄段的女性容易感到 疲惫的原因是要生养孩子,并且需要兼顾工作和家庭,故答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They struggle to satisfy the demands of both work and home."
+        },
+        {
+          "label": "B",
+          "text": "They are too devoted to work and unable to relax as a result."
+        },
+        {
+          "label": "C",
+          "text": "They do their best to cooperate with their workmates."
+        },
+        {
+          "label": "D",
+          "text": "They are obliged to take up too many responsibilities. - 6 -"
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What may hinder the future prospects of career women?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 hinder 和 career women 定位到第四段第二句:Unfortunately, this inability to say \"no\" may be hurting women's heath as well as their career."
+        },
+        {
+          "label": "详解",
+          "text": "实施细节题。第四段第二句提到,这种无法说“不”的行为会伤害女性的健康和事业,即会妨碍女性的 事业,故答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their unwillingness to say “no”."
+        },
+        {
+          "label": "B",
+          "text": "Their desire to be considered powerful."
+        },
+        {
+          "label": "C",
+          "text": "An underestimate of their own ability."
+        },
+        {
+          "label": "D",
+          "text": "A lack of courage to face challenges."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "Men and woman differ in their approach to resolving workplace conflicts in that       _.",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 differ 和 resolving workplace conflicts 定位到第五段最后一句:Men are more likely to face that dispute from the perspective of what benefits them most, whereas women may approach the same dispute from the perspective of what's the easiest and quickest way to resolve the problem…"
+        },
+        {
+          "label": "详解",
+          "text": "实施细节题。文章第五段最后一句提到,男性往往会站在最为利己的角度去面对冲突,即将自身利益放 在第一位,故答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "women tend to be easily satisfied"
+        },
+        {
+          "label": "B",
+          "text": "men are generally more persuasive"
+        },
+        {
+          "label": "C",
+          "text": "men tend to put their personal interests first"
+        },
+        {
+          "label": "D",
+          "text": "women are much more ready to compromise"
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What is important to a good leader?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 important 和 a good leader 定位到第六段第二句:Leaders have to be able to delegate and manage resources wisely – including staff expertise."
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。第六段第二句提到,领导们需要有能力明智地委派或管理资源,也就是要有委派职责的能 力,故答案为 B。 Part Ⅳ 此次考三山,泰山因为世人皆知,所以可说的内容较多,故写出的中文,从翻译的角度上,要稍难于其它两山, 但也只是稍微而矣。 词汇方面:海拔,方圆,雄伟壮观,朝拜,帝王,灵感,游览,古迹,这些词都需要仔细体会才能译得恰到好 处。其中一部分是之前真题出现过的词。而像海拔、方圆这样的词,仔细体会就会发现写的是高度和面积,并不难。 语法方面:定语从句,并列句,时态,被动。像不但……而且这样的中文,英文可以考虑直接对应到 not only…but also。时态方面,考的点也很细腻,“过去 3000 多年”仔细体会发现可用现在完成时,也可以用一般过去时。一个“曾” 字也是时态转换的标志。 易错的地方:多个定语的前置后置及排序;多个短句中间的连接和逻辑,如本文第 2 句,三个小短句,若不断句, 就要考虑如何巧妙地连接起来。 泰山位于山东省西部。海拔 1500 余米,方圆约 400 平方公里。泰山不仅雄伟壮观,而且是一座历史文化名山, 过去 3000 多年一直是人们前往朝拜的地方。据记载,共有 72 位帝王曾来此游览。许多作家到泰山获取灵感,写诗 作文。艺术家也来此画画。山上因此留下了许许多多的文物古迹。泰山如今已成为中国一处主要的旅游景点。 参考译文一 Mount Tai is situated in the western Shandong Province at a height of about 1500 meters with a coverage of about 400 square kilometers. Mount Tai is not only magnificent in landscape but also is a famous historical and cultural mountain, which was a place of worship in the past 3000 years. According to the record, a total of 72 emperors came visiting the Mount Tai. And many writers came to it for inspiration for their poems and writings and artists for their paintings. Therefore, there left a lot of cultural relics. Now Mount Tai has become one of the main scenic spots in China 参考译文二 Mount Tai is located in the western part of Shandong Province. It has a height of more than 1,500 meters and covers an area of about 400 square kilometres. Mount Tai is a majestic mountain with historical and cultural significance. It has been a place of worship for at least 3,000 years. It is recorded that 72 emperors had visited it. Writers came to seek inspiration for poems and essays and artists for painting. Therefore, a great many ancient records and relics were left there. Mount Tai has now become a principal tourist site in China. 参考译文三 Mountain Tai , 2,700 m above sea level and 400 square kilometers, which is located in the western part of China. It enjoys not only the magnificent sight, but the high reputation for its historical culture. Mountain Tai is a place of worship for pilgrims for 3,000 thousand years. According to the record, it was visited by 72 emperors in total. Many writers obtain inspiration and compose poems and compositions by visiting Mountain Tai. Besides, artists also draw paintings here. Consequently, there are a lot of cultural relics and historic sites. Nowadays, Mountain Tai has become one of the most well-known tourist attractions in China."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷1）.pdf + L3 2017年12月英语四级真题答案及解析（第一套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "A dominant personality."
+        },
+        {
+          "label": "B",
+          "text": "The ability to delegate."
+        },
+        {
+          "label": "C",
+          "text": "The courage to admit failure"
+        },
+        {
+          "label": "D",
+          "text": "A strong sense of responsibility."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "of choices given in a word bank following the passage. Read the passage through carefully before making your choices.\nEach choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2\nwith a single line through the centre. You may not use any of the words in the bank more than once.\nA rat or pigeon might not be the obvious choice to tend to someone who is sick, but these creatures have some __26__ skills\nthat could help the treatment of human diseases.\nPigeons are often seen as dirty birds and an urban __27__ , but they are just the latest in a long line of animals that have\nbeen found to have abilities to help humans. Despite having a brain no bigger than the __28__ of your index finger, pigeons have\na very impressive __29__ memory. Recently it was shown that they could be trained to be as accurate as humans at detecting\nbreast cancer in images.\nRats are often __30__ with spreading disease rather than __31__ it, but this long-tailed animal is highly __32__ . Inside a rat's nose\nare up to 1,000 different types of olfactory receptors (嗅觉感受器), whereas humans only have 100 to 200 types. This gives\nrats the ability to detect __33__ smells. As a result, some rats are being put to work to detect TB(肺结核). When the rats detect\nthe smell, they stop and rub their legs to __34__ a sample is infected.\nTraditionally, a hundred samples would take lab technicians more than two days to __35__ , but for a rat it takes less than\n20 minutes. This rat detection method doesn't rely on specialist equipment. It is also more accurate — the rats are able to\nfind more TB infections and, therefore, save more lives.",
+      "blocks": [
+        {
+          "text": "of choices given in a word bank following the passage. Read the passage through carefully before making your choices.\nEach choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2\nwith a single line through the centre. You may not use any of the words in the bank more than once.\nA rat or pigeon might not be the obvious choice to tend to someone who is sick, but these creatures have some __26__ skills\nthat could help the treatment of human diseases.\nPigeons are often seen as dirty birds and an urban __27__ , but they are just the latest in a long line of animals that have\nbeen found to have abilities to help humans. Despite having a brain no bigger than the __28__ of your index finger, pigeons have\na very impressive __29__ memory. Recently it was shown that they could be trained to be as accurate as humans at detecting\nbreast cancer in images.\nRats are often __30__ with spreading disease rather than __31__ it, but this long-tailed animal is highly __32__ . Inside a rat's nose\nare up to 1,000 different types of olfactory receptors (嗅觉感受器), whereas humans only have 100 to 200 types. This gives\nrats the ability to detect __33__ smells. As a result, some rats are being put to work to detect TB(肺结核). When the rats detect\nthe smell, they stop and rub their legs to __34__ a sample is infected.\nTraditionally, a hundred samples would take lab technicians more than two days to __35__ , but for a rat it takes less than\n20 minutes. This rat detection method doesn't rely on specialist equipment. It is also more accurate — the rats are able to\nfind more TB infections and, therefore, save more lives."
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) I have always been a poor test-taker. So it may seem rather strange that I have returned to college to finish the degree I left undone some four decades ago. I am making my way through Columbia University, surrounded by students who quickly supply the verbal answer while I am still processing the question.\nB) Since there is no way for me to avoid exams, I am currently questioning what kind are the most taxing and ultimately beneficial. I have already sweated through numerous in-class midterms and finals, and now I have a professor who issues take-home ones. I was excited when I learned this, figuring I had a full week to do the research, read the texts, and write it all up. In fact, I was still rewriting my midterm the morning it was due. To say I had lost the thread is putting it mildly.\nC) As I was suffering through my week of anxiety, overthinking the material and guessing my grasp of it, I did some of my own polling among students and professors. David Eisenbach, who teaches a popular class on U.S. presidents at Columbia, prefers the in-class variety. He believes students ultimately learn more and encourages them to form study groups. “That way they socialize over history outside the class, which wouldn’t happen without the pressure of an in-class exam,” he explained, “Furthermore, in-class exams force students to learn how to perform under pressure, and essentialwork skill.”\nD) He also says there is less chance of cheating with the in-class variety. In 2012, 125 students at Harvard were caught up in a scandal when it was discovered they had cheated on a take-home exam for a class entitled “Introduction To Congress.” Some colleges have what they call an “honor code,” though if you are smart enough to get into these schools, you are either smart enough to get around any codes or hopefully, too ethical to consider doing so. As I sat blocked and clueless for two solid days, I momentarily wondered if I couldn’t just call an expert on the subject matter which I was tackling, or someone who took the class previously, to get me going.\nE) Following the Harvard scandal, Mary Miller, the former dean of students at Yale, made an impassioned appeal to her school’s professors to refrain from take-hone exams. “Students risk health and well being, as well as performance in other end-of-term work, when faculty offers take-home exams without clear, time-limited boundaries,” she told me. “Research now shows that regular quizzes, short essays, and other assignments over the course of a term better enhance learning and retention.”\nF) Most college professors agree the kind of exam they choose largely depends on the subject. A quantitative-based one, for example, is unlikely to be sent home, where one could ask their older brothers and sisters to help. Vocational-type classes, such as computer science or journalism, on the other hand, are often more research-oriented and lend themselves to take-home testing. Chris Koch, who teaches “History of Broadcast Journalism” at Montgomery Community College in Rockville, Maryland, points out that reporting is about investigation rather than the memorization of minute details. “In my field, it’s not what you know—it’s what you know how to find out,” says Koch. “There is way too much information, and more coming all the time, for anyone to remember. I want my students to search out the answers to questions by using all the resources available to them.\nG) Students’ test-form preferences vary, too, often depending on the subject and course difficulty. “I prefer take-home essays because it is then really about the writing, so you have time to edit and do more research,” says Elizabeth Dresser, a junior at Barnard. Then there is the stress factor. Francesca Haass, a senior at Middlebury, says, “I find the in-class ones are more stressful in the short term, but there is immediate relief as you swallow information like mad, and then you get to forget it all. Take-homes require thoughtful engagement which can lead to longer term stress as there is never a moment when the time is up.” Meanwhile, Olivia Rubin, a sophomore at Emory, says she hardly even considers take-homes true exams. “If you understand the material and have the ability to articulate (说出) your thoughts, they should be a breeze.”\nH) How students ultimately handle stress may depend on their personal test-taking abilities. There are people who always wait until the last minute, and make it much harder than it needs to be. And then there those who, not knowing what questions are coming at them, and having no resources to refer to, can freeze. And then there are we rare folks who fit both those descriptions.\nI) Yes, my advanced age must factor into the equation (等式), in part because of my inability to access the information as quickly. As another returning student at Columbia, Kate Marber, told me, “We are learning not only all this information, but essentially how to learn again. Our fellow students have just come out of high school. A lot has changed since we were last in school.”\nJ) If nothing else, the situation has given my college son and me something to share, When I asked his opinion on this matter, he responded, “I like in-class exams because the time is already reserved, as opposed to using my free time at home - 4 - to work on a test,” he responded. It seems to me that a compromise would be receiving the exam questions a day or two in advance, and then doing the actual test in class the ticking clock overhead.\nK) Better yet, how about what one Hunter College professor reportedly did recently for her final exam: She encouraged the class not to stress or even study, promising that, “It is going to be apiece of cake.” When the students came in, sharpened pencils in hand, there was not a bluebook in sight. Rather, they saw a large chocolate cake and they each were given a slice. 36. Elderly students find it hard to keep up with the rapid changes in education. 37. Some believe take-home exams may affect students' performance in other courses. 38. Certain professors believe in-class exams are ultimately more helpful to students. 39. In-class exams are believed to discourage cheating in exams. 40. The author was happy to learn she could do some exams at home. 41. Students who put off their work until the last moment often find the exams more difficult than they actually are. 42. Different students may prefer different types of exams. 43. Most professors agree whether to give an in-class or a take-home exam depends on type of course being taught. 44. The author dropped out of college some forty years ago. 45. Some students think take-home exams will eat up their free time.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "I have always been a poor test-taker. So it may seem rather strange that I have returned to college to finish the degree I left undone some four decades ago. I am making my way through Columbia University, surrounded by students who quickly supply the verbal answer while I am still processing the question."
+        },
+        {
+          "label": "B",
+          "text": "Since there is no way for me to avoid exams, I am currently questioning what kind are the most taxing and ultimately beneficial. I have already sweated through numerous in-class midterms and finals, and now I have a professor who issues take-home ones. I was excited when I learned this, figuring I had a full week to do the research, read the texts, and write it all up. In fact, I was still rewriting my midterm the morning it was due. To say I had lost the thread is putting it mildly."
+        },
+        {
+          "label": "C",
+          "text": "As I was suffering through my week of anxiety, overthinking the material and guessing my grasp of it, I did some of my own polling among students and professors. David Eisenbach, who teaches a popular class on U.S. presidents at Columbia, prefers the in-class variety. He believes students ultimately learn more and encourages them to form study groups. “That way they socialize over history outside the class, which wouldn’t happen without the pressure of an in-class exam,” he explained, “Furthermore, in-class exams force students to learn how to perform under pressure, and essentialwork skill.”"
+        },
+        {
+          "label": "D",
+          "text": "He also says there is less chance of cheating with the in-class variety. In 2012, 125 students at Harvard were caught up in a scandal when it was discovered they had cheated on a take-home exam for a class entitled “Introduction To Congress.” Some colleges have what they call an “honor code,” though if you are smart enough to get into these schools, you are either smart enough to get around any codes or hopefully, too ethical to consider doing so. As I sat blocked and clueless for two solid days, I momentarily wondered if I couldn’t just call an expert on the subject matter which I was tackling, or someone who took the class previously, to get me going."
+        },
+        {
+          "label": "E",
+          "text": "Following the Harvard scandal, Mary Miller, the former dean of students at Yale, made an impassioned appeal to her school’s professors to refrain from take-hone exams. “Students risk health and well being, as well as performance in other end-of-term work, when faculty offers take-home exams without clear, time-limited boundaries,” she told me. “Research now shows that regular quizzes, short essays, and other assignments over the course of a term better enhance learning and retention.”"
+        },
+        {
+          "label": "F",
+          "text": "Most college professors agree the kind of exam they choose largely depends on the subject. A quantitative-based one, for example, is unlikely to be sent home, where one could ask their older brothers and sisters to help. Vocational-type classes, such as computer science or journalism, on the other hand, are often more research-oriented and lend themselves to take-home testing. Chris Koch, who teaches “History of Broadcast Journalism” at Montgomery Community College in Rockville, Maryland, points out that reporting is about investigation rather than the memorization of minute details. “In my field, it’s not what you know—it’s what you know how to find out,” says Koch. “There is way too much information, and more coming all the time, for anyone to remember. I want my students to search out the answers to questions by using all the resources available to them."
+        },
+        {
+          "label": "G",
+          "text": "Students’ test-form preferences vary, too, often depending on the subject and course difficulty. “I prefer take-home essays because it is then really about the writing, so you have time to edit and do more research,” says Elizabeth Dresser, a junior at Barnard. Then there is the stress factor. Francesca Haass, a senior at Middlebury, says, “I find the in-class ones are more stressful in the short term, but there is immediate relief as you swallow information like mad, and then you get to forget it all. Take-homes require thoughtful engagement which can lead to longer term stress as there is never a moment when the time is up.” Meanwhile, Olivia Rubin, a sophomore at Emory, says she hardly even considers take-homes true exams. “If you understand the material and have the ability to articulate (说出) your thoughts, they should be a breeze.”"
+        },
+        {
+          "label": "H",
+          "text": "How students ultimately handle stress may depend on their personal test-taking abilities. There are people who always wait until the last minute, and make it much harder than it needs to be. And then there those who, not knowing what questions are coming at them, and having no resources to refer to, can freeze. And then there are we rare folks who fit both those descriptions."
+        },
+        {
+          "label": "I",
+          "text": "Yes, my advanced age must factor into the equation (等式), in part because of my inability to access the information as quickly. As another returning student at Columbia, Kate Marber, told me, “We are learning not only all this information, but essentially how to learn again. Our fellow students have just come out of high school. A lot has changed since we were last in school.”"
+        },
+        {
+          "label": "J",
+          "text": "If nothing else, the situation has given my college son and me something to share, When I asked his opinion on this matter, he responded, “I like in-class exams because the time is already reserved, as opposed to using my free time at home - 4 - to work on a test,” he responded. It seems to me that a compromise would be receiving the exam questions a day or two in advance, and then doing the actual test in class the ticking clock overhead."
+        },
+        {
+          "label": "K",
+          "text": "Better yet, how about what one Hunter College professor reportedly did recently for her final exam: She encouraged the class not to stress or even study, promising that, “It is going to be apiece of cake.” When the students came in, sharpened pencils in hand, there was not a bluebook in sight. Rather, they saw a large chocolate cake and they each were given a slice. 36. Elderly students find it hard to keep up with the rapid changes in education. 37. Some believe take-home exams may affect students' performance in other courses. 38. Certain professors believe in-class exams are ultimately more helpful to students. 39. In-class exams are believed to discourage cheating in exams. 40. The author was happy to learn she could do some exams at home. 41. Students who put off their work until the last moment often find the exams more difficult than they actually are. 42. Different students may prefer different types of exams. 43. Most professors agree whether to give an in-class or a take-home exam depends on type of course being taught. 44. The author dropped out of college some forty years ago. 45. Some students think take-home exams will eat up their free time."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "It’s time to reevaluate how women handle conflict at work. Being overworked or over-committed at home and on the\njob will not get you where you want to be in life. It will only slow you down and hinder your career goals.\nDid you know women are more likely than men to feel exhausted? Nearly twice as many women than men ages 18-44\nreported feeling “very tired” or “exhausted”, according to a recent study.\nThis may not be surprising given that this is the age range when women have children. It's also the age range when\nmany women are trying to balance careers and home. One reason women may feel exhausted is that they have a hard time\nsaying \"no.\" Women want to be able to do it all volunteer for school parties or cook delicious meals-and so their answer to\nany request is often “Yes, I can.”\nWomen struggle to say “no” in the workplace for similar reasons, including the desire to be liked by their colleagues.\nUnfortunately, this inability to say \"no\" may be hurting women's heath as well as their career.\nAt the workplace, men use conflict as a way to position themselves, while women often avoid conflict or strive to be\nthe peacemaker, because they don't want to be viewed as aggressive or disruptive at work. For example, there’s a problem\nthat needs to be addressed immediately, resulting in a dispute over should be the one to fix it. Men are more likely to face\nthat dispute from the perspective of what benefits them most, whereas women may approach the same dispute from the\nperspective of what's the easiest and quickest way to resolve the problem-even if that means doing the boring work\nthemselves.\nThis difference in handling conflict could be the deciding factor on who gets promoted to a leadership position and\nwho does not. Leaders have to be able to delegate and manage resources wisely – including staff expertise. Shouldering\nmore of the workload may not earn you that promotion. Instead, it may highlight your inability to delegate effectively.",
+      "blocks": [
+        {
+          "text": "It’s time to reevaluate how women handle conflict at work. Being overworked or over-committed at home and on the\njob will not get you where you want to be in life. It will only slow you down and hinder your career goals.\nDid you know women are more likely than men to feel exhausted? Nearly twice as many women than men ages 18-44\nreported feeling “very tired” or “exhausted”, according to a recent study.\nThis may not be surprising given that this is the age range when women have children. It's also the age range when\nmany women are trying to balance careers and home. One reason women may feel exhausted is that they have a hard time\nsaying \"no.\" Women want to be able to do it all volunteer for school parties or cook delicious meals-and so their answer to\nany request is often “Yes, I can.”\nWomen struggle to say “no” in the workplace for similar reasons, including the desire to be liked by their colleagues.\nUnfortunately, this inability to say \"no\" may be hurting women's heath as well as their career.\nAt the workplace, men use conflict as a way to position themselves, while women often avoid conflict or strive to be\nthe peacemaker, because they don't want to be viewed as aggressive or disruptive at work. For example, there’s a problem\nthat needs to be addressed immediately, resulting in a dispute over should be the one to fix it. Men are more likely to face\nthat dispute from the perspective of what benefits them most, whereas women may approach the same dispute from the\nperspective of what's the easiest and quickest way to resolve the problem-even if that means doing the boring work\nthemselves.\nThis difference in handling conflict could be the deciding factor on who gets promoted to a leadership position and\nwho does not. Leaders have to be able to delegate and manage resources wisely – including staff expertise. Shouldering\nmore of the workload may not earn you that promotion. Instead, it may highlight your inability to delegate effectively."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write a short essay on how to best handle the relationship between parents and children. You should write at least120 words but no more than 180 words.",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into",
+      "source": "泰山位于山东省西部。海拔 1500 余米,方圆约 400 平方公里。泰山不仅雄伟壮观,而且是一座历史文化名山,过去\n3000 多年一直是人们前往朝拜的地方。据记载,共有 72 位帝王曾来此游览。许多作家到泰山获取灵感,写诗作文,艺\n术家也来此绘画。山上因此留下了许许多多的文物古迹。泰山如今已成为中国一处主要的旅游景点。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}

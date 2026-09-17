@@ -1,0 +1,1948 @@
+{
+  "id": "2017-12-3",
+  "examId": "cet4",
+  "year": 2017,
+  "month": 12,
+  "session": "2017下半年",
+  "setNo": 3,
+  "label": "2017年12月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "We all know there exists a great void（空白）in the public educational system when it comes to          __(26)__ to STEM（Science,",
+      "answer": "G",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格之前有固定表达 when it comes to,其中 to 是介词,故此处应填入名词或动名词。本句 意为“众所周知,当提到______STEM(科学、技术、工程学、数学)课程时,公共教育体系存在巨大的空白。” 也就是说,公共教育体系没有为学生提供足够的 STEM 课程,学生接触不到,因此应填入 G)exposure“接触,暴 露”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "at all __(27)__ of the public educational system.",
+      "answer": "L",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。空格位于形容词 all 与介词 of 之间,应填入名词。前一句提到,多丽在高中教了 11 年的工 程学。本句进一步提到,她注意到,所有的公共教育体系都存在着优质 STEM 教育的巨大空白。“all”说明不只是 高中存在 ATEM 教育空白,初中、小学等也存在空白,由此可知本空应填入含有“等级”含义的名词,故答案为 L) levels“等级,级别”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "math, science and engineering programs to __(28)__ my own kids in”",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。分析句子结构可知,本空前的 to 是动词不定式的标志,因此填入动词原形。本句意为“在 发现缺少数学、科学、工程学课程后,我创办了‘儿童工程学(EFK)’,让我的学生可以_______。”由前一句 可知,所有级别的公共教育体系都缺少 STEM 课程,也就是说没有这方面的课程供多丽的学生参加、学习,因此本 空应填 F)enroll“报名,注册”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "She decided to start an afterschool program where children __(29)__ in STEM-based competitions.",
+      "answer": "O",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。分析句子结构可知,children 是 where 引导的定语从句的主语,该从句缺少谓语,再根据主 句时态判断,从句的时态为过去时,因此应填入动词过去式。本句意为“她决定开办一项课外活动,孩子们可以_____ 以 STEM 为基础的竞赛。”综合下一句可知,参加该课程的孩子们在好几个州的竞赛中获胜,因此本空应填入含有 “参与”意思的动词,故答案为 O)participated。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "and when it reached 180 members and the kids in the program won several state __(30)__ , she decided to devote all her time to",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。本空前有不定代词 several,因此应填入名词。结合前一句可知,孩子们通过此课程参加竞 赛,而且赢得了好几个州的________。由句意可推断,孩子们获得了冠军,因此应填入 C)championships。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "cultivating and __(31)__ it.",
+      "answer": "E",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。分析句子结构可知,本空与 cultivating 是 to 的并列宾语,因此应填入动名词。本句大意是, 由于课外社团发展得很快,她决定全身心地投入到发展和_______该课程中。其中 it 指的是 the club。结合下一句可 知,多丽决定将该课外社团发展壮大,才诞生了全球企业 EFK,因此本空应填入含有“发展,扩大”含义的词,故 答案为 E)developing。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Dori began operating EFK out of her Virginia home, which she then expanded to __(32)__           recreation centers.",
+      "answer": "M",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。本空位于名词词组 recreation centers 之前,应填入形容词作定语。本段在介绍 EFK 的发 展过程。本句提到,多丽一开始在弗吉尼亚州自己的家里运营 EFK,而后扩展到娱乐中心。而下一句提到,EFK 课 程遍及美国 32 个州及全球 21 个国家。根据事物由小变大的发展规律,EFK 应该是先在当地发展起来,再扩展到其 他州,乃至其他国家,因此空格处应填入含有“本地”意义的形容词,故答案为 M)local“当地的,局部的”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "EFK program __(33)__ over 144 branches in __(32)__ states within the United States and in 21 countries.",
+      "answer": "N",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。由句子结构可知,本空位于主语 the EFK program 之后,应填入动词作谓语。本句意为“EFK 在美国 32 个州及 21 个国家_______超过 144 家分公司。”由此推测,EFK 拥有超过 144 家分公司,故答案为 N) operates“经营,运行”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "not __(34)__ enough engineers.",
+      "answer": "J",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。分析句子结构可知,本句有主语 our nation,宾语 engineers,应填入动词与 is 一起作谓语。 本句意为“我们国家没有______足够多的工程师。”结合第一段提到的公共教育体系没有提供足够多的 STEM 课程 可以推断,学校没有培养出足够多的工程师毕业生,因此本空应填入与学校相关、含有“培养”含义的词,故答案 为 J)graduating“毕业”。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "great __(35)__ .”",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。本空位于形容词 great 之后,应填入名词。本句意为“我们的理念是从小就启迪孩子们,让 他们理解工程师是一份伟大的_______。”前一句提到,我们国家没有足够多的工程师。因此可推断,该课程的理 念是让孩子们长达后成为工程师,让他们认为工程师是一份伟大的工作,因此本空应填 B)career“职业,事业”。 Section B 全文翻译: A) “在我们的视频公布之后你就禁赛了德·赖斯,”TMZ 的一位记者几天前对全国橄榄球联盟理事长罗杰·古 德尔质疑道。“你为什么没有亲自去趟赌场的好奇心?”这个问题暗示出一个好奇心更强的理事长应该会设法拿到 录像。 B)(40)我们经常听到对于缺乏好奇心的指责,这暗示出不想去寻找真相是不对的。“很长时间以来,我都被 奇怪的缺乏好奇心而困扰,”七月份时新泽西州立法机构的一个民主党成员说,他指的是新泽西州州长克里斯·克 里斯蒂的助理不够刨根问底的态度,后者选择了不对乔治·华盛顿大桥交通丑闻提出尖锐的问题。“难道主流媒体 对他升了什么一点儿也不好奇吗?”保守派作家詹妮弗·鲁宾今年早些时候这样写道,她暗指在利比亚班加西的美 国人遭受袭击的事件。 C) 以上每个例子都说明,好奇是一件好事,而缺乏好奇心是一个问题。这样的指责仅仅是为自己的党派争取 政治得分的努力吗?或者好奇心本身就具有某种特殊的价值呢? D) 记者伊恩·莱斯利在他有趣的新书《好奇:求知的欲望以及为什么它决定了你的未来》中,坚持认为以上 最后一个问题的答案是“有”。(37)莱斯利认为,好奇心是一个被过度忽视的人类优点,对我们的成功十分重要, 但是我们正在失去好奇心。 E) 他写道,我们正在经历“意外之得缺失”。“意外之得”这个词是贺瑞斯·沃波尔在一封 1854 年的书信中 创造的,他讲述了三个王子的故事,他们“总是碰巧发现不在他们寻找之列的事物”。莱斯利担心,因特网的兴起 以及其他社会和科技的变化已经降低了我们对漫无目的探险的欲望。我们不再愿意徜徉在知识的田野中,准备好大 吃一惊。相反,我们只寻找我们需要的信息。 F) 为什么这是一个问题呢?(45)因为没有好奇心,我们就会失去创新精神和企业家精神。我们会看到毫无 想象力的政府和死气沉沉的企业做出灾难性的决策。人类整体作为一个物种如此成功,我们也将会丢失这成功背后 一个重要的部分。 G) 莱斯利认为,社会整体上变得越来越不好奇,他也提出了相当多的证据。(44)例如,在美国和欧洲,因 特网的兴起导致读者对自己国家之外的新闻关注度下降。但是,并非一切都要怪罪于技术。对文学小说的兴趣下降 也是莱斯利发现的原因之一。他说,阅读文学小说会让我们更加好奇。 H)(36)另外,为了变得好奇,“你首先应该认识到自身知识的欠缺。”莱斯利声称我们中大多数人都没有意 识到我们有多么无知,虽然这么说有点夸张,但是他指出这一问题正在加剧是无比正确的:“谷歌给我给了我们一 个巨大的错觉,即所有问题都有确定的答案。” I) 确实,尽管莱斯利喜欢谷歌,谷歌也是他经常用的替罪羊。他引用了谷歌的共同创始人拉里·佩奇的话,大 意是“完美的搜索引频”会“正确理解我的意思,而且反馈给我的也正是我想要的。”莱斯利在书中某处写道:“谷 歌的目的是完全免除你好奇的欲望。” J) 带着点儿怀旧情绪,莱斯利引用了约翰·梅纳德·凯恩斯对书店著名的褒扬之词:“人们应该迷迷糊糊的走 进书店,仿佛置身于梦境之中,让书店里的东西自由的吸引、影响眼球。(43)在书店里信步漫游、随好奇心浏览 书籍可以成为一个下午的消遣。”要是能做到这样多好啊! K) (42)通过引用心理学家和认知科学家的成果,莱斯利批评了公认的观点,即学业成功是智力和努力相结 合的结果。他认为,好奇心是第三个关键因素——也是一个很难保持的因素。如果不加以培养,人们很难保持好奇: “儿童时期的好奇心是儿童和成人合作获得的。一定能杀死好奇心的方法就是放任自流。” L) 莱斯利警告说,学校教育通常是孩子们变得没有好奇心。父母是受过教育和中上阶层者,其孩子远比工人 阶层和下层家庭的孩子们更好奇,甚至在很小的时候就有这样的差距。(41)缺乏好奇心导致知识的相对缺乏,知 识的缺乏在后期虽然并非不可名能弥补,但是很难弥补。 M) 虽然莱斯利的书与政治无关,但是他也没有完全回避这个问题,(39)政治领导人,同其他组织的领导人 一样,也应该具有好奇心。在关键时刻他们应该提出问题。他警告说,不想知道会带来严重的后果。 N) 他举了一个例子,乔治·沃克·布什政府的失败就在于没有为入侵伊拉克的后果做好准备。莱斯利认为, 前国防部长唐纳德·拉姆斯菲尔德在 2002 年说,我们要警惕那些“未知的未知”,那些因此而嘲笑他的人是错误 的。莱斯利写道,拉姆斯菲尔德的观点“并非荒谬——而是聪明的”。他补充道,“悲剧在于他没有听从自己的建 议。” O)以上这些让我们回想起古德尔、克里斯蒂和班加西的例子。每个例子中的批评者都在以不同的方式指责某个 权威人士故意不去探索探究。我想让读者根据自己的政治喜好来决定哪些职责(如果有的话)是可以成立的。但是 我们要警惕,不要对待另一方的缺点时坚决要求具备好奇心,而对我们自身的缺点却固执地不加探索。(38)我们 应该乐于为了知识本身而去追求知识——甚至是当我们所发现的是我们不太想知道的事情的时候。 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "attracted",
+        "I": "feeding",
+        "B": "career",
+        "J": "graduating",
+        "C": "championships",
+        "K": "interest",
+        "D": "degrees",
+        "L": "levels",
+        "E": "developing",
+        "M": "local",
+        "F": "enroll",
+        "N": "operates",
+        "G": "exposure",
+        "O": "participated",
+        "H": "feasible"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "attracted"
+        },
+        {
+          "label": "B",
+          "text": "career"
+        },
+        {
+          "label": "C",
+          "text": "championships"
+        },
+        {
+          "label": "D",
+          "text": "degrees"
+        },
+        {
+          "label": "E",
+          "text": "developing"
+        },
+        {
+          "label": "F",
+          "text": "enroll"
+        },
+        {
+          "label": "G",
+          "text": "exposure"
+        },
+        {
+          "label": "H",
+          "text": "feasible"
+        },
+        {
+          "label": "I",
+          "text": "feeding"
+        },
+        {
+          "label": "J",
+          "text": "graduating"
+        },
+        {
+          "label": "K",
+          "text": "interest"
+        },
+        {
+          "label": "L",
+          "text": "levels"
+        },
+        {
+          "label": "M",
+          "text": "local"
+        },
+        {
+          "label": "N",
+          "text": "operates"
+        },
+        {
+          "label": "O",
+          "text": "participated"
+        }
+      ]
+    },
+    {
+      "no": 36,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "To be curious, we need to realize first of all that there are many things we don’t know.",
+      "answer": "H",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 to be curious 和 first 定位至原 文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "H 段第一句指出,为了变得好奇,“你首先应该认识到自身知识的欠缺。”原文中的 a gap in your knowledge 指的就是 things we don’t know;题干中的 first of all 与原文中的 in the first place 是同义词组,故答案为 H。"
+        },
+        {
+          "label": "译文",
+          "text": "为了保持好奇,我们首先需要认知有很 多我们不知道的事情。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 37,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "According to Leslie, curiosity is essential to one’s success.",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 to one’s success 定位至原文画 线处。"
+        },
+        {
+          "label": "详解",
+          "text": "D 段开始介绍了伊恩·莱斯利对好奇心的观点,他认为好奇心本身就具有特殊的价值。本段最后一句总结 了莱斯利的看法,他认为好奇心是一个被过度忽视的人类优点,对我们的成功十分重要,但是我们正在失去好奇心。 题干中的 essential 与原文中的 crucial 是同义词,故答案为 D。"
+        },
+        {
+          "label": "译文",
+          "text": "莱斯利认为,好奇心对一个人的成功至 关重要。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 38,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "We should feel happy when we pursue knowledge for knowledge’s sake.",
+      "answer": "O",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 pursue knowledge for knowledge’s sake 定位至原文画 线处。"
+        },
+        {
+          "label": "详解",
+          "text": "O 段是对全文的总结。作者在此提醒读者,不要以双重标准去判断对方和己方的优缺点,即不能指责对方 缺乏探寻真想的好奇心,而对己方好奇心的缺失视而不见。最后一句指出,我们应该乐于为了知识本身而去追求知 识——甚至是当我们所发现的是我们不太想知道的事情的时候。原文 pursue knowledge for its own sake 中的 its own 即指的是 knowledge’s,题干中的 happy 与原文中的 delighted 是同义词,故答案为 O。"
+        },
+        {
+          "label": "译文",
+          "text": "当我们为了知识而追求知识 的时候应该感到高兴。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 39,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Political leaders’ lack of curiosity will result in bad consequences.",
+      "answer": "M",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Political leaders 和 consequences 定位 至原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "M 段定位句提到,政治领导人也应该具有好奇心,不想知道会带来严重的后果。原文中的 not wanting to know 指的就是不具有好奇心,即题干中的 lack of curiosity,故答案为 M。"
+        },
+        {
+          "label": "译文",
+          "text": "政治领导人缺乏好奇心会导致严重的后果。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 40,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "There are often accusations about politicians' and the media’s lack of curiosity to find out the truth.",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 accusations、 media 和 find out the truth 定位至 原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "文章前两段举例说明现在人们变得越来越不好奇。B 段承接上文,继续举例,一个是对新泽西州州长里斯·克 里斯蒂助理的指责,另一个是对主流媒体的指责,两个例子中都是指责他们不去探寻真相,因此题干是对该段的概 括总结,故答案为 B。"
+        },
+        {
+          "label": "译文",
+          "text": "经常有人指责政客和媒体 缺乏寻找真相的好奇心。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 41,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "The less curious a child is, the less knowledge the child may turn out to have.",
+      "answer": "L",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 less curious 和 less knowledge 定位至原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "L 段指出了好奇心和教育之间的相互关系。本段第一句是莱斯利对学校教育的看法,他认为学校教育容易 让孩子们失去好奇心。第二句接着指出受过教育的父母的孩子和中上阶层家庭的孩子远比工人阶层和下层家庭的孩 子更好奇。第三句仍是莱斯利的观点,他认为缺乏好奇心会导致知识的相对缺乏,而知识的缺乏日后是很难弥补的。 题干是对定位句的同义转述,故答案为 L。"
+        },
+        {
+          "label": "译文",
+          "text": "一个孩子越不好奇,结果他学到的知识 就越少。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 42,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "It is widely accepted that academic accomplishment lies in both intelligence and diligence.",
+      "answer": "K",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 academic 和 intelligence 定 位至原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "K 段主要讨论了好奇心在学业方面的作用。第一句指出,大家普遍认为学业成功是智力天赋和勤奋努力相 结合的产物,而莱斯利批评了这一观点。原文中的 the received wisdom 意为“公认的观点”,题干中的 widely accepted 是对它的同义转述;题干中的 intelligence 对应原文中的 intellectual talent;diligence 对应 hard work,故答案为 K。"
+        },
+        {
+          "label": "译文",
+          "text": "人们普遍承认,取得学业成就需要智力 和勤奋。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 43,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Visiting a bookshop as curiosity leads us can be a good way to entertain ourselves.",
+      "answer": "J",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 bookshop、as curiosity leads us 和 entertain 定位至原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "J 段主要是引用了约翰·梅纳德·凯恩斯对书店的褒扬之词,即人们应该迷迷糊糊地走进书店,任凭书店里 的书吸引自己。而且在书店里信步漫游、随好奇心而浏览书籍可以成为一个下午的消遣。题干中的 Visiting a bookshop 对应原文中的 To walk the rounds of the bookshops;as curiosity leads us 是对原文中 as curiosity dictates 的同义转述, 故答案为 J。"
+        },
+        {
+          "label": "译文",
+          "text": "随好奇心的指引在书店中翻阅是一个很好的 娱乐方式。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 44,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Both the rise of the Internet and reduced appetite for literary fiction contribute to people’s declining curiosity.",
+      "answer": "G",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 the rise of the Internet 和 literary fiction 定位至原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "G 段总结了莱斯利眼中导致人们好奇心缺失的原因。第二句是一个例证,由于因特网的兴起,美国和欧洲 的读者对自己国家之外的新闻的关注度下降。但是,技术并非所有的罪魁祸首,第四句接着提到了另外一个原因, 即人们对文学小说的兴趣下降。题干是对本段的概括总结,题干中的 reduced appetite 对应原文中的 decline in interest, 故答案为 G。"
+        },
+        {
+          "label": "译文",
+          "text": "因特网的兴起以及人们对文学小说阅读 兴趣的下降消弱了人们的好奇心。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 45,
+      "sectionId": "matching",
+      "passageId": "matching",
+      "stem": "Mankind wouldn’t be so innovative without curiosity.",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 innovative 和 without curiosity 定位至原文画线处。"
+        },
+        {
+          "label": "详解",
+          "text": "F 段首句提出了一个问题,即缺乏好奇心为什么会成为一个问题。第二句提供了答案;因为没有好奇心,我 们就会失去创新精神和企业家精神。题干是对定位句的同义转述,故答案为 F。 Section C Passage One 全文翻译: (46)衰老发生在我们所有人身上,通常被认为是生命的自然组成部分。将衰老称作“疾病”似乎很愚蠢。 (47)另一方面,科学家越来越认识到衰老和生物学年龄是两码事,前者是诸如心脏病、癌症等多种疾病的主 要风险因素。这样看来,衰老本身或许可以看作是能治疗的,就像治疗高血压或维生素缺乏一样。 (48)生物物理学家亚历克斯·扎沃洛科夫认为衰老应该被视为一种疾病。他说将衰老描述为一种疾病会促使 人们研发治疗方法。 “它为制药行业松绑,使他们能够开始治疗衰老这种疾病,而不仅仅是治疗其种种副作用,”他说。 “现在,人们认为衰老是自然而且无法控制的事情”,他说。“在学术界,人们把衰老研究作为一个兴趣领域, 在其中尝试开发干预措施。(49)医学界也认为衰老是理所当然的,除了让人们保持在一定的健康范围内之外,他 们对此无能为力。” 但如果把衰老看作是一种疾病,他说,“这会吸引资金,并改变我们的医疗方式。重要的是认识到衰老是可以 治愈的。” “过去人们一直都知道身体会累积损伤,”他补充道。“治疗衰老的唯一方法就是找到修复损伤的方法。我认 为它是与衰老相关的疾病的预防药物。” (50)旧金山加利福尼亚大学的伦纳德·海弗里克教授说,衰老可以被治愈这一想法意味着人类的寿命可以延 长,一些研究人员认为这是可能的。但海弗里克并不这么认为。 “有许多人从癌症、中风或心脏病重得以康复。但他们继续衰老,因为衰老与疾病是分开的,”海弗里克说。 “即使这些死因被消除,预期寿命也不会大大超过 92 岁。” 详解详析:"
+        },
+        {
+          "label": "译文",
+          "text": "没有好奇心,人类就不会如此有创新精神。 governments and dying corporations make disastrous decisions. We"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "paragraph-match",
+      "paraOptions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "no": 46,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do people generally believe about aging?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 generally believe about aging 定位到第一段第一句:Aging happens to all of us, and is generally thought of as a natural part of life."
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。文章开篇指出,衰老发生在我们所有人身上,通常被认为是生命的自然组成部分。既然是 生命的自然组成部分,也就是说衰老无法改变,人们无计可施。由此推断,人们通常认为他们对衰老无能为力,故 答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It should cause no alarm whatsoever."
+        },
+        {
+          "label": "B",
+          "text": "They just cannot do anything about it."
+        },
+        {
+          "label": "C",
+          "text": "It should be regarded as a kind of disease."
+        },
+        {
+          "label": "D",
+          "text": "They can delay it with advances in science."
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "How do many scientists view aging now?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 scientists 定位到第而段:On the other hand, scientists are increasingly learning that aging and biological age are two different things, and that the former is a key risk factor for conditions such as heart disease, cancer and many more. In that light, aging itself might be seen as something treatable, the way you would treat high blood pressure or a vitamin deficiency."
+        },
+        {
+          "label": "详解",
+          "text": "实施细节题。文章第二段提到,另一方面,科学家越来越认识到衰老和生物学年龄是两码事,前者是诸 如心脏病、癌症等多种疾病的主要风险因素。这样看来,衰老本身或许可以看作是能治疗的,就像治疗高血压或维 生素缺乏一样。由此可见,现在有许多科学家认为衰老可能被预防和治疗,故答案为 A。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It might be prevented and treated."
+        },
+        {
+          "label": "B",
+          "text": "It can be as risky as heart disease."
+        },
+        {
+          "label": "C",
+          "text": "It results from a vitamin deficiency."
+        },
+        {
+          "label": "D",
+          "text": "It is an irreversible biological process."
+        }
+      ]
+    },
+    {
+      "no": 48,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does Alex Zhavoronkov think of “describing aging as a disease”?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Alex Zhavoronkov 和 describing aging as a disease 定位到第三段:Biophysicist Alex Zhavoronkov believes that aging should be considered a disease. He said that describing aging as a disease creates incentives to develop treatments."
+        },
+        {
+          "label": "详解",
+          "text": "语义理解题。文章第三段指出,生物物理学家亚历克斯·扎沃洛科夫认为衰老应该被视为一种疾病。他 说将衰老描述为一种疾病会促使人们研发治疗方法。换句话说,它将促使医生和药剂师找到治疗衰老的方法,故答 案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "It will prompt people to take aging more seriously."
+        },
+        {
+          "label": "B",
+          "text": "It will greatly help reduce the side effects of aging."
+        },
+        {
+          "label": "C",
+          "text": "It will free pharmacists from the conventional beliefs about aging."
+        },
+        {
+          "label": "D",
+          "text": "It will motivate doctors and pharmacists to find ways to treat aging."
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What do we learn about the medical community?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 medical community 定位到第五段最后一句:The medical community also takes aging for granted, and can do nothing about it except keep people within a certain health range."
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。第五段最后一句提到,医学界也认为衰老是理所当然的,除了让人们保持在一定的健康范 围内之外,他们对此无能为力。由此可见,他们只能在有限的程度上促进人们的健康,故答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They now have a strong interest in research on aging."
+        },
+        {
+          "label": "B",
+          "text": "They differ from the academic circles in their view on aging."
+        },
+        {
+          "label": "C",
+          "text": "They can contribute to people’s health only to a limited extent."
+        },
+        {
+          "label": "D",
+          "text": "They have ways to intervene in people’s aging process."
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "sectionId": "reading",
+      "passageId": "reading-1",
+      "stem": "What does Professor Leonard Hayflick believe?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Professor Leonard Hayflick 定位到第八段:Leonard Hayflick, a professor at the University of California, San Francisco, said the idea that aging can be cured implies the human lifespan can be increased, which some researchers suggest is possible. Hayflick is not among them."
+        },
+        {
+          "label": "详解",
+          "text": "观点态度题。第八段提到,旧金山加利福尼亚大学的伦纳德·海弗里克教授说,衰老可以被治愈这一想 法意味着人类的寿命可以延长,一些研究人员认为这是可能的。但海弗里克并不这么认为。由此可见,伦纳德·海 弗里克教授认为人的寿命不能被延长。A 项中的 be prolonged 是对原文中 be increased 的同义转述,故为答案。 Passage Two 全文翻译: 据克里斯托弗·因塔格利亚报道,(51)和男性申请者相比,女性在申请地球科学博士后时,其获得优秀推荐 信的几率大概是男性的一半。 与许多其他领域一样,性别偏见在科学界普遍存在。男性的起薪更高,会得到更多的指导,也有更大的受雇几 率。(52)研究表明,在 STEM(科学、技术、工程和数学)领域,他们也被认为比女性更有能力。最新的研究表 明,男性也更有可能收到优秀的推荐信。 (53)“比方说,这是我带过的最好的学生,”哥伦比亚大学拉蒙特校区的社会科学家、多元融合战略师凯海 琳·达特说。“与那些优秀的推荐信相比,一封还不错的推荐信则会写:‘该申请者效率高或很聪明,是个理智的 科学家等这种明显生硬的赞扬,’但这并没有让申请者从众多申请人中脱颖而出。” (54)达特和同事们研究了 1,200 多封申请地球科学博士后的推荐信。这些推荐信中所有有关性别和其他的 识别信息都被编辑过,这样达特和她的团队在不知道学生性别的情况下为推荐信打分数。他们发现,与男性相比, 女性申请者只有一半的可能性得到优秀推荐信。这些推荐信来自世界各地,当然,既有男性写的,也有女性写的。 这些研究结果发表在《自然地球科学》期刊上。 达特说,他们不能仅通过档案数据就来评定申请者的实际科研素质。但是她说研究结果仍然表明,在地球科学 领域,女性申请者在职业生涯初期就因为得不到优秀的推荐信而处于潜在的不利地位。 (55)“我们不想指责或批评任何人,或者说有人是故意性别歧视者。相反,我们的研究的目的是利用这项研 究结果对隐含的性别偏见开启有意义的对话,无论是在部门层面,还是在机构层面,甚至是在学科层面。”这可以 给写推荐信的人提供一些建议。 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "The human lifespan cannot be prolonged."
+        },
+        {
+          "label": "B",
+          "text": "Aging is hardly separable from disease."
+        },
+        {
+          "label": "C",
+          "text": "Few people can live up to the age of 92."
+        },
+        {
+          "label": "D",
+          "text": "Heart disease is the major cause of aging. Passage Two"
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do we learn about applicants to postdoctoral positions in geosciences?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 applicants to postdoctoral positions in geosciences 定位到第一段第一句:Female applicants to postdoctoral positions in geosciences were nearly half as likely to receive excellent letters of recommendation, compared with their male counterparts. Christopher Intagliata reports."
+        },
+        {
+          "label": "详解",
+          "text": "实施细节题。第一段第一句指出,和男性申请者相比,女性在申请地球科学博士后时,其获得优秀推荐 信的几率大概是男性的一半。也就是说,男性比女性更可能获得优秀的推荐信,故答案为 C。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "There are many more men applying than women."
+        },
+        {
+          "label": "B",
+          "text": "Chances for women to get the positions are scare."
+        },
+        {
+          "label": "C",
+          "text": "More males than females are likely to get outstanding letters of recommendation."
+        },
+        {
+          "label": "D",
+          "text": "Male applicants have more interest in these positions than their female counterparts."
+        }
+      ]
+    },
+    {
+      "no": 52,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do studies about men and women in scientific research show?",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 studies 和 show 定位到第二段第三句:Studies show they’re also perceived as more competent than women in STEM(Science, Technology, Engineering, and Mathematics) fields."
+        },
+        {
+          "label": "详解",
+          "text": "实施细节题。文章第二段第三句明确指出,研究表明,在 STEM(科学、技术、工程和数学)领域,他 们也被认为比女性更有能力。由此可见,研究表明男性更擅长 STEM 学科,C 项中的 better able to excel 是对原文 more competent 的同义改写,故为答案。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Women engaged in postdoctoral work are quickly catching up."
+        },
+        {
+          "label": "B",
+          "text": "Fewer women are applying for postdoctoral positions due to gender bias."
+        },
+        {
+          "label": "C",
+          "text": "Men are believed to be better able to excel in STEM disciplines."
+        },
+        {
+          "label": "D",
+          "text": "Women who are keenly interested in STEM fields are often exceptional."
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What do the studies find about the recommendation letters for women applicants?",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干和各选项定位到第三段:“…Compare those excellent letters with a merely good letter: ‘The candidate was productive, or intelligent, or a solid scientist or something that’s clearly solid praise,’ but nothing that singles out the candidate as exceptional or one of a kind.”"
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。第三段第一句提到凯海琳·达特说,优秀的推荐信一般会这样写:这是我带过的最好的学 生。第二句接着将优秀的推荐信与一封“还不错”的推荐信进行对比,后者会写:该申请者效率高或很聪明,是个 理智的科学家等这种明显生硬的赞扬,但这并没有让申请者从众多申请人中脱颖而出。题干问有关给女性申请者写 的推荐信,研究发现了什么。结合上文女性获得优秀推荐信的几率大概是男性的一半这一研究结果可以推断,女性 收到的往往不是优秀的推荐信,而是“还不错”的推荐信,这些推荐信没有包含使她们脱颖而出的内容,故答案为 B。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are hardly ever supported by concrete examples."
+        },
+        {
+          "label": "B",
+          "text": "They contain nothing that distinguishes the applicants."
+        },
+        {
+          "label": "C",
+          "text": "They provide objective information without exaggerate."
+        },
+        {
+          "label": "D",
+          "text": "They are often filled with praise for exceptional applicants."
+        }
+      ]
+    },
+    {
+      "no": 54,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What did Dutt and her colleagues do with the more than 1, 200 letters of recommendation?",
+      "answer": "D",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 Dutt and her colleagues 和 more than 1, 200 letters of recommendation 定位到第四段第一、二句: Dutt and her colleagues studied more than 1,200 letters of recommendation for postdoctoral positions in geoscience. They were all edited for gender and other identifying information, so Dutt and her team could assign them a score without knowing the gender of the student."
+        },
+        {
+          "label": "详解",
+          "text": "实施细节题。本题提问达特和同事们如何处理这 1,200 多封推荐信。文章第四段前两句指出,达特和同事 们研究了 1,200 多封申请地球科学博士后的推荐信。这些推荐信中所有有关性别和其他的识别信息都被编辑过,这 样达特和她的团队在不知道学生性别的情况下为推荐信打分数。由此可见,他们删除了所有关于性别的信息,故答 案为 D。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "They asked unbiased scholars to evaluate them."
+        },
+        {
+          "label": "B",
+          "text": "They invited women professionals to edit them."
+        },
+        {
+          "label": "C",
+          "text": "Them assigned them randomly to reviewers."
+        },
+        {
+          "label": "D",
+          "text": "They deleted all information about gender."
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "sectionId": "reading",
+      "passageId": "reading-2",
+      "stem": "What does Dutt aim to do with her study?",
+      "answer": "A",
+      "analysis": [
+        {
+          "label": "定位",
+          "text": "由题干中的 aim 定位到文章最后一段: dialogues on implicit gender bias, be it at a departmental level or an institutional level or even a discipline level.” Which may lead to some recommendations for the letter writers themselves."
+        },
+        {
+          "label": "详解",
+          "text": "推理判断题。最后一段提到,达特的研究目的是利用这项研究结果对隐含的性别偏见开启有意义的对话, 无论是在部门层面,还是在机构层面,甚至是学科层面。这可以给写推荐信的人提供一些建议。由此可见,达特的 研究是为了提高写推荐信的人对性别偏见的认识,故答案为 A。 Part Ⅳ 参考译文一 Located in southern Anhui province in eastern China, Huangshan or literally Yellow Mountain is known for its unique natural scenery, particularly sunrises and sea of clouds. To appreciate the magnificence of the mountain, you have to look upward in most cases while to enjoy the fascinating landscape of Huangshan, you've got to look downward. The humid climate of the area offers favorable conditions for tea trees to grow, which makes the surrounding area of Huangshan one of the major producers of teas. The mountain is also home to numerous hot springs, which is helpful for preventing skin disease. As one of the top tourist destinations in China, Huangshan represents one of the most popular themes of photographic works and traditional Chinese paintings. 参考译文二 Huangshan(Yellow Mountain) is located in southern Anhui Province. The area is well known for its unique scenery, especially sunrise and sea of clouds. To enjoy the magnificence of a mountain, you have to look upwards in most cases. To enjoy Huangshan, however, you've got to look downward. Furthermore, Huangshan's moist climate facilitates the growing of tea trees, thereforethe mountain is one of China's premier tea-growing areas. In addition, Huangshan has multiple hot springswhich help prevent and cure skin illness. Huangshan is one of China's major tourist destinations and the most frequent subject of photography and traditional Chinese painting."
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2017.12四级真题（卷3）.pdf + L3 2017年12月英语四级真题答案及解析（第三套）.pdf"
+      },
+      "kind": "single-choice",
+      "options": [
+        {
+          "label": "A",
+          "text": "Raise recommendation writers’ awareness of gender bias in their letters."
+        },
+        {
+          "label": "B",
+          "text": "Open up fresh avenues for women post-doctors to join in research work."
+        },
+        {
+          "label": "C",
+          "text": "Alert women researchers to all types of gender bias in the STEM disciplines."
+        },
+        {
+          "label": "D",
+          "text": "Start a public discussion on how to raise women’s status in academic circles."
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "of choices given in a word bank following the passage. Read the passage through carefully before making your choices.\nEach choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2\nwith a single line through the centre. You may not use any of the words in the bank more than once.\nWe all know there exists a great void（空白）in the public educational system when it comes to          __26__ to STEM（Science,\nTechnology, Engineering and Mathematics）courses. One educator named Dori Roberts decided to do something to change\nthis system. Dori taught high school engineering for 11 years. She noticed there was a real void in quality STEM education\nat all __27__ of the public educational system. She said, “I started Engineering For Kids (EFK)after noticing a real lack of\nmath, science and engineering programs to __28__ my own kids in”\nShe decided to start an afterschool program where children __29__ in STEM-based competitions. The club grew quickly\nand when it reached 180 members and the kids in the program won several state __30__ , she decided to devote all her time to\ncultivating and __31__ it. The global business EFK was born.\nDori began operating EFK out of her Virginia home, which she then expanded to __32__           recreation centers. Today, the\nEFK program __33__ over 144 branches in __32__ states within the United States and in 21 countries. Sales have doubled from\n$5 million in 2014 to $10 million in 2015,with 25 new branches planned for 2016. The EFK website states, “Our nation is\nnot __34__ enough engineers. Our philosophy is to inspire kids at a young age to understand that engineering is a\ngreat __35__ .”",
+      "blocks": [
+        {
+          "text": "of choices given in a word bank following the passage. Read the passage through carefully before making your choices.\nEach choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2\nwith a single line through the centre. You may not use any of the words in the bank more than once.\nWe all know there exists a great void（空白）in the public educational system when it comes to          __26__ to STEM（Science,\nTechnology, Engineering and Mathematics）courses. One educator named Dori Roberts decided to do something to change\nthis system. Dori taught high school engineering for 11 years. She noticed there was a real void in quality STEM education\nat all __27__ of the public educational system. She said, “I started Engineering For Kids (EFK)after noticing a real lack of\nmath, science and engineering programs to __28__ my own kids in”\nShe decided to start an afterschool program where children __29__ in STEM-based competitions. The club grew quickly\nand when it reached 180 members and the kids in the program won several state __30__ , she decided to devote all her time to\ncultivating and __31__ it. The global business EFK was born.\nDori began operating EFK out of her Virginia home, which she then expanded to __32__           recreation centers. Today, the\nEFK program __33__ over 144 branches in __32__ states within the United States and in 21 countries. Sales have doubled from\n$5 million in 2014 to $10 million in 2015,with 25 new branches planned for 2016. The EFK website states, “Our nation is\nnot __34__ enough engineers. Our philosophy is to inspire kids at a young age to understand that engineering is a\ngreat __35__ .”"
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) “You suspended Ray Rice after our video,” a reporter from TMZ challenged National Football League Commissioner Roger Goodell the other day. “Why didn’t you have the curiosity to go to the casino (赌场) yourself?” The implication of the question is that a more curious. commissioner would have found a way to get the tape.\nB) The accusation of incuriosity is one that we hear often, carrying the suggestion that there is something wrong with not wanting to search out the truth. “I have been bothered for a long time about the curious lack of curiosity,” said a Democratic member of the New Jersey legislature back in July, referring to an insufficiently inquiring attitude on the part of an assistant to New Jersey Governor Chris Christie who chose not to ask hard questions about the George Washington Bridge traffic scandal. “Isn’t the mainstream media the least bit curious about what happened?” wrote conservative writer Jennifer Rubin earlier this year, referring to the attack on Americans in Benghazi, Libya.\nC) The implication, in each case, is that curiosity is a good thing, and a lack of curiosity is a problem. Are such accusations simply efforts to score political points for one's party? Or is there something of particular value about curiosity in and of itself?\nD) The journalist Ian Leslie, in his new and enjoyable book Curious: The Desire to Know and Why Your Fatter Depends on It, insists that the answer to that last question is ‘Yes.’ Leslie argues that curiosity is a much-overlooked human virtue, crucial to our success, and that we are losing it.\nE) We are suffering, he writes, from a “serendipity deficit.” The word “serendipity” was coined by Horace Walpole in an 1854 letter, from a tale of three princes who “were always making discoveries, by accident, of things they were not in search of,” Leslie worries that the rise of the Internet, among other social and technological changes, has reduced our appetite for aimless adventures. No longer have we the inclination to let ourselves wander through fields of know ledges, ready to be surprised. Instead, we seek only the information we want.\nF) Why is this a problem? Because without curiosity we will lose the spirit of innovation and entrepreneurship. We will see unimaginative governments and dying corporations make disastrous decisions. We will lose a vital part of what has made humanity as a whole so successful as a species.\nG) Leslie presents considerable evidence for the proposition that the society as a whole is growing less curious. In the U.S. and Europe, for example, the rise of the Internet has led to a declining consumption of news from outside the reader’s borders .But not everything is to be blamed on technology. The decline in interest in literary fiction is also one of the causes identified by Leslie. Reading literary fiction, he says ,make us more curious.\nH) Moreover, in order to be curious, “you have to be aware of a gap in your knowledge in the first place.” Although Leslie perhaps paints a bit broadly in contending that most of us are unaware of how much we don’t know, he’s surely right to point out that the problem is growing: “Google can give us the powerful illusion that all questions have definite answers.”\nI) Indeed, Google, for which Leslie expresses admiration, is also his frequent whipping body(替罪羊). He quotes Google co-founder Larry Page to the effect that the “perfect search engine” will “understand exactly what I mean and give me back exactly what I want.” Elsewhere in the book, Leslie writes: “Google aims to save you from the thirst of curiosity altogether.”\nJ) Somewhat nostalgically(怀旧地), he quotes John Maynard Keynes’s justly famous words of praise to the bookstore: “One should enter it vaguely, almost in a dream, and allow what is there freely to attract and influence the eye. To walk the rounds of the bookshops, dipping in as curiosity dictates, should be an afternoons entertainment.” If only!\nK) Citing the work of psychologists and cognitive( 认知的)scientists, Leslie criticizes the received wisdom that academic success is the result of a combination of intellectual talent and hard work. Curiosity, he argues, is the third key factor--and a - 2 - difficult one to preserve. If not cultivated, it will not survive: “Childhood curiosity is a collaboration between child and adult. The surest way to kill it is to leave it alone.”\nL) School education, he warns, is often conducted in a way that makes children incurious. Children of educated and upper-middle-class parents turn out to be far more curious, even at early ages, than children of working class and lower class families. That lack of curiosity produces a relative lack of knowledge, and the lack of knowledge is difficult if not impossible to compensate for later on.\nM) Although Leslie’s book isn’t about politics, he doesn’t entirely shy away from the problem. Political leaders, like leader of other organizations, should be curious. They should ask questions at crucial moments . There serious consequences, he warns, in not wanting to know.\nN) He presents as an example the failure of the George W. Bush administration to prepare properly for the after-effects of the invasion of Iraq. According to Leslie, those who ridiculed former. Defense Secretary Donald Rumsfeld for his 2002 remark that we have to be wary of the “unknown unknowns” were mistaken. Rumsfeld’s idea, Leslie writes, “wasn’t absurd- it was smart.” He adds, “The tragedy is that he didn’t follow his own advice.”\nO) All of which brings us back to Goodell and the Christie case and Benghazi. Each critic in those examples is charging, in a different way, that someone in authority is intentionally being incurious. I leave it to the reader's political preference to decide which, if any, charges should stick. But let’s be careful about demanding curiosity about the other side’s weaknesses and remaining determinedly incurious about our own. We should be delighted to pursue knowledge for its own sake--even when what we find out is something we didn’t particularly want to know. 36. To be curious, we need to realize first of all that there are many things we don’t know. 37. According to Leslie, curiosity is essential to one’s success. 38. We should feel happy when we pursue knowledge for knowledge’s sake. 39. Political leaders’ lack of curiosity will result in bad consequences. 40. There are often accusations about politicians' and the media’s lack of curiosity to find out the truth. 41. The less curious a child is, the less knowledge the child may turn out to have. 42. It is widely accepted that academic accomplishment lies in both intelligence and diligence. 43. Visiting a bookshop as curiosity leads us can be a good way to entertain ourselves. 44. Both the rise of the Internet and reduced appetite for literary fiction contribute to people’s declining curiosity. 45. Mankind wouldn’t be so innovative without curiosity.",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "“You suspended Ray Rice after our video,” a reporter from TMZ challenged National Football League Commissioner Roger Goodell the other day. “Why didn’t you have the curiosity to go to the casino (赌场) yourself?” The implication of the question is that a more curious. commissioner would have found a way to get the tape."
+        },
+        {
+          "label": "B",
+          "text": "The accusation of incuriosity is one that we hear often, carrying the suggestion that there is something wrong with not wanting to search out the truth. “I have been bothered for a long time about the curious lack of curiosity,” said a Democratic member of the New Jersey legislature back in July, referring to an insufficiently inquiring attitude on the part of an assistant to New Jersey Governor Chris Christie who chose not to ask hard questions about the George Washington Bridge traffic scandal. “Isn’t the mainstream media the least bit curious about what happened?” wrote conservative writer Jennifer Rubin earlier this year, referring to the attack on Americans in Benghazi, Libya."
+        },
+        {
+          "label": "C",
+          "text": "The implication, in each case, is that curiosity is a good thing, and a lack of curiosity is a problem. Are such accusations simply efforts to score political points for one's party? Or is there something of particular value about curiosity in and of itself?"
+        },
+        {
+          "label": "D",
+          "text": "The journalist Ian Leslie, in his new and enjoyable book Curious: The Desire to Know and Why Your Fatter Depends on It, insists that the answer to that last question is ‘Yes.’ Leslie argues that curiosity is a much-overlooked human virtue, crucial to our success, and that we are losing it."
+        },
+        {
+          "label": "E",
+          "text": "We are suffering, he writes, from a “serendipity deficit.” The word “serendipity” was coined by Horace Walpole in an 1854 letter, from a tale of three princes who “were always making discoveries, by accident, of things they were not in search of,” Leslie worries that the rise of the Internet, among other social and technological changes, has reduced our appetite for aimless adventures. No longer have we the inclination to let ourselves wander through fields of know ledges, ready to be surprised. Instead, we seek only the information we want."
+        },
+        {
+          "label": "F",
+          "text": "Why is this a problem? Because without curiosity we will lose the spirit of innovation and entrepreneurship. We will see unimaginative governments and dying corporations make disastrous decisions. We will lose a vital part of what has made humanity as a whole so successful as a species."
+        },
+        {
+          "label": "G",
+          "text": "Leslie presents considerable evidence for the proposition that the society as a whole is growing less curious. In the U.S. and Europe, for example, the rise of the Internet has led to a declining consumption of news from outside the reader’s borders .But not everything is to be blamed on technology. The decline in interest in literary fiction is also one of the causes identified by Leslie. Reading literary fiction, he says ,make us more curious."
+        },
+        {
+          "label": "H",
+          "text": "Moreover, in order to be curious, “you have to be aware of a gap in your knowledge in the first place.” Although Leslie perhaps paints a bit broadly in contending that most of us are unaware of how much we don’t know, he’s surely right to point out that the problem is growing: “Google can give us the powerful illusion that all questions have definite answers.”"
+        },
+        {
+          "label": "I",
+          "text": "Indeed, Google, for which Leslie expresses admiration, is also his frequent whipping body(替罪羊). He quotes Google co-founder Larry Page to the effect that the “perfect search engine” will “understand exactly what I mean and give me back exactly what I want.” Elsewhere in the book, Leslie writes: “Google aims to save you from the thirst of curiosity altogether.”"
+        },
+        {
+          "label": "J",
+          "text": "Somewhat nostalgically(怀旧地), he quotes John Maynard Keynes’s justly famous words of praise to the bookstore: “One should enter it vaguely, almost in a dream, and allow what is there freely to attract and influence the eye. To walk the rounds of the bookshops, dipping in as curiosity dictates, should be an afternoons entertainment.” If only!"
+        },
+        {
+          "label": "K",
+          "text": "Citing the work of psychologists and cognitive( 认知的)scientists, Leslie criticizes the received wisdom that academic success is the result of a combination of intellectual talent and hard work. Curiosity, he argues, is the third key factor--and a - 2 - difficult one to preserve. If not cultivated, it will not survive: “Childhood curiosity is a collaboration between child and adult. The surest way to kill it is to leave it alone.”"
+        },
+        {
+          "label": "L",
+          "text": "School education, he warns, is often conducted in a way that makes children incurious. Children of educated and upper-middle-class parents turn out to be far more curious, even at early ages, than children of working class and lower class families. That lack of curiosity produces a relative lack of knowledge, and the lack of knowledge is difficult if not impossible to compensate for later on."
+        },
+        {
+          "label": "M",
+          "text": "Although Leslie’s book isn’t about politics, he doesn’t entirely shy away from the problem. Political leaders, like leader of other organizations, should be curious. They should ask questions at crucial moments . There serious consequences, he warns, in not wanting to know."
+        },
+        {
+          "label": "N",
+          "text": "He presents as an example the failure of the George W. Bush administration to prepare properly for the after-effects of the invasion of Iraq. According to Leslie, those who ridiculed former. Defense Secretary Donald Rumsfeld for his 2002 remark that we have to be wary of the “unknown unknowns” were mistaken. Rumsfeld’s idea, Leslie writes, “wasn’t absurd- it was smart.” He adds, “The tragedy is that he didn’t follow his own advice.”"
+        },
+        {
+          "label": "O",
+          "text": "All of which brings us back to Goodell and the Christie case and Benghazi. Each critic in those examples is charging, in a different way, that someone in authority is intentionally being incurious. I leave it to the reader's political preference to decide which, if any, charges should stick. But let’s be careful about demanding curiosity about the other side’s weaknesses and remaining determinedly incurious about our own. We should be delighted to pursue knowledge for its own sake--even when what we find out is something we didn’t particularly want to know. 36. To be curious, we need to realize first of all that there are many things we don’t know. 37. According to Leslie, curiosity is essential to one’s success. 38. We should feel happy when we pursue knowledge for knowledge’s sake. 39. Political leaders’ lack of curiosity will result in bad consequences. 40. There are often accusations about politicians' and the media’s lack of curiosity to find out the truth. 41. The less curious a child is, the less knowledge the child may turn out to have. 42. It is widely accepted that academic accomplishment lies in both intelligence and diligence. 43. Visiting a bookshop as curiosity leads us can be a good way to entertain ourselves. 44. Both the rise of the Internet and reduced appetite for literary fiction contribute to people’s declining curiosity. 45. Mankind wouldn’t be so innovative without curiosity."
+        }
+      ]
+    },
+    "reading-1": {
+      "id": "reading-1",
+      "raw": "Aging happens to all of us, and is generally thought of as a natural part of life. It would seem silly to call such a thing a\n“disease.”\nOn the other hand, scientists are increasingly learning that aging and biological age are two different things, and that\nthe former is a key risk factor for conditions such as heart disease, cancer and many more. In that light, aging itself might be\nseen as something treatable, the way you would treat high blood pressure or a vitamin deficiency.\nBiophysicist Alex Zhavoronkov believes that aging should be considered a disease. He said that describing aging as a\ndisease creates incentives to develop treatments.\n“It unties the hands of the pharmaceutical(制药的)industry so that they can begin treating the disease and not just the\n- 3 -\nside effects,” he said.\n“Right now, people think of aging as natural and something you can’t control,” he said. “In academic circles, people\ntake aging research as just an interest area where they can try to develop interventions. The medical community also takes\naging for granted, and can do nothing about it except keep people within a certain health range.”\nBut if aging were recognized as a disease, he said, “It would attract funding and change the way we do health care.\nWhat matters is understanding that aging is curable.”\n“It was always known that the body accumulates damage,” he added. “The only way to cure aging is to find ways to\nrepair that damage. I think of it as preventive medicine for age-related conditions.”\nLeonard Hayflick, a professor at the University of California, San Francisco, said the idea that aging can be cured\nimplies the human lifespan can be increased, which some researchers suggest is possible. Hayflick is not among them.\n“There’re many people who recover from cancer, stroke, or heart disease. But they continue to age, because aging is\nseparate from their disease,” Hayflick said. “Even if those causes of death were eliminated, life expectancy would still not\ngo much beyond 92 years.”",
+      "blocks": [
+        {
+          "text": "Aging happens to all of us, and is generally thought of as a natural part of life. It would seem silly to call such a thing a\n“disease.”\nOn the other hand, scientists are increasingly learning that aging and biological age are two different things, and that\nthe former is a key risk factor for conditions such as heart disease, cancer and many more. In that light, aging itself might be\nseen as something treatable, the way you would treat high blood pressure or a vitamin deficiency.\nBiophysicist Alex Zhavoronkov believes that aging should be considered a disease. He said that describing aging as a\ndisease creates incentives to develop treatments.\n“It unties the hands of the pharmaceutical(制药的)industry so that they can begin treating the disease and not just the\n- 3 -\nside effects,” he said.\n“Right now, people think of aging as natural and something you can’t control,” he said. “In academic circles, people\ntake aging research as just an interest area where they can try to develop interventions. The medical community also takes\naging for granted, and can do nothing about it except keep people within a certain health range.”\nBut if aging were recognized as a disease, he said, “It would attract funding and change the way we do health care.\nWhat matters is understanding that aging is curable.”\n“It was always known that the body accumulates damage,” he added. “The only way to cure aging is to find ways to\nrepair that damage. I think of it as preventive medicine for age-related conditions.”\nLeonard Hayflick, a professor at the University of California, San Francisco, said the idea that aging can be cured\nimplies the human lifespan can be increased, which some researchers suggest is possible. Hayflick is not among them.\n“There’re many people who recover from cancer, stroke, or heart disease. But they continue to age, because aging is\nseparate from their disease,” Hayflick said. “Even if those causes of death were eliminated, life expectancy would still not\ngo much beyond 92 years.”"
+        }
+      ]
+    },
+    "reading-2": {
+      "id": "reading-2",
+      "raw": "Female applicants to postdoctoral positions in geosciences were nearly half as likely to receive excellent letters of\nrecommendation, compared with their male counterparts. Christopher Intagliata reports.\nAs in many other fields, gender bias is widespread in the sciences. Men score higher starting salaries, have more\nmentoring (指导), and have better odds of being hired. Studies show they’re also perceived as more competent than women\nin STEM(Science, Technology, Engineering, and Mathematics) fields. And new research reveals that men are more likely to\nreceive excellent letters of recommendation, too.\n- 4 -\n“Say, you know, this is the best student I’ve ever had,” says Kuheli Dutt, a social scientist and diversity officer at\nColumbia University’s Lamont campus. “Compare those excellent letters with a merely good letter: ‘The candidate was\nproductive, or intelligent, or a solid scientist or something that’s clearly solid praise,’ but nothing that singles out the\ncandidate as exceptional or one of a kind.”\nDutt and her colleagues studied more than 1,200 letters of recommendation for postdoctoral positions in geoscience.\nThey were all edited for gender and other identifying information, so Dutt and her team could assign them a score without\nknowing the gender of the student. They found that female applicants were only half as likely to get outstanding letters,\ncompared with their male counterparts. That includes letters of recommendation from all over the world, and written by, yes,\nmen and women. The findings are in the journal Nature Geoscience.\nDutt says they were not able to evaluate the actual scientific qualifications of the applicants using the data in the files.\nBut she says the results still suggest women in geoscience are at a potential disadvantage from the very beginning of their\ncareers starting with those less than outstanding letters of recommendation.\n“We’re not trying to assign blame or criticize anyone or call anyone conscious sexist. Rather, the point is to use the\nresults of this study to open up meaningful dialogues on implicit gender bias, be it at a departmental level or an institutional\nlevel or even a discipline level.” Which may lead to some recommendations for the letter writers themselves.",
+      "blocks": [
+        {
+          "text": "Female applicants to postdoctoral positions in geosciences were nearly half as likely to receive excellent letters of\nrecommendation, compared with their male counterparts. Christopher Intagliata reports.\nAs in many other fields, gender bias is widespread in the sciences. Men score higher starting salaries, have more\nmentoring (指导), and have better odds of being hired. Studies show they’re also perceived as more competent than women\nin STEM(Science, Technology, Engineering, and Mathematics) fields. And new research reveals that men are more likely to\nreceive excellent letters of recommendation, too.\n- 4 -\n“Say, you know, this is the best student I’ve ever had,” says Kuheli Dutt, a social scientist and diversity officer at\nColumbia University’s Lamont campus. “Compare those excellent letters with a merely good letter: ‘The candidate was\nproductive, or intelligent, or a solid scientist or something that’s clearly solid praise,’ but nothing that singles out the\ncandidate as exceptional or one of a kind.”\nDutt and her colleagues studied more than 1,200 letters of recommendation for postdoctoral positions in geoscience.\nThey were all edited for gender and other identifying information, so Dutt and her team could assign them a score without\nknowing the gender of the student. They found that female applicants were only half as likely to get outstanding letters,\ncompared with their male counterparts. That includes letters of recommendation from all over the world, and written by, yes,\nmen and women. The findings are in the journal Nature Geoscience.\nDutt says they were not able to evaluate the actual scientific qualifications of the applicants using the data in the files.\nBut she says the results still suggest women in geoscience are at a potential disadvantage from the very beginning of their\ncareers starting with those less than outstanding letters of recommendation.\n“We’re not trying to assign blame or criticize anyone or call anyone conscious sexist. Rather, the point is to use the\nresults of this study to open up meaningful dialogues on implicit gender bias, be it at a departmental level or an institutional\nlevel or even a discipline level.” Which may lead to some recommendations for the letter writers themselves."
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30 minutes to write a short essay on how to best handle the relationship between doctors and patients. You should write at least 120 words but no more than 180 words.",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should",
+      "source": "黄山位于安徽省南部。它风景独特，尤以其日出和云海著称。要欣赏大山的宏伟壮丽，通常得向上看。但要欣\n赏黄山美景，得向下看。黄山的湿润气候有利于茶树生成，是中国主要产茶地之一。这里还有许多温泉，其泉水有\n助于防治皮肤病。黄山是中国主要旅游目的地之一，也是摄影和传统国画最受欢迎的主题。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}

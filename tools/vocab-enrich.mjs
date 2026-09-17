@@ -40,7 +40,7 @@ const getArg = (k, d) => {
   const i = argv.indexOf(k);
   return i >= 0 ? argv[i + 1] : d;
 };
-const ROOT = path.join('content', 'vocab');
+const ROOT = path.join('data', 'vocab');
 const ONLY = getArg('--only', '')
   .split(',')
   .map((s) => s.trim())

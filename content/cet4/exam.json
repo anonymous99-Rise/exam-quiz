@@ -1,0 +1,66 @@
+{
+  "id": "cet4",
+  "name": "大学英语四级",
+  "shortName": "CET-4",
+  "description": "全国大学英语四级考试历年真题",
+  "examDurationMin": 125,
+  "objectiveScore": 497,
+  "sections": [
+    {
+      "id": "listening",
+      "name": "听力理解",
+      "kind": "single-choice",
+      "questionNos": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "score": 248.5,
+      "renderer": "audio-flow",
+      "media": "hls-audio",
+      "analysisLabels": ["定位", "信号", "替换", "排除"]
+    },
+    {
+      "id": "cloze",
+      "name": "选词填空",
+      "kind": "word-bank",
+      "questionNos": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "score": 35.5,
+      "renderer": "passage-split",
+      "media": "none",
+      "analysisLabels": ["词性槽", "依据", "竞争词", "易错"]
+    },
+    {
+      "id": "matching",
+      "name": "长篇阅读（信息匹配）",
+      "kind": "paragraph-match",
+      "questionNos": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "score": 71,
+      "renderer": "passage-split",
+      "media": "none",
+      "analysisLabels": ["定位", "改写", "辨邻"]
+    },
+    {
+      "id": "reading",
+      "name": "仔细阅读",
+      "kind": "single-choice",
+      "questionNos": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+      "score": 142,
+      "renderer": "passage-split",
+      "media": "none",
+      "analysisLabels": ["判型", "拆句", "定位", "选项"]
+    }
+  ],
+  "sessions": [
+    { "name": "2014上半年", "year": 2014, "half": "上半年", "months": [6] },
+    { "name": "2014下半年", "year": 2014, "half": "下半年", "months": [12] },
+    { "name": "2015上半年", "year": 2015, "half": "上半年", "months": [6] },
+    { "name": "2015下半年", "year": 2015, "half": "下半年", "months": [12] },
+    { "name": "2016上半年", "year": 2016, "half": "上半年", "months": [6] },
+    { "name": "2016下半年", "year": 2016, "half": "下半年", "months": [12] },
+    { "name": "2017上半年", "year": 2017, "half": "上半年", "months": [6] },
+    { "name": "2017下半年", "year": 2017, "half": "下半年", "months": [12] },
+    { "name": "2018上半年", "year": 2018, "half": "上半年", "months": [6] },
+    { "name": "2018下半年", "year": 2018, "half": "下半年", "months": [12] },
+    { "name": "2019上半年", "year": 2019, "half": "上半年", "months": [6] },
+    { "name": "2019下半年", "year": 2019, "half": "下半年", "months": [12] },
+    { "name": "2024下半年", "year": 2024, "half": "下半年", "months": [12] },
+    { "name": "2025上半年", "year": 2025, "half": "上半年", "months": [6] }
+  ]
+}

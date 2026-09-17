@@ -29,7 +29,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const ROOT = path.join('content', 'vocab');
+const ROOT = path.join('data', 'vocab');
 const argv = process.argv.slice(2);
 const ONLY = (argv[argv.indexOf('--only') + 1] ?? '')
   .split(',')

@@ -254,7 +254,14 @@ const RE = {
    *   `C)Decoding`    —— 括号后**没有空格**
    * 所以标号与括号之间、括号与正文之间都允许零个或多个空白。
    */
-  optStart: /^\s*\(?([A-O])\s*[)）.、．\]】]+\s*(.*)$/,
+  /*
+   * 选项标记后**必须真有文字**（`(\S.*)` 而非 `(.*)`）：
+   * 实测四级 2018-06-1 第 19 题，源文 "…before World War I." 结尾的 `I.`
+   * 被当成选项标记，生成了第 5 个空文本选项（I），整套因此卡在校验闸外；
+   * 2018-06-2 第 55 题同理。要求「标记后至少一个非空白字符」即可修掉，
+   * 且不影响正常选项与正文里的孤立字母。
+   */
+  optStart: /^\s*\(?([A-O])\s*[)）.、．\]】]+\s*(\S.*)$/,
   // `Questions1 to 4`（卷面漏了空格）也出现过，所以 Questions 后允许零个空白
   qRange: /^\s*Questions?\s*(\d{1,2})\s+to\s+(\d{1,2})\s*are based on/i,
   // Directions 后半角/全角冒号都出现过
@@ -299,7 +306,16 @@ function lines(text) {
   return cleanText(text)
     .split('\n')
     .map((l) => l.replace(/\s+$/, ''))
-    .map((l) => l.replace(/\u3000/g, ' '));
+    .map((l) => l.replace(/\u3000/g, ' '))
+    /*
+     * PDF 里 Section 抬头常被粘在上一句结尾 —— pdftotext -layout 丢掉了那个换行：
+     *   `…profit-driven just business.Section C`
+     * 于是 RE.section（要求「整行只有 Section X」）永远不匹配，**整段仔细阅读丢失**
+     * （实测 2018-06-1：听力 25 + 完形 10 + 匹配 10 都对，只有阅读 0）。
+     * 这里把粘在正文末尾的 Section X 拆成独立行；正常形态的行不受影响。
+     */
+    .flatMap((l) => l.split(/(?<=[a-z.)\]])(?=Section\s+[ABC]\s*$)/i).map((x) => x.trim()))
+    .filter((l, i, arr) => !(l === '' && arr[i - 1] === ''));
 }
 
 /**
@@ -736,13 +752,28 @@ function sentenceWithBlank(text, no) {
   return sentence.replace(/__\s*(\d{1,2})\s*__/g, (_m, n) => `__(${n})__`);
 }
 
+/**
+ * 匹配段段落标记。实测过三种写法：
+ *   `A) text`         —— 最常见（CET-6 全系列、CET-4 部分年份）
+ *   `[K] text`        —— 方括号包住字母（CET-4 2017-12 实测）
+ *   Word 自动编号     —— 文字层里根本没有标记，只能读 numbering.xml（见 docxListMeta）
+ */
+const RE_PARA = /^\s*(?:\[([A-O])\]|【([A-O])】|\(?([A-O])\s*[)）.、．])\s*(\S.*)$/;
+
+/** 取匹配段段落标记的字母（不是段落标记返回 null） */
+function paraLetter(line) {
+  const m = RE_PARA.exec(line);
+  if (!m) return null;
+  return m[1] ?? m[2] ?? m[3] ?? null;
+}
+
 /** Part III Section B：匹配 —— 标题 + A)–O) 段落 + 36.–45. 陈述句 */
 function extractMatching(L, sec, out, passages, warnings) {
   // 段落：A)–O) 连续行
   const paras = [];
   let i = sec.line + 1;
-  // 跳过 Directions
-  while (i < sec.end && !/^\s*A[).、．]\s+\S/.test(L[i])) {
+  // 跳过 Directions，直到遇上第一个段落标记（三种写法都认）
+  while (i < sec.end && paraLetter(L[i]) !== 'A') {
     if (L[i].trim() && !/^Directions:/i.test(L[i].trim())) paras[0] = (paras[0] ?? '') + L[i].trim();
     i++;
   }
@@ -751,9 +782,11 @@ function extractMatching(L, sec, out, passages, warnings) {
   const blocks = [];
   for (; i < sec.end; i++) {
     const s = L[i].trim();
-    const m = s.match(RE.optStart);
-    if (m && /^[A-O]$/.test(m[1])) {
-      blocks.push({ label: m[1], text: m[2].trim() });
+    // 段落标记三种写法都认（A) / [A] / 【A】）
+    const letter = paraLetter(s);
+    const m = RE_PARA.exec(s);
+    if (letter && m) {
+      blocks.push({ label: letter, text: (m[4] ?? '').trim() });
       continue;
     }
     if (blocks.length) {
@@ -1017,7 +1050,7 @@ for (const file of files) {
    * docx 的自动编号元数据：四级素材的信息匹配段用 Word 自动编号当 A)–O) 与 36.–45.，
    * 编号不在文字层里，只有解析 document.xml + numbering.xml 才能还原（见 docxListMeta）。
    */
-  MATCH_LIST_META = /\.docx?$/i.test(file) ? docxListMeta(file) : new Map();
+  MATCH_LIST_META = /\.(docx|docm)$/i.test(file) ? docxListMeta(file) : new Map();
 
   const res = extract(text, meta, MATCH_LIST_META);
   const bySection = {};

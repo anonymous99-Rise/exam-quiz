@@ -1,0 +1,1048 @@
+{
+  "id": "2018-06-3",
+  "examId": "cet4",
+  "year": 2018,
+  "month": 6,
+  "session": "2018上半年",
+  "setNo": 3,
+  "label": "2018年6月",
+  "questions": [
+    {
+      "no": 26,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "When night falls, red and blue and other colors __(26)__           a hazy (雾蒙蒙的) glow over a city lit",
+      "answer": "C",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。本空前后都是名词词组,而且所在的句子没有谓语动词,因此本空应填入动词;另根据从句 when night falls 可知本句时态是一般现在时,而且主语 colors 是复数,空格所填动词应该是原形,符合条件的是有 B) approach、C) cast、H) identify 和 M) stimulate。本句大意为:当夜幕降临时,红色、蓝色和其他颜色为这座被成 千上万个霓虹灯指示牌点亮的城市蒙上了一层雾蒙蒙的微光。由句意可知,各种颜色的霓虹灯发出了微光,因此本 空应填入含有“发光”意义的动词,故答案为 C) cast 投射,扫视。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "But many of them are going dark, __(27)__                by more",
+      "answer": "L",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。本空后面是 by 引出的介词词组,因此应填入动词的过去分词形式构成被动语态。本句意思 为:但是很多霓虹灯都变暗了,被更实用,但是不那么浪漫的 LED 灯替代了。本句中的 them 指的是霓虹灯,霓虹 灯变暗说明商家不再使用它们了,而第二段第一句也提到 businesses embracing LEDs,说明 LED 灯取代了霓虹灯, 因此本题答案为 L) replaced 代替。备选动词中,是过去分词形式的有 G) electrified、I) photographed 和 L) replaced, 而前两者都不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "old signs have businesses embracing LEDs, which are energy __(28)__                        , but still carry",
+      "answer": "F",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。本空位于名词 energy 之后,可以填入名词或形容词。第二段第一句在对比 LED 灯和霓虹 灯的优缺点,空格所在的定语从句用来修饰前面的 LEDs。根据常识,商家肯定选择节省能源的,而不是耗能更多 的,因此此处意思应该是“节约能源的”,答案为 F) efficient 高效能的,有效率的。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Building a neon sign is an art practiced by __(29)__                    trained on the job to mold",
+      "answer": "J",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。本空前有 practiced by 构成被动语态,因此本空是 practiced 这个动作的施动者,应填入表示 人的名词。本空后面有 trained on the job(受过在岗培训)来修饰本空所填名词,受过培训的人可以称为“专业人士”, 因此本题答案为 J) professionals 专业人士。备选名词中,表示人的名词有 C) cast、J) professionals 和 O) volunteers, 而 cast 和 volunteers 均不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "glass tubes into __(30)__                shapes and letters.",
+      "answer": "E",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "形容词辨析题。本空后面是名词词组,因此应填入形容词起修饰作用。本句介绍了霓虹灯指示牌的制作, 首先要把玻璃管塑造成各种形状和字母。霓虹灯指示牌的作用之一就是装点商铺的门面,由此可知本空应填入含有 “装饰的”意义的词,因此答案为 E) decorative 装饰用的。其余备选形容词均不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "when __(31)__                     .",
+      "answer": "G",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。空格位于 when 引导的时间状语中,因为逻辑主语也是 gases,所以省略了,但是要保留动词 并改成现在分词或过去分词的形式,因此本空应填入动词。本句意为:他们把________时发光的气体注入这些玻璃 管中。根据常识,霓虹灯利用的就是某些气体在被通电时会发光的原理,因此本题答案为 G) electrified 使充电。在 备选动词中,是现在分词或过去分词的有 D) challenging、G) electrified、I) photographed 和 L) replaced,而除了 electrified 之外,其他的词均不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "Blance spent a week in Hong Kong and __(32)__                          more than 60 signs; 22 of them",
+      "answer": "I",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。本空后面是名词词组,前面有 and 表示并列,可以判断出 and 后是并列的谓语,由前面的 spent 可知,此处也应填入动词过去式。第二段提到布朗斯是一位摄影师,而且喜爱拍摄霓虹灯指示牌,所以她在香港期 间肯定是“拍摄”这些指示牌,因此本题答案为 I) photographed 拍照。备选动词中只有 G) electrified、I) photographed 和 L) replaced 是动词过去式,而除了 photographed 之外,其他词均不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "appear in the series that capture the signs lighting up lonely streets—an __(33)__                     that",
+      "answer": "B",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。本空前有不定冠词 an,后面没有其他名词,因此应填入以元音音素开头的单数名词。空格所 在句位于破折号之后,是对前面一句的解释说明。此处意为:其中 22 个出现在捕捉点亮孤独街道指示牌系列摄影 中——一种让人很容易欣赏它们的色彩和技艺的_________。鲜亮的霓虹灯指示牌和孤独无人的街道形成鲜明对比, 让人容易注意到广告牌的色彩和技艺,这是一种很巧妙的“方式、方法”,因此本题答案为 B) approach 方法,来 临。备选名词中,以元音音素开头的单数名词只有 A) alternative 和 B) approach,而 alternative 不符合此处句意,因 此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 34,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "old-fashioned __(34)__                     of neon,\" says Blance.",
+      "answer": "K",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "名词辨析题。本空前有形容词,后面是介词 of,因此应填入名词。本句意为:我喜欢霓虹灯的美丽、手工 制作且老派的_________。前面三个形容词 beautiful、handcrafted old-fashioned 都是说明霓虹灯的特点,因此本空应 填入含有“特点、特色”意义的名词,可推断本题答案为 K) quality。备选名词中,首先可以排除指人的名词,因为 这里是指“霓虹灯的_______”。而剩下的 A) alternative 和 B) approach 均不符合句意,因此排除。"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    },
+    {
+      "no": 35,
+      "sectionId": "cloze",
+      "passageId": "cloze",
+      "stem": "The signs do nothing more than __(35)__",
+      "answer": "H",
+      "analysis": [
+        {
+          "label": "详解",
+          "text": "动词辨析题。more than 之前的 do nothing 和本空对应,因此本空应填入动词原形。此处意为:这些指示牌 所做的无非就是_______餐馆、剧院或其他商铺。由常识可知,指示牌的作用就是区分店铺,因此本空应填含有“识 别、区分”意义的动词,所以答案为 H) identify 识别,表明……的身份。备选动词原形有 B) approach、C) cast、H) identify 和 M) stimulate,除了 identify 之外,其他词均不符合句意,因此排除。 Section B 全文翻译: 新泽西学区为学生减压——暴露出种族差别 A) 大卫·阿德霍尔德是新泽西州普林顿附近的一个知名学区的负责人,今年秋天,他为家长们送去了一封惊 人的 16 页长信。他说,这个学区正面临着一次危机。这些学生负担太重,压力太大了,他们不得不应付过多的功 课和要求。(44)在过去的一学年里,120 名初高中学生被建议去做心理健康评估,而其中 40 名学生入院就医。根 据本区的一次调查,学生写了这样的话:“我讨厌上学,”以及“在这个区学习了 12 年,我学会了一件事情:那 就是一个分数、一个百分点或者是一分都比其他任何东西重要。” B) 阿德霍尔德的这封信让西温莎·普莱恩斯伯勒学区卷入了一场全国性讨论,即精英学校对成绩的关注是否 太强烈了,这种关注是否已经太过了。(40)在随后的会上,他强烈要求家长跟他一起倡导一种“完整孩子”的教 育方法,尊重“社会情感的发展”和“深刻且有意义的学习”,摒弃只局限于学术的教育。他提出,这一选择是为 了避免步加利福尼亚州帕洛阿尔托市的后尘,在该市,青少年学生过大的压力被认为在过去的六年中引发了大量的 自杀事件。 C) (37)但是,阿德霍尔德的信没有让这些家庭联合起来,相反他的信揭示了这个有着 9,700 名学生的学区 的一个分歧,这一分歧基本以种族界限为边界。其中一边是白人父母,像凯琳瑟·弗利,她曾是她女儿所在中学家 长、教师、学生协会的会在,她看到这个学区越来越大的压力氛围不利于学习。“我的儿子在四年级,他告诉我, ‘我什么都不是,因为我简历上没有任何东西可以写,’”她说。另一边是像迈克·贾这样的父母,他是千万名在 过去十年间搬迁至此的亚裔美国专业人士之一,他说阿德霍尔德的改革会让他孩子的教育“降低标准”。这里发生 的事反映了全国性的反知识趋势,这一趋势不利于我们孩子的未来,”贾说道。 D) (43)距离普林斯顿 10 分钟,离纽约市一个半小时车程的西温莎·普莱斯恩斯伯勒学区已经成为科技型创 业者、研究者和工程师青睐的居住社区,很多人很大程度上是受公立学校的吸引而来。在上一届毕业的三个班级中, 有 16 名高中生被麻省理工学院录取。这里还培养出了科学奥林匹克竞赛冠军、受过传统训练的音乐家以及高考成 绩极好的学生。 E) 这个学区越来越接受来自中国、印度和韩国移民家庭的欢迎,今年,65%的学生是亚裔美国人,而在 2007 年,这一比例是 44%。他们中很多人在各自家庭中都是出生在美国的第一代人,他们在这个学区的影响力越来越大, 亚裔美国家长很热心于支持器乐竞赛项目。(39)他们还对这个学区的高等数学项目提供鼎力支持,这一项目曾经 从四年级开始,但现在将从六年级开始。对这个 90%的参加者为亚裔美国学生的项目进行改变,正是阿德霍尔德的 改革之一。 F)(36)亚裔美国学生一直以来都很热切地参加一个国家项目,该项目允许他们去上学校以外的暑期班来增加 高中的分数,这就使得他们可以将能够获得的荣誉数量和大学预修课的数量最大化。这也是阿德霍尔德本学年正在 采取的限制举措之一。随着众多亚裔美国孩子参加辅导项目,有一部分白人家庭开始觉得,小学课程已经加快了进 度来适应他们。 G)(45)亚裔美国人和白人家庭都说在过去几年里,随着亚裔家庭庭的增多,两个群体之间的关系越来越紧张 了。但是,这一分歧在最近几个月的更加明显了,因为阿德霍尔德做出了一些改变,包括无作业夜晚、取消高中期 中、期末考试以及降低参加音乐项目门槛的倡议。 H)詹尼弗·李是加利福尼亚大学欧文分校的社会学教授以及《亚裔美国人的成就悖论》一书的作者,她说,第 一代亚裔美国父母和那些在这个国家生活的更久时间的父母之间有误解是很常见的。她说,白人中产阶级父母一直 不理解的是,新移民为了把他们的孩子推入中产阶级的行列需要面临多大的压力,“他们没有均等的机会让他们的 孩子在法律公司获得实习职位或工作岗位,”李说道。(42)“所以他们信奉的是,他们的孩子必须要出类拔萃, 在学术背景上打败白人同学,这样他们才会有同等的机会在以后胜出。 I)近年来,随着马萨诸塞州的牛顿市和帕罗阿尔托等地的一些学校出现了多起自杀事件的报道,在精英学区的 学生面临压力的问题也受到人们的关注。西温莎·普兰恩斯伯勒学区近几年还没有青少年自杀事件,但是作为在这 个学区已经工作了七年并且近三年还是本学区负责人阿德霍尔德说已经看到了麻烦的迹象。在最近的一次美术作业 中,一个中学生描绘了一个负担过重的孩子因为在一次数学考试中得了 A 而不是 A+而被责骂的情景。在这幅画中, 这为母亲这样骂这个学生:“你真不害臊!”(38)此外,他说到,新泽西洲教育部在国家英语语言评估中至少标 注了两篇作文,学生在作文中表达了自杀的想法。 J) 受本区委托完成的一项调查发现,68%的高中优秀学生和预科生说他们在学校“一直或大部分时间”有压力。 “我们需要找回一些平衡,”阿德霍尔德说道。“你不会想等到为时过晚才再去做些什么。” K)并不是全部民意都与种族界限有关。(41)凯伦·苏是一位五年级学生和八年级学生的华裔美国妈妈,她认 为这个学区内的竞争已经失控了。苏出生在美国,其父母是移民,她希望她的同辈们能挽回局势。“这已经成为一 场军备竞赛,一场教育的军备竞赛了,”她说。“我们都想让我们的孩子有所成就,取得成功。但问题是,代价是 什么?” 详解详析:"
+        }
+      ],
+      "provenance": {
+        "source": "doc",
+        "ocr": false,
+        "note": "L2 2018.06四级真题第3套.pdf + L3 2018年6月英语四级真题答案解析（卷三）.pdf"
+      },
+      "kind": "word-bank",
+      "wordBank": {
+        "A": "alternative",
+        "B": "approach",
+        "C": "cast",
+        "D": "challenging",
+        "E": "decorative",
+        "F": "efficient",
+        "G": "electrified",
+        "H": "identify",
+        "I": "photographed",
+        "J": "professionals",
+        "K": "quality",
+        "L": "replaced",
+        "M": "stimulate",
+        "N": "symbolizes",
+        "O": "volunteers"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "alternative"
+        },
+        {
+          "label": "B",
+          "text": "approach"
+        },
+        {
+          "label": "C",
+          "text": "cast"
+        },
+        {
+          "label": "D",
+          "text": "challenging"
+        },
+        {
+          "label": "E",
+          "text": "decorative"
+        },
+        {
+          "label": "F",
+          "text": "efficient"
+        },
+        {
+          "label": "G",
+          "text": "electrified"
+        },
+        {
+          "label": "H",
+          "text": "identify"
+        },
+        {
+          "label": "I",
+          "text": "photographed"
+        },
+        {
+          "label": "J",
+          "text": "professionals"
+        },
+        {
+          "label": "K",
+          "text": "quality"
+        },
+        {
+          "label": "L",
+          "text": "replaced"
+        },
+        {
+          "label": "M",
+          "text": "stimulate"
+        },
+        {
+          "label": "N",
+          "text": "symbolizes"
+        },
+        {
+          "label": "O",
+          "text": "volunteers"
+        }
+      ]
+    }
+  ],
+  "passages": {
+    "cloze": {
+      "id": "cloze",
+      "raw": "for each blank from a list of choices given in a word bank following the passage. Read the passage\nthrough carefully before making your choices. Each choice in the bank is identified by a letter.\nPlease mark the corresponding letter for each item on Answer Sheet 2 with a single line through\nthe centre. You may not use any of the words in the bank more than once.\nNeon (霓虹) is to Hong Kong as red phone booths are to London and fog is to San Francisco.\nWhen night falls, red and blue and other colors __26__           a hazy (雾蒙蒙的) glow over a city lit\nup by tens of thousands of neon signs. But many of them are going dark, __27__                by more\npractical, but less romantic, LEDs (发光二极管).\nChanging building codes, evolving tastes, and the high cost of maintaining those wonderful\nold signs have businesses embracing LEDs, which are energy __28__                        , but still carry\ngreat cost. \"To me, neon represents memories of the past,\" says photographer Sharon Blance,\nwhose series Hong Kong Neon celebrates the city's famous signs. \"Looking at the signs now I get\na feeling of amazement, mixed with sadness.\"\nBuilding a neon sign is an art practiced by __29__                    trained on the job to mold\nglass tubes into __30__                shapes and letters. They fill these tubes with gases that glow\n1\nwhen __31__                     . Neon makes orange, while other gases make yellow or blue. It takes\nmany hours to craft a single sign.\nBlance spent a week in Hong Kong and __32__                          more than 60 signs; 22 of them\nappear in the series that capture the signs lighting up lonely streets—an __33__                     that\nmakes it easy to admire their colors and craftsmanship. \"I love the beautiful, handcrafted,\nold-fashioned __34__                     of neon,\" says Blance. The signs do nothing more than __35__\na restaurant, theater, or other business, but do so in the most striking way possible.",
+      "blocks": [
+        {
+          "text": "for each blank from a list of choices given in a word bank following the passage. Read the passage\nthrough carefully before making your choices. Each choice in the bank is identified by a letter.\nPlease mark the corresponding letter for each item on Answer Sheet 2 with a single line through\nthe centre. You may not use any of the words in the bank more than once.\nNeon (霓虹) is to Hong Kong as red phone booths are to London and fog is to San Francisco.\nWhen night falls, red and blue and other colors __26__           a hazy (雾蒙蒙的) glow over a city lit\nup by tens of thousands of neon signs. But many of them are going dark, __27__                by more\npractical, but less romantic, LEDs (发光二极管).\nChanging building codes, evolving tastes, and the high cost of maintaining those wonderful\nold signs have businesses embracing LEDs, which are energy __28__                        , but still carry\ngreat cost. \"To me, neon represents memories of the past,\" says photographer Sharon Blance,\nwhose series Hong Kong Neon celebrates the city's famous signs. \"Looking at the signs now I get\na feeling of amazement, mixed with sadness.\"\nBuilding a neon sign is an art practiced by __29__                    trained on the job to mold\nglass tubes into __30__                shapes and letters. They fill these tubes with gases that glow\n1\nwhen __31__                     . Neon makes orange, while other gases make yellow or blue. It takes\nmany hours to craft a single sign.\nBlance spent a week in Hong Kong and __32__                          more than 60 signs; 22 of them\nappear in the series that capture the signs lighting up lonely streets—an __33__                     that\nmakes it easy to admire their colors and craftsmanship. \"I love the beautiful, handcrafted,\nold-fashioned __34__                     of neon,\" says Blance. The signs do nothing more than __35__\na restaurant, theater, or other business, but do so in the most striking way possible."
+        }
+      ]
+    },
+    "matching": {
+      "id": "matching",
+      "raw": "A) This fall, David Aderhold, the chief of a high-achieving school district near Princeton, New Jersey, sent parents an alarming 16-page letter. The school district, he said, was facing a crisis. Its students were overburdened and stressed out, having to cope with too much work and too many demands. In the previous school year, 120 middle and high school students were recommended for mental health assessments and 40 were hospitalized. And on a survey administered by the district, students wrote things like, \"I hate going to school,\" and \"Coming out of 12 years in this district, I have learned one thing: that a grade, a percentage or even a point is to be valued over anything else.\"\nB) With his letter, Aderhold inserted West Windsor-Plainsboro Regional School District into a national discussion about the intense focus on achievement at elite schools, and whether it has gone too far. At follow-up meetings, he urged parents to join him in advocating a \"whole child\" approach to schooling that respects \"social-emotional development\" and \"deep and meaningful learning\" over academics alone. The alternative, he suggested, was to face the prospect of becoming another Palo Alto, California, where outsize stress on teenage students is believed to have contributed to a number of suicides in the last six years. 2\nC) But instead of bringing families together, Aderhold's letter revealed a divide in the district, which has 9,700 students, and one that broke down roughly along racial lines. On one side are white parents like Catherine Foley, a former president of the Parent-Teacher-Student Association at her daughter's middle school, who has come to see the district's increasingly pressured atmosphere as opposed to learning. \"My son was in fourth grade and told me, 'I'm not going to amount to anything because I have nothing to put on my resume,'\" she said. On the other side are parents like Mike Jia, one of the thousands of Asian-American professionals who have moved to the district in the past decade, who said Aderhold's reforms would amount to a \"dumbing down\" of his children's education. \"What is happening here reflects a national anti-intellectual trend that will not prepare our children for the future,\" Jia said.\nD) About 10 minutes from Princeton and an hour and a half from New York City, West Windsor and Plainsboro have become popular bedroom communities for technology entrepreneurs, researchers and engineers, drawn in large part by the public schools. From the last three graduating classes, 16 seniors were admitted to MIT. It produces Science Olympiad winners, classically trained musicians and students with perfect SAT scores.\nE) The district has become increasingly popular with immigrant families from China, India and Korea. This year, 65 percent of its students are Asian-American, compared with 44 percent in 2007. Many of them are the first in their families born in the United States. They have had a growing influence on the district. Asian-American parents are enthusiastic supporters of the competitive instrumental music program. They have been huge supporters of the district's advanced mathematics program, which once began in the fourth grade but will now start in the sixth. The change to the program, in which 90 percent of the participating students are Asian-American, is one of Aderhold's reforms.\nF) Asian-American students have been eager participants in a state program that permits them to take summer classes off campus for high school credit, allowing them to maximize the number of honors and Advanced Placement classes they can take, another practice that Aderhold is limiting this school year. With many Asian-American children attending supplementary instructional programs, there is a perception among some white families that the elementary school curriculum is being sped up to accommodate them.\nG) Both Asian-American and white families say the tension between the two groups has grown steadily over the past few years, as the number of Asian families has risen. But the division has become more obvious in recent months as Aderhold has made changes, including no-homework nights, an end to high school midterms and finals, and an initiative that made it easier to",
+      "blocks": [
+        {
+          "label": "A",
+          "text": "This fall, David Aderhold, the chief of a high-achieving school district near Princeton, New Jersey, sent parents an alarming 16-page letter. The school district, he said, was facing a crisis. Its students were overburdened and stressed out, having to cope with too much work and too many demands. In the previous school year, 120 middle and high school students were recommended for mental health assessments and 40 were hospitalized. And on a survey administered by the district, students wrote things like, \"I hate going to school,\" and \"Coming out of 12 years in this district, I have learned one thing: that a grade, a percentage or even a point is to be valued over anything else.\""
+        },
+        {
+          "label": "B",
+          "text": "With his letter, Aderhold inserted West Windsor-Plainsboro Regional School District into a national discussion about the intense focus on achievement at elite schools, and whether it has gone too far. At follow-up meetings, he urged parents to join him in advocating a \"whole child\" approach to schooling that respects \"social-emotional development\" and \"deep and meaningful learning\" over academics alone. The alternative, he suggested, was to face the prospect of becoming another Palo Alto, California, where outsize stress on teenage students is believed to have contributed to a number of suicides in the last six years. 2"
+        },
+        {
+          "label": "C",
+          "text": "But instead of bringing families together, Aderhold's letter revealed a divide in the district, which has 9,700 students, and one that broke down roughly along racial lines. On one side are white parents like Catherine Foley, a former president of the Parent-Teacher-Student Association at her daughter's middle school, who has come to see the district's increasingly pressured atmosphere as opposed to learning. \"My son was in fourth grade and told me, 'I'm not going to amount to anything because I have nothing to put on my resume,'\" she said. On the other side are parents like Mike Jia, one of the thousands of Asian-American professionals who have moved to the district in the past decade, who said Aderhold's reforms would amount to a \"dumbing down\" of his children's education. \"What is happening here reflects a national anti-intellectual trend that will not prepare our children for the future,\" Jia said."
+        },
+        {
+          "label": "D",
+          "text": "About 10 minutes from Princeton and an hour and a half from New York City, West Windsor and Plainsboro have become popular bedroom communities for technology entrepreneurs, researchers and engineers, drawn in large part by the public schools. From the last three graduating classes, 16 seniors were admitted to MIT. It produces Science Olympiad winners, classically trained musicians and students with perfect SAT scores."
+        },
+        {
+          "label": "E",
+          "text": "The district has become increasingly popular with immigrant families from China, India and Korea. This year, 65 percent of its students are Asian-American, compared with 44 percent in 2007. Many of them are the first in their families born in the United States. They have had a growing influence on the district. Asian-American parents are enthusiastic supporters of the competitive instrumental music program. They have been huge supporters of the district's advanced mathematics program, which once began in the fourth grade but will now start in the sixth. The change to the program, in which 90 percent of the participating students are Asian-American, is one of Aderhold's reforms."
+        },
+        {
+          "label": "F",
+          "text": "Asian-American students have been eager participants in a state program that permits them to take summer classes off campus for high school credit, allowing them to maximize the number of honors and Advanced Placement classes they can take, another practice that Aderhold is limiting this school year. With many Asian-American children attending supplementary instructional programs, there is a perception among some white families that the elementary school curriculum is being sped up to accommodate them."
+        },
+        {
+          "label": "G",
+          "text": "Both Asian-American and white families say the tension between the two groups has grown steadily over the past few years, as the number of Asian families has risen. But the division has become more obvious in recent months as Aderhold has made changes, including no-homework nights, an end to high school midterms and finals, and an initiative that made it easier to"
+        }
+      ]
+    }
+  },
+  "subjective": {
+    "writing": {
+      "directions": "For this part, you are allowed 30minutes to write a short essay on the importance of speaking ability and how to develop it. You should write at least 120 words but no more tha n180 words. ________________________________________________________________________ ________________________________________________________________________ ________________________________________________________________________",
+      "outline": []
+    },
+    "translation": {
+      "directions": "For this part, you are allowed 30minutes to translate a passage from Chi",
+      "source": "近年来，中国有越来越多的城市开始建设地铁。发展地铁有助于减少城市的交通拥堵和\n空气污染。 地铁具有安全、快捷和舒适的优点。越来越多的人选择地铁作为每天上班或上\n学的主要交通工具。如今，在中国乘坐地铁正变得越来越方便。在有些城市里，乘客只需用\n卡或手机就可以乘坐地铁。许多当地老年市民还可以免费乘坐地铁。",
+      "sentences": []
+    }
+  },
+  "flags": []
+}
