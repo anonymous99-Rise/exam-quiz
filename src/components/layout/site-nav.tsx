@@ -16,12 +16,19 @@ const LINKS = [
 ];
 
 /**
- * 全站顶部导航
+ * 全站顶栏（v5 重做）
+ * ============================================================================
+ * 截图里暴露的三个问题，逐条改掉：
  *
- * v2 重写要点：
- *   1. 与正文共用同一容器宽（1120），不再出现「导航 1152 / 正文 768」的错位。
- *   2. 菜单项给足间距（12px）与 32px 命中高度，当前项用**浅底胶囊**而非仅改颜色。
- *   3. 徽标数字来自 localStorage，必须等水合完成才渲染，否则静态 HTML 与客户端对不上。
+ *  1) **页头里出现原生滚动条**：导航是 overflow-x-auto 容器，浏览器会在页头里
+ *     直接画一条带上下箭头的滚动条 —— 非常显眼、非常廉价。加 .no-bar 隐藏
+ *     （仍可横滑，需要提示可滑时靠内容被裁切暗示）。
+ *  2) **用户区是一坨**：带描边的胶囊 + 20px 头像 + 被截断的「anonymous99...」
+ *     + 一个没人看得懂的绿点，又高又糊。改成 32px 圆形头像按钮 + 小箭头；
+ *     名字只在 ≥lg 显示（GitHub 用户名本来就短，不该截成省略号）。
+ *  3) **当前栏下划线悬在文字下方 9px**，与栏底那条线各画一条，像没对齐。
+ *     改成「页签」写法：下划线贴住栏底，与页头 1px 线合成一条。
+ * ============================================================================
  */
 export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
   const pathname = usePathname();
@@ -37,23 +44,26 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
 
   return (
     <header className="sticky top-0 z-30 border-b border-line-strong bg-canvas/92 backdrop-blur-md">
-      <div className="shell flex h-15 items-center gap-4">
-        {/* 品牌：方角墨块 + 站名（编辑风里品牌是一枚「印记」，不做圆角胶囊） */}
-        <Link href="/" className="flex shrink-0 items-center gap-2.5">
+      <div className="shell flex h-14 items-center gap-3">
+        {/* 品牌：方角墨印 + 站名 */}
+        <Link href="/" className="flex shrink-0 items-center gap-2.5" aria-label="回到首页">
           <span
             aria-hidden
-            className="grid size-7 place-items-center rounded-[3px] bg-ink text-[11.5px] font-black tracking-wide text-white"
+            className="grid size-[26px] place-items-center rounded-[3px] bg-ink text-[11px] font-black tracking-[0.02em] text-white"
           >
             EQ
           </span>
-          <span className="hidden text-[15.5px] font-bold tracking-tight text-ink sm:block">
+          <span className="hidden text-[15px] font-bold tracking-tight text-ink sm:block">
             真题刷题站
           </span>
         </Link>
 
+        <span aria-hidden className="mx-0.5 hidden h-5 w-px bg-line-strong sm:block" />
+
+        {/* 导航：页签写法，当前项下划线贴住栏底 */}
         <nav
           aria-label="主导航"
-          className="-mx-1 flex min-w-0 flex-1 items-center gap-1 overflow-x-auto px-1"
+          className="no-bar flex min-w-0 flex-1 items-stretch gap-1 self-stretch overflow-x-auto"
         >
           {LINKS.map((l) => {
             const active = l.href === '/' ? pathname === '/' : pathname.startsWith(l.href);
@@ -63,14 +73,10 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
                 key={l.href}
                 href={l.href}
                 aria-current={active ? 'page' : undefined}
-                /*
-                 * v4：当前态 = 墨色文字 + 底下一条 2px 朱红横线（像目录里被划到的那一栏），
-                 * 不用彩色胶囊 —— 胶囊会和「可点筛选」的形状撞车。
-                 */
                 className={cn(
-                  'relative flex min-h-9 shrink-0 items-center gap-1.5 px-3 py-1.5 text-[14.5px] transition-colors',
+                  'relative flex shrink-0 items-center gap-1.5 px-3 text-[14.5px] transition-colors',
                   active
-                    ? 'font-semibold text-ink after:absolute after:inset-x-3 after:-bottom-[9px] after:h-[2px] after:bg-brand'
+                    ? 'font-semibold text-ink after:absolute after:inset-x-0 after:bottom-0 after:h-[2px] after:bg-brand'
                     : 'font-medium text-muted hover:text-ink',
                 )}
               >
@@ -78,7 +84,7 @@ export function SiteNav({ authEnabled = false }: { authEnabled?: boolean }) {
                 {badge !== null && (
                   <span
                     className={cn(
-                      'grid min-w-[18px] place-items-center rounded-full px-1 text-[11.5px] font-semibold text-white tabular-nums',
+                      'display grid min-w-[18px] place-items-center rounded-full px-1 text-[10.5px] font-semibold text-white',
                       l.badge === 'wrong' ? 'bg-bad' : 'bg-ink-soft',
                     )}
                   >
