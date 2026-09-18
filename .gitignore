@@ -54,6 +54,12 @@ public/audio/*
 #   改这个文件时请核对下面这一行的实际路径。
 public/vocab-data/
 
+# data/vocab/ 是**派生物**（能重建，也能从对象存储取回），不进仓库：
+# 60MB × 每次部署是多轮部署吃掉十几 GB 存储的根因之一。
+# 仓库里只留 data/vocab-manifest.json（几 KB 的文件清单）；
+# 需要本地跑工具链时执行 `pnpm vocab:pull`（见 tools/vocab-pull.mjs）。
+data/vocab/
+
 # Playwright 产物
 test-results/
 playwright-report/

@@ -23,6 +23,21 @@ const indexCache = new Map<string, Promise<BookIndex>>();
 const listCache = new Map<string, Promise<ListEntry[]>>();
 const shardCache = new Map<string, Promise<WordEntry[]>>();
 
+/**
+ * 词汇数据的基址。
+ *
+ * 默认走**自己的同源代理** `/api/vocab-data/…`：服务端从对象存储（Vercel Blob，
+ * 私有 store）带 token 读，再以长缓存返回浏览器 —— 这样：
+ *   · 部署包里不再需要 60MB 的数据副本（仓库只留 code + content）；
+ *   · 浏览器只跟自己域名说话，没有跨域与「第三方可达性」问题
+ *     （实测 Supabase 域名在本机线路下 ENOTFOUND 与 ECONNRESET 交替出现，
+ *     不适合承载前端取数）。
+ *
+ * 数据重建后要重新上传：`pnpm vocab:upload`。
+ * 想直连静态目录（完全离线开发），设 `NEXT_PUBLIC_VOCAB_BASE=/vocab-data`。
+ */
+const DATA_BASE = (process.env.NEXT_PUBLIC_VOCAB_BASE ?? '/api/vocab-data').replace(/\/+$/, '');
+
 export function resetVocabCache() {
   rootCache = null;
   indexCache.clear();
@@ -48,7 +63,7 @@ function once<T>(store: Map<string, Promise<T>>, key: string, load: () => Promis
 }
 
 export function fetchVocabRoot(): Promise<VocabRoot> {
-  rootCache ??= getJSON<VocabRoot>('/vocab-data/index.json', '词书清单').catch((e: unknown) => {
+  rootCache ??= getJSON<VocabRoot>(`${DATA_BASE}/index.json`, '词书清单').catch((e: unknown) => {
     rootCache = null;
     throw e;
   });
@@ -57,26 +72,26 @@ export function fetchVocabRoot(): Promise<VocabRoot> {
 
 export function fetchBookIndex(bookId: string): Promise<BookIndex> {
   return once(indexCache, bookId, () =>
-    getJSON<BookIndex>(`/vocab-data/${bookId}/index.json`, `${bookId} 词书索引`),
+    getJSON<BookIndex>(`${DATA_BASE}/${bookId}/index.json`, `${bookId} 词书索引`),
   );
 }
 
 export function fetchBookList(bookId: string): Promise<ListEntry[]> {
   return once(listCache, bookId, () =>
-    getJSON<ListEntry[]>(`/vocab-data/${bookId}/list.json`, `${bookId} 词表`),
+    getJSON<ListEntry[]>(`${DATA_BASE}/${bookId}/list.json`, `${bookId} 词表`),
   );
 }
 
 export function fetchShard(bookId: string, file: string): Promise<WordEntry[]> {
   return once(shardCache, `${bookId}/${file}`, () =>
-    getJSON<WordEntry[]>(`/vocab-data/${bookId}/${file}`, `${bookId} 词条`),
+    getJSON<WordEntry[]>(`${DATA_BASE}/${bookId}/${file}`, `${bookId} 词条`),
   );
 }
 
 /** 真题反查表：word → 出现在站内哪几套真题（没有对应题库的书返回空表） */
 export async function fetchRefs(bookId: string): Promise<Record<string, string[]>> {
   try {
-    const res = await fetch(`/vocab-data/${bookId}/refs.json`);
+    const res = await fetch(`${DATA_BASE}/${bookId}/refs.json`);
     if (!res.ok) return {};
     return (await res.json()) as Record<string, string[]>;
   } catch {
@@ -87,7 +102,7 @@ export async function fetchRefs(bookId: string): Promise<Record<string, string[]
 /** 词根词缀 → 词数（筛选下拉用） */
 export async function fetchAffixes(bookId: string): Promise<Record<string, number>> {
   try {
-    const res = await fetch(`/vocab-data/${bookId}/affixes.json`);
+    const res = await fetch(`${DATA_BASE}/${bookId}/affixes.json`);
     if (!res.ok) return {};
     return (await res.json()) as Record<string, number>;
   } catch {

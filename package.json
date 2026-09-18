@@ -8,7 +8,6 @@
   },
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node tools/vocab-public.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -32,7 +31,9 @@
     "bank:fix-legacy": "node tools/fix-legacy-defects.mjs",
     "bank:migrate-legacy": "node tools/migrate-legacy.mjs",
     "vocab:priority": "node tools/vocab-priority.mjs",
-    "vocab:build": "node tools/vocab-import.mjs && node tools/vocab-enrich.mjs && node tools/vocab-import-full.mjs && node tools/vocab-priority.mjs && node tools/vocab-public.mjs"
+    "vocab:build": "node tools/vocab-import.mjs && node tools/vocab-enrich.mjs && node tools/vocab-import-full.mjs && node tools/vocab-priority.mjs && node tools/vocab-public.mjs",
+    "vocab:upload": "node tools/vocab-public.mjs && node tools/blob-upload.mjs public/vocab-data vocab-data --env .env.dev.local",
+    "vocab:pull": "node tools/vocab-pull.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",
