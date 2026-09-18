@@ -39,6 +39,16 @@ export type DailyResult<T> = { ok: true; data: T } | { ok: false; reason: string
 type CacheMode = { revalidate: number } | { fresh: true };
 
 async function getJson(url: string, mode: CacheMode): Promise<DailyResult<unknown>> {
+  /*
+   * 一次重试。
+   *
+   * 实测：某次 Vercel 构建时该接口恰好不可达，于是 /daily 三个面板与首页的
+   * 「每日一句」横条**同时变空**，而十几分钟后接口完全正常 —— 典型的瞬时抖动。
+   * 构建期只试一次的话，这次抖动会被固化进 ISR 缓存最长半小时；
+   * 重试一次的成本（400ms）远低于一个空页面的代价。
+   */
+  let lastReason = 'upstream-unreachable';
+  for (let attempt = 0; attempt < 2; attempt++) {
   try {
     const res = await fetch(url, {
       headers: { accept: 'application/json' },
@@ -48,14 +58,21 @@ async function getJson(url: string, mode: CacheMode): Promise<DailyResult<unknow
         : { next: { revalidate: mode.revalidate } }),
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });
-    if (!res.ok) return { ok: false, reason: `upstream-${res.status}` };
-    // 上游统一信封 `{errno,errmsg,data}`，必须在这里拆掉（见 unwrapEnvelope 的注释）
-    return unwrapEnvelope(await res.json());
+    if (!res.ok) {
+      lastReason = `upstream-${res.status}`;
+    } else {
+      // 上游统一信封 `{errno,errmsg,data}`，必须在这里拆掉（见 unwrapEnvelope 的注释）
+      return unwrapEnvelope(await res.json());
+    }
   } catch (e) {
     // 超时/断网/JSON 坏：都归为「这次没取到」，页面走空态
     const msg = e instanceof Error ? e.name : 'unknown';
-    return { ok: false, reason: msg === 'TimeoutError' ? 'upstream-timeout' : 'upstream-unreachable' };
+    lastReason = msg === 'TimeoutError' ? 'upstream-timeout' : 'upstream-unreachable';
   }
+  // 只重试一次：抖动是主要故障模式，重试成本（400ms）远低于空页面
+  if (attempt === 0) await new Promise((r) => setTimeout(r, 400));
+  }
+  return { ok: false, reason: lastReason };
 }
 
 function one(raw: DailyResult<unknown>): DailyResult<DailySentence> {
