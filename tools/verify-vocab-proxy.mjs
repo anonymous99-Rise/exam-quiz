@@ -1,5 +1,6 @@
-// 临时验收脚本：确认 /vocab 通过 /api/vocab-data（Blob 私有存储）取到数据。
-// 用法：node tools/verify-vocab-proxy.mjs [baseUrl]
+// 验收脚本：确认 /vocab 通过 /api/vocab-data（私有 Blob + 同源代理）取到数据。
+// 用法：node tools/verify-vocab-proxy.mjs [baseUrl]   （默认本地 3105，也可传线上别名）
+// 退出码 0 = 全部通过；会打印页面实际发起的 /api/vocab-data 请求与状态码。
 import { chromium } from '@playwright/test';
 
 const base = process.argv[2] ?? 'http://127.0.0.1:3105';
@@ -11,15 +12,6 @@ page.on('response', (r) => {
   const u = r.url();
   if (u.includes('/api/vocab-data')) calls.push(`${r.status()} ${u.replace(base, '')}`);
 });
-
-async function check(path, label, probe) {
-  await page.goto(base + path, { waitUntil: 'domcontentloaded' });
-  const text = await page.locator('body').innerText();
-  const ok = probe(text);
-  console.log(`${ok ? 'PASS' : 'FAIL'}  ${label}  (${text.length} chars)`);
-  if (!ok) console.log('     正文片段: ' + text.replace(/\s+/g, ' ').slice(0, 200));
-  return ok;
-}
 
 const books = await page
   .goto(base + '/vocab', { waitUntil: 'networkidle' })
