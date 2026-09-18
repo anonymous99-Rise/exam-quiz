@@ -195,6 +195,7 @@ export function ListenView({ programs }: { programs: ProgramData[] }) {
           <PodcastPlayer
             episode={playingEpisode}
             programTitle={playingProgram.title}
+            programShort={playingProgram.short}
             cover={playingProgram.image}
             hasPrev={playing.index > 0}
             hasNext={playing.index < playingProgram.episodes.length - 1}

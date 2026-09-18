@@ -2,7 +2,9 @@
 
 import { useRef, useState } from 'react';
 
+import type { Block } from '@/lib/feeds/extract';
 import { formatFeedDate } from '@/lib/feeds/format';
+import { readingStats } from '@/lib/feeds/format';
 import { shapeSelection, youdaoUrl, type SelectionKind } from '@/lib/feeds/selection';
 import { cn } from '@/lib/utils';
 import { useIsMobile } from '@/lib/use-media';
@@ -76,6 +78,16 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
   const [copied, setCopied] = useState(false);
   const [pick, setPick] = useState<Pick | null>(null);
   const [pickCopied, setPickCopied] = useState(false);
+  /**
+   * 全文抓取（按需）。用 `key` 记住是哪一篇的结果，渲染时再比对 ——
+   * 这样切换文章不需要 effect 去重置状态（`set-state-in-effect` 在本项目是 error 级）。
+   */
+  const [full, setFull] = useState<{
+    key: string;
+    state: 'loading' | 'done' | 'failed';
+    blocks?: Block[];
+    chars?: number;
+  } | null>(null);
   /** 划词请求序号：只认最后一次的结果（连划两次时旧响应必须丢弃） */
   const seq = useRef(0);
 
@@ -83,7 +95,38 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
   // 桌面：没选就默认读第一篇；移动：没选就停在列表（否则一进来就撞进正文）
   const activeKey = picked ?? (isMobile ? null : (list[0]?.key ?? null));
   const active = articles.find((a) => a.key === activeKey) ?? null;
+  const activeFull = full && active && full.key === active.key ? full : null;
   const px = SIZES.find((s) => s.id === size)?.px ?? 17;
+
+  /** 正文与阅读时长：抓到全文就用全文，否则用订阅源给的摘要 */
+  const fullText = activeFull?.blocks?.length
+    ? activeFull.blocks.map((b) => b.text).join('\n\n')
+    : null;
+  const stats = active ? readingStats(fullText ?? active.body) : null;
+
+  const loadFull = () => {
+    if (!active || activeFull?.state === 'loading') return;
+    const key = active.key;
+    setFull({ key, state: 'loading' });
+    void (async () => {
+      try {
+        const res = await fetch(`/api/article?u=${encodeURIComponent(active.url)}`);
+        const j = (await res.json()) as {
+          ok: boolean;
+          blocks?: Block[];
+          chars?: number;
+          reason?: string;
+        };
+        setFull(
+          j.ok && j.blocks?.length
+            ? { key, state: 'done', blocks: j.blocks, chars: j.chars ?? 0 }
+            : { key, state: 'failed' },
+        );
+      } catch {
+        setFull({ key, state: 'failed' });
+      }
+    })();
+  };
 
   const copy = () => {
     if (!active) return;
@@ -233,7 +276,7 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
               <span className="chip">{active.genre}</span>
               <span className="display tabular-nums">{formatFeedDate(active.publishedAt)}</span>
               <span className="display tabular-nums text-faint">
-                约 {active.words} 字 · 阅读 {active.minutes} 分钟
+                约 {stats?.words ?? active.words} 字 · 阅读 {stats?.minutes ?? active.minutes} 分钟
               </span>
               <span className="hidden text-faint sm:inline">
                 · 选中单词或整段，就地出释义 / 译文
@@ -247,6 +290,23 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
               <a className="btn btn-primary btn-sm" href={active.url} target="_blank" rel="noreferrer noopener">
                 读原文 ↗
               </a>
+              {/* 全文：订阅源只给摘要时，按需从官网抓正文（ScienceDaily 可抓；
+                  Nature/Science 是 Cloudflare 挑战页 + 付费，抓不到就如实说明） */}
+              {!fullText && (
+                <button
+                  type="button"
+                  onClick={loadFull}
+                  disabled={activeFull?.state === 'loading'}
+                  className="btn btn-ghost btn-sm"
+                >
+                  {activeFull?.state === 'loading' ? '抓取中…' : '读全文'}
+                </button>
+              )}
+              {fullText && (
+                <span className="chip chip-ok">
+                  已载入全文 {activeFull?.chars ?? 0} 字
+                </span>
+              )}
               <button type="button" onClick={copy} className="btn btn-ghost btn-sm">
                 {copied ? '已复制' : '复制全文'}
               </button>
@@ -272,30 +332,64 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
             </div>
           </header>
 
-          {/* 正文：68ch 栏宽 + 可调字号；选中即查词 */}
+          {/* 正文：68ch 栏宽 + 可调字号；选中即查词。抓到全文就渲染全文块 */}
           <div
             onMouseUp={onSelect}
             onTouchEnd={onSelect}
             style={{ fontSize: `${px}px` }}
             className="mt-7 max-w-[68ch] leading-[1.85] text-ink-soft"
           >
-            {active.body
-              .split(/\n{2,}/)
-              .filter((p) => p.trim())
-              .map((p, i) => (
-                <p key={i} className={cn('mt-4 first:mt-0', /^[·\-•]/.test(p.trim()) && 'pl-4')}>
-                  {p.trim()}
-                </p>
-              ))}
+            {activeFull?.blocks?.length
+              ? activeFull.blocks.map((b, i) =>
+                  b.kind === 'h' ? (
+                    <p key={i} className="t-h3 mt-6 text-ink first:mt-0">
+                      {b.text}
+                    </p>
+                  ) : (
+                    <p key={i} className="mt-4 first:mt-0">
+                      {b.text}
+                    </p>
+                  ),
+                )
+              : active.body
+                  .split(/\n{2,}/)
+                  .filter((p) => p.trim())
+                  .map((p, i) => (
+                    <p key={i} className={cn('mt-4 first:mt-0', /^[·\-•]/.test(p.trim()) && 'pl-4')}>
+                      {p.trim()}
+                    </p>
+                  ))}
           </div>
 
-          {active.truncated && (
+          {/* 抓全文失败：说清是哪一类原因，别让用户以为是站坏了 */}
+          {activeFull?.state === 'failed' && (
+            <p className="mt-6 border-l-2 border-warn-line bg-warn-soft px-4 py-3 text-[13px] leading-6 text-warn">
+              这一篇的正文抓不到（<span className="display">Nature / Science</span> 等站点是付费墙 +
+              反爬挑战页，或正文由前端动态渲染）。本页显示的是订阅源提供的摘要 ——
+              <a className="mx-1 underline" href={active.url} target="_blank" rel="noreferrer noopener">
+                去官网读原文 ↗
+              </a>
+            </p>
+          )}
+
+          {!fullText && active.truncated && !activeFull?.state?.includes('fail') && (
             <p className="mt-6 border-l-2 border-line-strong bg-surface-sunken px-4 py-3 text-[13px] leading-6 text-muted">
-              订阅源只提供摘要。想读全文请点
+              订阅源只提供摘要。点上方
+              <span className="mx-1 font-semibold text-ink-soft">读全文</span>
+              可按需抓取官网正文，或直接
               <a className="mx-1 underline" href={active.url} target="_blank" rel="noreferrer noopener">
                 读原文 ↗
               </a>
-              （本站不转载正文，只做订阅与排版）。
+              （本站不存储正文，只做本地阅读排版）。
+            </p>
+          )}
+
+          {fullText && (
+            <p className="mt-6 text-[12.5px] leading-6 text-faint">
+              全文按需抓取自官网，仅用于本地阅读、未存储；版权归原作者所有。
+              <a className="mx-1 underline" href={active.url} target="_blank" rel="noreferrer noopener">
+                原文链接 ↗
+              </a>
             </p>
           )}
 

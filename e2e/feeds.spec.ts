@@ -66,6 +66,82 @@ test.describe('听力 · 播客', () => {
     await expect(rate).toBeVisible();
   });
 
+  test('节目名随播放切换更新（回归：切换后标题不变）', async ({ page }) => {
+    await ready(page, '/listen', /听力 · 播客/);
+    const rows = page.locator('main ul > li > button');
+    test.skip((await rows.count()) === 0, '构建时没取到播客数据（网络受限）');
+
+    // 播当前节目第一集
+    await rows.first().click();
+    const bar = page.locator('.fixed').filter({ hasText: '空格' });
+    const chip = bar.locator('.chip-brand').first();
+    await expect(chip).toBeVisible();
+    const first = (await chip.textContent())?.trim() ?? '';
+
+    // 切到「有声书」再播一章：小签必须跟着换
+    await page.getByRole('tab', { name: /有声书/ }).click();
+    await rows.first().click();
+    await expect(chip).not.toHaveText(first);
+    await expect(chip).toHaveText(/有声书/);
+  });
+
+  test('音频直连失败会自动切到本站代理', async ({ page }) => {
+    await ready(page, '/listen', /听力 · 播客/);
+    const rows = page.locator('main ul > li > button');
+    test.skip((await rows.count()) === 0, '构建时没取到播客数据（网络受限）');
+
+    // 让直连全部失败（模拟「本机连不上 VOA/BBC 的 CDN」），并记录是否走了代理
+    let proxied = 0;
+    await page.route(/\.mp3(\?|$)/, (route) => route.abort());
+    await page.route(/\/api\/media/, (route) => {
+      proxied++;
+      return route.fulfill({ status: 502, json: { ok: false, reason: 'test' } });
+    });
+
+    await rows.first().click();
+    await expect.poll(() => proxied, { timeout: 15_000 }).toBeGreaterThan(0);
+
+    // 代理也失败 → 仍然给出节目页入口，而不是静默失败
+    await expect(page.getByText(/音频没取到/)).toBeVisible();
+    await expect(page.getByRole('link', { name: /去节目页听/ })).toBeVisible();
+  });
+
+  test('文稿面板：节目说明即时可用，节目页全文按需抓取', async ({ page }) => {
+    await page.route(/\/api\/article/, (route) =>
+      route.fulfill({
+        json: {
+          ok: true,
+          blocks: [
+            { kind: 'h', text: 'MOCKED 文稿标题' },
+            { kind: 'p', text: 'MOCKED 文稿正文段落，用于验证面板渲染。' },
+          ],
+          chars: 30,
+        },
+      }),
+    );
+    await ready(page, '/listen', /听力 · 播客/);
+    const rows = page.locator('main ul > li > button');
+    test.skip((await rows.count()) === 0, '构建时没取到播客数据（网络受限）');
+
+    await rows.first().click();
+    // 精确匹配：面板的「收起文稿」也含「文稿」二字（默认是子串匹配）
+    const textBtn = page.getByRole('button', { name: '文稿', exact: true });
+    await textBtn.click();
+
+    // 打开即有内容（订阅源自带的节目说明，不需要再请求）
+    await expect(page.getByText(/^文稿 · /)).toBeVisible();
+    await expect(page.getByText(/MOCKED|.{40,}/).first()).toBeVisible();
+
+    // 按需抓节目页全文
+    await page.getByRole('button', { name: '抓节目页全文' }).click();
+    await expect(page.getByText('MOCKED 文稿标题')).toBeVisible();
+    await expect(page.getByText('MOCKED 文稿正文段落', { exact: false })).toBeVisible();
+
+    // 再点一次收起
+    await textBtn.click();
+    await expect(page.getByText('MOCKED 文稿标题')).toHaveCount(0);
+  });
+
   test('「显示其余 N 集」能展开', async ({ page }) => {
     await ready(page, '/listen', /听力 · 播客/);
     const more = page.getByRole('button', { name: /显示其余 \d+ 集/ });
@@ -157,6 +233,39 @@ test.describe('阅读 · 订阅', () => {
     // ③ 关掉后浮层消失（不残留遮挡正文）
     await dialog.getByRole('button', { name: '关闭' }).click();
     await expect(page.getByRole('dialog', { name: '划词翻译' })).toHaveCount(0);
+  });
+
+  test('读全文：按需抓官网正文，抓不到时说明原因', async ({ page }) => {
+    let mode: 'ok' | 'blocked' = 'ok';
+    await page.route(/\/api\/article/, (route) =>
+      mode === 'ok'
+        ? route.fulfill({
+            json: {
+              ok: true,
+              blocks: [
+                { kind: 'h', text: 'MOCKED 全文标题' },
+                { kind: 'p', text: 'MOCKED 全文第一段，比订阅源摘要长得多。' },
+                { kind: 'p', text: 'MOCKED 全文第二段。' },
+              ],
+              chars: 60,
+            },
+          })
+        : route.fulfill({ json: { ok: false, reason: 'blocked' } }),
+    );
+    await ready(page, '/read', /阅读 · 订阅/);
+    const body = page.locator('article div[style*="font-size"]').first();
+    test.skip((await body.count()) === 0, '构建时没取到文章（网络受限），跳过全文断言');
+
+    await page.getByRole('button', { name: '读全文' }).click();
+    await expect(page.getByText('MOCKED 全文第一段', { exact: false })).toBeVisible();
+    await expect(page.getByText(/已载入全文/)).toBeVisible();
+
+    // 换一篇（抓不到的那种），失败提示要出现且不覆盖摘要
+    mode = 'blocked';
+    await page.locator('main ul > li > button').nth(1).click();
+    await page.getByRole('button', { name: '读全文' }).click();
+    await expect(page.getByText(/正文抓不到/)).toBeVisible();
+    await expect(page.getByRole('link', { name: /去官网读原文/ })).toBeVisible();
   });
 
   test('移动端：列表 → 正文 → 返回列表', async ({ page }) => {
