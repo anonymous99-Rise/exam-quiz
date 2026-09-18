@@ -42,6 +42,12 @@ export type FeedSource = {
   genre: string;
   /** 一句话介绍（UI 上的节目简介） */
   note: string;
+  /**
+   * 上游格式。
+   *   'rss'（默认）= XML 订阅源，走 parseFeed；
+   *   'librivox'    = LibriVox JSON 列表 + 每本书的 RSS（见 librivox.ts）。
+   */
+  format?: 'rss' | 'librivox';
 };
 
 export type FeedAudio = {
@@ -65,6 +71,11 @@ export type FeedItem = {
   audio: FeedAudio | null;
   image: string | null;
   sourceId: string;
+  /**
+   * 分组名（列表里会渲染一条分组头）。
+   * 只有 LibriVox 用：一个「节目」下其实是多本书，用书名把章节分组。
+   */
+  group?: string | null;
 };
 
 export type FeedChannel = {

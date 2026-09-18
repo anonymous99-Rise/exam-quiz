@@ -25,6 +25,9 @@
 | BBC 6 Minute English | RSS 2.0 + iTunes | 341 | ✅ **http://** | 时长是纯秒（`381`） |
 | BBC Discovery | RSS 2.0 + iTunes | 853 | ✅ **http://** | 每集时长约 26 分钟 |
 | TED Talks Daily（acast） | RSS 2.0 + iTunes | **2811**（8.5MB） | ✅ | 时长是 `21:42`，解析前必须限量 |
+| ESLPod | RSS 2.0 + iTunes | 11（滚动） | ✅ | 时长 `30:41`；面向学习者的讲解式节目 |
+| NPR · Up First | RSS 2.0 + iTunes | 500 | ✅ | 音频地址是 `prfx.byspotify.com` 的**跳转链接**（会 302 到真源） |
+| LibriVox 有声书 | **JSON 列表 + 每本书的 RSS** | 6 本书 × 前 6 章 | ✅ | 列表接口**不含章节**，章节走 `url_rss`；见坑 5 |
 | China Daily（feedx 镜像） | RSS 2.0 | 80 | — | description 是**实体转义的整段 HTML** |
 | BBC 中文（feedx 镜像） | RSS 2.0 | 20 | — | 同上；正文 3–4k 字，适合精读 |
 | ScienceDaily | RSS 2.0 | 60 | — | 日期带**时区缩写 EDT** |
@@ -44,6 +47,11 @@
 3. **时长三种写法**：`381`（秒）/ `21:42` / `1:02:03`。→ `parseDuration` 三种都认。
 4. **enclosure 不一定音频**：Science 的 enclosure 是 `type="image/jpg"` 的配图。
    → 只认 `type^=audio/` 或 `medium="audio"`；图片进 `image` 字段。
+5. **LibriVox 的列表接口不含章节**。`/api/feed/audiobooks?format=json` 只给书名与
+   `num_sections`，章节要另外取；实测两条路都通：`?id=47&extended=1`（JSON）与
+   `https://librivox.org/rss/47`（**标准 RSS 2.0**）。这里走后者 —— 标准格式能直接复用
+   `parseFeed`，少一套会坏的解析。代价是 1 + N 次请求，所以并发限 3（见下）。
+   另：时长字段名是 `totaltimesecs`（**无下划线**），另一个 `totaltime` 是 `49:43:15` 字符串。
 
 另外两条工程要求：
 
@@ -51,6 +59,10 @@
   `capItems()` 先按标签边界切到前 30 条再解析（切点落在标签之间，补根闭合标签即可）。
 - **先解实体再剥标签**：feedx 把整段 HTML 实体转义后塞进 description，
   顺序写反会让标签原样留在正文里（样本回归里挂了两个源才发现）。
+- **失败重试一次 + 并发限流**：实测两次构建期「偶发单源失败」（feedx 的 BBC 中文、
+  每日一句接口），单独复测都是 200。现在每个请求失败后重试一次（300ms 退避），
+  LibriVox 的逐书请求并发限 3 —— 否则 8 个节目 + 7 个 LibriVox 请求会在同一瞬间
+  铺开，把出口（尤其是代理后面）打满，表现为「某几个源随机失败」。
 
 ## 四、架构边界（踩过一次构建失败）
 
@@ -66,23 +78,51 @@
 所以纯函数全部搬到 **`src/lib/feeds/format.ts`**（零服务端依赖）。
 以后凡是客户端要用的函数，都不许放在会 `import fs` 的模块里。
 
-## 五、本地开发：用样本文件当上游
+## 五、本地开发：先解决「Node 不走系统代理」这件事
 
-本机（国内网络 + 安全套件）对 BBC / VOA / acast / feedx 的直连会被 ECONNRESET 或超时，
-而 Vercel 上的函数能正常取到。为让本地能看到真实页面，加了一个 **dev-only** 兜底：
+**症状**：浏览器能开 BBC/VOA，PowerShell `Invoke-WebRequest` 也能取到，
+但**本项目的 `pnpm dev` / `pnpm build` 取不到**（`UND_ERR_CONNECT_TIMEOUT` / ECONNRESET）。
 
-```powershell
-# 1) 抓样本（PowerShell 能通，Node 直连会被拦）
-$ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36'
-Invoke-WebRequest 'https://learningenglish.voanews.com/podcast/?zoneId=1689' -Headers @{'User-Agent'=$ua} -OutFile tmp/feeds/raw-voa-everyday-page.bin
-Invoke-WebRequest 'https://podcasts.files.bbci.co.uk/p02pc9tn.rss'          -Headers @{'User-Agent'=$ua} -OutFile tmp/feeds/bbc-6min.xml
-# …其余源同理，文件名见 src/lib/feeds/api.ts 的 localSample()
+**根因**（已实测确认，和 Clash 无关）：
 
-# 2) 用样本构建/启动
-$env:FEEDS_LOCAL_DIR='tmp/feeds'; pnpm dev      # 或 pnpm build && pnpm start
+| 客户端 | 读 Windows 系统代理（注册表 `Internet Settings`） | 读 `HTTPS_PROXY` 环境变量 | 结果 |
+| --- | --- | --- | --- |
+| PowerShell / .NET（`Invoke-WebRequest`） | ✅ 自动 | — | 走代理，通 |
+| **Node 的 `fetch`（undici）** | ❌ **完全不读** | ✅ 但需 `NODE_USE_ENV_PROXY=1` | 直连，被墙 |
+| `curl.exe` | ❌ | ✅ | 直连（未设变量时），不通 |
+
+Clash Verge 打开的是**系统代理**（`ProxyEnable=1`、`ProxyServer=127.0.0.1:7897`），
+它不会设环境变量；所以只有 .NET 系自动走了代理。
+
+实测证据：
+
+```
+直连                         → UND_ERR_CONNECT_TIMEOUT（10.7s）
+HTTPS_PROXY=http://127.0.0.1:7897 + NODE_USE_ENV_PROXY=1
+                             → 200，815KB，967ms
 ```
 
-生产不设这个变量，走的仍是真实网络。
+**本机（及任何用 Clash 的开发机）跑项目的正确姿势**：
+
+```powershell
+$env:HTTPS_PROXY='http://127.0.0.1:7897'   # 换成你自己的混合端口
+$env:HTTP_PROXY='http://127.0.0.1:7897'
+$env:NODE_USE_ENV_PROXY='1'                # Node 24 起需要显式打开
+pnpm dev        # 或 pnpm build && pnpm start
+```
+
+生产（Vercel）不需要代理，直连即可。
+
+**离线兜底**：若确实没有网络，可用抓好的样本当上游（dev-only）：
+
+```powershell
+# 抓样本（PowerShell 能通）
+$ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36'
+Invoke-WebRequest 'https://podcasts.files.bbci.co.uk/p02pc9tn.rss' -Headers @{'User-Agent'=$ua} -OutFile tmp/feeds/bbc-6min.xml
+# …文件名见 src/lib/feeds/api.ts 的 localSample()
+
+$env:FEEDS_LOCAL_DIR='tmp/feeds'; pnpm dev
+```
 
 ## 六、测试
 

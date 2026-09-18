@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+import { CHAPTERS_PER_BOOK, bookAsSource, parseLibrivoxBooks } from './librivox';
 import { parseFeed, type FeedChannel, type FeedSource } from './parse';
 import { ARTICLE_SOURCES, PODCAST_SOURCES } from './sources';
 
@@ -40,7 +41,13 @@ const LOCAL_DIR = process.env.FEEDS_LOCAL_DIR;
 
 function localSample(id: string): string | null {
   if (!LOCAL_DIR) return null;
-  for (const name of [`raw-${id}-page.bin`, `${id}.xml`, `raw-${id}.bin`, `${id}-page.html`]) {
+  for (const name of [
+    `raw-${id}-page.bin`,
+    `${id}.xml`,
+    `raw-${id}.bin`,
+    `${id}.json`,
+    `${id}-page.html`,
+  ]) {
     const file = path.join(LOCAL_DIR, name);
     try {
       if (fs.existsSync(file)) return fs.readFileSync(file, 'utf8');
@@ -51,8 +58,128 @@ function localSample(id: string): string | null {
   return null;
 }
 
+/**
+ * 取文本（带 UA / 超时 / ISR 缓存），失败不抛错。
+ *
+ * **失败重试一次**：实测过两次构建期偶发失败（feedx 的 BBC 中文、每日一句接口），
+ * 单独复测都是 200 —— 第三方源抖动是常态，只试一次会把抖动固化进 ISR 缓存。
+ */
+async function getText(
+  url: string,
+  revalidate: number,
+  localName?: string,
+): Promise<{ ok: true; text: string } | { ok: false; reason: string }> {
+  const sample = localName ? localSample(localName) : null;
+  if (sample) return { ok: true, text: sample };
+
+  let lastReason = 'upstream-unreachable';
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          'user-agent': UA,
+          accept: 'application/rss+xml, application/xml, application/json, */*',
+        },
+        next: { revalidate },
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+      });
+      if (!res.ok) {
+        lastReason = `upstream-${res.status}`;
+      } else {
+        return { ok: true, text: await res.text() };
+      }
+    } catch (e) {
+      const name = e instanceof Error ? e.name : 'unknown';
+      lastReason = name === 'TimeoutError' ? 'upstream-timeout' : 'upstream-unreachable';
+    }
+    if (attempt === 0) await new Promise((r) => setTimeout(r, 300));
+  }
+  return { ok: false, reason: lastReason };
+}
+
+/**
+ * 并发受限的 map。
+ *
+ * LibriVox 一轮要发 1 + 6 个请求，若和另外 7 个节目一起铺开就是 ~15 个并发；
+ * 实测这样会把出口（尤其是在代理后面）打满，出现「某几个源偶发失败」。
+ * 限到 3 路既省时间又不炸出口。
+ */
+async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
+  const out: R[] = new Array(items.length);
+  let cursor = 0;
+  const workers = Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, async () => {
+    for (;;) {
+      const index = cursor++;
+      if (index >= items.length) return;
+      const item = items[index];
+      if (item === undefined) continue;
+      out[index] = await fn(item);
+    }
+  });
+  await Promise.all(workers);
+  return out;
+}
+
+/**
+ * LibriVox：列表 JSON → 每本书的章节 RSS。
+ *
+ * 列表接口**不含章节**，所以这里发 1 + N 次请求（实测 `url_rss` 是标准 RSS 2.0，
+ * 可以直接复用 parseFeed）。任一本书取不到就跳过它，其余照常出——
+ * 部分成功好过整栏空白。
+ */
+async function fetchLibrivox(source: FeedSource): Promise<FeedResult> {
+  const revalidate = REVALIDATE[source.kind];
+  const list = await getText(source.url, revalidate, 'librivox');
+  if (!list.ok) return list;
+
+  let json: unknown;
+  try {
+    json = JSON.parse(list.text);
+  } catch {
+    return { ok: false, reason: 'payload-unrecognized' };
+  }
+  const books = parseLibrivoxBooks(json);
+  if (!books.length) return { ok: false, reason: 'empty-feed' };
+
+  const settled = await mapLimit(books, 3, async (book) => {
+    const text = await getText(book.rss, revalidate, `librivox-${book.id}`);
+    if (!text.ok) return null;
+    const channel = parseFeed(text.text, bookAsSource(book, source));
+    if (!channel) return null;
+    return channel.items
+      .filter((i) => i.audio)
+      .slice(0, CHAPTERS_PER_BOOK)
+      .map((i) => ({
+        ...i,
+        sourceId: source.id,
+        url: i.url || book.page,
+        group: `${book.title} · ${book.author}`,
+      }));
+  });
+
+  const items = settled.flatMap((x) => x ?? []);
+  if (!items.length) return { ok: false, reason: 'empty-feed' };
+
+  return {
+    ok: true,
+    data: {
+      id: source.id,
+      title: source.title,
+      description: books
+        .map((b) => `${b.title}（${b.chapters || '?'} 章）`)
+        .slice(0, 3)
+        .join('、'),
+      homeUrl: source.homeUrl,
+      image: null,
+      items,
+    },
+  };
+}
+
 /** 单个源：抓 + 解析 */
 export async function fetchChannel(source: FeedSource): Promise<FeedResult> {
+  if (source.format === 'librivox') return fetchLibrivox(source);
+
   const sample = localSample(source.id);
   if (sample) {
     const channel = parseFeed(sample, source);
@@ -61,22 +188,12 @@ export async function fetchChannel(source: FeedSource): Promise<FeedResult> {
       : { ok: false, reason: 'local-sample-unrecognized' };
   }
 
-  try {
-    const res = await fetch(source.url, {
-      headers: { 'user-agent': UA, accept: 'application/rss+xml, application/xml, text/xml, */*' },
-      next: { revalidate: REVALIDATE[source.kind], tags: [`feed:${source.id}`] },
-      signal: AbortSignal.timeout(TIMEOUT_MS),
-    });
-    if (!res.ok) return { ok: false, reason: `upstream-${res.status}` };
-    const xml = await res.text();
-    const channel = parseFeed(xml, source);
-    if (!channel) return { ok: false, reason: 'payload-unrecognized' };
-    if (!channel.items.length) return { ok: false, reason: 'empty-feed' };
-    return { ok: true, data: channel };
-  } catch (e) {
-    const name = e instanceof Error ? e.name : 'unknown';
-    return { ok: false, reason: name === 'TimeoutError' ? 'upstream-timeout' : 'upstream-unreachable' };
-  }
+  const text = await getText(source.url, REVALIDATE[source.kind]);
+  if (!text.ok) return text;
+  const channel = parseFeed(text.text, source);
+  if (!channel) return { ok: false, reason: 'payload-unrecognized' };
+  if (!channel.items.length) return { ok: false, reason: 'empty-feed' };
+  return { ok: true, data: channel };
 }
 
 /** 多个源并行拉取；单个失败不影响其他 */

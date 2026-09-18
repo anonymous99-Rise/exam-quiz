@@ -20,6 +20,8 @@ const FILE: Record<string, string> = {
   'bbc-6min': 'bbc-6min.xml',
   'bbc-discovery': 'bbc-discovery.xml',
   'ted-daily': 'ted-daily.xml',
+  'eslpod': 'eslpod.xml',
+  'npr-upfirst': 'npr-510318.xml',
   chinadaily: 'raw-chinadaily.bin',
   'bbc-news': 'raw-bbc-news.bin',
   sciencedaily: 'sciencedaily.xml',

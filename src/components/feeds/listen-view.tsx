@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 
 import { PodcastPlayer } from '@/components/feeds/podcast-player';
 import { formatDuration, formatFeedDate } from '@/lib/feeds/format';
@@ -118,8 +118,19 @@ export function ListenView({ programs }: { programs: ProgramData[] }) {
               <ul className="mt-2">
                 {visible.map((ep, i) => {
                 const isPlaying = playing?.programId === active.id && playing.index === i;
+                // 分组头：只有 LibriVox 这类「一个节目下有多本书」的源才带 group
+                const showGroup = !!ep.group && ep.group !== visible[i - 1]?.group;
                 return (
-                  <li key={ep.id} className="border-b border-line">
+                  <Fragment key={ep.id}>
+                    {showGroup && (
+                      <li className="pt-8 pb-1.5">
+                        <p className="display flex items-baseline gap-3 text-[12px] tracking-[0.14em] text-ink-soft uppercase">
+                          {ep.group}
+                          <span aria-hidden className="h-px flex-1 bg-line" />
+                        </p>
+                      </li>
+                    )}
+                    <li className="border-b border-line">
                     <button
                       type="button"
                       onClick={() => play(active.id, i)}
@@ -159,7 +170,8 @@ export function ListenView({ programs }: { programs: ProgramData[] }) {
                         <span className="mt-1 block truncate text-[13px] text-muted">{ep.summary}</span>
                       </span>
                     </button>
-                  </li>
+                    </li>
+                  </Fragment>
                 );
                 })}
               </ul>
