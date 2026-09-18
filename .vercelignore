@@ -17,8 +17,6 @@
 # gitignore 语义下目录被整体排除后，后面的 `!` 反排除对它内部的文件不生效
 # （"It is not possible to re-include a file if a parent directory of that file is excluded"）。
 public/audio/*
-!public/audio/cet6-2022-09-1.mp3
-!public/audio/cet6-2024-12-1.mp3
 
 # 构建产物与依赖
 .next/

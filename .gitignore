@@ -42,8 +42,6 @@ Thumbs.db
 # 后面的反排除对它内部的文件不生效（gitignore 规范：parent directory excluded
 # 时无法再 re-include 子文件）。
 public/audio/*
-!public/audio/cet6-2022-09-1.mp3
-!public/audio/cet6-2024-12-1.mp3
 
 # 词汇数据（生成物）
 # ---------------------------------------------------------------------------

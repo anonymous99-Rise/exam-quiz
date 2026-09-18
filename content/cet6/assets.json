@@ -394,7 +394,7 @@
   "2022-09-1": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2022-09-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2022-09-1.mp3",
       "pieces": [
         {
           "label": "Section A · 第 1 篇 · 1–4 题",
@@ -432,10 +432,12 @@
           "end": 1616.266
         }
       ],
-      "note": "音频 66MB，超过对象存储单文件上限，随仓库部署",
-      "size": 69537756,
-      "host": "repo",
-      "fallbackUrl": "https://listening.lazynote.cn/cet6/115/index.m3u8"
+      "note": "320kbps 原文件超出对象存储单文件上限；已按 96kbps 单声道重编码后托管（时间轴与分段不变）",
+      "size": 20878783,
+      "host": "supabase",
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/115/index.m3u8",
+      "localPath": "cet6-2022-09-1.mp3",
+      "source": "CET6-Resources"
     }
   },
   "2022-12-1": {
@@ -848,7 +850,7 @@
   "2024-12-1": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2024-12-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2024-12-1.mp3",
       "pieces": [
         {
           "label": "Section A · 第 1 篇 · 1–4 题",
@@ -886,10 +888,12 @@
           "end": 1648.533
         }
       ],
-      "note": "音频 68MB，超过对象存储单文件上限，随仓库部署",
-      "size": 70863497,
-      "host": "repo",
-      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8"
+      "note": "320kbps 原文件超出对象存储单文件上限；已按 96kbps 单声道重编码后托管（时间轴与分段不变）",
+      "size": 21261480,
+      "host": "supabase",
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8",
+      "localPath": "cet6-2024-12-1.mp3",
+      "source": "CET6-Resources"
     }
   },
   "2024-12-2": {
@@ -1306,7 +1310,7 @@
   "2024-12-3": {
     "audio": {
       "kind": "mp3",
-      "url": "/audio/cet6-2024-12-1.mp3",
+      "url": "https://kyiuxzttzybslxsnmmds.supabase.co/storage/v1/object/public/audio/cet6-2024-12-1.mp3",
       "pieces": [
         {
           "label": "Section A · 第 1 篇 · 1–4 题",
@@ -1344,11 +1348,13 @@
           "end": 1648.533
         }
       ],
-      "note": "音频 68MB，超过对象存储单文件上限，随仓库部署",
+      "note": "与 2024-12-1 共用同一份音频（已按 96kbps 单声道重编码后托管）",
       "sharedWith": "2024-12-1",
-      "size": 70863497,
-      "host": "repo",
-      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8"
+      "size": 21261480,
+      "host": "supabase",
+      "fallbackUrl": "https://listening.lazynote.cn/cet6/207/index.m3u8",
+      "localPath": "cet6-2024-12-1.mp3",
+      "source": "CET6-Resources"
     }
   }
 }

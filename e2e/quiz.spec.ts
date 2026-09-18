@@ -90,7 +90,13 @@ test.describe('答题与判分', () => {
     await option(page, 1, 2).click();
     await expect(page.locator('#q-1')).toContainText('✓ 答对');
 
-    await option(page, 1, 0).click({ force: true });
+    /*
+     * 二次点击用 dispatchEvent 而不是 click({force:true})：
+     * 答完题后解析会展开、版面移动，force 点击按坐标落点，会打到别的元素上
+     * ——偶发把页面带走（#q-1 消失），这就是这条用例曾经的 flaky 根因。
+     * dispatchEvent 直接把事件送到按钮上，不做命中测试、不滚动，确定性地"再点一次"。
+     */
+    await option(page, 1, 0).dispatchEvent('click');
     await expect(page.locator('#q-1')).toContainText('✓ 答对');
   });
 });
