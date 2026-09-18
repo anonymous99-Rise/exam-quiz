@@ -16,6 +16,8 @@
  * 「这个页面抓不到正文，去官网看」，这比给一段导航栏文字当正文有用得多。
  */
 
+import { decodeEntities } from './parse';
+
 /** 段落块：正文段落 + 小标题（小标题由长度与标点启发式判断） */
 export type Block = { kind: 'p' | 'h'; text: string };
 
@@ -107,24 +109,13 @@ export function looksBlocked(html: string): boolean {
   return CHALLENGE.some((re) => re.test(html));
 }
 
-/** HTML 片段 → 纯文本（复用 parse.ts 的同名思路，但这里要保留段落边界） */
+/** HTML 片段 → 纯文本（保留段落边界）；实体解码复用订阅源的同一张表 */
 function textOf(html: string): string {
-  return html
-    .replace(/<br\s*\/?>/gi, ' ')
-    .replace(/<[^>]+>/g, '')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#0?39;|&apos;|&rsquo;|&#8217;/g, "'")
-    .replace(/&ldquo;|&rdquo;|&#8220;|&#8221;/g, '"')
-    .replace(/&mdash;|&#8212;/g, '—')
-    .replace(/&hellip;/g, '…')
-    .replace(/&#(\d+);/g, (_, n) => {
-      const code = Number(n);
-      return code > 0 && code < 0x10ffff ? String.fromCodePoint(code) : _;
-    })
+  return decodeEntities(
+    html
+      .replace(/<br\s*\/?>/gi, ' ')
+      .replace(/<[^>]+>/g, ''),
+  )
     .replace(/\s+/g, ' ')
     .trim();
 }
