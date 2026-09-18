@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 import { formatFeedDate } from '@/lib/feeds/format';
+import { shapeSelection, youdaoUrl, type SelectionKind } from '@/lib/feeds/selection';
 import { cn } from '@/lib/utils';
 import { useIsMobile } from '@/lib/use-media';
 
@@ -54,13 +55,29 @@ const SIZES = [
   { id: 'lg', label: '大', px: 19 },
 ] as const;
 
+/** 划词浮层状态 */
+type Pick = {
+  text: string;
+  kind: SelectionKind;
+  clipped: boolean;
+  x: number;
+  y: number;
+  below: boolean;
+  translation: string | null;
+  speak: string | null;
+  state: 'loading' | 'done' | 'failed';
+};
+
 export function ReadView({ sources, articles }: { sources: SourceMeta[]; articles: Article[] }) {
   const isMobile = useIsMobile();
   const [filter, setFilter] = useState<string>('all');
   const [picked, setPicked] = useState<string | null>(null);
   const [size, setSize] = useState<(typeof SIZES)[number]['id']>('md');
   const [copied, setCopied] = useState(false);
-  const [sel, setSel] = useState<{ word: string; x: number; y: number } | null>(null);
+  const [pick, setPick] = useState<Pick | null>(null);
+  const [pickCopied, setPickCopied] = useState(false);
+  /** 划词请求序号：只认最后一次的结果（连划两次时旧响应必须丢弃） */
+  const seq = useRef(0);
 
   const list = filter === 'all' ? articles : articles.filter((a) => a.sourceId === filter);
   // 桌面：没选就默认读第一篇；移动：没选就停在列表（否则一进来就撞进正文）
@@ -79,21 +96,64 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
     );
   };
 
-  /** 选中即查词：取选区中心位置浮出小条 */
-  const onSelectWord = () => {
+  /**
+   * 沉浸式划词翻译
+   * ============================================================================
+   * 划**单词**给词典释义，划**短语/整句/整段**给整句译文 —— 两者都在原地出结果，
+   * 不用切出去查。选区长度不再设上限（只截到 400 字），因为「划一整句看翻译」
+   * 才是阅读时的真实动作。
+   *
+   * 三条实现纪律：
+   *   1. **只认最后一次结果**：连划两次时先回来的响应可能属于上一次选区，
+   *      用自增序号丢弃过期结果（否则会出现「划了新句子、显示上一句译文」）；
+   *   2. 浮层位置夹在视口内，且选区太靠上时翻到下方 —— 否则浮层被顶出屏幕；
+   *   3. 翻译失败也保留「有道 ↗」跳转，不让用户走进死胡同。
+   */
+  const onSelect = () => {
     const s = window.getSelection();
-    const raw = s?.toString().trim() ?? '';
-    if (!raw || raw.length > 40 || !s || s.rangeCount === 0) {
-      setSel(null);
-      return;
-    }
-    const word = raw.replace(/^[^A-Za-z]+|[^A-Za-z'’-]+$/g, '');
-    if (!word || /\s{2,}/.test(word)) {
-      setSel(null);
+    const shape = shapeSelection(s?.toString() ?? '');
+    if (!shape || !s || s.rangeCount === 0) {
+      setPick(null);
       return;
     }
     const rect = s.getRangeAt(0).getBoundingClientRect();
-    setSel({ word, x: rect.left + rect.width / 2, y: rect.top });
+    // 浮层宽约 360，半宽 180；左右各留 180 的夹取量，保证不会被推出视口
+    const x = Math.min(Math.max(rect.left + rect.width / 2, 180), Math.max(180, window.innerWidth - 180));
+    const below = rect.top < 300;
+    const id = ++seq.current;
+    setPickCopied(false);
+    setPick({
+      text: shape.text,
+      kind: shape.kind,
+      clipped: shape.clipped,
+      x,
+      y: below ? rect.bottom + 10 : rect.top - 10,
+      below,
+      translation: null,
+      speak: null,
+      state: 'loading',
+    });
+
+    void (async () => {
+      try {
+        const res = await fetch(`/api/translate?text=${encodeURIComponent(shape.text)}`);
+        const j = (await res.json()) as { ok: boolean; translation?: string; speak?: string | null };
+        if (seq.current !== id) return; // 已经划了新选区，丢弃这次结果
+        setPick((prev) =>
+          prev && prev.text === shape.text
+            ? {
+                ...prev,
+                translation: j.ok ? (j.translation ?? null) : null,
+                speak: j.ok ? (j.speak ?? null) : null,
+                state: j.ok ? 'done' : 'failed',
+              }
+            : prev,
+        );
+      } catch {
+        if (seq.current !== id) return;
+        setPick((prev) => (prev ? { ...prev, state: 'failed' } : prev));
+      }
+    })();
   };
 
   return (
@@ -175,6 +235,9 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
               <span className="display tabular-nums text-faint">
                 约 {active.words} 字 · 阅读 {active.minutes} 分钟
               </span>
+              <span className="hidden text-faint sm:inline">
+                · 选中单词或整段，就地出释义 / 译文
+              </span>
             </div>
 
             {/* 文章标题用 h2：页面已经有一个 h1（模块名），一页只能有一个 h1 */}
@@ -211,8 +274,8 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
 
           {/* 正文：68ch 栏宽 + 可调字号；选中即查词 */}
           <div
-            onMouseUp={onSelectWord}
-            onTouchEnd={onSelectWord}
+            onMouseUp={onSelect}
+            onTouchEnd={onSelect}
             style={{ fontSize: `${px}px` }}
             className="mt-7 max-w-[68ch] leading-[1.85] text-ink-soft"
           >
@@ -247,41 +310,85 @@ export function ReadView({ sources, articles }: { sources: SourceMeta[]; article
         </article>
       )}
 
-      {/* 选中浮层：只用固定定位的小条，不弹窗、不遮挡正文 */}
-      {sel && (
+      {/*
+        划词浮层：单词看释义、短语/整句就地出译文 —— 不弹窗、不遮挡正文。
+        用固定定位的卡片（不是小条）：译文本身需要两三行位置。
+      */}
+      {pick && (
         <div
-          className="fixed z-40 flex -translate-x-1/2 -translate-y-full items-center gap-1 rounded-full border border-line-strong bg-surface px-1.5 py-1 shadow-none"
-          style={{ left: sel.x, top: Math.max(48, sel.y - 8) }}
-          role="tooltip"
+          role="dialog"
+          aria-label="划词翻译"
+          className="fixed z-40 w-[min(360px,calc(100vw-24px))] rounded-[6px] border border-line-strong bg-surface px-3.5 py-3"
+          style={{
+            left: pick.x,
+            top: Math.max(12, pick.y),
+            transform: pick.below ? 'translate(-50%, 0)' : 'translate(-50%, -100%)',
+          }}
         >
-          <a
-            className="rounded-full px-3 py-1.5 text-[12.5px] font-semibold text-brand-ink hover:bg-brand-soft"
-            href={`https://dict.youdao.com/result?word=${encodeURIComponent(sel.word)}&lang=en`}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            {sel.word} 释义 ↗
-          </a>
-          <button
-            type="button"
-            className="rounded-full px-3 py-1.5 text-[12.5px] text-muted hover:bg-surface-sunken"
-            onClick={() => {
-              void navigator.clipboard?.writeText(sel.word);
-              setSel(null);
-            }}
-          >
-            复制
-          </button>
-          <button
-            type="button"
-            aria-label="关闭"
-            className="grid size-7 place-items-center rounded-full text-faint hover:bg-surface-sunken"
-            onClick={() => setSel(null)}
-          >
-            <svg viewBox="0 0 16 16" aria-hidden className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-              <path d="M4 4l8 8M12 4l-8 8" />
-            </svg>
-          </button>
+          <p className="t-micro line-clamp-2 text-faint">
+            {pick.text}
+            {pick.clipped && ' …'}
+          </p>
+
+          <p className="mt-1.5 min-h-[22px] text-[14.5px] leading-6 text-ink">
+            {pick.state === 'loading' ? (
+              <span className="text-muted">翻译中…</span>
+            ) : pick.translation ? (
+              pick.translation
+            ) : (
+              <span className="text-muted">没取到译文，可以去有道看 ↗</span>
+            )}
+          </p>
+
+          <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
+            <a
+              className="pill-btn min-h-[32px] px-3 text-[12.5px]"
+              href={youdaoUrl(pick.text)}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {pick.kind === 'word' ? '词典释义' : '有道翻译'} ↗
+            </a>
+            {pick.speak && (
+              <button
+                type="button"
+                aria-label="朗读译文"
+                className="pill-btn min-h-[32px] px-3 text-[12.5px]"
+                onClick={() => {
+                  void new Audio(pick.speak ?? '').play().catch(() => {});
+                }}
+              >
+                <svg viewBox="0 0 16 16" aria-hidden className="size-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 6.2h2.2L8 3.6v8.8L5.2 9.8H3z" />
+                  <path d="M10.4 5.9a3 3 0 0 1 0 4.2" />
+                </svg>
+                朗读
+              </button>
+            )}
+            <button
+              type="button"
+              className="pill-btn min-h-[32px] px-3 text-[12.5px]"
+              onClick={() => {
+                void navigator.clipboard?.writeText(
+                  pick.translation ? `${pick.text}\n${pick.translation}` : pick.text,
+                );
+                setPickCopied(true);
+                window.setTimeout(() => setPickCopied(false), 1500);
+              }}
+            >
+              {pickCopied ? '已复制' : '复制'}
+            </button>
+            <button
+              type="button"
+              aria-label="关闭"
+              className="ml-auto grid size-7 place-items-center rounded-full text-faint hover:bg-surface-sunken"
+              onClick={() => setPick(null)}
+            >
+              <svg viewBox="0 0 16 16" aria-hidden className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                <path d="M4 4l8 8M12 4l-8 8" />
+              </svg>
+            </button>
+          </div>
         </div>
       )}
     </div>

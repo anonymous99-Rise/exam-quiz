@@ -114,6 +114,51 @@ test.describe('阅读 · 订阅', () => {
     expect(nature).toBeLessThan(all);
   });
 
+  test('划词翻译：选单词与选整段都能就地出译文', async ({ page }) => {
+    await page.route(/\/api\/translate/, (route) =>
+      route.fulfill({
+        json: { ok: true, text: 'x', translation: '就地译文 MOCK', speak: null, via: 'youdao' },
+      }),
+    );
+    await ready(page, '/read', /阅读 · 订阅/);
+
+    const body = page.locator('article div[style*="font-size"]').first();
+    test.skip((await body.count()) === 0, '构建时没取到文章（网络受限），跳过划词断言');
+
+    /** 在正文第一个段落里选前 n 个字符，并派发 mouseup 触发划词 */
+    const selectChars = async (n: number) => {
+      await page.evaluate((count) => {
+        const el = document.querySelector('article div[style*="font-size"] p');
+        const node = el?.firstChild;
+        if (!el || !node) return;
+        const len = Math.min(count, node.textContent?.length ?? 0);
+        const range = document.createRange();
+        range.setStart(node, 0);
+        range.setEnd(node, len);
+        const sel = window.getSelection();
+        sel?.removeAllRanges();
+        sel?.addRange(range);
+      }, n);
+      await body.dispatchEvent('mouseup');
+    };
+
+    // ① 选一个单词 → 浮层给出释义入口 + 就地译文
+    await selectChars(9);
+    const dialog = page.getByRole('dialog', { name: '划词翻译' });
+    await expect(dialog).toBeVisible();
+    await expect(dialog).toContainText('就地译文 MOCK');
+    await expect(dialog.getByRole('link', { name: /词典释义|有道翻译/ })).toBeVisible();
+
+    // ② 选一整段（远超原来的 40 字上限）→ 仍然是同一个浮层，出整句译文
+    await selectChars(200);
+    await expect(dialog).toBeVisible();
+    await expect(dialog).toContainText('就地译文 MOCK');
+
+    // ③ 关掉后浮层消失（不残留遮挡正文）
+    await dialog.getByRole('button', { name: '关闭' }).click();
+    await expect(page.getByRole('dialog', { name: '划词翻译' })).toHaveCount(0);
+  });
+
   test('移动端：列表 → 正文 → 返回列表', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await ready(page, '/read', /阅读 · 订阅/);
