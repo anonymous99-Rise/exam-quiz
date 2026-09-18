@@ -6,6 +6,7 @@ import { HomeProgress, OverallStats } from '@/components/progress/progress-bits'
 import { HomeContinue } from '@/components/progress/home-continue';
 import { getExamSummaries } from '@/lib/bank/registry';
 import { fetchSentence } from '@/lib/daily/api';
+import { ARTICLE_SOURCES, PODCAST_SOURCES } from '@/lib/feeds/sources';
 import { cn } from '@/lib/utils';
 
 /**
@@ -165,6 +166,39 @@ export default async function Home() {
             content/。
           </div>
         )}
+      </section>
+
+      {/* ── 课外听读：真题之外的真实语料（静态链接，首页不去拉十个订阅源）── */}
+      <section className="mt-16">
+        <h2 className="t-eyebrow section-rule">课外听读</h2>
+        <div className="grid gap-x-12 sm:grid-cols-2">
+          {[
+            {
+              href: '/listen',
+              label: '听力 · 播客',
+              desc: 'VOA 慢速 / 6 Minute English / Discovery / TED，可变速与 15 秒回退',
+              meta: `${PODCAST_SOURCES.length} 个节目`,
+            },
+            {
+              href: '/read',
+              label: '阅读 · 订阅',
+              desc: 'China Daily / BBC / ScienceDaily / Science / Nature，行宽 68 字符、选中即查词',
+              meta: `${ARTICLE_SOURCES.length} 个来源`,
+            },
+          ].map((x) => (
+            <Link
+              key={x.href}
+              href={x.href}
+              className="group flex items-start justify-between gap-6 border-b border-line py-5 transition-colors hover:bg-surface"
+            >
+              <span className="min-w-0">
+                <span className="t-h3 block text-ink group-hover:text-brand-ink">{x.label}</span>
+                <span className="mt-1.5 block text-[13.5px] leading-6 text-muted">{x.desc}</span>
+              </span>
+              <span className="shrink-0 pt-1 text-[12.5px] text-faint">{x.meta} →</span>
+            </Link>
+          ))}
+        </div>
       </section>
 
       {/* ── 每日一句（上游取不到时整条不渲染，不留空盒子）───────────────── */}
